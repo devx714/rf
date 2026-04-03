@@ -1,0 +1,89 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1749134670432,
+	"deleted":true,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1749136346116,
+		"deployedBy":311,
+		"deployedDefinitionId":"6841b3d99e087f15cba9d531",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":3
+	},
+	"edges":[
+		{
+			"fromNodeId":"YS5GS",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"UW9Fy",
+			"type":"next"
+		}
+	],
+	"id":"6841ad4e9e087f15cba9b6fe",
+	"lastModifiedBy":39713,
+	"lcName":"aryam",
+	"modifiedTime":1749143088568,
+	"name":"aryam",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":743,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"OjeV2-1",
+			"id":"YS5GS",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":805,
+				"resourceName":"variable_by_unifyapps_create_variables",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"OjeV2-1",
+			"id":"UW9Fy",
+			"index":0,
+			"skip":false,
+			"subTitle":"Variable by UnifyApps",
+			"title":"Create variables",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":39713,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":4
+}
