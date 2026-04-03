@@ -1,0 +1,67 @@
+{
+	"appsUsed":[
+		"missive"
+	],
+	"createdTime":1739168937594,
+	"deleted":true,
+	"edges":[
+		{
+			"fromNodeId":"wfEGu",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"SpyKt",
+			"type":"next"
+		}
+	],
+	"id":"67a99ca92411174876f82ad8",
+	"lastModifiedBy":44108,
+	"lcName":"test",
+	"modifiedTime":1739170889952,
+	"name":"test",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"wfEGu-1",
+			"id":"wfEGu",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"missive",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"wfEGu-1",
+			"id":"SpyKt",
+			"index":0,
+			"skip":false,
+			"subTitle":"Missive",
+			"title":"Select an action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":44108,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
