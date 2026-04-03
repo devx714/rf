@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		"salesforce"
+	],
+	"createdTime":1727877351366,
+	"deleted":false,
+	"deployedVersion":5,
+	"deploymentState":{
+		"deployedAt":1727881136048,
+		"deployedBy":520,
+		"deployedDefinitionId":"66fd5fafa7781956c9a367dc",
+		"status":"PAUSED",
+		"version":5,
+		"workflowVersion":7
+	},
+	"edges":[
+		
+	],
+	"id":"66fd50e70cd1454bd4c94309",
+	"lastModifiedBy":35,
+	"lcName":"test",
+	"modifiedTime":1729959936222,
+	"name":"test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"salesforce",
+				"resourceVersion":2777,
+				"connectionId":"66fd515ad69753659683e0b0",
+				"resourceName":"salesforce_on_platform_event"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"TjGQQ-1",
+			"id":"zD0NO",
+			"index":0,
+			"inputs":{
+				"organizationId":"00DF9000001FCxgMAG",
+				"objectSourceResourceName":"salesforce_fetch_object",
+				"objectId":"test_platform_event_01__e"
+			},
+			"skip":false,
+			"subTitle":"Salesforce",
+			"title":"On new platform event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":7
+}
