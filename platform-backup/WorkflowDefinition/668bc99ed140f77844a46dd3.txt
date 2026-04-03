@@ -1,0 +1,47 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1720437150324,
+	"deleted":false,
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"668bc99ed140f77844a46dd3",
+	"lastModifiedBy":-1,
+	"lcName":"untitled",
+	"modifiedTime":1721679576763,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"FeGxW-1",
+			"id":"FeGxW",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":1
+}
