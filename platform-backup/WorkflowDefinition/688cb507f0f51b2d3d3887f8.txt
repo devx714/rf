@@ -1,0 +1,77 @@
+{
+	"appsUsed":[
+		"shopify"
+	],
+	"createdTime":1754051847099,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_TqctR",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_jDwCs",
+			"type":"next"
+		}
+	],
+	"id":"688cb507f0f51b2d3d3887f8",
+	"lastModifiedBy":679,
+	"lcName":"dws",
+	"modifiedTime":1754054485122,
+	"name":"dws",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_TqctR-1",
+			"id":"_TqctR",
+			"index":1,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"shopify",
+				"resourceVersion":2376,
+				"connectionId":"6880a77656b7a891e2582860",
+				"resourceName":"shopify_add_metafields_object",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_TqctR-1",
+			"id":"n_jDwCs",
+			"index":2,
+			"inputs":{
+				"selectResourceName":"products"
+			},
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Add metafields to objects",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":45010,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
