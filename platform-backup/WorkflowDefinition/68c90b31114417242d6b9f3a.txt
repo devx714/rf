@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1758006065709,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_PotgN",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_QfZMg",
+			"type":"next"
+		}
+	],
+	"id":"68c90b31114417242d6b9f3a",
+	"lastModifiedBy":426,
+	"lcName":"dndcheck",
+	"modifiedTime":1758006065709,
+	"name":"dndcheck",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_PotgN-1",
+			"id":"_PotgN",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_PotgN-1",
+			"id":"_QfZMg",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":426,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":0
+}
