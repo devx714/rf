@@ -1,0 +1,59 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1729139862448,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_oJv4z",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_0Dl7o",
+			"type":"next"
+		}
+	],
+	"id":"67109496c1c39a1dea277ccf",
+	"lastModifiedBy":520,
+	"lcName":"dwef",
+	"modifiedTime":1729139862448,
+	"name":"dwef",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_oJv4z-1",
+			"id":"_oJv4z",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_oJv4z-1",
+			"id":"_0Dl7o",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":0
+}
