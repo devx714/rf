@@ -1,0 +1,83 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1721813380903,
+	"deleted":false,
+	"description":"",
+	"edges":[
+		{
+			"fromNodeId":"5V6AT",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"0DfoD",
+			"type":"next"
+		}
+	],
+	"id":"66a0c9840d68db0b4c80e15c",
+	"lastModifiedBy":520,
+	"lcName":"cfgvh",
+	"modifiedTime":1721813673842,
+	"name":"CFGVH",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":53,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"5V6AT-1",
+			"id":"5V6AT",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"title":"Http Webhook",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"standard_entities",
+				"resourceVersion":0,
+				"resourceName":"standard_entities_update_user_state",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"5V6AT-1",
+			"id":"0DfoD",
+			"index":0,
+			"inputs":{
+				"updateBy":"USER_ID",
+				"state":"DELETED",
+				"userId":"3480",
+				"username":"testdeleteuser"
+			},
+			"skip":false,
+			"subTitle":"Standard entities by UnifyApps",
+			"title":"Update User State",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
