@@ -1,0 +1,48 @@
+{
+	"appsUsed":[
+		"gmail"
+	],
+	"createdTime":1720085981062,
+	"deleted":false,
+	"description":"maptoproject",
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"66866ddd27d8ba447bf8b217",
+	"lastModifiedBy":-1,
+	"lcName":"maptoproject",
+	"modifiedTime":1721679598442,
+	"name":"maptoproject",
+	"nodes":[
+		{
+			"context":{
+				"appName":"gmail"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"tuEfw-1",
+			"id":"tuEfw",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":3
+}
