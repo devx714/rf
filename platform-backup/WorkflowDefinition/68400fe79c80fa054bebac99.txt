@@ -1,0 +1,73 @@
+{
+	"appsUsed":[
+		"strava"
+	],
+	"createdTime":1749028839855,
+	"deleted":true,
+	"edges":[
+		{
+			"fromNodeId":"3BUYr",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"pR0JC",
+			"type":"next"
+		}
+	],
+	"id":"68400fe79c80fa054bebac99",
+	"lastModifiedBy":522,
+	"lcName":"yukta's space",
+	"modifiedTime":1749029363534,
+	"name":"yukta's space",
+	"nodes":[
+		{
+			"context":{
+				"appName":"strava",
+				"resourceVersion":1575,
+				"connectionId":"67b6bc9e42543b4af8043dc7",
+				"resourceName":"strava_on_create_activity_polling"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"bczRS-1",
+			"id":"3BUYr",
+			"index":0,
+			"inputs":{
+				"interval":10,
+				"batchSize":100
+			},
+			"skip":false,
+			"subTitle":"Strava",
+			"title":"New Activity",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"bczRS-1",
+			"id":"pR0JC",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":522,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
