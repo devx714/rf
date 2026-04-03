@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1758538655334,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_JERUV",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_9A3b7",
+			"type":"next"
+		}
+	],
+	"id":"68d12b9ff36cd045615f760d",
+	"lastModifiedBy":175401,
+	"lcName":"servicenow_test",
+	"modifiedTime":1758538655334,
+	"name":"servicenow_test",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_JERUV-1",
+			"id":"_JERUV",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_JERUV-1",
+			"id":"_9A3b7",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":175401,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":0
+}
