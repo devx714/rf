@@ -4,9 +4,25 @@
 	],
 	"createdTime":1775247738209,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775248020261,
+		"deployedBy":308,
+		"deployedDefinitionId":"69d0229424b1f1725e47d225",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":2
+	},
 	"edges":[
 		{
 			"fromNodeId":"n_0VgpI",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_81oZb",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_81oZb",
 			"priority":0,
 			"skip":false,
 			"toNodeId":"n_KUp7M",
@@ -23,7 +39,7 @@
 	"id":"69d0217ae95b7f4e93c0a175",
 	"lastModifiedBy":308,
 	"lcName":"imagemimetype_sans_dnt",
-	"modifiedTime":1775247851863,
+	"modifiedTime":1775251476488,
 	"name":"ImageMimeType_Sans_DNT",
 	"nodes":[
 		{
@@ -33,7 +49,7 @@
 				"resourceName":"callables_from_automation"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_0nAPn-1",
 			"id":"n_0VgpI",
@@ -68,6 +84,28 @@
 		{
 			"context":{
 				"appName":"utility_by_unifyapps",
+				"resourceVersion":3767,
+				"resourceName":"utility_by_unifyapps_convert_to_pdf",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_0nAPn-1",
+			"id":"n_81oZb",
+			"index":2,
+			"inputs":{
+				"fileDetails":"{{ n_0VgpI.outputs.file }}",
+				"fileType":"IMAGE"
+			},
+			"skip":false,
+			"subTitle":"Utility by UnifyApps",
+			"title":"Convert to PDF",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"utility_by_unifyapps",
 				"resourceVersion":3061,
 				"resourceName":"utility_by_unifyapps_convert_file_mime_type",
 				"type":"APPLICATION"
@@ -77,10 +115,10 @@
 			"fallbackMode":"STOP",
 			"groupId":"_0nAPn-1",
 			"id":"n_KUp7M",
-			"index":2,
+			"index":3,
 			"inputs":{
-				"file":"{{ n_0VgpI.outputs.file }}",
-				"sourceMimeType":"image/jpeg",
+				"file":"{{ n_81oZb.outputs.file }}",
+				"sourceMimeType":"application/pdf",
 				"targetMimeType":"image/png"
 			},
 			"skip":false,
@@ -96,11 +134,11 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_0nAPn-1",
 			"id":"n_xIefc",
-			"index":3,
+			"index":4,
 			"inputs":{
 				"result":"{{ n_KUp7M.outputs.file }}"
 			},
@@ -124,5 +162,5 @@
 		}
 	},
 	"standard":false,
-	"version":2
+	"version":3
 }
