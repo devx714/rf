@@ -1,0 +1,104 @@
+{
+	"appsUsed":[
+		"jira"
+	],
+	"createdTime":1761291331147,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"n_2ujAj",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_M82Zu",
+			"type":"next"
+		}
+	],
+	"id":"68fb2c43efa5e92eae864b8e",
+	"lastModifiedBy":33,
+	"lcName":"test auth",
+	"modifiedTime":1761391500217,
+	"name":"test auth",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":833,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_XOEk9-1",
+			"id":"n_2ujAj",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"jira",
+				"resourceVersion":6437,
+				"connectionId":"6826d25f5c9dbb24ce1ef6ca",
+				"resourceName":"jira_update_comment",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_XOEk9-1",
+			"id":"n_M82Zu",
+			"index":2,
+			"inputs":{
+				"issueIdOrKey":"KAN-1",
+				"bodyV3":{
+					"content":[
+						{
+							"content":[
+								{
+									"text":"hello  test",
+									"type":"text"
+								}
+							],
+							"type":"paragraph"
+						}
+					],
+					"type":"doc",
+					"version":1
+				},
+				"id":"12555"
+			},
+			"skip":false,
+			"subTitle":"Jira",
+			"title":"Update comment",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":33,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
