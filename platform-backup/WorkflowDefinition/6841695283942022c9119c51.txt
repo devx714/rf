@@ -1,0 +1,86 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1749117266815,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"irUcD",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"lQ0kX",
+			"type":"next"
+		}
+	],
+	"id":"6841695283942022c9119c51",
+	"lastModifiedBy":517,
+	"lcName":"test",
+	"modifiedTime":1749120849547,
+	"name":"test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":705,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"cXkSa-1",
+			"id":"irUcD",
+			"index":0,
+			"inputs":{
+				"cron":"INTERVAL",
+				"interval":15,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"streams_by_unifyapps",
+				"resourceVersion":1424,
+				"resourceName":"streams_by_unifyapps_publish_event",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"cXkSa-1",
+			"id":"lQ0kX",
+			"index":0,
+			"inputs":{
+				"streamId":"e_683d4fc2a0cb4229d1bf2e6a",
+				"event":{
+					"rfytgyhujik":"{{ irUcD.outputs.scheduleTime }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Streams by UnifyApps",
+			"title":"Publish event to stream",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":679,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
