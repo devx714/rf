@@ -1,0 +1,84 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1741444846962,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"Clrrf",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"5BwUm",
+			"type":"next"
+		}
+	],
+	"id":"67cc56ee47eaf7139db983ce",
+	"lastModifiedBy":517,
+	"lcName":"dsxfcgvbh",
+	"modifiedTime":1741597250673,
+	"name":"dsxfcgvbh",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":334,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"70auH-1",
+			"id":"Clrrf",
+			"index":0,
+			"inputs":{
+				"cron":"INTERVAL",
+				"interval":15,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"on_prem_files_by_unifyapps",
+				"resourceVersion":3,
+				"connectionId":"67cc25224e9c9b1ba012ef30",
+				"resourceName":"on_prem_files_by_unifyapps_delete_file",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"70auH-1",
+			"id":"5BwUm",
+			"index":0,
+			"inputs":{
+				"localFilePath":"/Users/dakshveer/Downloads/Dakshveer_Oct.pdf"
+			},
+			"skip":false,
+			"subTitle":"On Prem Files by UnifyApps",
+			"title":"Delete File",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":517,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":21
+}
