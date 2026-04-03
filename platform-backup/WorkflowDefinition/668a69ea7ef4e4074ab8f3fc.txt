@@ -1,0 +1,184 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1720347114553,
+	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1720347378620,
+		"deployedBy":524,
+		"deployedDefinitionId":"668a6af27ef4e4074ab8f424",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":2
+	},
+	"description":"",
+	"edges":[
+		{
+			"fromNodeId":"8qx2F",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"vAz55",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"vAz55",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"7uLeL",
+			"type":"next"
+		}
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"668a69ea7ef4e4074ab8f3fc",
+	"lastModifiedBy":-1,
+	"lcName":"policy bazaar - fetch task database api",
+	"modifiedTime":1721679555674,
+	"name":"Policy Bazaar - Fetch Task database API",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":62,
+				"resourceName":"callables_from_api"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"8qx2F-1",
+			"id":"8qx2F",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				},
+				"response":[
+					{
+						"status":200,
+						"contentType":"application/json",
+						"name":"Success",
+						"body":{
+							"type":"object",
+							"properties":{
+								"tasks":{
+									"type":"array",
+									"items":{
+										"type":"object",
+										"properties":{
+											"taskId":{
+												"type":"number",
+												"title":"Task Id"
+											},
+											"tasktypeId":{
+												"type":"number",
+												"title":"Tasktype Id"
+											},
+											"partnerId":{
+												"type":"number",
+												"title":"Partner Id"
+											},
+											"currentlyAssignedTo":{
+												"type":"number",
+												"title":"Currently Assigned To"
+											},
+											"status":{
+												"type":"string",
+												"title":"Status"
+											}
+										},
+										"additionalProperties":false
+									},
+									"title":"Tasks",
+									"required":[]
+								}
+							},
+							"additionalProperties":false,
+							"required":[]
+						}
+					}
+				]
+			},
+			"skip":false,
+			"title":"Call Automation via API",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":210,
+				"resourceName":"storage_by_unifyapps_fetch_records",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"8qx2F-1",
+			"id":"vAz55",
+			"index":0,
+			"inputs":{
+				"object_type":"svrm_tasks",
+				"page":{
+					"limit":20,
+					"offset":0
+				},
+				"numberOfRecordsToFetch":"MULTIPLE",
+				"includeTotalCount":false
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Fetch records",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":39,
+				"resourceName":"callables_return_response_to_api",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"8qx2F-1",
+			"id":"7uLeL",
+			"index":0,
+			"inputs":{
+				"responseName":"Success",
+				"body":{
+					"tasks":{
+						"source":"{{ vAz55.outputs.objects }}",
+						"ua:type":"mappedArray",
+						"items":{
+							"taskId":"{{ vAz55.outputs.objects[0].properties.taskId }}",
+							"tasktypeId":"{{ vAz55.outputs.objects[0].properties.tasktypeId }}",
+							"partnerId":"{{ vAz55.outputs.objects[0].properties.partnerId }}",
+							"currentlyAssignedTo":"{{ vAz55.outputs.objects[0].properties.currentlyAssignedTo }}",
+							"status":"{{ vAz55.outputs.objects[0].properties.status }}"
+						}
+					}
+				},
+				"status":200
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to API request",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":524,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":4
+}
