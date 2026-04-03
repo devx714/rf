@@ -1,0 +1,97 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1758800277136,
+	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1758800293420,
+		"deployedBy":20249,
+		"deployedDefinitionId":"68d529a316f1300557ab9c62",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
+	"edges":[
+		{
+			"fromNodeId":"n_XxC6D",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_frTN7",
+			"type":"next"
+		}
+	],
+	"id":"68d5299516f1300557ab9bda",
+	"lastModifiedBy":20249,
+	"lcName":"webhook cancel",
+	"modifiedTime":1758800293421,
+	"name":"Webhook Cancel",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":816,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_CJnho-1",
+			"id":"n_XxC6D",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"delay",
+				"resourceVersion":791,
+				"resourceName":"delay_for",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_CJnho-1",
+			"id":"n_frTN7",
+			"index":2,
+			"inputs":{
+				"duration":1,
+				"unit":"MINUTES"
+			},
+			"skip":false,
+			"subTitle":"Delay",
+			"title":"Set delay duration",
+			"type":"DELAY"
+		}
+	],
+	"ownerUserId":20249,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
