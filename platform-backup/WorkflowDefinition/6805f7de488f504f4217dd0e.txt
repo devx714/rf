@@ -1,0 +1,148 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1745221598553,
+	"deleted":true,
+	"edges":[
+		{
+			"fromNodeId":"BgyKT",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"WW39O",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"WW39O",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"9IUeh",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"9IUeh",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"SIYLs",
+			"type":"next"
+		}
+	],
+	"id":"6805f7de488f504f4217dd0e",
+	"lastModifiedBy":45775,
+	"lcName":"test",
+	"modifiedTime":1745835690823,
+	"name":"test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":552,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"mm8ZB-1",
+			"id":"BgyKT",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"utility_by_unifyapps",
+				"resourceVersion":500,
+				"resourceName":"utility_by_unifyapps_to_json_string",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"mm8ZB-1",
+			"id":"WW39O",
+			"index":0,
+			"inputs":{
+				"object":"{\"re1\":\"Error occured while indexing website\"}"
+			},
+			"skip":false,
+			"subTitle":"Utility by UnifyApps",
+			"title":"Serialise object to JSON string",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"utility_by_unifyapps",
+				"resourceVersion":499,
+				"resourceName":"utility_by_unifyapps_to_json_object",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"mm8ZB-1",
+			"id":"9IUeh",
+			"index":0,
+			"inputs":{
+				"jsonSchema":{
+					"type":"object",
+					"properties":{
+						"re1":{
+							"type":"string",
+							"title":"Re 1"
+						},
+						"re2":{
+							"type":"string",
+							"title":"Re 2"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"jsonString":"{re1:\"Error occured while indexing website\"}"
+			},
+			"skip":false,
+			"subTitle":"Utility by UnifyApps",
+			"title":"Deserialise string to JSON object",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"stop"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"mm8ZB-1",
+			"id":"SIYLs",
+			"index":0,
+			"skip":false,
+			"subTitle":"Stop",
+			"title":"Stop",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":15,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":4
+}
