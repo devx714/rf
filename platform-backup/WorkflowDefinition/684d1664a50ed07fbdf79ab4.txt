@@ -1,0 +1,73 @@
+{
+	"appsUsed":[
+		"redshift"
+	],
+	"createdTime":1749882468619,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_PMm3C",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_1w3l5",
+			"type":"next"
+		}
+	],
+	"id":"684d1664a50ed07fbdf79ab4",
+	"lastModifiedBy":145851,
+	"lcName":"redshift-dest-check",
+	"modifiedTime":1749882512705,
+	"name":"redshift-dest-check",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_PMm3C-1",
+			"id":"_PMm3C",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"redshift",
+				"resourceVersion":2046,
+				"connectionId":"67fe9c0bab437875b8911c0d",
+				"resourceName":"redshift_select_rows",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_PMm3C-1",
+			"id":"n_1w3l5",
+			"index":0,
+			"inputs":{
+				"objectSourceResourceName":"redshift_fetch_columns_information"
+			},
+			"skip":false,
+			"subTitle":"Redshift",
+			"title":"Select rows",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":145851,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
