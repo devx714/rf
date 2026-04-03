@@ -1,0 +1,62 @@
+{
+	"appsUsed":[
+		"github"
+	],
+	"createdTime":1731071328258,
+	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1731071358843,
+		"deployedBy":520,
+		"deployedDefinitionId":"672e0d7ea1e40e1477034885",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
+	"edges":[
+		
+	],
+	"id":"672e0d60a1e40e147703487b",
+	"lastModifiedBy":520,
+	"lcName":"git-test",
+	"modifiedTime":1731071358844,
+	"name":"git-test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"github",
+				"resourceVersion":2714,
+				"connectionId":"672853b321446a2ac8d12d50",
+				"resourceName":"github_on_new_or_updated_pr"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_2k5ME-1",
+			"id":"_VvWpm",
+			"index":0,
+			"inputs":{
+				"owner":"devx714",
+				"repo":"devx-testing"
+			},
+			"skip":false,
+			"subTitle":"Github",
+			"title":"On new or updated pr",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
