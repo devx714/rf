@@ -1,0 +1,55 @@
+{
+	"appsUsed":[
+		"airtable"
+	],
+	"createdTime":1720611832591,
+	"deleted":false,
+	"description":"",
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"668e73f8f0d9c617743a7adf",
+	"lastModifiedBy":-1,
+	"lcName":"automation",
+	"modifiedTime":1721679628804,
+	"name":"automation",
+	"nodes":[
+		{
+			"context":{
+				"appName":"airtable",
+				"resourceVersion":368,
+				"connectionId":"6686719c9645a20583155407",
+				"resourceName":"airtable_on_new_record"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"UGI8W-1",
+			"id":"UGI8W",
+			"index":0,
+			"inputs":{
+				"table":"",
+				"base":""
+			},
+			"skip":false,
+			"title":"New record",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":3
+}
