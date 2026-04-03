@@ -1,0 +1,62 @@
+{
+	"appsUsed":[
+		"bulksms"
+	],
+	"createdTime":1741423643012,
+	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1741423973391,
+		"deployedBy":39714,
+		"deployedDefinitionId":"67cc05632079887d6291577c",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
+	"edges":[
+		
+	],
+	"id":"67cc041b2079887d62914da2",
+	"lastModifiedBy":39714,
+	"lcName":"demo1111111",
+	"modifiedTime":1741423973412,
+	"name":"demo1111111",
+	"nodes":[
+		{
+			"context":{
+				"appName":"bulksms",
+				"resourceVersion":40,
+				"connectionId":"67ca9fbae6e8d22ca934bd1d",
+				"resourceName":"bulksms_on_sent"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"0EUlQ-1",
+			"id":"eP6Dv",
+			"index":0,
+			"inputs":{},
+			"skip":false,
+			"subTitle":"BulkSMS",
+			"title":"On Sent",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":39714,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
