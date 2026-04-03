@@ -23,7 +23,7 @@
 	"id":"69d0217ae95b7f4e93c0a175",
 	"lastModifiedBy":308,
 	"lcName":"imagemimetype_sans_dnt",
-	"modifiedTime":1775247842007,
+	"modifiedTime":1775247851863,
 	"name":"ImageMimeType_Sans_DNT",
 	"nodes":[
 		{
@@ -101,7 +101,9 @@
 			"groupId":"_0nAPn-1",
 			"id":"n_xIefc",
 			"index":3,
-			"inputs":{},
+			"inputs":{
+				"result":"{{ n_KUp7M.outputs.file }}"
+			},
 			"skip":false,
 			"subTitle":"Callable",
 			"title":"Respond to automation",
@@ -122,5 +124,5 @@
 		}
 	},
 	"standard":false,
-	"version":1
+	"version":2
 }
