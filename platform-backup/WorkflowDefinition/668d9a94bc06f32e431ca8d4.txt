@@ -1,0 +1,61 @@
+{
+	"appsUsed":[
+		"microsoft_entra_id"
+	],
+	"createdTime":1720556180474,
+	"deleted":false,
+	"deployedVersion":2,
+	"deploymentState":{
+		"deployedAt":1720560425548,
+		"deployedBy":287,
+		"deployedDefinitionId":"668dab22bc06f32e431cab19",
+		"status":"DEPLOYED",
+		"version":2,
+		"workflowVersion":2
+	},
+	"description":"",
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"668d9a94bc06f32e431ca8d4",
+	"lastModifiedBy":-1,
+	"lcName":"test_entra",
+	"modifiedTime":1721679605564,
+	"name":"test_entra",
+	"nodes":[
+		{
+			"context":{
+				"appName":"microsoft_entra_id",
+				"resourceVersion":339,
+				"connectionId":"668297373ce68a2c39930630",
+				"resourceName":"microsoft_entra_id_on_new_user"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"w6jUW-1",
+			"id":"w6jUW",
+			"index":0,
+			"inputs":{},
+			"skip":false,
+			"title":"New user",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":287,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":3
+}
