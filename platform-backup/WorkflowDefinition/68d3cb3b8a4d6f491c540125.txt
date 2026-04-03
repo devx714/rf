@@ -1,0 +1,77 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1758710587233,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"n_67rgL",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_fBKoo",
+			"type":"next"
+		}
+	],
+	"id":"68d3cb3b8a4d6f491c540125",
+	"lastModifiedBy":132116,
+	"lcName":"sdfcgvhbn",
+	"modifiedTime":1758710591518,
+	"name":"sdfcgvhbn",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":813,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_DFY8u-1",
+			"id":"n_67rgL",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_DFY8u-1",
+			"id":"_fBKoo",
+			"index":2,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":132116,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
