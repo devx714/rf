@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1753872253177,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_MMOEo",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_OGn8l",
+			"type":"next"
+		}
+	],
+	"id":"6889f77da0294d66096fe4a4",
+	"lastModifiedBy":47201,
+	"lcName":"sdf",
+	"modifiedTime":1753872253177,
+	"name":"sdf",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_MMOEo-1",
+			"id":"_MMOEo",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_MMOEo-1",
+			"id":"_OGn8l",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":47201,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":0
+}
