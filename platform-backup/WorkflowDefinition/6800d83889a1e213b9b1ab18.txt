@@ -1,0 +1,113 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1744885816578,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"AEANS",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"Clclo",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"Clclo",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"AXg4e",
+			"type":"next"
+		}
+	],
+	"id":"6800d83889a1e213b9b1ab18",
+	"lastModifiedBy":678,
+	"lcName":"efew",
+	"modifiedTime":1744919364920,
+	"name":"efew",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":530,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"uyLrh-1",
+			"id":"AEANS",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"files_by_unifyapps",
+				"resourceVersion":478,
+				"resourceName":"files_by_unifyapps_upload_file",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"uyLrh-1",
+			"id":"Clclo",
+			"index":0,
+			"inputs":{
+				"fileName":"ddsv.parquet",
+				"url":"https://raw.githubusercontent.com/Teradata/kylo/master/samples/sample-data/parquet/userdata5.parquet",
+				"option":"url"
+			},
+			"skip":false,
+			"subTitle":"Files by UnifyApps",
+			"title":"Upload file",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"parquet_by_unifyapps",
+				"resourceVersion":67,
+				"resourceName":"parquet_by_unifyapps_describe_file_schema",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"uyLrh-1",
+			"id":"AXg4e",
+			"index":0,
+			"inputs":{
+				"file":"{{ Clclo.outputs.fileDetails }}"
+			},
+			"skip":false,
+			"subTitle":"Parquet by UnifyApps",
+			"title":"Describe file",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":678,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":6
+}
