@@ -1,0 +1,160 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1741345379590,
+	"deleted":false,
+	"deployedVersion":4,
+	"deploymentState":{
+		"deployedAt":1741368084336,
+		"deployedBy":43523,
+		"deployedDefinitionId":"67cb2b14b08183145d13af0c",
+		"status":"PAUSED",
+		"version":4,
+		"workflowVersion":8
+	},
+	"edges":[
+		{
+			"fromNodeId":"HMvUP",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"U0Zf1",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"U0Zf1",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"kWdRL",
+			"type":"next"
+		}
+	],
+	"id":"67cad263c2d89b5cd9a7246d",
+	"lastModifiedBy":43523,
+	"lcName":"refresh check jira",
+	"modifiedTime":1741371548649,
+	"name":"refresh check jira",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":360,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"RNuSv-1",
+			"id":"HMvUP",
+			"index":0,
+			"inputs":{
+				"setup":{
+					"type":"object",
+					"properties":{
+						"importerAutomation":{
+							"type":"string",
+							"title":"Importer Automation"
+						},
+						"knowledgeId":{
+							"type":"string",
+							"title":"Knowledge Id"
+						},
+						"importerParams":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
+							"title":"Importer Params"
+						},
+						"importerConnections":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
+							"title":"Importer Connections"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"importerAutomation",
+						"knowledgeId",
+						"importerParams",
+						"importerConnections"
+					]
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":378,
+				"resourceName":"callables_call_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"RNuSv-1",
+			"id":"U0Zf1",
+			"index":0,
+			"inputs":{
+				"automationId":"66cc6da466e9a451803eba3c",
+				"runtimeConnections":{},
+				"synchronous":false,
+				"triggerWorkflowWithRuntimeType":"DEFAULT",
+				"version":"-1",
+				"parameters":{
+					"knowledgeId":"{{ HMvUP.outputs.knowledgeId }}",
+					"importerAutomation":"{{ HMvUP.outputs.importerAutomation }}",
+					"importerParams":"{{ HMvUP.outputs.importerParams }}",
+					"importerConnections":"{{ HMvUP.outputs.importerConnections }}",
+					"syncType":"SYNC_APPEND"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Call automation",
+			"type":"CALL_WORKFLOW"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":361,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"RNuSv-1",
+			"id":"kWdRL",
+			"index":0,
+			"inputs":{
+				"result":"{{ U0Zf1.outputs.result }}"
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":43523,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":11
+}
