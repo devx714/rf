@@ -1,0 +1,42 @@
+{
+	"appsUsed":[
+		"gcloud_storage"
+	],
+	"createdTime":1721805639840,
+	"deleted":false,
+	"edges":[
+		
+	],
+	"id":"66a0ab470d68db0b4c80d40c",
+	"lastModifiedBy":520,
+	"lcName":"untitled",
+	"modifiedTime":1721805639840,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"gcloud_storage"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"JVXLC-1",
+			"id":"JVXLC",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":0
+}
