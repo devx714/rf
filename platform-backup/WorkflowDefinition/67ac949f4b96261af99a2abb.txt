@@ -1,0 +1,84 @@
+{
+	"appsUsed":[
+		"airtable"
+	],
+	"createdTime":1739363487616,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"0uaWD",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"0wttS",
+			"type":"next"
+		}
+	],
+	"id":"67ac949f4b96261af99a2abb",
+	"lastModifiedBy":15,
+	"lcName":"google analytics",
+	"modifiedTime":1739364596297,
+	"name":"Google Analytics",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":286,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"hnaQG-1",
+			"id":"0uaWD",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"airtable",
+				"resourceVersion":2939,
+				"connectionId":"6628fa5dc8c7811005c4f1d7",
+				"resourceName":"airtable_create_record",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"hnaQG-1",
+			"id":"0wttS",
+			"index":0,
+			"inputs":{
+				"typecast":false
+			},
+			"skip":false,
+			"subTitle":"Airtable",
+			"title":"Create record",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":39269,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
