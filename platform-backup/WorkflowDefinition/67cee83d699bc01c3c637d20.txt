@@ -1,0 +1,60 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1741613117386,
+	"deleted":true,
+	"description":"Describe your automation in a few words",
+	"edges":[
+		{
+			"fromNodeId":"mvEdi",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"2z1Tg",
+			"type":"next"
+		}
+	],
+	"id":"67cee83d699bc01c3c637d20",
+	"lastModifiedBy":22743,
+	"lcName":"aokwzt",
+	"modifiedTime":1741670023972,
+	"name":"AokwZT",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"mvEdi-1",
+			"id":"mvEdi",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"mvEdi-1",
+			"id":"2z1Tg",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":22743,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
