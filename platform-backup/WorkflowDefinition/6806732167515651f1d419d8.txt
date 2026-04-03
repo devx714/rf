@@ -1,0 +1,56 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1745253153299,
+	"deleted":false,
+	"edges":[
+		
+	],
+	"id":"6806732167515651f1d419d8",
+	"lastModifiedBy":426,
+	"lcName":"asssssaaaassa",
+	"modifiedTime":1745253288051,
+	"name":"asssssaaaassa",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":561,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"sX2DH-1",
+			"id":"dxdBT",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":426,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
