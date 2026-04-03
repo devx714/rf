@@ -1,0 +1,93 @@
+{
+	"appsUsed":[
+		"hubspot",
+		"microsoft_outlook"
+	],
+	"createdTime":1757705552805,
+	"deleted":false,
+	"deployedVersion":3,
+	"deploymentState":{
+		"deployedAt":1757748545053,
+		"deployedBy":177799,
+		"deployedDefinitionId":"68c51d40d5d50a1a89c766b7",
+		"status":"PAUSED",
+		"version":3,
+		"workflowVersion":9
+	},
+	"edges":[
+		{
+			"fromNodeId":"n_AvQwa",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_dh7k3",
+			"type":"next"
+		}
+	],
+	"id":"68c47550f35cfa256668569c",
+	"lastModifiedBy":-1,
+	"lcName":"hubspot webhook test",
+	"modifiedTime":1757945593494,
+	"name":"hubspot webhook test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"hubspot",
+				"resourceVersion":6669,
+				"connectionId":"68c4293e2f7ced1b4fcb040f",
+				"resourceName":"hubspot_on_event"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_sDTwH-1",
+			"id":"n_AvQwa",
+			"index":1,
+			"inputs":{},
+			"skip":false,
+			"subTitle":"HubSpot",
+			"title":"New event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"microsoft_outlook",
+				"resourceVersion":767,
+				"connectionId":"68a72e45e34e20529f30583f",
+				"resourceName":"microsoft_outlook_list_users",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_sDTwH-1",
+			"id":"n_dh7k3",
+			"index":2,
+			"inputs":{},
+			"skip":false,
+			"subTitle":"Microsoft Outlook",
+			"title":"List users",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":1234,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		"dfg.    dfdff"
+	],
+	"version":9
+}
