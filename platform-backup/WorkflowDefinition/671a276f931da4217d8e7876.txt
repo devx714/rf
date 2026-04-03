@@ -1,0 +1,74 @@
+{
+	"appsUsed":[
+		"airtable"
+	],
+	"createdTime":1729767279312,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_Sa0jb",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_eslHX",
+			"type":"next"
+		}
+	],
+	"id":"671a276f931da4217d8e7876",
+	"lastModifiedBy":520,
+	"lcName":"test",
+	"modifiedTime":1729767305146,
+	"name":"test",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Sa0jb-1",
+			"id":"_Sa0jb",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"airtable",
+				"resourceVersion":2363,
+				"connectionId":"670ce1af535e3c6e31f62ec5",
+				"resourceName":"airtable_create_record",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Sa0jb-1",
+			"id":"_eslHX",
+			"index":0,
+			"inputs":{
+				"objectSourceResourceName":"airtable_fetch_columns",
+				"record":{},
+				"table":"Table 3",
+				"typecast":false,
+				"base":"appFgV5sp92otkoVt"
+			},
+			"skip":false,
+			"subTitle":"Airtable",
+			"title":"Create record",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
