@@ -1,0 +1,64 @@
+{
+	"appsUsed":[
+		"systeme"
+	],
+	"createdTime":1738656057526,
+	"deleted":true,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1738656276747,
+		"deployedBy":45775,
+		"deployedDefinitionId":"67a1ca13a2d9015e1974b48e",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
+	"edges":[
+		
+	],
+	"id":"67a1c939a2d9015e1974b227",
+	"lastModifiedBy":45775,
+	"lcName":"faf",
+	"modifiedTime":1738656331296,
+	"name":"faf",
+	"nodes":[
+		{
+			"context":{
+				"appName":"systeme",
+				"resourceVersion":74,
+				"connectionId":"67989e8d2a8f1c2766f77046",
+				"resourceName":"systeme_on_contact_tag_added"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"GJxoB-1",
+			"id":"zBxsg",
+			"index":0,
+			"inputs":{
+				"name":"sadxsad"
+			},
+			"skip":false,
+			"subTitle":"Systeme",
+			"title":"New Tag Added to Contact",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":45775,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
