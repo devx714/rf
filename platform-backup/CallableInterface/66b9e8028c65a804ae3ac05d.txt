@@ -1,0 +1,41 @@
+{
+	"createdTime":1723459586491,
+	"deleted":false,
+	"description":"to test file type in callable",
+	"id":"66b9e8028c65a804ae3ac05d",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":7,
+	"lcName":"testing file",
+	"modifiedTime":1730721948753,
+	"name":"Testing file",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"responseFileType":{
+					"type":"string",
+					"format":"file-input",
+					"title":"Response File Type"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":520,
+	"standard":false,
+	"version":1
+}
