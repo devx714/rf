@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1761563090523,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_Gug81",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_idq8s",
+			"type":"next"
+		}
+	],
+	"id":"68ff51d27eb24b6f551b4a94",
+	"lastModifiedBy":15,
+	"lcName":"sdc",
+	"modifiedTime":1761563090523,
+	"name":"sdc",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Gug81-1",
+			"id":"_Gug81",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Gug81-1",
+			"id":"_idq8s",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":15,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":0
+}
