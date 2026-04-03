@@ -1,0 +1,148 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1761420293531,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"n_eRKW3",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_MDm3D",
+			"type":"next"
+		}
+	],
+	"id":"68fd2405bdf19e40946d407b",
+	"lastModifiedBy":33430,
+	"lcName":"create record dpdp purpose",
+	"modifiedTime":1761420526632,
+	"name":"Create Record DPDP Purpose",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":1060,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_2541l-1",
+			"id":"n_eRKW3",
+			"index":1,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[
+						"response",
+						"purposeId"
+					],
+					"properties":{
+						"response":{
+							"type":"string",
+							"title":"Response"
+						},
+						"purposeId":{
+							"type":"string",
+							"title":"Purpose Id"
+						}
+					}
+				},
+				"setup":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[
+						"purposeName",
+						"category",
+						"preference",
+						"preferenceValueDefault",
+						"purposeDescription",
+						"purposeExpiration",
+						"purposeExpiryValue",
+						"purposeExpiryUnit",
+						"purposeId"
+					],
+					"properties":{
+						"purposeName":{
+							"type":"string",
+							"title":"Purpose Name"
+						},
+						"category":{
+							"type":"string",
+							"title":"Category"
+						},
+						"preference":{
+							"type":"string",
+							"title":"Preference"
+						},
+						"preferenceValueDefault":{
+							"type":"array",
+							"items":{
+								"type":"string"
+							},
+							"title":"Preference Value Default"
+						},
+						"purposeDescription":{
+							"type":"string",
+							"title":"Purpose Description"
+						},
+						"purposeExpiration":{
+							"type":"boolean",
+							"title":"Purpose Expiration"
+						},
+						"purposeExpiryValue":{
+							"type":"number",
+							"title":"Purpose Expiry Value"
+						},
+						"purposeExpiryUnit":{
+							"type":"string",
+							"title":"Purpose Expiry Unit"
+						},
+						"purposeId":{
+							"type":"string",
+							"title":"Purpose Id"
+						}
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_2541l-1",
+			"id":"_MDm3D",
+			"index":2,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":33430,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
