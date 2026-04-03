@@ -1,0 +1,78 @@
+{
+	"appsUsed":[
+		"salesforce"
+	],
+	"createdTime":1729233327287,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_f5suH",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_y4ROB",
+			"type":"next"
+		}
+	],
+	"id":"671201af138b602d2005fb70",
+	"lastModifiedBy":520,
+	"lcName":"tst ",
+	"modifiedTime":1729237123183,
+	"name":"tst ",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":80,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_QFyQK-1",
+			"id":"_f5suH",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"HTTP Webhook",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"salesforce",
+				"resourceVersion":2913,
+				"connectionId":"6704fc2a6b28d27ce6169467",
+				"resourceName":"salesforce_fetch_object_metadata",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_QFyQK-1",
+			"id":"_y4ROB",
+			"index":0,
+			"skip":false,
+			"subTitle":"Salesforce",
+			"title":"Fetch object metadata",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
