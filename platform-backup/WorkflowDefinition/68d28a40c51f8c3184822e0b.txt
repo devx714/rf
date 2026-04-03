@@ -1,0 +1,89 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1758628416261,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"n_yHYoM",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_PvPQ3",
+			"type":"next"
+		}
+	],
+	"id":"68d28a40c51f8c3184822e0b",
+	"lastModifiedBy":308,
+	"lcName":"dhfsud",
+	"modifiedTime":1758630257221,
+	"name":"dhfsud",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":813,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Wn6rb-1",
+			"id":"n_yHYoM",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"standard_entities",
+				"resourceVersion":97,
+				"resourceName":"standard_entities_update_connection",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Wn6rb-1",
+			"id":"n_PvPQ3",
+			"index":2,
+			"inputs":{
+				"name":"dummy 3",
+				"connectionId":"673f20c0ba6da93035a11f41",
+				"inputType":"STATIC"
+			},
+			"skip":false,
+			"subTitle":"Standard entities by UnifyApps",
+			"title":"Update connection",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":46209,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
