@@ -1,0 +1,65 @@
+{
+	"appsUsed":[
+		"constant_contact"
+	],
+	"createdTime":1738393412664,
+	"deleted":false,
+	"deployedVersion":3,
+	"deploymentState":{
+		"deployedAt":1738393691149,
+		"deployedBy":12,
+		"deployedDefinitionId":"679dc85b9287953f08328285",
+		"status":"DEPLOYED",
+		"version":3,
+		"workflowVersion":3
+	},
+	"edges":[
+		
+	],
+	"id":"679dc7449287953f08328111",
+	"lastModifiedBy":44108,
+	"lcName":"test",
+	"modifiedTime":1738399936887,
+	"name":"test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"constant_contact",
+				"resourceVersion":39,
+				"connectionId":"679db1df20b0a03d6df64db2",
+				"resourceName":"constant_contact_new_contact_polling"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"Pap0d-1",
+			"id":"G2fmo",
+			"index":0,
+			"inputs":{
+				"interval":1,
+				"batchSize":10
+			},
+			"skip":false,
+			"subTitle":"Constant Contact",
+			"title":"New Contact",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":44108,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":3
+}
