@@ -1,0 +1,26 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1736338645439,
+	"deleted":true,
+	"edges":[
+		
+	],
+	"id":"677e6cd5928f5c4d1a6a5cdc",
+	"lastModifiedBy":522,
+	"lcName":"destination_dnd_autoavfippovcz",
+	"modifiedTime":1737183168841,
+	"name":"DESTINATION_DND_autoavfIppOVcz",
+	"nodes":[
+		
+	],
+	"ownerUserId":522,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":1
+}
