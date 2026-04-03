@@ -1,0 +1,161 @@
+{
+	"appsUsed":[
+		"microsoft_calendar"
+	],
+	"createdTime":1757341041576,
+	"deleted":false,
+	"deployedVersion":2,
+	"deploymentState":{
+		"deployedAt":1757346929208,
+		"deployedBy":43523,
+		"deployedDefinitionId":"68befc71230e374bf0406862",
+		"status":"DEPLOYED",
+		"version":2,
+		"workflowVersion":5
+	},
+	"edges":[
+		{
+			"fromNodeId":"n_5hB63",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_HylN7",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_HylN7",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_8qvOz",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_8qvOz",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_mJPlo",
+			"type":"next"
+		}
+	],
+	"id":"68bee5714f3b5e6aca851019",
+	"lastModifiedBy":-1,
+	"lcName":"meeting bot receive invite",
+	"modifiedTime":1765178683129,
+	"name":"Meeting bot receive invite",
+	"nodes":[
+		{
+			"context":{
+				"appName":"microsoft_calendar",
+				"resourceVersion":5147,
+				"connectionId":"6890824bfd218d592d0f292b",
+				"resourceName":"microsoft_calendar_on_new_calendar_event"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_rWvdW-1",
+			"id":"n_5hB63",
+			"index":1,
+			"inputs":{
+				"calendar":"AQMkADdiZjlhOGM3LTIxZTItNGFjNi1iMjQ5LTAxMDY0YjBmNjRlZABGAAADMoPdnbvSykiB35yx5uJCgAcAvOxnKUGC7ECmrdgBt-FCuwAAAgEGAAAAvOxnKUGC7ECmrdgBt-FCuwAAAopgAAAA"
+			},
+			"skip":false,
+			"subTitle":"Microsoft Calendar",
+			"title":"New calendar event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"microsoft_calendar",
+				"resourceVersion":5176,
+				"connectionId":"6890824bfd218d592d0f292b",
+				"resourceName":"microsoft_calendar_get_calendar_event_by_id",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_rWvdW-1",
+			"id":"n_HylN7",
+			"index":2,
+			"inputs":{
+				"event_id":"{{ n_5hB63.outputs.value[0].resourceData.id }}",
+				"calendar_id":"AAMkADdiZjlhOGM3LTIxZTItNGFjNi1iMjQ5LTAxMDY0YjBmNjRlZABGAAAAAAAyg92du9LKSIHfnLHm4kKABwC87GcpQYLsQKat2AG38UK7AAAAAAEGAAC87GcpQYLsQKat2AG38UK7AAA7ZodGAAA=",
+				"timeZone":"Europe/London"
+			},
+			"skip":false,
+			"subTitle":"Microsoft Calendar",
+			"title":"Get a calendar event",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":847,
+				"resourceName":"callables_schedule_a_callable",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_rWvdW-1",
+			"id":"n_8qvOz",
+			"index":3,
+			"inputs":{
+				"automation_id":"68becc4bbc366e023a9134c9",
+				"schedule_method":{
+					"schedule_type":"ONE_TIME",
+					"setup_config":{
+						"start_time":"{{ n_HylN7.outputs.start.dateTime }}"
+					}
+				},
+				"runtimeConnections":{},
+				"cancel_existing":false,
+				"schedule_name":"Add bot to meeting",
+				"version":"-1",
+				"parameters":{
+					"meetingURL":"{{ n_HylN7.outputs.calendarodata.navigationLink }}"
+				}
+			},
+			"skip":true,
+			"subTitle":"Callable",
+			"title":"Schedule callable",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"stop"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_rWvdW-1",
+			"id":"n_mJPlo",
+			"index":4,
+			"skip":false,
+			"subTitle":"Stop",
+			"title":"Stop",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":43523,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":6
+}
