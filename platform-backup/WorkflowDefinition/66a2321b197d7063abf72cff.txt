@@ -1,0 +1,171 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1721905691394,
+	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1721906133078,
+		"deployedBy":3562,
+		"deployedDefinitionId":"66a233d5add8d8050d54a1cc",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
+	"edges":[
+		{
+			"fromNodeId":"x1LBc",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"iodeo",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"iodeo",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"dyk3z",
+			"type":"next"
+		}
+	],
+	"id":"66a2321b197d7063abf72cff",
+	"lastModifiedBy":3562,
+	"lcName":"store consent sources",
+	"modifiedTime":1721906133100,
+	"name":"store consent sources",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":46,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"P0h50-1",
+			"id":"x1LBc",
+			"index":0,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"statusCode":{
+							"type":"string",
+							"title":"Status Code"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"setup":{
+					"type":"object",
+					"properties":{
+						"status":{
+							"type":"string",
+							"title":"Status"
+						},
+						"description":{
+							"type":"string",
+							"title":"Description"
+						},
+						"enableParentalConsent":{
+							"type":"string",
+							"title":"Enable Parental Consent"
+						},
+						"type":{
+							"type":"string",
+							"title":"Type"
+						},
+						"consentSource":{
+							"type":"string",
+							"title":"Consent Source"
+						},
+						"userIdentifier":{
+							"type":"string",
+							"title":"User Identifier"
+						},
+						"parentIdentifier":{
+							"type":"string",
+							"title":"Parent Identifier"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger from automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":1042,
+				"resourceName":"storage_by_unifyapps_create_record",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"P0h50-1",
+			"id":"iodeo",
+			"index":0,
+			"inputs":{
+				"object_type":"consent_sources",
+				"record":{
+					"enableParentalConsent":"{{ x1LBc.outputs.enableParentalConsent }}",
+					"status":"{{ x1LBc.outputs.status }}",
+					"description":"{{ x1LBc.outputs.description }}",
+					"type":"{{ x1LBc.outputs.type }}",
+					"consentSource":"{{ x1LBc.outputs.consentSource }}",
+					"userIdentifier":"{{ x1LBc.outputs.userIdentifier }}",
+					"parentIdentifier":"{{ x1LBc.outputs.parentIdentifier }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Create record",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":42,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"P0h50-1",
+			"id":"dyk3z",
+			"index":0,
+			"inputs":{
+				"result":{
+					"statusCode":"200"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Return data to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":3562,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
