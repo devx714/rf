@@ -1,0 +1,33 @@
+{
+	"createdTime":1717496591734,
+	"deleted":true,
+	"description":"trying out our product",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"665eeb0fdab7c5683c327b9d",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{}
+	},
+	"lastModifiedBy":409,
+	"lcName":"test_pradeep",
+	"modifiedTime":1717496612632,
+	"name":"test_pradeep",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{}
+	},
+	"ownerUserId":409,
+	"standard":false,
+	"version":1
+}
