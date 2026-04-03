@@ -1,0 +1,33 @@
+{
+	"createdTime":1721971271468,
+	"deleted":false,
+	"description":"Default",
+	"id":"66a332477b9e6e616ffa94da",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":520,
+	"lcName":"product return processing",
+	"modifiedTime":1721971271468,
+	"name":"Product Return Processing",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":520,
+	"standard":false,
+	"version":0
+}
