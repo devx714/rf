@@ -1,0 +1,94 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1749487845538,
+	"deleted":false,
+	"description":",mn",
+	"edges":[
+		{
+			"fromNodeId":"gbVHs",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"ub7ic",
+			"type":"next"
+		}
+	],
+	"id":"684710e56812be464ab87e5e",
+	"lastModifiedBy":143814,
+	"lcName":"nmbbmbnm",
+	"modifiedTime":1749488249182,
+	"name":"nmbbmbnm",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":726,
+				"resourceName":"callables_from_interface"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"lOSAN-1",
+			"id":"gbVHs",
+			"index":0,
+			"inputs":{
+				"result":{
+					"ua:modal":{
+						"field_type":"STRING",
+						"is_optional":true
+					}
+				},
+				"callableInterfaceId":"66a330c47b9e6e616ffa94c0",
+				"setup":{
+					"ua:modal":{
+						"field_type":"STRING",
+						"is_optional":true
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger interface",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"ai_agents_by_unifyapps",
+				"resourceVersion":217,
+				"resourceName":"ai_agents_by_unifyapps_invoke_agent",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"lOSAN-1",
+			"id":"ub7ic",
+			"index":0,
+			"inputs":{
+				"callableInterfaceId":"__ua__invoke_ai_agent_by_unifyapps"
+			},
+			"skip":false,
+			"subTitle":"AI Agents by UnifyApps",
+			"title":"Invoke Agent",
+			"type":"CALL_INTERFACE_WORKFLOW"
+		}
+	],
+	"ownerUserId":143814,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":6
+}
