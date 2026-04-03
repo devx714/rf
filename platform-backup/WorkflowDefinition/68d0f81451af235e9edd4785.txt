@@ -1,0 +1,74 @@
+{
+	"appsUsed":[
+		"spotify"
+	],
+	"createdTime":1758525460875,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_up2aa",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_Ibfdl",
+			"type":"next"
+		}
+	],
+	"id":"68d0f81451af235e9edd4785",
+	"lastModifiedBy":45518,
+	"lcName":"test",
+	"modifiedTime":1758542283856,
+	"name":"test",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_up2aa-1",
+			"id":"_up2aa",
+			"index":1,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"spotify",
+				"resourceVersion":6366,
+				"resourceName":"spotify_create_playlist",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_up2aa-1",
+			"id":"n_Ibfdl",
+			"index":2,
+			"inputs":{},
+			"skip":false,
+			"subTitle":"Spotify",
+			"title":"Create playlist",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":45518,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
