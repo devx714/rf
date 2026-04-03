@@ -1,0 +1,84 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1741615886232,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"GcMG9",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"ZzfQ1",
+			"type":"next"
+		}
+	],
+	"id":"67cef30e699bc01c3c63f996",
+	"lastModifiedBy":31268,
+	"lcName":"on-prem-files-testing dnt",
+	"modifiedTime":1745482249864,
+	"name":"on-prem-files-testing dnt",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":350,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"cqxKL-1",
+			"id":"GcMG9",
+			"index":0,
+			"inputs":{
+				"cron":"INTERVAL",
+				"interval":15,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"on_prem_files_by_unifyapps",
+				"resourceVersion":365,
+				"connectionId":"67becbc10f72627e79dad274",
+				"resourceName":"on_prem_files_by_unifyapps_get_file",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"cqxKL-1",
+			"id":"ZzfQ1",
+			"index":0,
+			"inputs":{
+				"path":"C:\\Users\\venka\\2016 Batch Student List.xlsx"
+			},
+			"skip":false,
+			"subTitle":"On Prem Files by UnifyApps",
+			"title":"Get File",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":517,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":20
+}
