@@ -1,0 +1,74 @@
+{
+	"appsUsed":[
+		"active_campaign"
+	],
+	"createdTime":1721890023012,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"q0qwQ",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"SYpr8",
+			"type":"next"
+		}
+	],
+	"id":"66a1f4e7ccc70b77f9bf21cc",
+	"lastModifiedBy":520,
+	"lcName":"test123",
+	"modifiedTime":1721896615735,
+	"name":"test123",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":53,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"tDjtN-1",
+			"id":"q0qwQ",
+			"index":0,
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"Http Webhook",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"active_campaign",
+				"resourceVersion":1149,
+				"connectionId":"6694ed41a1df7d4689256390",
+				"resourceName":"active_campaign_add_contact",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"tDjtN-1",
+			"id":"SYpr8",
+			"index":0,
+			"inputs":{},
+			"skip":false,
+			"subTitle":"Active Campaign",
+			"title":"Add contact to account",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":3
+}
