@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1758024279899,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_5J8cf",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_ccOmC",
+			"type":"next"
+		}
+	],
+	"id":"68c952573ebe4b5608fbf377",
+	"lastModifiedBy":426,
+	"lcName":"bot framework",
+	"modifiedTime":1758024952320,
+	"name":"bot framework",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_5J8cf-1",
+			"id":"_5J8cf",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_5J8cf-1",
+			"id":"_ccOmC",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":1234,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		"assasasasasa"
+	],
+	"version":1
+}
