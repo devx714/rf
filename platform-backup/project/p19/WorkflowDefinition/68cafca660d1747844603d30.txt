@@ -1,0 +1,64 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1758133414802,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_gaz40",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_J06PW",
+			"type":"next"
+		}
+	],
+	"id":"68cafca660d1747844603d30",
+	"lastModifiedBy":178084,
+	"lcName":"transcript",
+	"modifiedTime":1758133414802,
+	"name":"transcript",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_gaz40-1",
+			"id":"_gaz40",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_gaz40-1",
+			"id":"_J06PW",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":178084,
+	"projectId":19,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		"you"
+	],
+	"version":0
+}
