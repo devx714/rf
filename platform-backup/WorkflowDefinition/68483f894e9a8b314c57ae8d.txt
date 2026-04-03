@@ -1,0 +1,113 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1749565321945,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"n_lNCXD",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_qStLi",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_qStLi",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_ihnqH",
+			"type":"next"
+		}
+	],
+	"id":"68483f894e9a8b314c57ae8d",
+	"lastModifiedBy":508,
+	"lcName":"test",
+	"modifiedTime":1749626841752,
+	"name":"test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":769,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_U3B7a-1",
+			"id":"n_lNCXD",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":723,
+				"resourceName":"code_by_unifyapps_python",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_U3B7a-1",
+			"id":"n_qStLi",
+			"index":0,
+			"inputs":{
+				"code":"from markitdown import MarkItDown\nimport tempfile\nimport os\n\n# Create instance\nmd = MarkItDown()\n\n# Test with simple text file\nwith tempfile.NamedTemporaryFile(mode='w', suffix='.txt', delete=False) as f:\n    f.write(\"Hello World!\\nThis is a test.\\n\")\n    temp_file_path = f.name\n    \nresponse = md.convert(temp_file_path)\n    \nprint(\"✓ MarkItDown is working!\")\nprint(f\"Converted: '{response.text_content}'\")\nprint(f\"Length: {len(response.text_content)}\")\n\nresult = {\"test\": response.text_content}",
+				"isAsync":false
+			},
+			"skip":false,
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute Python script",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":773,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_U3B7a-1",
+			"id":"n_ihnqH",
+			"index":0,
+			"inputs":{
+				"compile_static":false,
+				"code":"import software.amazon.awssdk.regions.Region\nimport software.amazon.awssdk.services.secretsmanager.SecretsManagerClient\nimport software.amazon.awssdk.services.secretsmanager.model.GetSecretValueRequest\nimport software.amazon.awssdk.services.secretsmanager.model.GetSecretValueResponse\n\nString key = \"qatest.inbound.message.size\"\n\nGetSecretValueRequest secretValueRequest = GetSecretValueRequest.builder().secretId(key).build();\ntry {\n    String region = \"ap-south-1\"\n    SecretsManagerClient client = SecretsManagerClient.builder().region(Region.of(region)).build();\n    GetSecretValueResponse secretValue = client.getSecretValue(secretValueRequest);\n    return secretValue.secretString();\n} catch (Exception eX) {\n    return null;\n}"
+			},
+			"skip":false,
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":508,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
