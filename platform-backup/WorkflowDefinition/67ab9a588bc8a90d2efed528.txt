@@ -1,0 +1,59 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1739299416508,
+	"deleted":true,
+	"edges":[
+		{
+			"fromNodeId":"j0Bpe",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"uYofK",
+			"type":"next"
+		}
+	],
+	"id":"67ab9a588bc8a90d2efed528",
+	"lastModifiedBy":39269,
+	"lcName":"klaviyo integration",
+	"modifiedTime":1739299490767,
+	"name":"Klaviyo integration",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"j0Bpe-1",
+			"id":"j0Bpe",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"j0Bpe-1",
+			"id":"uYofK",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":39269,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
