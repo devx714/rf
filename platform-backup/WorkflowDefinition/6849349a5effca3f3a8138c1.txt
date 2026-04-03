@@ -1,0 +1,80 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1749628058506,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_BiWoO",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_7OcbD",
+			"type":"next"
+		}
+	],
+	"id":"6849349a5effca3f3a8138c1",
+	"lastModifiedBy":30179,
+	"lcName":"test push notification",
+	"modifiedTime":1749633156701,
+	"name":"test push notification",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_BiWoO-1",
+			"id":"_BiWoO",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"notification_by_unifyapps",
+				"resourceVersion":52,
+				"resourceName":"notification_by_unifyapps_send_push_notifications",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_BiWoO-1",
+			"id":"n_7OcbD",
+			"index":0,
+			"inputs":{
+				"receiverType":"USER",
+				"imageUrl":"https://plus.unsplash.com/premium_photo-1664474619075-644dd191935f",
+				"description":"halalalalallalalalalalalallalala",
+				"tokens":{
+					"items":"cp1was-fTYCRUtEEtzPlQ5:APA91bHOeAchTBv5xG9LheK-_2LHbsagjSkjCyLSOkZC4dkKPotFdnftK0wxuPKhFZFC9r_WqWDhFnvCp93gTYjD7k80T5RyyF0TWcaaCdIXGe7CFYuw7GM",
+					"ua:type":"mappedArray"
+				},
+				"applicationId":"push-notification-test",
+				"title":"Hello world"
+			},
+			"skip":false,
+			"subTitle":"Notification by UnifyApps",
+			"title":"Send Push Notifications",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":144048,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":3
+}
