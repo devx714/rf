@@ -1,0 +1,56 @@
+{
+	"appsUsed":[
+		"amazon_sns"
+	],
+	"createdTime":1720426128459,
+	"deleted":false,
+	"description":"",
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"668b9e909039b46f5bfd7cbc",
+	"lastModifiedBy":-1,
+	"lcName":"sns_full_test",
+	"modifiedTime":1721679569189,
+	"name":"SNS_full_test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"amazon_sns",
+				"resourceVersion":307,
+				"connectionId":"65f6d66316367d1f77a8b7ed",
+				"resourceName":"amazon_sns_on_event_received"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"uyt6x-1",
+			"id":"Ceu5t",
+			"index":0,
+			"inputs":{
+				"format":"RAW",
+				"topic":"{{ Ceu5t.outputs.TopicArn }}"
+			},
+			"skip":false,
+			"subTitle":"Amazon SNS",
+			"title":"On message received",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":307,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":3
+}
