@@ -1,0 +1,85 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1765201019394,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_ernzd",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_52HR7",
+			"type":"next"
+		}
+	],
+	"id":"6936d47b8b98375aed7745e8",
+	"lastModifiedBy":643,
+	"lcName":"rer",
+	"modifiedTime":1765265623991,
+	"name":"rer",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ernzd-1",
+			"id":"_ernzd",
+			"index":1,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":1247,
+				"resourceName":"callables_schedule_a_callable",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ernzd-1",
+			"id":"n_52HR7",
+			"index":2,
+			"inputs":{
+				"schedule_method":{
+					"schedule_type":"ONE_TIME",
+					"setup_config":{
+						"timezone":"Asia/Calcutta",
+						"unit":"MINUTES",
+						"expression":"0 0 * * *"
+					}
+				},
+				"cancel_existing":true,
+				"version":"-1"
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Schedule callable",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":2721,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
