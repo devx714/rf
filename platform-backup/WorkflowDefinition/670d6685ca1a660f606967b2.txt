@@ -1,0 +1,93 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1728931461559,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_EQSdr",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_k6VxS",
+			"type":"next"
+		}
+	],
+	"id":"670d6685ca1a660f606967b2",
+	"lastModifiedBy":520,
+	"lcName":"fff",
+	"modifiedTime":1728931907234,
+	"name":"fff",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":80,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_IoPLx-1",
+			"id":"_EQSdr",
+			"index":0,
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"HTTP Webhook",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":66,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_IoPLx-1",
+			"id":"_k6VxS",
+			"index":0,
+			"inputs":{
+				"input":{
+					"type":"object",
+					"properties":{
+						"invalidRecords":{
+							"type":"array",
+							"items":{
+								"type":"object",
+								"properties":{},
+								"additionalProperties":false
+							},
+							"title":"Invalid Records"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"code":"def generateRecordString(record) {\n\n    if (record == null) return null\n\n    def output = \"\"\n\n    def fieldSpecs = [\n\n        [\"Batch_Number\", 8, 'M'],\n        [\"Record_Type\", 2, 'M'],\n        [\"Line_Number\", 6, 'M'],\n        [\"Transaction_Type\", 3, 'M'],\n        [\"Transaction_Flag\", 1, 'M'],\n        [\"Original_Order_BPDP_ID\", 14, 'O'],\n        [\"Client_ID\", 8, 'M'],\n        [\"ISIN\", 12, 'M'],\n        [\"Quantity\", 18, 'M'],\n        [\"Lock-in_Reason_Code\", 2, 'O'],\n        [\"Lock-in_Release_Date\", 8, 'O'],\n        [\"Filler_1\", 16, 'O'],\n        [\"Execution_Date\", 8, 'M'],\n        [\"Filler_2\", 6, 'O'],\n        [\"Other_DP_ID\", 8, 'M'],\n        [\"Other_Client_ID\", 8, 'M'],\n        [\"Filler_3\", 2, 'O'],\n        [\"Closure_Date\", 8, 'MO'],\n        [\"Filler_4\", 17, 'O'],\n        [\"Internal_Reference\", 35, 'O'],\n        [\"Sender_Reference_Number_1\", 50, 'O'],\n        [\"Sender_Reference_Number_2\", 50, 'O'],\n        [\"Agreement_No_\", 20, 'MO'],\n        [\"Filler_5\", 15, 'O'],\n        [\"Priority_Flag\", 1, 'M'],\n        [\"Filler_6\", 16, 'O'],\n        [\"Source_DP_ID\", 8, 'O'],\n        [\"Margin_Pledge_Re-pledge_Indicator\", 2, 'M'],\n        [\"TM_ID\", 8, 'O'],\n        [\"CM_ID\", 8, 'O'],\n        [\"CC_ID\", 8, 'O'],\n        [\"UCC_CODE\", 10, 'M'],\n        [\"Exchange_Code\", 2, 'M'],\n        [\"Segment\", 2, 'M'],\n        [\"CP_Code\", 12, 'O'],\n        [\"Channel_Indicator\", 2, 'M'],\n        [\"Original_Order_BPDP_ID\", 8, 'O'],\n        [\"Filler_7\", 338, 'M']\n\n    ]\n\n    fieldSpecs.each { spec ->\n\n        def fieldName = spec[0]\n        def fieldLength = spec[1]\n        def fieldMandatory = spec[2]\n\n        def fieldValue = record[fieldName] ?: \"\"\n\n        if (fieldValue.isEmpty() && fieldMandatory == 'M') {\n            output += \" \" * fieldLength // Add spaces for mandatory fields if empty\n        } else {\n            fieldValue = fieldValue?.padRight(fieldLength, ' ')?.take(fieldLength) ?: \" \" * fieldLength\n            output += fieldValue\n        }\n    }\n\n    if (record[\"error\"] != null) {\n        output += \"|\" + record[\"error\"]\n    }\n\n    return output\n}\n\ndef processRecords(recordsList) {\n\n    if (recordsList == null) return []\n    def result = []\n\n    recordsList.each { entry ->\n        if (entry != null) {\n            def recordString = generateRecordString(entry)\n            if (recordString != null) {\n                result << recordString\n            }\n        }\n    }\n\n    return result\n}\n\ndef invalidRecordStrings = binding.hasVariable(\"invalidRecords\") ? processRecords(invalidRecords) : []\n\nreturn [\n        \"invalidRecordStrings\": invalidRecordStrings\n]",
+				"isAsync":false,
+				"parameters":{}
+			},
+			"skip":false,
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
