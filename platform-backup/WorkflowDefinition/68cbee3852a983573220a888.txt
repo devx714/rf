@@ -1,0 +1,87 @@
+{
+	"appsUsed":[
+		"azure_bot"
+	],
+	"createdTime":1758195256632,
+	"deleted":true,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1758195681536,
+		"deployedBy":1234,
+		"deployedDefinitionId":"68cbefe1491b842810a9860b",
+		"status":"PAUSED",
+		"version":1,
+		"workflowVersion":1
+	},
+	"edges":[
+		{
+			"fromNodeId":"n_MXcR4",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_yC7qM",
+			"type":"next"
+		}
+	],
+	"id":"68cbee3852a983573220a888",
+	"lastModifiedBy":1234,
+	"lcName":"azure bot test",
+	"modifiedTime":1758207261298,
+	"name":"azure bot test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"azure_bot",
+				"resourceVersion":3267,
+				"connectionId":"689d573e735978716a1d9880",
+				"resourceName":"azure_bot_on_new_message"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_yPFua-1",
+			"id":"n_MXcR4",
+			"index":1,
+			"inputs":{},
+			"skip":false,
+			"subTitle":"Azure Bot",
+			"title":"On new message",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"stop"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_yPFua-1",
+			"id":"n_yC7qM",
+			"index":2,
+			"skip":false,
+			"subTitle":"Stop",
+			"title":"Stop",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":1234,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
