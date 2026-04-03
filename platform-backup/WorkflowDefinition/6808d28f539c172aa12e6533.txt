@@ -1,0 +1,60 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1745408655193,
+	"deleted":false,
+	"description":"This automation stores all the fields given by user to create a PR in an object ",
+	"edges":[
+		{
+			"fromNodeId":"1bKvs",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"NihEL",
+			"type":"next"
+		}
+	],
+	"id":"6808d28f539c172aa12e6533",
+	"lastModifiedBy":1246,
+	"lcName":"dnt | carrier | store all fields",
+	"modifiedTime":1745408655193,
+	"name":"DNT | Carrier | store all fields",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"1bKvs-1",
+			"id":"1bKvs",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"1bKvs-1",
+			"id":"NihEL",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":1246,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":0
+}
