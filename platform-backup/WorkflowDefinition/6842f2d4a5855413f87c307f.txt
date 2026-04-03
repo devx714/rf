@@ -1,0 +1,59 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1749218004853,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"aBLdH",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"apnAL",
+			"type":"next"
+		}
+	],
+	"id":"6842f2d4a5855413f87c307f",
+	"lastModifiedBy":522,
+	"lcName":"practiceautomation",
+	"modifiedTime":1749218004853,
+	"name":"practiceAutomation",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"aBLdH-1",
+			"id":"aBLdH",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"aBLdH-1",
+			"id":"apnAL",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":522,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":0
+}
