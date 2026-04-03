@@ -1,0 +1,90 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1739432265595,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"xPEVo",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"Vacu1",
+			"type":"next"
+		}
+	],
+	"id":"67ada149aeb3b909e7c18559",
+	"lastModifiedBy":32,
+	"lcName":"sch",
+	"modifiedTime":1739432283819,
+	"name":"sch",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":252,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"kejIv-1",
+			"id":"xPEVo",
+			"index":0,
+			"inputs":{
+				"cron":"INTERVAL",
+				"interval":15,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"custom_http_endpoint",
+				"resourceVersion":231,
+				"resourceName":"custom_http_endpoint_execute_soap",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"kejIv-1",
+			"id":"Vacu1",
+			"index":0,
+			"inputs":{
+				"baseUrl":"https://tckpesa-cit2.caas-t02.telekom.de",
+				"responseContentType":"application/soap+xml",
+				"requestTimeoutInSecs":-1,
+				"authType":"CUSTOM",
+				"httpMethod":"POST",
+				"requestContentType":"application/soap+xml",
+				"version":"v1.2",
+				"sslVerify":true
+			},
+			"skip":false,
+			"subTitle":"Custom HTTP Endpoint",
+			"title":"Execute SOAP request",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":32,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
