@@ -1,0 +1,97 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1749188377568,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"n_b3Wzh",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_iPOfE",
+			"type":"next"
+		}
+	],
+	"id":"68427f19110f3c64f6791f2f",
+	"lastModifiedBy":-1,
+	"lcName":"leave_test_123",
+	"modifiedTime":1765178684435,
+	"name":"Leave_test_123",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":783,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"iNrXG-1",
+			"id":"n_b3Wzh",
+			"index":0,
+			"inputs":{
+				"cron":"EXPRESSION",
+				"expression":"0 0 * * *",
+				"timezone":"Asia/Calcutta",
+				"interval":15,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":834,
+				"resourceName":"callables_schedule_a_callable",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"iNrXG-1",
+			"id":"n_iPOfE",
+			"index":0,
+			"inputs":{
+				"automation_id":"686d161a9ae9571926c244bf",
+				"schedule_method":{
+					"schedule_type":"CRON_EXPRESSION",
+					"setup_config":{
+						"start_time":"2025-07-08T13:10:07.131Z",
+						"expression":"0 0 * * *",
+						"timezone":"Asia/Calcutta"
+					}
+				},
+				"runtimeConnections":{},
+				"cancel_existing":true,
+				"version":"-1",
+				"schedule_name":"qwertyk"
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Schedule callable",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":522,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":9
+}
