@@ -1,0 +1,83 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1729000675072,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_eT67b",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_531Zk",
+			"type":"next"
+		}
+	],
+	"id":"670e74e3aacb7e2b19b9c3e3",
+	"lastModifiedBy":520,
+	"lcName":"fghjk",
+	"modifiedTime":1729001059542,
+	"name":"fghjk",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":80,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_bNz71-1",
+			"id":"_eT67b",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"HTTP Webhook",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"edi_tools_by_unifyapps",
+				"resourceVersion":12,
+				"resourceName":"edi_tools_by_unifyapps_parse_edi",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_bNz71-1",
+			"id":"_531Zk",
+			"index":0,
+			"inputs":{
+				"setupViaSample":false,
+				"release":"D03B",
+				"transactionSet":"IFTSTA",
+				"ediType":"EDIFACT"
+			},
+			"skip":false,
+			"subTitle":"EDI Tools by UnifyApps",
+			"title":"Parse EDI document",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":4
+}
