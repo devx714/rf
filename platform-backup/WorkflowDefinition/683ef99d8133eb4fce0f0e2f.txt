@@ -1,0 +1,104 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1748957597146,
+	"deleted":true,
+	"edges":[
+		{
+			"fromNodeId":"U6g0X",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"SEsOn",
+			"type":"next"
+		}
+	],
+	"id":"683ef99d8133eb4fce0f0e2f",
+	"lastModifiedBy":1234,
+	"lcName":"create connection action test (do not change)",
+	"modifiedTime":1749022542948,
+	"name":"Create connection action test (Do not change)",
+	"nodes":[
+		{
+			"context":{
+				"appName":"standard_entities",
+				"resourceVersion":702,
+				"resourceName":"standard_entities_on_user_login"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"Zb00f-1",
+			"id":"U6g0X",
+			"index":0,
+			"inputs":{},
+			"skip":false,
+			"subTitle":"Standard entities by UnifyApps",
+			"title":"On user login",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"standard_entities",
+				"resourceVersion":1,
+				"resourceName":"standard_entities_create_connection",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"Zb00f-1",
+			"id":"SEsOn",
+			"index":0,
+			"inputs":{
+				"inputSchema":{
+					"type":"object",
+					"properties":{
+						"clientId":{
+							"type":"string",
+							"title":"Client Id"
+						},
+						"clientSecret":{
+							"type":"string",
+							"title":"Client Secret"
+						},
+						"tenantId":{
+							"type":"string",
+							"title":"Tenant Id"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"clientId",
+						"clientSecret",
+						"tenantId"
+					]
+				},
+				"appName":"microsoft_suite",
+				"name":"Standard entity connection",
+				"authType":"OAUTH"
+			},
+			"skip":false,
+			"subTitle":"Standard entities by UnifyApps",
+			"title":"Create connection",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":33409,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":4
+}
