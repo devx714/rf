@@ -1,0 +1,2487 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1737718021968,
+	"deleted":false,
+	"deployedVersion":2,
+	"deploymentState":{
+		"deployedAt":1749281270412,
+		"deployedBy":894,
+		"deployedDefinitionId":"6843e9f6d0be3335dc75dd7f",
+		"status":"DEPLOYED",
+		"version":2,
+		"workflowVersion":83
+	},
+	"edges":[
+		{
+			"fromNodeId":"_Qo1RJ",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_FvKeP",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_FvKeP",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_OEJ03",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"_OEJ03",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_vSKcz",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_FvKeP",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_vSKcz",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_vSKcz",
+			"name":"1",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_vSKcz@1",
+			"type":"branch"
+		},
+		{
+			"fromNodeId":"_vSKcz@1",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_fIte6",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_fIte6",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_1EC0o",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"_1EC0o",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_5X8vD",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_fIte6",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_5X8vD",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_5X8vD",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_yJ3w8",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_yJ3w8",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_MRM6B",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"_MRM6B",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_8H3ps",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_yJ3w8",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_8H3ps",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_8H3ps",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_VXcF0",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"_VXcF0",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_vSkox",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_8H3ps",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_vSkox",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_vSKcz",
+			"name":"2",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_vSKcz@2",
+			"type":"branch"
+		},
+		{
+			"fromNodeId":"_vSKcz@2",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_HLGMI",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_HLGMI",
+			"name":"1",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_HLGMI@1",
+			"type":"branch"
+		},
+		{
+			"fromNodeId":"_HLGMI@1",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_RbnP3",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_RbnP3",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_eaaPU",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_eaaPU",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_1pkql",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"_1pkql",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_ToNC5",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_eaaPU",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_ToNC5",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_ToNC5",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_hIDNq",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"_hIDNq",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_yPcwN",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_ToNC5",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_yPcwN",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_HLGMI",
+			"name":"2",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_HLGMI@2",
+			"type":"branch"
+		},
+		{
+			"fromNodeId":"_HLGMI@2",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_nRVQt",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_nRVQt",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_Fqldg",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_Fqldg",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_IKDvB",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"_IKDvB",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_PBFNG",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_Fqldg",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_PBFNG",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_PBFNG",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_45fDa",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"_45fDa",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_6qPmD",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_PBFNG",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_6qPmD",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_HLGMI",
+			"name":"3",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_HLGMI@3",
+			"type":"branch"
+		},
+		{
+			"fromNodeId":"_HLGMI@3",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_8L3UU",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_8L3UU",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_Db6nq",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_Db6nq",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_N5DRd",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"_N5DRd",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_1qcwC",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_Db6nq",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_1qcwC",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_1qcwC",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_qov6Z",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"_qov6Z",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_jxOxz",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_1qcwC",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_jxOxz",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_HLGMI",
+			"name":"default",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_9qOea",
+			"type":"branch"
+		},
+		{
+			"fromNodeId":"_vSKcz",
+			"name":"3",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_vSKcz@3",
+			"type":"branch"
+		},
+		{
+			"fromNodeId":"_vSKcz@3",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_l3Vgs",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_l3Vgs",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_4SRlz",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"_4SRlz",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_w3MAy",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_l3Vgs",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_w3MAy",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_w3MAy",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_xxRzC",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_xxRzC",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_IhzxM",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"_IhzxM",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_ICkYo",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_xxRzC",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_ICkYo",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_ICkYo",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_GVzsD",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"_GVzsD",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_Rtr2X",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_ICkYo",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_Rtr2X",
+			"type":"next"
+		}
+	],
+	"id":"670ce68916f2ea03f82f6ba4",
+	"lastModifiedBy":894,
+	"lcName":"populate default values in request (jubilant nfa)",
+	"modifiedTime":1749281270413,
+	"name":"Populate Default Values in Request (Jubilant NFA)",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":2,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_f5uHU-1",
+			"id":"_Qo1RJ",
+			"index":0,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"requestType":{
+							"type":"string",
+							"title":"Request Type"
+						},
+						"requestFor":{
+							"type":"string",
+							"title":"Request For"
+						},
+						"buyingDescription":{
+							"type":"string",
+							"title":"Buying Description"
+						},
+						"departments":{
+							"type":"array",
+							"items":{
+								"type":"string"
+							},
+							"title":"Departments"
+						},
+						"business_units":{
+							"type":"array",
+							"items":{
+								"type":"string"
+							},
+							"title":"Business Units"
+						},
+						"itemCategory":{
+							"type":"string",
+							"title":"Item Category"
+						},
+						"total_value_excl":{
+							"type":"string",
+							"title":"Total Value Excl"
+						},
+						"total_value_incl":{
+							"type":"string",
+							"title":"Total Value Incl"
+						},
+						"total_quantity":{
+							"type":"string",
+							"title":"Total Quantity"
+						},
+						"uom":{
+							"type":"string",
+							"title":"Uom"
+						},
+						"additional_costs":{
+							"type":"string",
+							"title":"Additional Costs"
+						},
+						"sobJustification":{
+							"type":"string",
+							"title":"Sob Justification"
+						},
+						"sourcingMethod":{
+							"type":"string",
+							"title":"Sourcing Method"
+						},
+						"approvalTypes":{
+							"type":"string",
+							"title":"Approval Types"
+						},
+						"remarks":{
+							"type":"string",
+							"title":"Remarks"
+						},
+						"result":{
+							"type":"string",
+							"title":"Result"
+						},
+						"request_id":{
+							"type":"string",
+							"title":"Request Id"
+						},
+						"reference_approval_note":{
+							"type":"string",
+							"title":"Reference Approval Note"
+						},
+						"existing_approval_note":{
+							"type":"string",
+							"title":"Existing Approval Note"
+						},
+						"vendor_files":{
+							"type":"array",
+							"items":{
+								"type":"object",
+								"properties":{},
+								"additionalProperties":false
+							},
+							"title":"Vendor Files"
+						},
+						"additional_files":{
+							"type":"array",
+							"items":{
+								"type":"object",
+								"properties":{},
+								"additionalProperties":false
+							},
+							"title":"Additional Files"
+						},
+						"reason_for_amendment":{
+							"type":"string",
+							"title":"Reason For Amendment"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"setup":{
+					"type":"object",
+					"properties":{
+						"page_function":{
+							"type":"string",
+							"title":"Page Function"
+						},
+						"current_request_id":{
+							"type":"string",
+							"title":"Current Request ID"
+						},
+						"reference_request_id":{
+							"type":"string",
+							"title":"Reference Request ID"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger from automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":5,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_f5uHU-1",
+			"id":"_FvKeP",
+			"index":0,
+			"inputs":{
+				"filters":[
+					{
+						"property":"{{ _Qo1RJ.outputs.current_request_id }}",
+						"filter":{
+							"operator":"MISSING"
+						}
+					},
+					{
+						"property":"{{ _Qo1RJ.outputs.reference_request_id }}",
+						"filter":{
+							"operator":"MISSING"
+						}
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":6,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_FvKeP@_f5uHU-1@y",
+			"id":"_OEJ03",
+			"index":0,
+			"inputs":{
+				"result":{
+					"result":"200 - Success"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		},
+		{
+			"context":{
+				"appName":"branch",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_f5uHU-1",
+			"id":"_vSKcz",
+			"index":0,
+			"inputs":{
+				"branches":[
+					{
+						"id":"1",
+						"inputs":{
+							"name":"Branch 1",
+							"conditions":{
+								"filters":[
+									{
+										"property":"{{ _Qo1RJ.outputs.page_function }}",
+										"filter":{
+											"operator":"EQUAL",
+											"value":"new"
+										}
+									}
+								],
+								"operator":"AND"
+							}
+						}
+					},
+					{
+						"id":"2",
+						"inputs":{
+							"name":"Branch 2",
+							"conditions":{
+								"filters":[
+									{
+										"property":"1",
+										"filter":{
+											"operator":"EQUAL",
+											"value":"0"
+										}
+									}
+								],
+								"operator":"OR"
+							}
+						}
+					},
+					{
+						"id":"3",
+						"inputs":{
+							"name":"Branch 3",
+							"conditions":{
+								"filters":[
+									{
+										"property":"{{ _Qo1RJ.outputs.page_function }}",
+										"filter":{
+											"operator":"EQUAL",
+											"value":"view"
+										}
+									},
+									{
+										"property":"{{ _Qo1RJ.outputs.page_function }}",
+										"filter":{
+											"operator":"EQUAL",
+											"value":"edit"
+										}
+									}
+								],
+								"operator":"OR"
+							}
+						}
+					},
+					{
+						"id":"default"
+					}
+				]
+			},
+			"skip":false,
+			"subTitle":"Branch",
+			"title":"",
+			"type":"BRANCH"
+		},
+		{
+			"context":{
+				"appName":"branch_condition",
+				"resourceVersion":2,
+				"resourceName":"branch_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_vSKcz@_f5uHU-1@1",
+			"id":"_vSKcz@1",
+			"index":0,
+			"inputs":{
+				"name":"Branch 1",
+				"conditions":{
+					"filters":[
+						{
+							"property":"{{ _Qo1RJ.outputs.page_function }}",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"new"
+							}
+						}
+					],
+					"operator":"AND"
+				}
+			},
+			"skip":false,
+			"title":"",
+			"type":"BRANCH_CONDITION"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":5,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_vSKcz@_f5uHU-1@1",
+			"id":"_fIte6",
+			"index":0,
+			"inputs":{
+				"filters":[
+					{
+						"property":"{{ _Qo1RJ.outputs.reference_request_id }}",
+						"filter":{
+							"operator":"EQUAL",
+							"value":"9956744355"
+						}
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":6,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_fIte6@_vSKcz@_f5uHU-1@1@y",
+			"id":"_1EC0o",
+			"index":0,
+			"inputs":{
+				"result":{
+					"result":"200"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":334,
+				"resourceName":"storage_by_unifyapps_fetch_records",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_vSKcz@_f5uHU-1@1",
+			"id":"_5X8vD",
+			"index":0,
+			"inputs":{
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"properties_request_id",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"{{ _Qo1RJ.outputs.reference_request_id }}"
+							}
+						}
+					],
+					"operator":"AND"
+				},
+				"object_type":"nfa_request_table",
+				"page":{
+					"limit":20,
+					"offset":0
+				},
+				"numberOfRecordsToFetch":"SINGLE",
+				"includeTotalCount":false
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Fetch records",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":2,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_vSKcz@_f5uHU-1@1",
+			"id":"_yJ3w8",
+			"index":0,
+			"inputs":{
+				"filters":[
+					{
+						"property":"{{ _5X8vD.outputs.properties.departments }}",
+						"filter":{
+							"operator":"EXISTS"
+						}
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":2,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_yJ3w8@_vSKcz@_f5uHU-1@1@y",
+			"id":"_MRM6B",
+			"index":0,
+			"inputs":{
+				"output":{
+					"type":"object",
+					"properties":{
+						"departments":{
+							"type":"array",
+							"items":{
+								"type":"string"
+							},
+							"title":"Departments"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"input":{
+					"type":"object",
+					"properties":{
+						"departments":{
+							"type":"string",
+							"title":"Departments"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"code":"def convertStringToArray(input) {\n    // Remove the square brackets and extra quotes\n    input = input.replaceAll(/^\\[|\\]$/, '').replaceAll(/\\\\\\\"/, '\\\"')\n\n    // Split the string by comma and remove extra quotes around each element\n    def array = input.split(/,(?=\\\")/).collect { it.replaceAll(/^\"|\"$/, '') }\n\n    return array\n}\n\n// Process each element in the departments list, flatten the result, and add to a Set to ensure uniqueness\ndef department_result = departments.collect { convertStringToArray(it) }.flatten().toSet()\nreturn department_result.toList()",
+				"isAsync":false,
+				"parameters":{
+					"departments":"{{ _5X8vD.outputs.properties.departments }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Departments",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":2,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_vSKcz@_f5uHU-1@1",
+			"id":"_8H3ps",
+			"index":0,
+			"inputs":{
+				"filters":[
+					{
+						"property":"{{ _5X8vD.outputs.properties.business_unit }}",
+						"filter":{
+							"operator":"EXISTS"
+						}
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":2,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_8H3ps@_vSKcz@_f5uHU-1@1@y",
+			"id":"_VXcF0",
+			"index":0,
+			"inputs":{
+				"output":{
+					"type":"object",
+					"properties":{
+						"business_unit_r":{
+							"type":"array",
+							"items":{
+								"type":"string"
+							},
+							"title":"Business Unit R"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"input":{
+					"type":"object",
+					"properties":{
+						"business_unit":{
+							"type":"string",
+							"title":"Business Unit"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"code":"def convertStringToArray(input) {\n    // Remove the square brackets and extra quotes\n    input = input.replaceAll(/^\\[|\\]$/, '').replaceAll(/\\\\\\\"/, '\\\"')\n\n    // Split the string by comma and remove extra quotes around each element\n    def array = input.split(/,(?=\\\")/).collect { it.replaceAll(/^\"|\"$/, '') }\n\n    return array\n}\n\ndef departments = [\n    \"[\\\"Dominos Pizza SriLanka\\\"]\",\n    \"[\\\"Dominos Pizza India\\\"]\"\n]\n\n// Process each element in the departments list and flatten the result\ndef department_result = departments.collect { convertStringToArray(it) }.flatten()\nreturn department_result",
+				"isAsync":false,
+				"parameters":{
+					"business_unit":"{{ _5X8vD.outputs.properties.business_unit }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Business Units",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":3,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_vSKcz@_f5uHU-1@1",
+			"id":"_vSkox",
+			"index":0,
+			"inputs":{
+				"result":{
+					"business_units":{
+						"ua:type":"mappedArray",
+						"source":"{{ _5X8vD.outputs.properties.business_unit }}",
+						"items":"{{ _5X8vD.outputs.properties.business_unit[0] }}"
+					},
+					"total_value_excl":"=TEXT({{ _5X8vD.outputs.properties.total_value_excl }},\"0\")",
+					"total_value_incl":"=TEXT({{ _5X8vD.outputs.properties.total_value_incl }},\"0\")",
+					"total_quantity":"=TEXT({{ _5X8vD.outputs.properties.quantity }},\"0\")",
+					"departments":{
+						"ua:type":"mappedArray",
+						"source":"{{ _5X8vD.outputs.properties.departments }}",
+						"items":"{{ _5X8vD.outputs.properties.departments[0] }}"
+					},
+					"request_id":"=TEXT({{ _Qo1RJ.outputs.current_request_id }},\"0\")",
+					"vendor_files":{
+						"ua:type":"mappedArray",
+						"source":"{{ _5X8vD.outputs.properties.vendor_communication }}",
+						"items":"{{ _5X8vD.outputs.properties.vendor_communication[0] }}"
+					},
+					"additional_files":{
+						"ua:type":"mappedArray",
+						"source":"{{ _5X8vD.outputs.properties.additional_attachments }}",
+						"items":"{{ _5X8vD.outputs.properties.additional_attachments[0] }}"
+					},
+					"requestType":"{{ _5X8vD.outputs.properties.request_type }}",
+					"requestFor":"{{ _5X8vD.outputs.properties.request_for }}",
+					"buyingDescription":"{{ _5X8vD.outputs.properties.buying_description }}",
+					"itemCategory":"{{ _5X8vD.outputs.properties.item_category }}",
+					"uom":"{{ _5X8vD.outputs.properties.uom }}",
+					"additional_costs":"{{ _5X8vD.outputs.properties.additional_cost }}",
+					"sobJustification":"{{ _5X8vD.outputs.properties.sob_justification }}",
+					"sourcingMethod":"{{ _5X8vD.outputs.properties.sourcing_method }}",
+					"approvalTypes":"{{ _5X8vD.outputs.properties.approval_type }}",
+					"remarks":"{{ _5X8vD.outputs.properties.remarks }}",
+					"reference_approval_note":"{{ _5X8vD.outputs.properties.reference_approval_note }}",
+					"existing_approval_note":"{{ _5X8vD.outputs.properties.existing_approval_note }}",
+					"reason_for_amendment":"{{ _5X8vD.outputs.properties.reason_for_amendment }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		},
+		{
+			"context":{
+				"appName":"branch_condition",
+				"resourceVersion":2,
+				"resourceName":"branch_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_vSKcz@_f5uHU-1@2",
+			"id":"_vSKcz@2",
+			"index":0,
+			"inputs":{
+				"name":"Branch 2",
+				"conditions":{
+					"filters":[
+						{
+							"property":"1",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"0"
+							}
+						}
+					],
+					"operator":"OR"
+				}
+			},
+			"skip":false,
+			"title":"",
+			"type":"BRANCH_CONDITION"
+		},
+		{
+			"context":{
+				"appName":"branch",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_vSKcz@_f5uHU-1@2",
+			"id":"_HLGMI",
+			"index":0,
+			"inputs":{
+				"branches":[
+					{
+						"id":"1",
+						"inputs":{
+							"name":"Branch 1",
+							"conditions":{
+								"filters":[
+									{
+										"property":"{{ _Qo1RJ.outputs.current_request_id }}",
+										"filter":{
+											"operator":"EXISTS"
+										}
+									},
+									{
+										"property":"{{ _Qo1RJ.outputs.reference_request_id }}",
+										"filter":{
+											"operator":"MISSING"
+										}
+									}
+								],
+								"operator":"AND"
+							}
+						}
+					},
+					{
+						"id":"2",
+						"inputs":{
+							"name":"Branch 2",
+							"conditions":{
+								"filters":[
+									{
+										"property":"{{ _Qo1RJ.outputs.current_request_id }}",
+										"filter":{
+											"operator":"MISSING"
+										}
+									},
+									{
+										"property":"{{ _Qo1RJ.outputs.reference_request_id }}",
+										"filter":{
+											"operator":"EXISTS"
+										}
+									}
+								],
+								"operator":"AND"
+							}
+						}
+					},
+					{
+						"id":"3",
+						"inputs":{
+							"name":"Branch 3",
+							"conditions":{
+								"filters":[
+									{
+										"property":"{{ _Qo1RJ.outputs.current_request_id }}",
+										"filter":{
+											"operator":"EXISTS"
+										}
+									},
+									{
+										"property":"{{ _Qo1RJ.outputs.reference_request_id }}",
+										"filter":{
+											"operator":"EXISTS"
+										}
+									}
+								],
+								"operator":"AND"
+							}
+						}
+					},
+					{
+						"id":"default"
+					}
+				]
+			},
+			"skip":false,
+			"subTitle":"Branch",
+			"title":"",
+			"type":"BRANCH"
+		},
+		{
+			"context":{
+				"appName":"branch_condition",
+				"resourceVersion":5,
+				"resourceName":"branch_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HLGMI@_vSKcz@_f5uHU-1@2@1",
+			"id":"_HLGMI@1",
+			"index":0,
+			"inputs":{
+				"name":"Branch 1",
+				"conditions":{
+					"filters":[
+						{
+							"property":"{{ _Qo1RJ.outputs.current_request_id }}",
+							"filter":{
+								"operator":"EXISTS"
+							}
+						},
+						{
+							"property":"{{ _Qo1RJ.outputs.reference_request_id }}",
+							"filter":{
+								"operator":"MISSING"
+							}
+						}
+					],
+					"operator":"AND"
+				}
+			},
+			"skip":false,
+			"title":"",
+			"type":"BRANCH_CONDITION"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":334,
+				"resourceName":"storage_by_unifyapps_fetch_records",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HLGMI@_vSKcz@_f5uHU-1@2@1",
+			"id":"_RbnP3",
+			"index":0,
+			"inputs":{
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"properties_request_id",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"{{ _Qo1RJ.outputs.current_request_id }}"
+							}
+						}
+					],
+					"operator":"AND"
+				},
+				"object_type":"nfa_request_table",
+				"page":{
+					"limit":20,
+					"offset":0
+				},
+				"numberOfRecordsToFetch":"SINGLE",
+				"includeTotalCount":false
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Fetch records",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":2,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HLGMI@_vSKcz@_f5uHU-1@2@1",
+			"id":"_eaaPU",
+			"index":0,
+			"inputs":{
+				"filters":[
+					{
+						"property":"{{ _RbnP3.outputs.properties.departments }}",
+						"filter":{
+							"operator":"EXISTS"
+						}
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":2,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_eaaPU@_HLGMI@_vSKcz@_f5uHU-1@2@1@y",
+			"id":"_1pkql",
+			"index":0,
+			"inputs":{
+				"output":{
+					"type":"object",
+					"properties":{
+						"departments":{
+							"type":"array",
+							"items":{
+								"type":"string"
+							},
+							"title":"Departments"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"input":{
+					"type":"object",
+					"properties":{
+						"departments":{
+							"type":"string",
+							"title":"Departments"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"code":"def convertStringToArray(input) {\n    // Remove the square brackets and extra quotes\n    input = input.replaceAll(/^\\[|\\]$/, '').replaceAll(/\\\\\\\"/, '\\\"')\n\n    // Split the string by comma and remove extra quotes around each element\n    def array = input.split(/,(?=\\\")/).collect { it.replaceAll(/^\"|\"$/, '') }\n\n    return array\n}\n\n// Process each element in the departments list, flatten the result, and add to a Set to ensure uniqueness\ndef department_result = departments.collect { convertStringToArray(it) }.flatten().toSet()\nreturn department_result.toList()",
+				"isAsync":false,
+				"parameters":{
+					"departments":"{{ _RbnP3.outputs.properties.departments }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Departments",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":2,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HLGMI@_vSKcz@_f5uHU-1@2@1",
+			"id":"_ToNC5",
+			"index":0,
+			"inputs":{
+				"filters":[
+					{
+						"property":"{{ _RbnP3.outputs.properties.business_unit }}",
+						"filter":{
+							"operator":"EXISTS"
+						}
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":2,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ToNC5@_HLGMI@_vSKcz@_f5uHU-1@2@1@y",
+			"id":"_hIDNq",
+			"index":0,
+			"inputs":{
+				"output":{
+					"type":"object",
+					"properties":{
+						"business_unit_r":{
+							"type":"array",
+							"items":{
+								"type":"string"
+							},
+							"title":"Business Unit R"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"input":{
+					"type":"object",
+					"properties":{
+						"business_unit":{
+							"type":"string",
+							"title":"Business Unit"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"code":"def convertStringToArray(input) {\n    // Remove the square brackets and extra quotes\n    input = input.replaceAll(/^\\[|\\]$/, '').replaceAll(/\\\\\\\"/, '\\\"')\n\n    // Split the string by comma and remove extra quotes around each element\n    def array = input.split(/,(?=\\\")/).collect { it.replaceAll(/^\"|\"$/, '') }\n\n    return array\n}\n\ndef departments = [\n    \"[\\\"Dominos Pizza SriLanka\\\"]\",\n    \"[\\\"Dominos Pizza India\\\"]\"\n]\n\n// Process each element in the departments list and flatten the result\ndef department_result = departments.collect { convertStringToArray(it) }.flatten()\nreturn department_result",
+				"isAsync":false,
+				"parameters":{
+					"business_unit":"{{ _RbnP3.outputs.properties.business_unit }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Business Units",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":3,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HLGMI@_vSKcz@_f5uHU-1@2@1",
+			"id":"_yPcwN",
+			"index":0,
+			"inputs":{
+				"result":{
+					"requestType":"{{ _RbnP3.outputs.properties.request_type }}",
+					"requestFor":"{{ _RbnP3.outputs.properties.request_for }}",
+					"buyingDescription":"{{ _RbnP3.outputs.properties.buying_description }}",
+					"business_units":{
+						"ua:type":"mappedArray",
+						"source":"{{ _hIDNq.outputs.result }}",
+						"items":"{{ _hIDNq.outputs.result[0] }}"
+					},
+					"itemCategory":"{{ _RbnP3.outputs.properties.item_category }}",
+					"total_value_excl":"=TEXT({{ _RbnP3.outputs.properties.total_value_excl }},\"0\")",
+					"total_value_incl":"=TEXT({{ _RbnP3.outputs.properties.total_value_incl }},\"0\")",
+					"total_quantity":"=TEXT({{ _RbnP3.outputs.properties.total_quantity }},\"0\")",
+					"additional_costs":"{{ _RbnP3.outputs.properties.additional_cost }}",
+					"sobJustification":"{{ _RbnP3.outputs.properties.sob_justification }}",
+					"sourcingMethod":"{{ _RbnP3.outputs.properties.sourcing_method }}",
+					"approvalTypes":"{{ _RbnP3.outputs.properties.approval_type }}",
+					"remarks":"{{ _RbnP3.outputs.properties.remarks }}",
+					"departments":{
+						"source":"{{ _1pkql.outputs.result }}",
+						"ua:type":"mappedArray",
+						"items":"{{ _1pkql.outputs.result[0] }}"
+					},
+					"uom":"{{ _RbnP3.outputs.properties.uom }}",
+					"request_id":"=TEXT({{ _RbnP3.outputs.properties.request_id }},\"0\")",
+					"reference_approval_note":"{{ _RbnP3.outputs.properties.reference_approval_note }}",
+					"existing_approval_note":"{{ _RbnP3.outputs.properties.existing_approval_note }}",
+					"vendor_files":{
+						"source":"{{ _RbnP3.outputs.properties.vendor_communication }}",
+						"ua:type":"mappedArray",
+						"items":"{{ _RbnP3.outputs.properties.vendor_communication[0] }}"
+					},
+					"additional_files":{
+						"source":"{{ _RbnP3.outputs.properties.additional_attachments }}",
+						"ua:type":"mappedArray",
+						"items":"{{ _RbnP3.outputs.properties.additional_attachments[0] }}"
+					},
+					"reason_for_amendment":"{{ _RbnP3.outputs.properties.reason_for_amendment }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		},
+		{
+			"context":{
+				"appName":"branch_condition",
+				"resourceVersion":5,
+				"resourceName":"branch_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HLGMI@_vSKcz@_f5uHU-1@2@2",
+			"id":"_HLGMI@2",
+			"index":0,
+			"inputs":{
+				"name":"Branch 2",
+				"conditions":{
+					"filters":[
+						{
+							"property":"{{ _Qo1RJ.outputs.current_request_id }}",
+							"filter":{
+								"operator":"MISSING"
+							}
+						},
+						{
+							"property":"{{ _Qo1RJ.outputs.reference_request_id }}",
+							"filter":{
+								"operator":"EXISTS"
+							}
+						}
+					],
+					"operator":"AND"
+				}
+			},
+			"skip":false,
+			"title":"",
+			"type":"BRANCH_CONDITION"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":334,
+				"resourceName":"storage_by_unifyapps_fetch_records",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HLGMI@_vSKcz@_f5uHU-1@2@2",
+			"id":"_nRVQt",
+			"index":0,
+			"inputs":{
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"properties_request_id",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"{{ _Qo1RJ.outputs.reference_request_id }}"
+							}
+						}
+					],
+					"operator":"AND"
+				},
+				"object_type":"nfa_request_table",
+				"page":{
+					"limit":20,
+					"offset":0
+				},
+				"numberOfRecordsToFetch":"SINGLE",
+				"includeTotalCount":false
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Fetch records",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":2,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HLGMI@_vSKcz@_f5uHU-1@2@2",
+			"id":"_Fqldg",
+			"index":0,
+			"inputs":{
+				"filters":[
+					{
+						"property":"{{ _nRVQt.outputs.properties.departments }}",
+						"filter":{
+							"operator":"EXISTS"
+						}
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":2,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Fqldg@_HLGMI@_vSKcz@_f5uHU-1@2@2@y",
+			"id":"_IKDvB",
+			"index":0,
+			"inputs":{
+				"output":{
+					"type":"object",
+					"properties":{
+						"departments":{
+							"type":"array",
+							"items":{
+								"type":"string"
+							},
+							"title":"Departments"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"input":{
+					"type":"object",
+					"properties":{
+						"departments":{
+							"type":"string",
+							"title":"Departments"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"code":"def convertStringToArray(input) {\n    // Remove the square brackets and extra quotes\n    input = input.replaceAll(/^\\[|\\]$/, '').replaceAll(/\\\\\\\"/, '\\\"')\n\n    // Split the string by comma and remove extra quotes around each element\n    def array = input.split(/,(?=\\\")/).collect { it.replaceAll(/^\"|\"$/, '') }\n\n    return array\n}\n\n// Process each element in the departments list, flatten the result, and add to a Set to ensure uniqueness\ndef department_result = departments.collect { convertStringToArray(it) }.flatten().toSet()\nreturn department_result.toList()",
+				"isAsync":false,
+				"parameters":{
+					"departments":"{{ _nRVQt.outputs.properties.departments }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Departments",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":2,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HLGMI@_vSKcz@_f5uHU-1@2@2",
+			"id":"_PBFNG",
+			"index":0,
+			"inputs":{
+				"filters":[
+					{
+						"property":"{{ _nRVQt.outputs.properties.business_unit }}",
+						"filter":{
+							"operator":"EXISTS"
+						}
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":2,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_PBFNG@_HLGMI@_vSKcz@_f5uHU-1@2@2@y",
+			"id":"_45fDa",
+			"index":0,
+			"inputs":{
+				"output":{
+					"type":"object",
+					"properties":{
+						"business_unit_r":{
+							"type":"array",
+							"items":{
+								"type":"string"
+							},
+							"title":"Business Unit R"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"input":{
+					"type":"object",
+					"properties":{
+						"business_unit":{
+							"type":"string",
+							"title":"Business Unit"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"code":"def convertStringToArray(input) {\n    // Remove the square brackets and extra quotes\n    input = input.replaceAll(/^\\[|\\]$/, '').replaceAll(/\\\\\\\"/, '\\\"')\n\n    // Split the string by comma and remove extra quotes around each element\n    def array = input.split(/,(?=\\\")/).collect { it.replaceAll(/^\"|\"$/, '') }\n\n    return array\n}\n\ndef departments = [\n    \"[\\\"Dominos Pizza SriLanka\\\"]\",\n    \"[\\\"Dominos Pizza India\\\"]\"\n]\n\n// Process each element in the departments list and flatten the result\ndef department_result = departments.collect { convertStringToArray(it) }.flatten()\nreturn department_result",
+				"isAsync":false,
+				"parameters":{
+					"business_unit":"{{ _nRVQt.outputs.properties.business_unit }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Business Units",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":3,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HLGMI@_vSKcz@_f5uHU-1@2@2",
+			"id":"_6qPmD",
+			"index":0,
+			"inputs":{
+				"result":{
+					"requestType":"{{ _nRVQt.outputs.properties.request_type }}",
+					"requestFor":"{{ _nRVQt.outputs.properties.request_for }}",
+					"buyingDescription":"{{ _nRVQt.outputs.properties.buying_description }}",
+					"business_units":{
+						"ua:type":"mappedArray",
+						"source":"{{ _45fDa.outputs.result }}",
+						"items":"{{ _45fDa.outputs.result[0] }}"
+					},
+					"itemCategory":"{{ _nRVQt.outputs.properties.item_category }}",
+					"total_value_excl":"=TEXT({{ _nRVQt.outputs.properties.total_value_excl }},\"0\")",
+					"total_value_incl":"=TEXT({{ _nRVQt.outputs.properties.total_value_incl }},\"0\")",
+					"total_quantity":"=TEXT({{ _nRVQt.outputs.properties.total_quantity }},\"0\")",
+					"additional_costs":"{{ _nRVQt.outputs.properties.additional_cost }}",
+					"sobJustification":"{{ _nRVQt.outputs.properties.sob_justification }}",
+					"sourcingMethod":"{{ _nRVQt.outputs.properties.sourcing_method }}",
+					"approvalTypes":"{{ _nRVQt.outputs.properties.approval_type }}",
+					"remarks":"{{ _nRVQt.outputs.properties.remarks }}",
+					"departments":{
+						"source":"{{ _IKDvB.outputs.result }}",
+						"ua:type":"mappedArray",
+						"items":"{{ _IKDvB.outputs.result[0] }}"
+					},
+					"uom":"{{ _nRVQt.outputs.properties.uom }}",
+					"request_id":"=TEXT({{ _nRVQt.outputs.properties.request_id }},\"0\")",
+					"reference_approval_note":"{{ _nRVQt.outputs.properties.reference_approval_note }}",
+					"existing_approval_note":"{{ _nRVQt.outputs.properties.existing_approval_note }}",
+					"vendor_files":{
+						"source":"{{ _nRVQt.outputs.properties.vendor_communication }}",
+						"ua:type":"mappedArray",
+						"items":"{{ _nRVQt.outputs.properties.vendor_communication[0] }}"
+					},
+					"additional_files":{
+						"source":"{{ _nRVQt.outputs.properties.additional_attachments }}",
+						"ua:type":"mappedArray",
+						"items":"{{ _nRVQt.outputs.properties.additional_attachments[0] }}"
+					},
+					"reason_for_amendment":"{{ _nRVQt.outputs.properties.reason_for_amendment }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		},
+		{
+			"context":{
+				"appName":"branch_condition",
+				"resourceVersion":5,
+				"resourceName":"branch_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HLGMI@_vSKcz@_f5uHU-1@2@3",
+			"id":"_HLGMI@3",
+			"index":0,
+			"inputs":{
+				"name":"Branch 3",
+				"conditions":{
+					"filters":[
+						{
+							"property":"{{ _Qo1RJ.outputs.current_request_id }}",
+							"filter":{
+								"operator":"EXISTS"
+							}
+						},
+						{
+							"property":"{{ _Qo1RJ.outputs.reference_request_id }}",
+							"filter":{
+								"operator":"EXISTS"
+							}
+						}
+					],
+					"operator":"AND"
+				}
+			},
+			"skip":false,
+			"title":"",
+			"type":"BRANCH_CONDITION"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":334,
+				"resourceName":"storage_by_unifyapps_fetch_records",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HLGMI@_vSKcz@_f5uHU-1@2@3",
+			"id":"_8L3UU",
+			"index":0,
+			"inputs":{
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"properties_request_id",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"{{ _Qo1RJ.outputs.reference_request_id }}"
+							}
+						}
+					],
+					"operator":"AND"
+				},
+				"object_type":"nfa_request_table",
+				"page":{
+					"limit":20,
+					"offset":0
+				},
+				"numberOfRecordsToFetch":"SINGLE",
+				"includeTotalCount":false
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Fetch records",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":2,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HLGMI@_vSKcz@_f5uHU-1@2@3",
+			"id":"_Db6nq",
+			"index":0,
+			"inputs":{
+				"filters":[
+					{
+						"property":"{{ _8L3UU.outputs.properties.departments }}",
+						"filter":{
+							"operator":"EXISTS"
+						}
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":2,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Db6nq@_HLGMI@_vSKcz@_f5uHU-1@2@3@y",
+			"id":"_N5DRd",
+			"index":0,
+			"inputs":{
+				"output":{
+					"type":"object",
+					"properties":{
+						"departments":{
+							"type":"array",
+							"items":{
+								"type":"string"
+							},
+							"title":"Departments"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"input":{
+					"type":"object",
+					"properties":{
+						"departments":{
+							"type":"string",
+							"title":"Departments"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"code":"def convertStringToArray(input) {\n    // Remove the square brackets and extra quotes\n    input = input.replaceAll(/^\\[|\\]$/, '').replaceAll(/\\\\\\\"/, '\\\"')\n\n    // Split the string by comma and remove extra quotes around each element\n    def array = input.split(/,(?=\\\")/).collect { it.replaceAll(/^\"|\"$/, '') }\n\n    return array\n}\n\n// Process each element in the departments list, flatten the result, and add to a Set to ensure uniqueness\ndef department_result = departments.collect { convertStringToArray(it) }.flatten().toSet()\nreturn department_result.toList()",
+				"isAsync":false,
+				"parameters":{
+					"departments":"{{ _8L3UU.outputs.properties.departments }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Departments",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":2,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HLGMI@_vSKcz@_f5uHU-1@2@3",
+			"id":"_1qcwC",
+			"index":0,
+			"inputs":{
+				"filters":[
+					{
+						"property":"{{ _8L3UU.outputs.properties.business_unit }}",
+						"filter":{
+							"operator":"EXISTS"
+						}
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":2,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_1qcwC@_HLGMI@_vSKcz@_f5uHU-1@2@3@y",
+			"id":"_qov6Z",
+			"index":0,
+			"inputs":{
+				"output":{
+					"type":"object",
+					"properties":{
+						"business_unit_r":{
+							"type":"array",
+							"items":{
+								"type":"string"
+							},
+							"title":"Business Unit R"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"input":{
+					"type":"object",
+					"properties":{
+						"business_unit":{
+							"type":"string",
+							"title":"Business Unit"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"code":"def convertStringToArray(input) {\n    // Remove the square brackets and extra quotes\n    input = input.replaceAll(/^\\[|\\]$/, '').replaceAll(/\\\\\\\"/, '\\\"')\n\n    // Split the string by comma and remove extra quotes around each element\n    def array = input.split(/,(?=\\\")/).collect { it.replaceAll(/^\"|\"$/, '') }\n\n    return array\n}\n\ndef departments = [\n    \"[\\\"Dominos Pizza SriLanka\\\"]\",\n    \"[\\\"Dominos Pizza India\\\"]\"\n]\n\n// Process each element in the departments list and flatten the result\ndef department_result = departments.collect { convertStringToArray(it) }.flatten()\nreturn department_result",
+				"isAsync":false,
+				"parameters":{
+					"business_unit":"{{ _8L3UU.outputs.properties.business_unit }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Business Units",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":3,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HLGMI@_vSKcz@_f5uHU-1@2@3",
+			"id":"_jxOxz",
+			"index":0,
+			"inputs":{
+				"result":{
+					"requestType":"{{ _8L3UU.outputs.properties.request_type }}",
+					"requestFor":"{{ _8L3UU.outputs.properties.request_for }}",
+					"buyingDescription":"{{ _8L3UU.outputs.properties.buying_description }}",
+					"business_units":{
+						"ua:type":"mappedArray",
+						"source":"{{ _qov6Z.outputs.result }}",
+						"items":"{{ _qov6Z.outputs.result[0] }}"
+					},
+					"itemCategory":"{{ _8L3UU.outputs.properties.item_category }}",
+					"total_value_excl":"=TEXT({{ _8L3UU.outputs.properties.total_value_excl }},\"0\")",
+					"total_value_incl":"=TEXT({{ _8L3UU.outputs.properties.total_value_incl }},\"0\")",
+					"total_quantity":"=TEXT({{ _8L3UU.outputs.properties.total_quantity }},\"0\")",
+					"additional_costs":"{{ _8L3UU.outputs.properties.additional_cost }}",
+					"sobJustification":"{{ _8L3UU.outputs.properties.sob_justification }}",
+					"sourcingMethod":"{{ _8L3UU.outputs.properties.sourcing_method }}",
+					"approvalTypes":"{{ _8L3UU.outputs.properties.approval_type }}",
+					"remarks":"{{ _8L3UU.outputs.properties.remarks }}",
+					"departments":{
+						"source":"{{ _N5DRd.outputs.result }}",
+						"ua:type":"mappedArray",
+						"items":"{{ _N5DRd.outputs.result[0] }}"
+					},
+					"uom":"{{ _8L3UU.outputs.properties.uom }}",
+					"request_id":"=TEXT({{ _8L3UU.outputs.properties.request_id }},\"0\")",
+					"reference_approval_note":"{{ _8L3UU.outputs.properties.reference_approval_note }}",
+					"existing_approval_note":"{{ _8L3UU.outputs.properties.existing_approval_note }}",
+					"vendor_files":{
+						"source":"{{ _8L3UU.outputs.properties.vendor_communication }}",
+						"ua:type":"mappedArray",
+						"items":"{{ _8L3UU.outputs.properties.vendor_communication[0] }}"
+					},
+					"additional_files":{
+						"source":"{{ _8L3UU.outputs.properties.additional_attachments }}",
+						"ua:type":"mappedArray",
+						"items":"{{ _8L3UU.outputs.properties.additional_attachments[0] }}"
+					},
+					"reason_for_amendment":"{{ _8L3UU.outputs.properties.reason_for_amendment }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":6,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HLGMI@_vSKcz@_f5uHU-1@2@default",
+			"id":"_9qOea",
+			"index":0,
+			"inputs":{
+				"result":{
+					"result":"200"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		},
+		{
+			"context":{
+				"appName":"branch_condition",
+				"resourceVersion":6,
+				"resourceName":"branch_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_vSKcz@_f5uHU-1@3",
+			"id":"_vSKcz@3",
+			"index":0,
+			"inputs":{
+				"name":"Branch 3",
+				"conditions":{
+					"filters":[
+						{
+							"property":"{{ _Qo1RJ.outputs.page_function }}",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"view"
+							}
+						},
+						{
+							"property":"{{ _Qo1RJ.outputs.page_function }}",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"edit"
+							}
+						}
+					],
+					"operator":"OR"
+				}
+			},
+			"skip":false,
+			"title":"",
+			"type":"BRANCH_CONDITION"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":5,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_vSKcz@_f5uHU-1@3",
+			"id":"_l3Vgs",
+			"index":0,
+			"inputs":{
+				"filters":[
+					{
+						"property":"{{ _Qo1RJ.outputs.reference_request_id }}",
+						"filter":{
+							"operator":"EQUAL",
+							"value":"9956744355"
+						}
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":6,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_l3Vgs@_vSKcz@_f5uHU-1@3@y",
+			"id":"_4SRlz",
+			"index":0,
+			"inputs":{
+				"result":{
+					"result":"200"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":334,
+				"resourceName":"storage_by_unifyapps_fetch_records",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_vSKcz@_f5uHU-1@3",
+			"id":"_w3MAy",
+			"index":0,
+			"inputs":{
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"properties_request_id",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"{{ _Qo1RJ.outputs.reference_request_id }}"
+							}
+						}
+					],
+					"operator":"AND"
+				},
+				"object_type":"nfa_request_table",
+				"page":{
+					"limit":20,
+					"offset":0
+				},
+				"numberOfRecordsToFetch":"SINGLE",
+				"includeTotalCount":false
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Fetch records",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":2,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_vSKcz@_f5uHU-1@3",
+			"id":"_xxRzC",
+			"index":0,
+			"inputs":{
+				"filters":[
+					{
+						"property":"{{ _w3MAy.outputs.properties.departments }}",
+						"filter":{
+							"operator":"EXISTS"
+						}
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":2,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_xxRzC@_vSKcz@_f5uHU-1@3@y",
+			"id":"_IhzxM",
+			"index":0,
+			"inputs":{
+				"output":{
+					"type":"object",
+					"properties":{
+						"departments":{
+							"type":"array",
+							"items":{
+								"type":"string"
+							},
+							"title":"Departments"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"input":{
+					"type":"object",
+					"properties":{
+						"departments":{
+							"type":"string",
+							"title":"Departments"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"code":"def convertStringToArray(input) {\n    // Remove the square brackets and extra quotes\n    input = input.replaceAll(/^\\[|\\]$/, '').replaceAll(/\\\\\\\"/, '\\\"')\n\n    // Split the string by comma and remove extra quotes around each element\n    def array = input.split(/,(?=\\\")/).collect { it.replaceAll(/^\"|\"$/, '') }\n\n    return array\n}\n\n// Process each element in the departments list, flatten the result, and add to a Set to ensure uniqueness\ndef department_result = departments.collect { convertStringToArray(it) }.flatten().toSet()\nreturn department_result.toList()",
+				"isAsync":false,
+				"parameters":{
+					"departments":"{{ _w3MAy.outputs.properties.departments }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Departments",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":2,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_vSKcz@_f5uHU-1@3",
+			"id":"_ICkYo",
+			"index":0,
+			"inputs":{
+				"filters":[
+					{
+						"property":"{{ _w3MAy.outputs.properties.business_unit }}",
+						"filter":{
+							"operator":"EXISTS"
+						}
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":2,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ICkYo@_vSKcz@_f5uHU-1@3@y",
+			"id":"_GVzsD",
+			"index":0,
+			"inputs":{
+				"output":{
+					"type":"object",
+					"properties":{
+						"business_unit_r":{
+							"type":"array",
+							"items":{
+								"type":"string"
+							},
+							"title":"Business Unit R"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"input":{
+					"type":"object",
+					"properties":{
+						"business_unit":{
+							"type":"string",
+							"title":"Business Unit"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"code":"def convertStringToArray(input) {\n    // Remove the square brackets and extra quotes\n    input = input.replaceAll(/^\\[|\\]$/, '').replaceAll(/\\\\\\\"/, '\\\"')\n\n    // Split the string by comma and remove extra quotes around each element\n    def array = input.split(/,(?=\\\")/).collect { it.replaceAll(/^\"|\"$/, '') }\n\n    return array\n}\n\ndef departments = [\n    \"[\\\"Dominos Pizza SriLanka\\\"]\",\n    \"[\\\"Dominos Pizza India\\\"]\"\n]\n\n// Process each element in the departments list and flatten the result\ndef department_result = departments.collect { convertStringToArray(it) }.flatten()\nreturn department_result",
+				"isAsync":false,
+				"parameters":{
+					"business_unit":"{{ _w3MAy.outputs.properties.business_unit }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Business Units",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":3,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_vSKcz@_f5uHU-1@3",
+			"id":"_Rtr2X",
+			"index":0,
+			"inputs":{
+				"result":{
+					"business_units":{
+						"ua:type":"mappedArray",
+						"source":"{{ _w3MAy.outputs.properties.business_unit }}",
+						"items":"{{ _w3MAy.outputs.properties.business_unit[0] }}"
+					},
+					"total_value_excl":"=TEXT({{ _w3MAy.outputs.properties.total_value_excl }},\"0\")",
+					"total_value_incl":"=TEXT({{ _w3MAy.outputs.properties.total_value_incl }},\"0\")",
+					"total_quantity":"=TEXT({{ _w3MAy.outputs.properties.quantity }},\"0\")",
+					"departments":{
+						"ua:type":"mappedArray",
+						"source":"{{ _w3MAy.outputs.properties.departments }}",
+						"items":"{{ _w3MAy.outputs.properties.departments[0] }}"
+					},
+					"request_id":"=TEXT({{ _Qo1RJ.outputs.current_request_id }},\"0\")",
+					"vendor_files":{
+						"ua:type":"mappedArray",
+						"source":"{{ _w3MAy.outputs.properties.vendor_communication }}",
+						"items":"{{ _w3MAy.outputs.properties.vendor_communication[0] }}"
+					},
+					"additional_files":{
+						"ua:type":"mappedArray",
+						"source":"{{ _w3MAy.outputs.properties.additional_attachments }}",
+						"items":"{{ _w3MAy.outputs.properties.additional_attachments[0] }}"
+					},
+					"requestType":"{{ _w3MAy.outputs.properties.request_type }}",
+					"requestFor":"{{ _w3MAy.outputs.properties.request_for }}",
+					"buyingDescription":"{{ _w3MAy.outputs.properties.buying_description }}",
+					"itemCategory":"{{ _w3MAy.outputs.properties.item_category }}",
+					"uom":"{{ _w3MAy.outputs.properties.uom }}",
+					"additional_costs":"{{ _w3MAy.outputs.properties.additional_cost }}",
+					"sobJustification":"{{ _w3MAy.outputs.properties.sob_justification }}",
+					"sourcingMethod":"{{ _w3MAy.outputs.properties.sourcing_method }}",
+					"approvalTypes":"{{ _w3MAy.outputs.properties.approval_type }}",
+					"remarks":"{{ _w3MAy.outputs.properties.remarks }}",
+					"reference_approval_note":"{{ _w3MAy.outputs.properties.reference_approval_note }}",
+					"existing_approval_note":"{{ _w3MAy.outputs.properties.existing_approval_note }}",
+					"reason_for_amendment":"{{ _w3MAy.outputs.properties.reason_for_amendment }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":894,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":83
+}
