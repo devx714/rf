@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1765004581785,
+	"deleted":true,
+	"edges":[
+		{
+			"fromNodeId":"_o9Oov",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_6rDWq",
+			"type":"next"
+		}
+	],
+	"id":"6933d52565557a1dde3c482c",
+	"lastModifiedBy":3546,
+	"lcName":"keka_new_sanity",
+	"modifiedTime":1765004595582,
+	"name":"keka_new_sanity",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_o9Oov-1",
+			"id":"_o9Oov",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_o9Oov-1",
+			"id":"_6rDWq",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":3546,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
