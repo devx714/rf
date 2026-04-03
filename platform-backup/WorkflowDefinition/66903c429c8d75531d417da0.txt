@@ -1,0 +1,64 @@
+{
+	"appsUsed":[
+		"schedule"
+	],
+	"createdTime":1720728642387,
+	"deleted":true,
+	"deployedVersion":9,
+	"deploymentState":{
+		"deployedAt":1721921070547,
+		"deployedBy":35,
+		"deployedDefinitionId":"66a26e2e3fc9d82cc7a4c1aa",
+		"status":"DEPLOYED",
+		"version":9,
+		"workflowVersion":21
+	},
+	"description":"",
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"66903c429c8d75531d417da0",
+	"lastModifiedBy":35,
+	"lcName":"testschedulerfailures",
+	"modifiedTime":1721921711632,
+	"name":"TestSchedulerFailures",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":33,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"mkfEF-1",
+			"id":"mkfEF",
+			"index":0,
+			"inputs":{
+				"cron":"INTERVAL",
+				"interval":10,
+				"frequency":"DAYS"
+			},
+			"skip":false,
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":35,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":23
+}
