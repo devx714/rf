@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1761544908603,
+	"deleted":true,
+	"edges":[
+		{
+			"fromNodeId":"_UK9qD",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_t4Gpb",
+			"type":"next"
+		}
+	],
+	"id":"68ff0acc9a02df06ff3b2a58",
+	"lastModifiedBy":3546,
+	"lcName":"eceiur",
+	"modifiedTime":1761557819252,
+	"name":"eceiur",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_UK9qD-1",
+			"id":"_UK9qD",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_UK9qD-1",
+			"id":"_t4Gpb",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":3546,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
