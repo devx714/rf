@@ -1,0 +1,95 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1749142775422,
+	"deleted":true,
+	"edges":[
+		{
+			"fromNodeId":"iRflK",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"k12NJ",
+			"type":"next"
+		}
+	],
+	"id":"6841ccf75414b30643d62fd6",
+	"lastModifiedBy":39713,
+	"lcName":"aryam",
+	"modifiedTime":1749142992667,
+	"name":"aryam",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":743,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"NJMGq-1",
+			"id":"iRflK",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"additional":{
+				"xsdSchemaConfig":{}
+			},
+			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":805,
+				"resourceName":"variable_by_unifyapps_create_variables",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"NJMGq-1",
+			"id":"k12NJ",
+			"index":0,
+			"inputSchema":{
+				"type":"SCHEMA_AND_LAYOUT",
+				"dynamic":false,
+				"layout":{},
+				"schema":{}
+			},
+			"inputs":{},
+			"outputSchema":{
+				"type":"SCHEMA",
+				"dynamic":false,
+				"schema":{}
+			},
+			"skip":false,
+			"subTitle":"Variable by UnifyApps",
+			"title":"Create variables",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":39713,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":3
+}
