@@ -1,0 +1,62 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1749125742920,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"sMsLK",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"WcgVP",
+			"type":"next"
+		}
+	],
+	"id":"68418a6e13e3573ad2cfee22",
+	"lastModifiedBy":43069,
+	"lcName":"dfg",
+	"modifiedTime":1749129968722,
+	"name":"dfg",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"sMsLK-1",
+			"id":"sMsLK",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"sMsLK-1",
+			"id":"WcgVP",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":47174,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
