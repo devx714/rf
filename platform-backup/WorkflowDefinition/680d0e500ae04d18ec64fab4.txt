@@ -1,0 +1,127 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1745686096587,
+	"deleted":true,
+	"deployedVersion":2,
+	"deploymentState":{
+		"deployedAt":1745686730457,
+		"deployedBy":504,
+		"deployedDefinitionId":"680d10ca0ae04d18ec64fc04",
+		"status":"DEPLOYED",
+		"version":2,
+		"workflowVersion":5
+	},
+	"edges":[
+		{
+			"fromNodeId":"DxcG2",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"a9Gm5",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"a9Gm5",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"ivC3s",
+			"type":"next"
+		}
+	],
+	"id":"680d0e500ae04d18ec64fab4",
+	"lastModifiedBy":1246,
+	"lcName":"gcvbnm",
+	"modifiedTime":1745787098897,
+	"name":"gcvbnm",
+	"nodes":[
+		{
+			"additional":{
+				"xsdSchemaConfig":{}
+			},
+			"context":{
+				"appName":"ai_evaluator_by_unifyapps",
+				"resourceVersion":188,
+				"resourceName":"ai_evaluator_by_unifyapps_trigger_metric_evaluation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"ZHRvD-1",
+			"id":"DxcG2",
+			"index":0,
+			"inputs":{
+				"setup":{
+					"$ref":"#/definitions/entity|e_code_snippet|e_67e799c28e0f2058800350f0",
+					"$comment":"Get job details bamboohr"
+				}
+			},
+			"skip":false,
+			"subTitle":"AI Evaluator by UnifyApps",
+			"title":"Triggers metrics evaluation",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"ai_evaluator_by_unifyapps",
+				"resourceVersion":193,
+				"resourceName":"ai_evaluator_by_unifyapps_evaluate_metric",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"ZHRvD-1",
+			"id":"a9Gm5",
+			"index":0,
+			"inputs":{
+				"callableInterfaceId":"__ua__evaluate_metric_interface"
+			},
+			"skip":false,
+			"subTitle":"AI Evaluator by UnifyApps",
+			"title":"Evaluate Metric",
+			"type":"CALL_INTERFACE_WORKFLOW"
+		},
+		{
+			"context":{
+				"appName":"ai_evaluator_by_unifyapps",
+				"resourceVersion":192,
+				"resourceName":"ai_evaluator_by_unifyapps_return_response_to_metric_evaluation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"ZHRvD-1",
+			"id":"ivC3s",
+			"index":0,
+			"inputs":{
+				"result":{
+					"score":"xfcvbn"
+				}
+			},
+			"skip":false,
+			"subTitle":"AI Evaluator by UnifyApps",
+			"title":"Respond to metric evaluation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":517,
+	"schemaReferences":[
+		"entity|e_code_snippet|e_67fe23c4f7166c6a30ff4325",
+		"entity|e_code_snippet|e_67e799c28e0f2058800350f0"
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":9
+}
