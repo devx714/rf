@@ -1,0 +1,84 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1738602197325,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"6fO64",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"H2ooQ",
+			"type":"next"
+		}
+	],
+	"id":"67a0f6d5bc51e32f6c86081d",
+	"lastModifiedBy":557,
+	"lcName":"test",
+	"modifiedTime":1738602213984,
+	"name":"test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"aPk08-1",
+			"id":"6fO64",
+			"index":0,
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"analytics_by_unifyapps",
+				"resourceVersion":253,
+				"resourceName":"analytics_by_unifyapps_query_reports",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"aPk08-1",
+			"id":"H2ooQ",
+			"index":0,
+			"inputs":{
+				"projections":[
+					{
+						"aggregationFunction":"GROUP",
+						"includePercentageChange":false,
+						"name":"ENTITY_test_pk=::=ID"
+					}
+				],
+				"entityType":"ENTITY_test_pk",
+				"group":"ENTITY_REPORTING"
+			},
+			"skip":false,
+			"subTitle":"Analytics by UnifyApps",
+			"title":"Analytics Query",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":557,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
