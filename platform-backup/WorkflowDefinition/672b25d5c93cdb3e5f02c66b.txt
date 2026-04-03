@@ -1,0 +1,115 @@
+{
+	"appsUsed":[
+		"ibm_mq"
+	],
+	"createdTime":1730880981391,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_sXplK",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_kOP8z",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_kOP8z",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_z5p8Y",
+			"type":"next"
+		}
+	],
+	"id":"672b25d5c93cdb3e5f02c66b",
+	"lastModifiedBy":520,
+	"lcName":"ibm test",
+	"modifiedTime":1730881022079,
+	"name":"ibm test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":92,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_OOqxK-1",
+			"id":"_sXplK",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"ibm_mq",
+				"resourceVersion":321,
+				"connectionId":"6728b646996bf52374a41624",
+				"resourceName":"ibm_mq_put_message_in_queue",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_OOqxK-1",
+			"id":"_kOP8z",
+			"index":0,
+			"inputs":{
+				"queue_manager":"QM1",
+				"message_type":"text/plain;charset=utf-8",
+				"body":"hello world",
+				"queue":"MSGQ"
+			},
+			"skip":false,
+			"subTitle":"IBM MQ",
+			"title":"Put message in queue",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"ibm_mq",
+				"resourceVersion":321,
+				"connectionId":"6728b646996bf52374a41624",
+				"resourceName":"ibm_mq_get_message_from_queue",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_OOqxK-1",
+			"id":"_z5p8Y",
+			"index":0,
+			"inputs":{
+				"queue_manager":"QM1",
+				"response_type":"text/plain;charset=utf-8",
+				"queue":"MSGQ"
+			},
+			"skip":false,
+			"subTitle":"IBM MQ",
+			"title":"Get message from queue",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
