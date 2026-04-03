@@ -39,7 +39,7 @@
 	"id":"69d0217ae95b7f4e93c0a175",
 	"lastModifiedBy":308,
 	"lcName":"imagemimetype_sans_dnt",
-	"modifiedTime":1775252029898,
+	"modifiedTime":1775252207350,
 	"name":"ImageMimeType_Sans_DNT",
 	"nodes":[
 		{
@@ -118,7 +118,7 @@
 			"index":3,
 			"inputs":{
 				"file":"{{ n_0VgpI.outputs.file }}",
-				"sourceMimeType":"image/gif",
+				"sourceMimeType":"image/png",
 				"targetMimeType":"image/png"
 			},
 			"skip":false,
@@ -162,5 +162,5 @@
 		}
 	},
 	"standard":false,
-	"version":5
+	"version":6
 }
