@@ -1,0 +1,104 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1739171833390,
+	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1739171859271,
+		"deployedBy":31268,
+		"deployedDefinitionId":"67a9a8137b954f1d5ad02f7e",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":2
+	},
+	"edges":[
+		{
+			"fromNodeId":"AAc8q",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"ajIJG",
+			"type":"next"
+		}
+	],
+	"id":"67a9a7f97b954f1d5ad02f42",
+	"lastModifiedBy":31268,
+	"lcName":"empty callable",
+	"modifiedTime":1739171859272,
+	"name":"empty callable",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":260,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"TYAq1-1",
+			"id":"AAc8q",
+			"index":0,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"success":{
+							"type":"string",
+							"title":"Success"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"success"
+					]
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":251,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"TYAq1-1",
+			"id":"ajIJG",
+			"index":0,
+			"inputs":{
+				"result":{
+					"success":"100"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":31268,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
