@@ -1,0 +1,95 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1745322473629,
+	"deleted":false,
+	"deployedVersion":2,
+	"deploymentState":{
+		"deployedAt":1745322673123,
+		"deployedBy":1866,
+		"deployedDefinitionId":"680782b19080ec5a9771247f",
+		"status":"DEPLOYED",
+		"version":2,
+		"workflowVersion":3
+	},
+	"edges":[
+		{
+			"fromNodeId":"8elxa",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"XRjVA",
+			"type":"next"
+		}
+	],
+	"id":"680781e993ebd647645f8a63",
+	"lastModifiedBy":1866,
+	"lcName":"scu",
+	"modifiedTime":1745322673127,
+	"name":"scu",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":532,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"sVSDl-1",
+			"id":"8elxa",
+			"index":0,
+			"inputs":{
+				"cron":"INTERVAL",
+				"interval":1,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":2554,
+				"resourceName":"storage_by_unifyapps_create_record",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"sVSDl-1",
+			"id":"XRjVA",
+			"index":0,
+			"inputs":{
+				"object_type":"test_navaneshwar",
+				"record":{
+					"field":"yy -> {{ __RUN__.outputs.workflowId }} -> {{ __RUN__.outputs.executionId }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Create record",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":1866,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":3
+}
