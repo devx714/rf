@@ -1,0 +1,79 @@
+{
+	"appsUsed":[
+		"gmeet"
+	],
+	"createdTime":1737111912104,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"LBZXk",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"hfbBm",
+			"type":"next"
+		}
+	],
+	"id":"678a3968f8df1e5ded02388b",
+	"lastModifiedBy":520,
+	"lcName":"adcsfv",
+	"modifiedTime":1737117628819,
+	"name":"adcsfv",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"LBZXk-1",
+			"id":"LBZXk",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"gmeet",
+				"resourceVersion":2596,
+				"connectionId":"66a8f17d8884121e190ca9b5",
+				"resourceName":"gmeet_schedule_meeting",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"LBZXk-1",
+			"id":"hfbBm",
+			"index":0,
+			"inputs":{
+				"calendarId":"addressbook%23contacts%40group.v.calendar.google.com",
+				"start":{
+					"dateTime":"2025-01-23T11:08:00.000Z"
+				},
+				"end":{
+					"dateTime":"2025-01-26T11:08:00.000Z"
+				}
+			},
+			"skip":false,
+			"subTitle":"Google Meet",
+			"title":"Schedule meeting",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":520,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
