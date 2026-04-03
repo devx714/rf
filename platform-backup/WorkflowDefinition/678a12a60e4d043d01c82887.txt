@@ -1,0 +1,97 @@
+{
+	"appsUsed":[
+		"slack",
+		"gcalendar"
+	],
+	"createdTime":1737101990046,
+	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1737102045844,
+		"deployedBy":520,
+		"deployedDefinitionId":"678a12dc0e4d043d01c828b6",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
+	"edges":[
+		{
+			"fromNodeId":"ODEaZ",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"E6pcF",
+			"type":"next"
+		}
+	],
+	"id":"678a12a60e4d043d01c82887",
+	"lastModifiedBy":520,
+	"lcName":"calendat trigger 2",
+	"modifiedTime":1737102045846,
+	"name":"calendat trigger 2",
+	"nodes":[
+		{
+			"context":{
+				"appName":"gcalendar",
+				"resourceVersion":3159,
+				"connectionId":"678a03fb0026934a2e565790",
+				"resourceName":"gcalendar_on_event_changes"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"l0pIC-1",
+			"id":"ODEaZ",
+			"index":0,
+			"inputs":{
+				"calendarId":"primary"
+			},
+			"skip":false,
+			"subTitle":"Google Calendar",
+			"title":"Event changed (Google Calendar)",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"slack",
+				"resourceVersion":3453,
+				"connectionId":"67860809d4f66a68f40dd104",
+				"resourceName":"slack_post_message_in_channel",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"l0pIC-1",
+			"id":"E6pcF",
+			"index":0,
+			"inputs":{
+				"link_names":true,
+				"messageType":"text",
+				"channel":"C06R3Q36AJU",
+				"text":"testing",
+				"mrkdwn":true
+			},
+			"skip":false,
+			"subTitle":"Slack",
+			"title":"Post message",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":520,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
