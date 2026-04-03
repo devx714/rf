@@ -1,0 +1,62 @@
+{
+	"appsUsed":[
+		"servicem8"
+	],
+	"createdTime":1738389598073,
+	"deleted":true,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1738389621179,
+		"deployedBy":46209,
+		"deployedDefinitionId":"679db8759287953f083269e5",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
+	"edges":[
+		
+	],
+	"id":"679db85e9287953f08326996",
+	"lastModifiedBy":46209,
+	"lcName":"test1",
+	"modifiedTime":1738389814708,
+	"name":"Test1",
+	"nodes":[
+		{
+			"context":{
+				"appName":"servicem8",
+				"resourceVersion":40,
+				"connectionId":"679db91720b0a03d6df655ba",
+				"resourceName":"servicem8_on_create_job"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"iEzK8-1",
+			"id":"me2OZ",
+			"index":0,
+			"inputs":{},
+			"skip":false,
+			"subTitle":"ServiceM8",
+			"title":"New job",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":46209,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":4
+}
