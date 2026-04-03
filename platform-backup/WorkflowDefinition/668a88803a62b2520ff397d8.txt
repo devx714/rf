@@ -1,0 +1,47 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1720354944678,
+	"deleted":false,
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"668a88803a62b2520ff397d8",
+	"lastModifiedBy":-1,
+	"lcName":"untitled",
+	"modifiedTime":1721679556362,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"aDqCG-1",
+			"id":"aDqCG",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":309,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":1
+}
