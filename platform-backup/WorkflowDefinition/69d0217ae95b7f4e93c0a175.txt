@@ -39,7 +39,7 @@
 	"id":"69d0217ae95b7f4e93c0a175",
 	"lastModifiedBy":308,
 	"lcName":"imagemimetype_sans_dnt",
-	"modifiedTime":1775252207350,
+	"modifiedTime":1775255159818,
 	"name":"ImageMimeType_Sans_DNT",
 	"nodes":[
 		{
@@ -89,7 +89,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_0nAPn-1",
 			"id":"n_81oZb",
@@ -118,7 +118,7 @@
 			"index":3,
 			"inputs":{
 				"file":"{{ n_0VgpI.outputs.file }}",
-				"sourceMimeType":"image/png",
+				"sourceMimeType":"image/svg+xml",
 				"targetMimeType":"image/png"
 			},
 			"skip":false,
@@ -162,5 +162,5 @@
 		}
 	},
 	"standard":false,
-	"version":6
+	"version":9
 }
