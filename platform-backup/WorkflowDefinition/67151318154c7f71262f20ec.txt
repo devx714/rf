@@ -1,0 +1,66 @@
+{
+	"appsUsed":[
+		"sqlserver"
+	],
+	"createdTime":1729434392473,
+	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1729434408246,
+		"deployedBy":520,
+		"deployedDefinitionId":"67151327154c7f71262f2106",
+		"status":"PAUSED",
+		"version":1,
+		"workflowVersion":1
+	},
+	"edges":[
+		
+	],
+	"id":"67151318154c7f71262f20ec",
+	"lastModifiedBy":508,
+	"lcName":"sadsad",
+	"modifiedTime":1730875540377,
+	"name":"sadsad",
+	"nodes":[
+		{
+			"context":{
+				"appName":"sqlserver",
+				"resourceVersion":2335,
+				"connectionId":"66f26c5a73d48411fc5647bc",
+				"resourceName":"sqlserver_on_update_event"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ZQoBj-1",
+			"id":"_PBc0w",
+			"index":0,
+			"inputs":{
+				"loadType":"LIVE",
+				"objectSourceResourceName":"sqlserver_fetch_columns_information",
+				"batchSize":20,
+				"enableBatching":false,
+				"objectId":"dbo.test66",
+				"flushIntervalMs":5000
+			},
+			"skip":false,
+			"subTitle":"Microsoft SQL Server",
+			"title":"Triggers an event on changes to table's records",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
