@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1729142583948,
+	"deleted":true,
+	"edges":[
+		{
+			"fromNodeId":"_exusv",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_zMGdm",
+			"type":"next"
+		}
+	],
+	"id":"67109f377620e9522c32ad01",
+	"lastModifiedBy":24420,
+	"lcName":"test666",
+	"modifiedTime":1729142911631,
+	"name":"test666",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_c4PJB-1",
+			"id":"_exusv",
+			"index":0,
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_c4PJB-1",
+			"id":"_zMGdm",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":24420,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
