@@ -1,0 +1,50 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1730879358786,
+	"deleted":false,
+	"description":"Accepts Phone number input from an Application and returns if it is valid or not",
+	"edges":[
+		
+	],
+	"id":"672b1f7e53086c0e3e2c39ee",
+	"lastModifiedBy":29050,
+	"lcName":"checks if the phone number is a valid phone number or not",
+	"modifiedTime":1730879376601,
+	"name":"Checks if the phone number is a valid phone number or not",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":73,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_waHyQ-1",
+			"id":"_D4Zvi",
+			"index":0,
+			"inputs":{},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":29050,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
