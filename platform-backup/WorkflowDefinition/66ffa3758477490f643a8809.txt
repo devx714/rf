@@ -1,0 +1,91 @@
+{
+	"appsUsed":[
+		"postgres"
+	],
+	"createdTime":1728029557295,
+	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1728030515150,
+		"deployedBy":520,
+		"deployedDefinitionId":"66ffa7338477490f643a8a53",
+		"status":"PAUSED",
+		"version":1,
+		"workflowVersion":4
+	},
+	"edges":[
+		{
+			"fromNodeId":"undefined_MS88X",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"undefined_wuzbQ",
+			"type":"next"
+		}
+	],
+	"id":"66ffa3758477490f643a8809",
+	"lastModifiedBy":520,
+	"lcName":"postgres testing empty execute action",
+	"modifiedTime":1728924257828,
+	"name":"postgres testing empty execute action",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":78,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"undefined_vce5a-1",
+			"id":"undefined_MS88X",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"HTTP Webhook",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"postgres",
+				"resourceVersion":2477,
+				"connectionId":"66f65260dee49f76a010fd09",
+				"resourceName":"postgres_execute_sql",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"undefined_vce5a-1",
+			"id":"undefined_wuzbQ",
+			"index":0,
+			"inputs":{
+				"objectSourceResourceName":"postgres_execute_sql_metadata",
+				"sql":"select * from customer limit 10"
+			},
+			"skip":false,
+			"subTitle":"Postgres",
+			"title":"Execute a SQL statement",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":10
+}
