@@ -1,0 +1,115 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1737121299331,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"sDvfa",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"YDkSt",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"YDkSt",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"M6I5b",
+			"type":"next"
+		}
+	],
+	"id":"678a5e13eec99f25fb89fc70",
+	"lastModifiedBy":520,
+	"lcName":"sdv",
+	"modifiedTime":1737123331380,
+	"name":"sdv",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":212,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"VNvT0-1",
+			"id":"sDvfa",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"encryption_tools_by_unifyapps",
+				"resourceVersion":40,
+				"connectionId":"678a65f07cd5455161ab905f",
+				"resourceName":"encryption_tools_by_unifyapps_encrypt_data",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"VNvT0-1",
+			"id":"YDkSt",
+			"index":0,
+			"inputs":{
+				"data":"vcsds",
+				"dataType":"STRING"
+			},
+			"skip":false,
+			"subTitle":"Encryption Tools by UnifyApps",
+			"title":"Encrypt data",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"encryption_tools_by_unifyapps",
+				"resourceVersion":37,
+				"connectionId":"678a65f07cd5455161ab905f",
+				"resourceName":"encryption_tools_by_unifyapps_decrypt_data",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"VNvT0-1",
+			"id":"M6I5b",
+			"index":0,
+			"inputs":{
+				"data":"{{ YDkSt.outputs.encryptedData }}",
+				"dataType":"STRING"
+			},
+			"skip":false,
+			"subTitle":"Encryption Tools by UnifyApps",
+			"title":"Decrypt data",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":520,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":12
+}
