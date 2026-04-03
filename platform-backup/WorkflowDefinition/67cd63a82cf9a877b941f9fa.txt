@@ -1,0 +1,60 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1741513640192,
+	"deleted":true,
+	"description":"Describe your automation in a few words",
+	"edges":[
+		{
+			"fromNodeId":"iuHf8",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"PnyLA",
+			"type":"next"
+		}
+	],
+	"id":"67cd63a82cf9a877b941f9fa",
+	"lastModifiedBy":22743,
+	"lcName":"aokwzt",
+	"modifiedTime":1741670025392,
+	"name":"AokwZT",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"iuHf8-1",
+			"id":"iuHf8",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"iuHf8-1",
+			"id":"PnyLA",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":22743,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
