@@ -6,46 +6,112 @@
 	"deleted":false,
 	"edges":[
 		{
-			"fromNodeId":"_0nAPn",
+			"fromNodeId":"n_0VgpI",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_AwgV3",
+			"toNodeId":"n_KUp7M",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_KUp7M",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_xIefc",
 			"type":"next"
 		}
 	],
 	"id":"69d0217ae95b7f4e93c0a175",
 	"lastModifiedBy":308,
 	"lcName":"imagemimetype_sans_dnt",
-	"modifiedTime":1775247738209,
+	"modifiedTime":1775247842007,
 	"name":"ImageMimeType_Sans_DNT",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":3293,
+				"resourceName":"callables_from_automation"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_0nAPn-1",
-			"id":"_0nAPn",
-			"index":0,
+			"id":"n_0VgpI",
+			"index":1,
+			"inputs":{
+				"setup":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[],
+					"properties":{
+						"file":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
+							"title":"File"
+						},
+						"hi":{
+							"type":"string",
+							"title":"Hi"
+						}
+					}
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"utility_by_unifyapps",
+				"resourceVersion":3061,
+				"resourceName":"utility_by_unifyapps_convert_file_mime_type",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_0nAPn-1",
-			"id":"_AwgV3",
-			"index":0,
+			"id":"n_KUp7M",
+			"index":2,
+			"inputs":{
+				"file":"{{ n_0VgpI.outputs.file }}",
+				"sourceMimeType":"image/jpeg",
+				"targetMimeType":"image/png"
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Utility by UnifyApps",
+			"title":"Convert File MIME Type",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":3330,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_0nAPn-1",
+			"id":"n_xIefc",
+			"index":3,
+			"inputs":{},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":308,
+	"schemaReferences":[
+		
+	],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -56,5 +122,5 @@
 		}
 	},
 	"standard":false,
-	"version":0
+	"version":1
 }
