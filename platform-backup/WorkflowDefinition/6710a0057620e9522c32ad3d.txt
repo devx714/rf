@@ -1,0 +1,100 @@
+{
+	"appsUsed":[
+		"sqlserver"
+	],
+	"createdTime":1729142789137,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_zWcJB",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_jStco",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_jStco",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_bFLZ1",
+			"type":"next"
+		}
+	],
+	"id":"6710a0057620e9522c32ad3d",
+	"lastModifiedBy":520,
+	"lcName":"test",
+	"modifiedTime":1729142872773,
+	"name":"test",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_zWcJB-1",
+			"id":"_zWcJB",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"sqlserver",
+				"resourceVersion":221,
+				"connectionId":"66f26c5a73d48411fc5647bc",
+				"resourceName":"sqlserver_insert_row",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_zWcJB-1",
+			"id":"_jStco",
+			"index":0,
+			"inputs":{
+				"objectSourceResourceName":"sqlserver_fetch_columns_information"
+			},
+			"skip":false,
+			"subTitle":"Microsoft SQL Server",
+			"title":"Insert row",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"sqlserver",
+				"resourceVersion":2362,
+				"connectionId":"66f26c5a73d48411fc5647bc",
+				"resourceName":"sqlserver_execute_sql",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_zWcJB-1",
+			"id":"_bFLZ1",
+			"index":0,
+			"inputs":{
+				"objectSourceResourceName":"sqlserver_execute_sql_metadata",
+				"sql":"CREATE TABLE x (\n    id INT\n);"
+			},
+			"skip":false,
+			"subTitle":"Microsoft SQL Server",
+			"title":"Execute a SQL statement",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
