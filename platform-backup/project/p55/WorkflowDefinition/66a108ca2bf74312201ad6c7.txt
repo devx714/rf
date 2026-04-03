@@ -1,0 +1,60 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1721829578163,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"RnD3A",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"HFvNJ",
+			"type":"next"
+		}
+	],
+	"id":"66a108ca2bf74312201ad6c7",
+	"lastModifiedBy":520,
+	"lcName":"testing automation 101",
+	"modifiedTime":1721829710754,
+	"name":"Testing Automation 101",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"RnD3A-1",
+			"id":"RnD3A",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"RnD3A-1",
+			"id":"HFvNJ",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":520,
+	"projectId":55,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		"hello1"
+	],
+	"version":1
+}
