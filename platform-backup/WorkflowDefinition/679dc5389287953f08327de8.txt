@@ -1,0 +1,66 @@
+{
+	"appsUsed":[
+		"constant_contact"
+	],
+	"createdTime":1738392888523,
+	"deleted":false,
+	"deployedVersion":2,
+	"deploymentState":{
+		"deployedAt":1738393272141,
+		"deployedBy":44108,
+		"deployedDefinitionId":"679dc6b89287953f0832807d",
+		"status":"PAUSED",
+		"version":2,
+		"workflowVersion":3
+	},
+	"edges":[
+		
+	],
+	"id":"679dc5389287953f08327de8",
+	"lastModifiedBy":44108,
+	"lcName":"test",
+	"modifiedTime":1738399104307,
+	"name":"test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"constant_contact",
+				"resourceVersion":39,
+				"connectionId":"679db1df20b0a03d6df64db2",
+				"resourceName":"constant_contact_new_contact_polling"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"ikPNq-1",
+			"id":"f2Id3",
+			"index":0,
+			"inputs":{
+				"interval":30,
+				"from":"2025-01-01T17:58:00Z",
+				"batchSize":100
+			},
+			"skip":false,
+			"subTitle":"Constant Contact",
+			"title":"New Contact",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":44108,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":3
+}
