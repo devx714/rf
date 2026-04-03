@@ -1,0 +1,112 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1753461045520,
+	"deleted":false,
+	"deployedVersion":2,
+	"deploymentState":{
+		"deployedAt":1753466414188,
+		"deployedBy":300,
+		"deployedDefinitionId":"6883c62eb537e57052a252dd",
+		"status":"DEPLOYED",
+		"version":2,
+		"workflowVersion":3
+	},
+	"edges":[
+		{
+			"fromNodeId":"n_srDEq",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_FfGrj",
+			"type":"next"
+		}
+	],
+	"id":"6883a62e55f5a3d7be45e6d2",
+	"lastModifiedBy":-1,
+	"lcName":"dqm llm rules suggester for entity",
+	"modifiedTime":1765178683731,
+	"name":"DQM LLM Rules Suggester for Entity",
+	"nodes":[
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":99,
+				"resourceName":"storage_by_unifyapps_on_create_record"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_eYtdX-1",
+			"id":"n_srDEq",
+			"index":1,
+			"inputs":{
+				"object_type":"data_quality_assets"
+			},
+			"skip":false,
+			"subTitle":"On new asset creation",
+			"title":"New record",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":99,
+				"resourceName":"callables_schedule_a_callable",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_eYtdX-1",
+			"id":"n_FfGrj",
+			"index":2,
+			"inputs":{
+				"automation_id":"68812ff99937f568ffa9b641",
+				"schedule_method":{
+					"schedule_type":"RECURRING",
+					"setup_config":{
+						"start_time":"2025-07-25T15:47:32.554Z",
+						"unit":"MINUTES",
+						"interval":5
+					}
+				},
+				"runtimeConnections":{},
+				"cancel_existing":true,
+				"version":"-1",
+				"schedule_name":"dqm-{{ n_srDEq.outputs.id }}-llm-rules-suggester",
+				"parameters":{
+					"monitoringExperimentId":"{{ n_srDEq.outputs.properties.monitoringExperimentId }}",
+					"assetId":"{{ n_srDEq.outputs.id }}",
+					"entityId":"{{ n_srDEq.outputs.properties.entityId }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Schedule callable",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":300,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		"dqm",
+		"Internal"
+	],
+	"version":6
+}
