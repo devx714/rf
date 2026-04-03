@@ -1,0 +1,91 @@
+{
+	"appsUsed":[
+		"sap_successfactors"
+	],
+	"createdTime":1749564601649,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"n_gOkN9",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_qlNjR",
+			"type":"next"
+		}
+	],
+	"id":"68483cb9ec12ab6636cdccff",
+	"lastModifiedBy":12,
+	"lcName":"dadada",
+	"modifiedTime":1749564771090,
+	"name":"dadada",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":732,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_SINoB-1",
+			"id":"n_gOkN9",
+			"index":0,
+			"inputs":{
+				"cron":"INTERVAL",
+				"interval":15,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"sap_successfactors",
+				"resourceVersion":1710,
+				"connectionId":"68170903a7c1a8778facdc2e",
+				"resourceName":"sap_successfactors_upsert_record",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_SINoB-1",
+			"id":"n_qlNjR",
+			"index":0,
+			"inputs":{
+				"entityName":"EmpEmploymentTermination",
+				"record":{
+					"personIdExternal__string":"129039",
+					"endDate__datetime":"1749651000000",
+					"userId__string":"129039",
+					"eventReason__string":"TERRTMNT",
+					"notes__string":"this is a note"
+				}
+			},
+			"skip":false,
+			"subTitle":"SAP SuccessFactors",
+			"title":"Upsert record",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":12,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":3
+}
