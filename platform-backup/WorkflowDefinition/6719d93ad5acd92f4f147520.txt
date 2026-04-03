@@ -1,0 +1,346 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1737718019003,
+	"deleted":false,
+	"deployedVersion":2,
+	"deploymentState":{
+		"deployedAt":1749281276936,
+		"deployedBy":894,
+		"deployedDefinitionId":"6843e9fc9aa1bd5132523870",
+		"status":"DEPLOYED",
+		"version":2,
+		"workflowVersion":15
+	},
+	"edges":[
+		{
+			"fromNodeId":"_RfYs9",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_uBs3c",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_uBs3c",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_4ZjbQ",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"_4ZjbQ",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_xDBkg",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_uBs3c",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_xDBkg",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_xDBkg",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_iy04S",
+			"type":"next"
+		}
+	],
+	"id":"6719d93ad5acd92f4f147520",
+	"lastModifiedBy":894,
+	"lcName":"populate request items (jubilant nfa)",
+	"modifiedTime":1749281276938,
+	"name":"Populate Request Items (Jubilant NFA)",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":5,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_7PqzN-1",
+			"id":"_RfYs9",
+			"index":0,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"item":{
+							"type":"array",
+							"items":{
+								"type":"object",
+								"properties":{
+									"material_service_code":{
+										"type":"string",
+										"title":"Material Service Code"
+									},
+									"item_description":{
+										"type":"string",
+										"title":"Item Description"
+									},
+									"vendor_code":{
+										"type":"string",
+										"title":"Vendor Code"
+									},
+									"vendor_name":{
+										"type":"string",
+										"title":"Vendor Name"
+									},
+									"quantity":{
+										"type":"string",
+										"title":"Quantity"
+									},
+									"uom":{
+										"type":"string",
+										"title":"Uom"
+									},
+									"rate_excl":{
+										"type":"number",
+										"title":"Rate Excl"
+									},
+									"net_value_excl":{
+										"type":"number",
+										"title":"Net Value Excl"
+									},
+									"sob":{
+										"type":"number",
+										"title":"Sob"
+									},
+									"start_date":{
+										"type":"string",
+										"title":"Start Date"
+									},
+									"end_date":{
+										"type":"string",
+										"title":"End Date"
+									},
+									"payment_terms":{
+										"type":"string",
+										"title":"Payment Terms"
+									},
+									"exit_clause":{
+										"type":"string",
+										"title":"Exit Clause"
+									},
+									"valid_legal_agreement":{
+										"type":"string",
+										"title":"Valid Legal Agreement"
+									},
+									"vendor_pan_card":{
+										"type":"string",
+										"title":"Vendor Pan Card"
+									},
+									"request_id":{
+										"type":"string",
+										"title":"Request Id"
+									},
+									"request_unique_id":{
+										"type":"string",
+										"title":"Request Unique Id"
+									},
+									"id":{
+										"type":"string",
+										"title":"Id"
+									},
+									"item_id":{
+										"type":"number",
+										"title":"Item Id"
+									}
+								},
+								"additionalProperties":false
+							},
+							"title":"Item",
+							"required":[]
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"setup":{
+					"type":"object",
+					"properties":{
+						"request_id":{
+							"type":"string",
+							"title":"Request Id"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger from automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":18,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_7PqzN-1",
+			"id":"_uBs3c",
+			"index":0,
+			"inputs":{
+				"filters":[
+					{
+						"property":"{{ _RfYs9.outputs.request_id }}",
+						"filter":{
+							"operator":"MISSING"
+						}
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":18,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_uBs3c@_7PqzN-1@y",
+			"id":"_4ZjbQ",
+			"index":0,
+			"inputs":{
+				"result":{
+					"item":{
+						"source":"0",
+						"ua:type":"mappedArray"
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":337,
+				"resourceName":"storage_by_unifyapps_fetch_records",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_7PqzN-1",
+			"id":"_xDBkg",
+			"index":0,
+			"inputs":{
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"properties_request_unique_id",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"{{ _RfYs9.outputs.request_id }}"
+							}
+						}
+					],
+					"operator":"AND"
+				},
+				"object_type":"nfa_request_add_items",
+				"includeRoleMappings":false,
+				"includeCurrentUserPermissions":false,
+				"page":{
+					"paginateBy":"OFFSET",
+					"limit":20
+				},
+				"numberOfRecordsToFetch":"MULTIPLE",
+				"includeTotalCount":false
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Fetch records",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":6,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_7PqzN-1",
+			"id":"_iy04S",
+			"index":0,
+			"inputs":{
+				"result":{
+					"item":{
+						"source":"{{ _xDBkg.outputs.objects }}",
+						"ua:type":"mappedArray",
+						"items":{
+							"material_service_code":"{{ _xDBkg.outputs.objects[0].properties.material_service_code }}",
+							"item_description":"{{ _xDBkg.outputs.objects[0].properties.item_description }}",
+							"vendor_code":"{{ _xDBkg.outputs.objects[0].properties.vendor_code }}",
+							"vendor_name":"{{ _xDBkg.outputs.objects[0].properties.vendor_name }}",
+							"quantity":"{{ _xDBkg.outputs.objects[0].properties.quantity }}",
+							"uom":"{{ _xDBkg.outputs.objects[0].properties.uom }}",
+							"rate_excl":"{{ _xDBkg.outputs.objects[0].properties.rate_excl }}",
+							"net_value_excl":"{{ _xDBkg.outputs.objects[0].properties.net_value_excl }}",
+							"sob":"{{ _xDBkg.outputs.objects[0].properties.sob }}",
+							"start_date":"{{ _xDBkg.outputs.objects[0].properties.validity_start_date }}",
+							"end_date":"{{ _xDBkg.outputs.objects[0].properties.validity_end_date }}",
+							"payment_terms":"{{ _xDBkg.outputs.objects[0].properties.payment_terms }}",
+							"exit_clause":"{{ _xDBkg.outputs.objects[0].properties.exit_clause }}",
+							"valid_legal_agreement":"{{ _xDBkg.outputs.objects[0].properties.valid_legal_agreement }}",
+							"vendor_pan_card":"{{ _xDBkg.outputs.objects[0].properties.vendor_pan_card }}",
+							"request_id":"{{ _xDBkg.outputs.objects[0].properties.request_id }}",
+							"request_unique_id":"{{ _xDBkg.outputs.objects[0].properties.request_unique_id }}",
+							"id":"{{ _xDBkg.outputs.objects[0].id }}",
+							"item_id":"{{ _xDBkg.outputs.objects[0].properties.item_id }}"
+						}
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":894,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":15
+}
