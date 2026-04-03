@@ -1,0 +1,86 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1744870919441,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"nhrSN",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"NpXXH",
+			"type":"next"
+		}
+	],
+	"id":"68009e07eeb5e91a125412b9",
+	"lastModifiedBy":517,
+	"lcName":"fdassaf",
+	"modifiedTime":1744873905574,
+	"name":"fdassaf",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":479,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"v5va9-1",
+			"id":"nhrSN",
+			"index":0,
+			"inputs":{
+				"cron":"INTERVAL",
+				"interval":15,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"files_by_unifyapps",
+				"resourceVersion":468,
+				"resourceName":"files_by_unifyapps_upload_file",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"v5va9-1",
+			"id":"NpXXH",
+			"index":0,
+			"inputs":{
+				"fileName":"bjknlchjgfxdfcgvhgftdhasdbjhfm.xls",
+				"mimeType":"application/vnd.ms-excel",
+				"url":"https://github.com/dakshveer-singh/sample/raw/refs/heads/main/file_example_XLS_10.xls",
+				"option":"url"
+			},
+			"skip":false,
+			"subTitle":"Files by UnifyApps",
+			"title":"Upload file",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":517,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":9
+}
