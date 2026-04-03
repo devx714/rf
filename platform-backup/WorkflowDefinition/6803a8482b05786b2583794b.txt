@@ -1,0 +1,82 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1745070152814,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"2CCQW",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"OHNdT",
+			"type":"next"
+		}
+	],
+	"id":"6803a8482b05786b2583794b",
+	"lastModifiedBy":44109,
+	"lcName":"fr",
+	"modifiedTime":1745070216352,
+	"name":"fr",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"dFxOo-1",
+			"id":"2CCQW",
+			"index":0,
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":555,
+				"resourceName":"callables_call_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"dFxOo-1",
+			"id":"OHNdT",
+			"index":0,
+			"inputs":{
+				"automationId":"6759a0ec2d7d3d219b184028",
+				"runtimeConnections":{},
+				"synchronous":true,
+				"version":"-1",
+				"parameters":{
+					"sqlQuery":"SELECT * FROM country;"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Call automation",
+			"type":"CALL_WORKFLOW"
+		}
+	],
+	"ownerUserId":44109,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
