@@ -1,0 +1,103 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1753525737912,
+	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1753525773272,
+		"deployedBy":32562,
+		"deployedDefinitionId":"6884ae0dc100a8ebeabd55cf",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
+	"edges":[
+		{
+			"fromNodeId":"n_xL8UL",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_VY0Ir",
+			"type":"next"
+		}
+	],
+	"id":"6884ade9c100a8ebeabd556f",
+	"lastModifiedBy":32562,
+	"lcName":"fine tuning test",
+	"modifiedTime":1753525773273,
+	"name":"fine tuning test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":799,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_uwjch-1",
+			"id":"n_xL8UL",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":812,
+				"resourceName":"callables_call_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_uwjch-1",
+			"id":"n_VY0Ir",
+			"index":2,
+			"inputs":{
+				"automationId":"685267f6ce478719d7c14f0b",
+				"runtimeConnections":{},
+				"synchronous":false,
+				"version":"-1",
+				"parameters":{
+					"training_file":"file-SEsVn2ybCmZEBbeQMUD22M",
+					"Training-model-name":"gpt-4.1-2025-04-14"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Call automation",
+			"type":"CALL_WORKFLOW"
+		}
+	],
+	"ownerUserId":32562,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
