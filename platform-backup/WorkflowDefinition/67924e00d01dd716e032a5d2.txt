@@ -1,0 +1,86 @@
+{
+	"appsUsed":[
+		"gmail"
+	],
+	"createdTime":1737641472748,
+	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1738743466506,
+		"deployedBy":687,
+		"deployedDefinitionId":"67a31eaaaddac8605df79267",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":2
+	},
+	"edges":[
+		{
+			"fromNodeId":"jQuAB",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"Wj4iu",
+			"type":"next"
+		}
+	],
+	"id":"67924e00d01dd716e032a5d2",
+	"lastModifiedBy":687,
+	"lcName":"gmail on new starred message",
+	"modifiedTime":1738743524802,
+	"name":"gmail on new starred message",
+	"nodes":[
+		{
+			"context":{
+				"appName":"gmail",
+				"resourceVersion":454,
+				"connectionId":"6794ae0a5550f86842bbe584",
+				"resourceName":"gmail_on_new_starred_email_polling"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"0SAFj-1",
+			"id":"jQuAB",
+			"index":0,
+			"inputs":{
+				"interval":1,
+				"batchSize":5
+			},
+			"skip":false,
+			"subTitle":"Gmail",
+			"title":"New Starred Email",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"stop"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"0SAFj-1",
+			"id":"Wj4iu",
+			"index":0,
+			"skip":false,
+			"subTitle":"Stop",
+			"title":"Stop",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":687,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":3
+}
