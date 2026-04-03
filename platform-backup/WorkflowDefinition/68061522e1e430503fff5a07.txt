@@ -1,0 +1,83 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1745229090639,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"FD92g",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"no8vU",
+			"type":"next"
+		}
+	],
+	"id":"68061522e1e430503fff5a07",
+	"lastModifiedBy":44109,
+	"lcName":"deww",
+	"modifiedTime":1745229143267,
+	"name":"deww",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":556,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"k2PuP-1",
+			"id":"FD92g",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"unified_entity_by_unifyapps",
+				"resourceVersion":492,
+				"resourceName":"unified_entity_by_unifyapps_find_by_sql",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"k2PuP-1",
+			"id":"no8vU",
+			"index":0,
+			"inputs":{
+				"sql":"SELECT * FROM ENTITY_list_offer_collated;"
+			},
+			"skip":false,
+			"subTitle":"Unified Entity by UnifyApps",
+			"title":"Find by SQL",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":44109,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
