@@ -1,0 +1,146 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1743489160093,
+	"deleted":true,
+	"deployedVersion":2,
+	"deploymentState":{
+		"deployedAt":1743590622621,
+		"deployedBy":59995,
+		"deployedDefinitionId":"67ed14dee2bbbb48a5e1910c",
+		"status":"PAUSED",
+		"version":2,
+		"workflowVersion":5
+	},
+	"edges":[
+		{
+			"fromNodeId":"RLp6V",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"eMlxF",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"eMlxF",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"W4lSU",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"W4lSU",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"qfb18",
+			"type":"next"
+		}
+	],
+	"id":"67eb888871981f3aa0d9ce38",
+	"lastModifiedBy":557,
+	"lcName":"analytics query",
+	"modifiedTime":1744871416629,
+	"name":"Analytics query",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":420,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"F9TTp-1",
+			"id":"RLp6V",
+			"index":0,
+			"inputs":{
+				"cron":"INTERVAL",
+				"interval":15,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"analytics_by_unifyapps",
+				"resourceVersion":1,
+				"resourceName":"analytics_by_unifyapps_export_sql",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"F9TTp-1",
+			"id":"eMlxF",
+			"index":0,
+			"inputs":{
+				"fileName":"test.csv",
+				"query":"select startTime as aditya1234 from WORKFLOW_EXECUTION limit 1;",
+				"fileType":"CSV",
+				"group":"PLATFORM"
+			},
+			"skip":false,
+			"subTitle":"Analytics by UnifyApps",
+			"title":"Export SQL Query Result",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"stop"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"F9TTp-1",
+			"id":"W4lSU",
+			"index":0,
+			"skip":false,
+			"subTitle":"Stop",
+			"title":"Stop",
+			"type":"STOP"
+		},
+		{
+			"context":{
+				"appName":"analytics_by_unifyapps",
+				"resourceVersion":385,
+				"resourceName":"analytics_by_unifyapps_execute_query",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"F9TTp-1",
+			"id":"qfb18",
+			"index":0,
+			"inputs":{
+				"query":"SELECT * FROM WORKFLOW_EXECUTION where workflowId='67ea39d05a015e28dded8947' order by endTime desc;",
+				"group":"PLATFORM"
+			},
+			"skip":false,
+			"subTitle":"Analytics by UnifyApps",
+			"title":"Execute Analytics SQL Query",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":59995,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":16
+}
