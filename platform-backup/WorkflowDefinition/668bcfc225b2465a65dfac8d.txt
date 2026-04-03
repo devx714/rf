@@ -1,0 +1,426 @@
+{
+	"appsUsed":[
+		"gdrive"
+	],
+	"createdTime":1720438722281,
+	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1720700570526,
+		"deployedBy":520,
+		"deployedDefinitionId":"668fce9a6f46534d673308cb",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":16
+	},
+	"description":"",
+	"edges":[
+		{
+			"fromNodeId":"USPtg",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"VjLsp",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"VjLsp",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"xMf5P",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"xMf5P",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"dxLXD",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"dxLXD",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"GhH7F",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"GhH7F",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"ufc2r",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"ufc2r",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"LeP6H",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"LeP6H",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"vDZMG",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"vDZMG",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"rzdEN",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"rzdEN",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"4zl98",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"4zl98",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"8jWUd",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"8jWUd",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"FDKQC",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"FDKQC",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"he8Pm",
+			"type":"next"
+		}
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"668bcfc225b2465a65dfac8d",
+	"lastModifiedBy":-1,
+	"lcName":"drive combine ",
+	"modifiedTime":1721679578830,
+	"name":"drive combine ",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":44,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"USPtg-1",
+			"id":"USPtg",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"title":"Http Webhook",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"gdrive",
+				"resourceVersion":317,
+				"connectionId":"668bcfe1056f485bffcaeb96",
+				"resourceName":"gdrive_create_folder",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"USPtg-1",
+			"id":"VjLsp",
+			"index":0,
+			"inputs":{
+				"folderName":"test qa folder"
+			},
+			"skip":false,
+			"subTitle":"Google Drive",
+			"title":"Create folder",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"gdrive",
+				"resourceVersion":316,
+				"connectionId":"668bcfe1056f485bffcaeb96",
+				"resourceName":"gdrive_upload_files",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"USPtg-1",
+			"id":"xMf5P",
+			"index":0,
+			"inputs":{
+				"attachment":{
+					"attachment_option":"use_file_url",
+					"file_name":"test file",
+					"mimeType":"image/jpeg",
+					"url":"https://media.licdn.com/dms/image/D4D0BAQEzlq_S6Z5JOQ/company-logo_200_200/0/1703853215171/unifyapps_logo?e=2147483647&v=beta&t=6L4vGO4f0cZ87R3teeO9_XQugp_75y5wC5xjI1Xl8mc"
+				}
+			},
+			"skip":false,
+			"subTitle":"Google Drive",
+			"title":"Upload a file",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"gdrive",
+				"resourceVersion":313,
+				"connectionId":"668bcfe1056f485bffcaeb96",
+				"resourceName":"gdrive_create_file_permission",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"USPtg-1",
+			"id":"dxLXD",
+			"index":0,
+			"inputs":{
+				"moveToNewOwnersRoot":false,
+				"emailAddress":"rushil.mital@unifyapps.com",
+				"role":"writer",
+				"useDomainAdminAccess":false,
+				"transferOwnership":false,
+				"sendNotificationEmail":true,
+				"type":"user",
+				"fileId":"{{ xMf5P.outputs.id }}"
+			},
+			"skip":false,
+			"subTitle":"Google Drive",
+			"title":"Create file permission",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"gdrive",
+				"resourceVersion":279,
+				"connectionId":"668bcfe1056f485bffcaeb96",
+				"resourceName":"gdrive_copy_file",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"USPtg-1",
+			"id":"GhH7F",
+			"index":0,
+			"inputs":{
+				"fileId":"{{ xMf5P.outputs.id }}"
+			},
+			"skip":false,
+			"subTitle":"Google Drive",
+			"title":"Copy a file",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"gdrive",
+				"resourceVersion":322,
+				"connectionId":"668bcfe1056f485bffcaeb96",
+				"resourceName":"gdrive_get_file",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"USPtg-1",
+			"id":"ufc2r",
+			"index":0,
+			"inputs":{
+				"fileId":"{{ xMf5P.outputs.id }}"
+			},
+			"skip":false,
+			"subTitle":"Google Drive",
+			"title":"Get file",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"gdrive",
+				"resourceVersion":279,
+				"connectionId":"668bcfe1056f485bffcaeb96",
+				"resourceName":"gdrive_rename_file",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"USPtg-1",
+			"id":"LeP6H",
+			"index":0,
+			"inputs":{
+				"name":"Test new name file",
+				"fileId":"{{ xMf5P.outputs.id }}"
+			},
+			"skip":false,
+			"subTitle":"Google Drive",
+			"title":"Rename a file",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"gdrive",
+				"resourceVersion":279,
+				"connectionId":"668bcfe1056f485bffcaeb96",
+				"resourceName":"gdrive_move_file",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"USPtg-1",
+			"id":"vDZMG",
+			"index":0,
+			"inputs":{
+				"addParents":"{{ VjLsp.outputs.id }}",
+				"fileId":"{{ xMf5P.outputs.id }}"
+			},
+			"skip":false,
+			"subTitle":"Google Drive",
+			"title":"Move a file",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"gdrive",
+				"resourceVersion":279,
+				"connectionId":"668bcfe1056f485bffcaeb96",
+				"resourceName":"gdrive_list_file_permission",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"USPtg-1",
+			"id":"rzdEN",
+			"index":0,
+			"inputs":{
+				"fileId":"{{ xMf5P.outputs.id }}"
+			},
+			"skip":false,
+			"subTitle":"Google Drive",
+			"title":"List file permissions",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"gdrive",
+				"resourceVersion":321,
+				"connectionId":"668bcfe1056f485bffcaeb96",
+				"resourceName":"gdrive_get_file_permission",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"USPtg-1",
+			"id":"4zl98",
+			"index":0,
+			"inputs":{
+				"fileId":"{{ xMf5P.outputs.id }}"
+			},
+			"skip":false,
+			"subTitle":"Google Drive",
+			"title":"Get permission of file",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"gdrive",
+				"resourceVersion":274,
+				"connectionId":"668bcfe1056f485bffcaeb96",
+				"resourceName":"gdrive_delete_file",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"USPtg-1",
+			"id":"8jWUd",
+			"index":0,
+			"inputs":{
+				"fileId":"{{ xMf5P.outputs.id }}"
+			},
+			"skip":false,
+			"subTitle":"Google Drive",
+			"title":"Delete a file",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"gdrive",
+				"resourceVersion":279,
+				"connectionId":"668bcfe1056f485bffcaeb96",
+				"resourceName":"gdrive_replace_file",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"USPtg-1",
+			"id":"FDKQC",
+			"index":0,
+			"inputs":{
+				"kind":"{{ GhH7F.outputs.kind }}",
+				"fileId":"{{ GhH7F.outputs.id }}"
+			},
+			"skip":false,
+			"subTitle":"Google Drive",
+			"title":"Replace a file",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"gdrive",
+				"resourceVersion":279,
+				"connectionId":"668bcfe1056f485bffcaeb96",
+				"resourceName":"gdrive_on_create_file",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"USPtg-1",
+			"id":"he8Pm",
+			"index":0,
+			"inputs":{
+				"name":"aswdefrgtnhjmk"
+			},
+			"skip":false,
+			"subTitle":"Google Drive",
+			"title":"Create a file",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":18
+}
