@@ -1,0 +1,84 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1744952369782,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"za9ew",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"rlupz",
+			"type":"next"
+		}
+	],
+	"id":"6801dc3134b2f652c6c615bb",
+	"lastModifiedBy":679,
+	"lcName":"test",
+	"modifiedTime":1744954582203,
+	"name":"test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":538,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"XgC2k-1",
+			"id":"za9ew",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"mdm_by_unifyapps",
+				"resourceVersion":108,
+				"resourceName":"mdm_by_unifyapps_delete_entity",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"XgC2k-1",
+			"id":"rlupz",
+			"index":0,
+			"inputs":{
+				"modelId":"67ab42666b4d7b28ff6eebbb",
+				"entityId":"king_of_ireland"
+			},
+			"skip":false,
+			"subTitle":"MDM by UnifyApps",
+			"title":"Delete Entity",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":679,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":3
+}
