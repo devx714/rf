@@ -1,0 +1,80 @@
+{
+	"appsUsed":[
+		"slack"
+	],
+	"createdTime":1737107404496,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"lgNPF",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"QS819",
+			"type":"next"
+		}
+	],
+	"id":"678a27ccd1e2d259f5054bda",
+	"lastModifiedBy":520,
+	"lcName":"hdfc alerts",
+	"modifiedTime":1737107842605,
+	"name":"hdfc alerts",
+	"nodes":[
+		{
+			"context":{
+				"appName":"slack",
+				"resourceVersion":3441,
+				"connectionId":"678a24c37c2ea415bfd21b7b",
+				"resourceName":"slack_on_new_message"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"RL7zB-1",
+			"id":"lgNPF",
+			"index":0,
+			"inputs":{},
+			"skip":false,
+			"subTitle":"Slack",
+			"title":"On new message",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":2179,
+				"resourceName":"storage_by_unifyapps_create_record",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"RL7zB-1",
+			"id":"QS819",
+			"index":0,
+			"inputs":{
+				"object_type":"66d187ae7c203d4d9907a74b"
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Create record",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":520,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
