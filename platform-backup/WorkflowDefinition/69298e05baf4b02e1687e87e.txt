@@ -1,0 +1,86 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1764331013589,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_L9KNL",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_JvFjv",
+			"type":"next"
+		}
+	],
+	"id":"69298e05baf4b02e1687e87e",
+	"lastModifiedBy":-1,
+	"lcName":"apollo22",
+	"modifiedTime":1765178681240,
+	"name":"apollo22",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_L9KNL-1",
+			"id":"_L9KNL",
+			"index":1,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":1191,
+				"resourceName":"callables_schedule_a_callable",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_L9KNL-1",
+			"id":"n_JvFjv",
+			"index":2,
+			"inputs":{
+				"automation_id":"691caa4317993241c587b3fb",
+				"schedule_method":{
+					"schedule_type":"ONE_TIME",
+					"setup_config":{
+						"start_time":"2025-11-28T12:03:59.571Z"
+					}
+				},
+				"runtimeConnections":{},
+				"cancel_existing":true,
+				"schedule_name":"asdf",
+				"version":"-1"
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Schedule callable",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":175510,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":3
+}
