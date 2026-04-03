@@ -1,0 +1,60 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1775243035352,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_7TCMB",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_go2mg",
+			"type":"next"
+		}
+	],
+	"id":"69d00f1be95b7f4e93c09484",
+	"lastModifiedBy":132116,
+	"lcName":"uhkgft",
+	"modifiedTime":1775243035352,
+	"name":"uhkgft",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_7TCMB-1",
+			"id":"_7TCMB",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_7TCMB-1",
+			"id":"_go2mg",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":132116,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"version":0
+}
