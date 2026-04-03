@@ -1,0 +1,142 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1745412931680,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"RGWMw",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"WvpWE",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"WvpWE",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"e84s0",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"e84s0",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"1DXFl",
+			"type":"next"
+		}
+	],
+	"id":"6808e343790b887f04b237ed",
+	"lastModifiedBy":49915,
+	"lcName":"test",
+	"modifiedTime":1745478320204,
+	"name":"test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":565,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"gRHw3-1",
+			"id":"RGWMw",
+			"index":0,
+			"inputs":{
+				"cron":"INTERVAL",
+				"interval":15,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":2596,
+				"resourceName":"storage_by_unifyapps_count_records",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"gRHw3-1",
+			"id":"WvpWE",
+			"index":0,
+			"inputs":{
+				"object_type":"employee_master"
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Count records",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"standard_entities",
+				"resourceVersion":572,
+				"resourceName":"standard_entities_fetch_user",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"gRHw3-1",
+			"id":"e84s0",
+			"index":0,
+			"inputs":{
+				"fetchBy":"id",
+				"applicationId":"",
+				"user":"49915"
+			},
+			"skip":false,
+			"subTitle":"Standard entities by UnifyApps",
+			"title":"Fetch User",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"analytics_by_unifyapps",
+				"resourceVersion":550,
+				"resourceName":"analytics_by_unifyapps_execute_query",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"gRHw3-1",
+			"id":"1DXFl",
+			"index":0,
+			"inputs":{
+				"query":"select * from WORKFLOW_EXECUTION limit 1;",
+				"group":"ENTITY_REPORTING"
+			},
+			"skip":false,
+			"subTitle":"Analytics by UnifyApps",
+			"title":"Execute Analytics SQL Query",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":39713,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":9
+}
