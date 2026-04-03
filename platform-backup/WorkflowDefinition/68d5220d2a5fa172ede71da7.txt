@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1758798349209,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_MNXUl",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_N93Zn",
+			"type":"next"
+		}
+	],
+	"id":"68d5220d2a5fa172ede71da7",
+	"lastModifiedBy":411,
+	"lcName":"jhvu",
+	"modifiedTime":1758798349209,
+	"name":"jhvu",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_MNXUl-1",
+			"id":"_MNXUl",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_MNXUl-1",
+			"id":"_N93Zn",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":411,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":0
+}
