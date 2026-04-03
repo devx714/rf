@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1753907349372,
+	"deleted":true,
+	"edges":[
+		{
+			"fromNodeId":"_D7yS2",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_YJNPX",
+			"type":"next"
+		}
+	],
+	"id":"688a8095e81f724f111e7b42",
+	"lastModifiedBy":162004,
+	"lcName":"snippetlocalsnippetmanager",
+	"modifiedTime":1753907804035,
+	"name":"snippetLocalsnippetManager",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_D7yS2-1",
+			"id":"_D7yS2",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_D7yS2-1",
+			"id":"_YJNPX",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":162004,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
