@@ -1,0 +1,51 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1721838921000,
+	"deleted":false,
+	"description":"",
+	"edges":[
+		
+	],
+	"id":"66a12d4940f4be02f074373d",
+	"lastModifiedBy":520,
+	"lcName":"teststreams",
+	"modifiedTime":1721838995576,
+	"name":"testStreams",
+	"nodes":[
+		{
+			"context":{
+				"appName":"streams_by_unifyapps",
+				"resourceVersion":9,
+				"resourceName":"streams_by_unifyapps_on_event"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"8jZcA-1",
+			"id":"8jZcA",
+			"index":0,
+			"inputs":{
+				"streamId":"e_669e6d5a2b9d7d5c1b57931b"
+			},
+			"skip":false,
+			"title":"Triggers on new event from stream",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
