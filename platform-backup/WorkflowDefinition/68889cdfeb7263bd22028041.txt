@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1753783519759,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_easGd",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_dZVxA",
+			"type":"next"
+		}
+	],
+	"id":"68889cdfeb7263bd22028041",
+	"lastModifiedBy":45012,
+	"lcName":"fsda",
+	"modifiedTime":1753783519759,
+	"name":"fsda",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_easGd-1",
+			"id":"_easGd",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_easGd-1",
+			"id":"_dZVxA",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":45012,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":0
+}
