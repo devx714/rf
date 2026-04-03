@@ -1,0 +1,86 @@
+{
+	"appsUsed":[
+		"closecrm"
+	],
+	"createdTime":1757689595578,
+	"deleted":true,
+	"edges":[
+		{
+			"fromNodeId":"n_Ci0X9",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_acJMp",
+			"type":"next"
+		}
+	],
+	"id":"68c436fb91a4b051e402fddc",
+	"lastModifiedBy":3546,
+	"lcName":"test",
+	"modifiedTime":1758098595453,
+	"name":"test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":809,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_8UkS0-1",
+			"id":"n_Ci0X9",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"closecrm",
+				"resourceVersion":1670,
+				"connectionId":"68c4372c2f7ced1b4fcb4a12",
+				"resourceName":"closecrm_list_notes",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_8UkS0-1",
+			"id":"n_acJMp",
+			"index":2,
+			"inputs":{},
+			"skip":false,
+			"subTitle":"Close CRM",
+			"title":"List notes",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":3546,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":5
+}
