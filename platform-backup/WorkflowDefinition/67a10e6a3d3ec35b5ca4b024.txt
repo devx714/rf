@@ -1,0 +1,127 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1738608234153,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"A2j2J",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"NuqMx",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"NuqMx",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"ws0Kj",
+			"type":"next"
+		}
+	],
+	"id":"67a10e6a3d3ec35b5ca4b024",
+	"lastModifiedBy":48069,
+	"lcName":"test bulk update",
+	"modifiedTime":1738608519658,
+	"name":"test bulk update",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":240,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"18CNh-1",
+			"id":"A2j2J",
+			"index":0,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"result":{
+							"type":"string",
+							"title":"Result"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":2184,
+				"resourceName":"storage_by_unifyapps_update_record_by_id",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"18CNh-1",
+			"id":"NuqMx",
+			"index":0,
+			"inputs":{
+				"recordId":"aman1",
+				"object_type":"aman_test",
+				"record":{
+					"status":"delete",
+					"value":"aman1"
+				},
+				"upsert":false
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Update an existing record",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":229,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"18CNh-1",
+			"id":"ws0Kj",
+			"index":0,
+			"inputs":{
+				"result":{
+					"result":"true"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":48069,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
