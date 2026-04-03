@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1758562019893,
+	"deleted":true,
+	"edges":[
+		{
+			"fromNodeId":"_OvGlw",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_vsFgK",
+			"type":"next"
+		}
+	],
+	"id":"68d186e3779ab816546a5ce7",
+	"lastModifiedBy":1234,
+	"lcName":"azure bot test",
+	"modifiedTime":1758562034089,
+	"name":"azure bot test",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_OvGlw-1",
+			"id":"_OvGlw",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_OvGlw-1",
+			"id":"_vsFgK",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":1234,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
