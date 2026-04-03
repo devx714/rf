@@ -1,0 +1,89 @@
+{
+	"appsUsed":[
+		"watsonx_ai"
+	],
+	"createdTime":1744979753662,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"1FIQs",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"tBJFf",
+			"type":"next"
+		}
+	],
+	"id":"68024729d619572d82131baa",
+	"lastModifiedBy":15,
+	"lcName":"test",
+	"modifiedTime":1744979802339,
+	"name":"test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":540,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"GZUPE-1",
+			"id":"1FIQs",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"watsonx_ai",
+				"resourceVersion":18,
+				"connectionId":"68000385b0449e759ec25c0b",
+				"resourceName":"watsonx_ai_tool_calling",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"GZUPE-1",
+			"id":"tBJFf",
+			"index":0,
+			"inputs":{
+				"project_id":"4dd209a8-dcf2-4408-a8c0-c0fdd431cba6",
+				"messages":{
+					"items":"{ \"content\": [ { \"type\": \"text\", \"text\": \"dsfsdcf\" } ], \"role\": \"user\" }",
+					"ua:type":"mappedArray"
+				},
+				"model_id":"ibm/granite-3-8b-instruct"
+			},
+			"skip":false,
+			"subTitle":"Watsonx AI",
+			"title":"Tool calling",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":15,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
