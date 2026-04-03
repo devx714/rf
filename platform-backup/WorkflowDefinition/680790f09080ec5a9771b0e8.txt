@@ -1,0 +1,81 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1745326320137,
+	"deleted":true,
+	"edges":[
+		{
+			"fromNodeId":"51YVk",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"gSNAz",
+			"type":"next"
+		}
+	],
+	"id":"680790f09080ec5a9771b0e8",
+	"lastModifiedBy":98389,
+	"lcName":"aos",
+	"modifiedTime":1745389817176,
+	"name":"aos",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":536,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"w18yw-1",
+			"id":"51YVk",
+			"index":0,
+			"inputs":{
+				"cron":"INTERVAL",
+				"interval":15,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"utility_by_unifyapps",
+				"resourceVersion":170,
+				"resourceName":"utility_by_unifyapps_run_sql_query_on_list",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"w18yw-1",
+			"id":"gSNAz",
+			"index":0,
+			"inputs":{},
+			"skip":false,
+			"subTitle":"Utility by UnifyApps",
+			"title":"Run SQL query on list",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":98389,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":3
+}
