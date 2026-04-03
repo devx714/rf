@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1758025730339,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_PNycG",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_aFibm",
+			"type":"next"
+		}
+	],
+	"id":"68c958029965ec6f906f77fa",
+	"lastModifiedBy":45010,
+	"lcName":"erd",
+	"modifiedTime":1758025730339,
+	"name":"erd",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_PNycG-1",
+			"id":"_PNycG",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_PNycG-1",
+			"id":"_aFibm",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":45010,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":0
+}
