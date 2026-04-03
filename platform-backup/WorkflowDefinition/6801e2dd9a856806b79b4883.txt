@@ -1,0 +1,119 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1744954077156,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"SBolC",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"aKFTh",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"aKFTh",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"ZFjoO",
+			"type":"next"
+		}
+	],
+	"id":"6801e2dd9a856806b79b4883",
+	"lastModifiedBy":44108,
+	"lcName":"tets",
+	"modifiedTime":1744958485187,
+	"name":"tets",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":538,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"sXobF-1",
+			"id":"SBolC",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":2511,
+				"resourceName":"storage_by_unifyapps_export_records",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"sXobF-1",
+			"id":"aKFTh",
+			"index":0,
+			"inputs":{
+				"fileName":"hello",
+				"object_type":"ent_2",
+				"fieldsToExport":[
+					"oUId",
+					"mTm"
+				],
+				"format":"MM/dd/yyyy",
+				"fileType":"CSV"
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Export records",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"analytics_by_unifyapps",
+				"resourceVersion":473,
+				"resourceName":"analytics_by_unifyapps_execute_query",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"sXobF-1",
+			"id":"ZFjoO",
+			"index":0,
+			"inputs":{
+				"query":"select * from WORKFLOW_NODE_EXECUTION where variableKey LIKE '%6801f1f811378576cf3e6234.6801f211ad08942a69b3dfeb.PHPlq%'",
+				"group":"ENTITY_REPORTING"
+			},
+			"skip":false,
+			"subTitle":"Analytics by UnifyApps",
+			"title":"Execute Analytics SQL Query",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":44108,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
