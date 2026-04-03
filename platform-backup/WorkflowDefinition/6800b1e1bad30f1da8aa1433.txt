@@ -1,0 +1,87 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1744876001752,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"0NJ8W",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"OcFWr",
+			"type":"next"
+		}
+	],
+	"id":"6800b1e1bad30f1da8aa1433",
+	"lastModifiedBy":557,
+	"lcName":"tets",
+	"modifiedTime":1744878436928,
+	"name":"tets",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":481,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"LDUr1-1",
+			"id":"0NJ8W",
+			"index":0,
+			"inputs":{
+				"cron":"INTERVAL",
+				"interval":15,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"audit_by_unifyapps",
+				"resourceVersion":472,
+				"resourceName":"audit_by_unifyapps_get_audit_records_for_asset",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"LDUr1-1",
+			"id":"OcFWr",
+			"index":0,
+			"inputs":{
+				"sortOrder":"DESC",
+				"assetClass":"join_4",
+				"page":{
+					"limit":3
+				}
+			},
+			"skip":false,
+			"subTitle":"Audit by UnifyApps",
+			"title":"Get audit records",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":557,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":11
+}
