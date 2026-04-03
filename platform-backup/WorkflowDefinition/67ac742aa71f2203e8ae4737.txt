@@ -1,0 +1,66 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1739355178156,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"nxR7U",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"cPV5p",
+			"type":"next"
+		}
+	],
+	"id":"67ac742aa71f2203e8ae4737",
+	"lastModifiedBy":2621,
+	"lcName":"test",
+	"modifiedTime":1739355229494,
+	"name":"test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"QmXuT-1",
+			"id":"nxR7U",
+			"index":0,
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"QmXuT-1",
+			"id":"cPV5p",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":2621,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
