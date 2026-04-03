@@ -1,0 +1,85 @@
+{
+	"appsUsed":[
+		"amazon_cognito"
+	],
+	"createdTime":1738656619036,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"oP3qg",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"HfQTw",
+			"type":"next"
+		}
+	],
+	"id":"67a1cb6ba2d9015e1974b809",
+	"lastModifiedBy":15,
+	"lcName":"test",
+	"modifiedTime":1738656777509,
+	"name":"TEST",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":267,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"tUfob-1",
+			"id":"oP3qg",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"amazon_cognito",
+				"resourceVersion":61,
+				"connectionId":"67a1cbe43f074e4028120728",
+				"resourceName":"amazon_cognito_fetch_credentials",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"tUfob-1",
+			"id":"HfQTw",
+			"index":0,
+			"inputs":{
+				"password":"NewStrongPassword@123",
+				"username":"harsh"
+			},
+			"skip":false,
+			"subTitle":"Amazon Cognito",
+			"title":"Authenticate user",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":15,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
