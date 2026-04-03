@@ -1,0 +1,84 @@
+{
+	"appsUsed":[
+		"gdocs"
+	],
+	"createdTime":1749810042337,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"n_HAuSu",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_idQSD",
+			"type":"next"
+		}
+	],
+	"id":"684bfb7ad5ca835707281c48",
+	"lastModifiedBy":15,
+	"lcName":"test",
+	"modifiedTime":1749810343389,
+	"name":"test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":789,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_NCAsr-1",
+			"id":"n_HAuSu",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"gdocs",
+				"resourceVersion":2371,
+				"connectionId":"684bfbac9291f675d634b8e4",
+				"resourceName":"gdocs_create_document_from_template",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_NCAsr-1",
+			"id":"n_idQSD",
+			"index":0,
+			"inputs":{
+				"documentId":"1dL1hS93yJ3KmbaBlg_4mISqBW8py35QA6vMnE4V-Dng"
+			},
+			"skip":false,
+			"subTitle":"Google Docs",
+			"title":"Create document from template",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":15,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
