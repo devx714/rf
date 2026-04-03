@@ -1,0 +1,54 @@
+{
+	"createdTime":1721660814864,
+	"deleted":false,
+	"description":"<h1>test123</h1>",
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"669e758e29972229af4a5571",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"field_1":{
+					"type":"string",
+					"title":"name",
+					"default":"hacker"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":520,
+	"lcName":"customer support follow-up",
+	"modifiedTime":1721970135799,
+	"name":"Customer Support Follow-up",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"hacker_1":{
+					"type":"string",
+					"title":"field_2",
+					"default":"<h1>test1</h1>"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":722,
+	"standard":false,
+	"version":2
+}
