@@ -1,0 +1,149 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1744653886377,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"dNj2T",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"Zc8I7",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"Zc8I7",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"igCJC",
+			"type":"next"
+		}
+	],
+	"id":"67fd4e3e5013996613800818",
+	"lastModifiedBy":47174,
+	"lcName":"export objects to csv",
+	"modifiedTime":1744883160764,
+	"name":"Export Objects to CSV",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":465,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"2VQPa-1",
+			"id":"dNj2T",
+			"index":0,
+			"inputs":{
+				"cron":"INTERVAL",
+				"interval":15,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":2490,
+				"resourceName":"storage_by_unifyapps_fetch_records",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"2VQPa-1",
+			"id":"Zc8I7",
+			"index":0,
+			"inputs":{
+				"object_type":"analstore",
+				"includeRoleMappings":false,
+				"includeCurrentUserPermissions":false,
+				"page":{
+					"paginateBy":"OFFSET",
+					"limit":200
+				},
+				"numberOfRecordsToFetch":"MULTIPLE",
+				"includeTotalCount":false
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Fetch records",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"csv_by_unifyapps",
+				"resourceVersion":421,
+				"resourceName":"csv_by_unifyapps_list_to_csv_file",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"2VQPa-1",
+			"id":"igCJC",
+			"index":0,
+			"inputs":{
+				"fileName":"class.csv",
+				"delimiter":",",
+				"staticHeaders":[
+					{
+						"key":"namef",
+						"value":"{{ Zc8I7.outputs.objects[0].properties.namef }}"
+					},
+					{
+						"key":"numf",
+						"value":"{{ Zc8I7.outputs.objects[0].properties.numf }}"
+					},
+					{
+						"key":"boolf",
+						"value":"{{ Zc8I7.outputs.objects[0].properties.boolf }}"
+					},
+					{
+						"key":"intf",
+						"value":"{{ Zc8I7.outputs.objects[0].properties.intf }}"
+					},
+					{
+						"key":"datef",
+						"value":"{{ Zc8I7.outputs.objects[0].properties.datef }}"
+					},
+					{
+						"key":"properties.mdmRecordMetadata",
+						"value":"{{ Zc8I7.outputs.objects[0].properties.mdmRecordMetadata }}"
+					}
+				],
+				"headerType":"STATIC",
+				"encoding":"UTF-8",
+				"dataSource":"{{ Zc8I7.outputs.objects }}"
+			},
+			"skip":false,
+			"subTitle":"CSV by UnifyApps",
+			"title":"Write data to CSV file",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":47174,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":11
+}
