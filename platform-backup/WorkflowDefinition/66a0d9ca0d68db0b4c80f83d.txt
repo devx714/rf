@@ -1,0 +1,75 @@
+{
+	"appsUsed":[
+		"adp_rm"
+	],
+	"createdTime":1721817546318,
+	"deleted":false,
+	"description":"",
+	"edges":[
+		{
+			"fromNodeId":"QHgWX",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"i6qh3",
+			"type":"next"
+		}
+	],
+	"id":"66a0d9ca0d68db0b4c80f83d",
+	"lastModifiedBy":520,
+	"lcName":"ok",
+	"modifiedTime":1721818381444,
+	"name":"ok",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":53,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"QHgWX-1",
+			"id":"QHgWX",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"title":"Http Webhook",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"adp_rm",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"QHgWX-1",
+			"id":"i6qh3",
+			"index":0,
+			"skip":false,
+			"subTitle":"ADP Recruiting Management",
+			"title":"Select an action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
