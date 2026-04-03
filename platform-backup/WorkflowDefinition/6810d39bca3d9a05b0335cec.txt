@@ -1,0 +1,62 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1745933211037,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"39nIq",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"G9dqq",
+			"type":"next"
+		}
+	],
+	"id":"6810d39bca3d9a05b0335cec",
+	"lastModifiedBy":557,
+	"lcName":"dvdf",
+	"modifiedTime":1745933213189,
+	"name":"dvdf",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"39nIq-1",
+			"id":"39nIq",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"39nIq-1",
+			"id":"G9dqq",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":557,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
