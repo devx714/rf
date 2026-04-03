@@ -1,0 +1,65 @@
+{
+	"appsUsed":[
+		"mysql"
+	],
+	"createdTime":1720072170975,
+	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1720085074072,
+		"deployedBy":35,
+		"deployedDefinitionId":"66866a4827d8ba447bf8aecd",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
+	"description":"",
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"668637ea9ac4c35259bb5e9a",
+	"lastModifiedBy":-1,
+	"lcName":"mysql trigger",
+	"modifiedTime":1721679601423,
+	"name":"MySQL Trigger",
+	"nodes":[
+		{
+			"context":{
+				"appName":"mysql",
+				"resourceVersion":0,
+				"connectionId":"665868952636123598046d0e",
+				"resourceName":"mysql_on_update_event"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"BmLjS-1",
+			"id":"BmLjS",
+			"index":0,
+			"inputs":{
+				"loadType":"LIVE",
+				"objectSourceResourceName":"mysql_fetch_columns_information",
+				"objectId":"bms_endorse_failures"
+			},
+			"skip":false,
+			"title":"Triggers an event on changes to table's records",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":35,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":2
+}
