@@ -1,0 +1,75 @@
+{
+	"appsUsed":[
+		"kafka"
+	],
+	"createdTime":1720094499825,
+	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1720094523943,
+		"deployedBy":520,
+		"deployedDefinitionId":"66868f3b48ba9a73eaf287dc",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
+	"description":"",
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"66868f2348ba9a73eaf287d9",
+	"lastModifiedBy":-1,
+	"lcName":"test dynamics",
+	"modifiedTime":1721679606279,
+	"name":"Test Dynamics",
+	"nodes":[
+		{
+			"context":{
+				"appName":"kafka",
+				"resourceVersion":173,
+				"connectionId":"65fc15d0a6fc5b7e5681dc31",
+				"resourceName":"kafka_on_record"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"GXefq-1",
+			"id":"GXefq",
+			"index":0,
+			"inputs":{
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"",
+							"filter":{
+								"operator":"EQUAL",
+								"value":""
+							}
+						}
+					],
+					"operator":"AND"
+				},
+				"topic":"ppln_src_66865455ba34c06edfbe44d2"
+			},
+			"skip":false,
+			"title":"Trigger from event in a topic",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":2
+}
