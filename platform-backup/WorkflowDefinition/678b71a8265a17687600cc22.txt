@@ -1,0 +1,60 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1737191848832,
+	"deleted":false,
+	"description":"Describe your automation in a few words",
+	"edges":[
+		{
+			"fromNodeId":"3zRqb",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"6B24k",
+			"type":"next"
+		}
+	],
+	"id":"678b71a8265a17687600cc22",
+	"lastModifiedBy":854,
+	"lcName":"/.../workflow-definition",
+	"modifiedTime":1737191848832,
+	"name":"/.../workflow-definition",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"3zRqb-1",
+			"id":"3zRqb",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"3zRqb-1",
+			"id":"6B24k",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":854,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":0
+}
