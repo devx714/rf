@@ -1,0 +1,69 @@
+{
+	"appsUsed":[
+		"constant_contact"
+	],
+	"createdTime":1739164828436,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"KsdWy",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"p62a4",
+			"type":"next"
+		}
+	],
+	"id":"67a98c9cf071f70c12e8b23b",
+	"lastModifiedBy":44108,
+	"lcName":"test",
+	"modifiedTime":1739166983175,
+	"name":"test",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"KsdWy-1",
+			"id":"KsdWy",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"constant_contact",
+				"resourceVersion":75,
+				"resourceName":"constant_contact_add_contact_to_lists",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"KsdWy-1",
+			"id":"p62a4",
+			"index":0,
+			"skip":false,
+			"subTitle":"Constant Contact",
+			"title":"Add contact to lists",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":44108,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
