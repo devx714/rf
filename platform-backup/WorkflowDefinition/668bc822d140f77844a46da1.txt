@@ -1,0 +1,459 @@
+{
+	"appsUsed":[
+		"code_by_unifyapps",
+		"monday"
+	],
+	"createdTime":1720436770844,
+	"deleted":false,
+	"deployedVersion":2,
+	"deploymentState":{
+		"deployedAt":1720439102382,
+		"deployedBy":568,
+		"deployedDefinitionId":"668bd13e25b2465a65dfaccb",
+		"status":"DEPLOYED",
+		"version":2,
+		"workflowVersion":2
+	},
+	"description":"",
+	"edges":[
+		{
+			"fromNodeId":"Po37g",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"xhZt4",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"xhZt4",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"HYJMw",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"HYJMw",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"nBtne",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"nBtne",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"VDBat",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"VDBat",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"EkM5A",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"EkM5A",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"ilfYg",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"ilfYg",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"b0aDJ",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"b0aDJ",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"hvBWo",
+			"type":"next"
+		}
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"668bc822d140f77844a46da1",
+	"lastModifiedBy":-1,
+	"lcName":"support | engg. breakdown",
+	"modifiedTime":1721679574120,
+	"name":"Support | engg. breakdown",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":37,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"Po37g-1",
+			"id":"Po37g",
+			"index":0,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"devDiscussion":{
+							"type":"number",
+							"title":"Dev Discussion"
+						},
+						"devBacklog":{
+							"type":"number",
+							"title":"Dev Backlog"
+						},
+						"development":{
+							"type":"number",
+							"title":"Development"
+						},
+						"qa":{
+							"type":"number",
+							"title":"Qa"
+						},
+						"qaRejected":{
+							"type":"number",
+							"title":"Qa Rejected"
+						},
+						"config":{
+							"type":"number",
+							"title":"Config"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				}
+			},
+			"skip":false,
+			"title":"Trigger from automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"monday",
+				"resourceVersion":306,
+				"connectionId":"668bbff90859372c35ea9214",
+				"resourceName":"monday_get_record",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"Po37g-1",
+			"id":"xhZt4",
+			"index":0,
+			"inputs":{
+				"column_id":"dup__of_status__1",
+				"board_id":"1551363673",
+				"limit":300,
+				"column_value":"Development",
+				"object":"items_by_column_values"
+			},
+			"options":{
+				"businessHoursConfig":{
+					"enabled":false,
+					"waitForNextWindow":false
+				},
+				"cacheConfig":{
+					"enabled":false
+				},
+				"circuitBreakerConfig":{
+					"enabled":false
+				},
+				"disableLogging":false,
+				"enabledForReExecution":false,
+				"rateLimitConfig":{
+					"enabled":false,
+					"waitForNextWindow":false
+				},
+				"retryConfig":{
+					"backOffFactor":null,
+					"captureRetries":false,
+					"enabled":false
+				},
+				"stepError":"STOP"
+			},
+			"skip":false,
+			"subTitle":"Monday",
+			"title":"Get record",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"monday",
+				"resourceVersion":306,
+				"connectionId":"668bbff90859372c35ea9214",
+				"resourceName":"monday_get_record",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"Po37g-1",
+			"id":"HYJMw",
+			"index":0,
+			"inputs":{
+				"column_id":"dup__of_status__1",
+				"board_id":"1551363673",
+				"limit":300,
+				"column_value":"Config",
+				"object":"items_by_column_values"
+			},
+			"skip":false,
+			"subTitle":"Monday",
+			"title":"Get record",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"monday",
+				"resourceVersion":306,
+				"connectionId":"668bbff90859372c35ea9214",
+				"resourceName":"monday_get_record",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"Po37g-1",
+			"id":"nBtne",
+			"index":0,
+			"inputs":{
+				"column_id":"dup__of_status__1",
+				"board_id":"1551363673",
+				"limit":100,
+				"column_value":"QA",
+				"object":"items_by_column_values"
+			},
+			"skip":false,
+			"subTitle":"Monday",
+			"title":"Get record",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"monday",
+				"resourceVersion":306,
+				"connectionId":"668bbff90859372c35ea9214",
+				"resourceName":"monday_get_record",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"Po37g-1",
+			"id":"VDBat",
+			"index":0,
+			"inputs":{
+				"column_id":"dup__of_status__1",
+				"board_id":"1551363673",
+				"limit":100,
+				"column_value":"QA Rejected",
+				"object":"items_by_column_values"
+			},
+			"skip":false,
+			"subTitle":"Monday",
+			"title":"Get record",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"monday",
+				"resourceVersion":306,
+				"connectionId":"668bbff90859372c35ea9214",
+				"resourceName":"monday_get_record",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"Po37g-1",
+			"id":"EkM5A",
+			"index":0,
+			"inputs":{
+				"column_id":"dup__of_status__1",
+				"board_id":"1551363673",
+				"limit":100,
+				"column_value":"Dev Backlog",
+				"object":"items_by_column_values"
+			},
+			"skip":false,
+			"subTitle":"Monday",
+			"title":"Get record",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"monday",
+				"resourceVersion":306,
+				"connectionId":"668bbff90859372c35ea9214",
+				"resourceName":"monday_get_record",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"Po37g-1",
+			"id":"ilfYg",
+			"index":0,
+			"inputs":{
+				"column_id":"dup__of_status__1",
+				"board_id":"1551363673",
+				"limit":100,
+				"column_value":"Dev Discussion",
+				"object":"items_by_column_values"
+			},
+			"skip":false,
+			"subTitle":"Monday",
+			"title":"Get record",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":43,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"Po37g-1",
+			"id":"b0aDJ",
+			"index":0,
+			"inputs":{
+				"output":{
+					"type":"object",
+					"properties":{
+						"a2":{
+							"type":"number",
+							"title":"A 2"
+						},
+						"b2":{
+							"type":"number",
+							"title":"B 2"
+						},
+						"c2":{
+							"type":"number",
+							"title":"C 2"
+						},
+						"d2":{
+							"type":"number",
+							"title":"D 2"
+						},
+						"e2":{
+							"type":"number",
+							"title":"E 2"
+						},
+						"f2":{
+							"type":"number",
+							"title":"F 2"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"input":{
+					"type":"object",
+					"properties":{
+						"a1":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
+							"title":"A 1"
+						},
+						"b1":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
+							"title":"B 1"
+						},
+						"c1":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
+							"title":"C 1"
+						},
+						"d1":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
+							"title":"D 1"
+						},
+						"e1":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
+							"title":"E 1"
+						},
+						"f1":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
+							"title":"F 1"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"code":"def a = a1.items.size()\ndef b = b1.items.size()\ndef c = c1.items.size()\ndef d = d1.items.size()\ndef e = e1.items.size()\ndef f = f1.items.size()\n\nreturn[\"a2\" : a, \"b2\" : b, \"c2\" : c, \"d2\" : d, \"e2\" : e, \"f2\" : f]",
+				"parameters":{
+					"a1":"{{ xhZt4.outputs.data.items_page_by_column_values }}",
+					"b1":"{{ HYJMw.outputs.data.items_page_by_column_values }}",
+					"c1":"{{ nBtne.outputs.data.items_page_by_column_values }}",
+					"d1":"{{ VDBat.outputs.data.items_page_by_column_values }}",
+					"e1":"{{ EkM5A.outputs.data.items_page_by_column_values }}",
+					"f1":"{{ ilfYg.outputs.data.items_page_by_column_values }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Code By UnifyApps",
+			"title":"Execute groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":33,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"Po37g-1",
+			"id":"hvBWo",
+			"index":0,
+			"inputs":{
+				"result":{
+					"development":"{{ b0aDJ.outputs.result.a2 }}",
+					"config":"{{ b0aDJ.outputs.result.b2 }}",
+					"devDiscussion":"{{ b0aDJ.outputs.result.f2 }}",
+					"devBacklog":"{{ b0aDJ.outputs.result.e2 }}",
+					"qaRejected":"{{ b0aDJ.outputs.result.d2 }}",
+					"qa":"{{ b0aDJ.outputs.result.c2 }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Return data to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":568,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":3
+}
