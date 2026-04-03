@@ -1,0 +1,62 @@
+{
+	"appsUsed":[
+		"jobnimbus"
+	],
+	"createdTime":1738827663472,
+	"deleted":false,
+	"deployedVersion":2,
+	"deploymentState":{
+		"deployedAt":1738827726723,
+		"deployedBy":44567,
+		"deployedDefinitionId":"67a467ce1b1d5b6e1bb39899",
+		"status":"DEPLOYED",
+		"version":2,
+		"workflowVersion":3
+	},
+	"edges":[
+		
+	],
+	"id":"67a4678f1b1d5b6e1bb39874",
+	"lastModifiedBy":44567,
+	"lcName":"test",
+	"modifiedTime":1738827726724,
+	"name":"test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"jobnimbus",
+				"resourceVersion":71,
+				"connectionId":"6798b7675dd6245732bf92ec",
+				"resourceName":"jobnimbus_on_create_or_update_contact"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"lpCrq-1",
+			"id":"DvDJw",
+			"index":0,
+			"inputs":{},
+			"skip":false,
+			"subTitle":"JobNimbus",
+			"title":"Contact Created or Updated",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":44567,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":3
+}
