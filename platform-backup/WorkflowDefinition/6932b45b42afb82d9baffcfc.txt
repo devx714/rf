@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1764930651110,
+	"deleted":true,
+	"edges":[
+		{
+			"fromNodeId":"_r4iyP",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_44BTt",
+			"type":"next"
+		}
+	],
+	"id":"6932b45b42afb82d9baffcfc",
+	"lastModifiedBy":175325,
+	"lcName":"loopslocalfapwopymax",
+	"modifiedTime":1765004409096,
+	"name":"loopsLocalfAPwOpymaX",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_r4iyP-1",
+			"id":"_r4iyP",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_r4iyP-1",
+			"id":"_44BTt",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":175325,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
