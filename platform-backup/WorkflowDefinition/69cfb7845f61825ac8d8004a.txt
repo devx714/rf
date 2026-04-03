@@ -37,13 +37,14 @@
 	"id":"69cfb7845f61825ac8d8004a",
 	"lastModifiedBy":195390,
 	"lcName":"whatsapp trigger (ai agent)",
-	"modifiedTime":1775220612280,
+	"modifiedTime":1775220612522,
 	"name":"Whatsapp Trigger (AI Agent)",
 	"nodes":[
 		{
 			"context":{
 				"appName":"whatsapp",
 				"resourceVersion":2335,
+				"connectionId":"69a549d2e3346f27ea361715",
 				"resourceName":"whatsapp_on_new_message"
 			},
 			"debug":false,
@@ -97,7 +98,7 @@
 			"inputs":{
 				"automationId":"67f4bb157c1d3e26449a935f",
 				"runtimeConnections":{
-					"whatsapp":"<CONNECTION_ID>",
+					"whatsapp":"69a549d2e3346f27ea361715",
 					"deepgram":"<<_ua_ai_agent.inputs.deepgramConnectionId>>"
 				},
 				"synchronous":true,
@@ -149,7 +150,7 @@
 					"caseAssociationType":"PREVIOUS_FAN_MESSAGE",
 					"messageType":"FAN",
 					"triggeredFromAutomationId":"{{ __RUN__.outputs.workflowId }}",
-					"toCustomerUserId":"<AI_AGENT_ID>",
+					"toCustomerUserId":"e_69cfb7712fe431198b60cb74",
 					"channelSpecificUserId":"{{ popv8.outputs.change.value.contacts[0].wa_id }}",
 					"attachments":{
 						"ua:type":"mappedArray",
@@ -193,7 +194,7 @@
 				"parameters":{
 					"messageId":"{{ _JDwfT.outputs.messageId }}",
 					"userEmailAddress":"{{ popv8.outputs.change.value.metadata.display_phone_number }}",
-					"aiAgentId":"<AI_AGENT_ID>",
+					"aiAgentId":"e_69cfb7712fe431198b60cb74",
 					"caseId":"{{ _JDwfT.outputs.caseId }}",
 					"userQuery":"{{ u31Az.outputs.messageContent }}"
 				}
@@ -238,5 +239,5 @@
 		"Trigger",
 		"AI Agent Deployment"
 	],
-	"version":0
+	"version":1
 }
