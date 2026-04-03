@@ -1,0 +1,62 @@
+{
+	"appsUsed":[
+		"stripe"
+	],
+	"createdTime":1729504294468,
+	"deleted":false,
+	"deployedVersion":4,
+	"deploymentState":{
+		"deployedAt":1729581642385,
+		"deployedBy":520,
+		"deployedDefinitionId":"6717524a9775f84fb36788c8",
+		"status":"DEPLOYED",
+		"version":4,
+		"workflowVersion":29
+	},
+	"edges":[
+		
+	],
+	"id":"67162426662b1631725c7ac0",
+	"lastModifiedBy":520,
+	"lcName":"invoice",
+	"modifiedTime":1729584128205,
+	"name":"invoice",
+	"nodes":[
+		{
+			"context":{
+				"appName":"stripe",
+				"resourceVersion":3,
+				"connectionId":"6712381656cbf23c5a480cfa",
+				"resourceName":"stripe_on_new_invoice_polling"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_sNJ60-1",
+			"id":"_iwmZB",
+			"index":0,
+			"inputs":{
+				"interval":5,
+				"batchSize":100
+			},
+			"skip":false,
+			"subTitle":"Stripe",
+			"title":"New invoice",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":29
+}
