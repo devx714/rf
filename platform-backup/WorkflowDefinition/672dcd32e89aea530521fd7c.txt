@@ -1,0 +1,82 @@
+{
+	"appsUsed":[
+		"github",
+		"servicenow"
+	],
+	"createdTime":1731054898785,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_0TyIa",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_PzJiU",
+			"type":"next"
+		}
+	],
+	"id":"672dcd32e89aea530521fd7c",
+	"lastModifiedBy":520,
+	"lcName":"kj vckjndvjcnedjv",
+	"modifiedTime":1731088294356,
+	"name":"kj vckjndvjcnedjv",
+	"nodes":[
+		{
+			"context":{
+				"appName":"github",
+				"resourceVersion":2715,
+				"connectionId":"672853b321446a2ac8d12d50",
+				"resourceName":"github_on_new_or_updated_pr"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_0ZruL-1",
+			"id":"_0TyIa",
+			"index":0,
+			"inputs":{
+				"owner":"devx714",
+				"repo":"devx714-testing"
+			},
+			"skip":false,
+			"subTitle":"Github",
+			"title":"On new or updated pr",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"servicenow",
+				"resourceVersion":2671,
+				"connectionId":"6729b3c0f01a08529c0da7a3",
+				"resourceName":"servicenow_get_object_schema",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_0ZruL-1",
+			"id":"_PzJiU",
+			"index":0,
+			"inputs":{
+				"objectId":"core_company"
+			},
+			"skip":false,
+			"subTitle":"ServiceNow",
+			"title":"Get object schema",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":5
+}
