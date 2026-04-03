@@ -1,0 +1,127 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1745212567012,
+	"deleted":false,
+	"deployedVersion":3,
+	"deploymentState":{
+		"deployedAt":1745214805862,
+		"deployedBy":15080,
+		"deployedDefinitionId":"6805dd55e401e142cd9cfe0d",
+		"status":"DEPLOYED",
+		"version":3,
+		"workflowVersion":10
+	},
+	"edges":[
+		{
+			"fromNodeId":"MikuH",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"SoZ1U",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"SoZ1U",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"dxIvQ",
+			"type":"next"
+		}
+	],
+	"id":"6805d4973f1b2c4ca4a26e7f",
+	"lastModifiedBy":15080,
+	"lcName":"asdf",
+	"modifiedTime":1745214915383,
+	"name":"asdf",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":549,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"0QatK-1",
+			"id":"MikuH",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"additional":{
+				"xsdSchemaConfig":{}
+			},
+			"context":{
+				"appName":"analytics_by_unifyapps",
+				"resourceVersion":12,
+				"resourceName":"analytics_by_unifyapps_export_sql",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"0QatK-1",
+			"id":"SoZ1U",
+			"index":0,
+			"inputs":{
+				"fileName":"asdf",
+				"query":"Select * FROM WORKFLOW_EXECUTION LIMIT 1",
+				"fileType":"CSV",
+				"group":"PLATFORM"
+			},
+			"skip":false,
+			"subTitle":"Analytics by UnifyApps",
+			"title":"Export SQL Query Result",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"analytics_by_unifyapps",
+				"resourceVersion":484,
+				"resourceName":"analytics_by_unifyapps_execute_query",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"0QatK-1",
+			"id":"dxIvQ",
+			"index":0,
+			"inputs":{
+				"query":"Select 20+2",
+				"group":"ENTITY_REPORTING"
+			},
+			"skip":false,
+			"subTitle":"Analytics by UnifyApps",
+			"title":"Execute Analytics SQL Query",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":15080,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":11
+}
