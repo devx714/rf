@@ -1,0 +1,33 @@
+{
+	"createdTime":1721970615989,
+	"deleted":false,
+	"description":"Default",
+	"id":"66a32fb77b9e6e616ffa948b",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":520,
+	"lcName":"sales report generator",
+	"modifiedTime":1721970615989,
+	"name":"Sales Report Generator",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":520,
+	"standard":false,
+	"version":0
+}
