@@ -1,0 +1,85 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1741416067756,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"neUmV",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"o4Af5",
+			"type":"next"
+		}
+	],
+	"id":"67cbe683e956fc66a876b4e0",
+	"lastModifiedBy":2627,
+	"lcName":"asd",
+	"modifiedTime":1741416196845,
+	"name":"asd",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":376,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"0zNRE-1",
+			"id":"neUmV",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"files_by_unifyapps",
+				"resourceVersion":318,
+				"resourceName":"files_by_unifyapps_upload_file",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"0zNRE-1",
+			"id":"o4Af5",
+			"index":0,
+			"inputs":{
+				"fileName":"ahja",
+				"url":"https://unifyapps858-my.sharepoint.com/personal/akshatd_unifyapps858_onmicrosoft_com/_layouts/15/download.aspx?UniqueId=ae857734-d2df-465a-88da-5216e3c46c1e&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI2MTBkY2IyZi1lNWE5LTQ2YzEtYTdiYS0xMTdjZjNlMjQ5YjIiLCJhcHBfZGlzcGxheW5hbWUiOiJ0ZWFtcyBvYXV0aCIsImFwcGlkIjoiNWE0OTBmNzMtMzY3Ni00YzkzLTg5ODEtNzVlNmM0YTZlMTVhIiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL3VuaWZ5YXBwczg1OC1teS5zaGFyZXBvaW50LmNvbUA4NmU1ZWFkZC04MWU5LTQwMzItOGNhYS1jNDE5YWI5ZDYxYWUiLCJleHAiOiIxNzQxNDE5NTY5In0.CgoKBHNuaWQSAjY0EgsIyKiFqsCF7z0QBRoNMjAuMTkwLjE3NC40MiosM3ViT2F0b1VyVkdSeEZmNGRlRG4yUVFtUU1ZN2REcnl0M01YdHdkb2x6TT0wrAE4AUIQoYhqfJ8wAEC87rUaLDQsfEoQaGFzaGVkcHJvb2Z0b2tlbnIpMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAzZDkxNzJiNTJAbGl2ZS5jb216ATKCARIJ3erlhumBMkARjKrEGaudYa6SAQZBa3NoYXSaAQFEogEkYWtzaGF0ZEB1bmlmeWFwcHM4NTgub25taWNyb3NvZnQuY29tqgEQMTAwMzIwMDNEOTE3MkI1MrIBWWFsbGZpbGVzLndyaXRlIGdyb3VwLnJlYWQgZ3JvdXAud3JpdGUgYWxscHJvZmlsZXMucmVhZCBhbGxwcm9maWxlcy5yZWFkIGFsbHByb2ZpbGVzLndyaXRlyAEB.pbTiG9Hl5sNDse83MiEm25AVVRgV4t_bFzISvPQHCBA&ApiVersion=2.0",
+				"option":"url"
+			},
+			"skip":false,
+			"subTitle":"Files by UnifyApps",
+			"title":"Upload file",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":2627,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
