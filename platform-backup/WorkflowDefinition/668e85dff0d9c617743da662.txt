@@ -1,0 +1,83 @@
+{
+	"appsUsed":[
+		"salesforce"
+	],
+	"createdTime":1720616415425,
+	"deleted":false,
+	"description":"",
+	"edges":[
+		{
+			"fromNodeId":"ee1RC",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"0TZxe",
+			"type":"next"
+		}
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"668e85dff0d9c617743da662",
+	"lastModifiedBy":-1,
+	"lcName":"sf test tushar",
+	"modifiedTime":1721679631931,
+	"name":"sf test tushar",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":44,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"ee1RC-1",
+			"id":"ee1RC",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"title":"Http Webhook",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"salesforce",
+				"resourceVersion":393,
+				"connectionId":"668e8550b04e900823037926",
+				"resourceName":"salesforce_execute_soql",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"ee1RC-1",
+			"id":"0TZxe",
+			"index":0,
+			"inputs":{
+				"query":"SELECT Id, Name FROM Lead\nLIMIT 10"
+			},
+			"skip":false,
+			"subTitle":"Salesforce",
+			"title":"Execute SOQL",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":32,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":7
+}
