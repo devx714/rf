@@ -1,0 +1,479 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1728914085539,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_Srljd",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_UREIj",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_UREIj",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_Y9TWx",
+			"type":"next"
+		}
+	],
+	"id":"670d22a5ef466f6fabecd9e9",
+	"lastModifiedBy":520,
+	"lcName":"callable_test(dnd)",
+	"modifiedTime":1728916540464,
+	"name":"callable_test(DND)",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":62,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_MyGVd-1",
+			"id":"_Srljd",
+			"index":0,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"name":{
+							"type":"string",
+							"title":"Name"
+						},
+						"age":{
+							"type":"number",
+							"title":"Age"
+						},
+						"family":{
+							"type":"object",
+							"properties":{
+								"sibling":{
+									"type":"object",
+									"properties":{
+										"child":{
+											"type":"string",
+											"title":"Child"
+										},
+										"wife":{
+											"type":"string",
+											"title":"Wife"
+										},
+										"object":{
+											"type":"object",
+											"properties":{
+												"obj1":{
+													"type":"object",
+													"properties":{
+														"name1":{
+															"type":"string",
+															"title":"Name 1"
+														}
+													},
+													"additionalProperties":false,
+													"title":"Obj 1",
+													"required":[]
+												},
+												"obj2":{
+													"type":"object",
+													"properties":{
+														"name2":{
+															"type":"string",
+															"title":"Name 2"
+														},
+														"obj3":{
+															"type":"object",
+															"properties":{
+																"obj4":{
+																	"type":"object",
+																	"properties":{
+																		"obj5":{
+																			"type":"object",
+																			"properties":{
+																				"obj6":{
+																					"type":"object",
+																					"properties":{
+																						"obj7":{
+																							"type":"object",
+																							"properties":{
+																								"name4":{
+																									"type":"string",
+																									"title":"Name 4"
+																								}
+																							},
+																							"additionalProperties":false,
+																							"title":"Obj 7",
+																							"required":[]
+																						}
+																					},
+																					"additionalProperties":false,
+																					"title":"Obj 6",
+																					"required":[]
+																				}
+																			},
+																			"additionalProperties":false,
+																			"title":"Obj 5",
+																			"required":[]
+																		}
+																	},
+																	"additionalProperties":false,
+																	"title":"Obj 4",
+																	"required":[]
+																}
+															},
+															"additionalProperties":false,
+															"title":"Obj 3",
+															"required":[]
+														}
+													},
+													"additionalProperties":false,
+													"title":"Obj 2",
+													"required":[]
+												}
+											},
+											"additionalProperties":false,
+											"title":"Object",
+											"required":[]
+										}
+									},
+									"additionalProperties":false,
+									"title":"Sibling",
+									"required":[]
+								},
+								"child":{
+									"type":"string",
+									"title":"Child"
+								},
+								"wife":{
+									"type":"string",
+									"title":"Wife"
+								}
+							},
+							"additionalProperties":false,
+							"title":"Family",
+							"required":[]
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger from automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":124,
+				"resourceName":"variable_by_unifyapps_create_variables",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_MyGVd-1",
+			"id":"_UREIj",
+			"index":0,
+			"inputSchema":{
+				"type":"SCHEMA_AND_LAYOUT",
+				"dynamic":false,
+				"layout":{},
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"name":{
+							"type":"string",
+							"title":"Name"
+						},
+						"age":{
+							"type":"number",
+							"title":"Age"
+						},
+						"family":{
+							"type":"object",
+							"properties":{
+								"child":{
+									"type":"string",
+									"title":"Child"
+								},
+								"wife":{
+									"type":"string",
+									"title":"Wife"
+								},
+								"object":{
+									"type":"object",
+									"properties":{
+										"obj1":{
+											"type":"object",
+											"properties":{
+												"name1":{
+													"type":"string",
+													"title":"Name 1"
+												}
+											},
+											"additionalProperties":false,
+											"title":"Obj 1",
+											"required":[]
+										},
+										"obj2":{
+											"type":"object",
+											"properties":{
+												"name2":{
+													"type":"string",
+													"title":"Name 2"
+												},
+												"obj3":{
+													"type":"object",
+													"properties":{
+														"obj4":{
+															"type":"object",
+															"properties":{
+																"obj5":{
+																	"type":"object",
+																	"properties":{
+																		"obj6":{
+																			"type":"object",
+																			"properties":{
+																				"obj7":{
+																					"type":"object",
+																					"properties":{
+																						"name4":{
+																							"type":"string",
+																							"title":"Name 4"
+																						}
+																					},
+																					"additionalProperties":false,
+																					"title":"Obj 7",
+																					"required":[]
+																				}
+																			},
+																			"additionalProperties":false,
+																			"title":"Obj 6",
+																			"required":[]
+																		}
+																	},
+																	"additionalProperties":false,
+																	"title":"Obj 5",
+																	"required":[]
+																}
+															},
+															"additionalProperties":false,
+															"title":"Obj 4",
+															"required":[]
+														}
+													},
+													"additionalProperties":false,
+													"title":"Obj 3",
+													"required":[]
+												}
+											},
+											"additionalProperties":false,
+											"title":"Obj 2",
+											"required":[]
+										}
+									},
+									"additionalProperties":false,
+									"title":"Object",
+									"required":[]
+								}
+							},
+							"additionalProperties":false,
+							"title":"Family",
+							"required":[]
+						}
+					},
+					"required":[]
+				}
+			},
+			"inputs":{},
+			"outputSchema":{
+				"type":"SCHEMA",
+				"dynamic":false,
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"name":{
+							"type":"string",
+							"title":"Name"
+						},
+						"age":{
+							"type":"number",
+							"title":"Age"
+						},
+						"family":{
+							"type":"object",
+							"properties":{
+								"child":{
+									"type":"string",
+									"title":"Child"
+								},
+								"wife":{
+									"type":"string",
+									"title":"Wife"
+								},
+								"object":{
+									"type":"object",
+									"properties":{
+										"obj1":{
+											"type":"object",
+											"properties":{
+												"name1":{
+													"type":"string",
+													"title":"Name 1"
+												}
+											},
+											"additionalProperties":false,
+											"title":"Obj 1",
+											"required":[]
+										},
+										"obj2":{
+											"type":"object",
+											"properties":{
+												"name2":{
+													"type":"string",
+													"title":"Name 2"
+												},
+												"obj3":{
+													"type":"object",
+													"properties":{
+														"obj4":{
+															"type":"object",
+															"properties":{
+																"obj5":{
+																	"type":"object",
+																	"properties":{
+																		"obj6":{
+																			"type":"object",
+																			"properties":{
+																				"obj7":{
+																					"type":"object",
+																					"properties":{
+																						"name4":{
+																							"type":"string",
+																							"title":"Name 4"
+																						}
+																					},
+																					"additionalProperties":false,
+																					"title":"Obj 7",
+																					"required":[]
+																				}
+																			},
+																			"additionalProperties":false,
+																			"title":"Obj 6",
+																			"required":[]
+																		}
+																	},
+																	"additionalProperties":false,
+																	"title":"Obj 5",
+																	"required":[]
+																}
+															},
+															"additionalProperties":false,
+															"title":"Obj 4",
+															"required":[]
+														}
+													},
+													"additionalProperties":false,
+													"title":"Obj 3",
+													"required":[]
+												}
+											},
+											"additionalProperties":false,
+											"title":"Obj 2",
+											"required":[]
+										}
+									},
+									"additionalProperties":false,
+									"title":"Object",
+									"required":[]
+								}
+							},
+							"additionalProperties":false,
+							"title":"Family",
+							"required":[]
+						}
+					},
+					"required":[]
+				}
+			},
+			"skip":false,
+			"subTitle":"Variable by UnifyApps",
+			"title":"Create variables",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":54,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_MyGVd-1",
+			"id":"_Y9TWx",
+			"index":0,
+			"inputs":{
+				"result":{
+					"family":{
+						"sibling":{
+							"wife":"{{ _UREIj.outputs.family.wife }}",
+							"child":"{{ _UREIj.outputs.family.child }}",
+							"object":{
+								"obj2":{
+									"name2":"{{ _UREIj.outputs.family.object.obj2.name2 }}",
+									"obj3":{
+										"obj4":{
+											"obj5":{
+												"obj6":{
+													"obj7":{
+														"name4":"{{ _UREIj.outputs.family.object.obj2.obj3.obj4.obj5.obj6.obj7.name4 }}"
+													}
+												}
+											}
+										}
+									}
+								},
+								"obj1":{
+									"name1":"{{ _UREIj.outputs.family.object.obj1.name1 }}"
+								}
+							}
+						},
+						"wife":"{{ _UREIj.outputs.family.wife }}",
+						"child":"{{ _UREIj.outputs.family.child }}"
+					},
+					"age":"{{ _UREIj.outputs.age }}",
+					"name":"{{ _UREIj.outputs.name }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":11
+}
