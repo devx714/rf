@@ -1,0 +1,80 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1729176030654,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_uTcru",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_sYlqR",
+			"type":"next"
+		}
+	],
+	"id":"671121de0668236b2161ae5c",
+	"lastModifiedBy":520,
+	"lcName":"test",
+	"modifiedTime":1729176058411,
+	"name":"test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":51,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_M4ZJE-1",
+			"id":"_uTcru",
+			"index":0,
+			"inputs":{
+				"cron":"INTERVAL",
+				"interval":15,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":1582,
+				"resourceName":"storage_by_unifyapps_aggregate_metadata",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_M4ZJE-1",
+			"id":"_sYlqR",
+			"index":0,
+			"inputs":{
+				"object_type":"join2"
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Aggregate metadata",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
