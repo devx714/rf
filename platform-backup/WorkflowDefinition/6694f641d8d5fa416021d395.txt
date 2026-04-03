@@ -1,0 +1,241 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1721038401636,
+	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1721038413848,
+		"deployedBy":533,
+		"deployedDefinitionId":"6694f64dd8d5fa416021d3a0",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
+	"description":"",
+	"edges":[
+		{
+			"fromNodeId":"wTGZI",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"JddjS",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"JddjS",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"5yt9x",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"5yt9x",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"JmUK2",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"JmUK2",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"cGwwq",
+			"type":"next"
+		}
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"6694f641d8d5fa416021d395",
+	"lastModifiedBy":-1,
+	"lcName":"greyorange - status offline",
+	"modifiedTime":1721749605795,
+	"name":"GreyOrange - Status Offline",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":37,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"wTGZI-1",
+			"id":"wTGZI",
+			"index":0,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"userId":{
+							"type":"string",
+							"title":"User Id"
+						},
+						"status":{
+							"type":"string",
+							"title":"Status"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"setup":{
+					"type":"object",
+					"properties":{
+						"agentIdvariable":{
+							"type":"string",
+							"title":"Agent Idvariable"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				}
+			},
+			"skip":false,
+			"title":"Trigger from automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":418,
+				"resourceName":"storage_by_unifyapps_fetch_records",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"wTGZI-1",
+			"id":"JddjS",
+			"index":0,
+			"inputs":{
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"properties_userId",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"{{ wTGZI.outputs.agentIdvariable }}"
+							}
+						}
+					],
+					"operator":"AND"
+				},
+				"object_type":"userNZn",
+				"page":{
+					"limit":20,
+					"offset":0
+				},
+				"numberOfRecordsToFetch":"SINGLE",
+				"includeTotalCount":false
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Fetch records",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":408,
+				"resourceName":"storage_by_unifyapps_get_records_by_ids",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"wTGZI-1",
+			"id":"5yt9x",
+			"index":0,
+			"inputs":{
+				"object_type":"userZn",
+				"ids":{
+					"items":"{{ JddjS.outputs.properties.userId }}",
+					"ua:type":"mappedArray"
+				}
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Get records by IDs",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":476,
+				"resourceName":"storage_by_unifyapps_update_record_by_id",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"wTGZI-1",
+			"id":"JmUK2",
+			"index":0,
+			"inputs":{
+				"recordId":"{{ 5yt9x.outputs.objects[0].properties.userId }}",
+				"object_type":"userZn",
+				"record":{
+					"status":"offline",
+					"userId":"{{ 5yt9x.outputs.objects[0].properties.userId }}",
+					"consumedCapacity":"{{ 5yt9x.outputs.objects[0].properties.consumedCapacity }}",
+					"totalCapacity":"100"
+				},
+				"upsert":false
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Update record by id",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":33,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"wTGZI-1",
+			"id":"cGwwq",
+			"index":0,
+			"inputs":{
+				"result":{
+					"objects":{
+						"ua:type":"mappedArray",
+						"userId":"{{ 5yt9x.outputs.objects[0].properties.userId }}",
+						"status":"{{ 5yt9x.outputs.objects[0].properties.status }}",
+						"source":"{{ 5yt9x.outputs.objects }}",
+						"items":{
+							"userId":"{{ 5yt9x.outputs.objects[0].properties.userId }}",
+							"status":"{{ JmUK2.outputs.properties.status }}"
+						}
+					},
+					"userId":"{{ JmUK2.outputs.properties.userId }}",
+					"status":"{{ JmUK2.outputs.properties.status }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Return data to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":533,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":4
+}
