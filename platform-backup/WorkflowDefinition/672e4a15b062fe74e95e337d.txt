@@ -1,0 +1,73 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1731086869957,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_gxOzu",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_USkV4",
+			"type":"next"
+		}
+	],
+	"id":"672e4a15b062fe74e95e337d",
+	"lastModifiedBy":520,
+	"lcName":"asdas",
+	"modifiedTime":1731089267057,
+	"name":"asdas",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_gxOzu-1",
+			"id":"_gxOzu",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"edi_tools_by_unifyapps",
+				"resourceVersion":31,
+				"resourceName":"edi_tools_by_unifyapps_generate_edi",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_gxOzu-1",
+			"id":"_USkV4",
+			"index":0,
+			"inputs":{
+				"setupViaSample":false,
+				"release":"005010",
+				"transactionSet":"860",
+				"jsonObject":{},
+				"ediType":"X12"
+			},
+			"skip":false,
+			"subTitle":"EDI Tools by UnifyApps",
+			"title":"Generate EDI document",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":3
+}
