@@ -1,0 +1,64 @@
+{
+	"appsUsed":[
+		"microsoft_outlook"
+	],
+	"createdTime":1739263541805,
+	"deleted":false,
+	"deployedVersion":2,
+	"deploymentState":{
+		"deployedAt":1739349920312,
+		"deployedBy":33,
+		"deployedDefinitionId":"67ac5fa0ec2abc3cc6d98396",
+		"status":"DEPLOYED",
+		"version":2,
+		"workflowVersion":5
+	},
+	"edges":[
+		
+	],
+	"id":"67ab0e3512d07033aca1df7b",
+	"lastModifiedBy":33,
+	"lcName":"test",
+	"modifiedTime":1739349920313,
+	"name":"test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"microsoft_outlook",
+				"resourceVersion":2,
+				"connectionId":"67ac401a670e677750210439",
+				"resourceName":"microsoft_outlook_on_new_mail_polling"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"zkW1c-1",
+			"id":"AJPpA",
+			"index":0,
+			"inputs":{
+				"interval":5
+			},
+			"skip":false,
+			"subTitle":"Microsoft Outlook",
+			"title":"New email",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":33,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":5
+}
