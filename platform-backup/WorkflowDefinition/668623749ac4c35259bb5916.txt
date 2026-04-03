@@ -1,0 +1,56 @@
+{
+	"appsUsed":[
+		"mongo"
+	],
+	"createdTime":1720066932207,
+	"deleted":false,
+	"description":"",
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"668623749ac4c35259bb5916",
+	"lastModifiedBy":-1,
+	"lcName":"mongocdc trigger",
+	"modifiedTime":1721679553410,
+	"name":"MongoCDC trigger",
+	"nodes":[
+		{
+			"context":{
+				"appName":"mongo",
+				"resourceVersion":0,
+				"connectionId":"668627ddafa3d93639ef76ae",
+				"resourceName":"mongodb_on_update_event"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"tlxhd-1",
+			"id":"tlxhd",
+			"index":0,
+			"inputs":{
+				"loadType":"LIVE",
+				"objectSourceResourceName":"mongodb_fetch_given_collection_information",
+				"objectId":"blogs"
+			},
+			"skip":false,
+			"title":"Triggers an event on changes to collection's records",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":35,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":4
+}
