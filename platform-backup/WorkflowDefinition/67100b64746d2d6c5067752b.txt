@@ -1,0 +1,59 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1729104740323,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_ZegjV",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_0wDEE",
+			"type":"next"
+		}
+	],
+	"id":"67100b64746d2d6c5067752b",
+	"lastModifiedBy":34,
+	"lcName":"dfgh",
+	"modifiedTime":1729104740323,
+	"name":"dfgh",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ZegjV-1",
+			"id":"_ZegjV",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ZegjV-1",
+			"id":"_0wDEE",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":0
+}
