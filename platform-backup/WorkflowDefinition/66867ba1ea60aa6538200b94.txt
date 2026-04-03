@@ -1,0 +1,65 @@
+{
+	"appsUsed":[
+		"sqlserver"
+	],
+	"createdTime":1720089505629,
+	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1720089588293,
+		"deployedBy":13,
+		"deployedDefinitionId":"66867be8ea60aa6538200bb0",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":2
+	},
+	"description":"",
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"66867ba1ea60aa6538200b94",
+	"lastModifiedBy":-1,
+	"lcName":"test",
+	"modifiedTime":1721679607727,
+	"name":"test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"sqlserver",
+				"resourceVersion":112,
+				"connectionId":"66859a20cf771f673c515d51",
+				"resourceName":"sqlserver_on_update_event"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"xmbJI-1",
+			"id":"xmbJI",
+			"index":0,
+			"inputs":{
+				"loadType":"LIVE",
+				"objectSourceResourceName":"sqlserver_fetch_columns_information",
+				"objectId":"dbo.AgentTasks"
+			},
+			"skip":false,
+			"title":"Triggers an event on changes to table's records",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":13,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":3
+}
