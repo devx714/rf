@@ -1,0 +1,117 @@
+{
+	"appsUsed":[
+		"snowflake"
+	],
+	"createdTime":1739084356724,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"HUVU6",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"c87Cp",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"c87Cp",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"fkbQC",
+			"type":"next"
+		}
+	],
+	"id":"67a85244edc5ea16d5a5b9f1",
+	"lastModifiedBy":532,
+	"lcName":"test snowflake",
+	"modifiedTime":1739084592212,
+	"name":"test snowflake",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":238,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"39wTv-1",
+			"id":"HUVU6",
+			"index":0,
+			"inputs":{
+				"cron":"INTERVAL",
+				"interval":15,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"snowflake",
+				"resourceVersion":3265,
+				"connectionId":"67a301fbd0ecfa768db1e954",
+				"resourceName":"snowflake_execute_sql",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"39wTv-1",
+			"id":"c87Cp",
+			"index":0,
+			"inputs":{
+				"objectSourceResourceName":"snowflake_execute_sql_metadata",
+				"statement":"SHOW DATABASES;",
+				"timeout":60
+			},
+			"skip":false,
+			"subTitle":"Snowflake",
+			"title":"Execute SQL",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"snowflake",
+				"resourceVersion":3265,
+				"connectionId":"67a301fbd0ecfa768db1e954",
+				"resourceName":"snowflake_execute_sql",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"39wTv-1",
+			"id":"fkbQC",
+			"index":0,
+			"inputs":{
+				"objectSourceResourceName":"snowflake_execute_sql_metadata",
+				"statement":"SELECT \n    table_name \nFROM \n    SNOWFLAKE_SAMPLE_DATA.information_schema.tables \nWHERE \n    table_schema != 'INFORMATION_SCHEMA'\nORDER BY \n    table_name;",
+				"timeout":60
+			},
+			"skip":false,
+			"subTitle":"Snowflake",
+			"title":"Execute SQL",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":532,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":5
+}
