@@ -1,0 +1,104 @@
+{
+	"appsUsed":[
+		"dropbox"
+	],
+	"createdTime":1729515206863,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_ACApA",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_D1iIi",
+			"type":"next"
+		}
+	],
+	"id":"67164ec625389160f1843ee5",
+	"lastModifiedBy":520,
+	"lcName":"kdafjsdfahsfjsadfh ls",
+	"modifiedTime":1729580512387,
+	"name":"kdafjsdfahsfjsadfh ls",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":51,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_62LSo-1",
+			"id":"_ACApA",
+			"index":0,
+			"inputs":{
+				"cron":"INTERVAL",
+				"interval":15,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"dropbox",
+				"resourceVersion":2240,
+				"connectionId":"66f4ed667d1a192ad28ac2ea",
+				"resourceName":"dropbox_update_csv_file",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_62LSo-1",
+			"id":"_D1iIi",
+			"index":0,
+			"inputs":{
+				"mode":"overwrite",
+				"path":"/3 (1)/untitled spreadsheet - sheet1.csv",
+				"columnHeaders":[
+					"Age",
+					"name"
+				],
+				"columns":[
+					[
+						"12",
+						"15"
+					],
+					[
+						"Vihar",
+						"Krishna"
+					],
+					[
+						"hello ",
+						"bhoot"
+					]
+				],
+				"strict_conflict":false,
+				"columnSeparator":"comma",
+				"mute":false,
+				"autorename":false
+			},
+			"skip":false,
+			"subTitle":"Dropbox",
+			"title":"Update CSV file",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":3
+}
