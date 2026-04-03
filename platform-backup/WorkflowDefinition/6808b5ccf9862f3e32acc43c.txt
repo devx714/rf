@@ -1,0 +1,155 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1745401292492,
+	"deleted":false,
+	"deployedVersion":4,
+	"deploymentState":{
+		"deployedAt":1745410477055,
+		"deployedBy":45771,
+		"deployedDefinitionId":"6808d9ac2f3ff51e38f8b2fb",
+		"status":"DEPLOYED",
+		"version":4,
+		"workflowVersion":5
+	},
+	"edges":[
+		{
+			"fromNodeId":"GgDpA",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"19yLI",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"19yLI",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"6n6W6",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"6n6W6",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_HVjep",
+			"type":"next"
+		}
+	],
+	"id":"6808b5ccf9862f3e32acc43c",
+	"lastModifiedBy":45771,
+	"lcName":"testschedule",
+	"modifiedTime":1745410477057,
+	"name":"testSchedule",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":601,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"tiQsv-1",
+			"id":"GgDpA",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"files_by_unifyapps",
+				"resourceVersion":557,
+				"resourceName":"files_by_unifyapps_create_temp_file",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"tiQsv-1",
+			"id":"19yLI",
+			"index":0,
+			"inputs":{
+				"isTmp":false,
+				"folderPath":"tmp/myfile",
+				"fileName":"myfileisgone",
+				"fileType":"txt"
+			},
+			"skip":false,
+			"subTitle":"Files by UnifyApps",
+			"title":"Create a file",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"files_by_unifyapps",
+				"resourceVersion":532,
+				"resourceName":"files_by_unifyapps_append_line_to_file",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"tiQsv-1",
+			"id":"6n6W6",
+			"index":0,
+			"inputs":{
+				"file":"{{ 19yLI.outputs.fileDetails }}",
+				"type":"SINGLE",
+				"contentType":"plainText",
+				"content":"Hello this i sfile content"
+			},
+			"skip":false,
+			"subTitle":"Files by UnifyApps",
+			"title":"Append line(s) to file",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"utility_by_unifyapps",
+				"resourceVersion":2,
+				"resourceName":"utility_by_unifyapps_generate_public_url",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"tiQsv-1",
+			"id":"_HVjep",
+			"index":0,
+			"inputs":{
+				"file":"{{ 19yLI.outputs.fileDetails }}",
+				"expiryTime":1
+			},
+			"skip":false,
+			"subTitle":"Utility by UnifyApps",
+			"title":"Generate public file URL",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":45771,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":5
+}
