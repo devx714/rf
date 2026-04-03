@@ -1,0 +1,65 @@
+{
+	"appsUsed":[
+		"microsoft_teams"
+	],
+	"createdTime":1725969333124,
+	"deleted":false,
+	"deployedVersion":17,
+	"deploymentState":{
+		"deployedAt":1730709891031,
+		"deployedBy":520,
+		"deployedDefinitionId":"6728898225914b67e6769ed6",
+		"status":"DEPLOYED",
+		"version":17,
+		"workflowVersion":64
+	},
+	"edges":[
+		
+	],
+	"id":"66e033b5184b1e5578e90cc8",
+	"lastModifiedBy":520,
+	"lcName":"test_krunal",
+	"modifiedTime":1730709891034,
+	"name":"test_krunal",
+	"nodes":[
+		{
+			"context":{
+				"appName":"microsoft_teams",
+				"resourceVersion":91,
+				"connectionId":"6717470d2bb71e645021ef33",
+				"resourceName":"microsoft_teams_on_new_reply_to_message_polling"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"SOKfM-1",
+			"id":"_TLMT8",
+			"index":0,
+			"inputs":{
+				"interval":5,
+				"message_id":"1728291088103",
+				"team_id":"07ab83fd-d761-43e5-97b9-aeabc73908d7",
+				"batchSize":3,
+				"channel_id":"19:c0b5eb5ff5e640148ab7f293f66e7f70@thread.tacv2"
+			},
+			"skip":false,
+			"subTitle":"Microsoft Teams",
+			"title":"New reply to message",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":2069,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":64
+}
