@@ -1,0 +1,83 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1739081927997,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"CbnUx",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"beaX5",
+			"type":"next"
+		}
+	],
+	"id":"67a848c8edc5ea16d5a5b266",
+	"lastModifiedBy":679,
+	"lcName":"test",
+	"modifiedTime":1739081962966,
+	"name":"test",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"CbnUx-1",
+			"id":"CbnUx",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"standard_entities",
+				"resourceVersion":214,
+				"resourceName":"standard_entities_get_data_pipeline_details",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"CbnUx-1",
+			"id":"beaX5",
+			"index":0,
+			"inputs":{
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"id",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"67a847f19ad5c46fe8444351"
+							}
+						}
+					],
+					"operator":"AND"
+				}
+			},
+			"skip":false,
+			"subTitle":"Standard entities by UnifyApps",
+			"title":"Get data pipeline details",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":679,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
