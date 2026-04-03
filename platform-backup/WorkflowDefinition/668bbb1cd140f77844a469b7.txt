@@ -1,0 +1,183 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1720433436062,
+	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1720433910258,
+		"deployedBy":520,
+		"deployedDefinitionId":"668bbcf6d140f77844a469eb",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":2
+	},
+	"description":"",
+	"edges":[
+		{
+			"fromNodeId":"Gp2TL",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"mdmKG",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"mdmKG",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"USFz7",
+			"type":"next"
+		}
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"668bbb1cd140f77844a469b7",
+	"lastModifiedBy":-1,
+	"lcName":"base pay breakup - 4",
+	"modifiedTime":1721679574379,
+	"name":"Base Pay Breakup - 4",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":37,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"Gp2TL-1",
+			"id":"Gp2TL",
+			"index":0,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"basePay":{
+							"type":"array",
+							"items":{
+								"type":"object",
+								"properties":{
+									"basePay":{
+										"type":"object",
+										"properties":{
+											"id":{
+												"type":"string",
+												"title":"Id"
+											},
+											"type":{
+												"type":"string",
+												"title":"Type"
+											},
+											"baseRate":{
+												"type":"string",
+												"title":"Base Rate"
+											},
+											"payout":{
+												"type":"string",
+												"title":"Payout"
+											}
+										},
+										"additionalProperties":false,
+										"title":"Base Pay",
+										"required":[]
+									}
+								},
+								"additionalProperties":false
+							},
+							"title":"Base Pay",
+							"required":[]
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				}
+			},
+			"skip":false,
+			"title":"Trigger from automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":217,
+				"resourceName":"storage_by_unifyapps_fetch_records",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"Gp2TL-1",
+			"id":"mdmKG",
+			"index":0,
+			"inputs":{
+				"object_type":"base_pay",
+				"sortBy":[
+					{
+						"field":"id",
+						"order":"ASC"
+					}
+				],
+				"page":{
+					"limit":20,
+					"offset":0
+				},
+				"numberOfRecordsToFetch":"MULTIPLE",
+				"includeTotalCount":false
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Fetch records",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":33,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"Gp2TL-1",
+			"id":"USFz7",
+			"index":0,
+			"inputs":{
+				"result":{
+					"basePay":{
+						"source":"{{ mdmKG.outputs.objects }}",
+						"ua:type":"mappedArray",
+						"items":{
+							"basePay":{
+								"id":"{{ mdmKG.outputs.objects[0].properties.id }}",
+								"type":"{{ mdmKG.outputs.objects[0].properties.type }}",
+								"baseRate":"{{ mdmKG.outputs.objects[0].properties.baseRate }}",
+								"payout":"{{ mdmKG.outputs.objects[0].properties.payout }}"
+							}
+						}
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Return data to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":3
+}
