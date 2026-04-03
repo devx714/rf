@@ -1,0 +1,78 @@
+{
+	"appsUsed":[
+		"adp_rm"
+	],
+	"createdTime":1738833089333,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"yDasP",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"qPsjw",
+			"type":"next"
+		}
+	],
+	"id":"67a47cc1921931729ad6a080",
+	"lastModifiedBy":426,
+	"lcName":"sdfsf12",
+	"modifiedTime":1738833490275,
+	"name":"sdfsf12",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":237,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"Ks16X-1",
+			"id":"yDasP",
+			"index":0,
+			"inputs":{
+				"cron":"INTERVAL",
+				"interval":15,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"adp_rm",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"Ks16X-1",
+			"id":"qPsjw",
+			"index":0,
+			"skip":false,
+			"subTitle":"ADP Recruiting Management",
+			"title":"Select an action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":33444,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
