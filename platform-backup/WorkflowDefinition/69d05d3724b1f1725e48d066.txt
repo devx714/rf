@@ -3,7 +3,16 @@
 		
 	],
 	"createdTime":1775263031457,
-	"deleted":false,
+	"deleted":true,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775263031782,
+		"deployedBy":175325,
+		"deployedDefinitionId":"69d05d3724b1f1725e48d069",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"edges":[
 		{
 			"fromNodeId":"n_ynQsj",
@@ -16,7 +25,7 @@
 	"id":"69d05d3724b1f1725e48d066",
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocaluvdncbtphggd",
-	"modifiedTime":1775263031622,
+	"modifiedTime":1775263191173,
 	"name":"changeSetLocaluvdNCbtPHggd",
 	"nodes":[
 		{
@@ -26,7 +35,7 @@
 				"resourceName":"callables_from_automation"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_a76FH-1",
 			"id":"n_ynQsj",
@@ -62,7 +71,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_a76FH-1",
 			"id":"n_Ts3b8",
@@ -95,5 +104,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":2
 }
