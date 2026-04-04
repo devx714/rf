@@ -4,14 +4,14 @@
 	],
 	"createdTime":1722576456043,
 	"deleted":false,
-	"deployedVersion":116,
+	"deployedVersion":117,
 	"deploymentState":{
-		"deployedAt":1774342947177,
+		"deployedAt":1775320669010,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2532329fa153f07e09cf5",
+		"deployedDefinitionId":"69d13e5c83aecf24ec254dbe",
 		"status":"DEPLOYED",
-		"version":116,
-		"workflowVersion":167
+		"version":117,
+		"workflowVersion":169
 	},
 	"edges":[
 		{
@@ -213,7 +213,7 @@
 	"id":"66ac6e480f725f5b425d12c2",
 	"lastModifiedBy":-1,
 	"lcName":"intent detection ",
-	"modifiedTime":1775320668956,
+	"modifiedTime":1775334462647,
 	"name":"Intent Detection ",
 	"nodes":[
 		{
@@ -911,5 +911,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":169
+	"version":171
 }
