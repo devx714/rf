@@ -23,8 +23,8 @@
 		]
 	},
 	"id":"text",
-	"lastModifiedBy":-1,
-	"modifiedTime":1775282554281,
+	"lastModifiedBy":34802,
+	"modifiedTime":1775283577791,
 	"ownerUserId":34802,
 	"properties":{
 		"standard":false,
@@ -196,18 +196,32 @@
 			},
 			"primary":[]
 		},
+		"interfacePageIdVsSlugMap":{
+			"e_69d0a979d48fd130147191dd":""
+		},
+		"publicPageIds":[],
 		"manifest":{
 			"type":"WEB"
+		},
+		"pagePermissions":{
+			"e_69d0a979d48fd130147191dd":{}
 		},
 		"name":"Text",
 		"type":"module",
 		"locale":{
 			"defaultLocale":"en-US"
+		},
+		"entityDetailsMap":{
+			"e_69d0a979d48fd130147191dd":{
+				"slug":"",
+				"isPublic":false,
+				"type":"PAGE"
+			}
 		}
 	},
 	"standard":false,
 	"tags":[
 		
 	],
-	"version":1
+	"version":11
 }
