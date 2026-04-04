@@ -4,14 +4,14 @@
 	],
 	"createdTime":1766829163759,
 	"deleted":false,
-	"deployedVersion":1,
+	"deployedVersion":2,
 	"deploymentState":{
-		"deployedAt":1766829164302,
-		"deployedBy":33862,
-		"deployedDefinitionId":"694fac6c83ba2b1816787cee",
+		"deployedAt":1775287752082,
+		"deployedBy":92,
+		"deployedDefinitionId":"69d0bdc709aa7f2cd808636b",
 		"status":"DEPLOYED",
-		"version":1,
-		"workflowVersion":14
+		"version":2,
+		"workflowVersion":15
 	},
 	"edges":[
 		{
@@ -32,7 +32,7 @@
 	"id":"66ed1b016d04095e3efd9dca",
 	"lastModifiedBy":92,
 	"lcName":"dnt_callable_table",
-	"modifiedTime":1775287744671,
+	"modifiedTime":1775287788742,
 	"name":"dnt_callable_table",
 	"nodes":[
 		{
@@ -253,5 +253,5 @@
 	"tags":[
 		
 	],
-	"version":15
+	"version":16
 }
