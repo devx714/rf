@@ -4,14 +4,14 @@
 	],
 	"createdTime":1755506548150,
 	"deleted":false,
-	"deployedVersion":66,
+	"deployedVersion":67,
 	"deploymentState":{
-		"deployedAt":1774342932235,
+		"deployedAt":1775320655352,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2531429fa153f07e09c5e",
+		"deployedDefinitionId":"69d13e4f83aecf24ec254cb1",
 		"status":"DEPLOYED",
-		"version":66,
-		"workflowVersion":108
+		"version":67,
+		"workflowVersion":110
 	},
 	"edges":[
 		{
@@ -133,7 +133,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -143,7 +142,7 @@
 	"id":"68a2e774d555634699958aa7",
 	"lastModifiedBy":-1,
 	"lcName":"[a2a] new created",
-	"modifiedTime":1774622955858,
+	"modifiedTime":1775334450144,
 	"name":"[A2A] New Created",
 	"nodes":[
 		{
@@ -253,7 +252,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -871,5 +869,5 @@
 	"tags":[
 		"a2a"
 	],
-	"version":109
+	"version":112
 }
