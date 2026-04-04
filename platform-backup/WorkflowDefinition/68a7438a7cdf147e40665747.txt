@@ -4,14 +4,14 @@
 	],
 	"createdTime":1757150607103,
 	"deleted":false,
-	"deployedVersion":38,
+	"deployedVersion":39,
 	"deploymentState":{
-		"deployedAt":1775320588964,
+		"deployedAt":1775334355295,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e0c83aecf24ec25467d",
+		"deployedDefinitionId":"69d173d339824e061381972d",
 		"status":"DEPLOYED",
-		"version":38,
-		"workflowVersion":111
+		"version":39,
+		"workflowVersion":113
 	},
 	"edges":[
 		{
@@ -603,6 +603,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -612,7 +613,7 @@
 	"id":"68a7438a7cdf147e40665747",
 	"lastModifiedBy":-1,
 	"lcName":"trigger ai agent (streaming)",
-	"modifiedTime":1775334355147,
+	"modifiedTime":1775334706939,
 	"name":"Trigger AI Agent (Streaming)",
 	"nodes":[
 		{
@@ -1016,6 +1017,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1273,6 +1275,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1388,6 +1391,7 @@
 				"currentAIAgentId":"{{ DugAy.outputs.aiAgentId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1614,6 +1618,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1697,6 +1702,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1814,6 +1820,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -3545,5 +3552,5 @@
 		}
 	},
 	"standard":true,
-	"version":113
+	"version":114
 }
