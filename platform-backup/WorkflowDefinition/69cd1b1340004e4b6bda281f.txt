@@ -1,0 +1,84 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1775049491125,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"n_mXwmt",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_8qbK5",
+			"type":"next"
+		}
+	],
+	"id":"69cd1b1340004e4b6bda281f",
+	"lastModifiedBy":45775,
+	"lcName":"ecdecd",
+	"modifiedTime":1775050468911,
+	"name":"ecdecd",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":874,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_WE53u-1",
+			"id":"n_mXwmt",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"standard_entities",
+				"resourceVersion":9660,
+				"resourceName":"standard_entities_export_saved_changeset",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_WE53u-1",
+			"id":"n_8qbK5",
+			"index":2,
+			"inputs":{
+				"changesetId":"69cd1e756dd1f502c9773c64"
+			},
+			"skip":false,
+			"subTitle":"Standard entities by UnifyApps",
+			"title":"Export saved changeset",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":45010,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"version":1
+}
