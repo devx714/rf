@@ -17,7 +17,7 @@
 	"id":"69d0dea48d476645e61db802",
 	"lastModifiedBy":175325,
 	"lcName":"logcheckbox_217752961584950",
-	"modifiedTime":1775296164105,
+	"modifiedTime":1775296169433,
 	"name":"logCheckbox_217752961584950",
 	"nodes":[
 		{
@@ -48,11 +48,12 @@
 	],
 	"ownerUserId":175325,
 	"settings":{
-		"enableNodeLevelLogging":true,
-		"enableRunLogging":true,
-		"enableVariableLogging":true,
+		"enableNodeLevelLogging":false,
+		"enableRunLogging":false,
+		"enableVariableLogging":false,
 		"route":{
 			"default":false,
+			"headerValueTierMap":{},
 			"tierName":"global"
 		}
 	},
@@ -60,5 +61,5 @@
 	"tags":[
 		"dnt_tag"
 	],
-	"version":0
+	"version":1
 }
