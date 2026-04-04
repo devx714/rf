@@ -4,14 +4,14 @@
 	],
 	"createdTime":1741189763034,
 	"deleted":false,
-	"deployedVersion":98,
+	"deployedVersion":100,
 	"deploymentState":{
-		"deployedAt":1774342968012,
+		"deployedAt":1775334481499,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c253378d65fb68e1563ca7",
+		"deployedDefinitionId":"69d1745139824e0613819e7c",
 		"status":"DEPLOYED",
-		"version":98,
-		"workflowVersion":151
+		"version":100,
+		"workflowVersion":155
 	},
 	"edges":[
 		{
@@ -121,6 +121,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -130,7 +131,7 @@
 	"id":"67c87283bdfea60cd01141e6",
 	"lastModifiedBy":-1,
 	"lcName":"websearch agent",
-	"modifiedTime":1775320688423,
+	"modifiedTime":1775334707124,
 	"name":"WebSearch agent",
 	"nodes":[
 		{
@@ -396,6 +397,7 @@
 				"scrapModelId":"{{ n_e5rFx.outputs.properties.websearchSettings.scrapModelId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -794,5 +796,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":153
+	"version":156
 }
