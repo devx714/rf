@@ -4,14 +4,14 @@
 	],
 	"createdTime":1722864496231,
 	"deleted":false,
-	"deployedVersion":126,
+	"deployedVersion":127,
 	"deploymentState":{
-		"deployedAt":1774342961718,
+		"deployedAt":1775320682598,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2533129fa153f07e09d7e",
+		"deployedDefinitionId":"69d13e6a83aecf24ec254f0a",
 		"status":"DEPLOYED",
-		"version":126,
-		"workflowVersion":202
+		"version":127,
+		"workflowVersion":204
 	},
 	"edges":[
 		{
@@ -282,61 +282,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"A",
-					"EXPORT_AS_TEMPLATE",
-					"C",
-					"S",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"DEP"
-				],
-				"principalIds":[
-					"76704"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"A",
-					"EXPORT_AS_TEMPLATE",
-					"C",
-					"S",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"DEP"
-				],
-				"principalIds":[
-					"311"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"A",
-					"EXPORT_AS_TEMPLATE",
-					"C",
-					"S",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"DEP"
-				],
-				"principalIds":[
-					"32120"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -346,7 +291,7 @@
 	"id":"66b0d3709fc8e7058b7b0e87",
 	"lastModifiedBy":-1,
 	"lcName":"relevance groundedness (ai agent)",
-	"modifiedTime":1774622955691,
+	"modifiedTime":1775334475720,
 	"name":"Relevance Groundedness (AI Agent)",
 	"nodes":[
 		{
@@ -748,7 +693,6 @@
 				"groundScore":0
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -956,7 +900,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1023,7 +966,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1345,7 +1287,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1412,7 +1353,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1921,5 +1861,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":203
+	"version":206
 }
