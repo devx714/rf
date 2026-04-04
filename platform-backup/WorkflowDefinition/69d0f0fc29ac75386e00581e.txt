@@ -46,7 +46,7 @@
 	"id":"69d0f0fc29ac75386e00581e",
 	"lastModifiedBy":161958,
 	"lcName":"autofill pill mapping sample",
-	"modifiedTime":1775313565827,
+	"modifiedTime":1775313613142,
 	"name":"Autofill Pill Mapping Sample",
 	"nodes":[
 		{
@@ -57,7 +57,7 @@
 				"resourceName":"schedule_default"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"U9EYx-1",
 			"id":"llJgd",
@@ -69,7 +69,7 @@
 				"timezone":"Asia/Calcutta",
 				"daysOfMonth":"",
 				"interval":1,
-				"frequency":"HOURS"
+				"frequency":"MINUTES"
 			},
 			"skip":false,
 			"subTitle":"Schedule",
@@ -395,5 +395,5 @@
 	"tags":[
 		
 	],
-	"version":5
+	"version":6
 }
