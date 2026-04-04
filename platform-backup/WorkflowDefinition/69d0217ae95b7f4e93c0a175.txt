@@ -39,7 +39,7 @@
 	"id":"69d0217ae95b7f4e93c0a175",
 	"lastModifiedBy":197352,
 	"lcName":"imagemimetype_sans_dnt",
-	"modifiedTime":1775318820128,
+	"modifiedTime":1775318905023,
 	"name":"ImageMimeType_Sans_DNT",
 	"nodes":[
 		{
@@ -162,5 +162,5 @@
 		}
 	},
 	"standard":false,
-	"version":17
+	"version":18
 }
