@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762858204785,
 	"deleted":false,
-	"deployedVersion":27,
+	"deployedVersion":28,
 	"deploymentState":{
-		"deployedAt":1774342926448,
+		"deployedAt":1775320650273,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2530e29fa153f07e09c1d",
+		"deployedDefinitionId":"69d13e4a83aecf24ec254c79",
 		"status":"DEPLOYED",
-		"version":27,
-		"workflowVersion":57
+		"version":28,
+		"workflowVersion":59
 	},
 	"edges":[
 		{
@@ -56,7 +56,7 @@
 	"id":"690c4d1a6841d67da28f0077",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] fetch topic execution models",
-	"modifiedTime":1775320650194,
+	"modifiedTime":1775334445296,
 	"name":"[DT] Fetch Topic Execution Models",
 	"nodes":[
 		{
@@ -432,5 +432,5 @@
 	"tags":[
 		
 	],
-	"version":59
+	"version":61
 }
