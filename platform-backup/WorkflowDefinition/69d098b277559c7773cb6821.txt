@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775278258646,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775278259030,
+		"deployedBy":175325,
+		"deployedDefinitionId":"69d098b22cf1ef033d94f9f8",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"edges":[
 		{
 			"fromNodeId":"KGcta",
@@ -16,7 +25,7 @@
 	"id":"69d098b277559c7773cb6821",
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2rvg2hnhpxb2d",
-	"modifiedTime":1775278258810,
+	"modifiedTime":1775278259031,
 	"name":"changeSetQA2Rvg2Hnhpxb2D",
 	"nodes":[
 		{
@@ -26,7 +35,7 @@
 				"resourceName":"webhooks_default"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"7u5IS-1",
 			"id":"KGcta",
@@ -70,7 +79,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"7u5IS-1",
 			"id":"Go83v",
@@ -95,6 +104,7 @@
 				"c":"=SUM({{ KGcta.outputs.body.a }},{{ KGcta.outputs.body.b }})"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
