@@ -25,13 +25,6 @@
 			"fromNodeId":"n_u9lS0",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"n_wOeeg",
-			"type":"next"
-		},
-		{
-			"fromNodeId":"n_wOeeg",
-			"priority":0,
-			"skip":false,
 			"toNodeId":"n_A1is1",
 			"type":"next"
 		},
@@ -46,7 +39,7 @@
 	"id":"692f024ba8cba562657f62d2",
 	"lastModifiedBy":195323,
 	"lcName":"getpublicfile",
-	"modifiedTime":1775298405809,
+	"modifiedTime":1775298584219,
 	"name":"getPublicFile",
 	"nodes":[
 		{
@@ -103,7 +96,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_v3na1-1",
 			"id":"n_u9lS0",
@@ -112,30 +105,9 @@
 				"file":"{{ n_WpduT.outputs.file }}",
 				"expiryTime":1
 			},
-			"skip":true,
-			"subTitle":"Utility by UnifyApps",
-			"title":"Generate public file URL",
-			"type":"ACTION"
-		},
-		{
-			"context":{
-				"appName":"utility_by_unifyapps",
-				"resourceVersion":3397,
-				"resourceName":"utility_by_unifyapps_upload_base_64_content",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_v3na1-1",
-			"id":"n_wOeeg",
-			"index":3,
-			"inputs":{
-				"base64ContentFormat":"STANDARD"
-			},
 			"skip":false,
 			"subTitle":"Utility by UnifyApps",
-			"title":"Upload Base64 Content",
+			"title":"Generate public file URL",
 			"type":"ACTION"
 		},
 		{
@@ -150,12 +122,12 @@
 			"fallbackMode":"STOP",
 			"groupId":"_v3na1-1",
 			"id":"n_A1is1",
-			"index":4,
+			"index":3,
 			"inputs":{
-				"fileName":"{{ n_wOeeg.outputs.fileDetails.name }}",
-				"mimeType":"{{ n_wOeeg.outputs.fileDetails.fileType }}",
-				"url":"{{ n_wOeeg.outputs.fileDetails.name }}",
-				"option":"base64Content"
+				"fileName":"rr.pdf",
+				"mimeType":"{{ n_WpduT.outputs.file.mimeType }}",
+				"url":"{{ n_WpduT.outputs.file.name }}",
+				"option":"url"
 			},
 			"skip":false,
 			"subTitle":"Files by UnifyApps",
@@ -170,11 +142,11 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_v3na1-1",
 			"id":"n_pliuG",
-			"index":5,
+			"index":4,
 			"inputs":{},
 			"skip":false,
 			"subTitle":"Callable",
@@ -199,5 +171,5 @@
 	"tags":[
 		
 	],
-	"version":13
+	"version":14
 }
