@@ -1,16 +1,38 @@
 {
 	"appsUsed":[
-		
+		"69cf6de46881fe5699d1f183",
+		"69cf73836881fe5699d1f831",
+		"69cf75426881fe5699d1f8f7"
 	],
 	"createdTime":1775297981328,
 	"deleted":false,
 	"edges":[
-		
+		{
+			"fromNodeId":"n_GUIWQ",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_dFKOu",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_dFKOu",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_Y7iH3",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_Y7iH3",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_piYmD",
+			"type":"next"
+		}
 	],
 	"id":"69d0e5bd29ac75386e00161f",
-	"lastModifiedBy":33453,
+	"lastModifiedBy":39714,
 	"lcName":"hytgfr",
-	"modifiedTime":1775297986727,
+	"modifiedTime":1775303438568,
 	"name":"hytgfr",
 	"nodes":[
 		{
@@ -37,6 +59,66 @@
 				"type":"WEBHOOK"
 			},
 			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"69cf6de46881fe5699d1f183",
+				"resourceVersion":29,
+				"connectionId":"69d0fa554227081cd8ded31b",
+				"resourceName":"69cf6de46881fe5699d1f183:69cf6e576881fe5699d1f1b2",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_GOyRv-1",
+			"id":"n_dFKOu",
+			"index":2,
+			"inputs":{},
+			"skip":false,
+			"subTitle":"sdkWithBearerToken",
+			"title":"Postman action",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"69cf73836881fe5699d1f831",
+				"resourceVersion":29,
+				"connectionId":"69d0f9e54227081cd8ded30b",
+				"resourceName":"69cf73836881fe5699d1f831:69cf741a6881fe5699d1f853",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_GOyRv-1",
+			"id":"n_Y7iH3",
+			"index":3,
+			"inputs":{},
+			"skip":false,
+			"subTitle":"sdkWithNonBearerTokenInHeader",
+			"title":"PostmanAction",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"69cf75426881fe5699d1f8f7",
+				"resourceVersion":29,
+				"connectionId":"69d0fa0b4227081cd8ded30c",
+				"resourceName":"69cf75426881fe5699d1f8f7:69cf75916881fe5699d1f925",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_GOyRv-1",
+			"id":"n_piYmD",
+			"index":4,
+			"inputs":{},
+			"skip":false,
+			"subTitle":"sdkWithNonBearerTokenQueryParam",
+			"title":"PostmanAction",
+			"type":"ACTION"
 		}
 	],
 	"ownerUserId":33453,
@@ -53,5 +135,5 @@
 		}
 	},
 	"standard":false,
-	"version":1
+	"version":2
 }
