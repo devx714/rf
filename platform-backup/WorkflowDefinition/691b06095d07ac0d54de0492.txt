@@ -70,7 +70,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -80,7 +79,7 @@
 	"id":"691b06095d07ac0d54de0492",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] set default agent",
-	"modifiedTime":1775320891535,
+	"modifiedTime":1775334510127,
 	"name":"[DT] Set Default Agent",
 	"nodes":[
 		{
@@ -184,7 +183,6 @@
 				"department":"{{ n_BlQqv.outputs.body.department }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -380,5 +378,5 @@
 	"tags":[
 		
 	],
-	"version":50
+	"version":51
 }
