@@ -215,7 +215,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -225,7 +224,7 @@
 	"id":"686530ef4aaa767a212b2a6f",
 	"lastModifiedBy":-1,
 	"lcName":"call vertex ai - generic (streaming)",
-	"modifiedTime":1775320891222,
+	"modifiedTime":1775334400318,
 	"name":"Call Vertex AI - Generic (Streaming)",
 	"nodes":[
 		{
@@ -702,7 +701,6 @@
 				"isLastSlash":false
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -973,7 +971,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1242,7 +1239,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1600,7 +1596,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2516,5 +2511,5 @@
 		}
 	},
 	"standard":true,
-	"version":111
+	"version":112
 }
