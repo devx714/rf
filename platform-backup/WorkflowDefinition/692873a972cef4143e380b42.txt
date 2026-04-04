@@ -83,7 +83,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -93,7 +92,7 @@
 	"id":"692873a972cef4143e380b42",
 	"lastModifiedBy":-1,
 	"lcName":"schedule knowledge sync",
-	"modifiedTime":1774622956971,
+	"modifiedTime":1775320570876,
 	"name":"Schedule Knowledge Sync",
 	"nodes":[
 		{
@@ -475,5 +474,5 @@
 	"tags":[
 		
 	],
-	"version":60
+	"version":61
 }
