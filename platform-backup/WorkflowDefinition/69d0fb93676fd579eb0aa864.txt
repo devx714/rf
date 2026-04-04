@@ -1,83 +1,63 @@
 {
 	"appsUsed":[
-		"gmail",
-		"sugarcrm"
+		
 	],
 	"createdTime":1775303571239,
 	"deleted":false,
 	"edges":[
 		{
-			"fromNodeId":"_Soosm",
+			"fromNodeId":"n_MrHIY",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"n_Xft7F",
-			"type":"next"
-		},
-		{
-			"fromNodeId":"n_Xft7F",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_vfyX0",
+			"toNodeId":"n_VESrG",
 			"type":"next"
 		}
 	],
 	"id":"69d0fb93676fd579eb0aa864",
-	"lastModifiedBy":39712,
+	"lastModifiedBy":49915,
 	"lcName":"test",
-	"modifiedTime":1775305913646,
+	"modifiedTime":1775308122163,
 	"name":"test",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":875,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Soosm-1",
-			"id":"_Soosm",
+			"id":"n_MrHIY",
 			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
 		},
 		{
 			"context":{
-				"appName":"gmail",
-				"resourceVersion":913,
-				"connectionId":"69d102664227081cd8deeac7",
-				"resourceName":"gmail_batch_delete_emails",
-				"type":"APPLICATION"
+				"appName":"stop"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Soosm-1",
-			"id":"n_Xft7F",
+			"id":"n_VESrG",
 			"index":2,
-			"inputs":{},
-			"skip":false,
-			"subTitle":"Gmail",
-			"title":"Batch delete email permanently",
-			"type":"ACTION"
-		},
-		{
-			"context":{
-				"appName":"sugarcrm",
-				"resourceVersion":691,
-				"resourceName":"sugarcrm_count_all_emails",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"_Soosm-1",
-			"id":"n_vfyX0",
-			"index":3,
-			"skip":false,
-			"subTitle":"SugarCRM",
-			"title":"Count emails",
-			"type":"ACTION"
+			"skip":true,
+			"subTitle":"Stop",
+			"title":"Stop",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":191676,
@@ -94,5 +74,5 @@
 		}
 	},
 	"standard":false,
-	"version":1
+	"version":2
 }
