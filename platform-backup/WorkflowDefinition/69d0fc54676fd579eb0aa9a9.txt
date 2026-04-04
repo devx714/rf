@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775303764644,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775303820928,
+		"deployedBy":2627,
+		"deployedDefinitionId":"69d0fc8c3d36804c0c548580",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"edges":[
 		{
 			"fromNodeId":"n_6bI9c",
@@ -16,7 +25,7 @@
 	"id":"69d0fc54676fd579eb0aa9a9",
 	"lastModifiedBy":2627,
 	"lcName":"test",
-	"modifiedTime":1775303814322,
+	"modifiedTime":1775303820929,
 	"name":"test",
 	"nodes":[
 		{
@@ -27,7 +36,7 @@
 				"resourceName":"microsoft_sharepoint_on_new_or_update_file_recursive"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_0EjeK-1",
 			"id":"n_6bI9c",
@@ -53,7 +62,7 @@
 				"appName":"stop"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_0EjeK-1",
 			"id":"n_RByrR",
