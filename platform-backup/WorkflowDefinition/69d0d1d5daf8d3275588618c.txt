@@ -3,7 +3,7 @@
 		
 	],
 	"createdTime":1775292885554,
-	"deleted":false,
+	"deleted":true,
 	"edges":[
 		{
 			"fromNodeId":"_7R5HD",
@@ -16,7 +16,7 @@
 	"id":"69d0d1d5daf8d3275588618c",
 	"lastModifiedBy":195392,
 	"lcName":"a1 auto",
-	"modifiedTime":1775292885554,
+	"modifiedTime":1775292918534,
 	"name":"a1 auto",
 	"nodes":[
 		{
@@ -56,5 +56,5 @@
 		}
 	},
 	"standard":false,
-	"version":0
+	"version":1
 }
