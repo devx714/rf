@@ -77,7 +77,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -87,7 +86,7 @@
 	"id":"68676a717693334d88bb539f",
 	"lastModifiedBy":-1,
 	"lcName":"get or create cursor",
-	"modifiedTime":1775320891779,
+	"modifiedTime":1775334348882,
 	"name":"Get or Create Cursor",
 	"nodes":[
 		{
@@ -223,7 +222,6 @@
 				"id":"{{ n_okDTl.outputs.knowledgeId }}_{{ n_okDTl.outputs.parentEntityId }}_{{ n_okDTl.outputs.type }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -483,5 +481,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":150
+	"version":151
 }
