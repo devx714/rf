@@ -40,7 +40,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -50,7 +49,7 @@
 	"id":"670ff744c425f16664abfcde",
 	"lastModifiedBy":-1,
 	"lcName":"languagebasedslotsgetter",
-	"modifiedTime":1774622955335,
+	"modifiedTime":1775320657093,
 	"name":"LanguageBasedSlotsGetter",
 	"nodes":[
 		{
@@ -248,5 +247,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":136
+	"version":137
 }
