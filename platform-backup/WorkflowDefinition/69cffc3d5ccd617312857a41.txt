@@ -45,9 +45,9 @@
 	],
 	"id":"69cffc3d5ccd617312857a41",
 	"lastModifiedBy":161958,
-	"lcName":"sched",
-	"modifiedTime":1775300820554,
-	"name":"sched",
+	"lcName":"autofill pill mapping sample",
+	"modifiedTime":1775300845465,
+	"name":"Autofill Pill Mapping Sample",
 	"nodes":[
 		{
 			"context":{
@@ -57,7 +57,7 @@
 				"resourceName":"schedule_default"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"U9EYx-1",
 			"id":"llJgd",
@@ -85,7 +85,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"U9EYx-1",
 			"id":"n_F5daV",
@@ -168,7 +168,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"U9EYx-1",
 			"id":"n_8qLeI",
@@ -253,7 +253,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"U9EYx-1",
 			"id":"n_qvgWe",
@@ -337,7 +337,7 @@
 	},
 	"standard":false,
 	"tags":[
-		"AI Agent Deployment"
+		
 	],
-	"version":4
+	"version":5
 }
