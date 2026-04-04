@@ -24,7 +24,7 @@
 	},
 	"id":"multiselect-dropdown-issue",
 	"lastModifiedBy":19752,
-	"modifiedTime":1775288754146,
+	"modifiedTime":1775298972395,
 	"ownerUserId":193326,
 	"properties":{
 		"standard":false,
@@ -40,7 +40,7 @@
 			"_counter":{
 				"_mqttTopicCounter":0,
 				"_dataSourceCounter":1,
-				"_pageCount":1,
+				"_pageCount":2,
 				"_moduleCount":0
 			}
 		},
@@ -203,6 +203,7 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_global_multiselect-dropdown-issue":"global-page-of-multiselect-dropdown-issue",
+			"e_69d0e8a492d93656626cba60":"page-2",
 			"e_69cfb5b32fe431198b60cb33":"homepage"
 		},
 		"manifest":{
@@ -222,6 +223,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_69d0e8a492d93656626cba60":{
+				"slug":"page-2",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_69cfb5b32fe431198b60cb33":{
 				"slug":"homepage",
 				"isPublic":false,
@@ -233,5 +239,5 @@
 	"tags":[
 		
 	],
-	"version":10
+	"version":13
 }
