@@ -1,0 +1,60 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1775281485316,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_zjDR6",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_iQ6KY",
+			"type":"next"
+		}
+	],
+	"id":"69d0a54d77559c7773cb9e1d",
+	"lastModifiedBy":43523,
+	"lcName":"vertex test",
+	"modifiedTime":1775281485316,
+	"name":"Vertex test",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_zjDR6-1",
+			"id":"_zjDR6",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_zjDR6-1",
+			"id":"_iQ6KY",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":43523,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"version":0
+}
