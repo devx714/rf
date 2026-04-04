@@ -4,14 +4,14 @@
 	],
 	"createdTime":1726395621443,
 	"deleted":false,
-	"deployedVersion":103,
+	"deployedVersion":104,
 	"deploymentState":{
-		"deployedAt":1774342969123,
+		"deployedAt":1775320689587,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2533929fa153f07e09db1",
+		"deployedDefinitionId":"69d13e71c6b0c9120df1757a",
 		"status":"DEPLOYED",
-		"version":103,
-		"workflowVersion":202
+		"version":104,
+		"workflowVersion":204
 	},
 	"edges":[
 		{
@@ -302,6 +302,27 @@
 		"configs":[
 			{
 				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"161165"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -311,7 +332,7 @@
 	"id":"66e6b4e5e02e700fca2dd3aa",
 	"lastModifiedBy":-1,
 	"lcName":"response generation(feedback, tone,style,format) {do not touch}",
-	"modifiedTime":1775320689510,
+	"modifiedTime":1775320890980,
 	"name":"Response Generation(Feedback, TOne,Style,Format) {DO NOT TOUCH}",
 	"nodes":[
 		{
@@ -764,6 +785,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1128,6 +1150,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1382,6 +1405,7 @@
 				"ua:list_type":"INTEGER"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1660,6 +1684,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1856,5 +1881,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":204
+	"version":205
 }
