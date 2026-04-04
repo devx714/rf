@@ -32,7 +32,7 @@
 	"id":"69d11e74de80d477ad1d1bc8",
 	"lastModifiedBy":196883,
 	"lcName":"test-or",
-	"modifiedTime":1775313181915,
+	"modifiedTime":1775315330809,
 	"name":"test-or",
 	"nodes":[
 		{
@@ -122,7 +122,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_MDB8s-1",
 			"id":"n_chbC5",
@@ -220,6 +220,18 @@
 						"includePercentageChange":false
 					}
 				],
+				"filter":{
+					"filters":[
+						{
+							"property":"PROJECT_ID",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"681f3323eb25b274339c4d3c"
+							}
+						}
+					],
+					"operator":"AND"
+				},
 				"entityType":"WORKFLOW_EXECUTION",
 				"includeTotalHits":true,
 				"page":{
@@ -227,9 +239,8 @@
 				},
 				"sorts":[],
 				"timeFilter":{
-					"timeField":"END_TIME",
-					"since":"{{ n_h06ck.outputs.StartTime }}",
-					"until":"{{ n_h06ck.outputs.EndTime }}"
+					"since":1775174400,
+					"until":1775260799
 				},
 				"group":"PLATFORM"
 			},
@@ -274,5 +285,5 @@
 		}
 	},
 	"standard":false,
-	"version":5
+	"version":6
 }
