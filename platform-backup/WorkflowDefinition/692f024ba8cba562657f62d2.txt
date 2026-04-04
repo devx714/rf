@@ -4,14 +4,14 @@
 	],
 	"createdTime":1764688459322,
 	"deleted":false,
-	"deployedVersion":1,
+	"deployedVersion":2,
 	"deploymentState":{
-		"deployedAt":1764688505583,
-		"deployedBy":1246,
-		"deployedDefinitionId":"692f0279a8cba562657f62f7",
+		"deployedAt":1775295054333,
+		"deployedBy":195323,
+		"deployedDefinitionId":"69d0da4ecee10e376ba1a77d",
 		"status":"DEPLOYED",
-		"version":1,
-		"workflowVersion":1
+		"version":2,
+		"workflowVersion":6
 	},
 	"edges":[
 		{
@@ -32,7 +32,7 @@
 	"id":"692f024ba8cba562657f62d2",
 	"lastModifiedBy":195323,
 	"lcName":"getpublicfile",
-	"modifiedTime":1775295052036,
+	"modifiedTime":1775295072609,
 	"name":"getPublicFile",
 	"nodes":[
 		{
@@ -96,7 +96,7 @@
 			"index":2,
 			"inputs":{
 				"file":"{{ n_WpduT.outputs.file }}",
-				"expiryTime":1
+				"expiryTime":0
 			},
 			"skip":false,
 			"subTitle":"Utility by UnifyApps",
@@ -144,5 +144,5 @@
 	"tags":[
 		
 	],
-	"version":6
+	"version":7
 }
