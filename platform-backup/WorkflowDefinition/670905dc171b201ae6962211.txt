@@ -4,14 +4,14 @@
 	],
 	"createdTime":1728644572425,
 	"deleted":false,
-	"deployedVersion":83,
+	"deployedVersion":84,
 	"deploymentState":{
-		"deployedAt":1774342913297,
+		"deployedAt":1775320640461,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c253018d65fb68e1563a0a",
+		"deployedDefinitionId":"69d13e4083aecf24ec254bab",
 		"status":"DEPLOYED",
-		"version":83,
-		"workflowVersion":128
+		"version":84,
+		"workflowVersion":130
 	},
 	"edges":[
 		{
@@ -206,7 +206,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -216,7 +215,7 @@
 	"id":"670905dc171b201ae6962211",
 	"lastModifiedBy":-1,
 	"lcName":"audio indexing multi modality",
-	"modifiedTime":1774622956445,
+	"modifiedTime":1775334416304,
 	"name":"Audio Indexing Multi Modality",
 	"nodes":[
 		{
@@ -385,7 +384,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -646,7 +644,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1187,7 +1184,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1250,7 +1246,6 @@
 				"chunkMetadata":"{{ _bgrZD.outputs.chunkMetadata }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1560,5 +1555,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":129
+	"version":132
 }
