@@ -295,7 +295,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -305,7 +304,7 @@
 	"id":"6940586f640441464315e498",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] api to trigger ai agent",
-	"modifiedTime":1774622955919,
+	"modifiedTime":1775320566802,
 	"name":"[DT] API To Trigger AI Agent",
 	"nodes":[
 		{
@@ -972,7 +971,6 @@
 				"name":"error"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1136,7 +1134,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1473,7 +1470,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1723,7 +1719,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2021,7 +2016,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2790,5 +2784,5 @@
 	"tags":[
 		
 	],
-	"version":43
+	"version":44
 }
