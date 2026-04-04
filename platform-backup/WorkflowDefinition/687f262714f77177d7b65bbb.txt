@@ -200,7 +200,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -210,7 +209,7 @@
 	"id":"687f262714f77177d7b65bbb",
 	"lastModifiedBy":-1,
 	"lcName":"video indexing",
-	"modifiedTime":1775320891560,
+	"modifiedTime":1775334476005,
 	"name":"Video Indexing",
 	"nodes":[
 		{
@@ -566,7 +565,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -641,7 +639,6 @@
 				"fileDetails":"{{ n_HfYDh.outputs.fileDetails }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1208,7 +1205,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1756,5 +1752,5 @@
 	"tags":[
 		
 	],
-	"version":125
+	"version":126
 }
