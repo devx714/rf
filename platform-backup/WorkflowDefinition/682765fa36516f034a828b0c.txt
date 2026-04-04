@@ -47,7 +47,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -57,7 +56,7 @@
 	"id":"682765fa36516f034a828b0c",
 	"lastModifiedBy":-1,
 	"lcName":"update openai voice session",
-	"modifiedTime":1775320890308,
+	"modifiedTime":1775334452518,
 	"name":"Update OpenAI Voice Session",
 	"nodes":[
 		{
@@ -310,5 +309,5 @@
 	"tags":[
 		
 	],
-	"version":121
+	"version":122
 }
