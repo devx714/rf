@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1770800044302,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_trcsn",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_RCAKi",
+			"type":"next"
+		}
+	],
+	"id":"698c43ac1d3d345982e819f2",
+	"lastModifiedBy":195884,
+	"lcName":"mongotest",
+	"modifiedTime":1770800044302,
+	"name":"MongoTest",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_trcsn-1",
+			"id":"_trcsn",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_trcsn-1",
+			"id":"_RCAKi",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":195884,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":0
+}
