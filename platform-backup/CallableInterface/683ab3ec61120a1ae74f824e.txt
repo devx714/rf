@@ -28,6 +28,7 @@
 	},
 	"id":"683ab3ec61120a1ae74f824e",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -50,9 +51,10 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"user input custom preprocessor",
-	"modifiedTime":1775320368782,
+	"modifiedTime":1775320891560,
 	"name":"User Input Custom PreProcessor",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -75,5 +77,5 @@
 	},
 	"ownerUserId":1728,
 	"standard":false,
-	"version":106
+	"version":107
 }
