@@ -153,47 +153,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"47193"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"635"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -203,7 +162,7 @@
 	"id":"6794855b9c8ab5620dca972e",
 	"lastModifiedBy":-1,
 	"lcName":"ai agent action executor ",
-	"modifiedTime":1775320891513,
+	"modifiedTime":1775334347626,
 	"name":"AI Agent Action Executor ",
 	"nodes":[
 		{
@@ -380,7 +339,6 @@
 				"maxTokens":50000
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -943,5 +901,5 @@
 		"AI Agent",
 		"Team"
 	],
-	"version":168
+	"version":169
 }
