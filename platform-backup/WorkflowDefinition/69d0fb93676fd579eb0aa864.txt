@@ -1,6 +1,7 @@
 {
 	"appsUsed":[
-		
+		"gmail",
+		"sugarcrm"
 	],
 	"createdTime":1775303571239,
 	"deleted":false,
@@ -9,14 +10,21 @@
 			"fromNodeId":"_Soosm",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_xrOJQ",
+			"toNodeId":"n_Xft7F",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_Xft7F",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_vfyX0",
 			"type":"next"
 		}
 	],
 	"id":"69d0fb93676fd579eb0aa864",
-	"lastModifiedBy":191676,
+	"lastModifiedBy":39712,
 	"lcName":"test",
-	"modifiedTime":1775303571239,
+	"modifiedTime":1775305913646,
 	"name":"test",
 	"nodes":[
 		{
@@ -25,7 +33,7 @@
 			"fallbackMode":"STOP",
 			"groupId":"_Soosm-1",
 			"id":"_Soosm",
-			"index":0,
+			"index":1,
 			"skip":false,
 			"title":"Select a trigger event",
 			"trigger":{
@@ -34,18 +42,48 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"gmail",
+				"resourceVersion":913,
+				"connectionId":"69d102664227081cd8deeac7",
+				"resourceName":"gmail_batch_delete_emails",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Soosm-1",
-			"id":"_xrOJQ",
-			"index":0,
+			"id":"n_Xft7F",
+			"index":2,
+			"inputs":{},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Gmail",
+			"title":"Batch delete email permanently",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"sugarcrm",
+				"resourceVersion":691,
+				"resourceName":"sugarcrm_count_all_emails",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_Soosm-1",
+			"id":"n_vfyX0",
+			"index":3,
+			"skip":false,
+			"subTitle":"SugarCRM",
+			"title":"Count emails",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":191676,
+	"schemaReferences":[
+		
+	],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -56,5 +94,5 @@
 		}
 	},
 	"standard":false,
-	"version":0
+	"version":1
 }
