@@ -274,7 +274,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -284,7 +283,7 @@
 	"id":"691ecf55b1f3b6672572801e",
 	"lastModifiedBy":-1,
 	"lcName":"runtime tool execution approval",
-	"modifiedTime":1775320890347,
+	"modifiedTime":1775334508547,
 	"name":"Runtime tool execution approval",
 	"nodes":[
 		{
@@ -608,7 +607,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1018,7 +1016,6 @@
 				"thoughtGroupId":"{{ cKuWx.outputs.messageId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1514,5 +1511,5 @@
 	"tags":[
 		
 	],
-	"version":78
+	"version":79
 }
