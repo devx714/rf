@@ -2,10 +2,10 @@
 	"createdTime":1771223453668,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1775278813910,
-		"deployedBy":195414,
-		"entityVersion":11,
-		"version":2
+		"deployedAt":1775298192716,
+		"deployedBy":43497,
+		"entityVersion":37,
+		"version":4
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -29,8 +29,8 @@
 		]
 	},
 	"id":"sujal01",
-	"lastModifiedBy":195414,
-	"modifiedTime":1775296753782,
+	"lastModifiedBy":43497,
+	"modifiedTime":1775298192719,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -46,7 +46,7 @@
 			"_counter":{
 				"_moduleCount":0,
 				"_mqttTopicCounter":0,
-				"_pageCount":3
+				"_pageCount":4
 			}
 		},
 		"navigation":{
@@ -421,7 +421,8 @@
 			"e_69cff75a0dda3f000501a913":"page-2",
 			"e_global_sujal01":"global-page-of-sujal01",
 			"e_6992b9a039aef513fe77d9a9":"homepage",
-			"e_69cff8420dda3f000501a94f":"page-3"
+			"e_69cff8420dda3f000501a94f":"page-3",
+			"e_69d0e48d3a201720910440e3":"page-4"
 		},
 		"manifest":{
 			"type":"WEB"
@@ -511,6 +512,11 @@
 				"slug":"page-3",
 				"isPublic":false,
 				"type":"PAGE"
+			},
+			"e_69d0e48d3a201720910440e3":{
+				"slug":"page-4",
+				"isPublic":false,
+				"type":"PAGE"
 			}
 		}
 	},
@@ -518,5 +524,5 @@
 	"tags":[
 		
 	],
-	"version":34
+	"version":37
 }
