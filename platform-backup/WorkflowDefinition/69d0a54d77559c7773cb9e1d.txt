@@ -4,14 +4,14 @@
 	],
 	"createdTime":1775281485316,
 	"deleted":false,
-	"deployedVersion":1,
+	"deployedVersion":2,
 	"deploymentState":{
-		"deployedAt":1775282792883,
+		"deployedAt":1775282818494,
 		"deployedBy":43523,
-		"deployedDefinitionId":"69d0aa6877559c7773cbaff5",
+		"deployedDefinitionId":"69d0aa8077559c7773cbb029",
 		"status":"DEPLOYED",
-		"version":1,
-		"workflowVersion":7
+		"version":2,
+		"workflowVersion":8
 	},
 	"edges":[
 		{
@@ -32,6 +32,20 @@
 			"fromNodeId":"n_6P5gv",
 			"priority":0,
 			"skip":false,
+			"toNodeId":"n_jwB06",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_jwB06",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_Tb2KW",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_Tb2KW",
+			"priority":0,
+			"skip":false,
 			"toNodeId":"n_mRmKt",
 			"type":"next"
 		}
@@ -39,7 +53,7 @@
 	"id":"69d0a54d77559c7773cb9e1d",
 	"lastModifiedBy":43523,
 	"lcName":"vertex test",
-	"modifiedTime":1775282814567,
+	"modifiedTime":1775282898118,
 	"name":"Vertex test",
 	"nodes":[
 		{
@@ -75,7 +89,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_zjDR6-1",
 			"id":"n_5sS0v",
@@ -136,7 +150,7 @@
 				"outputFilesGlob":"*",
 				"captureStdOutput":false
 			},
-			"skip":false,
+			"skip":true,
 			"subTitle":"Code",
 			"title":"Execute Python script",
 			"type":"ACTION"
@@ -345,6 +359,289 @@
 				},
 				"project":"unifyai-422106"
 			},
+			"skip":true,
+			"subTitle":"Google vertex AI",
+			"title":"Generate content (Generic)",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":315,
+				"resourceName":"code_by_unifyapps_python",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_zjDR6-1",
+			"id":"n_jwB06",
+			"index":4,
+			"inputs":{
+				"output":{
+					"type":"object",
+					"additionalProperties":false,
+					"properties":{
+						"anthropic_version":{
+							"type":"string",
+							"title":"anthropic_version"
+						},
+						"max_tokens":{
+							"type":"integer",
+							"title":"max_tokens"
+						},
+						"messages":{
+							"type":"array",
+							"title":"messages"
+						},
+						"stream":{
+							"type":"boolean",
+							"title":"stream"
+						},
+						"system":{
+							"type":"array",
+							"items":{
+								"type":"object"
+							},
+							"title":"system"
+						},
+						"temperature":{
+							"type":"integer",
+							"title":"temperature"
+						},
+						"thinking":{
+							"type":"object",
+							"properties":{
+								"type":{
+									"type":"string",
+									"title":"type"
+								}
+							},
+							"title":"thinking",
+							"additionalProperties":false
+						},
+						"tools":{
+							"type":"array",
+							"title":"tools"
+						}
+					}
+				},
+				"configurationMode":"DEFAULT",
+				"code":"result = {\n  \"anthropic_version\": \"vertex-2023-10-16\",\n  \"max_tokens\": 2000,\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": [\n        { \"type\": \"text\", \"text\": \"Say hello in one short sentence.\" }\n      ]\n    }\n  ]\n}",
+				"isAsync":false,
+				"python_version":"3.12",
+				"outputFilesGlob":"*",
+				"captureStdOutput":false
+			},
+			"skip":false,
+			"subTitle":"Code",
+			"title":"Execute Python script",
+			"type":"ACTION"
+		},
+		{
+			"additional":{
+				"xsdSchemaConfig":{
+					"root":{}
+				},
+				"visibleOptionalFields":[
+					"root.record.messages.items",
+					"root.record.system.items",
+					"root.record.tools.items",
+					"root.record.anthropic_version",
+					"root.record.max_tokens",
+					"root.record.stream",
+					"root.record.temperature",
+					"root.record.thinking.type",
+					"root.record.anthropic_version",
+					"root.record.max_tokens",
+					"root.record.stream",
+					"root.record.temperature",
+					"root.record.thinking.type",
+					"root.record.anthropic_version",
+					"root.record.max_tokens",
+					"root.record.stream",
+					"root.record.temperature",
+					"root.record.thinking.type"
+				]
+			},
+			"context":{
+				"appName":"google_vertex_ai",
+				"resourceVersion":1130,
+				"connectionId":"68cd293692f84e12c9d15fd4",
+				"resourceName":"google_vertex_ai_generate_content_generic",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_zjDR6-1",
+			"id":"n_Tb2KW",
+			"index":5,
+			"inputs":{
+				"output":{
+					"type":"object",
+					"additionalProperties":false,
+					"properties":{
+						"model":{
+							"type":"string",
+							"title":"model"
+						},
+						"id":{
+							"type":"string",
+							"title":"id"
+						},
+						"type":{
+							"type":"string",
+							"title":"type"
+						},
+						"role":{
+							"type":"string",
+							"title":"role"
+						},
+						"content":{
+							"type":"array",
+							"items":{
+								"type":"object",
+								"properties":{
+									"type":{
+										"type":"string",
+										"title":"type"
+									},
+									"text":{
+										"type":"string",
+										"title":"text"
+									}
+								},
+								"additionalProperties":false
+							},
+							"title":"content"
+						},
+						"stop_reason":{
+							"type":"string",
+							"title":"stop_reason"
+						},
+						"usage":{
+							"type":"object",
+							"properties":{
+								"input_tokens":{
+									"type":"integer",
+									"title":"input_tokens"
+								},
+								"cache_creation_input_tokens":{
+									"type":"integer",
+									"title":"cache_creation_input_tokens"
+								},
+								"cache_read_input_tokens":{
+									"type":"integer",
+									"title":"cache_read_input_tokens"
+								},
+								"cache_creation":{
+									"type":"object",
+									"properties":{
+										"ephemeral_5m_input_tokens":{
+											"type":"integer",
+											"title":"ephemeral_5m_input_tokens"
+										},
+										"ephemeral_1h_input_tokens":{
+											"type":"integer",
+											"title":"ephemeral_1h_input_tokens"
+										}
+									},
+									"title":"cache_creation",
+									"additionalProperties":false
+								},
+								"output_tokens":{
+									"type":"integer",
+									"title":"output_tokens"
+								}
+							},
+							"title":"usage",
+							"additionalProperties":false
+						}
+					}
+				},
+				"input":{
+					"type":"object",
+					"additionalProperties":false,
+					"properties":{
+						"anthropic_version":{
+							"type":"string",
+							"title":"anthropic_version"
+						},
+						"max_tokens":{
+							"type":"integer",
+							"title":"max_tokens"
+						},
+						"messages":{
+							"type":"array",
+							"items":{
+								"type":"object"
+							},
+							"title":"messages"
+						},
+						"stream":{
+							"type":"boolean",
+							"title":"stream"
+						},
+						"system":{
+							"type":"array",
+							"items":{
+								"type":"object"
+							},
+							"title":"system"
+						},
+						"temperature":{
+							"type":"integer",
+							"title":"temperature"
+						},
+						"thinking":{
+							"type":"object",
+							"properties":{
+								"type":{
+									"type":"string",
+									"title":"type"
+								}
+							},
+							"title":"thinking",
+							"additionalProperties":false
+						},
+						"tools":{
+							"type":"array",
+							"items":{
+								"type":"object"
+							},
+							"title":"tools"
+						}
+					}
+				},
+				"endpoint":"publishers/anthropic/models/claude-sonnet-4-6:rawPredict",
+				"httpVersion":"HTTP_1_1",
+				"record":{
+					"anthropic_version":"{{ n_jwB06.outputs.result.anthropic_version }}",
+					"max_tokens":"{{ n_jwB06.outputs.result.max_tokens }}",
+					"stream":"{{ n_jwB06.outputs.result.stream }}",
+					"temperature":"{{ n_jwB06.outputs.result.temperature }}",
+					"thinking":{
+						"type":"{{ n_jwB06.outputs.result.thinking.type }}"
+					},
+					"tools":{
+						"ua:type":"mappedArray",
+						"items":"{{ n_jwB06.outputs.result.tools[0] }}",
+						"source":"{{ n_jwB06.outputs.result.tools }}"
+					},
+					"messages":{
+						"source":"{{ n_jwB06.outputs.result.messages }}",
+						"ua:type":"mappedArray",
+						"items":"{{ n_jwB06.outputs.result.messages[0] }}"
+					},
+					"system":{
+						"source":"{{ n_jwB06.outputs.result.system }}",
+						"ua:type":"mappedArray",
+						"items":"{{ n_jwB06.outputs.result.system[0] }}"
+					}
+				},
+				"project":"unifyai-422106"
+			},
 			"skip":false,
 			"subTitle":"Google vertex AI",
 			"title":"Generate content (Generic)",
@@ -359,7 +656,7 @@
 			"fallbackMode":"STOP",
 			"groupId":"_zjDR6-1",
 			"id":"n_mRmKt",
-			"index":4,
+			"index":6,
 			"skip":false,
 			"subTitle":"Stop",
 			"title":"Stop",
@@ -380,5 +677,5 @@
 		}
 	},
 	"standard":false,
-	"version":8
+	"version":9
 }
