@@ -4,14 +4,14 @@
 	],
 	"createdTime":1764688459322,
 	"deleted":false,
-	"deployedVersion":4,
+	"deployedVersion":5,
 	"deploymentState":{
-		"deployedAt":1775295551037,
+		"deployedAt":1775295686967,
 		"deployedBy":195323,
-		"deployedDefinitionId":"69d0dc3ecee10e376ba1b395",
+		"deployedDefinitionId":"69d0dcc6cee10e376ba1b5c0",
 		"status":"DEPLOYED",
-		"version":4,
-		"workflowVersion":9
+		"version":5,
+		"workflowVersion":10
 	},
 	"edges":[
 		{
@@ -46,7 +46,7 @@
 	"id":"692f024ba8cba562657f62d2",
 	"lastModifiedBy":195323,
 	"lcName":"getpublicfile",
-	"modifiedTime":1775295680678,
+	"modifiedTime":1775295832706,
 	"name":"getPublicFile",
 	"nodes":[
 		{
@@ -146,7 +146,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_v3na1-1",
 			"id":"n_A1is1",
@@ -168,14 +168,14 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_v3na1-1",
 			"id":"n_pliuG",
 			"index":5,
 			"inputs":{
 				"result":{
-					"link":"{{ n_u9lS0.outputs.url }}"
+					"link":"{{ n_A1is1.outputs.file.link }}"
 				}
 			},
 			"skip":false,
@@ -201,5 +201,5 @@
 	"tags":[
 		
 	],
-	"version":10
+	"version":11
 }
