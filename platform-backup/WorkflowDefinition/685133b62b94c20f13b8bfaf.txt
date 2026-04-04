@@ -41,7 +41,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -51,7 +50,7 @@
 	"id":"685133b62b94c20f13b8bfaf",
 	"lastModifiedBy":-1,
 	"lcName":"thinkingagentwithtoolsresponseconverter",
-	"modifiedTime":1775320891920,
+	"modifiedTime":1775334465056,
 	"name":"ThinkingAgentWithToolsResponseConverter",
 	"nodes":[
 		{
@@ -262,5 +261,5 @@
 		}
 	},
 	"standard":true,
-	"version":128
+	"version":129
 }
