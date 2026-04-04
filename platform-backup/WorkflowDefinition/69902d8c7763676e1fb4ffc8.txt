@@ -1,0 +1,65 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1771056524992,
+	"deleted":false,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_pPufc",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_u4OXa",
+			"type":"next"
+		}
+	],
+	"id":"69902d8c7763676e1fb4ffc8",
+	"lastModifiedBy":175325,
+	"lcName":"workflowlevel-owneruser-negative_217710564696410",
+	"modifiedTime":1771056530093,
+	"name":"workflowLevel-ownerUser-negative_217710564696410",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_pPufc-1",
+			"id":"_pPufc",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_pPufc-1",
+			"id":"_u4OXa",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":175325,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":false,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"headerValueTierMap":{},
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
