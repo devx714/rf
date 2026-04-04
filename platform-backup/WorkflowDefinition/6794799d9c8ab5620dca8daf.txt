@@ -4,14 +4,14 @@
 	],
 	"createdTime":1738062236424,
 	"deleted":false,
-	"deployedVersion":116,
+	"deployedVersion":118,
 	"deploymentState":{
-		"deployedAt":1774342886809,
+		"deployedAt":1775334395431,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252e68d65fb68e15638b1",
+		"deployedDefinitionId":"69d173fb39824e06138198e2",
 		"status":"DEPLOYED",
-		"version":116,
-		"workflowVersion":162
+		"version":118,
+		"workflowVersion":166
 	},
 	"edges":[
 		{
@@ -526,6 +526,25 @@
 		"configs":[
 			{
 				"permissions":[
+					"A",
+					"EXPORT_AS_TEMPLATE",
+					"C",
+					"S",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"DEP"
+				],
+				"principalIds":[
+					"44109"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -535,7 +554,7 @@
 	"id":"6794799d9c8ab5620dca8daf",
 	"lastModifiedBy":-1,
 	"lcName":"agent system prompt generator",
-	"modifiedTime":1775320616728,
+	"modifiedTime":1775334705809,
 	"name":"Agent System Prompt Generator",
 	"nodes":[
 		{
@@ -933,6 +952,7 @@
 				"topicAsTool":"{{ n_i4MC5.outputs.properties.topicExecutionSettings.topicAsTool }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1245,6 +1265,7 @@
 				"userPreferenceLanguage":"{{ _tOXww.outputs.result.userPreferenceLanguage }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1300,6 +1321,7 @@
 				"systemPromptInstructions":"{{ _tOXww.outputs.result.systemPromptInstructions }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1547,6 +1569,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1622,6 +1645,7 @@
 				"currentTopic":"NONE"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2236,6 +2260,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -3736,6 +3761,7 @@
 				"taskExecutionModel":"{{ n_i4MC5.outputs.properties.topicExecutionSettings.topicExecutionModel }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -4104,5 +4130,5 @@
 		"AI Agent",
 		"Team"
 	],
-	"version":164
+	"version":167
 }
