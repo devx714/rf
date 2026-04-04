@@ -187,7 +187,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -197,7 +196,7 @@
 	"id":"68185eee12c04a321c186c3e",
 	"lastModifiedBy":-1,
 	"lcName":"text to workflow v2 | fetch app name for a action",
-	"modifiedTime":1774622955477,
+	"modifiedTime":1775320700659,
 	"name":"Text to Workflow v2 | Fetch App Name for a Action",
 	"nodes":[
 		{
@@ -615,7 +614,6 @@
 				"connector_name":"temp"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -942,5 +940,5 @@
 	"tags":[
 		"Text_to_Workflow_v2"
 	],
-	"version":137
+	"version":138
 }
