@@ -4,14 +4,14 @@
 	],
 	"createdTime":1749732622681,
 	"deleted":false,
-	"deployedVersion":32,
+	"deployedVersion":33,
 	"deploymentState":{
-		"deployedAt":1774342896658,
+		"deployedAt":1775320625203,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252f029fa153f07e09a53",
+		"deployedDefinitionId":"69d13e3183aecf24ec2549a0",
 		"status":"DEPLOYED",
-		"version":32,
-		"workflowVersion":64
+		"version":33,
+		"workflowVersion":66
 	},
 	"edges":[
 		{
@@ -131,7 +131,7 @@
 	"id":"68497e852c74da14dc01a42e",
 	"lastModifiedBy":-1,
 	"lcName":"copilot | live chat | unread message count",
-	"modifiedTime":1775320625151,
+	"modifiedTime":1775334402563,
 	"name":"Copilot | Live Chat | Unread Message Count",
 	"nodes":[
 		{
@@ -796,5 +796,5 @@
 	"tags":[
 		
 	],
-	"version":66
+	"version":68
 }
