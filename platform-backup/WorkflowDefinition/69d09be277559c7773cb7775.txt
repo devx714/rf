@@ -25,7 +25,7 @@
 	"id":"69d09be277559c7773cb7775",
 	"lastModifiedBy":195820,
 	"lcName":"test workspace",
-	"modifiedTime":1775279112494,
+	"modifiedTime":1775286012150,
 	"name":"test workspace",
 	"nodes":[
 		{
@@ -35,13 +35,13 @@
 				"resourceName":"standard_entities_on_platform_event"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_hrQzA-1",
 			"id":"n_DZWEj",
 			"index":1,
 			"inputs":{
-				"changeType":"CREATED",
+				"changeType":"ANY",
 				"entityTypes":[
 					"s_project"
 				]
@@ -84,5 +84,5 @@
 		}
 	},
 	"standard":false,
-	"version":2
+	"version":3
 }
