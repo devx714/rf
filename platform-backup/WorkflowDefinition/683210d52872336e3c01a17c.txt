@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748544438325,
 	"deleted":false,
-	"deployedVersion":83,
+	"deployedVersion":84,
 	"deploymentState":{
-		"deployedAt":1774342954764,
+		"deployedAt":1775320676098,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2532a29fa153f07e09d32",
+		"deployedDefinitionId":"69d13e6483aecf24ec254e23",
 		"status":"DEPLOYED",
-		"version":83,
-		"workflowVersion":131
+		"version":84,
+		"workflowVersion":133
 	},
 	"edges":[
 		{
@@ -230,7 +230,7 @@
 	"id":"683210d52872336e3c01a17c",
 	"lastModifiedBy":-1,
 	"lcName":"generate embedding and index",
-	"modifiedTime":1775320676021,
+	"modifiedTime":1775334469352,
 	"name":"Generate Embedding And Index",
 	"nodes":[
 		{
@@ -2256,5 +2256,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":133
+	"version":135
 }
