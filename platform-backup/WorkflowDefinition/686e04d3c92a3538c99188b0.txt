@@ -4,14 +4,14 @@
 	],
 	"createdTime":1752511076331,
 	"deleted":false,
-	"deployedVersion":64,
+	"deployedVersion":65,
 	"deploymentState":{
-		"deployedAt":1774342963776,
+		"deployedAt":1775320684514,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2533329fa153f07e09d94",
+		"deployedDefinitionId":"69d13e6c83aecf24ec254f48",
 		"status":"DEPLOYED",
-		"version":64,
-		"workflowVersion":137
+		"version":65,
+		"workflowVersion":139
 	},
 	"edges":[
 		{
@@ -357,7 +357,7 @@
 	"id":"686e04d3c92a3538c99188b0",
 	"lastModifiedBy":-1,
 	"lcName":"text2sql | tables metadata indexer",
-	"modifiedTime":1775320684390,
+	"modifiedTime":1775334477563,
 	"name":"Text2sql | Tables Metadata Indexer",
 	"nodes":[
 		{
@@ -2991,5 +2991,5 @@
 	"tags":[
 		
 	],
-	"version":139
+	"version":141
 }
