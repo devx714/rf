@@ -1,0 +1,30 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1775279042292,
+	"deleted":false,
+	"edges":[
+		
+	],
+	"id":"69d09bc277559c7773cb7720",
+	"lastModifiedBy":175325,
+	"lcName":"changesetqa2autordqrsirtoo",
+	"modifiedTime":1775279042292,
+	"name":"changeSetQA2autoRdQrsIrtoo",
+	"nodes":[
+		
+	],
+	"ownerUserId":175325,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"version":0
+}
