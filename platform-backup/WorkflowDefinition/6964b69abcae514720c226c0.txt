@@ -1,0 +1,65 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1768208026242,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_hIpSW",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_OKAR2",
+			"type":"next"
+		}
+	],
+	"id":"6964b69abcae514720c226c0",
+	"lastModifiedBy":175325,
+	"lcName":"advanced-dayofmonth-updation_217682079750820",
+	"modifiedTime":1768208073037,
+	"name":"advanced-dayOfMonth-Updation_217682079750820",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_hIpSW-1",
+			"id":"_hIpSW",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_hIpSW-1",
+			"id":"_OKAR2",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":175325,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":false,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"headerValueTierMap":{},
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}
