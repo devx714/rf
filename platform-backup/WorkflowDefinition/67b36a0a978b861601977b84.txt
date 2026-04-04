@@ -548,27 +548,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"635"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -578,7 +557,7 @@
 	"id":"67b36a0a978b861601977b84",
 	"lastModifiedBy":-1,
 	"lcName":"dialogue manager new",
-	"modifiedTime":1774622955643,
+	"modifiedTime":1775320633107,
 	"name":"Dialogue Manager New",
 	"nodes":[
 		{
@@ -929,7 +908,6 @@
 				"skipInitialQuestion":"{{ 6Zazo.outputs.skipInitialQuestion }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1069,7 +1047,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1373,7 +1350,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1665,7 +1641,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1799,7 +1774,6 @@
 				"disableThought":true
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1851,7 +1825,6 @@
 				"prefillSlotPrompt":"You MUST ALWAYS use the SetSlot tool for every user response - there are no exceptions. This tool is for pre-filling tool inputs based on user statements from the conversation.\nMANDATORY USAGE: Call SetSlot in ALL cases, even when:\n- User input is unclear or ambiguous\n- No explicit information is provided\n- User gives generic requests\n- Information doesn't match enum values exactly\nSTRICT VALUE SETTING RULES:\n- Only set typeOfRequest if the user has explicitly mentioned terminology that EXACTLY matches one of the enum values\n- Generic phrases like \"dynamic request\", \"I need help\", \"apply for something\" should result in calling SetSlot with NO typeOfRequest value\n- When in doubt about matching enum values, leave the parameter empty rather than guessing\nREQUIRED BEHAVIOR:\n- ALWAYS call SetSlot first, regardless of user input\n- Never use any other tools before SetSlot\n- If user input is ambiguous, call SetSlot with empty/null values\n- If user mentions wanting to apply for something without specifics, call SetSlot with no typeOfRequest value\nDO NOT use any other tools under any circumstances - SetSlot is the only permitted tool response."
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2050,7 +2023,6 @@
 				"disableThought":false
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -3487,7 +3459,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -3613,5 +3584,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":206
+	"version":207
 }
