@@ -2,10 +2,10 @@
 	"createdTime":1768386834461,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1775303014153,
+		"deployedAt":1775305337976,
 		"deployedBy":195414,
-		"entityVersion":1144,
-		"version":132
+		"entityVersion":1150,
+		"version":133
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -30,7 +30,7 @@
 	},
 	"id":"vinaytest-11",
 	"lastModifiedBy":195414,
-	"modifiedTime":1775303992030,
+	"modifiedTime":1775306036752,
 	"ownerUserId":195435,
 	"properties":{
 		"standard":false,
@@ -45,7 +45,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":45,
+				"_pageCount":47,
 				"_moduleCount":1,
 				"_variableCounter":10,
 				"_functionCounter":9
@@ -260,6 +260,7 @@
 			"e_69677532d1aa6b56b37b5f45":"page-2",
 			"e_69d0e61d093d2445b04fd34d":"hello-_F6W2u",
 			"e_69d0f6720749020b38d23ae7":"page-45",
+			"e_69d10208c40bce1807573baa":"page-46",
 			"e_696771150543417598ee5563":"homepage",
 			"e_69b79fc600e2c81d3f19b3ae":"sujal",
 			"e_69d0a7640f39af2e5600f792":"student",
@@ -278,9 +279,9 @@
 					"e_69677532d1aa6b56b37b5f45",
 					"e_696771150543417598ee5563",
 					"f_4wyW4",
-					"f_CKQ1i",
 					"e_69d0e5ff093d2445b04fd345",
-					"e_69d0e61d093d2445b04fd34d"
+					"e_69d0e61d093d2445b04fd34d",
+					"f_esNiH"
 				],
 				"path":"/"
 			},
@@ -345,7 +346,8 @@
 				"children":[
 					"f_user_id",
 					"f_setting",
-					"e_69d0f6720749020b38d23ae7"
+					"e_69d0f6720749020b38d23ae7",
+					"f_CKQ1i"
 				],
 				"path":"/userly878"
 			},
@@ -380,18 +382,20 @@
 				"segment":"course",
 				"parentId":"f_root",
 				"children":[
-					"f_kSM1r"
+					"f_kSM1r",
+					"e_69d10208c40bce1807573baa"
 				],
 				"path":"/course"
 			},
 			"f_CKQ1i":{
 				"id":"f_CKQ1i",
-				"segment":"course",
-				"parentId":"f_root",
+				"segment":"course21212",
 				"children":[
-					"f_Ny90s"
+					"f_Ny90s",
+					"f_5pgdo"
 				],
-				"path":"/course"
+				"path":"/userly878/course21212",
+				"parentId":"f_user"
 			},
 			"f_kSM1r":{
 				"id":"f_kSM1r",
@@ -405,7 +409,23 @@
 				"segment":":courseid",
 				"parentId":"f_CKQ1i",
 				"children":[],
-				"path":"/course/:courseid"
+				"path":"/userly878/course21212/:courseid"
+			},
+			"f_5pgdo":{
+				"id":"f_5pgdo",
+				"segment":"new",
+				"parentId":"f_CKQ1i",
+				"children":[],
+				"path":"/userly878/course21212/new"
+			},
+			"f_esNiH":{
+				"id":"f_esNiH",
+				"segment":"top",
+				"parentId":"f_root",
+				"children":[
+					"e_69d1050f6cc98645b2b809ed"
+				],
+				"path":"/top"
 			}
 		},
 		"name":"vinaytest11234567",
@@ -441,6 +461,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_69d10208c40bce1807573baa":{
+				"slug":"page-46",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_696771150543417598ee5563":{
 				"slug":"homepage",
 				"isPublic":false,
@@ -469,5 +494,5 @@
 		}
 	},
 	"standard":false,
-	"version":1147
+	"version":1156
 }
