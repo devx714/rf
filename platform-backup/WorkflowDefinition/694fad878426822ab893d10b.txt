@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769422240660,
 	"deleted":false,
-	"deployedVersion":14,
+	"deployedVersion":15,
 	"deploymentState":{
-		"deployedAt":1774342964414,
+		"deployedAt":1775320685065,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c253348d65fb68e1563c5c",
+		"deployedDefinitionId":"69d13e6d83aecf24ec254f5e",
 		"status":"DEPLOYED",
-		"version":14,
-		"workflowVersion":32
+		"version":15,
+		"workflowVersion":34
 	},
 	"edges":[
 		{
@@ -71,7 +71,7 @@
 	"id":"694fad878426822ab893d10b",
 	"lastModifiedBy":-1,
 	"lcName":"custom metadata filter generator | llm",
-	"modifiedTime":1774622957017,
+	"modifiedTime":1775320891922,
 	"name":"Custom Metadata Filter Generator | LLM",
 	"nodes":[
 		{
@@ -458,5 +458,5 @@
 	"tags":[
 		
 	],
-	"version":33
+	"version":35
 }
