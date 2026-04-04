@@ -121,7 +121,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -131,7 +130,7 @@
 	"id":"688c639ba594238114160123",
 	"lastModifiedBy":-1,
 	"lcName":"eval | live evaluation | fetch testcases for a session",
-	"modifiedTime":1775320887926,
+	"modifiedTime":1775334515881,
 	"name":"Eval | Live Evaluation | Fetch Testcases for a session",
 	"nodes":[
 		{
@@ -293,7 +292,6 @@
 				"agentResponsePlaceholder":"<NO_AGENT_RESPONSE>"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -603,7 +601,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1152,5 +1149,5 @@
 	"tags":[
 		
 	],
-	"version":137
+	"version":138
 }
