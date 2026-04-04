@@ -4,14 +4,14 @@
 	],
 	"createdTime":1775279074350,
 	"deleted":false,
-	"deployedVersion":1,
+	"deployedVersion":2,
 	"deploymentState":{
-		"deployedAt":1775279112493,
+		"deployedAt":1775286014513,
 		"deployedBy":195820,
-		"deployedDefinitionId":"69d09c0877559c7773cb77bd",
+		"deployedDefinitionId":"69d0b6fe77559c7773cbf428",
 		"status":"DEPLOYED",
-		"version":1,
-		"workflowVersion":2
+		"version":2,
+		"workflowVersion":3
 	},
 	"edges":[
 		{
@@ -25,7 +25,7 @@
 	"id":"69d09be277559c7773cb7775",
 	"lastModifiedBy":195820,
 	"lcName":"test workspace",
-	"modifiedTime":1775286012150,
+	"modifiedTime":1775286014514,
 	"name":"test workspace",
 	"nodes":[
 		{
@@ -35,7 +35,7 @@
 				"resourceName":"standard_entities_on_platform_event"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_hrQzA-1",
 			"id":"n_DZWEj",
