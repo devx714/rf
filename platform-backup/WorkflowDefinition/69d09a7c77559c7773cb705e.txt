@@ -1,0 +1,30 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1775278716694,
+	"deleted":false,
+	"edges":[
+		
+	],
+	"id":"69d09a7c77559c7773cb705e",
+	"lastModifiedBy":175325,
+	"lcName":"changesetqa2autophsjpmitvn",
+	"modifiedTime":1775278716694,
+	"name":"changeSetQA2autophSJPMitVn",
+	"nodes":[
+		
+	],
+	"ownerUserId":175325,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"version":0
+}
