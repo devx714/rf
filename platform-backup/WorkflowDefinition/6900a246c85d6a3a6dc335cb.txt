@@ -4,14 +4,14 @@
 	],
 	"createdTime":1761722811393,
 	"deleted":false,
-	"deployedVersion":26,
+	"deployedVersion":28,
 	"deploymentState":{
-		"deployedAt":1774342939412,
+		"deployedAt":1775334455864,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2531b29fa153f07e09ca1",
+		"deployedDefinitionId":"69d1743739824e0613819c15",
 		"status":"DEPLOYED",
-		"version":26,
-		"workflowVersion":58
+		"version":28,
+		"workflowVersion":62
 	},
 	"edges":[
 		{
@@ -70,6 +70,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -79,7 +80,7 @@
 	"id":"6900a246c85d6a3a6dc335cb",
 	"lastModifiedBy":-1,
 	"lcName":"workflow agent | summarize thought",
-	"modifiedTime":1775320661363,
+	"modifiedTime":1775334707027,
 	"name":"Workflow Agent | Summarize thought",
 	"nodes":[
 		{
@@ -249,6 +250,7 @@
 				"token":4096
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -371,5 +373,5 @@
 	"tags":[
 		
 	],
-	"version":60
+	"version":63
 }
