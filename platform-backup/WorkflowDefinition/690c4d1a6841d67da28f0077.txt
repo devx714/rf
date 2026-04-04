@@ -47,7 +47,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -57,7 +56,7 @@
 	"id":"690c4d1a6841d67da28f0077",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] fetch topic execution models",
-	"modifiedTime":1774622955891,
+	"modifiedTime":1775320650194,
 	"name":"[DT] Fetch Topic Execution Models",
 	"nodes":[
 		{
@@ -192,7 +191,6 @@
 				"limit":"=IF(ISBLANK({{ n_8BeGJ.outputs.queryParams.limit }}) , 20 , {{ n_8BeGJ.outputs.queryParams.limit }})"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -434,5 +432,5 @@
 	"tags":[
 		
 	],
-	"version":58
+	"version":59
 }
