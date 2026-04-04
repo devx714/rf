@@ -4,15 +4,15 @@
 	],
 	"createdTime":1743763607724,
 	"deleted":false,
-	"deployedVersion":90,
+	"deployedVersion":91,
 	"deploymentState":{
-		"deployedAt":1775320617354,
+		"deployedAt":1775334395900,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e2983aecf24ec2548e1",
+		"deployedDefinitionId":"69d173fb39824e06138198ee",
 		"deploymentTag":"disableNotifFlag",
 		"status":"DEPLOYED",
-		"version":90,
-		"workflowVersion":139
+		"version":91,
+		"workflowVersion":141
 	},
 	"edges":[
 		{
@@ -115,6 +115,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -124,7 +125,7 @@
 	"id":"67efad294c5088175588e4a4",
 	"lastModifiedBy":-1,
 	"lcName":"create export file and send notification",
-	"modifiedTime":1775334395846,
+	"modifiedTime":1775334707124,
 	"name":"Create export file and send notification",
 	"nodes":[
 		{
@@ -240,6 +241,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -616,5 +618,5 @@
 	"tags":[
 		
 	],
-	"version":141
+	"version":142
 }
