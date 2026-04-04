@@ -4,14 +4,14 @@
 	],
 	"createdTime":1761722719461,
 	"deleted":false,
-	"deployedVersion":30,
+	"deployedVersion":31,
 	"deploymentState":{
-		"deployedAt":1775320604603,
+		"deployedAt":1775334383529,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e1c83aecf24ec254760",
+		"deployedDefinitionId":"69d173ef39824e0613819800",
 		"status":"DEPLOYED",
-		"version":30,
-		"workflowVersion":68
+		"version":31,
+		"workflowVersion":70
 	},
 	"edges":[
 		{
@@ -404,6 +404,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -413,7 +414,7 @@
 	"id":"68ef7b3e5d8251424d184018",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] bulk index users | single user",
-	"modifiedTime":1775334383463,
+	"modifiedTime":1775334705700,
 	"name":"[DT] Bulk Index Users | Single user",
 	"nodes":[
 		{
@@ -636,6 +637,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1974,5 +1976,5 @@
 	"tags":[
 		
 	],
-	"version":70
+	"version":71
 }
