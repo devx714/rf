@@ -46,7 +46,7 @@
 	"id":"692f024ba8cba562657f62d2",
 	"lastModifiedBy":195323,
 	"lcName":"getpublicfile",
-	"modifiedTime":1775295834224,
+	"modifiedTime":1775297696821,
 	"name":"getPublicFile",
 	"nodes":[
 		{
@@ -120,44 +120,47 @@
 		{
 			"context":{
 				"appName":"utility_by_unifyapps",
-				"resourceVersion":3695,
-				"resourceName":"utility_by_unifyapps_create_unifyapps_file_from_url",
+				"resourceVersion":2851,
+				"resourceName":"utility_by_unifyapps_encode_file_to_base64",
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_v3na1-1",
 			"id":"n_wOeeg",
 			"index":3,
 			"inputs":{
-				"url":"{{ n_WpduT.outputs.file.url }}"
+				"fileDetails":"{{ n_WpduT.outputs.file }}",
+				"characterSet":"Binary(no.conv)"
 			},
 			"skip":false,
 			"subTitle":"Utility by UnifyApps",
-			"title":"Create UnifyApps file from url",
+			"title":"Encode file content",
 			"type":"ACTION"
 		},
 		{
 			"context":{
 				"appName":"files_by_unifyapps",
-				"resourceVersion":1552,
-				"resourceName":"files_by_unifyapps_get_file",
+				"resourceVersion":1620,
+				"resourceName":"files_by_unifyapps_upload_file",
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_v3na1-1",
 			"id":"n_A1is1",
 			"index":4,
 			"inputs":{
-				"getFromCloudStorage":true,
-				"localFilePath":"{{ n_wOeeg.outputs.file.source }}"
+				"fileName":"{{ n_wOeeg.outputs.fileDetails.name }}",
+				"mimeType":"{{ n_wOeeg.outputs.fileDetails.fileType }}",
+				"url":"{{ n_wOeeg.outputs.fileDetails.name }}",
+				"option":"url"
 			},
 			"skip":false,
 			"subTitle":"Files by UnifyApps",
-			"title":"Get File",
+			"title":"Upload file",
 			"type":"ACTION"
 		},
 		{
@@ -201,5 +204,5 @@
 	"tags":[
 		
 	],
-	"version":11
+	"version":12
 }
