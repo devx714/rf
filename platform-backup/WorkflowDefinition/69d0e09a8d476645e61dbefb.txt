@@ -17,7 +17,7 @@
 	"id":"69d0e09a8d476645e61dbefb",
 	"lastModifiedBy":175325,
 	"lcName":"check_logleveldropdown_217752966604970",
-	"modifiedTime":1775296666598,
+	"modifiedTime":1775296672649,
 	"name":"Check_logLevelDropdown_217752966604970",
 	"nodes":[
 		{
@@ -48,11 +48,12 @@
 	],
 	"ownerUserId":175325,
 	"settings":{
-		"enableNodeLevelLogging":true,
-		"enableRunLogging":true,
-		"enableVariableLogging":true,
+		"enableNodeLevelLogging":false,
+		"enableRunLogging":false,
+		"enableVariableLogging":false,
 		"route":{
 			"default":false,
+			"headerValueTierMap":{},
 			"tierName":"global"
 		}
 	},
@@ -60,5 +61,5 @@
 	"tags":[
 		"dnt_tag"
 	],
-	"version":0
+	"version":1
 }
