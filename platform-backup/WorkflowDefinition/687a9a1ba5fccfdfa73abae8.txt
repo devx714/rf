@@ -4,15 +4,15 @@
 	],
 	"createdTime":1753102608806,
 	"deleted":false,
-	"deployedVersion":40,
+	"deployedVersion":41,
 	"deploymentState":{
-		"deployedAt":1775320614796,
+		"deployedAt":1775334393361,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e2683aecf24ec254866",
+		"deployedDefinitionId":"69d173f939824e06138198bc",
 		"deploymentTag":"added_retry",
 		"status":"DEPLOYED",
-		"version":40,
-		"workflowVersion":103
+		"version":41,
+		"workflowVersion":105
 	},
 	"edges":[
 		{
@@ -67,7 +67,7 @@
 	"id":"687a9a1ba5fccfdfa73abae8",
 	"lastModifiedBy":-1,
 	"lcName":"call azure openai embeddings",
-	"modifiedTime":1775320887352,
+	"modifiedTime":1775334705620,
 	"name":"Call Azure OpenAI Embeddings",
 	"nodes":[
 		{
@@ -462,5 +462,5 @@
 		}
 	},
 	"standard":true,
-	"version":104
+	"version":106
 }
