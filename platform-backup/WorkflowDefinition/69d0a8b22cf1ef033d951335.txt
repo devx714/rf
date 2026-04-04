@@ -1,0 +1,60 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1775282354879,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_MH0Ek",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_O8jLa",
+			"type":"next"
+		}
+	],
+	"id":"69d0a8b22cf1ef033d951335",
+	"lastModifiedBy":3546,
+	"lcName":"wefrg",
+	"modifiedTime":1775282354879,
+	"name":"wefrg",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_MH0Ek-1",
+			"id":"_MH0Ek",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_MH0Ek-1",
+			"id":"_O8jLa",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":3546,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"version":0
+}
