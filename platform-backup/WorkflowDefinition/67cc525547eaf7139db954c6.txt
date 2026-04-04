@@ -4,14 +4,14 @@
 	],
 	"createdTime":1741841309946,
 	"deleted":false,
-	"deployedVersion":90,
+	"deployedVersion":91,
 	"deploymentState":{
-		"deployedAt":1775320626738,
+		"deployedAt":1775334403692,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e3283aecf24ec254a18",
+		"deployedDefinitionId":"69d1740339824e061381997a",
 		"status":"DEPLOYED",
-		"version":90,
-		"workflowVersion":171
+		"version":91,
+		"workflowVersion":173
 	},
 	"edges":[
 		{
@@ -215,6 +215,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -224,7 +225,7 @@
 	"id":"67cc525547eaf7139db954c6",
 	"lastModifiedBy":-1,
 	"lcName":"summarize",
-	"modifiedTime":1775334403575,
+	"modifiedTime":1775334705624,
 	"name":"Summarize",
 	"nodes":[
 		{
@@ -583,6 +584,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -680,6 +682,7 @@
 				"caseId":"{{ evtvp.outputs.properties.caseId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1495,5 +1498,5 @@
 		}
 	},
 	"standard":true,
-	"version":173
+	"version":174
 }
