@@ -1,51 +1,74 @@
 {
 	"appsUsed":[
-		
+		"tremendous"
 	],
 	"createdTime":1775290836147,
 	"deleted":false,
 	"edges":[
 		{
-			"fromNodeId":"_b3yei",
+			"fromNodeId":"n_Ns5Xk",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_2kdI9",
+			"toNodeId":"n_8kMDF",
 			"type":"next"
 		}
 	],
 	"id":"69d0c9d476ec8146bba8f8b6",
 	"lastModifiedBy":175510,
 	"lcName":"test",
-	"modifiedTime":1775290836147,
+	"modifiedTime":1775290951571,
 	"name":"test",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":875,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_b3yei-1",
-			"id":"_b3yei",
-			"index":0,
+			"id":"n_Ns5Xk",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"tremendous",
+				"resourceVersion":2,
+				"connectionId":"69d0ca3bfc5d123cbbe2102b",
+				"resourceName":"tremendous_list_campaigns",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_b3yei-1",
-			"id":"_2kdI9",
-			"index":0,
+			"id":"n_8kMDF",
+			"index":2,
+			"inputs":{},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Tremendous",
+			"title":"List campaigns",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":175510,
+	"schemaReferences":[
+		
+	],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -56,5 +79,5 @@
 		}
 	},
 	"standard":false,
-	"version":0
+	"version":1
 }
