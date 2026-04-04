@@ -4,14 +4,14 @@
 	],
 	"createdTime":1766522723763,
 	"deleted":false,
-	"deployedVersion":22,
+	"deployedVersion":23,
 	"deploymentState":{
-		"deployedAt":1775320570118,
+		"deployedAt":1775334340727,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13dfa83aecf24ec254567",
+		"deployedDefinitionId":"69d173c439824e061381963e",
 		"status":"DEPLOYED",
-		"version":22,
-		"workflowVersion":55
+		"version":23,
+		"workflowVersion":57
 	},
 	"edges":[
 		{
@@ -54,6 +54,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -63,7 +64,7 @@
 	"id":"694035644901fc6eca5a324a",
 	"lastModifiedBy":-1,
 	"lcName":"excel to csv file indexing for sql",
-	"modifiedTime":1775334340669,
+	"modifiedTime":1775334706748,
 	"name":"Excel To Csv File Indexing For SQL",
 	"nodes":[
 		{
@@ -378,5 +379,5 @@
 	"tags":[
 		
 	],
-	"version":57
+	"version":58
 }
