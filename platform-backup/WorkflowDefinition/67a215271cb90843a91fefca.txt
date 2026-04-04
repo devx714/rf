@@ -4,14 +4,14 @@
 	],
 	"createdTime":1738691629310,
 	"deleted":false,
-	"deployedVersion":103,
+	"deployedVersion":104,
 	"deploymentState":{
-		"deployedAt":1774342961877,
+		"deployedAt":1775320682746,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2533129fa153f07e09d80",
+		"deployedDefinitionId":"69d13e6a83aecf24ec254f1c",
 		"status":"DEPLOYED",
-		"version":103,
-		"workflowVersion":164
+		"version":104,
+		"workflowVersion":166
 	},
 	"edges":[
 		{
@@ -137,6 +137,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -146,7 +147,7 @@
 	"id":"67a215271cb90843a91fefca",
 	"lastModifiedBy":-1,
 	"lcName":"test agent ",
-	"modifiedTime":1775320682690,
+	"modifiedTime":1775320891549,
 	"name":"Test Agent ",
 	"nodes":[
 		{
@@ -524,6 +525,7 @@
 				"testMode":true
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -638,6 +640,7 @@
 				"ai_agent_deployed_version":"{{ 3V1Pq.outputs.agentVersion }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -724,6 +727,7 @@
 				"message":"{{ 3V1Pq.outputs.message }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1026,6 +1030,7 @@
 				"ai_agent_ua_test_mode":"{{ Wjm4u.outputs.testMode }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1371,5 +1376,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":166
+	"version":167
 }
