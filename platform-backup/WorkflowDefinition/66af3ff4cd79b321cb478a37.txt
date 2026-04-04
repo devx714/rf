@@ -4,14 +4,14 @@
 	],
 	"createdTime":1722761204561,
 	"deleted":false,
-	"deployedVersion":126,
+	"deployedVersion":127,
 	"deploymentState":{
-		"deployedAt":1774342913007,
+		"deployedAt":1775320640164,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c253008d65fb68e1563a07",
+		"deployedDefinitionId":"69d13e40c6b0c9120df17422",
 		"status":"DEPLOYED",
-		"version":126,
-		"workflowVersion":192
+		"version":127,
+		"workflowVersion":194
 	},
 	"edges":[
 		{
@@ -461,6 +461,43 @@
 		"configs":[
 			{
 				"permissions":[
+					"A",
+					"EXPORT_AS_TEMPLATE",
+					"C",
+					"S",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"DEP"
+				],
+				"principalIds":[
+					"311"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A",
+					"EXPORT_AS_TEMPLATE",
+					"C",
+					"S",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"DEP"
+				],
+				"principalIds":[
+					"44109"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -470,7 +507,7 @@
 	"id":"66af3ff4cd79b321cb478a37",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer  with rbac",
-	"modifiedTime":1775320639999,
+	"modifiedTime":1775320889498,
 	"name":"Knowledge Indexer  With RBAC",
 	"nodes":[
 		{
@@ -883,6 +920,7 @@
 				"uniqueEntityId":"{{ xbGpP.outputs.uniqueEntityId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1323,6 +1361,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1484,6 +1523,7 @@
 				"text":"{{ lKMk7.outputs.item.data }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2506,6 +2546,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2802,6 +2843,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -3632,5 +3674,5 @@
 		"AI Agent",
 		"RBAC"
 	],
-	"version":194
+	"version":195
 }
