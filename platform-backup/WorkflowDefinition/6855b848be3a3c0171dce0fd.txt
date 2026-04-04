@@ -1,0 +1,1265 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1761155138427,
+	"deleted":false,
+	"deployedVersion":4,
+	"deploymentState":{
+		"deployedAt":1770385940783,
+		"deployedBy":177779,
+		"deployedDefinitionId":"6985f214750c1d12daa21602",
+		"status":"DEPLOYED",
+		"version":4,
+		"workflowVersion":81
+	},
+	"edges":[
+		{
+			"fromNodeId":"n_TYLnE",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_r8XBC",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_r8XBC",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_CbdaW",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_r8XBC",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_yQwZL",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"n_CbdaW",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_yQwZL",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_yQwZL",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_XOYmS",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_XOYmS",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_tBD4x",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_tBD4x",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_VXzhM",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_VXzhM",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_e3y9a",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_e3y9a",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_aSRBg",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_e3y9a",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_CzwwK",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"n_aSRBg",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_CzwwK",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_CzwwK",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_ZyvXK",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_ZyvXK",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_Vl8Ug",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_ZyvXK",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_n8GwK",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"_Vl8Ug",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_n8GwK",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_n8GwK",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_1K2Se",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_1K2Se",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_ezl1U",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_ezl1U",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_zsx95",
+			"type":"next"
+		}
+	],
+	"id":"6855b848be3a3c0171dce0fd",
+	"lastModifiedBy":177779,
+	"lcName":"[admin] timesheet calculation",
+	"modifiedTime":1770385940784,
+	"name":"[Admin] Timesheet calculation",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":9,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cFBBH-1",
+			"id":"n_TYLnE",
+			"index":1,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"admin":{
+							"type":"object",
+							"properties":{
+								"Total Hours Used":{
+									"type":"integer",
+									"title":"Total Hours Used"
+								},
+								"Coach Billable Total":{
+									"type":"integer",
+									"title":"Coach Billable Total"
+								},
+								"Average Rate":{
+									"type":"integer",
+									"title":"Average Rate"
+								}
+							},
+							"title":"admin",
+							"additionalProperties":false
+						},
+						"students":{
+							"type":"array",
+							"items":{
+								"type":"object",
+								"properties":{
+									"Students Total Sessions In Package":{
+										"type":"integer",
+										"title":"Students Total Sessions In Package"
+									},
+									"Student Name":{
+										"type":"string",
+										"title":"Student Name"
+									},
+									"Sum of Sessions Used":{
+										"type":"integer",
+										"title":"Sum of Sessions Used"
+									},
+									"Sessions Remaining":{
+										"type":"integer",
+										"title":"Sessions Remaining"
+									},
+									"Student Billable Total":{
+										"type":"integer",
+										"title":"Student Billable Total"
+									}
+								},
+								"additionalProperties":false
+							},
+							"title":"students"
+						},
+						"summary":{
+							"type":"array",
+							"items":{
+								"type":"object",
+								"properties":{
+									"Total Sessions Used":{
+										"type":"number",
+										"title":"Total Sessions Used"
+									},
+									"Total Billable Amount":{
+										"type":"integer",
+										"title":"Total Billable Amount"
+									},
+									"Total Sessions Remaining":{
+										"type":"number",
+										"title":"Total Sessions Remaining"
+									}
+								},
+								"additionalProperties":false
+							},
+							"title":"summary"
+						},
+						"totalHoursUsed":{
+							"type":"number",
+							"title":"Total Hours Used"
+						},
+						"totalAmount":{
+							"type":"number",
+							"title":"Total Amount"
+						},
+						"referrals":{
+							"type":"integer",
+							"title":"Referrals"
+						},
+						"carryForwardStudents":{
+							"type":"integer",
+							"title":"Carry Forward Students"
+						},
+						"firstRow":{
+							"type":"array",
+							"items":{
+								"type":"object",
+								"properties":{
+									"id":{
+										"type":"number",
+										"title":"Id"
+									},
+									"description":{
+										"type":"string",
+										"title":"Description"
+									},
+									"hoursUsed":{
+										"type":"number",
+										"title":"Hours Used"
+									},
+									"billableAmount":{
+										"type":"number",
+										"title":"Billable Amount"
+									},
+									"cTm":{
+										"type":"string",
+										"title":"C Tm"
+									},
+									"sessionsRemaining":{
+										"type":"number",
+										"title":"Sessions Remaining"
+									}
+								},
+								"additionalProperties":false,
+								"required":[]
+							},
+							"title":"First Row"
+						},
+						"secondRow":{
+							"type":"array",
+							"items":{
+								"type":"object",
+								"properties":{
+									"id":{
+										"type":"number",
+										"title":"Id"
+									},
+									"description":{
+										"type":"string",
+										"title":"Description"
+									},
+									"hoursUsed":{
+										"type":"number",
+										"title":"Hours Used"
+									},
+									"billableAmount":{
+										"type":"number",
+										"title":"Billable Amount"
+									},
+									"cTm":{
+										"type":"string",
+										"title":"C Tm"
+									}
+								},
+								"additionalProperties":false,
+								"required":[]
+							},
+							"title":"Second Row"
+						},
+						"thirdRow":{
+							"type":"array",
+							"items":{
+								"type":"object",
+								"properties":{
+									"id":{
+										"type":"string",
+										"title":"Id"
+									},
+									"description":{
+										"type":"string",
+										"title":"Description"
+									},
+									"hoursUsed":{
+										"type":"number",
+										"title":"Hours Used"
+									},
+									"billableAmount":{
+										"type":"number",
+										"title":"Billable Amount"
+									},
+									"cTm":{
+										"type":"string",
+										"title":"C Tm"
+									},
+									"sessionsRemaining":{
+										"type":"number",
+										"title":"Sessions Remaining"
+									}
+								},
+								"additionalProperties":false,
+								"required":[]
+							},
+							"title":"Third Row"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"setup":{
+					"type":"object",
+					"properties":{
+						"studentMailId":{
+							"type":"string",
+							"title":"Student Mail Id"
+						},
+						"coach_mailID":{
+							"type":"string",
+							"title":"Coach Mail ID"
+						},
+						"month":{
+							"type":"string",
+							"title":"Month"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":13,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cFBBH-1",
+			"id":"n_r8XBC",
+			"index":2,
+			"inputs":{
+				"filters":[
+					{
+						"property":"=LEN({{ n_TYLnE.outputs.coach_mailID }})",
+						"filter":{
+							"operator":"GTE",
+							"value":"1"
+						}
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":13,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_r8XBC@_cFBBH-1@n",
+			"id":"n_CbdaW",
+			"index":3,
+			"inputs":{
+				"result":{
+					"admin":{
+						"Total Hours Used":0
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		},
+		{
+			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":13,
+				"resourceName":"variable_by_unifyapps_create_variables",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cFBBH-1",
+			"id":"n_yQwZL",
+			"index":4,
+			"inputSchema":{
+				"type":"SCHEMA_AND_LAYOUT",
+				"dynamic":false,
+				"layout":{},
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"coachPayemnt":{
+							"type":"number",
+							"title":"Coach Payemnt"
+						}
+					},
+					"required":[]
+				}
+			},
+			"inputs":{},
+			"outputSchema":{
+				"type":"SCHEMA",
+				"dynamic":false,
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"coachPayemnt":{
+							"type":"number",
+							"title":"Coach Payemnt"
+						}
+					},
+					"required":[]
+				}
+			},
+			"skip":false,
+			"subTitle":"Variable by UnifyApps",
+			"title":"Create variables",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":43,
+				"resourceName":"storage_by_unifyapps_fetch_records",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cFBBH-1",
+			"id":"n_XOYmS",
+			"index":5,
+			"inputs":{
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"properties_coachEmail",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"{{ __USER__.outputs.contactDetails.email }}"
+							}
+						}
+					],
+					"operator":"AND"
+				},
+				"object_type":"coach_information",
+				"includeRoleMappings":false,
+				"includeCurrentUserPermissions":false,
+				"translationsOption":"DEFAULT",
+				"page":{
+					"paginateBy":"OFFSET",
+					"limit":20
+				},
+				"numberOfRecordsToFetch":"SINGLE",
+				"readThroughSessionVariables":false,
+				"includeTotalCount":false
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Fetch records",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":9,
+				"resourceName":"storage_by_unifyapps_fetch_records",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cFBBH-1",
+			"id":"_tBD4x",
+			"index":6,
+			"inputs":{
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"properties_coach_mailID",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"{{ __USER__.outputs.contactDetails.email }}"
+							}
+						}
+					],
+					"operator":"AND"
+				},
+				"object_type":"timesheet_admin",
+				"includeRoleMappings":false,
+				"includeCurrentUserPermissions":false,
+				"translationsOption":"DEFAULT",
+				"page":{
+					"paginateBy":"OFFSET",
+					"limit":2000
+				},
+				"numberOfRecordsToFetch":"MULTIPLE",
+				"readThroughSessionVariables":false,
+				"includeTotalCount":false
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Fetch records",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":9,
+				"resourceName":"storage_by_unifyapps_fetch_records",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cFBBH-1",
+			"id":"n_VXzhM",
+			"index":7,
+			"inputs":{
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"properties_coach_mailID",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"{{ __USER__.outputs.contactDetails.email }}"
+							}
+						}
+					],
+					"operator":"AND"
+				},
+				"object_type":"timesheet",
+				"includeRoleMappings":false,
+				"includeCurrentUserPermissions":false,
+				"translationsOption":"DEFAULT",
+				"page":{
+					"paginateBy":"OFFSET",
+					"limit":2000
+				},
+				"numberOfRecordsToFetch":"MULTIPLE",
+				"readThroughSessionVariables":false,
+				"includeTotalCount":false
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Fetch records",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":9,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cFBBH-1",
+			"id":"n_e3y9a",
+			"index":8,
+			"inputs":{
+				"filters":[
+					{
+						"property":"=LEN({{ n_VXzhM.outputs.objects }})",
+						"filter":{
+							"operator":"GTE",
+							"value":"1"
+						}
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":9,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_e3y9a@_cFBBH-1@n",
+			"id":"n_aSRBg",
+			"index":9,
+			"inputs":{
+				"result":{
+					"admin":{
+						"Total Hours Used":"NA",
+						"Coach Billable Total":"NA",
+						"Average Rate":"NA"
+					},
+					"totalHoursUsed":"NA",
+					"totalAmount":"NA",
+					"summary":{
+						"items":{
+							"Total Sessions Used":"NA",
+							"Total Billable Amount":"NA",
+							"Total Sessions Remaining":"NA"
+						},
+						"ua:type":"mappedArray"
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		},
+		{
+			"additional":{
+				"xsdSchemaConfig":{},
+				"visibleOptionalFields":[
+					"root.parameters.object.items"
+				]
+			},
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":9,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cFBBH-1",
+			"id":"n_CzwwK",
+			"index":10,
+			"inputs":{
+				"output":{
+					"type":"object",
+					"additionalProperties":false,
+					"properties":{
+						"students":{
+							"type":"array",
+							"items":{
+								"type":"object",
+								"properties":{
+									"Students Total Sessions In Package":{
+										"type":"integer",
+										"title":"Students Total Sessions In Package"
+									},
+									"Student Name":{
+										"type":"string",
+										"title":"Student Name"
+									},
+									"Sum of Sessions Used":{
+										"type":"integer",
+										"title":"Sum of Sessions Used"
+									},
+									"Sessions Remaining":{
+										"type":"integer",
+										"title":"Sessions Remaining"
+									},
+									"Student Billable Total":{
+										"type":"integer",
+										"title":"Student Billable Total"
+									}
+								},
+								"additionalProperties":false
+							},
+							"title":"students"
+						},
+						"summary":{
+							"type":"array",
+							"items":{
+								"type":"object",
+								"properties":{
+									"Total Sessions Used":{
+										"type":"number",
+										"title":"Total Sessions Used"
+									},
+									"Total Billable Amount":{
+										"type":"integer",
+										"title":"Total Billable Amount"
+									},
+									"Total Sessions Remaining":{
+										"type":"number",
+										"title":"Total Sessions Remaining"
+									}
+								},
+								"additionalProperties":false
+							},
+							"title":"summary"
+						}
+					}
+				},
+				"input":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[],
+					"properties":{
+						"object":{
+							"type":"array",
+							"items":{
+								"type":"object",
+								"properties":{},
+								"additionalProperties":false
+							},
+							"title":"Object"
+						},
+						"coachRate":{
+							"type":"string",
+							"title":"Coach Rate"
+						},
+						"monthFilter":{
+							"type":"string",
+							"title":"Month Filter"
+						}
+					}
+				},
+				"code":"import java.time.LocalDate\nimport java.time.format.DateTimeFormatter\n\n// Get month filter from input or use current month as default\ndef selectedMonth = null\n\n// Check if monthFilter was passed as input\nif (binding.hasVariable('monthFilter')) {\n    def inputMonth = monthFilter\n    if (inputMonth != null && inputMonth.toString().trim() != \"\") {\n        selectedMonth = inputMonth.toString().trim()\n    }\n}\n\n// If no valid month filter provided, use current month\nif (selectedMonth == null) {\n    def currentDate = LocalDate.now()\n    def formatter = DateTimeFormatter.ofPattern(\"MMMM\")\n    selectedMonth = currentDate.format(formatter)\n}\n\n// Get coach rate from input, default to $35 if not provided\ndef coachRatePerSession = 35\nif (binding.hasVariable('coachRate') && coachRate != null) {\n    coachRatePerSession = coachRate\n}\n\n// Group data by student\ndef studentDataMap = [:]\n\nobject.each { record ->\n    if (!record.deleted && record.entityType == \"timesheet\") {\n        def recordMonth = record.properties.month\n        \n        // Only process records matching the selected month\n        if (recordMonth == selectedMonth) {\n            def studentName = record.properties.studentName\n            def sessionsUsed = record.properties.session_used ?: 0\n            def totalSessionsInPackage = record.properties.studentsTotalSessionsInPackage ?: 0\n            \n            // Initialize student entry if not exists\n            if (!studentDataMap.containsKey(studentName)) {\n                studentDataMap[studentName] = [\n                    \"Student Name\": studentName,\n                    \"Sum of Sessions Used\": 0,\n                    \"Students Total Sessions In Package\": totalSessionsInPackage,\n                    \"Rate Per Session\": coachRatePerSession\n                ]\n            }\n            \n            // Add sessions used\n            studentDataMap[studentName][\"Sum of Sessions Used\"] += sessionsUsed\n        }\n    }\n}\n\n// Calculate remaining sessions and billable total for each student\ndef studentsList = []\ndef totalSessionsUsed = 0\ndef totalSessionsRemaining = 0\ndef totalBillableAmount = 0\n\nstudentDataMap.each { studentName, data ->\n    def sessionsUsed = data[\"Sum of Sessions Used\"]\n    def totalSessions = data[\"Students Total Sessions In Package\"]\n    def sessionsRemaining = totalSessions - sessionsUsed\n    def billableTotal = sessionsUsed * coachRatePerSession\n    \n    data[\"Sessions Remaining\"] = sessionsRemaining\n    data[\"Student Billable Total\"] = billableTotal\n    \n    studentsList << data\n    \n    totalSessionsUsed += sessionsUsed\n    totalSessionsRemaining += sessionsRemaining\n    totalBillableAmount += billableTotal\n}\n\n// Create summary\ndef summary = [\n    [\n        \"Coach Rate Per Session\": coachRatePerSession,\n        \"Total Sessions Used\": totalSessionsUsed,\n        \"Total Sessions Remaining\": totalSessionsRemaining,\n        \"Total Billable Amount\": totalBillableAmount\n    ]\n]\n\n// Create final result\ndef result = [\n    \"students\": studentsList,\n    \"summary\": summary\n]\n\nreturn result",
+				"compile_static":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"coachRate":"{{ n_XOYmS.outputs.properties.coachAdminRate }}",
+					"monthFilter":"{{ n_TYLnE.outputs.month }}",
+					"object":{
+						"source":"{{ n_VXzhM.outputs.objects }}",
+						"ua:type":"mappedArray",
+						"items":"{{ n_VXzhM.outputs.objects[0] }}"
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":9,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cFBBH-1",
+			"id":"n_ZyvXK",
+			"index":11,
+			"inputs":{
+				"filters":[
+					{
+						"property":"=LEN({{ _tBD4x.outputs.objects }})",
+						"filter":{
+							"operator":"GTE",
+							"value":"1"
+						}
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":9,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_ZyvXK@_cFBBH-1@n",
+			"id":"_Vl8Ug",
+			"index":12,
+			"inputs":{
+				"result":{
+					"students":{
+						"source":"{{ n_CzwwK.outputs.result.students }}",
+						"ua:type":"mappedArray",
+						"items":{
+							"Sum of Sessions Used":"{{ n_CzwwK.outputs.result.students[0].Sum of Sessions Used }}",
+							"Sessions Remaining":"{{ n_CzwwK.outputs.result.students[0].Sessions Remaining }}",
+							"Student Billable Total":"{{ n_CzwwK.outputs.result.students[0].Student Billable Total }}",
+							"Student Name":"{{ n_CzwwK.outputs.result.students[0].Student Name }}",
+							"Students Total Sessions In Package":"{{ n_CzwwK.outputs.result.students[0].Students Total Sessions In Package }}"
+						}
+					},
+					"summary":{
+						"source":"{{ n_CzwwK.outputs.result.summary }}",
+						"ua:type":"mappedArray",
+						"items":{
+							"Total Sessions Used":"{{ n_CzwwK.outputs.result.summary[0].Total Sessions Used }}",
+							"Total Billable Amount":"{{ n_CzwwK.outputs.result.summary[0].Total Billable Amount }}",
+							"Total Sessions Remaining":"{{ n_CzwwK.outputs.result.summary[0].Total Sessions Remaining }}"
+						}
+					},
+					"totalHoursUsed":"=({{ n_CzwwK.outputs.result.summary[0].Total Sessions Used }} + {{ n_n8GwK.outputs.result.Total Hours Used }})",
+					"totalAmount":"=({{ n_CzwwK.outputs.result.summary[0].Total Billable Amount }} + {{ n_n8GwK.outputs.result.Coach Billable Total }})"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		},
+		{
+			"additional":{
+				"visibleOptionalFields":[
+					"root.parameters.object.items"
+				]
+			},
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":9,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cFBBH-1",
+			"id":"n_n8GwK",
+			"index":13,
+			"inputs":{
+				"output":{
+					"type":"object",
+					"additionalProperties":false,
+					"properties":{
+						"result":{
+							"type":"object",
+							"properties":{
+								"Total Hours Used":{
+									"type":"integer",
+									"title":"Total Hours Used"
+								},
+								"Coach Billable Total":{
+									"type":"integer",
+									"title":"Coach Billable Total"
+								},
+								"Average Rate":{
+									"type":"integer",
+									"title":"Average Rate"
+								}
+							},
+							"title":"result",
+							"additionalProperties":false
+						}
+					}
+				},
+				"input":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[],
+					"properties":{
+						"object":{
+							"type":"array",
+							"items":{
+								"type":"object",
+								"properties":{},
+								"additionalProperties":false
+							},
+							"title":"Object"
+						},
+						"monthFilter":{
+							"type":"string",
+							"title":"Month Filter"
+						}
+					}
+				},
+				"code":"// Groovy script for calculating administrative timesheet totals with month filtering\n// Input: \n//   - object: array of timesheet_admin records\n//   - monthFilter (optional): string like \"September\", \"October\", \"June\", etc.\n// If no monthFilter is provided, uses current month as default\n\nimport java.time.LocalDate\nimport java.time.format.DateTimeFormatter\n\n// Get month filter from input or use current month as default\ndef selectedMonth = null\n\n// Check if monthFilter was passed as input\nif (binding.hasVariable('monthFilter')) {\n    def inputMonth = monthFilter\n    if (inputMonth != null && inputMonth.toString().trim() != \"\") {\n        selectedMonth = inputMonth.toString().trim()\n    }\n}\n\n// If no valid month filter provided, use current month\nif (selectedMonth == null) {\n    def currentDate = LocalDate.now()\n    def formatter = DateTimeFormatter.ofPattern(\"MMMM\")\n    selectedMonth = currentDate.format(formatter)\n}\n\n// Calculate totals dynamically\ndef hoursUsedList = []\ndef billableAmountList = []\n\nobject.each { record ->\n    if (!record.deleted && record.entityType == \"timesheet_admin\") {\n        def recordMonth = record.properties.month\n        \n        // Only process records matching the selected month\n        if (recordMonth == selectedMonth) {\n            def hoursUsed = record.properties.hours_used ?: 0\n            def coachRate = record.properties.coachAdministrativeRate ?: 0\n            // Use the actual billable amount from the record\n            def recordBillableAmount = record.properties.coachTotalBillableAmount ?: (hoursUsed * coachRate)\n            \n            hoursUsedList << hoursUsed\n            billableAmountList << recordBillableAmount\n        }\n    }\n}\n\ndef totalHoursUsed = hoursUsedList.sum() ?: 0\ndef totalBillableAmount = billableAmountList.sum() ?: 0\n\n// Create result with 3 fields\ndef result = [\n    \"Total Hours Used\": totalHoursUsed,\n    \"Coach Billable Total\": totalBillableAmount,\n    \"Average Rate\": totalHoursUsed > 0 ? (totalBillableAmount / totalHoursUsed) : 0\n]\n\nreturn result",
+				"compile_static":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"monthFilter":"{{ n_TYLnE.outputs.month }}",
+					"object":{
+						"source":"{{ _tBD4x.outputs.objects }}",
+						"ua:type":"mappedArray",
+						"items":"{{ _tBD4x.outputs.objects[0] }}"
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"additional":{
+				"xsdSchemaConfig":{
+					"root":{}
+				},
+				"visibleOptionalFields":[
+					"root.parameters.summaryArray.items",
+					"root.parameters.adminArray.items"
+				]
+			},
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":15,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cFBBH-1",
+			"id":"n_1K2Se",
+			"index":14,
+			"inputs":{
+				"output":{
+					"type":"object",
+					"additionalProperties":false,
+					"properties":{
+						"firstRow":{
+							"type":"array",
+							"items":{
+								"type":"object",
+								"properties":{
+									"billableAmount":{
+										"type":"integer",
+										"title":"billableAmount"
+									},
+									"cTm":{
+										"type":"integer",
+										"title":"cTm"
+									},
+									"description":{
+										"type":"string",
+										"title":"description"
+									},
+									"hoursUsed":{
+										"type":"number",
+										"title":"hoursUsed"
+									},
+									"id":{
+										"type":"integer",
+										"title":"id"
+									},
+									"sessionsRemaining":{
+										"type":"number",
+										"title":"sessionsRemaining"
+									}
+								},
+								"additionalProperties":false
+							},
+							"title":"firstRow"
+						},
+						"secondRow":{
+							"type":"array",
+							"items":{
+								"type":"object",
+								"properties":{
+									"billableAmount":{
+										"type":"integer",
+										"title":"billableAmount"
+									},
+									"cTm":{
+										"type":"integer",
+										"title":"cTm"
+									},
+									"description":{
+										"type":"string",
+										"title":"description"
+									},
+									"hoursUsed":{
+										"type":"integer",
+										"title":"hoursUsed"
+									},
+									"id":{
+										"type":"integer",
+										"title":"id"
+									}
+								},
+								"additionalProperties":false
+							},
+							"title":"secondRow"
+						},
+						"thirdRow":{
+							"type":"array",
+							"items":{
+								"type":"object",
+								"properties":{
+									"billableAmount":{
+										"type":"integer",
+										"title":"billableAmount"
+									},
+									"cTm":{
+										"type":"integer",
+										"title":"cTm"
+									},
+									"description":{
+										"type":"string",
+										"title":"description"
+									},
+									"hoursUsed":{
+										"type":"number",
+										"title":"hoursUsed"
+									},
+									"id":{
+										"type":"integer",
+										"title":"id"
+									},
+									"sessionsRemaining":{
+										"type":"number",
+										"title":"sessionsRemaining"
+									}
+								},
+								"additionalProperties":false
+							},
+							"title":"thirdRow"
+						}
+					}
+				},
+				"input":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[],
+					"properties":{
+						"summaryArray":{
+							"type":"array",
+							"items":{
+								"type":"object",
+								"properties":{},
+								"additionalProperties":false
+							},
+							"title":"Summary Array"
+						},
+						"adminArray":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
+							"title":"Admin Array"
+						}
+					}
+				},
+				"code":"// Input: summaryArray (from student script) and adminArray (from admin script)\n// Safely check if variables exist and extract data from both arrays\ndef summaryData = [:]\nif (binding.hasVariable('summaryArray') && summaryArray != null) {\n    summaryData = summaryArray?.get(0) ?: [:]\n}\n\ndef adminData = [:]\nif (binding.hasVariable('adminArray') && adminArray != null) {\n    adminData = adminArray ?: [:]\n}\n\n// Extract values with safe defaults\ndef totalStudentSessions = summaryData[\"Total Sessions Used\"] ?: 0\ndef totalSessionsRemaining = summaryData[\"Total Sessions Remaining\"] ?: 0\ndef totalBillableAmount = summaryData[\"Total Billable Amount\"] ?: 0\n\ndef totalAdminHours = adminData[\"Total Hours Used\"] ?: 0\ndef coachBillableTotal = adminData[\"Coach Billable Total\"] ?: 0\n\n// Calculate totals for third row\ndef totalHours = totalStudentSessions + totalAdminHours\ndef totalBillable = totalBillableAmount + coachBillableTotal\n\n// Create three separate arrays for each row\ndef firstRowArray = [\n    [\n        \"id\": 1,\n        \"description\": \"Total Student Sessions\",\n        \"hoursUsed\": totalStudentSessions,\n        \"sessionsRemaining\": totalSessionsRemaining,\n        \"billableAmount\": totalBillableAmount,\n        \"cTm\": System.currentTimeMillis()\n    ]\n]\n\ndef secondRowArray = [\n    [\n        \"id\": 2,\n        \"description\": \"Number of Hours/Students/Reports\", \n        \"hoursUsed\": totalAdminHours,\n        \"billableAmount\": coachBillableTotal,\n        \"cTm\": System.currentTimeMillis()\n        // sessionsRemaining is omitted for admin hours row\n    ]\n]\n\ndef thirdRowArray = [\n    [\n        \"id\": 3,\n        \"description\": \"Total\",\n        \"hoursUsed\": totalHours,\n        \"sessionsRemaining\": totalSessionsRemaining,\n        \"billableAmount\": totalBillable,\n        \"cTm\": System.currentTimeMillis()\n    ]\n]\n\nreturn [\n    \"firstRow\": firstRowArray,\n    \"secondRow\": secondRowArray,\n    \"thirdRow\": thirdRowArray\n]",
+				"compile_static":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"summaryArray":{
+						"source":"{{ n_CzwwK.outputs.result.summary }}",
+						"ua:type":"mappedArray",
+						"items":"{{ n_CzwwK.outputs.result.summary[0] }}"
+					},
+					"adminArray":"{{ n_n8GwK.outputs.result }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":13,
+				"resourceName":"variable_by_unifyapps_update_variables",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cFBBH-1",
+			"id":"n_ezl1U",
+			"index":15,
+			"inputs":{
+				"variables":[
+					{
+						"source":"{{ n_yQwZL.outputs.coachPayemnt }}",
+						"value":"=(100*{{ n_XOYmS.outputs.properties.referrals }} +35*{{ n_XOYmS.outputs.properties.studentsCarriedOn }} + {{ n_n8GwK.outputs.result.result.Coach Billable Total }})"
+					}
+				]
+			},
+			"skip":false,
+			"subTitle":"Variable by UnifyApps",
+			"title":"Update variables",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":9,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cFBBH-1",
+			"id":"n_zsx95",
+			"index":16,
+			"inputs":{
+				"result":{
+					"admin":{
+						"Total Hours Used":"{{ n_n8GwK.outputs.result.Total Hours Used }}",
+						"Coach Billable Total":"{{ n_yQwZL.outputs.coachPayemnt }}",
+						"Average Rate":"{{ n_n8GwK.outputs.result.Average Rate }}"
+					},
+					"students":{
+						"source":"{{ n_CzwwK.outputs.result.students }}",
+						"ua:type":"mappedArray",
+						"items":{
+							"Sum of Sessions Used":"{{ n_CzwwK.outputs.result.students[0].Sum of Sessions Used }}",
+							"Sessions Remaining":"{{ n_CzwwK.outputs.result.students[0].Sessions Remaining }}",
+							"Student Billable Total":"{{ n_CzwwK.outputs.result.students[0].Student Billable Total }}",
+							"Student Name":"{{ n_CzwwK.outputs.result.students[0].Student Name }}",
+							"Students Total Sessions In Package":"{{ n_CzwwK.outputs.result.students[0].Students Total Sessions In Package }}"
+						}
+					},
+					"summary":{
+						"source":"{{ n_CzwwK.outputs.result.summary }}",
+						"ua:type":"mappedArray",
+						"items":{
+							"Total Billable Amount":"{{ n_CzwwK.outputs.result.summary[0].Total Billable Amount }}",
+							"Total Sessions Remaining":"{{ n_CzwwK.outputs.result.summary[0].Total Sessions Remaining }}",
+							"Total Sessions Used":"{{ n_CzwwK.outputs.result.summary[0].Total Sessions Used }}"
+						}
+					},
+					"totalHoursUsed":"=({{ n_CzwwK.outputs.result.summary[0].Total Sessions Used }} + {{ n_n8GwK.outputs.result.Total Hours Used }})",
+					"totalAmount":"=({{ n_CzwwK.outputs.result.summary[0].Total Billable Amount }} + {{ n_n8GwK.outputs.result.Coach Billable Total }})",
+					"referrals":"{{ n_XOYmS.outputs.properties.referrals }}",
+					"carryForwardStudents":"{{ n_XOYmS.outputs.properties.studentsCarriedOn }}",
+					"firstRow":{
+						"source":"{{ n_1K2Se.outputs.result.firstRow }}",
+						"ua:type":"mappedArray",
+						"items":{
+							"id":"{{ n_1K2Se.outputs.result.firstRow[0].id }}",
+							"description":"{{ n_1K2Se.outputs.result.firstRow[0].description }}",
+							"hoursUsed":"{{ n_1K2Se.outputs.result.firstRow[0].hoursUsed }}",
+							"billableAmount":"{{ n_1K2Se.outputs.result.firstRow[0].billableAmount }}",
+							"cTm":"{{ n_1K2Se.outputs.result.firstRow[0].cTm }}",
+							"sessionsRemaining":"{{ n_1K2Se.outputs.result.firstRow[0].sessionsRemaining }}"
+						}
+					},
+					"secondRow":{
+						"source":"{{ n_1K2Se.outputs.result.secondRow }}",
+						"ua:type":"mappedArray",
+						"items":{
+							"id":"{{ n_1K2Se.outputs.result.secondRow[0].id }}",
+							"description":"{{ n_1K2Se.outputs.result.secondRow[0].description }}",
+							"hoursUsed":"{{ n_1K2Se.outputs.result.secondRow[0].hoursUsed }}",
+							"billableAmount":"{{ n_1K2Se.outputs.result.secondRow[0].billableAmount }}",
+							"cTm":"{{ n_1K2Se.outputs.result.secondRow[0].cTm }}"
+						}
+					},
+					"thirdRow":{
+						"source":"{{ n_1K2Se.outputs.result.thirdRow }}",
+						"ua:type":"mappedArray",
+						"items":{
+							"id":"{{ n_1K2Se.outputs.result.thirdRow[0].id }}",
+							"description":"{{ n_1K2Se.outputs.result.thirdRow[0].description }}",
+							"hoursUsed":"{{ n_1K2Se.outputs.result.thirdRow[0].hoursUsed }}",
+							"billableAmount":"$ {{ n_1K2Se.outputs.result.thirdRow[0].billableAmount }}",
+							"cTm":"{{ n_1K2Se.outputs.result.thirdRow[0].cTm }}",
+							"sessionsRemaining":"{{ n_1K2Se.outputs.result.thirdRow[0].sessionsRemaining }}"
+						}
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":37040,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":81
+}
