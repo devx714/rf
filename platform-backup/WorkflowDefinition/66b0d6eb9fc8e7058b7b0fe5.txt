@@ -4,14 +4,14 @@
 	],
 	"createdTime":1722865387940,
 	"deleted":false,
-	"deployedVersion":80,
+	"deployedVersion":81,
 	"deploymentState":{
-		"deployedAt":1775320614900,
+		"deployedAt":1775334393468,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e2683aecf24ec25486a",
+		"deployedDefinitionId":"69d173f939824e06138198be",
 		"status":"DEPLOYED",
-		"version":80,
-		"workflowVersion":157
+		"version":81,
+		"workflowVersion":159
 	},
 	"edges":[
 		{
@@ -113,6 +113,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -122,7 +123,7 @@
 	"id":"66b0d6eb9fc8e7058b7b0fe5",
 	"lastModifiedBy":-1,
 	"lcName":"gaurdrail automation",
-	"modifiedTime":1775334393383,
+	"modifiedTime":1775334705900,
 	"name":"Gaurdrail Automation",
 	"nodes":[
 		{
@@ -248,6 +249,7 @@
 				"success":false
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -669,5 +671,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":159
+	"version":160
 }
