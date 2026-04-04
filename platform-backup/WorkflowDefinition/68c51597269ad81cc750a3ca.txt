@@ -4,14 +4,14 @@
 	],
 	"createdTime":1758530352485,
 	"deleted":false,
-	"deployedVersion":33,
+	"deployedVersion":34,
 	"deploymentState":{
-		"deployedAt":1774342973352,
+		"deployedAt":1775320693237,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2533d8d65fb68e1563cea",
+		"deployedDefinitionId":"69d13e7583aecf24ec254fe6",
 		"status":"DEPLOYED",
-		"version":33,
-		"workflowVersion":80
+		"version":34,
+		"workflowVersion":82
 	},
 	"edges":[
 		{
@@ -117,7 +117,7 @@
 	"id":"68c51597269ad81cc750a3ca",
 	"lastModifiedBy":-1,
 	"lcName":"[ai agent] capture trace",
-	"modifiedTime":1774622956237,
+	"modifiedTime":1775320889117,
 	"name":"[AI AGENT] Capture Trace",
 	"nodes":[
 		{
@@ -844,5 +844,5 @@
 	"tags":[
 		
 	],
-	"version":81
+	"version":83
 }
