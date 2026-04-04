@@ -30,7 +30,7 @@
 	},
 	"id":"vinaytest-11",
 	"lastModifiedBy":195435,
-	"modifiedTime":1775315938983,
+	"modifiedTime":1775322976454,
 	"ownerUserId":195435,
 	"properties":{
 		"standard":false,
@@ -82,7 +82,12 @@
 			"defaultPageId":"e_696771150543417598ee5563",
 			"appearance":{
 				"SM":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"nav_QAWtU",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"none"
@@ -120,7 +125,12 @@
 					]
 				},
 				"LG":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"nav_QAWtU",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"none"
@@ -164,7 +174,12 @@
 					]
 				},
 				"XL":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"nav_QAWtU",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"expandable"
@@ -208,7 +223,12 @@
 					]
 				},
 				"MD":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"nav_QAWtU",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"none"
@@ -252,7 +272,21 @@
 					]
 				}
 			},
-			"primary":[]
+			"primary":[
+				{
+					"name":"Nav Item 1",
+					"icon":"ChevronLeftDouble",
+					"pageInputs":{
+						"raa":[],
+						"arr":[]
+					},
+					"id":"nav_QAWtU",
+					"type":"PAGE",
+					"pageId":"e_696771150543417598ee5563",
+					"url":"",
+					"slug":"homepage"
+				}
+			]
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_69d1121a1feba233289daa0b":"page-499",
@@ -414,5 +448,5 @@
 		}
 	},
 	"standard":false,
-	"version":1188
+	"version":1192
 }
