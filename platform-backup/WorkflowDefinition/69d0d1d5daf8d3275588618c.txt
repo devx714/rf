@@ -1,0 +1,60 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1775292885554,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_7R5HD",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_DqhL9",
+			"type":"next"
+		}
+	],
+	"id":"69d0d1d5daf8d3275588618c",
+	"lastModifiedBy":195392,
+	"lcName":"a1 auto",
+	"modifiedTime":1775292885554,
+	"name":"a1 auto",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_7R5HD-1",
+			"id":"_7R5HD",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_7R5HD-1",
+			"id":"_DqhL9",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":195392,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"version":0
+}
