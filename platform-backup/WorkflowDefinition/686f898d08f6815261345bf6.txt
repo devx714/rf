@@ -345,7 +345,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -355,7 +354,7 @@
 	"id":"686f898d08f6815261345bf6",
 	"lastModifiedBy":-1,
 	"lcName":"text to workflow v2 | update connectors job",
-	"modifiedTime":1775320891942,
+	"modifiedTime":1775334352688,
 	"name":"Text to workflow v2 | Update connectors Job",
 	"nodes":[
 		{
@@ -426,7 +425,6 @@
 				"limit":"500"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -703,7 +701,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -989,7 +986,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1224,7 +1220,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2145,5 +2140,5 @@
 	"tags":[
 		"Text_to_Workflow_v2"
 	],
-	"version":125
+	"version":126
 }
