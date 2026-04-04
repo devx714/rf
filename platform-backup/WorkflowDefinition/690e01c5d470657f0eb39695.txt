@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762858159010,
 	"deleted":false,
-	"deployedVersion":33,
+	"deployedVersion":34,
 	"deploymentState":{
-		"deployedAt":1774342878458,
+		"deployedAt":1775320610085,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252de29fa153f07e099bc",
+		"deployedDefinitionId":"69d13e2283aecf24ec2547de",
 		"status":"DEPLOYED",
-		"version":33,
-		"workflowVersion":67
+		"version":34,
+		"workflowVersion":69
 	},
 	"edges":[
 		{
@@ -159,7 +159,7 @@
 	"id":"690e01c5d470657f0eb39695",
 	"lastModifiedBy":-1,
 	"lcName":"eval | metrics | text2sql | compare actual output",
-	"modifiedTime":1775320610007,
+	"modifiedTime":1775334388486,
 	"name":"Eval | Metrics | Text2SQL | Compare Actual Output",
 	"nodes":[
 		{
@@ -1113,5 +1113,5 @@
 	"tags":[
 		
 	],
-	"version":69
+	"version":71
 }
