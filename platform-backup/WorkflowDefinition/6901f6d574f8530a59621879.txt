@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762858184965,
 	"deleted":false,
-	"deployedVersion":28,
+	"deployedVersion":29,
 	"deploymentState":{
-		"deployedAt":1774342904645,
+		"deployedAt":1775320632628,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252f88d65fb68e156397f",
+		"deployedDefinitionId":"69d13e38c6b0c9120df173c6",
 		"status":"DEPLOYED",
-		"version":28,
-		"workflowVersion":68
+		"version":29,
+		"workflowVersion":70
 	},
 	"edges":[
 		{
@@ -142,6 +142,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -151,7 +152,7 @@
 	"id":"6901f6d574f8530a59621879",
 	"lastModifiedBy":-1,
 	"lcName":"graphrag | relationship embedding fetcher ",
-	"modifiedTime":1775320632571,
+	"modifiedTime":1775320891483,
 	"name":"GraphRAG | Relationship Embedding Fetcher ",
 	"nodes":[
 		{
@@ -312,6 +313,7 @@
 				"embeddingsLength":"=LEN({{ hqkdg.outputs.embeddings }})"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -626,6 +628,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1390,5 +1393,5 @@
 	"tags":[
 		
 	],
-	"version":70
+	"version":71
 }
