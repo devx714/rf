@@ -4,14 +4,14 @@
 	],
 	"createdTime":1753185817085,
 	"deleted":false,
-	"deployedVersion":83,
+	"deployedVersion":84,
 	"deploymentState":{
-		"deployedAt":1775320578307,
+		"deployedAt":1775334348937,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e0283aecf24ec254625",
+		"deployedDefinitionId":"69d173cc39824e06138196e2",
 		"status":"DEPLOYED",
-		"version":83,
-		"workflowVersion":149
+		"version":84,
+		"workflowVersion":151
 	},
 	"edges":[
 		{
@@ -77,6 +77,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -86,7 +87,7 @@
 	"id":"68676a717693334d88bb539f",
 	"lastModifiedBy":-1,
 	"lcName":"get or create cursor",
-	"modifiedTime":1775334348882,
+	"modifiedTime":1775334707138,
 	"name":"Get or Create Cursor",
 	"nodes":[
 		{
@@ -222,6 +223,7 @@
 				"id":"{{ n_okDTl.outputs.knowledgeId }}_{{ n_okDTl.outputs.parentEntityId }}_{{ n_okDTl.outputs.type }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -481,5 +483,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":151
+	"version":152
 }
