@@ -39,7 +39,7 @@
 	"id":"69d0217ae95b7f4e93c0a175",
 	"lastModifiedBy":308,
 	"lcName":"imagemimetype_sans_dnt",
-	"modifiedTime":1775292211440,
+	"modifiedTime":1775316041297,
 	"name":"ImageMimeType_Sans_DNT",
 	"nodes":[
 		{
@@ -111,14 +111,14 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_0nAPn-1",
 			"id":"n_KUp7M",
 			"index":3,
 			"inputs":{
 				"file":"{{ n_0VgpI.outputs.file }}",
-				"sourceMimeType":"image/eps",
+				"sourceMimeType":"image/vnd.adobe.photoshop",
 				"targetMimeType":"image/png"
 			},
 			"skip":false,
@@ -162,5 +162,5 @@
 		}
 	},
 	"standard":false,
-	"version":13
+	"version":14
 }
