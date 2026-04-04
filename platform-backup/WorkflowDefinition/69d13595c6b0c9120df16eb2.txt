@@ -23,7 +23,7 @@
 	"id":"69d13595c6b0c9120df16eb2",
 	"lastModifiedBy":197352,
 	"lcName":"test_png",
-	"modifiedTime":1775318526035,
+	"modifiedTime":1775318567694,
 	"name":"test_png",
 	"nodes":[
 		{
@@ -76,7 +76,7 @@
 			"index":2,
 			"inputs":{
 				"file":"{{ n_jc3sI.outputs.inputFile }}",
-				"sourceMimeType":"image/jpeg",
+				"sourceMimeType":"image/webp",
 				"targetMimeType":"image/png"
 			},
 			"skip":false,
@@ -120,5 +120,5 @@
 		}
 	},
 	"standard":false,
-	"version":1
+	"version":2
 }
