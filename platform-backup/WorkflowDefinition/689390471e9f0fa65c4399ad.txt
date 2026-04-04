@@ -33,7 +33,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -43,7 +42,7 @@
 	"id":"689390471e9f0fa65c4399ad",
 	"lastModifiedBy":-1,
 	"lcName":"metering | agent analytics | performance | agent response time",
-	"modifiedTime":1774622955293,
+	"modifiedTime":1775320687909,
 	"name":"Metering | Agent Analytics | Performance | Agent Response Time",
 	"nodes":[
 		{
@@ -252,5 +251,5 @@
 	"tags":[
 		
 	],
-	"version":86
+	"version":87
 }
