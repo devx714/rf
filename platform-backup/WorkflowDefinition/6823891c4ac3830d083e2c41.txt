@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748507195515,
 	"deleted":false,
-	"deployedVersion":82,
+	"deployedVersion":83,
 	"deploymentState":{
-		"deployedAt":1774342864914,
+		"deployedAt":1775320590116,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252d08d65fb68e15637f6",
+		"deployedDefinitionId":"69d13e0e83aecf24ec25469a",
 		"status":"DEPLOYED",
-		"version":82,
-		"workflowVersion":134
+		"version":83,
+		"workflowVersion":136
 	},
 	"edges":[
 		{
@@ -168,7 +168,7 @@
 	"id":"6823891c4ac3830d083e2c41",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge metadata indexer",
-	"modifiedTime":1774622956061,
+	"modifiedTime":1775320890380,
 	"name":"Knowledge Metadata Indexer",
 	"nodes":[
 		{
@@ -1203,5 +1203,5 @@
 	"tags":[
 		
 	],
-	"version":135
+	"version":137
 }
