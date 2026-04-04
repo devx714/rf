@@ -33,7 +33,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -43,7 +42,7 @@
 	"id":"689339e69d6cd6615c867353",
 	"lastModifiedBy":-1,
 	"lcName":"metering | agent analytics | tool usage by agents",
-	"modifiedTime":1774622955641,
+	"modifiedTime":1775320678990,
 	"name":"Metering | Agent Analytics | Tool usage By Agents",
 	"nodes":[
 		{
@@ -224,5 +223,5 @@
 	"tags":[
 		
 	],
-	"version":108
+	"version":109
 }
