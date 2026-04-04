@@ -199,7 +199,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -209,7 +208,7 @@
 	"id":"6978cb4f966ea16457ac4b95",
 	"lastModifiedBy":-1,
 	"lcName":"[a2a] on a2a topic updated",
-	"modifiedTime":1775320891513,
+	"modifiedTime":1775334512496,
 	"name":"[A2A] On A2A Topic Updated",
 	"nodes":[
 		{
@@ -369,7 +368,6 @@
 				"topicId":"{{ n_vFsB5.outputs.before.id }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -839,5 +837,5 @@
 	"tags":[
 		"a2a"
 	],
-	"version":23
+	"version":24
 }
