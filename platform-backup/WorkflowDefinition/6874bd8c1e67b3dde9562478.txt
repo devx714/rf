@@ -4,14 +4,14 @@
 	],
 	"createdTime":1753185820086,
 	"deleted":false,
-	"deployedVersion":65,
+	"deployedVersion":66,
 	"deploymentState":{
-		"deployedAt":1775320574775,
+		"deployedAt":1775334345664,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13dfe83aecf24ec2545cc",
+		"deployedDefinitionId":"69d173c939824e06138196a6",
 		"status":"DEPLOYED",
-		"version":65,
-		"workflowVersion":113
+		"version":66,
+		"workflowVersion":115
 	},
 	"description":"This automation checks for the existing knowledge fetch tracker with updated readVersion and creates a new one in case an existing new one doesn't exist.",
 	"edges":[
@@ -71,6 +71,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -80,7 +81,7 @@
 	"id":"6874bd8c1e67b3dde9562478",
 	"lastModifiedBy":-1,
 	"lcName":"knowledgefetchtracker",
-	"modifiedTime":1775334345612,
+	"modifiedTime":1775334706641,
 	"name":"knowledgeFetchTracker",
 	"nodes":[
 		{
@@ -369,5 +370,5 @@
 	"tags":[
 		
 	],
-	"version":115
+	"version":116
 }
