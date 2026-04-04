@@ -4,14 +4,14 @@
 	],
 	"createdTime":1752507538746,
 	"deleted":false,
-	"deployedVersion":62,
+	"deployedVersion":63,
 	"deploymentState":{
-		"deployedAt":1775320663505,
+		"deployedAt":1775334457821,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e57c6b0c9120df174c4",
+		"deployedDefinitionId":"69d1743939824e0613819c3f",
 		"status":"DEPLOYED",
-		"version":62,
-		"workflowVersion":120
+		"version":63,
+		"workflowVersion":122
 	},
 	"edges":[
 		{
@@ -144,7 +144,7 @@
 	"id":"68682f350342c6108b9afd2a",
 	"lastModifiedBy":-1,
 	"lcName":"call groq - generic (streaming)",
-	"modifiedTime":1775320887917,
+	"modifiedTime":1775334705747,
 	"name":"Call Groq - Generic (Streaming)",
 	"nodes":[
 		{
@@ -1411,5 +1411,5 @@
 	"tags":[
 		
 	],
-	"version":121
+	"version":123
 }
