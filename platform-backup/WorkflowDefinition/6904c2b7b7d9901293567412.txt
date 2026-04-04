@@ -107,7 +107,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -117,7 +116,7 @@
 	"id":"6904c2b7b7d9901293567412",
 	"lastModifiedBy":-1,
 	"lcName":"metering | search | knowledge data sources",
-	"modifiedTime":1775320888639,
+	"modifiedTime":1775334382168,
 	"name":"Metering | Search | Knowledge Data Sources",
 	"nodes":[
 		{
@@ -593,5 +592,5 @@
 	"tags":[
 		
 	],
-	"version":59
+	"version":60
 }
