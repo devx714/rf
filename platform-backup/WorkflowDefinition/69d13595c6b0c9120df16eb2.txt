@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775318421125,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775318569740,
+		"deployedBy":197352,
+		"deployedDefinitionId":"69d1362983aecf24ec2518f8",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":2
+	},
 	"edges":[
 		{
 			"fromNodeId":"n_jc3sI",
@@ -23,7 +32,7 @@
 	"id":"69d13595c6b0c9120df16eb2",
 	"lastModifiedBy":197352,
 	"lcName":"test_png",
-	"modifiedTime":1775318567694,
+	"modifiedTime":1775318569743,
 	"name":"test_png",
 	"nodes":[
 		{
@@ -33,7 +42,7 @@
 				"resourceName":"callables_from_automation"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_51vtD-1",
 			"id":"n_jc3sI",
@@ -69,7 +78,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_51vtD-1",
 			"id":"n_hI7ID",
@@ -92,7 +101,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_51vtD-1",
 			"id":"n_y4lzr",
