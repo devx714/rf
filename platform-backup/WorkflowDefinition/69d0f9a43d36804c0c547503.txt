@@ -89,14 +89,14 @@
 			"fromNodeId":"n_LGDTu",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"n_tWYjb",
+			"toNodeId":"n_CcQC3",
 			"type":"next"
 		},
 		{
 			"fromNodeId":"n_wworY",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"n_tWYjb",
+			"toNodeId":"n_CcQC3",
 			"type":"next"
 		},
 		{
@@ -104,8 +104,15 @@
 			"name":"default",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"n_tWYjb",
+			"toNodeId":"n_CcQC3",
 			"type":"branch"
+		},
+		{
+			"fromNodeId":"n_CcQC3",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_tWYjb",
+			"type":"next"
 		},
 		{
 			"fromNodeId":"n_bVpeE",
@@ -148,7 +155,7 @@
 	"id":"69d0f9a43d36804c0c547503",
 	"lastModifiedBy":45011,
 	"lcName":"[dnt] platform backup manager reporting",
-	"modifiedTime":1775313884368,
+	"modifiedTime":1775317294549,
 	"name":"[DNT] Platform Backup Manager Reporting",
 	"nodes":[
 		{
@@ -158,7 +165,7 @@
 				"resourceName":"callables_from_automation"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_IvAuF-1",
 			"id":"n_9W4tW",
@@ -209,6 +216,22 @@
 						"queryType":{
 							"type":"string",
 							"title":"Query Type"
+						},
+						"timeFilter":{
+							"type":"object",
+							"properties":{
+								"since":{
+									"type":"integer",
+									"title":"Since"
+								},
+								"until":{
+									"type":"integer",
+									"title":"Until"
+								}
+							},
+							"additionalProperties":false,
+							"title":"Time Filter",
+							"required":[]
 						}
 					}
 				}
@@ -229,7 +252,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_IvAuF-1",
 			"id":"n_pp0f5",
@@ -254,7 +277,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -281,7 +303,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_IvAuF-1",
 			"id":"n_bVpeE",
@@ -341,7 +363,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_bVpeE@_IvAuF-1@1",
 			"id":"n_bVpeE@1",
@@ -371,7 +393,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_bVpeE@_IvAuF-1@1",
 			"id":"n_SHHZw",
@@ -408,7 +430,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_SHHZw@n_bVpeE@_IvAuF-1@1@1",
 			"id":"n_SHHZw@1",
@@ -428,7 +450,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_SHHZw@n_bVpeE@_IvAuF-1@1@1",
 			"id":"n_PsLYs",
@@ -462,12 +484,11 @@
 						"additionalProperties":false
 					}
 				},
-				"query":"SELECT \n    executionType,\n    COUNT(DISTINCT assetId) AS totalAssets,\n    MAX(lastSyncTime) AS latestSyncTime\nFROM PLATFORM_BACKUP\nWHERE configId = '69ccf6a9144e01072ec4cd55'\n  AND status = 'SUCCESS'\n  AND lastSyncTime >= 1774000000000 \n  AND lastSyncTime <= 1775040894049  \nGROUP BY executionType\nORDER BY latestSyncTime DESC;",
+				"query":"SELECT \n    executionType,\n    COUNT(DISTINCT assetId) AS totalAssets,\n    MAX(lastSyncTime) AS latestSyncTime\nFROM PLATFORM_BACKUP\nWHERE configId = :configId\n  AND status = 'SUCCESS'\n  AND lastSyncTime >= :since \n  AND lastSyncTime <= :until\nGROUP BY executionType\nORDER BY latestSyncTime DESC;",
 				"record":{
-					"configId":"69ccf6a9144e01072ec4cd55{{ n_9W4tW.outputs.configId }}",
-					"fromTime":1772546408000,
-					"toTime":1775224808000,
-					"status":"SUCCESS"
+					"configId":"{{ n_9W4tW.outputs.configId }}",
+					"since":"{{ n_9W4tW.outputs.timeFilter.since }}",
+					"until":"{{ n_9W4tW.outputs.timeFilter.until }}"
 				},
 				"params":{
 					"type":"object",
@@ -478,17 +499,13 @@
 							"type":"string",
 							"title":"Config Id"
 						},
-						"fromTime":{
+						"since":{
 							"type":"integer",
-							"title":"From Time"
+							"title":"Since"
 						},
-						"toTime":{
+						"until":{
 							"type":"integer",
-							"title":"To Time"
-						},
-						"status":{
-							"type":"string",
-							"title":"Status"
+							"title":"Until"
 						}
 					}
 				},
@@ -515,7 +532,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_SHHZw@n_bVpeE@_IvAuF-1@1@1",
 			"id":"n_LGDTu",
@@ -572,7 +589,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_SHHZw@n_bVpeE@_IvAuF-1@1@2",
 			"id":"n_SHHZw@2",
@@ -592,7 +609,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_SHHZw@n_bVpeE@_IvAuF-1@1@2",
 			"id":"n_8pC84",
@@ -639,13 +656,37 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_SHHZw@n_bVpeE@_IvAuF-1@1@2",
 			"id":"n_ZeHtp",
 			"index":11,
 			"inputs":{
-				"query":"SELECT \n    COUNT(DISTINCT executionId) AS totalJobs,\n    COUNT(DISTINCT assetId) AS totalUniqueAssets,\n    COUNT(DISTINCT CASE WHEN status = 'SUCCESS' THEN assetId END) AS successfulAssets,\n    COUNT(DISTINCT CASE WHEN status = 'FAILED' THEN assetId END) AS failedAssets\nFROM PLATFORM_BACKUP\nWHERE configId = '69ccf6a9144e01072ec4cd55'\n  AND lastSyncTime >= 1772628015000\n  AND lastSyncTime <= 1775306547000;",
+				"query":"SELECT \n    COUNT(DISTINCT executionId) AS totalJobs,\n    COUNT(DISTINCT assetId) AS totalUniqueAssets,\n    COUNT(DISTINCT CASE WHEN status = 'SUCCESS' THEN assetId END) AS successfulAssets,\n    COUNT(DISTINCT CASE WHEN status = 'FAILED' THEN assetId END) AS failedAssets\nFROM PLATFORM_BACKUP\nWHERE configId = :configId\n  AND lastSyncTime >= :since\n  AND lastSyncTime <= :until;",
+				"record":{
+					"since":"{{ n_9W4tW.outputs.timeFilter.since }}",
+					"until":"{{ n_9W4tW.outputs.timeFilter.until }}",
+					"configId":"{{ n_9W4tW.outputs.configId }}"
+				},
+				"params":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[],
+					"properties":{
+						"since":{
+							"type":"string",
+							"title":"Since"
+						},
+						"until":{
+							"type":"string",
+							"title":"Until"
+						},
+						"configId":{
+							"type":"string",
+							"title":"Config Id"
+						}
+					}
+				},
 				"group":"PLATFORM"
 			},
 			"skip":false,
@@ -669,7 +710,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_SHHZw@n_bVpeE@_IvAuF-1@1@2",
 			"id":"n_wworY",
@@ -680,37 +721,140 @@
 					"additionalProperties":false,
 					"required":[],
 					"properties":{
-						"processedResult":{
-							"type":"string",
-							"title":"Processed Result"
+						"metrics":{
+							"type":"object",
+							"properties":{
+								"withTimeFilter":{
+									"type":"object",
+									"properties":{
+										"jobsRan":{
+											"type":"integer",
+											"title":"jobsRan"
+										},
+										"assets":{
+											"type":"object",
+											"properties":{
+												"totalProcessed":{
+													"type":"integer",
+													"title":"totalProcessed"
+												},
+												"successCount":{
+													"type":"integer",
+													"title":"successCount"
+												},
+												"failureCount":{
+													"type":"integer",
+													"title":"failureCount"
+												}
+											},
+											"additionalProperties":false,
+											"title":"assets"
+										}
+									},
+									"additionalProperties":false,
+									"title":"With Time Filter",
+									"required":[]
+								},
+								"totalJobs":{
+									"type":"integer",
+									"title":"Total Jobs"
+								}
+							},
+							"additionalProperties":false,
+							"title":"Metrics",
+							"required":[]
 						}
 					}
 				},
 				"input":{
 					"type":"object",
 					"additionalProperties":false,
+					"required":[],
 					"properties":{
 						"data":{
 							"type":"array",
 							"items":{
 								"type":"object",
 								"properties":{},
-								"additionalProperties":false,
-								"required":[]
+								"additionalProperties":false
 							},
-							"title":"data"
+							"title":"Data"
+						},
+						"totalJobs":{
+							"type":"integer",
+							"title":"Total Jobs"
 						}
 					}
 				},
-				"code":"import java.time.Instant\nimport java.time.ZoneId\nimport java.time.format.DateTimeFormatter\n\ndef formatter = DateTimeFormatter.ofPattern(\"d MMMM, yyyy HH:mm:ss\")\n    .withZone(ZoneId.systemDefault())\n\ndef processedResult = data.collect { item ->\n    def row = item.columns\n    long ts = row.latestSyncTime as Long\n\n    return [\n        executionType: row.executionType,\n        totalAssets  : row.totalAssets as Integer,\n        lastSync: [\n            timestampMs: ts,\n            formatted  : formatter.format(Instant.ofEpochMilli(ts))\n        ]\n    ]\n}\n\nreturn processedResult",
+				"code":"def withTimefilter = [:]\nif (data && data.size() > 0) {\n    def cols = data[0].columns\n    withTimefilter = [\n        jobsRan: cols.totalJobs as Integer,\n        assets: [\n            totalProcessed  : cols.totalUniqueAssets as Integer,\n            successCount    : cols.successfulAssets as Integer,\n            failureCount    : cols.failedAssets as Integer,\n        ]\n    ]\n}\nreturn [\n    \"metrics\" : [\n        \"totalJobs\": totalJobs,\n        \"withTimeFilter\": withTimefilter\n    ]\n]",
 				"compile_static":false,
 				"captureStdOutput":false,
 				"parameters":{
+					"totalJobs":"{{ n_8pC84.outputs.objects[0].totalJobs }}",
 					"data":{
-						"source":"{{ n_8pC84.outputs.objects }}",
+						"source":"{{ n_ZeHtp.outputs.objects }}",
 						"ua:type":"mappedArray",
-						"items":"{{ n_8pC84.outputs.objects[0] }}"
+						"items":"{{ n_ZeHtp.outputs.objects[0] }}"
 					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":0,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_bVpeE@_IvAuF-1@1",
+			"id":"n_CcQC3",
+			"index":13,
+			"inputs":{
+				"output":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[],
+					"properties":{
+						"combinedResult":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
+							"title":"Combined Result"
+						}
+					}
+				},
+				"input":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[],
+					"properties":{
+						"metrics":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
+							"title":"Metrics"
+						},
+						"processedResult":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
+							"title":"Processed Result"
+						}
+					}
+				},
+				"code":"return [\n  \"metrics\" : binding.hasVariable('metrics') ? metrics : null,\n  \"details\": binding.hasVariable('processedResult') ? processedResult : null\n]",
+				"compile_static":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"metrics":"{{ n_wworY.outputs.result }}",
+					"processedResult":"{{ n_LGDTu.outputs.result.processedResult }}"
 				}
 			},
 			"skip":false,
@@ -726,16 +870,16 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_bVpeE@_IvAuF-1@1",
 			"id":"n_tWYjb",
-			"index":13,
+			"index":14,
 			"inputs":{
 				"variables":[
 					{
 						"source":"{{ n_pp0f5.outputs.result }}",
-						"value":"{{ n_LGDTu.outputs.result.processedResult }}"
+						"value":"{{ n_CcQC3.outputs.result.combinedResult }}"
 					}
 				]
 			},
@@ -752,11 +896,11 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_bVpeE@_IvAuF-1@2",
 			"id":"n_bVpeE@2",
-			"index":14,
+			"index":15,
 			"inputs":{
 				"name":"Branch 2",
 				"conditions":{
@@ -783,11 +927,11 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_bVpeE@_IvAuF-1@2",
 			"id":"n_phKMO",
-			"index":15,
+			"index":16,
 			"inputs":{
 				"group":"ENTITY_REPORTING"
 			},
@@ -804,11 +948,11 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_IvAuF-1",
 			"id":"n_K9PWV",
-			"index":16,
+			"index":17,
 			"inputs":{
 				"result":{
 					"result":"{{ n_pp0f5.outputs.result }}"
@@ -834,5 +978,5 @@
 		}
 	},
 	"standard":false,
-	"version":8
+	"version":9
 }
