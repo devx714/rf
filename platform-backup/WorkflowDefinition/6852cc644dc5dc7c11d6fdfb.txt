@@ -4,14 +4,14 @@
 	],
 	"createdTime":1750264047585,
 	"deleted":false,
-	"deployedVersion":69,
+	"deployedVersion":70,
 	"deploymentState":{
-		"deployedAt":1774342931891,
+		"deployedAt":1775320655053,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2531329fa153f07e09c58",
+		"deployedDefinitionId":"69d13e4e83aecf24ec254cab",
 		"status":"DEPLOYED",
-		"version":69,
-		"workflowVersion":104
+		"version":70,
+		"workflowVersion":106
 	},
 	"edges":[
 		{
@@ -207,6 +207,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -216,7 +217,7 @@
 	"id":"6852cc644dc5dc7c11d6fdfb",
 	"lastModifiedBy":-1,
 	"lcName":"fetch autocomplete query ",
-	"modifiedTime":1775320654731,
+	"modifiedTime":1775320891796,
 	"name":"Fetch Autocomplete Query ",
 	"nodes":[
 		{
@@ -339,6 +340,7 @@
 				"userId":"=IF(ISBLANK({{ n_7mxHQ.outputs.userId }}), {{ __RUN__.outputs.userId }}, {{ n_7mxHQ.outputs.userId }})"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -739,6 +741,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2088,5 +2091,5 @@
 	"tags":[
 		
 	],
-	"version":106
+	"version":107
 }
