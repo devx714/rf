@@ -4,14 +4,14 @@
 	],
 	"createdTime":1760296192947,
 	"deleted":false,
-	"deployedVersion":39,
+	"deployedVersion":40,
 	"deploymentState":{
-		"deployedAt":1774342875255,
+		"deployedAt":1775320606894,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252db29fa153f07e0999f",
+		"deployedDefinitionId":"69d13e1e83aecf24ec254793",
 		"status":"DEPLOYED",
-		"version":39,
-		"workflowVersion":99
+		"version":40,
+		"workflowVersion":101
 	},
 	"edges":[
 		{
@@ -70,7 +70,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -80,7 +79,7 @@
 	"id":"68e7c476291d7b4a4cebd9de",
 	"lastModifiedBy":-1,
 	"lcName":"eval | metrics | embeddings similarity",
-	"modifiedTime":1774622955296,
+	"modifiedTime":1775334385700,
 	"name":"Eval | Metrics | Embeddings Similarity",
 	"nodes":[
 		{
@@ -395,5 +394,5 @@
 	"tags":[
 		
 	],
-	"version":100
+	"version":103
 }
