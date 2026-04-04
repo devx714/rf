@@ -32,7 +32,7 @@
 	"id":"69d11e74de80d477ad1d1bc8",
 	"lastModifiedBy":196883,
 	"lcName":"test-or",
-	"modifiedTime":1775313137207,
+	"modifiedTime":1775313181915,
 	"name":"test-or",
 	"nodes":[
 		{
@@ -223,7 +223,7 @@
 				"entityType":"WORKFLOW_EXECUTION",
 				"includeTotalHits":true,
 				"page":{
-					"limit":40000
+					"limit":10
 				},
 				"sorts":[],
 				"timeFilter":{
@@ -274,5 +274,5 @@
 		}
 	},
 	"standard":false,
-	"version":4
+	"version":5
 }
