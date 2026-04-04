@@ -4,14 +4,14 @@
 	],
 	"createdTime":1732704988365,
 	"deleted":false,
-	"deployedVersion":111,
+	"deployedVersion":112,
 	"deploymentState":{
-		"deployedAt":1774342873116,
+		"deployedAt":1775320605027,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252d829fa153f07e0998b",
+		"deployedDefinitionId":"69d13e1c83aecf24ec254768",
 		"status":"DEPLOYED",
-		"version":111,
-		"workflowVersion":172
+		"version":112,
+		"workflowVersion":174
 	},
 	"edges":[
 		{
@@ -220,6 +220,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -229,7 +230,7 @@
 	"id":"6746fadcafeea234643bfa3d",
 	"lastModifiedBy":-1,
 	"lcName":"text to workflow input filling each node [do not touch] ",
-	"modifiedTime":1775320604888,
+	"modifiedTime":1775320887531,
 	"name":"Text to Workflow INPUT Filling Each Node [DO NOT TOUCH] ",
 	"nodes":[
 		{
@@ -385,6 +386,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1423,5 +1425,5 @@
 		}
 	},
 	"standard":true,
-	"version":174
+	"version":175
 }
