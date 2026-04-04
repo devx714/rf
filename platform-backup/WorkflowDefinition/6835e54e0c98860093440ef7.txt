@@ -135,27 +135,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"45775"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -165,7 +144,7 @@
 	"id":"6835e54e0c98860093440ef7",
 	"lastModifiedBy":-1,
 	"lcName":"api to trigger ai agent (streaming)",
-	"modifiedTime":1775320888581,
+	"modifiedTime":1775334415848,
 	"name":"API To Trigger AI Agent (Streaming)",
 	"nodes":[
 		{
@@ -433,7 +412,6 @@
 				"name":"message"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -698,7 +676,6 @@
 				"name":"message"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -803,5 +780,5 @@
 	"tags":[
 		
 	],
-	"version":115
+	"version":116
 }
