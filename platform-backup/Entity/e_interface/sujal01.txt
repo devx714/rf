@@ -29,8 +29,8 @@
 		]
 	},
 	"id":"sujal01",
-	"lastModifiedBy":43497,
-	"modifiedTime":1775299425212,
+	"lastModifiedBy":195854,
+	"modifiedTime":1775323044942,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -46,8 +46,15 @@
 			"_counter":{
 				"_moduleCount":0,
 				"_mqttTopicCounter":0,
-				"_pageCount":4
+				"_pageCount":6
 			}
+		},
+		"manifest":{
+			"type":"WEB"
+		},
+		"type":"application",
+		"locale":{
+			"defaultLocale":"en-US"
 		},
 		"navigation":{
 			"secondary":[],
@@ -417,15 +424,33 @@
 				}
 			]
 		},
+		"security":{
+			"cspData":{
+				"resourceControl":[
+					{
+						"key":"https://www.youtube-nocookie.com",
+						"value":""
+					}
+				],
+				"frameAncestors":[
+					{
+						"key":"https://www.youtube-nocookie.com/embed/ssL0D-_EZBA",
+						"value":"i-frame testing"
+					}
+				]
+			},
+			"cspDetails":{
+				"enforceCSP":true
+			}
+		},
 		"interfacePageIdVsSlugMap":{
+			"e_6992b9a039aef513fe77d9a9":"homepage",
+			"e_69d144f4066dbf20e3d48c7e":"page-5",
+			"e_69cff8420dda3f000501a94f":"page-3",
+			"e_69d1456a066dbf20e3d48ca6":"page-8",
 			"e_69cff75a0dda3f000501a913":"page-2",
 			"e_global_sujal01":"global-page-of-sujal01",
-			"e_6992b9a039aef513fe77d9a9":"homepage",
-			"e_69cff8420dda3f000501a94f":"page-3",
 			"e_69d0e48d3a201720910440e3":"page-4"
-		},
-		"manifest":{
-			"type":"WEB"
 		},
 		"paths":{
 			"f_root":{
@@ -488,11 +513,27 @@
 			"output":"\n      .interface-theme,\n      .interface-theme [data-color-scheme='light'] {\n        \n      }\n    \n        .interface-theme[data-color-scheme='dark'],\n        .interface-theme [data-color-scheme='dark'] {\n          \n        }\n      ",
 			"defaultThemeId":"e_696617643d99d61567a8690f"
 		},
-		"type":"application",
-		"locale":{
-			"defaultLocale":"en-US"
-		},
 		"entityDetailsMap":{
+			"e_6992b9a039aef513fe77d9a9":{
+				"slug":"homepage",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_69d144f4066dbf20e3d48c7e":{
+				"slug":"page-5",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_69cff8420dda3f000501a94f":{
+				"slug":"page-3",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_69d1456a066dbf20e3d48ca6":{
+				"slug":"page-8",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_69cff75a0dda3f000501a913":{
 				"slug":"page-2",
 				"isPublic":false,
@@ -500,16 +541,6 @@
 			},
 			"e_global_sujal01":{
 				"slug":"global-page-of-sujal01",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_6992b9a039aef513fe77d9a9":{
-				"slug":"homepage",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_69cff8420dda3f000501a94f":{
-				"slug":"page-3",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -524,5 +555,5 @@
 	"tags":[
 		
 	],
-	"version":38
+	"version":54
 }
