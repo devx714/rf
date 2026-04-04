@@ -30,7 +30,7 @@
 	},
 	"id":"vinaytest-11",
 	"lastModifiedBy":195414,
-	"modifiedTime":1775306036752,
+	"modifiedTime":1775308923148,
 	"ownerUserId":195435,
 	"properties":{
 		"standard":false,
@@ -45,7 +45,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":47,
+				"_pageCount":48,
 				"_moduleCount":1,
 				"_variableCounter":10,
 				"_functionCounter":9
@@ -57,11 +57,10 @@
 		},
 		"pagePermissions":{
 			"e_696771150543417598ee5563":{},
-			"e_69677532d1aa6b56b37b5f45":{},
-			"e_6985afdc9d5b5252328aab41":{},
 			"e_69d0a7640f39af2e5600f792":{},
 			"e_69d0a7e60f39af2e5600f7de":{},
-			"e_69b79fc600e2c81d3f19b3ae":{}
+			"e_69b79fc600e2c81d3f19b3ae":{},
+			"e_69d110071feba233289da5db":{}
 		},
 		"type":"application",
 		"locale":{
@@ -255,16 +254,12 @@
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
-			"e_6985afdc9d5b5252328aab41":"page-3",
-			"e_69d0e5ff093d2445b04fd345":"ssssss-_YQ7hK",
-			"e_69677532d1aa6b56b37b5f45":"page-2",
-			"e_69d0e61d093d2445b04fd34d":"hello-_F6W2u",
 			"e_69d0f6720749020b38d23ae7":"page-45",
-			"e_69d10208c40bce1807573baa":"page-46",
 			"e_696771150543417598ee5563":"homepage",
 			"e_69b79fc600e2c81d3f19b3ae":"sujal",
 			"e_69d0a7640f39af2e5600f792":"student",
 			"e_69ba4c797091fd58ef93252d":"_5nlS3",
+			"e_69d110071feba233289da5db":"worldyyyy",
 			"e_69d0a7e60f39af2e5600f7de":"hello"
 		},
 		"paths":{
@@ -274,14 +269,10 @@
 				"children":[
 					"f_user",
 					"f_a",
-					"e_6985afdc9d5b5252328aab41",
 					"e_69ba4c797091fd58ef93252d",
-					"e_69677532d1aa6b56b37b5f45",
 					"e_696771150543417598ee5563",
-					"f_4wyW4",
 					"e_69d0e5ff093d2445b04fd345",
-					"e_69d0e61d093d2445b04fd34d",
-					"f_esNiH"
+					"f_LkuPY"
 				],
 				"path":"/"
 			},
@@ -301,45 +292,6 @@
 				"children":[],
 				"path":"/userly878/:userId"
 			},
-			"f_b":{
-				"id":"f_b",
-				"segment":"b",
-				"parentId":"f_a",
-				"children":[
-					"e_696771150543417598ee5563",
-					"f_c"
-				],
-				"path":"/alpha/b"
-			},
-			"f_course_id":{
-				"id":"f_course_id",
-				"segment":":courseId",
-				"parentId":"f_course",
-				"children":[
-					"e_696771150543417598ee5563"
-				],
-				"path":"/alpha/course/:courseId"
-			},
-			"f_a":{
-				"id":"f_a",
-				"segment":"alpha",
-				"children":[
-					"f_b",
-					"e_69d0a7640f39af2e5600f792",
-					"e_69b79fc600e2c81d3f19b3ae",
-					"e_69d0a7e60f39af2e5600f7de",
-					"f_course"
-				],
-				"path":"/alpha"
-			},
-			"f_d":{
-				"id":"f_d",
-				"segment":"d",
-				"parentId":"f_c",
-				"children":[],
-				"path":"/a/b/c/d",
-				"redirect":"/a/b/c"
-			},
 			"f_user":{
 				"id":"f_user",
 				"segment":"userly878",
@@ -351,42 +303,6 @@
 				],
 				"path":"/userly878"
 			},
-			"f_c":{
-				"id":"f_c",
-				"segment":"c",
-				"parentId":"f_b",
-				"children":[
-					"f_RXrsT"
-				],
-				"path":"/alpha/b/c",
-				"redirect":"/a/b/homepage"
-			},
-			"f_course":{
-				"id":"f_course",
-				"segment":"course",
-				"parentId":"f_a",
-				"children":[
-					"f_course_id"
-				],
-				"path":"/alpha/course"
-			},
-			"f_RXrsT":{
-				"id":"f_RXrsT",
-				"segment":"new",
-				"parentId":"f_c",
-				"children":[],
-				"path":"/alpha/b/c/new"
-			},
-			"f_4wyW4":{
-				"id":"f_4wyW4",
-				"segment":"course",
-				"parentId":"f_root",
-				"children":[
-					"f_kSM1r",
-					"e_69d10208c40bce1807573baa"
-				],
-				"path":"/course"
-			},
 			"f_CKQ1i":{
 				"id":"f_CKQ1i",
 				"segment":"course21212",
@@ -396,13 +312,6 @@
 				],
 				"path":"/userly878/course21212",
 				"parentId":"f_user"
-			},
-			"f_kSM1r":{
-				"id":"f_kSM1r",
-				"segment":":courseid",
-				"parentId":"f_4wyW4",
-				"children":[],
-				"path":"/course/:courseid"
 			},
 			"f_Ny90s":{
 				"id":"f_Ny90s",
@@ -418,14 +327,22 @@
 				"children":[],
 				"path":"/userly878/course21212/new"
 			},
-			"f_esNiH":{
-				"id":"f_esNiH",
-				"segment":"top",
-				"parentId":"f_root",
+			"f_LkuPY":{
+				"id":"f_LkuPY",
+				"segment":"hellowwww",
 				"children":[
-					"e_69d1050f6cc98645b2b809ed"
+					"f_2kshj"
 				],
-				"path":"/top"
+				"path":"/hellowwww"
+			},
+			"f_2kshj":{
+				"id":"f_2kshj",
+				"segment":":planets",
+				"parentId":"f_LkuPY",
+				"children":[
+					"e_69d110071feba233289da5db"
+				],
+				"path":"/hellowwww/:planets"
 			}
 		},
 		"name":"vinaytest11234567",
@@ -436,33 +353,8 @@
 			"e_698c484639e10f6abc71f62f":"check11111"
 		},
 		"entityDetailsMap":{
-			"e_6985afdc9d5b5252328aab41":{
-				"slug":"page-3",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_69d0e5ff093d2445b04fd345":{
-				"slug":"ssssss-_YQ7hK",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_69677532d1aa6b56b37b5f45":{
-				"slug":"page-2",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_69d0e61d093d2445b04fd34d":{
-				"slug":"hello-_F6W2u",
-				"isPublic":false,
-				"type":"PAGE"
-			},
 			"e_69d0f6720749020b38d23ae7":{
 				"slug":"page-45",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_69d10208c40bce1807573baa":{
-				"slug":"page-46",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -486,6 +378,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_69d110071feba233289da5db":{
+				"slug":"worldyyyy",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_69d0a7e60f39af2e5600f7de":{
 				"slug":"hello",
 				"isPublic":false,
@@ -494,5 +391,5 @@
 		}
 	},
 	"standard":false,
-	"version":1156
+	"version":1172
 }
