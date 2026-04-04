@@ -54,7 +54,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -64,7 +63,7 @@
 	"id":"68318db64c1192163379af38",
 	"lastModifiedBy":-1,
 	"lcName":"keyword extraction1 | graphrag",
-	"modifiedTime":1774622956279,
+	"modifiedTime":1775320683706,
 	"name":"Keyword Extraction1 | GraphRAG",
 	"nodes":[
 		{
@@ -299,5 +298,5 @@
 		}
 	},
 	"standard":true,
-	"version":126
+	"version":127
 }
