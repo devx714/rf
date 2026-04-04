@@ -4,14 +4,14 @@
 	],
 	"createdTime":1726685499026,
 	"deleted":false,
-	"deployedVersion":146,
+	"deployedVersion":147,
 	"deploymentState":{
-		"deployedAt":1775320667587,
+		"deployedAt":1775334461331,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e5bc6b0c9120df174f0",
+		"deployedDefinitionId":"69d1743d39824e0613819c83",
 		"status":"DEPLOYED",
-		"version":146,
-		"workflowVersion":246
+		"version":147,
+		"workflowVersion":248
 	},
 	"edges":[
 		{
@@ -303,16 +303,91 @@
 		"configs":[
 			{
 				"permissions":[
+					"A",
+					"EXPORT_AS_TEMPLATE",
+					"C",
+					"S",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"DEP"
+				],
+				"principalIds":[
+					"76704"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A",
+					"EXPORT_AS_TEMPLATE",
+					"C",
+					"S",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"DEP"
+				],
+				"principalIds":[
+					"311"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A",
+					"EXPORT_AS_TEMPLATE",
+					"C",
+					"S",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"DEP"
+				],
+				"principalIds":[
+					"32120"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
+			},
+			{
+				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"6757db349b09ba5b01b6c44c"
+				],
+				"principalType":"USER_GROUPS"
 			}
 		]
 	},
 	"id":"66eb213bdee489482ed19ecb",
 	"lastModifiedBy":-1,
 	"lcName":"observability | analytics final",
-	"modifiedTime":1775334461148,
+	"modifiedTime":1775334705647,
 	"name":"Observability | Analytics Final",
 	"nodes":[
 		{
@@ -890,6 +965,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1161,6 +1237,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1535,6 +1612,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1656,6 +1734,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2667,6 +2746,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -3480,5 +3560,5 @@
 		"AI Agent",
 		"Observability"
 	],
-	"version":248
+	"version":249
 }
