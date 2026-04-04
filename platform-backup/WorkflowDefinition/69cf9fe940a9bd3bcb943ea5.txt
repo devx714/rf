@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775281561199,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775281563054,
+		"deployedBy":43523,
+		"deployedDefinitionId":"69d0a59977559c7773cb9e5f",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":3
+	},
 	"edges":[
 		{
 			"fromNodeId":"n_22tVF",
@@ -45,7 +54,7 @@
 	"id":"69cf9fe940a9bd3bcb943ea5",
 	"lastModifiedBy":43523,
 	"lcName":"call vertex http test parent",
-	"modifiedTime":1775281561199,
+	"modifiedTime":1775281563055,
 	"name":"call Vertex HTTP test parent",
 	"nodes":[
 		{
