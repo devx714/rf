@@ -4,14 +4,14 @@
 	],
 	"createdTime":1743778134845,
 	"deleted":false,
-	"deployedVersion":68,
+	"deployedVersion":69,
 	"deploymentState":{
-		"deployedAt":1775320690091,
+		"deployedAt":1775334503218,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e7283aecf24ec254f82",
+		"deployedDefinitionId":"69d1746739824e0613819ea1",
 		"status":"DEPLOYED",
-		"version":68,
-		"workflowVersion":136
+		"version":69,
+		"workflowVersion":138
 	},
 	"edges":[
 		{
@@ -164,6 +164,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -173,7 +174,7 @@
 	"id":"67e7179533c69b7ea313b3ed",
 	"lastModifiedBy":-1,
 	"lcName":"call openai (streaming) [deprecated]",
-	"modifiedTime":1775334483068,
+	"modifiedTime":1775334705726,
 	"name":"Call OpenAI (Streaming) [Deprecated]",
 	"nodes":[
 		{
@@ -801,6 +802,7 @@
 				"isLastSlash":false
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1117,6 +1119,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1607,5 +1610,5 @@
 	"tags":[
 		
 	],
-	"version":138
+	"version":139
 }
