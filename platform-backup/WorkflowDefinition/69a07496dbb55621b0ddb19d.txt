@@ -4,14 +4,14 @@
 	],
 	"createdTime":1773768384459,
 	"deleted":false,
-	"deployedVersion":4,
+	"deployedVersion":5,
 	"deploymentState":{
-		"deployedAt":1774342860060,
+		"deployedAt":1775320578950,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252cc8d65fb68e15637ae",
+		"deployedDefinitionId":"69d13e0283aecf24ec254633",
 		"status":"DEPLOYED",
-		"version":4,
-		"workflowVersion":8
+		"version":5,
+		"workflowVersion":10
 	},
 	"edges":[
 		{
@@ -56,7 +56,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -66,7 +65,7 @@
 	"id":"69a07496dbb55621b0ddb19d",
 	"lastModifiedBy":-1,
 	"lcName":"default tools | information not found",
-	"modifiedTime":1774622956671,
+	"modifiedTime":1775334349581,
 	"name":"Default Tools | Information Not Found",
 	"nodes":[
 		{
@@ -295,5 +294,5 @@
 	"tags":[
 		
 	],
-	"version":9
+	"version":12
 }
