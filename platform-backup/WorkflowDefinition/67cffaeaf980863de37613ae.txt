@@ -4,14 +4,14 @@
 	],
 	"createdTime":1741683434006,
 	"deleted":false,
-	"deployedVersion":71,
+	"deployedVersion":72,
 	"deploymentState":{
-		"deployedAt":1774342907645,
+		"deployedAt":1775320635719,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252fb8d65fb68e15639ac",
+		"deployedDefinitionId":"69d13e3bc6b0c9120df17400",
 		"status":"DEPLOYED",
-		"version":71,
-		"workflowVersion":112
+		"version":72,
+		"workflowVersion":114
 	},
 	"edges":[
 		{
@@ -40,6 +40,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -49,7 +50,7 @@
 	"id":"67cffaeaf980863de37613ae",
 	"lastModifiedBy":-1,
 	"lcName":"[mcp server] get prompt",
-	"modifiedTime":1775320635662,
+	"modifiedTime":1775320890827,
 	"name":"[MCP Server] Get Prompt",
 	"nodes":[
 		{
@@ -270,5 +271,5 @@
 	"tags":[
 		"MCP Server"
 	],
-	"version":114
+	"version":115
 }
