@@ -1,0 +1,451 @@
+{
+	"appsUsed":[
+		"microsoft_calendar"
+	],
+	"createdTime":1767695238059,
+	"deleted":true,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1767695238255,
+		"deployedBy":191574,
+		"deployedDefinitionId":"695ce3864f6c6d7f36b566e3",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":2
+	},
+	"description":"Gets free/busy events from Microsoft Calendar",
+	"edges":[
+		{
+			"fromNodeId":"n_I8SZZ",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_qPKtW",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_qPKtW",
+			"name":"error",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_Az1pd",
+			"type":"error"
+		},
+		{
+			"fromNodeId":"n_Az1pd",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_XzoO5",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_XzoO5",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_d7F1Z",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_qPKtW",
+			"name":"success",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_e4SEq",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_d7F1Z",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_e4SEq",
+			"type":"next"
+		}
+	],
+	"id":"6937da6c2bbc960871b8a7d6",
+	"lastModifiedBy":191574,
+	"lcName":"yoda| get free/busy events via microsoft calendar 2/2",
+	"modifiedTime":1770715589944,
+	"name":"YODA| Get Free/Busy Events via Microsoft Calendar 2/2",
+	"nodes":[
+		{
+			"additional":{
+				"xsdSchemaConfig":{
+					"root":{}
+				}
+			},
+			"context":{
+				"appName":"callables",
+				"resourceVersion":130,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_kTi0U-1",
+			"id":"n_I8SZZ",
+			"index":1,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[],
+					"properties":{
+						"result":{
+							"type":"object",
+							"properties":{
+								"AvailabilityView":{
+									"type":"string",
+									"title":"Availability View"
+								},
+								"scheduleItems":{
+									"type":"array",
+									"items":{
+										"type":"object",
+										"properties":{
+											"status":{
+												"type":"string",
+												"title":"Status"
+											},
+											"subject":{
+												"type":"string",
+												"title":"Subject"
+											},
+											"location":{
+												"type":"string",
+												"title":"Location"
+											},
+											"startDateTime":{
+												"type":"string",
+												"format":"date",
+												"title":"Start Date Time",
+												"disablePast":false
+											},
+											"startTimeZone":{
+												"type":"string",
+												"title":"Start Time Zone"
+											},
+											"endDateTime":{
+												"type":"string",
+												"format":"date",
+												"title":"End Date Time",
+												"disablePast":false
+											},
+											"endTimeZone":{
+												"type":"string",
+												"title":"End Time Zone"
+											},
+											"scheduleId":{
+												"type":"string",
+												"title":"Schedule Id"
+											}
+										},
+										"additionalProperties":false,
+										"required":[]
+									},
+									"title":"Schedule Items"
+								}
+							},
+							"additionalProperties":false,
+							"title":"Result",
+							"required":[]
+						}
+					}
+				},
+				"setup":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[],
+					"properties":{
+						"startDate":{
+							"type":"string",
+							"title":"Start Date"
+						},
+						"endDate":{
+							"type":"string",
+							"title":"End Date"
+						},
+						"timeZone":{
+							"type":"string",
+							"title":"Time Zone"
+						},
+						"attendeesEmailList":{
+							"type":"array",
+							"items":{
+								"type":"string"
+							},
+							"title":"Attendees Email List"
+						},
+						"availabilityViewInterval":{
+							"type":"integer",
+							"title":"Availability View Interval"
+						},
+						"connectionId":{
+							"type":"string",
+							"title":"Connection Id"
+						}
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"microsoft_calendar",
+				"resourceVersion":1021,
+				"connectionId":"689c3914e436001bc18e4066",
+				"resourceName":"microsoft_calendar_get_free_busy_events",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"MANUAL",
+			"groupId":"_kTi0U-1",
+			"id":"_qPKtW",
+			"index":2,
+			"inputs":{
+				"Schedules":{
+					"source":"{{ n_I8SZZ.outputs.attendeesEmailList }}",
+					"ua:type":"mappedArray",
+					"items":"{{ n_I8SZZ.outputs.attendeesEmailList[0] }}"
+				},
+				"EndTime":{
+					"dateTime":"{{ n_I8SZZ.outputs.endDate }}",
+					"timeZone":"{{ n_I8SZZ.outputs.timeZone }}"
+				},
+				"StartTime":{
+					"dateTime":"{{ n_I8SZZ.outputs.startDate }}",
+					"timeZone":"{{ n_I8SZZ.outputs.timeZone }}"
+				},
+				"prefer_timeZone":"{{ n_I8SZZ.outputs.timeZone }}",
+				"availabilityViewInterval":"{{ n_I8SZZ.outputs.availabilityViewInterval }}"
+			},
+			"options":{
+				"bulkheadConfig":{
+					"enabled":false,
+					"maxLeaseTimeUnit":"SECONDS",
+					"maxWaitDurationUnit":"SECONDS"
+				},
+				"businessHoursConfig":{
+					"enabled":false,
+					"waitForNextWindow":false
+				},
+				"cacheConfig":{
+					"enabled":false,
+					"usagePolicy":"ALWAYS"
+				},
+				"circuitBreakerConfig":{
+					"enabled":false
+				},
+				"disableLogging":false,
+				"enabledForReExecution":false,
+				"hookConfig":{
+					"enabled":false,
+					"postHooks":[
+						
+					],
+					"preHooks":[
+						
+					]
+				},
+				"logConfig":{
+					"enabled":false,
+					"logPolicies":[
+						
+					]
+				},
+				"rateLimitConfig":{
+					"enabled":false,
+					"waitForNextWindow":false
+				},
+				"retryConfig":{
+					"backOffFactor":null,
+					"captureRetries":false,
+					"enabled":false
+				},
+				"stepError":"MANUAL",
+				"telemetryConfig":{
+					"enableTelemetry":false,
+					"metricConfigs":[
+						
+					]
+				},
+				"timeoutConfig":{
+					"enabled":false
+				}
+			},
+			"skip":false,
+			"subTitle":"Microsoft Calendar",
+			"title":"Get Free/Busy Events",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":404,
+				"resourceName":"callables_call_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_qPKtW@_kTi0U-1@error",
+			"id":"n_Az1pd",
+			"index":3,
+			"inputs":{
+				"automationId":"6936b1db0f9c7935ea115ddf",
+				"runtimeConnections":{},
+				"synchronous":true,
+				"version":"-1",
+				"parameters":{
+					"connectionId":"{{ n_I8SZZ.outputs.connectionId }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Call automation",
+			"type":"CALL_WORKFLOW"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":404,
+				"resourceName":"callables_call_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_qPKtW@_kTi0U-1@error",
+			"id":"n_XzoO5",
+			"index":4,
+			"inputs":{
+				"automationId":"68f075e0acdb9a0aa1e00499",
+				"runtimeConnections":{
+					"microsoft_calendar":"{{ n_Az1pd.outputs.connectionId }}"
+				},
+				"synchronous":true,
+				"version":"-1",
+				"parameters":{
+					"startDate":"{{ n_I8SZZ.outputs.startDate }}",
+					"endDate":"{{ n_I8SZZ.outputs.endDate }}",
+					"timeZone":"{{ n_I8SZZ.outputs.timeZone }}",
+					"availabilityViewInterval":"{{ n_I8SZZ.outputs.availabilityViewInterval }}",
+					"attendeesEmailList":{
+						"source":"{{ n_I8SZZ.outputs.attendeesEmailList }}",
+						"ua:type":"mappedArray",
+						"items":"{{ n_I8SZZ.outputs.attendeesEmailList[0] }}"
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Call automation",
+			"type":"CALL_WORKFLOW"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":405,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_qPKtW@_kTi0U-1@error",
+			"id":"n_d7F1Z",
+			"index":5,
+			"inputs":{
+				"result":{
+					"result":{
+						"AvailabilityView":"{{ n_XzoO5.outputs.result.AvailabilityView }}",
+						"scheduleItems":{
+							"source":"{{ n_XzoO5.outputs.result.scheduleItems }}",
+							"ua:type":"mappedArray",
+							"items":{
+								"status":"{{ n_XzoO5.outputs.result.scheduleItems[0].status }}",
+								"subject":"{{ n_XzoO5.outputs.result.scheduleItems[0].subject }}",
+								"location":"{{ n_XzoO5.outputs.result.scheduleItems[0].location }}",
+								"startDateTime":"{{ n_XzoO5.outputs.result.scheduleItems[0].startDateTime }}",
+								"startTimeZone":"{{ n_XzoO5.outputs.result.scheduleItems[0].startTimeZone }}",
+								"endDateTime":"{{ n_XzoO5.outputs.result.scheduleItems[0].endDateTime }}",
+								"endTimeZone":"{{ n_XzoO5.outputs.result.scheduleItems[0].endTimeZone }}",
+								"scheduleId":"{{ n_XzoO5.outputs.result.scheduleItems[0].scheduleId }}"
+							}
+						}
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":131,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_kTi0U-1",
+			"id":"n_e4SEq",
+			"index":6,
+			"inputs":{
+				"result":{
+					"result":{
+						"AvailabilityView":"{{ _qPKtW.outputs.value[0].availabilityView }}",
+						"scheduleItems":{
+							"source":"{{ _qPKtW.outputs.value[0].scheduleItems }}",
+							"ua:type":"mappedArray",
+							"items":{
+								"status":"{{ _qPKtW.outputs.value[0].scheduleItems[0].status }}",
+								"subject":"{{ _qPKtW.outputs.value[0].scheduleItems[0].subject }}",
+								"location":"{{ _qPKtW.outputs.value[0].scheduleItems[0].location }}",
+								"startDateTime":"{{ _qPKtW.outputs.value[0].scheduleItems[0].start.dateTime }}",
+								"startTimeZone":"{{ _qPKtW.outputs.value[0].scheduleItems[0].start.timeZone }}",
+								"endDateTime":"{{ _qPKtW.outputs.value[0].scheduleItems[0].end.dateTime }}",
+								"endTimeZone":"{{ _qPKtW.outputs.value[0].scheduleItems[0].end.timeZone }}",
+								"scheduleId":"{{ _qPKtW.outputs.value[0].scheduleId }}"
+							}
+						}
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":191574,
+	"runtimeConnectionAppNames":[
+		"microsoft_calendar"
+	],
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"headerValueTierMap":{},
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		"YODA"
+	],
+	"version":3
+}
