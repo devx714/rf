@@ -183,7 +183,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -193,7 +192,7 @@
 	"id":"678f7985ea6abd513c727a08",
 	"lastModifiedBy":-1,
 	"lcName":"personalized page rank | graphrag",
-	"modifiedTime":1775320889520,
+	"modifiedTime":1775334507357,
 	"name":"Personalized Page Rank | GraphRAG",
 	"nodes":[
 		{
@@ -544,7 +543,6 @@
 				"ua:title":"rankVectors"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -804,7 +802,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1746,5 +1743,5 @@
 	"tags":[
 		"GraphRAG"
 	],
-	"version":192
+	"version":193
 }
