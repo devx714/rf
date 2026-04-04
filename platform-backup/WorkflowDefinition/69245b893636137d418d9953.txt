@@ -4,14 +4,14 @@
 	],
 	"createdTime":1766522730954,
 	"deleted":false,
-	"deployedVersion":21,
+	"deployedVersion":22,
 	"deploymentState":{
-		"deployedAt":1774342928944,
+		"deployedAt":1775320652732,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2531029fa153f07e09c47",
+		"deployedDefinitionId":"69d13e4cc6b0c9120df17488",
 		"status":"DEPLOYED",
-		"version":21,
-		"workflowVersion":61
+		"version":22,
+		"workflowVersion":63
 	},
 	"edges":[
 		{
@@ -146,7 +146,7 @@
 	"id":"69245b893636137d418d9953",
 	"lastModifiedBy":-1,
 	"lcName":"delete knowledge job",
-	"modifiedTime":1774622956089,
+	"modifiedTime":1775320890410,
 	"name":"Delete Knowledge Job",
 	"nodes":[
 		{
@@ -611,5 +611,5 @@
 		"AI Agent",
 		"Knowledge"
 	],
-	"version":62
+	"version":64
 }
