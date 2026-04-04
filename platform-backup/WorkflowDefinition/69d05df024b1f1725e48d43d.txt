@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775263216915,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775263217246,
+		"deployedBy":175325,
+		"deployedDefinitionId":"69d05df124b1f1725e48d440",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"edges":[
 		{
 			"fromNodeId":"n_KG3NM",
@@ -16,7 +25,7 @@
 	"id":"69d05df024b1f1725e48d43d",
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalschedule1775263216841",
-	"modifiedTime":1775263217116,
+	"modifiedTime":1775263217247,
 	"name":"changeSetLocalschedule1775263216841",
 	"nodes":[
 		{
