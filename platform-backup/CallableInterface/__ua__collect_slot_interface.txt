@@ -1,5 +1,5 @@
 {
-	"createdTime":1775322592691,
+	"createdTime":1775327942991,
 	"deleted":false,
 	"description":"Collect Slot Interface",
 	"id":"__ua__collect_slot_interface",
@@ -83,7 +83,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"collect slot interface (ai agent)",
-	"modifiedTime":1775322593823,
+	"modifiedTime":1775327953710,
 	"name":"Collect Slot Interface (AI Agent)",
 	"output":{
 		"type":"SCHEMA",
