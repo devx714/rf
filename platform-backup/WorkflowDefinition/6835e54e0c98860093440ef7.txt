@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748528569541,
 	"deleted":false,
-	"deployedVersion":38,
+	"deployedVersion":39,
 	"deploymentState":{
-		"deployedAt":1774342912819,
+		"deployedAt":1775320639971,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c253008d65fb68e1563a06",
+		"deployedDefinitionId":"69d13e3fc6b0c9120df17420",
 		"status":"DEPLOYED",
-		"version":38,
-		"workflowVersion":112
+		"version":39,
+		"workflowVersion":114
 	},
 	"edges":[
 		{
@@ -135,6 +135,27 @@
 		"configs":[
 			{
 				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"45775"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -144,7 +165,7 @@
 	"id":"6835e54e0c98860093440ef7",
 	"lastModifiedBy":-1,
 	"lcName":"api to trigger ai agent (streaming)",
-	"modifiedTime":1775320639903,
+	"modifiedTime":1775320888581,
 	"name":"API To Trigger AI Agent (Streaming)",
 	"nodes":[
 		{
@@ -412,6 +433,7 @@
 				"name":"message"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -676,6 +698,7 @@
 				"name":"message"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -780,5 +803,5 @@
 	"tags":[
 		
 	],
-	"version":114
+	"version":115
 }
