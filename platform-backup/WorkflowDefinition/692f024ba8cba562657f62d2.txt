@@ -4,14 +4,14 @@
 	],
 	"createdTime":1764688459322,
 	"deleted":false,
-	"deployedVersion":2,
+	"deployedVersion":3,
 	"deploymentState":{
-		"deployedAt":1775295054333,
+		"deployedAt":1775295311322,
 		"deployedBy":195323,
-		"deployedDefinitionId":"69d0da4ecee10e376ba1a77d",
+		"deployedDefinitionId":"69d0db4fcee10e376ba1ae96",
 		"status":"DEPLOYED",
-		"version":2,
-		"workflowVersion":6
+		"version":3,
+		"workflowVersion":8
 	},
 	"edges":[
 		{
@@ -25,6 +25,13 @@
 			"fromNodeId":"n_u9lS0",
 			"priority":0,
 			"skip":false,
+			"toNodeId":"n_wOeeg",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_wOeeg",
+			"priority":0,
+			"skip":false,
 			"toNodeId":"n_pliuG",
 			"type":"next"
 		}
@@ -32,7 +39,7 @@
 	"id":"692f024ba8cba562657f62d2",
 	"lastModifiedBy":195323,
 	"lcName":"getpublicfile",
-	"modifiedTime":1775295309841,
+	"modifiedTime":1775295549225,
 	"name":"getPublicFile",
 	"nodes":[
 		{
@@ -98,9 +105,30 @@
 				"file":"{{ n_WpduT.outputs.file }}",
 				"expiryTime":1
 			},
-			"skip":false,
+			"skip":true,
 			"subTitle":"Utility by UnifyApps",
 			"title":"Generate public file URL",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"utility_by_unifyapps",
+				"resourceVersion":3695,
+				"resourceName":"utility_by_unifyapps_create_unifyapps_file_from_url",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_v3na1-1",
+			"id":"n_wOeeg",
+			"index":3,
+			"inputs":{
+				"url":"{{ n_WpduT.outputs.file.url }}"
+			},
+			"skip":false,
+			"subTitle":"Utility by UnifyApps",
+			"title":"Create UnifyApps file from url",
 			"type":"ACTION"
 		},
 		{
@@ -115,7 +143,7 @@
 			"fallbackMode":"STOP",
 			"groupId":"_v3na1-1",
 			"id":"n_pliuG",
-			"index":3,
+			"index":4,
 			"inputs":{
 				"result":{
 					"link":"{{ n_u9lS0.outputs.url }}"
@@ -144,5 +172,5 @@
 	"tags":[
 		
 	],
-	"version":8
+	"version":9
 }
