@@ -4,14 +4,14 @@
 	],
 	"createdTime":1761722771693,
 	"deleted":false,
-	"deployedVersion":29,
+	"deployedVersion":30,
 	"deploymentState":{
-		"deployedAt":1774342909848,
+		"deployedAt":1775320637725,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252fd29fa153f07e09b04",
+		"deployedDefinitionId":"69d13e3d83aecf24ec254b68",
 		"status":"DEPLOYED",
-		"version":29,
-		"workflowVersion":79
+		"version":30,
+		"workflowVersion":81
 	},
 	"edges":[
 		{
@@ -159,6 +159,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -168,7 +169,7 @@
 	"id":"68e76e270e377b0bdc8c4a7f",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] retrieves the chat history api",
-	"modifiedTime":1775320637617,
+	"modifiedTime":1775320891547,
 	"name":"[DT] Retrieves the chat history API",
 	"nodes":[
 		{
@@ -1116,6 +1117,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1385,5 +1387,5 @@
 	"tags":[
 		
 	],
-	"version":81
+	"version":82
 }
