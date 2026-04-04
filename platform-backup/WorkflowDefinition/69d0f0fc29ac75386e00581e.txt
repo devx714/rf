@@ -46,7 +46,7 @@
 	"id":"69d0f0fc29ac75386e00581e",
 	"lastModifiedBy":161958,
 	"lcName":"autofill pill mapping sample",
-	"modifiedTime":1775311916993,
+	"modifiedTime":1775311968676,
 	"name":"Autofill Pill Mapping Sample",
 	"nodes":[
 		{
@@ -384,7 +384,7 @@
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
-		"enableVariableLogging":false,
+		"enableVariableLogging":true,
 		"route":{
 			"default":false,
 			"headerValueTierMap":{},
@@ -395,5 +395,5 @@
 	"tags":[
 		
 	],
-	"version":3
+	"version":4
 }
