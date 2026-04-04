@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769522010019,
 	"deleted":false,
-	"deployedVersion":11,
+	"deployedVersion":12,
 	"deploymentState":{
-		"deployedAt":1774342977279,
+		"deployedAt":1775320697149,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2534129fa153f07e09ddd",
+		"deployedDefinitionId":"69d13e79c6b0c9120df175a6",
 		"status":"DEPLOYED",
-		"version":11,
-		"workflowVersion":91
+		"version":12,
+		"workflowVersion":93
 	},
 	"edges":[
 		{
@@ -75,6 +75,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -84,7 +85,7 @@
 	"id":"687e7702c1f279e29abd1746",
 	"lastModifiedBy":-1,
 	"lcName":"memoryprofile | process single fact",
-	"modifiedTime":1775320697067,
+	"modifiedTime":1775320890611,
 	"name":"MemoryProfile | Process Single Fact",
 	"nodes":[
 		{
@@ -562,5 +563,5 @@
 	"tags":[
 		
 	],
-	"version":93
+	"version":94
 }
