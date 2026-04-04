@@ -142,7 +142,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -152,7 +151,7 @@
 	"id":"69175684f233da43e9f76dd5",
 	"lastModifiedBy":-1,
 	"lcName":"get case summary",
-	"modifiedTime":1775320886827,
+	"modifiedTime":1775334473934,
 	"name":"Get Case Summary",
 	"nodes":[
 		{
@@ -462,7 +461,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -538,7 +536,6 @@
 				"endTime":0
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -969,5 +966,5 @@
 	"tags":[
 		"sre_ai"
 	],
-	"version":58
+	"version":59
 }
