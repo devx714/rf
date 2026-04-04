@@ -4,14 +4,14 @@
 	],
 	"createdTime":1738691629007,
 	"deleted":false,
-	"deployedVersion":105,
+	"deployedVersion":106,
 	"deploymentState":{
-		"deployedAt":1774342984820,
+		"deployedAt":1775320704554,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2534829fa153f07e09e2d",
+		"deployedDefinitionId":"69d13e80c6b0c9120df1762f",
 		"status":"DEPLOYED",
-		"version":105,
-		"workflowVersion":179
+		"version":106,
+		"workflowVersion":181
 	},
 	"edges":[
 		{
@@ -657,7 +657,7 @@
 	"id":"679c6521a6583456a7198e97",
 	"lastModifiedBy":-1,
 	"lcName":"referfromknowledge tool",
-	"modifiedTime":1775320704171,
+	"modifiedTime":1775334517432,
 	"name":"ReferFromKnowledge Tool",
 	"nodes":[
 		{
@@ -4592,5 +4592,5 @@
 		}
 	},
 	"standard":true,
-	"version":181
+	"version":183
 }
