@@ -11,12 +11,19 @@
 			"skip":false,
 			"toNodeId":"n_xcX1g",
 			"type":"next"
+		},
+		{
+			"fromNodeId":"n_xcX1g",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_SnCrg",
+			"type":"next"
 		}
 	],
 	"id":"69d17251a018835f7c4b834c",
 	"lastModifiedBy":92,
 	"lcName":"create custom component",
-	"modifiedTime":1775334428411,
+	"modifiedTime":1775334439145,
 	"name":"create custom component",
 	"nodes":[
 		{
@@ -138,6 +145,25 @@
 			"subTitle":"Storage by UnifyApps",
 			"title":"Update an existing record",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":3418,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_qlNCX-1",
+			"id":"n_SnCrg",
+			"index":3,
+			"inputs":{},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":92,
@@ -154,5 +180,5 @@
 		}
 	},
 	"standard":false,
-	"version":2
+	"version":3
 }
