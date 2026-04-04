@@ -461,43 +461,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"A",
-					"EXPORT_AS_TEMPLATE",
-					"C",
-					"S",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"DEP"
-				],
-				"principalIds":[
-					"311"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"A",
-					"EXPORT_AS_TEMPLATE",
-					"C",
-					"S",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"DEP"
-				],
-				"principalIds":[
-					"44109"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -507,7 +470,7 @@
 	"id":"66af3ff4cd79b321cb478a37",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer  with rbac",
-	"modifiedTime":1775320889498,
+	"modifiedTime":1775334415929,
 	"name":"Knowledge Indexer  With RBAC",
 	"nodes":[
 		{
@@ -920,7 +883,6 @@
 				"uniqueEntityId":"{{ xbGpP.outputs.uniqueEntityId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1361,7 +1323,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1523,7 +1484,6 @@
 				"text":"{{ lKMk7.outputs.item.data }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2546,7 +2506,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2843,7 +2802,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -3674,5 +3632,5 @@
 		"AI Agent",
 		"RBAC"
 	],
-	"version":195
+	"version":196
 }
