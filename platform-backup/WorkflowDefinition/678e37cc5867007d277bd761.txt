@@ -4,14 +4,14 @@
 	],
 	"createdTime":1740110519042,
 	"deleted":false,
-	"deployedVersion":114,
+	"deployedVersion":115,
 	"deploymentState":{
-		"deployedAt":1774342919534,
+		"deployedAt":1775320644855,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2530729fa153f07e09bd6",
+		"deployedDefinitionId":"69d13e4483aecf24ec254bdd",
 		"status":"DEPLOYED",
-		"version":114,
-		"workflowVersion":178
+		"version":115,
+		"workflowVersion":180
 	},
 	"edges":[
 		{
@@ -78,7 +78,7 @@
 	"id":"678e37cc5867007d277bd761",
 	"lastModifiedBy":-1,
 	"lcName":"batch test generate report",
-	"modifiedTime":1775320644790,
+	"modifiedTime":1775334420100,
 	"name":"Batch Test Generate Report",
 	"nodes":[
 		{
@@ -389,5 +389,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":180
+	"version":182
 }
