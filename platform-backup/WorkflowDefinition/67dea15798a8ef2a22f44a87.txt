@@ -4,14 +4,14 @@
 	],
 	"createdTime":1742991517041,
 	"deleted":false,
-	"deployedVersion":132,
+	"deployedVersion":133,
 	"deploymentState":{
-		"deployedAt":1775320663304,
+		"deployedAt":1775334457676,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e57c6b0c9120df174c3",
+		"deployedDefinitionId":"69d1743939824e0613819c3d",
 		"status":"DEPLOYED",
-		"version":132,
-		"workflowVersion":257
+		"version":133,
+		"workflowVersion":259
 	},
 	"edges":[
 		{
@@ -242,6 +242,17 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
+					"V"
+				],
+				"principalIds":[
+					"43523"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -251,7 +262,7 @@
 	"id":"67dea15798a8ef2a22f44a87",
 	"lastModifiedBy":-1,
 	"lcName":"eval | dataset | generate from sessions",
-	"modifiedTime":1775334457591,
+	"modifiedTime":1775334706132,
 	"name":"Eval | Dataset | Generate from sessions",
 	"nodes":[
 		{
@@ -700,6 +711,7 @@
 				"limit":"=MIN(INT(({{ 4z8va.outputs.samplingRate }}/100)* {{ n_dRGOY.outputs.count }}), 100)"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1182,6 +1194,7 @@
 				"userId":"{{ hsp6A.outputs.result.userId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1271,6 +1284,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1522,5 +1536,5 @@
 	"tags":[
 		
 	],
-	"version":259
+	"version":260
 }
