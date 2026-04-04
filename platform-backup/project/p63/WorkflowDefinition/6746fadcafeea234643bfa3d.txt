@@ -220,7 +220,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -230,7 +229,7 @@
 	"id":"6746fadcafeea234643bfa3d",
 	"lastModifiedBy":-1,
 	"lcName":"text to workflow input filling each node [do not touch] ",
-	"modifiedTime":1775320887531,
+	"modifiedTime":1775334383822,
 	"name":"Text to Workflow INPUT Filling Each Node [DO NOT TOUCH] ",
 	"nodes":[
 		{
@@ -386,7 +385,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1425,5 +1423,5 @@
 		}
 	},
 	"standard":true,
-	"version":175
+	"version":176
 }
