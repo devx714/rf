@@ -189,7 +189,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -199,7 +198,7 @@
 	"id":"694938cddf5fae2240578b7b",
 	"lastModifiedBy":-1,
 	"lcName":"simple call llm council",
-	"modifiedTime":1774622955477,
+	"modifiedTime":1775320623195,
 	"name":"Simple Call LLM Council",
 	"nodes":[
 		{
@@ -560,7 +559,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -803,7 +801,6 @@
 				"aggregatorLlmModelId":"{{ VurtA.outputs.aggregatorLlmModelId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1218,7 +1215,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1461,5 +1457,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":31
+	"version":32
 }
