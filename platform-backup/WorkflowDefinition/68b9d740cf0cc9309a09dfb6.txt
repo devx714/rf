@@ -40,7 +40,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -50,7 +49,7 @@
 	"id":"68b9d740cf0cc9309a09dfb6",
 	"lastModifiedBy":-1,
 	"lcName":"fetch case citations",
-	"modifiedTime":1775320886887,
+	"modifiedTime":1775334516173,
 	"name":"Fetch Case Citations",
 	"nodes":[
 		{
@@ -283,5 +282,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":64
+	"version":65
 }
