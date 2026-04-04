@@ -300,7 +300,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -310,7 +309,7 @@
 	"id":"687f8df47aa28afd1fcefdde",
 	"lastModifiedBy":-1,
 	"lcName":"[debug agent] test file knowledge indexing",
-	"modifiedTime":1775320890400,
+	"modifiedTime":1775334457330,
 	"name":"[Debug Agent] Test File Knowledge Indexing",
 	"nodes":[
 		{
@@ -417,7 +416,6 @@
 				"filePublicUrl":"https://drive.google.com/uc?id=1UBZdxiVoErstaiMulKcFyVziOBYR26nK&export=download"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1678,5 +1676,5 @@
 	"tags":[
 		
 	],
-	"version":107
+	"version":108
 }
