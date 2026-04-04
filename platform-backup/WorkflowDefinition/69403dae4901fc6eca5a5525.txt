@@ -4,14 +4,14 @@
 	],
 	"createdTime":1766522729925,
 	"deleted":false,
-	"deployedVersion":21,
+	"deployedVersion":22,
 	"deploymentState":{
-		"deployedAt":1774342928502,
+		"deployedAt":1775320652326,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2531029fa153f07e09c3c",
+		"deployedDefinitionId":"69d13e4cc6b0c9120df1747e",
 		"status":"DEPLOYED",
-		"version":21,
-		"workflowVersion":44
+		"version":22,
+		"workflowVersion":46
 	},
 	"edges":[
 		{
@@ -92,6 +92,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -101,7 +102,7 @@
 	"id":"69403dae4901fc6eca5a5525",
 	"lastModifiedBy":-1,
 	"lcName":"resync missed knowledges",
-	"modifiedTime":1775320652218,
+	"modifiedTime":1775320892024,
 	"name":"Resync Missed Knowledges",
 	"nodes":[
 		{
@@ -502,5 +503,5 @@
 	"tags":[
 		
 	],
-	"version":46
+	"version":47
 }
