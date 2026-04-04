@@ -4,14 +4,14 @@
 	],
 	"createdTime":1753793470386,
 	"deleted":false,
-	"deployedVersion":355,
+	"deployedVersion":356,
 	"deploymentState":{
-		"deployedAt":1775214029893,
+		"deployedAt":1775276443155,
 		"deployedBy":175325,
-		"deployedDefinitionId":"69cf9dcdda0a2e49075a58b7",
+		"deployedDefinitionId":"69d0919b77559c7773cb4d17",
 		"status":"DEPLOYED",
-		"version":355,
-		"workflowVersion":359
+		"version":356,
+		"workflowVersion":360
 	},
 	"edges":[
 		{
@@ -25,7 +25,7 @@
 	"id":"6888c3828ca03fb2e46d31e4",
 	"lastModifiedBy":175325,
 	"lcName":"cs_webhook_combined_api_dnd",
-	"modifiedTime":1775276443043,
+	"modifiedTime":1775276443157,
 	"name":"CS_WEBHOOK_COMBINED_API_DND",
 	"nodes":[
 		{
@@ -131,6 +131,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
