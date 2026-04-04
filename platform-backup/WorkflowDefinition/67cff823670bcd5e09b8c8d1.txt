@@ -92,7 +92,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -102,7 +101,7 @@
 	"id":"67cff823670bcd5e09b8c8d1",
 	"lastModifiedBy":-1,
 	"lcName":"[mcp server] list prompts",
-	"modifiedTime":1775320891806,
+	"modifiedTime":1775334456380,
 	"name":"[MCP Server] List Prompts",
 	"nodes":[
 		{
@@ -515,7 +514,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -820,5 +818,5 @@
 	"tags":[
 		"MCP Server"
 	],
-	"version":125
+	"version":126
 }
