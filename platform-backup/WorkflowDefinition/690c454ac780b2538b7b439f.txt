@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762858253708,
 	"deleted":false,
-	"deployedVersion":27,
+	"deployedVersion":28,
 	"deploymentState":{
-		"deployedAt":1774342962829,
+		"deployedAt":1775320683574,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2533229fa153f07e09d8b",
+		"deployedDefinitionId":"69d13e6b83aecf24ec254f2e",
 		"status":"DEPLOYED",
-		"version":27,
-		"workflowVersion":56
+		"version":28,
+		"workflowVersion":58
 	},
 	"edges":[
 		{
@@ -84,6 +84,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -93,7 +94,7 @@
 	"id":"690c454ac780b2538b7b439f",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] create agent ",
-	"modifiedTime":1775320683519,
+	"modifiedTime":1775320888610,
 	"name":"[DT] Create Agent ",
 	"nodes":[
 		{
@@ -213,6 +214,7 @@
 				"name":"Untitled Agent"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1075,5 +1077,5 @@
 	"tags":[
 		
 	],
-	"version":58
+	"version":59
 }
