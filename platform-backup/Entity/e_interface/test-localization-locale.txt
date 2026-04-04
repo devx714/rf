@@ -24,7 +24,7 @@
 	},
 	"id":"test-localization-locale",
 	"lastModifiedBy":196883,
-	"modifiedTime":1775287541982,
+	"modifiedTime":1775289743143,
 	"ownerUserId":196883,
 	"properties":{
 		"standard":false,
@@ -40,7 +40,7 @@
 			"_counter":{
 				"_moduleCount":0,
 				"_mqttTopicCounter":0,
-				"_pageCount":2
+				"_pageCount":3
 			}
 		},
 		"navigation":{
@@ -48,7 +48,12 @@
 			"defaultPageId":"e_69d0b99b422244650d256b83",
 			"appearance":{
 				"SM":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"nav_NZ3jj",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"none"
@@ -81,7 +86,12 @@
 					"secondary":[]
 				},
 				"LG":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"nav_NZ3jj",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"none"
@@ -120,7 +130,12 @@
 					"secondary":[]
 				},
 				"XL":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"nav_NZ3jj",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"expandable"
@@ -159,7 +174,12 @@
 					"secondary":[]
 				},
 				"MD":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"nav_NZ3jj",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"none"
@@ -198,13 +218,27 @@
 					"secondary":[]
 				}
 			},
-			"primary":[]
+			"primary":[
+				{
+					"activeIcon":"Zap",
+					"name":"Page 3",
+					"icon":"Zap",
+					"id":"nav_NZ3jj",
+					"type":"PAGE",
+					"pageId":"e_69d0c39732c2ff350266d7e8",
+					"slug":"page-3"
+				}
+			]
 		},
 		"interfacePageIdVsSlugMap":{
+			"e_69d0c39732c2ff350266d7e8":"page-3",
 			"e_69d0b99b422244650d256b83":"homepage",
 			"e_69d0bcf232c2ff350266d5e8":"page-2",
 			"e_global_test-localization-locale":"global-page-of-test-localization-locale"
 		},
+		"publicPageIds":[
+			"e_69d0c39732c2ff350266d7e8"
+		],
 		"manifest":{
 			"type":"WEB"
 		},
@@ -216,10 +250,16 @@
 		"locale":{
 			"defaultLocale":"en-US",
 			"supportedLocales":[
-				"fr-FR"
+				"fr-FR",
+				"nl-NL"
 			]
 		},
 		"entityDetailsMap":{
+			"e_69d0c39732c2ff350266d7e8":{
+				"slug":"page-3",
+				"isPublic":true,
+				"type":"PAGE"
+			},
 			"e_69d0b99b422244650d256b83":{
 				"slug":"homepage",
 				"isPublic":false,
@@ -241,5 +281,5 @@
 	"tags":[
 		
 	],
-	"version":4
+	"version":12
 }
