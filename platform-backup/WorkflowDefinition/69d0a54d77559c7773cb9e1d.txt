@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775281485316,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775282792883,
+		"deployedBy":43523,
+		"deployedDefinitionId":"69d0aa6877559c7773cbaff5",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":7
+	},
 	"edges":[
 		{
 			"fromNodeId":"n_skKhA",
@@ -30,7 +39,7 @@
 	"id":"69d0a54d77559c7773cb9e1d",
 	"lastModifiedBy":43523,
 	"lcName":"vertex test",
-	"modifiedTime":1775282790963,
+	"modifiedTime":1775282814567,
 	"name":"Vertex test",
 	"nodes":[
 		{
@@ -309,7 +318,7 @@
 					}
 				},
 				"endpoint":"publishers/anthropic/models/claude-sonnet-4-6:rawPredict",
-				"httpVersion":"HTTP_2",
+				"httpVersion":"HTTP_1_1",
 				"record":{
 					"anthropic_version":"{{ n_5sS0v.outputs.result.anthropic_version }}",
 					"max_tokens":"{{ n_5sS0v.outputs.result.max_tokens }}",
@@ -371,5 +380,5 @@
 		}
 	},
 	"standard":false,
-	"version":7
+	"version":8
 }
