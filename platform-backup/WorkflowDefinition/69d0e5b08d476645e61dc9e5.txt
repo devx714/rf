@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775297968509,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775297968675,
+		"deployedBy":30180,
+		"deployedDefinitionId":"69d0e5b029ac75386e0015f1",
+		"status":"PAUSED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"edges":[
 		{
 			"fromNodeId":"llJgd",
@@ -30,7 +39,7 @@
 	"id":"69d0e5b08d476645e61dc9e5",
 	"lastModifiedBy":30180,
 	"lcName":"sched",
-	"modifiedTime":1775297968573,
+	"modifiedTime":1775297968714,
 	"name":"sched",
 	"nodes":[
 		{
