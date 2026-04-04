@@ -4,6 +4,7 @@
 	"description":"nzCalNOZYm",
 	"id":"69d0967377559c7773cb609d",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1775277683085,
 	"name":"changeSetQA2AIBrUmAoAkpQ",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
