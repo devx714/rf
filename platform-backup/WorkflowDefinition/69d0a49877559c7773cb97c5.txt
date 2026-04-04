@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775281304021,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775281332346,
+		"deployedBy":195299,
+		"deployedDefinitionId":"69d0a4b477559c7773cb981b",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":2
+	},
 	"edges":[
 		{
 			"fromNodeId":"n_vhcID",
@@ -16,7 +25,7 @@
 	"id":"69d0a49877559c7773cb97c5",
 	"lastModifiedBy":195299,
 	"lcName":"fdygr",
-	"modifiedTime":1775281330389,
+	"modifiedTime":1775281332347,
 	"name":"fdygr",
 	"nodes":[
 		{
@@ -26,7 +35,7 @@
 				"resourceName":"callables_from_automation"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_ZZq5s-1",
 			"id":"n_vhcID",
@@ -75,7 +84,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_ZZq5s-1",
 			"id":"n_izOb8",
