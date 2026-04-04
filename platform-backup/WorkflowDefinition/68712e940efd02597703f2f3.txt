@@ -333,7 +333,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -343,7 +342,7 @@
 	"id":"68712e940efd02597703f2f3",
 	"lastModifiedBy":-1,
 	"lcName":"data rag - fetch metadata for user query",
-	"modifiedTime":1774622955328,
+	"modifiedTime":1775320687129,
 	"name":"DATA RAG - Fetch Metadata for User Query",
 	"nodes":[
 		{
@@ -833,7 +832,6 @@
 				"startTime":"=INT((NOW() - DATE(1970,1,1)) * 86400000)"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1198,7 +1196,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1803,7 +1800,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1974,7 +1970,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2503,5 +2498,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":114
+	"version":115
 }
