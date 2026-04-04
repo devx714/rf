@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1768120726023,
+	"deleted":true,
+	"edges":[
+		{
+			"fromNodeId":"_cyEZA",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_fWOdO",
+			"type":"next"
+		}
+	],
+	"id":"69636196afccf43b2aa7902e",
+	"lastModifiedBy":48069,
+	"lcName":"ocr - swiggy passport creation",
+	"modifiedTime":1768121243440,
+	"name":"OCR - Swiggy Passport Creation",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cyEZA-1",
+			"id":"_cyEZA",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cyEZA-1",
+			"id":"_fWOdO",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":48069,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
