@@ -1,0 +1,60 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1775297981328,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_GOyRv",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_NSSgB",
+			"type":"next"
+		}
+	],
+	"id":"69d0e5bd29ac75386e00161f",
+	"lastModifiedBy":33453,
+	"lcName":"hytgfr",
+	"modifiedTime":1775297981328,
+	"name":"hytgfr",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GOyRv-1",
+			"id":"_GOyRv",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GOyRv-1",
+			"id":"_NSSgB",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":33453,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"version":0
+}
