@@ -105,7 +105,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -115,7 +114,7 @@
 	"id":"68cd01651e1ade6fb84d4a0b",
 	"lastModifiedBy":-1,
 	"lcName":"remove expired knowledge chunks",
-	"modifiedTime":1774622956693,
+	"modifiedTime":1775320628154,
 	"name":"Remove Expired Knowledge Chunks",
 	"nodes":[
 		{
@@ -182,7 +181,6 @@
 				"hasMore":true
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -539,5 +537,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":108
+	"version":109
 }
