@@ -1,51 +1,73 @@
 {
 	"appsUsed":[
-		
+		"microsoft_sharepoint"
 	],
 	"createdTime":1775303764644,
 	"deleted":false,
 	"edges":[
 		{
-			"fromNodeId":"_0EjeK",
+			"fromNodeId":"n_6bI9c",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_jKP82",
+			"toNodeId":"n_RByrR",
 			"type":"next"
 		}
 	],
 	"id":"69d0fc54676fd579eb0aa9a9",
 	"lastModifiedBy":2627,
 	"lcName":"test",
-	"modifiedTime":1775303764644,
+	"modifiedTime":1775303814322,
 	"name":"test",
 	"nodes":[
 		{
+			"context":{
+				"appName":"microsoft_sharepoint",
+				"resourceVersion":3,
+				"connectionId":"69bbdeba32f7535be5f044cd",
+				"resourceName":"microsoft_sharepoint_on_new_or_update_file_recursive"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_0EjeK-1",
-			"id":"_0EjeK",
-			"index":0,
+			"id":"n_6bI9c",
+			"index":1,
+			"inputs":{
+				"site_name":"sites/site123",
+				"listId":"baf1d54e-5368-4f1f-a755-dd4a4b29f66f",
+				"interval":2,
+				"from":"2026-04-03T11:56:00Z",
+				"batchSize":5,
+				"siteType":"sites"
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Microsoft SharePoint",
+			"title":"New or Updated file recursive",
 			"trigger":{
 				"type":"EVENT"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"stop"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_0EjeK-1",
-			"id":"_jKP82",
-			"index":0,
+			"id":"n_RByrR",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
+			"subTitle":"Stop",
+			"title":"Stop",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":2627,
+	"schemaReferences":[
+		
+	],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -56,5 +78,5 @@
 		}
 	},
 	"standard":false,
-	"version":0
+	"version":1
 }
