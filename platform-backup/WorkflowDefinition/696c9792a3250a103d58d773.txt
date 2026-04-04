@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769253317020,
 	"deleted":false,
-	"deployedVersion":17,
+	"deployedVersion":18,
 	"deploymentState":{
-		"deployedAt":1774342930776,
+		"deployedAt":1775320654025,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2531229fa153f07e09c4f",
+		"deployedDefinitionId":"69d13e4e83aecf24ec254c9a",
 		"status":"DEPLOYED",
-		"version":17,
-		"workflowVersion":39
+		"version":18,
+		"workflowVersion":41
 	},
 	"edges":[
 		{
@@ -129,7 +129,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -139,7 +138,7 @@
 	"id":"696c9792a3250a103d58d773",
 	"lastModifiedBy":-1,
 	"lcName":"remove knowledge cursor resources",
-	"modifiedTime":1774622957021,
+	"modifiedTime":1775334448826,
 	"name":"Remove Knowledge Cursor Resources",
 	"nodes":[
 		{
@@ -283,7 +282,6 @@
 				"hasMore":true
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -542,7 +540,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -883,5 +880,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":40
+	"version":43
 }
