@@ -92,7 +92,7 @@
 				"resourceName":"callables_from_automation"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_IvAuF-1",
 			"id":"n_9W4tW",
@@ -163,7 +163,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_IvAuF-1",
 			"id":"n_pp0f5",
@@ -188,6 +188,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -214,7 +215,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_IvAuF-1",
 			"id":"n_bVpeE",
@@ -274,7 +275,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"n_bVpeE@_IvAuF-1@1",
 			"id":"n_bVpeE@1",
@@ -306,7 +307,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"n_bVpeE@_IvAuF-1@1",
 			"id":"n_PsLYs",
@@ -357,7 +358,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"n_bVpeE@_IvAuF-1@1",
 			"id":"n_LGDTu",
@@ -380,7 +381,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"n_bVpeE@_IvAuF-1@2",
 			"id":"n_bVpeE@2",
@@ -411,7 +412,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"n_bVpeE@_IvAuF-1@2",
 			"id":"n_phKMO",
@@ -432,7 +433,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_IvAuF-1",
 			"id":"n_K9PWV",
