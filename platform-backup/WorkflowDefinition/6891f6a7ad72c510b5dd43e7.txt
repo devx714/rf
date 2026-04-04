@@ -4,14 +4,14 @@
 	],
 	"createdTime":1760296284297,
 	"deleted":false,
-	"deployedVersion":32,
+	"deployedVersion":34,
 	"deploymentState":{
-		"deployedAt":1774342953607,
+		"deployedAt":1775334468291,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c253298d65fb68e1563c12",
+		"deployedDefinitionId":"69d1744439824e0613819d2a",
 		"status":"DEPLOYED",
-		"version":32,
-		"workflowVersion":70
+		"version":34,
+		"workflowVersion":74
 	},
 	"edges":[
 		{
@@ -369,6 +369,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -378,7 +379,7 @@
 	"id":"6891f6a7ad72c510b5dd43e7",
 	"lastModifiedBy":-1,
 	"lcName":"ocr document extraction | implementation",
-	"modifiedTime":1775320674870,
+	"modifiedTime":1775334707039,
 	"name":"OCR Document Extraction | Implementation",
 	"nodes":[
 		{
@@ -623,6 +624,7 @@
 				"prompt":"{{ n_XiKdC.outputs.prompt }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -901,6 +903,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2027,5 +2030,5 @@
 	"tags":[
 		
 	],
-	"version":72
+	"version":75
 }
