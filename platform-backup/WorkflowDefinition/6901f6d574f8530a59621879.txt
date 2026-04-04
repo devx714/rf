@@ -142,7 +142,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -152,7 +151,7 @@
 	"id":"6901f6d574f8530a59621879",
 	"lastModifiedBy":-1,
 	"lcName":"graphrag | relationship embedding fetcher ",
-	"modifiedTime":1775320891483,
+	"modifiedTime":1775334409221,
 	"name":"GraphRAG | Relationship Embedding Fetcher ",
 	"nodes":[
 		{
@@ -313,7 +312,6 @@
 				"embeddingsLength":"=LEN({{ hqkdg.outputs.embeddings }})"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -628,7 +626,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1393,5 +1390,5 @@
 	"tags":[
 		
 	],
-	"version":71
+	"version":72
 }
