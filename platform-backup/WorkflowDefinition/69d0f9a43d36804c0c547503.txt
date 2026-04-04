@@ -141,7 +141,7 @@
 	"id":"69d0f9a43d36804c0c547503",
 	"lastModifiedBy":45011,
 	"lcName":"[dnt] platform backup manager reporting",
-	"modifiedTime":1775305836203,
+	"modifiedTime":1775305855988,
 	"name":"[DNT] Platform Backup Manager Reporting",
 	"nodes":[
 		{
@@ -666,9 +666,9 @@
 				"captureStdOutput":false,
 				"parameters":{
 					"data":{
-						"source":"{{ n_i1MMa.outputs.objects }}",
+						"source":"{{ n_8pC84.outputs.objects }}",
 						"ua:type":"mappedArray",
-						"items":"{{ n_i1MMa.outputs.objects[0] }}"
+						"items":"{{ n_8pC84.outputs.objects[0] }}"
 					}
 				}
 			},
@@ -793,5 +793,5 @@
 		}
 	},
 	"standard":false,
-	"version":6
+	"version":7
 }
