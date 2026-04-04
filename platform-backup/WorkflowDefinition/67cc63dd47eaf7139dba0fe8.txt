@@ -4,14 +4,14 @@
 	],
 	"createdTime":1741550596171,
 	"deleted":false,
-	"deployedVersion":92,
+	"deployedVersion":94,
 	"deploymentState":{
-		"deployedAt":1774342853051,
+		"deployedAt":1775334342274,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252c58d65fb68e1563761",
+		"deployedDefinitionId":"69d173c639824e061381965e",
 		"status":"DEPLOYED",
-		"version":92,
-		"workflowVersion":152
+		"version":94,
+		"workflowVersion":156
 	},
 	"edges":[
 		{
@@ -54,6 +54,27 @@
 		"configs":[
 			{
 				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"44104"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -63,7 +84,7 @@
 	"id":"67cc63dd47eaf7139dba0fe8",
 	"lastModifiedBy":-1,
 	"lcName":"actionlookup tool",
-	"modifiedTime":1775320571586,
+	"modifiedTime":1775334706740,
 	"name":"ActionLookup Tool",
 	"nodes":[
 		{
@@ -407,5 +428,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":154
+	"version":157
 }
