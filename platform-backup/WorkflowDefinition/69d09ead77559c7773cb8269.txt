@@ -4,14 +4,14 @@
 	],
 	"createdTime":1775279789868,
 	"deleted":false,
-	"deployedVersion":1,
+	"deployedVersion":2,
 	"deploymentState":{
-		"deployedAt":1775279810468,
+		"deployedAt":1775280673303,
 		"deployedBy":39714,
-		"deployedDefinitionId":"69d09ec277559c7773cb8275",
+		"deployedDefinitionId":"69d0a22177559c7773cb8d04",
 		"status":"DEPLOYED",
-		"version":1,
-		"workflowVersion":1
+		"version":2,
+		"workflowVersion":2
 	},
 	"edges":[
 		{
@@ -25,7 +25,7 @@
 	"id":"69d09ead77559c7773cb8269",
 	"lastModifiedBy":39714,
 	"lcName":"test",
-	"modifiedTime":1775280671425,
+	"modifiedTime":1775280673304,
 	"name":"test",
 	"nodes":[
 		{
