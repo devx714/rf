@@ -4,14 +4,14 @@
 	],
 	"createdTime":1767798553915,
 	"deleted":false,
-	"deployedVersion":16,
+	"deployedVersion":18,
 	"deploymentState":{
-		"deployedAt":1774342899561,
+		"deployedAt":1775334405134,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252f329fa153f07e09a74",
+		"deployedDefinitionId":"69d1740539824e0613819994",
 		"status":"DEPLOYED",
-		"version":16,
-		"workflowVersion":32
+		"version":18,
+		"workflowVersion":36
 	},
 	"edges":[
 		{
@@ -63,6 +63,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -72,7 +73,7 @@
 	"id":"6944287935cabe6cb9959372",
 	"lastModifiedBy":-1,
 	"lcName":"attachment processor",
-	"modifiedTime":1775320628359,
+	"modifiedTime":1775334705726,
 	"name":"Attachment Processor",
 	"nodes":[
 		{
@@ -354,5 +355,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":34
+	"version":37
 }
