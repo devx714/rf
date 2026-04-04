@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1769280807190,
+	"deleted":true,
+	"edges":[
+		{
+			"fromNodeId":"_ZOP8g",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_A1UvK",
+			"type":"next"
+		}
+	],
+	"id":"697515273b43bc4aca211ce5",
+	"lastModifiedBy":175325,
+	"lcName":"loopsqacalmspaulj",
+	"modifiedTime":1770364564256,
+	"name":"loopsQAcalmsPauLj",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ZOP8g-1",
+			"id":"_ZOP8g",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ZOP8g-1",
+			"id":"_A1UvK",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":175325,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
