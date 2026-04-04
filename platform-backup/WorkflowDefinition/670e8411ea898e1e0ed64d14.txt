@@ -1,0 +1,224 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1770359728429,
+	"deleted":false,
+	"deployedVersion":2,
+	"deploymentState":{
+		"deployedAt":1770359816216,
+		"deployedBy":161930,
+		"deployedDefinitionId":"69858c08e65f293aad5b4830",
+		"status":"DEPLOYED",
+		"version":2,
+		"workflowVersion":62
+	},
+	"edges":[
+		{
+			"fromNodeId":"_Q2reD",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_2uPzZ",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_2uPzZ",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_ihtFU",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_ihtFU",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_NaoBg",
+			"type":"next"
+		}
+	],
+	"id":"670e8411ea898e1e0ed64d14",
+	"lastModifiedBy":161930,
+	"lcName":"create table ",
+	"modifiedTime":1770359816217,
+	"name":"Create Table ",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":3,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_dpaCC-1",
+			"id":"_Q2reD",
+			"index":0,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"Result":{
+							"type":"string",
+							"title":"Result"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				},
+				"setup":{
+					"type":"object",
+					"properties":{
+						"Table_Name":{
+							"type":"string",
+							"title":"Table Name"
+						},
+						"Table_Desc":{
+							"type":"string",
+							"title":"Table Desc"
+						},
+						"Migration_ID":{
+							"type":"string",
+							"title":"Migration ID"
+						},
+						"Selected_Salesforce_Object_Name":{
+							"type":"string",
+							"title":"Selected Salesforce Object Name"
+						},
+						"Selected_Salesforce_Object_ID":{
+							"type":"string",
+							"title":"Selected Salesforce Object ID"
+						},
+						"Migration_Name":{
+							"type":"string",
+							"title":"Migration Name"
+						}
+					},
+					"additionalProperties":false,
+					"required":[]
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger from automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":320,
+				"resourceName":"storage_by_unifyapps_fetch_records",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_dpaCC-1",
+			"id":"_2uPzZ",
+			"index":0,
+			"inputs":{
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"properties_Migration_ID",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"{{ _Q2reD.outputs.Migration_ID }}"
+							}
+						}
+					],
+					"operator":"AND"
+				},
+				"object_type":"new_table_schema",
+				"page":{
+					"limit":200,
+					"offset":0
+				},
+				"numberOfRecordsToFetch":"MULTIPLE",
+				"includeTotalCount":false
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Fetch records",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":4,
+				"resourceName":"storage_by_unifyapps_bulk_create_records",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_dpaCC-1",
+			"id":"_ihtFU",
+			"index":0,
+			"inputs":{
+				"object_type":"created_table_details_and_schema",
+				"records":{
+					"source":"{{ _2uPzZ.outputs.objects }}",
+					"ua:type":"mappedArray",
+					"items":{
+						"Migration_ID":"{{ _Q2reD.outputs.Migration_ID }}",
+						"Logik_Field_ID":"{{ _2uPzZ.outputs.objects[0].properties.Logik_Field_ID }}",
+						"Logik_Field_Name":"{{ _2uPzZ.outputs.objects[0].properties.Logik_Field_Name }}",
+						"Logik_Field_Type":"{{ _2uPzZ.outputs.objects[0].properties.Logik_Field_Type }}",
+						"Logik_Field_Desc":"{{ _2uPzZ.outputs.objects[0].properties.Logik_Field_Desc }}",
+						"Table_Name":"{{ _Q2reD.outputs.Table_Name }}",
+						"Table_Desc":"{{ _Q2reD.outputs.Table_Desc }}",
+						"Selected_Salesforce_Object_Name":"{{ _Q2reD.outputs.Selected_Salesforce_Object_Name }}",
+						"Selected_Salesforce_Object_ID":"{{ _Q2reD.outputs.Selected_Salesforce_Object_ID }}",
+						"Migration_Name":"{{ _Q2reD.outputs.Migration_Name }}"
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Create or update records in bulk",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":4,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_dpaCC-1",
+			"id":"_NaoBg",
+			"index":0,
+			"inputs":{
+				"result":{
+					"Result":"200"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":161930,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":62
+}
