@@ -6,46 +6,337 @@
 	"deleted":false,
 	"edges":[
 		{
-			"fromNodeId":"_IvAuF",
+			"fromNodeId":"n_9W4tW",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_0bgHn",
+			"toNodeId":"n_bVpeE",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_bVpeE",
+			"name":"1",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_bVpeE@1",
+			"type":"branch"
+		},
+		{
+			"fromNodeId":"n_bVpeE@1",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_PsLYs",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_PsLYs",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_LGDTu",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_bVpeE",
+			"name":"2",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_bVpeE@2",
+			"type":"branch"
+		},
+		{
+			"fromNodeId":"n_bVpeE@2",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_R5VzE",
 			"type":"next"
 		}
 	],
 	"id":"69d0f9a43d36804c0c547503",
 	"lastModifiedBy":45011,
 	"lcName":"[dnt] platform backup manager reporting",
-	"modifiedTime":1775303076821,
+	"modifiedTime":1775304028708,
 	"name":"[DNT] Platform Backup Manager Reporting",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":3298,
+				"resourceName":"callables_from_automation"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_IvAuF-1",
-			"id":"_IvAuF",
-			"index":0,
+			"id":"n_9W4tW",
+			"index":1,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[],
+					"properties":{
+						"result":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
+							"title":"Result"
+						}
+					}
+				},
+				"setup":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[],
+					"properties":{
+						"configId":{
+							"type":"string",
+							"title":"Config Id"
+						},
+						"assetClass":{
+							"type":"string",
+							"title":"Asset Class"
+						},
+						"assetId":{
+							"type":"string",
+							"title":"Asset Id"
+						},
+						"status":{
+							"type":"string",
+							"title":"Status"
+						},
+						"executionId":{
+							"type":"string",
+							"title":"Execution Id"
+						},
+						"executionType":{
+							"type":"string",
+							"title":"Execution Type"
+						},
+						"queryType":{
+							"type":"string",
+							"title":"Query Type"
+						}
+					}
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"branch",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_IvAuF-1",
-			"id":"_0bgHn",
-			"index":0,
+			"id":"n_bVpeE",
+			"index":2,
+			"inputs":{
+				"branches":[
+					{
+						"id":"1",
+						"inputs":{
+							"name":"Branch 1",
+							"conditions":{
+								"filters":[
+									{
+										"property":"{{ n_9W4tW.outputs.queryType }}",
+										"filter":{
+											"operator":"EQUAL",
+											"value":"fetchDrawer"
+										}
+									}
+								],
+								"operator":"AND"
+							}
+						}
+					},
+					{
+						"id":"2",
+						"inputs":{
+							"name":"Branch 2",
+							"conditions":{
+								"filters":[
+									{
+										"property":"{{ n_9W4tW.outputs.queryType }}",
+										"filter":{
+											"operator":"EQUAL"
+										}
+									}
+								],
+								"operator":"AND"
+							}
+						}
+					},
+					{
+						"id":"default"
+					}
+				]
+			},
+			"skip":false,
+			"subTitle":"Branch",
+			"title":"",
+			"type":"BRANCH"
+		},
+		{
+			"context":{
+				"appName":"branch_condition",
+				"resourceVersion":0,
+				"resourceName":"branch_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_bVpeE@_IvAuF-1@1",
+			"id":"n_bVpeE@1",
+			"index":3,
+			"inputs":{
+				"name":"Branch 1",
+				"conditions":{
+					"filters":[
+						{
+							"property":"{{ n_9W4tW.outputs.queryType }}",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"fetchDrawer"
+							}
+						}
+					],
+					"operator":"AND"
+				}
+			},
+			"skip":false,
+			"title":"",
+			"type":"BRANCH_CONDITION"
+		},
+		{
+			"context":{
+				"appName":"analytics_by_unifyapps",
+				"resourceVersion":1568,
+				"resourceName":"analytics_by_unifyapps_execute_query",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_bVpeE@_IvAuF-1@1",
+			"id":"n_PsLYs",
+			"index":4,
+			"inputs":{
+				"query":"SELECT \n    executionType,\n    COUNT(DISTINCT assetId) AS totalSuccessfulAssets,\n    MAX(lastSyncTime) AS latestSyncTimeMs,\n    DATE_FORMAT(FROM_UNIXTIME(MAX(lastSyncTime) / 1000), '%e %M, %Y %H:%i:%s') AS latestSyncTimeFormatted\nFROM PLATFORM_BACKUP\nWHERE configId = :configId\n  AND status = 'SUCCESS'\n  AND lastSyncTime >= :fromTime \n  AND lastSyncTime <= :toTime\nGROUP BY executionType\nORDER BY latestSyncTimeMs DESC;",
+				"record":{
+					"configId":"69ccf6a9144e01072ec4cd55{{ n_9W4tW.outputs.configId }}",
+					"fromTime":1772546408000,
+					"toTime":1775224808000,
+					"status":"SUCCESS"
+				},
+				"params":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[],
+					"properties":{
+						"configId":{
+							"type":"string",
+							"title":"Config Id"
+						},
+						"fromTime":{
+							"type":"integer",
+							"title":"From Time"
+						},
+						"toTime":{
+							"type":"integer",
+							"title":"To Time"
+						},
+						"status":{
+							"type":"string",
+							"title":"Status"
+						}
+					}
+				},
+				"group":"PLATFORM"
+			},
+			"skip":false,
+			"subTitle":"Analytics by UnifyApps",
+			"title":"Execute Analytics SQL Query",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":1676,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_bVpeE@_IvAuF-1@1",
+			"id":"n_LGDTu",
+			"index":5,
+			"inputs":{
+				"code":"import java.time.Instant\nimport java.time.ZoneId\nimport java.time.format.DateTimeFormatter\n\ndef formatter = DateTimeFormatter.ofPattern(\"d MMMM, yyyy HH:mm:ss\")\n    .withZone(ZoneId.systemDefault())\n\ndef rawRows = data?.objects ?: []\n\ndef processedResult = rawRows.collect { item ->\n    def row = item.columns\n    long latestTs = row.latestSyncTime as Long\n    \n    return [\n        executionType: row.executionType,\n        totalAssets: row.totalAssets as Integer,\n        lastSync: [\n            timestampMs: latestTs,\n            formatted: formatter.format(Instant.ofEpochMilli(latestTs))\n        ]\n    ]\n}\n\nreturn processedResult",
+				"compile_static":false,
+				"captureStdOutput":false
+			},
+			"skip":false,
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"branch_condition",
+				"resourceVersion":0,
+				"resourceName":"branch_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_bVpeE@_IvAuF-1@2",
+			"id":"n_bVpeE@2",
+			"index":6,
+			"inputs":{
+				"name":"Branch 2",
+				"conditions":{
+					"filters":[
+						{
+							"property":"{{ n_9W4tW.outputs.queryType }}",
+							"filter":{
+								"operator":"EQUAL"
+							}
+						}
+					],
+					"operator":"AND"
+				}
+			},
+			"skip":false,
+			"title":"",
+			"type":"BRANCH_CONDITION"
+		},
+		{
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_bVpeE@_IvAuF-1@2",
+			"id":"n_R5VzE",
+			"index":7,
 			"skip":false,
 			"title":"Select an app and action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":45011,
+	"schemaReferences":[
+		
+	],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -56,5 +347,5 @@
 		}
 	},
 	"standard":false,
-	"version":0
+	"version":1
 }
