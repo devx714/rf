@@ -9,14 +9,14 @@
 			"fromNodeId":"n_lK9Th",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_uPMa7",
+			"toNodeId":"n_Sw03r",
 			"type":"next"
 		}
 	],
 	"id":"69d0998777559c7773cb6e6d",
 	"lastModifiedBy":195820,
 	"lcName":"test workspace",
-	"modifiedTime":1775278534733,
+	"modifiedTime":1775278544120,
 	"name":"test workspace",
 	"nodes":[
 		{
@@ -46,15 +46,19 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"stop"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_RrnQZ-1",
-			"id":"_uPMa7",
+			"id":"n_Sw03r",
 			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
+			"subTitle":"Stop",
+			"title":"Stop",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":195820,
@@ -71,5 +75,5 @@
 		}
 	},
 	"standard":false,
-	"version":1
+	"version":2
 }
