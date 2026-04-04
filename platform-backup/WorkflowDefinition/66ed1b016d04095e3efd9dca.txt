@@ -32,7 +32,7 @@
 	"id":"66ed1b016d04095e3efd9dca",
 	"lastModifiedBy":92,
 	"lcName":"dnt_callable_table",
-	"modifiedTime":1775287788742,
+	"modifiedTime":1775287831638,
 	"name":"dnt_callable_table",
 	"nodes":[
 		{
@@ -42,7 +42,7 @@
 				"resourceName":"callables_from_automation"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"cjZWp-1",
 			"id":"c0gAQ",
@@ -63,33 +63,14 @@
 									"properties":{
 										"type":"object",
 										"properties":{
-											"gender":{
-												"type":"string",
-												"title":"gender"
-											},
-											"last_name":{
-												"type":"string",
-												"title":"last_name"
-											},
 											"id":{
 												"type":"integer",
 												"title":"id"
-											},
-											"ip_address":{
-												"type":"string",
-												"title":"ip_address"
-											},
-											"first_name":{
-												"type":"string",
-												"title":"first_name"
-											},
-											"email":{
-												"type":"string",
-												"title":"email"
 											}
 										},
 										"title":"properties",
-										"additionalProperties":false
+										"additionalProperties":false,
+										"required":[]
 									}
 								},
 								"additionalProperties":false
@@ -206,7 +187,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"cjZWp-1",
 			"id":"Iqoeb",
@@ -215,18 +196,13 @@
 				"result":{
 					"total":"{{ VPPbt.outputs.total }}",
 					"objects":{
+						"ua:type":"mappedArray",
+						"source":"{{ VPPbt.outputs.objects }}",
 						"items":{
 							"properties":{
-								"gender":"{{ VPPbt.outputs.objects[0].properties.gender }}",
-								"last_name":"{{ VPPbt.outputs.objects[0].properties.last_name }}",
-								"id":"{{ VPPbt.outputs.objects[0].properties.id }}",
-								"ip_address":"{{ VPPbt.outputs.objects[0].properties.ip_address }}",
-								"first_name":"{{ VPPbt.outputs.objects[0].properties.first_name }}",
-								"email":"{{ VPPbt.outputs.objects[0].properties.email }}"
+								"id":"{{ VPPbt.outputs.objects[0].id }}"
 							}
-						},
-						"ua:type":"mappedArray",
-						"source":"{{ VPPbt.outputs.objects }}"
+						}
 					}
 				}
 			},
@@ -253,5 +229,5 @@
 	"tags":[
 		
 	],
-	"version":16
+	"version":17
 }
