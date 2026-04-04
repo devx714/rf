@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756991727632,
 	"deleted":false,
-	"deployedVersion":36,
+	"deployedVersion":38,
 	"deploymentState":{
-		"deployedAt":1774342954655,
+		"deployedAt":1775334469324,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2532a8d65fb68e1563c22",
+		"deployedDefinitionId":"69d1744439824e0613819d36",
 		"status":"DEPLOYED",
-		"version":36,
-		"workflowVersion":76
+		"version":38,
+		"workflowVersion":80
 	},
 	"edges":[
 		{
@@ -445,6 +445,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -454,7 +455,7 @@
 	"id":"68b0148974e2bb27bbdcee15",
 	"lastModifiedBy":-1,
 	"lcName":"convert action to tool (batch)",
-	"modifiedTime":1775320675519,
+	"modifiedTime":1775334706655,
 	"name":"Convert Action to Tool (Batch)",
 	"nodes":[
 		{
@@ -775,6 +776,7 @@
 				"dynamicSchema":false
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1134,6 +1136,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1430,6 +1433,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1735,6 +1739,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2020,6 +2025,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2666,6 +2672,7 @@
 				"runTimeConnectionEnabled":false
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -3298,6 +3305,7 @@
 				"agentId":"{{ KXL6n.outputs.properties.currentAIAgentId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -4333,5 +4341,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":78
+	"version":81
 }
