@@ -4,15 +4,14 @@
 	],
 	"createdTime":1722964450079,
 	"deleted":false,
-	"deployedVersion":144,
+	"deployedVersion":145,
 	"deploymentState":{
-		"deployedAt":1775123362707,
-		"deployedBy":196361,
-		"deployedDefinitionId":"69ce3ba299e7286c04be784c",
-		"deploymentTag":"added-isArchived",
+		"deployedAt":1775320677619,
+		"deployedBy":-1,
+		"deployedDefinitionId":"69d13e6583aecf24ec254e50",
 		"status":"DEPLOYED",
-		"version":144,
-		"workflowVersion":220
+		"version":145,
+		"workflowVersion":221
 	},
 	"edges":[
 		{
@@ -200,6 +199,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -209,7 +209,7 @@
 	"id":"66b259e2000d497ddf8550a9",
 	"lastModifiedBy":-1,
 	"lcName":"generic_co_pilot fetch case list ",
-	"modifiedTime":1775320677556,
+	"modifiedTime":1775320888616,
 	"name":"GENERIC_CO_PILOT Fetch Case List ",
 	"nodes":[
 		{
@@ -423,6 +423,7 @@
 				"aiAgentId":"{{ PutIn.outputs.aiAgentId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -688,6 +689,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -843,6 +845,7 @@
 				"userIdWithCoPilot":"{{ __RUN__.outputs.userId }}#{{ w0WGv.outputs.coPilotType }}#{{ w0WGv.outputs.aiAgentId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -892,6 +895,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1166,6 +1170,7 @@
 				"userIdWithCoPilot":"{{ __RUN__.outputs.userId }}#{{ w0WGv.outputs.coPilotType }}#{{ w0WGv.outputs.aiAgentId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1519,6 +1524,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1799,5 +1805,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":221
+	"version":222
 }
