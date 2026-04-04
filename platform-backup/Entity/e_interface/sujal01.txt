@@ -2,10 +2,10 @@
 	"createdTime":1771223453668,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1775276659049,
+		"deployedAt":1775278813910,
 		"deployedBy":195414,
-		"entityVersion":8,
-		"version":1
+		"entityVersion":11,
+		"version":2
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -30,7 +30,7 @@
 	},
 	"id":"sujal01",
 	"lastModifiedBy":195414,
-	"modifiedTime":1775276659052,
+	"modifiedTime":1775296753782,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -46,7 +46,7 @@
 			"_counter":{
 				"_moduleCount":0,
 				"_mqttTopicCounter":0,
-				"_pageCount":4
+				"_pageCount":3
 			}
 		},
 		"navigation":{
@@ -421,7 +421,6 @@
 			"e_69cff75a0dda3f000501a913":"page-2",
 			"e_global_sujal01":"global-page-of-sujal01",
 			"e_6992b9a039aef513fe77d9a9":"homepage",
-			"e_69d092570f39af2e5600f1ac":"page-4",
 			"e_69cff8420dda3f000501a94f":"page-3"
 		},
 		"manifest":{
@@ -451,9 +450,7 @@
 				"id":"f_MAflI",
 				"segment":"sujal",
 				"parentId":"f_root",
-				"children":[
-					"f_yADxa"
-				],
+				"children":[],
 				"path":"/sujal"
 			},
 			"f_bDtTp":{
@@ -482,15 +479,6 @@
 					"e_69cff8420dda3f000501a94f"
 				],
 				"path":"/new/new child/vinay/:slug"
-			},
-			"f_yADxa":{
-				"id":"f_yADxa",
-				"segment":"hello",
-				"parentId":"f_MAflI",
-				"children":[
-					"e_69d092570f39af2e5600f1ac"
-				],
-				"path":"/sujal/hello"
 			}
 		},
 		"name":"sujal",
@@ -509,8 +497,13 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
-			"e_69d092570f39af2e5600f1ac":{
-				"slug":"page-4",
+			"e_global_sujal01":{
+				"slug":"global-page-of-sujal01",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_6992b9a039aef513fe77d9a9":{
+				"slug":"homepage",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -525,5 +518,5 @@
 	"tags":[
 		
 	],
-	"version":8
+	"version":34
 }
