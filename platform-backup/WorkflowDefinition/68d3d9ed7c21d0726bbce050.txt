@@ -4,14 +4,14 @@
 	],
 	"createdTime":1759243537386,
 	"deleted":false,
-	"deployedVersion":30,
+	"deployedVersion":31,
 	"deploymentState":{
-		"deployedAt":1774342876223,
+		"deployedAt":1775320607760,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252dc29fa153f07e099ac",
+		"deployedDefinitionId":"69d13e1f83aecf24ec2547b1",
 		"status":"DEPLOYED",
-		"version":30,
-		"workflowVersion":79
+		"version":31,
+		"workflowVersion":81
 	},
 	"edges":[
 		{
@@ -225,6 +225,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -234,7 +235,7 @@
 	"id":"68d3d9ed7c21d0726bbce050",
 	"lastModifiedBy":-1,
 	"lcName":"deep research tool | websearch latest",
-	"modifiedTime":1775320607687,
+	"modifiedTime":1775320891009,
 	"name":"Deep Research Tool | WebSearch latest",
 	"nodes":[
 		{
@@ -739,6 +740,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1094,6 +1096,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1345,6 +1348,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1713,5 +1717,5 @@
 	"tags":[
 		
 	],
-	"version":81
+	"version":82
 }
