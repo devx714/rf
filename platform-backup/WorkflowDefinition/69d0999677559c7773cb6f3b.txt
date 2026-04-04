@@ -4,13 +4,22 @@
 	],
 	"createdTime":1775278486671,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775278506131,
+		"deployedBy":426,
+		"deployedDefinitionId":"69d099a877559c7773cb6f66",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":2
+	},
 	"edges":[
 		
 	],
 	"id":"69d0999677559c7773cb6f3b",
 	"lastModifiedBy":426,
 	"lcName":"abcd",
-	"modifiedTime":1775278501136,
+	"modifiedTime":1775278506132,
 	"name":"abcd",
 	"nodes":[
 		{
