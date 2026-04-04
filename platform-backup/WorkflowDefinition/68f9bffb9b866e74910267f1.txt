@@ -135,7 +135,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -145,7 +144,7 @@
 	"id":"68f9bffb9b866e74910267f1",
 	"lastModifiedBy":-1,
 	"lcName":"metering | users | average number of sessions/queries initiated per unique user",
-	"modifiedTime":1775320891919,
+	"modifiedTime":1775334460439,
 	"name":"Metering | Users | Average Number of Sessions/Queries initiated per Unique User",
 	"nodes":[
 		{
@@ -1300,5 +1299,5 @@
 	"tags":[
 		
 	],
-	"version":58
+	"version":59
 }
