@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775312500954,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775313114149,
+		"deployedBy":196883,
+		"deployedDefinitionId":"69d120dade80d477ad1d1f19",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":3
+	},
 	"edges":[
 		{
 			"fromNodeId":"n_h06ck",
@@ -23,7 +32,7 @@
 	"id":"69d11e74de80d477ad1d1bc8",
 	"lastModifiedBy":196883,
 	"lcName":"test-or",
-	"modifiedTime":1775313058219,
+	"modifiedTime":1775313137207,
 	"name":"test-or",
 	"nodes":[
 		{
@@ -211,72 +220,6 @@
 						"includePercentageChange":false
 					}
 				],
-				"filter":{
-					"filters":[
-						{
-							"filters":[
-								{
-									"property":"MemberId",
-									"filter":{
-										"operator":"EQUAL",
-										"value":"{{ n_h06ck.outputs.MemberIdDecrypted }}"
-									}
-								},
-								{
-									"property":"MemberId",
-									"filter":{
-										"operator":"EQUAL",
-										"value":"{{ n_h06ck.outputs.MemberIdEncrypted }}"
-									}
-								},
-								{
-									"property":"MemberIdEncrypted",
-									"filter":{
-										"operator":"EQUAL",
-										"value":"{{ n_h06ck.outputs.MemberIdEncrypted }}"
-									}
-								},
-								{
-									"property":"MobileNo",
-									"filter":{
-										"operator":"EQUAL",
-										"value":"{{ n_h06ck.outputs.mobilenoencrypted }}"
-									}
-								},
-								{
-									"property":"MobileNo",
-									"filter":{
-										"operator":"EQUAL",
-										"value":"{{ n_h06ck.outputs.mobilenodecrypted }}"
-									}
-								},
-								{
-									"property":"Mobile",
-									"filter":{
-										"operator":"EQUAL",
-										"value":"{{ n_h06ck.outputs.mobilenoencrypted }}"
-									}
-								},
-								{
-									"property":"Mobile",
-									"filter":{
-										"operator":"EQUAL",
-										"value":"{{ n_h06ck.outputs.mobilenodecrypted }}"
-									}
-								},
-								{
-									"property":"USER_ID",
-									"filter":{
-										"operator":"EQUAL",
-										"value":"{{ n_h06ck.outputs.StandardUsersId }}"
-									}
-								}
-							],
-							"operator":"OR"
-						}
-					],
-					"operator":"AND"
-				},
 				"entityType":"WORKFLOW_EXECUTION",
 				"includeTotalHits":true,
 				"page":{
@@ -331,5 +274,5 @@
 		}
 	},
 	"standard":false,
-	"version":3
+	"version":4
 }
