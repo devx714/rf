@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756411343401,
 	"deleted":false,
-	"deployedVersion":61,
+	"deployedVersion":62,
 	"deploymentState":{
-		"deployedAt":1774342921467,
+		"deployedAt":1775320646505,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2530929fa153f07e09be5",
+		"deployedDefinitionId":"69d13e4683aecf24ec254bfc",
 		"status":"DEPLOYED",
-		"version":61,
-		"workflowVersion":110
+		"version":62,
+		"workflowVersion":112
 	},
 	"edges":[
 		{
@@ -206,7 +206,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -216,7 +215,7 @@
 	"id":"68a31cf6f388a247b294a019",
 	"lastModifiedBy":-1,
 	"lcName":"eval | task | trigger ai agent text2sql",
-	"modifiedTime":1774622955464,
+	"modifiedTime":1775334441603,
 	"name":"Eval | Task | Trigger AI Agent Text2SQL",
 	"nodes":[
 		{
@@ -340,7 +339,6 @@
 				"aiAgentId":"e_691ed877164d7c50b57c1c27"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -521,7 +519,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1272,7 +1269,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1350,5 +1346,5 @@
 	"tags":[
 		
 	],
-	"version":111
+	"version":114
 }
