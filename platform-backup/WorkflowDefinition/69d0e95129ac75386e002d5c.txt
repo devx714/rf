@@ -17,7 +17,7 @@
 	"id":"69d0e95129ac75386e002d5c",
 	"lastModifiedBy":175325,
 	"lcName":"check_citcuitbreakerlist_217752988921850",
-	"modifiedTime":1775298897996,
+	"modifiedTime":1775298903546,
 	"name":"Check_CitcuitBreakerList_217752988921850",
 	"nodes":[
 		{
@@ -48,11 +48,12 @@
 	],
 	"ownerUserId":175325,
 	"settings":{
-		"enableNodeLevelLogging":true,
-		"enableRunLogging":true,
-		"enableVariableLogging":true,
+		"enableNodeLevelLogging":false,
+		"enableRunLogging":false,
+		"enableVariableLogging":false,
 		"route":{
 			"default":false,
+			"headerValueTierMap":{},
 			"tierName":"global"
 		}
 	},
@@ -60,5 +61,5 @@
 	"tags":[
 		"dnt_tag"
 	],
-	"version":0
+	"version":1
 }
