@@ -1,52 +1,81 @@
 {
 	"appsUsed":[
-		
+		"slack"
 	],
 	"createdTime":1775298377664,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_Ftvt1",
+			"fromNodeId":"n_Qbil4",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_n44sX",
+			"toNodeId":"n_a4Yjx",
 			"type":"next"
 		}
 	],
 	"id":"69d0e74929ac75386e002233",
 	"lastModifiedBy":175325,
 	"lcName":"check_logleveldropdown_217752983714090",
-	"modifiedTime":1775298382769,
+	"modifiedTime":1775298423108,
 	"name":"Check_logLevelDropdown_217752983714090",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":875,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Ftvt1-1",
-			"id":"_Ftvt1",
-			"index":0,
+			"id":"n_Qbil4",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"slack",
+				"resourceVersion":7347,
+				"connectionId":"69ccb549d39d3f1648937232",
+				"resourceName":"slack_post_message_in_channel",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Ftvt1-1",
-			"id":"_n44sX",
-			"index":0,
+			"id":"n_a4Yjx",
+			"index":2,
+			"inputs":{
+				"link_names":true,
+				"messageType":"text",
+				"channel":"C08LLJ5UR0U",
+				"text":"Check log level dropdown",
+				"mrkdwn":true
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Slack",
+			"title":"Post message",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":175325,
+	"schemaReferences":[
+		
+	],
 	"settings":{
 		"enableNodeLevelLogging":false,
 		"enableRunLogging":false,
@@ -61,5 +90,5 @@
 	"tags":[
 		"dnt_tag"
 	],
-	"version":1
+	"version":2
 }
