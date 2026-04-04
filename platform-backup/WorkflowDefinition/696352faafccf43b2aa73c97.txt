@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769422169004,
 	"deleted":false,
-	"deployedVersion":11,
+	"deployedVersion":12,
 	"deploymentState":{
-		"deployedAt":1774342940946,
+		"deployedAt":1775320662853,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2531c29fa153f07e09cb6",
+		"deployedDefinitionId":"69d13e5683aecf24ec254d15",
 		"status":"DEPLOYED",
-		"version":11,
-		"workflowVersion":41
+		"version":12,
+		"workflowVersion":43
 	},
 	"edges":[
 		{
@@ -33,6 +33,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -42,7 +43,7 @@
 	"id":"696352faafccf43b2aa73c97",
 	"lastModifiedBy":-1,
 	"lcName":"observability | sessions metadata",
-	"modifiedTime":1775320662803,
+	"modifiedTime":1775320890829,
 	"name":"Observability | Sessions Metadata",
 	"nodes":[
 		{
@@ -483,5 +484,5 @@
 	"tags":[
 		
 	],
-	"version":43
+	"version":44
 }
