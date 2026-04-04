@@ -46,7 +46,7 @@
 	"id":"692f024ba8cba562657f62d2",
 	"lastModifiedBy":195323,
 	"lcName":"getpublicfile",
-	"modifiedTime":1775297696821,
+	"modifiedTime":1775298405809,
 	"name":"getPublicFile",
 	"nodes":[
 		{
@@ -120,8 +120,8 @@
 		{
 			"context":{
 				"appName":"utility_by_unifyapps",
-				"resourceVersion":2851,
-				"resourceName":"utility_by_unifyapps_encode_file_to_base64",
+				"resourceVersion":3397,
+				"resourceName":"utility_by_unifyapps_upload_base_64_content",
 				"type":"APPLICATION"
 			},
 			"debug":false,
@@ -131,12 +131,11 @@
 			"id":"n_wOeeg",
 			"index":3,
 			"inputs":{
-				"fileDetails":"{{ n_WpduT.outputs.file }}",
-				"characterSet":"Binary(no.conv)"
+				"base64ContentFormat":"STANDARD"
 			},
 			"skip":false,
 			"subTitle":"Utility by UnifyApps",
-			"title":"Encode file content",
+			"title":"Upload Base64 Content",
 			"type":"ACTION"
 		},
 		{
@@ -156,7 +155,7 @@
 				"fileName":"{{ n_wOeeg.outputs.fileDetails.name }}",
 				"mimeType":"{{ n_wOeeg.outputs.fileDetails.fileType }}",
 				"url":"{{ n_wOeeg.outputs.fileDetails.name }}",
-				"option":"url"
+				"option":"base64Content"
 			},
 			"skip":false,
 			"subTitle":"Files by UnifyApps",
@@ -171,16 +170,12 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_v3na1-1",
 			"id":"n_pliuG",
 			"index":5,
-			"inputs":{
-				"result":{
-					"link":"{{ n_A1is1.outputs.file.link }}"
-				}
-			},
+			"inputs":{},
 			"skip":false,
 			"subTitle":"Callable",
 			"title":"Respond to automation",
@@ -204,5 +199,5 @@
 	"tags":[
 		
 	],
-	"version":12
+	"version":13
 }
