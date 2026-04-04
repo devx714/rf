@@ -41,19 +41,12 @@
 			"skip":false,
 			"toNodeId":"n_bVpeE@2",
 			"type":"branch"
-		},
-		{
-			"fromNodeId":"n_bVpeE@2",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_R5VzE",
-			"type":"next"
 		}
 	],
 	"id":"69d0f9a43d36804c0c547503",
 	"lastModifiedBy":45011,
 	"lcName":"[dnt] platform backup manager reporting",
-	"modifiedTime":1775304028708,
+	"modifiedTime":1775304036212,
 	"name":"[DNT] Platform Backup Manager Reporting",
 	"nodes":[
 		{
@@ -320,17 +313,6 @@
 			"skip":false,
 			"title":"",
 			"type":"BRANCH_CONDITION"
-		},
-		{
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"n_bVpeE@_IvAuF-1@2",
-			"id":"n_R5VzE",
-			"index":7,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":45011,
@@ -347,5 +329,5 @@
 		}
 	},
 	"standard":false,
-	"version":1
+	"version":2
 }
