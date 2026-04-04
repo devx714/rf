@@ -191,7 +191,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -201,7 +200,7 @@
 	"id":"6878d5575821f42782a179d3",
 	"lastModifiedBy":-1,
 	"lcName":"save tool usage details 2",
-	"modifiedTime":1775320888931,
+	"modifiedTime":1775334459667,
 	"name":"Save tool usage details 2",
 	"nodes":[
 		{
@@ -1073,5 +1072,5 @@
 	"tags":[
 		
 	],
-	"version":111
+	"version":112
 }
