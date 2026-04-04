@@ -384,17 +384,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
-					"V"
-				],
-				"principalIds":[
-					"87628"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -404,7 +393,7 @@
 	"id":"68199f8ba3904643303bfc35",
 	"lastModifiedBy":-1,
 	"lcName":"eval | experiment | run llm testcase",
-	"modifiedTime":1775320891944,
+	"modifiedTime":1775334453205,
 	"name":"Eval | Experiment | Run LLM Testcase",
 	"nodes":[
 		{
@@ -631,7 +620,6 @@
 				"success":0
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -912,7 +900,6 @@
 				"testCaseStartTime":"=(NOW() - DATE(1970,1,1)) * 86400"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1218,7 +1205,6 @@
 				"inputText":"{{ trK3s.outputs.item.properties.input }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2616,5 +2602,5 @@
 	"tags":[
 		
 	],
-	"version":208
+	"version":209
 }
