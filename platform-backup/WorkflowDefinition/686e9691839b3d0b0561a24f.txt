@@ -42,7 +42,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -52,7 +51,7 @@
 	"id":"686e9691839b3d0b0561a24f",
 	"lastModifiedBy":-1,
 	"lcName":"ai agent settings on update handler",
-	"modifiedTime":1775320892026,
+	"modifiedTime":1775334457502,
 	"name":"AI Agent Settings on Update Handler",
 	"nodes":[
 		{
@@ -210,5 +209,5 @@
 		}
 	},
 	"standard":true,
-	"version":107
+	"version":108
 }
