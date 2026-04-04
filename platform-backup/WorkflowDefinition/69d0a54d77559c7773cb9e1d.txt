@@ -4,14 +4,14 @@
 	],
 	"createdTime":1775281485316,
 	"deleted":false,
-	"deployedVersion":4,
+	"deployedVersion":5,
 	"deploymentState":{
-		"deployedAt":1775283682789,
+		"deployedAt":1775287392124,
 		"deployedBy":43523,
-		"deployedDefinitionId":"69d0ade277559c7773cbc16e",
+		"deployedDefinitionId":"69d0bc5f53f0660c7b502cad",
 		"status":"DEPLOYED",
-		"version":4,
-		"workflowVersion":16
+		"version":5,
+		"workflowVersion":21
 	},
 	"edges":[
 		{
@@ -91,7 +91,7 @@
 	"id":"69d0a54d77559c7773cb9e1d",
 	"lastModifiedBy":43523,
 	"lcName":"vertex test",
-	"modifiedTime":1775287385200,
+	"modifiedTime":1775287583422,
 	"name":"Vertex test",
 	"nodes":[
 		{
@@ -162,7 +162,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_4F6On@_zjDR6-1@1",
 			"id":"n_4F6On@1",
@@ -170,7 +170,7 @@
 			"inputs":{
 				"name":"Big payload"
 			},
-			"skip":false,
+			"skip":true,
 			"title":"",
 			"type":"BRANCH_CONDITION"
 		},
@@ -465,7 +465,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_4F6On@_zjDR6-1@2",
 			"id":"n_4F6On@2",
@@ -473,7 +473,7 @@
 			"inputs":{
 				"name":"Small payload"
 			},
-			"skip":true,
+			"skip":false,
 			"title":"",
 			"type":"BRANCH_CONDITION"
 		},
@@ -585,7 +585,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_4F6On@_zjDR6-1@2",
 			"id":"n_Tb2KW",
@@ -728,7 +728,7 @@
 					}
 				},
 				"endpoint":"publishers/anthropic/models/claude-sonnet-4-6:rawPredict",
-				"httpVersion":"HTTP_1_1",
+				"httpVersion":"HTTP_2",
 				"record":{
 					"anthropic_version":"{{ n_jwB06.outputs.result.anthropic_version }}",
 					"max_tokens":"{{ n_jwB06.outputs.result.max_tokens }}",
@@ -790,5 +790,5 @@
 		}
 	},
 	"standard":false,
-	"version":21
+	"version":22
 }
