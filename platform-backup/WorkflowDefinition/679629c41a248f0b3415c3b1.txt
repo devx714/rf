@@ -4,14 +4,14 @@
 	],
 	"createdTime":1738062233486,
 	"deleted":false,
-	"deployedVersion":101,
+	"deployedVersion":102,
 	"deploymentState":{
-		"deployedAt":1774342975214,
+		"deployedAt":1775320695035,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2533e8d65fb68e1563d06",
+		"deployedDefinitionId":"69d13e7683aecf24ec255006",
 		"status":"DEPLOYED",
-		"version":101,
-		"workflowVersion":148
+		"version":102,
+		"workflowVersion":150
 	},
 	"edges":[
 		{
@@ -1414,7 +1414,7 @@
 	"id":"679629c41a248f0b3415c3b1",
 	"lastModifiedBy":-1,
 	"lcName":"user/assistant prompt builder",
-	"modifiedTime":1775320694308,
+	"modifiedTime":1775334507578,
 	"name":"User/Assistant Prompt Builder",
 	"nodes":[
 		{
@@ -9213,5 +9213,5 @@
 		}
 	},
 	"standard":true,
-	"version":150
+	"version":152
 }
