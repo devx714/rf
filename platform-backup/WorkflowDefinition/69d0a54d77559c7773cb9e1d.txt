@@ -23,7 +23,7 @@
 	"id":"69d0a54d77559c7773cb9e1d",
 	"lastModifiedBy":43523,
 	"lcName":"vertex test",
-	"modifiedTime":1775282464344,
+	"modifiedTime":1775282474912,
 	"name":"Vertex test",
 	"nodes":[
 		{
@@ -302,6 +302,7 @@
 					}
 				},
 				"endpoint":"{{ n_MOspm.outputs.result.converted_endpoint }}",
+				"httpVersion":"HTTP_2",
 				"record":{
 					"anthropic_version":"{{ n_5sS0v.outputs.result.anthropic_version }}",
 					"max_tokens":"{{ n_5sS0v.outputs.result.max_tokens }}",
@@ -349,5 +350,5 @@
 		}
 	},
 	"standard":false,
-	"version":3
+	"version":4
 }
