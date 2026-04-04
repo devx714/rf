@@ -18,6 +18,21 @@
 			"fromNodeId":"n_skKhA",
 			"priority":0,
 			"skip":false,
+			"toNodeId":"n_4F6On",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_4F6On",
+			"name":"1",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_4F6On@1",
+			"type":"branch"
+		},
+		{
+			"fromNodeId":"n_4F6On@1",
+			"priority":0,
+			"skip":false,
 			"toNodeId":"n_5sS0v",
 			"type":"next"
 		},
@@ -29,7 +44,15 @@
 			"type":"next"
 		},
 		{
-			"fromNodeId":"n_6P5gv",
+			"fromNodeId":"n_4F6On",
+			"name":"2",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_4F6On@2",
+			"type":"branch"
+		},
+		{
+			"fromNodeId":"n_4F6On@2",
 			"priority":0,
 			"skip":false,
 			"toNodeId":"n_jwB06",
@@ -43,17 +66,32 @@
 			"type":"next"
 		},
 		{
+			"fromNodeId":"n_6P5gv",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_mRmKt",
+			"type":"next"
+		},
+		{
 			"fromNodeId":"n_Tb2KW",
 			"priority":0,
 			"skip":false,
 			"toNodeId":"n_mRmKt",
 			"type":"next"
+		},
+		{
+			"fromNodeId":"n_4F6On",
+			"name":"default",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_mRmKt",
+			"type":"branch"
 		}
 	],
 	"id":"69d0a54d77559c7773cb9e1d",
 	"lastModifiedBy":43523,
 	"lcName":"vertex test",
-	"modifiedTime":1775283047932,
+	"modifiedTime":1775283086914,
 	"name":"Vertex test",
 	"nodes":[
 		{
@@ -83,6 +121,61 @@
 		},
 		{
 			"context":{
+				"appName":"branch",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_zjDR6-1",
+			"id":"n_4F6On",
+			"index":2,
+			"inputs":{
+				"branches":[
+					{
+						"id":"1",
+						"inputs":{
+							"name":"Big payload"
+						}
+					},
+					{
+						"id":"2",
+						"inputs":{
+							"name":"Small payload"
+						}
+					},
+					{
+						"id":"default"
+					}
+				]
+			},
+			"skip":false,
+			"subTitle":"Branch",
+			"title":"",
+			"type":"BRANCH"
+		},
+		{
+			"context":{
+				"appName":"branch_condition",
+				"resourceVersion":0,
+				"resourceName":"branch_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_4F6On@_zjDR6-1@1",
+			"id":"n_4F6On@1",
+			"index":3,
+			"inputs":{
+				"name":"Big payload"
+			},
+			"skip":true,
+			"title":"",
+			"type":"BRANCH_CONDITION"
+		},
+		{
+			"context":{
 				"appName":"code_by_unifyapps",
 				"resourceVersion":315,
 				"resourceName":"code_by_unifyapps_python",
@@ -91,9 +184,9 @@
 			"debug":false,
 			"dirty":true,
 			"fallbackMode":"STOP",
-			"groupId":"_zjDR6-1",
+			"groupId":"n_4F6On@_zjDR6-1@1",
 			"id":"n_5sS0v",
-			"index":2,
+			"index":4,
 			"inputs":{
 				"output":{
 					"type":"object",
@@ -191,9 +284,9 @@
 			"debug":false,
 			"dirty":true,
 			"fallbackMode":"STOP",
-			"groupId":"_zjDR6-1",
+			"groupId":"n_4F6On@_zjDR6-1@1",
 			"id":"n_6P5gv",
-			"index":3,
+			"index":5,
 			"inputs":{
 				"output":{
 					"type":"object",
@@ -366,6 +459,26 @@
 		},
 		{
 			"context":{
+				"appName":"branch_condition",
+				"resourceVersion":0,
+				"resourceName":"branch_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_4F6On@_zjDR6-1@2",
+			"id":"n_4F6On@2",
+			"index":6,
+			"inputs":{
+				"name":"Small payload"
+			},
+			"skip":false,
+			"title":"",
+			"type":"BRANCH_CONDITION"
+		},
+		{
+			"context":{
 				"appName":"code_by_unifyapps",
 				"resourceVersion":315,
 				"resourceName":"code_by_unifyapps_python",
@@ -374,9 +487,9 @@
 			"debug":false,
 			"dirty":true,
 			"fallbackMode":"STOP",
-			"groupId":"_zjDR6-1",
+			"groupId":"n_4F6On@_zjDR6-1@2",
 			"id":"n_jwB06",
-			"index":4,
+			"index":7,
 			"inputs":{
 				"output":{
 					"type":"object",
@@ -433,7 +546,7 @@
 				"outputFilesGlob":"*",
 				"captureStdOutput":false
 			},
-			"skip":true,
+			"skip":false,
 			"subTitle":"Small payload",
 			"title":"Execute Python script",
 			"type":"ACTION"
@@ -474,9 +587,9 @@
 			"debug":false,
 			"dirty":true,
 			"fallbackMode":"STOP",
-			"groupId":"_zjDR6-1",
+			"groupId":"n_4F6On@_zjDR6-1@2",
 			"id":"n_Tb2KW",
-			"index":5,
+			"index":8,
 			"inputs":{
 				"output":{
 					"type":"object",
@@ -615,7 +728,7 @@
 					}
 				},
 				"endpoint":"publishers/anthropic/models/claude-sonnet-4-6:rawPredict",
-				"httpVersion":"HTTP_1_1",
+				"httpVersion":"HTTP_2",
 				"record":{
 					"anthropic_version":"{{ n_jwB06.outputs.result.anthropic_version }}",
 					"max_tokens":"{{ n_jwB06.outputs.result.max_tokens }}",
@@ -642,7 +755,7 @@
 				},
 				"project":"unifyai-422106"
 			},
-			"skip":true,
+			"skip":false,
 			"subTitle":"Small payload",
 			"title":"Generate content (Generic)",
 			"type":"ACTION"
@@ -656,7 +769,7 @@
 			"fallbackMode":"STOP",
 			"groupId":"_zjDR6-1",
 			"id":"n_mRmKt",
-			"index":6,
+			"index":9,
 			"skip":false,
 			"subTitle":"Stop",
 			"title":"Stop",
@@ -677,5 +790,5 @@
 		}
 	},
 	"standard":false,
-	"version":13
+	"version":14
 }
