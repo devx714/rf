@@ -4,14 +4,14 @@
 	],
 	"createdTime":1775289058695,
 	"deleted":false,
-	"deployedVersion":1,
+	"deployedVersion":2,
 	"deploymentState":{
-		"deployedAt":1775289074496,
+		"deployedAt":1775289113608,
 		"deployedBy":195390,
-		"deployedDefinitionId":"69d0c2f0daf8d32755881268",
+		"deployedDefinitionId":"69d0c317daf8d327558812b1",
 		"status":"DEPLOYED",
-		"version":1,
-		"workflowVersion":1
+		"version":2,
+		"workflowVersion":2
 	},
 	"edges":[
 		{
@@ -25,7 +25,7 @@
 	"id":"69d0c2e276ec8146bba8f255",
 	"lastModifiedBy":195390,
 	"lcName":"test",
-	"modifiedTime":1775289110132,
+	"modifiedTime":1775289128917,
 	"name":"test",
 	"nodes":[
 		{
@@ -35,7 +35,7 @@
 				"resourceName":"webhooks_default"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_O3zr9-1",
 			"id":"n_KPWdw",
@@ -58,7 +58,7 @@
 				"appName":"stop"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_O3zr9-1",
 			"id":"n_Ix3em",
@@ -84,7 +84,8 @@
 	},
 	"standard":false,
 	"tags":[
-		"you"
+		"you",
+		"32kkww"
 	],
-	"version":2
+	"version":3
 }
