@@ -155,7 +155,7 @@
 	"id":"69d0f9a43d36804c0c547503",
 	"lastModifiedBy":45011,
 	"lcName":"[dnt] platform backup manager reporting",
-	"modifiedTime":1775317419844,
+	"modifiedTime":1775317742127,
 	"name":"[DNT] Platform Backup Manager Reporting",
 	"nodes":[
 		{
@@ -165,7 +165,7 @@
 				"resourceName":"callables_from_automation"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_IvAuF-1",
 			"id":"n_9W4tW",
@@ -252,7 +252,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_IvAuF-1",
 			"id":"n_pp0f5",
@@ -303,7 +303,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_IvAuF-1",
 			"id":"n_bVpeE",
@@ -364,7 +364,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_bVpeE@_IvAuF-1@1",
 			"id":"n_bVpeE@1",
@@ -394,7 +394,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_bVpeE@_IvAuF-1@1",
 			"id":"n_SHHZw",
@@ -431,7 +431,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_SHHZw@n_bVpeE@_IvAuF-1@1@1",
 			"id":"n_SHHZw@1",
@@ -451,7 +451,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_SHHZw@n_bVpeE@_IvAuF-1@1@1",
 			"id":"n_PsLYs",
@@ -533,7 +533,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_SHHZw@n_bVpeE@_IvAuF-1@1@1",
 			"id":"n_LGDTu",
@@ -590,7 +590,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_SHHZw@n_bVpeE@_IvAuF-1@1@2",
 			"id":"n_SHHZw@2",
@@ -610,7 +610,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_SHHZw@n_bVpeE@_IvAuF-1@1@2",
 			"id":"n_8pC84",
@@ -657,7 +657,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_SHHZw@n_bVpeE@_IvAuF-1@1@2",
 			"id":"n_ZeHtp",
@@ -711,7 +711,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_SHHZw@n_bVpeE@_IvAuF-1@1@2",
 			"id":"n_wworY",
@@ -781,17 +781,17 @@
 							},
 							"title":"Data"
 						},
-						"totalJobs":{
+						"totalJobsData":{
 							"type":"integer",
-							"title":"Total Jobs"
+							"title":"Total Jobs Data"
 						}
 					}
 				},
-				"code":"def withTimefilter = [:]\nif (data && data.size() > 0) {\n    def cols = data[0].columns\n    withTimefilter = [\n        jobsRan: cols.totalJobs as Integer,\n        assets: [\n            totalProcessed  : cols.totalUniqueAssets as Integer,\n            successCount    : cols.successfulAssets as Integer,\n            failureCount    : cols.failedAssets as Integer,\n        ]\n    ]\n}\nreturn [\n    \"metrics\" : [\n        \"totalJobs\": totalJobs,\n        \"withTimeFilter\": withTimefilter\n    ]\n]",
+				"code":"def withTimefilter = [:]\ndef totalJobs = -1 as Integer\nif (data && data.size() > 0) {\n    def cols = data[0].columns\n    withTimefilter = [\n        jobsRan: cols.totalJobs as Integer,\n        assets: [\n            totalProcessed  : cols.totalUniqueAssets as Integer,\n            successCount    : cols.successfulAssets as Integer,\n            failureCount    : cols.failedAssets as Integer,\n        ]\n    ]\n}\nif (totalJobsData && totalJobsData.size() > 0) {\n    def cols = data[0].columns\n    totalJobs = cols.totalJobs\n}\nreturn [\n    \"metrics\" : [\n        \"totalJobs\": totalJobs,\n        \"withTimeFilter\": withTimefilter\n    ]\n]",
 				"compile_static":false,
 				"captureStdOutput":false,
 				"parameters":{
-					"totalJobs":"{{ n_8pC84.outputs.objects[0].totalJobs }}",
+					"totalJobsData":"{{ n_8pC84.outputs.objects }}",
 					"data":{
 						"source":"{{ n_ZeHtp.outputs.objects }}",
 						"ua:type":"mappedArray",
@@ -812,7 +812,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_bVpeE@_IvAuF-1@1",
 			"id":"n_CcQC3",
@@ -871,7 +871,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_bVpeE@_IvAuF-1@1",
 			"id":"n_tWYjb",
@@ -929,7 +929,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_bVpeE@_IvAuF-1@2",
 			"id":"n_phKMO",
@@ -950,7 +950,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_IvAuF-1",
 			"id":"n_K9PWV",
@@ -980,5 +980,5 @@
 		}
 	},
 	"standard":false,
-	"version":10
+	"version":11
 }
