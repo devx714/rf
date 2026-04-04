@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775278815907,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775278817678,
+		"deployedBy":175325,
+		"deployedDefinitionId":"69d09ae077559c7773cb717c",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"edges":[
 		{
 			"fromNodeId":"ADF8M",
@@ -16,7 +25,7 @@
 	"id":"69d09adf77559c7773cb7179",
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2vliseaojmskw",
-	"modifiedTime":1775278815982,
+	"modifiedTime":1775278817680,
 	"name":"changeSetQA2vliSeAoJMsKw",
 	"nodes":[
 		{
@@ -77,6 +86,7 @@
 				"a":"= {{ __ENV__.outputs.executionId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
