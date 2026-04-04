@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1770542692274,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_BmsmS",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_ILhYU",
+			"type":"next"
+		}
+	],
+	"id":"69885664f1a6200ec69ec478",
+	"lastModifiedBy":43498,
+	"lcName":"check_adjacency_automation_id",
+	"modifiedTime":1770542692274,
+	"name":"check_adjacency_automation_id",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_BmsmS-1",
+			"id":"_BmsmS",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_BmsmS-1",
+			"id":"_ILhYU",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":43498,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":0
+}
