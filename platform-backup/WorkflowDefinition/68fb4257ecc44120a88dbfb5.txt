@@ -446,7 +446,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -456,7 +455,7 @@
 	"id":"68fb4257ecc44120a88dbfb5",
 	"lastModifiedBy":-1,
 	"lcName":"upsert graph (hybrid+async) | graphrag with versioning",
-	"modifiedTime":1774622955483,
+	"modifiedTime":1775320612623,
 	"name":"Upsert Graph (Hybrid+Async) | GraphRAG with Versioning",
 	"nodes":[
 		{
@@ -1269,7 +1268,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2413,7 +2411,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2905,7 +2902,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -3610,5 +3606,5 @@
 	"tags":[
 		"GraphRAG"
 	],
-	"version":61
+	"version":62
 }
