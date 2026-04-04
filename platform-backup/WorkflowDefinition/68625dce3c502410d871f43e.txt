@@ -54,7 +54,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -64,7 +63,7 @@
 	"id":"68625dce3c502410d871f43e",
 	"lastModifiedBy":-1,
 	"lcName":"text to workflow v2 | filled input validator",
-	"modifiedTime":1775320888909,
+	"modifiedTime":1775334406496,
 	"name":"Text to workflow v2 | Filled Input Validator",
 	"nodes":[
 		{
@@ -439,5 +438,5 @@
 	"tags":[
 		"Text_to_Workflow_v2"
 	],
-	"version":159
+	"version":160
 }
