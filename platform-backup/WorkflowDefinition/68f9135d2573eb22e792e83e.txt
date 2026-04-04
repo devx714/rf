@@ -109,7 +109,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -119,7 +118,7 @@
 	"id":"68f9135d2573eb22e792e83e",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] number of question on agent",
-	"modifiedTime":1775320889294,
+	"modifiedTime":1775334407707,
 	"name":"[DT] Number of question on agent",
 	"nodes":[
 		{
@@ -505,5 +504,5 @@
 	"tags":[
 		
 	],
-	"version":61
+	"version":62
 }
