@@ -2,10 +2,10 @@
 	"createdTime":1765817242715,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1775330872444,
+		"deployedAt":1775334041581,
 		"deployedBy":-1,
-		"entityVersion":3521,
-		"version":1104
+		"entityVersion":3522,
+		"version":1105
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -86,7 +86,7 @@
 	},
 	"id":"ai-enterprise-search",
 	"lastModifiedBy":-1,
-	"modifiedTime":1775331421804,
+	"modifiedTime":1775334117130,
 	"ownerUserId":325,
 	"properties":{
 		"standard":false,
@@ -693,5 +693,5 @@
 		}
 	},
 	"standard":true,
-	"version":3521
+	"version":3522
 }
