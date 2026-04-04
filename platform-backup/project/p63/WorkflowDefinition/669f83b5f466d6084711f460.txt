@@ -4,14 +4,14 @@
 	],
 	"createdTime":1721729973054,
 	"deleted":false,
-	"deployedVersion":129,
+	"deployedVersion":130,
 	"deploymentState":{
-		"deployedAt":1775320668679,
+		"deployedAt":1775334462323,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e5c83aecf24ec254d37",
+		"deployedDefinitionId":"69d1743e39824e0613819cb9",
 		"status":"DEPLOYED",
-		"version":129,
-		"workflowVersion":207
+		"version":130,
+		"workflowVersion":209
 	},
 	"description":"",
 	"edges":[
@@ -120,6 +120,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -129,7 +130,7 @@
 	"id":"669f83b5f466d6084711f460",
 	"lastModifiedBy":-1,
 	"lcName":"2_text_to_automation_call_ai_agent(do_not_touch)",
-	"modifiedTime":1775334462269,
+	"modifiedTime":1775334707009,
 	"name":"2_Text_To_Automation_Call_AI_Agent(DO_NOT_TOUCH)",
 	"nodes":[
 		{
@@ -256,6 +257,7 @@
 				"defaultToCustomerId":"AI_CO_PILOT_ID"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -504,6 +506,7 @@
 				"responseId":"{{ 5hKhT.outputs.responseId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -748,5 +751,5 @@
 	"tags":[
 		"Text_to_Workflow"
 	],
-	"version":209
+	"version":210
 }
