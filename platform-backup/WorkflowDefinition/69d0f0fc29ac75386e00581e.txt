@@ -4,14 +4,14 @@
 	],
 	"createdTime":1775300860592,
 	"deleted":false,
-	"deployedVersion":1,
+	"deployedVersion":2,
 	"deploymentState":{
-		"deployedAt":1775300869613,
+		"deployedAt":1775311862279,
 		"deployedBy":161958,
-		"deployedDefinitionId":"69d0f10529ac75386e005878",
+		"deployedDefinitionId":"69d11bf6e500dc0e56941075",
 		"status":"DEPLOYED",
-		"version":1,
-		"workflowVersion":0
+		"version":2,
+		"workflowVersion":2
 	},
 	"edges":[
 		{
@@ -46,7 +46,7 @@
 	"id":"69d0f0fc29ac75386e00581e",
 	"lastModifiedBy":161958,
 	"lcName":"autofill pill mapping sample",
-	"modifiedTime":1775311852113,
+	"modifiedTime":1775311916993,
 	"name":"Autofill Pill Mapping Sample",
 	"nodes":[
 		{
@@ -57,7 +57,7 @@
 				"resourceName":"schedule_default"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"U9EYx-1",
 			"id":"llJgd",
@@ -255,7 +255,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"CONTINUE",
 			"groupId":"U9EYx-1",
 			"id":"n_qvgWe",
@@ -382,8 +382,8 @@
 		
 	],
 	"settings":{
-		"enableNodeLevelLogging":false,
-		"enableRunLogging":false,
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
 		"enableVariableLogging":false,
 		"route":{
 			"default":false,
@@ -395,5 +395,5 @@
 	"tags":[
 		
 	],
-	"version":2
+	"version":3
 }
