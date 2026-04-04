@@ -1,0 +1,105 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1768208119937,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"n_3Keyf",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_qxfh8",
+			"type":"next"
+		}
+	],
+	"id":"6964b6f7bcae514720c231ca",
+	"lastModifiedBy":175325,
+	"lcName":"test-advanced-allowed_values_217682079750820",
+	"modifiedTime":1768208170641,
+	"name":"test-advanced-ALLOWED_VALUES_217682079750820",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":835,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_eVxnZ-1",
+			"id":"n_3Keyf",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":1412,
+				"resourceName":"callables_schedule_a_callable",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_eVxnZ-1",
+			"id":"n_qxfh8",
+			"index":2,
+			"inputs":{
+				"automation_id":"6964b6cbbcae514720c22c7b",
+				"schedule_method":{
+					"schedule_type":"CRON_EXPRESSION",
+					"setup_config":{
+						"timezone":"Asia/Kolkata",
+						"expression":"1 2 6 4 *",
+						"start_time":"2026-01-12T08:55:43.748Z",
+						"unit":"MINUTES"
+					}
+				},
+				"runtimeConnections":{},
+				"cancel_existing":true,
+				"version":"-1",
+				"schedule_name":"Advanced Schedule Callable Automation - ALLOWED_VALUES",
+				"parameters":{
+					"input_String":"Hello Unify"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Schedule callable",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":175325,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":false,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"headerValueTierMap":{},
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":3
+}
