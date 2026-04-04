@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775300860592,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775300869613,
+		"deployedBy":161958,
+		"deployedDefinitionId":"69d0f10529ac75386e005878",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":0
+	},
 	"edges":[
 		{
 			"fromNodeId":"llJgd",
@@ -37,7 +46,7 @@
 	"id":"69d0f0fc29ac75386e00581e",
 	"lastModifiedBy":161958,
 	"lcName":"autofill pill mapping sample",
-	"modifiedTime":1775300860592,
+	"modifiedTime":1775311837999,
 	"name":"Autofill Pill Mapping Sample",
 	"nodes":[
 		{
@@ -48,7 +57,7 @@
 				"resourceName":"schedule_default"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"U9EYx-1",
 			"id":"llJgd",
@@ -56,9 +65,11 @@
 			"inputs":{
 				"cron":"INTERVAL",
 				"expression":"",
+				"sequential":false,
+				"timezone":"Asia/Calcutta",
 				"daysOfMonth":"",
-				"interval":"15",
-				"frequency":"MINUTES"
+				"interval":1,
+				"frequency":"HOURS"
 			},
 			"skip":false,
 			"subTitle":"Schedule",
@@ -116,7 +127,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -201,7 +211,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -332,5 +341,5 @@
 	"tags":[
 		
 	],
-	"version":0
+	"version":1
 }
