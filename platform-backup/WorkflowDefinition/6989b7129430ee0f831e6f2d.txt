@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1770632978058,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_69NfS",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_ykh6c",
+			"type":"next"
+		}
+	],
+	"id":"6989b7129430ee0f831e6f2d",
+	"lastModifiedBy":161958,
+	"lcName":"testretrylogging-ritik",
+	"modifiedTime":1770632978058,
+	"name":"testRetryLogging-Ritik",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_69NfS-1",
+			"id":"_69NfS",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_69NfS-1",
+			"id":"_ykh6c",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":161958,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":0
+}
