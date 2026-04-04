@@ -29,8 +29,8 @@
 		]
 	},
 	"id":"vinaytest-11",
-	"lastModifiedBy":195414,
-	"modifiedTime":1775327178718,
+	"lastModifiedBy":195437,
+	"modifiedTime":1775344684710,
 	"ownerUserId":195435,
 	"properties":{
 		"standard":false,
@@ -62,7 +62,7 @@
 			"e_69b79fc600e2c81d3f19b3ae":{},
 			"e_69d1121a1feba233289daa0b":{},
 			"e_69d114fc1feba233289daaa8":{},
-			"e_69d157ac8cbf9634b68edb42":{}
+			"e_69d11e9015953314ac042a02":{}
 		},
 		"type":"application",
 		"locale":{
@@ -295,9 +295,9 @@
 			"e_696771150543417598ee5563":"homepage",
 			"e_69b79fc600e2c81d3f19b3ae":"sujal",
 			"e_69d0a7640f39af2e5600f792":"student",
+			"e_69d19c062409417fd5defacb":"page-52",
 			"e_69ba4c797091fd58ef93252d":"_5nlS3",
 			"e_69d114fc1feba233289daaa8":"page-50",
-			"e_69d157ac8cbf9634b68edb42":"world",
 			"e_69d11e9015953314ac042a02":"page-499-_Mqng1",
 			"e_69d0a7e60f39af2e5600f7de":"hello"
 		},
@@ -316,10 +316,11 @@
 					"e_69d0f6720749020b38d23ae7",
 					"e_69b79fc600e2c81d3f19b3ae",
 					"e_69d0a7640f39af2e5600f792",
-					"e_69d114fc1feba233289daaa8",
-					"e_69d11e9015953314ac042a02",
 					"e_69d0a7e60f39af2e5600f7de",
-					"f_N3q8G"
+					"e_69d114fc1feba233289daaa8",
+					"f_46X3Q",
+					"e_69d19c062409417fd5defacb",
+					"e_69d11e9015953314ac042a02"
 				],
 				"path":"/"
 			},
@@ -388,19 +389,15 @@
 				"segment":":planetssss",
 				"parentId":"f_LkuPY",
 				"children":[
-					"e_69d1121a1feba233289daa0b",
-					"e_69d114fc1feba233289daaa8",
-					"e_69d11e9015953314ac042a02"
+					"e_69d1121a1feba233289daa0b"
 				],
 				"path":"/hellowwwwyyyy/:planetssss"
 			},
-			"f_N3q8G":{
-				"id":"f_N3q8G",
-				"segment":"hello",
-				"children":[
-					"e_69d157ac8cbf9634b68edb42"
-				],
-				"path":"/hello"
+			"f_46X3Q":{
+				"id":"f_46X3Q",
+				"segment":"prakul23",
+				"children":[],
+				"path":"/prakul23"
 			}
 		},
 		"name":"vinaytest11234567",
@@ -436,6 +433,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_69d19c062409417fd5defacb":{
+				"slug":"page-52",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_69ba4c797091fd58ef93252d":{
 				"slug":"_5nlS3",
 				"isPublic":false,
@@ -443,11 +445,6 @@
 			},
 			"e_69d114fc1feba233289daaa8":{
 				"slug":"page-50",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_69d157ac8cbf9634b68edb42":{
-				"slug":"world",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -464,5 +461,5 @@
 		}
 	},
 	"standard":false,
-	"version":1197
+	"version":1216
 }
