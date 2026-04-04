@@ -200,7 +200,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -208,9 +207,9 @@
 		]
 	},
 	"id":"66b259e2000d497ddf8550a9",
-	"lastModifiedBy":196361,
+	"lastModifiedBy":-1,
 	"lcName":"generic_co_pilot fetch case list ",
-	"modifiedTime":1775123362709,
+	"modifiedTime":1775320677556,
 	"name":"GENERIC_CO_PILOT Fetch Case List ",
 	"nodes":[
 		{
@@ -227,8 +226,6 @@
 			"index":1,
 			"inputs":{
 				"result":{
-					"required":[],
-					"type":"object",
 					"properties":{
 						"cases":{
 							"items":{
@@ -303,7 +300,9 @@
 							"title":"Total",
 							"type":"integer"
 						}
-					}
+					},
+					"required":[],
+					"type":"object"
 				},
 				"triggerInputCondition":{
 					"filters":[
@@ -319,8 +318,6 @@
 				},
 				"setup":{
 					"additionalProperties":false,
-					"required":[],
-					"type":"object",
 					"properties":{
 						"Until":{
 							"additionalProperties":false,
@@ -366,12 +363,10 @@
 						"spaceId":{
 							"title":"Space Id",
 							"type":"string"
-						},
-						"isArchived":{
-							"type":"boolean",
-							"title":"Is Archived"
 						}
-					}
+					},
+					"required":[],
+					"type":"object"
 				}
 			},
 			"skip":false,
@@ -428,7 +423,6 @@
 				"aiAgentId":"{{ PutIn.outputs.aiAgentId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -694,7 +688,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -850,7 +843,6 @@
 				"userIdWithCoPilot":"{{ __RUN__.outputs.userId }}#{{ w0WGv.outputs.coPilotType }}#{{ w0WGv.outputs.aiAgentId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -900,7 +892,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1175,7 +1166,6 @@
 				"userIdWithCoPilot":"{{ __RUN__.outputs.userId }}#{{ w0WGv.outputs.coPilotType }}#{{ w0WGv.outputs.aiAgentId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1529,7 +1519,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1608,8 +1597,6 @@
 			"inputs":{
 				"output":{
 					"additionalProperties":false,
-					"required":[],
-					"type":"object",
 					"properties":{
 						"filter":{
 							"additionalProperties":false,
@@ -1617,12 +1604,12 @@
 							"title":"Filter",
 							"type":"object"
 						}
-					}
+					},
+					"required":[],
+					"type":"object"
 				},
 				"input":{
 					"additionalProperties":false,
-					"required":[],
-					"type":"object",
 					"properties":{
 						"customerProfileIds":{
 							"items":{
@@ -1650,28 +1637,24 @@
 						"until":{
 							"title":"Until",
 							"type":"string"
-						},
-						"isArchived":{
-							"type":"boolean",
-							"title":"Is Archived"
 						}
-					}
+					},
+					"required":[],
+					"type":"object"
 				},
-				"code":"def childFilters = []\n\nif(binding.hasVariable('customerProfileIds')) {\ndef profileFilter = [\n        field: 'properties.fromCustomerUserId',\n        op: 'IN',\n        values: customerProfileIds\n    ] \nchildFilters.add(profileFilter)   \n} \n\n//Bookmarked \nif(binding.hasVariable('isBookmarked')) {\n    // true\n    if(isBookmarked){\n        def bookmarkedFilter = [\n                field: 'properties.additional.isBookmarked',\n                op: 'EQUAL',\n                values: [isBookmarked]\n            ]\n        childFilters.add(bookmarkedFilter) \n    }\n    else{\n        def bookmarkedFilter = [\n        field: 'properties.additional.isBookmarked',\n        op: 'NOT_EQUAL',\n        values: [!isBookmarked]\n        ]\n        childFilters.add(bookmarkedFilter) \n    }  \n} \n\n//Archived\nif(binding.hasVariable('isArchived')) {\n    // true\n    if(isArchived){\n        def archivedFilter = [\n            field: 'properties.isArchived',\n            op: 'EQUAL',\n            values: [isArchived]\n        ]\n        childFilters.add(archivedFilter) \n    }\n    // false\n    else{\n        def archivedFilter = [\n            op: \"OR\",\n            values: [\n                [\n                    field: 'properties.isArchived',\n                    op: 'EQUAL',\n                    values: [isArchived]\n                ],\n                [\n                    field: 'properties.isArchived',\n                    op: 'MISSING',\n                    values: []\n                ]\n            ]\n        ]\n        childFilters.add(archivedFilter) \n    }\n}\n\n\n//since\nif(binding.hasVariable('since')) {\ndef sinceFilter = [\n        field: 'cTm',\n        op: 'GT',\n        values: [since]\n    ] \n    childFilters.add(sinceFilter)\n} \n\n//until\nif(binding.hasVariable('until')) {\ndef untilFilter = [\n        field: 'cTm',\n        op: 'LT',\n        values: [until]\n    ] \n    childFilters.add(untilFilter)\n} \n\n//searchQuery\nif(binding.hasVariable('searchQuery')&&searchQuery!=null&&searchQuery!=\"\" ) {\ndef searchQueryFilter = [\n    \"op\":\"NOT\",\n    \"values\":[\n        [\n        field: 'properties.subject',\n        op: 'NOT_ICONTAINS',\n        values: [searchQuery]\n        ]\n    ]\n    ]\n    childFilters.add(searchQueryFilter)\n} \n\nif (binding.hasVariable('spaceId') && spaceId!=null && spaceId!=\"\") {\n    def spaceFilter = [\n        field: 'spaceId',\n        op: 'EQUAL',\n        values: [spaceId]\n    ] \n    childFilters.add(spaceFilter)\n}\n\nreturn [\"filter\":[\n        op: 'AND',\n        values : childFilters\n    ]]\n",
+				"code":"def childFilters = []\n\nif(binding.hasVariable('customerProfileIds')) {\ndef profileFilter = [\n        field: 'properties.fromCustomerUserId',\n        op: 'IN',\n        values: customerProfileIds\n    ] \nchildFilters.add(profileFilter)   \n} \n\n//Bookmarked \nif(binding.hasVariable('isBookmarked')) {\n    // true\n    if(isBookmarked){\n        def bookmarkedFilter = [\n                field: 'properties.additional.isBookmarked',\n                op: 'EQUAL',\n                values: [isBookmarked]\n            ]\n        childFilters.add(bookmarkedFilter) \n    }\n    else{\n        def bookmarkedFilter = [\n        field: 'properties.additional.isBookmarked',\n        op: 'NOT_EQUAL',\n        values: [!isBookmarked]\n        ]\n        childFilters.add(bookmarkedFilter) \n    }  \n} \n\n//since\nif(binding.hasVariable('since')) {\ndef sinceFilter = [\n        field: 'cTm',\n        op: 'GT',\n        values: [since]\n    ] \n    childFilters.add(sinceFilter)\n} \n\n//until\nif(binding.hasVariable('until')) {\ndef untilFilter = [\n        field: 'cTm',\n        op: 'LT',\n        values: [until]\n    ] \n    childFilters.add(untilFilter)\n} \n\n//searchQuery\nif(binding.hasVariable('searchQuery')&&searchQuery!=null&&searchQuery!=\"\" ) {\ndef searchQueryFilter = [\n    \"op\":\"NOT\",\n    \"values\":[\n        [\n        field: 'properties.subject',\n        op: 'NOT_ICONTAINS',\n        values: [searchQuery]\n        ]\n    ]\n    ]\n    childFilters.add(searchQueryFilter)\n} \n\nif (binding.hasVariable('spaceId') && spaceId!=null && spaceId!=\"\") {\n    def spaceFilter = [\n        field: 'spaceId',\n        op: 'EQUAL',\n        values: [spaceId]\n    ] \n    childFilters.add(spaceFilter)\n}\n\nreturn [\"filter\":[\n        op: 'AND',\n        values : childFilters\n    ]]\n",
 				"compile_static":false,
-				"captureStdOutput":false,
 				"parameters":{
-					"isBookmarked":"{{ PutIn.outputs.isBookmarked }}",
-					"searchQuery":"{{ PutIn.outputs.searchQuery }}",
-					"since":"{{ PutIn.outputs.since }}",
-					"spaceId":"{{ PutIn.outputs.spaceId }}",
-					"until":"{{ PutIn.outputs.Until }}",
-					"isArchived":"{{ PutIn.outputs.isArchived }}",
 					"customerProfileIds":{
 						"items":"{{ 6RjYW.outputs.items[0] }}",
 						"source":"{{ 6RjYW.outputs.items }}",
 						"ua:type":"mappedArray"
-					}
+					},
+					"isBookmarked":"{{ PutIn.outputs.isBookmarked }}",
+					"searchQuery":"{{ PutIn.outputs.searchQuery }}",
+					"since":"{{ PutIn.outputs.since }}",
+					"spaceId":"{{ PutIn.outputs.spaceId }}",
+					"until":"{{ PutIn.outputs.Until }}"
 				}
 			},
 			"skip":false,
@@ -1812,9 +1795,9 @@
 			"tierName":"global"
 		}
 	},
-	"standard":false,
+	"standard":true,
 	"tags":[
 		"AI Agent"
 	],
-	"version":220
+	"version":221
 }
