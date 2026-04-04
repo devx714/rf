@@ -278,7 +278,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -288,7 +287,7 @@
 	"id":"67ac78d4a71f2203e8ae4ac1",
 	"lastModifiedBy":-1,
 	"lcName":"agentic chunking pdf - rag",
-	"modifiedTime":1775320889752,
+	"modifiedTime":1775334465860,
 	"name":"Agentic Chunking PDF - RAG",
 	"nodes":[
 		{
@@ -436,7 +435,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -833,7 +831,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1202,7 +1199,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1778,7 +1774,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2082,7 +2077,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2269,5 +2263,5 @@
 	"tags":[
 		
 	],
-	"version":203
+	"version":204
 }
