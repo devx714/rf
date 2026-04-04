@@ -1,0 +1,270 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1767695238320,
+	"deleted":true,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1767695238386,
+		"deployedBy":191574,
+		"deployedDefinitionId":"695ce3864f6c6d7f36b566e4",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":8
+	},
+	"description":"Deletes a calendar event by calendar  and event ID in Microsoft Calendar",
+	"edges":[
+		{
+			"fromNodeId":"n_c0Gn2",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_7yj1V",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_7yj1V",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_JvhzI",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_JvhzI",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_SldvY",
+			"type":"next"
+		}
+	],
+	"id":"68fbaf70049bff7c83512de1",
+	"lastModifiedBy":191574,
+	"lcName":"yoda| get user via microsoft calendar 1/2",
+	"modifiedTime":1770715585955,
+	"name":"YODA| Get user via Microsoft Calendar 1/2",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":186,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_RsYZ4-1",
+			"id":"n_c0Gn2",
+			"index":1,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[],
+					"properties":{
+						"result":{
+							"type":"object",
+							"properties":{
+								"email":{
+									"type":"string",
+									"title":"Email"
+								},
+								"displayName":{
+									"type":"string",
+									"title":"Display Name"
+								},
+								"officeLocation":{
+									"type":"string",
+									"title":"Office Location"
+								}
+							},
+							"additionalProperties":false,
+							"title":"Result",
+							"required":[]
+						}
+					}
+				},
+				"setup":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[],
+					"properties":{
+						"connectionId":{
+							"type":"string",
+							"title":"Connection Id"
+						},
+						"emailID":{
+							"type":"string",
+							"title":"Email ID"
+						}
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":187,
+				"resourceName":"callables_call_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_RsYZ4-1",
+			"id":"n_7yj1V",
+			"index":2,
+			"inputs":{
+				"automationId":"68fb677de7d799445dfb517d",
+				"runtimeConnections":{},
+				"synchronous":true,
+				"version":"-1",
+				"parameters":{
+					"connectionId":"{{ n_c0Gn2.outputs.connectionId }}"
+				}
+			},
+			"options":{
+				"bulkheadConfig":{
+					"enabled":false,
+					"maxLeaseTimeUnit":"SECONDS",
+					"maxWaitDurationUnit":"SECONDS"
+				},
+				"businessHoursConfig":{
+					"enabled":false,
+					"waitForNextWindow":false
+				},
+				"cacheConfig":{
+					"cacheKey":"{{ n_c0Gn2.outputs.connectionId }}",
+					"enabled":true,
+					"timeToLive":"3600",
+					"usagePolicy":"ALWAYS"
+				},
+				"circuitBreakerConfig":{
+					"enabled":false
+				},
+				"disableLogging":false,
+				"enabledForReExecution":false,
+				"hookConfig":{
+					"enabled":false,
+					"postHooks":[
+						
+					],
+					"preHooks":[
+						
+					]
+				},
+				"logConfig":{
+					"enabled":false,
+					"logPolicies":[
+						
+					]
+				},
+				"rateLimitConfig":{
+					"enabled":false,
+					"waitForNextWindow":false
+				},
+				"retryConfig":{
+					"backOffFactor":null,
+					"captureRetries":false,
+					"count":3,
+					"enabled":true
+				},
+				"stepError":"STOP",
+				"telemetryConfig":{
+					"enableTelemetry":false,
+					"metricConfigs":[
+						
+					]
+				},
+				"timeoutConfig":{
+					"enabled":false
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Call automation",
+			"type":"CALL_WORKFLOW"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":186,
+				"resourceName":"callables_call_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_RsYZ4-1",
+			"id":"n_JvhzI",
+			"index":3,
+			"inputs":{
+				"automationId":"68f07f17acdb9a0aa1e004c5",
+				"runtimeConnections":{
+					"microsoft_calendar":"{{ n_7yj1V.outputs.connectionId }}"
+				},
+				"synchronous":true,
+				"version":"-1",
+				"parameters":{
+					"emailID":"{{ n_c0Gn2.outputs.emailID }}",
+					"connectionId":"{{ n_c0Gn2.outputs.connectionId }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Call automation",
+			"type":"CALL_WORKFLOW"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":187,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_RsYZ4-1",
+			"id":"n_SldvY",
+			"index":4,
+			"inputs":{
+				"result":{
+					"result":{
+						"email":"{{ n_JvhzI.outputs.result.email }}",
+						"displayName":"{{ n_JvhzI.outputs.result.displayName }}",
+						"officeLocation":"{{ n_JvhzI.outputs.result.officeLocation }}"
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":191574,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		"YODA"
+	],
+	"version":9
+}
