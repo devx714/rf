@@ -1,0 +1,624 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1774801548728,
+	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1774801548832,
+		"deployedBy":197352,
+		"deployedDefinitionId":"69c9528c3dfad15f4090ae76",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":81
+	},
+	"edges":[
+		{
+			"fromNodeId":"n_pVwi9",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_X5bd9",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_X5bd9",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_cR0O1",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_cR0O1",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_JjcqD",
+			"type":"loop"
+		},
+		{
+			"fromNodeId":"n_JjcqD",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_Nh2Te",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_Nh2Te",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_YeBTB",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_YeBTB",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_3vBUO",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_3vBUO",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_KP4jj",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_KP4jj",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_dsWTN",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_dsWTN",
+			"name":"loopback",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_cR0O1",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_cR0O1",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_7Fwut",
+			"type":"next"
+		}
+	],
+	"id":"69785dc20b2c0f6e4cc3bd89",
+	"lastModifiedBy":197352,
+	"lcName":"add_multi_task",
+	"modifiedTime":1774801548833,
+	"name":"add_multi_task",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":697,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_5Xepd-1",
+			"id":"n_pVwi9",
+			"index":1,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[],
+					"properties":{
+						"res":{
+							"type":"integer",
+							"title":"Res"
+						}
+					}
+				},
+				"setup":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[
+						"file",
+						"user_name"
+					],
+					"properties":{
+						"file":{
+							"type":"string",
+							"format":"file-input",
+							"title":"File"
+						},
+						"user_name":{
+							"type":"string",
+							"title":"User Name"
+						}
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"files_by_unifyapps",
+				"resourceVersion":572,
+				"resourceName":"files_by_unifyapps_upload_file",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_5Xepd-1",
+			"id":"n_X5bd9",
+			"index":2,
+			"inputs":{
+				"fileName":"multiTasks",
+				"url":"{{ n_pVwi9.outputs.file }}",
+				"option":"url"
+			},
+			"skip":false,
+			"subTitle":"Files by UnifyApps",
+			"title":"Upload file",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"csv_by_unifyapps",
+				"resourceVersion":532,
+				"resourceName":"csv_by_unifyapps_for_each_row_or_rows",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_5Xepd-1",
+			"id":"n_cR0O1",
+			"index":3,
+			"inputs":{
+				"startFromRow":1,
+				"file":"{{ n_X5bd9.outputs.fileDetails }}",
+				"headerRow":true,
+				"columns":[
+					"Title",
+					"Description",
+					"Function",
+					"Project",
+					"Assigned To",
+					"Owner",
+					"Support",
+					"Verifier",
+					"Status",
+					"Priority",
+					"Urgency",
+					"Due Date",
+					"Start Date"
+				],
+				"delimiter":",",
+				"batch":false,
+				"encoding":"UTF-8",
+				"batchSize":100
+			},
+			"skip":false,
+			"subTitle":"CSV by UnifyApps",
+			"title":"Consume data from CSV file",
+			"type":"LOOP"
+		},
+		{
+			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":607,
+				"resourceName":"variable_by_unifyapps_create_variables",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_cR0O1@_5Xepd-1@l",
+			"id":"n_JjcqD",
+			"index":4,
+			"inputSchema":{
+				"type":"SCHEMA_AND_LAYOUT",
+				"dynamic":false,
+				"layout":{},
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"due_date":{
+							"type":"string",
+							"title":"Due Date"
+						}
+					},
+					"required":[
+						"due_date"
+					]
+				}
+			},
+			"inputs":{
+				"due_date":"={{ n_cR0O1.outputs.item.Due_Date }}"
+			},
+			"outputSchema":{
+				"type":"SCHEMA",
+				"dynamic":false,
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"due_date":{
+							"type":"string",
+							"title":"Due Date"
+						}
+					},
+					"required":[
+						"due_date"
+					]
+				}
+			},
+			"skip":false,
+			"subTitle":"Variable by UnifyApps",
+			"title":"Create variables",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":607,
+				"resourceName":"variable_by_unifyapps_create_variables",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_cR0O1@_5Xepd-1@l",
+			"id":"n_Nh2Te",
+			"index":5,
+			"inputSchema":{
+				"type":"SCHEMA_AND_LAYOUT",
+				"dynamic":false,
+				"layout":{},
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"start_date":{
+							"type":"string",
+							"title":"Start Date"
+						}
+					},
+					"required":[
+						"start_date"
+					]
+				}
+			},
+			"inputs":{
+				"start_date":"={{ n_cR0O1.outputs.item.Start_Date }}"
+			},
+			"outputSchema":{
+				"type":"SCHEMA",
+				"dynamic":false,
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"start_date":{
+							"type":"string",
+							"title":"Start Date"
+						}
+					},
+					"required":[
+						"start_date"
+					]
+				}
+			},
+			"skip":false,
+			"subTitle":"Variable by UnifyApps",
+			"title":"Create variables",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":12038,
+				"resourceName":"storage_by_unifyapps_create_record",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_cR0O1@_5Xepd-1@l",
+			"id":"n_YeBTB",
+			"index":6,
+			"inputs":{
+				"useRawPayload":false,
+				"writeThroughSessionVariables":false,
+				"object_type":"task_object_Management",
+				"skipIfBlank":false,
+				"record":{
+					"Assignee":"{{ __USER__.outputs.name }}",
+					"Support":"{{ n_cR0O1.outputs.item.Support }}",
+					"Verifier":"{{ n_cR0O1.outputs.item.Verifier }}",
+					"TaskTitle":"{{ n_cR0O1.outputs.item.Title }}",
+					"Function":"{{ n_cR0O1.outputs.item.Function }}",
+					"Project":"{{ n_cR0O1.outputs.item.Project }}",
+					"StartDate":"{{ n_Nh2Te.outputs.start_date }}",
+					"DueDate":"{{ n_JjcqD.outputs.due_date }}",
+					"Description":"{{ n_cR0O1.outputs.item.Description }}",
+					"Status":"{{ n_cR0O1.outputs.item.Status }}",
+					"Priority":"{{ n_cR0O1.outputs.item.Priority }}",
+					"UrgencyFlag":false
+				}
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Create record",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":607,
+				"resourceName":"variable_by_unifyapps_create_variables",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_cR0O1@_5Xepd-1@l",
+			"id":"n_3vBUO",
+			"index":7,
+			"inputSchema":{
+				"type":"SCHEMA_AND_LAYOUT",
+				"dynamic":false,
+				"layout":{},
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"task":{
+							"type":"object",
+							"properties":{
+								"AssignedTo":{
+									"type":"string",
+									"title":"Assigned To"
+								},
+								"SubtaskPriority":{
+									"type":"string",
+									"title":"Subtask Priority"
+								},
+								"Subtasktitle":{
+									"type":"string",
+									"title":"Subtasktitle"
+								},
+								"SubtaskStatus":{
+									"type":"string",
+									"title":"Subtask Status"
+								},
+								"Subtaskdescription":{
+									"type":"string",
+									"title":"Subtaskdescription"
+								},
+								"SubtaskDueDate":{
+									"type":"string",
+									"title":"Subtask Due Date"
+								},
+								"SubtaskStartDate":{
+									"type":"string",
+									"title":"Subtask Start Date"
+								}
+							},
+							"additionalProperties":false,
+							"title":"Subtask",
+							"required":[
+								"AssignedTo",
+								"SubtaskPriority",
+								"Subtasktitle",
+								"SubtaskStatus",
+								"Subtaskdescription",
+								"SubtaskDueDate",
+								"SubtaskStartDate"
+							]
+						}
+					},
+					"required":[
+						"task"
+					]
+				}
+			},
+			"inputs":{},
+			"outputSchema":{
+				"type":"SCHEMA",
+				"dynamic":false,
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"task":{
+							"type":"object",
+							"properties":{
+								"AssignedTo":{
+									"type":"string",
+									"title":"Assigned To"
+								},
+								"SubtaskPriority":{
+									"type":"string",
+									"title":"Subtask Priority"
+								},
+								"Subtasktitle":{
+									"type":"string",
+									"title":"Subtasktitle"
+								},
+								"SubtaskStatus":{
+									"type":"string",
+									"title":"Subtask Status"
+								},
+								"Subtaskdescription":{
+									"type":"string",
+									"title":"Subtaskdescription"
+								},
+								"SubtaskDueDate":{
+									"type":"string",
+									"title":"Subtask Due Date"
+								},
+								"SubtaskStartDate":{
+									"type":"string",
+									"title":"Subtask Start Date"
+								}
+							},
+							"additionalProperties":false,
+							"title":"Subtask",
+							"required":[
+								"AssignedTo",
+								"SubtaskPriority",
+								"Subtasktitle",
+								"SubtaskStatus",
+								"Subtaskdescription",
+								"SubtaskDueDate",
+								"SubtaskStartDate"
+							]
+						}
+					},
+					"required":[
+						"task"
+					]
+				}
+			},
+			"skip":true,
+			"subTitle":"Variable by UnifyApps",
+			"title":"Create variables",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":584,
+				"resourceName":"variable_by_unifyapps_update_variables",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_cR0O1@_5Xepd-1@l",
+			"id":"n_KP4jj",
+			"index":8,
+			"inputs":{
+				"variables":[
+					{
+						"source":"{{ n_3vBUO.outputs.task }}",
+						"value":{
+							"AssignedTo":"{{ n_cR0O1.outputs.item.Assigned_To }}",
+							"SubtaskPriority":"{{ n_cR0O1.outputs.item.Priority }}",
+							"Subtasktitle":"{{ n_cR0O1.outputs.item.Title }}",
+							"SubtaskStatus":"{{ n_cR0O1.outputs.item.Status }}",
+							"Subtaskdescription":"{{ n_cR0O1.outputs.item.Description }}",
+							"SubtaskDueDate":"{{ n_PqTm0.outputs.due_date }}",
+							"SubtaskStartDate":"{{ n_1rBr9.outputs.start_date }}"
+						}
+					}
+				]
+			},
+			"skip":true,
+			"subTitle":"Variable by UnifyApps",
+			"title":"Update variables",
+			"type":"ACTION"
+		},
+		{
+			"additional":{
+				"visibleOptionalFields":[
+					"root.record.Subtask.items.Subtasktitle"
+				]
+			},
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":11989,
+				"resourceName":"storage_by_unifyapps_update_records",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_cR0O1@_5Xepd-1@l",
+			"id":"n_dsWTN",
+			"index":9,
+			"inputs":{
+				"numberOfRecordsToUpdate":"SINGLE",
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"properties_TaskTitle",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"{{ n_cR0O1.outputs.item.Project }}"
+							}
+						}
+					],
+					"operator":"AND"
+				},
+				"object_type":"task_object_Management",
+				"skipIfBlank":false,
+				"updateFields":[
+					{
+						"fieldName":"properties.Subtask",
+						"actionType":"ADD",
+						"setValue":"{{ n_3vBUO.outputs.task }}"
+					}
+				],
+				"page":{
+					"offset":0,
+					"limit":20
+				},
+				"unsetIfNull":false
+			},
+			"skip":true,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Update records by query",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":698,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_5Xepd-1",
+			"id":"n_7Fwut",
+			"index":10,
+			"inputs":{
+				"result":{
+					"res":1
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":197352,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":81
+}
