@@ -4,14 +4,14 @@
 	],
 	"createdTime":1743599491928,
 	"deleted":false,
-	"deployedVersion":91,
+	"deployedVersion":92,
 	"deploymentState":{
-		"deployedAt":1774342905093,
+		"deployedAt":1775320633080,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252f98d65fb68e1563983",
+		"deployedDefinitionId":"69d13e39c6b0c9120df173ce",
 		"status":"DEPLOYED",
-		"version":91,
-		"workflowVersion":135
+		"version":92,
+		"workflowVersion":137
 	},
 	"edges":[
 		{
@@ -128,6 +128,25 @@
 		"configs":[
 			{
 				"permissions":[
+					"A",
+					"EXPORT_AS_TEMPLATE",
+					"C",
+					"S",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"DEP"
+				],
+				"principalIds":[
+					"44109"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -137,7 +156,7 @@
 	"id":"67ed33625e47b355f5f93529",
 	"lastModifiedBy":-1,
 	"lcName":"publish reading block",
-	"modifiedTime":1775320633006,
+	"modifiedTime":1775320889078,
 	"name":"Publish Reading Block",
 	"nodes":[
 		{
@@ -689,6 +708,7 @@
 				"messageSubType":"readingBlock"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -880,6 +900,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -936,5 +957,5 @@
 		}
 	},
 	"standard":true,
-	"version":137
+	"version":138
 }
