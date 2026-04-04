@@ -62,7 +62,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -72,7 +71,7 @@
 	"id":"683ff444331e784d63b1d2ce",
 	"lastModifiedBy":-1,
 	"lcName":"list mcp server tools",
-	"modifiedTime":1775320891482,
+	"modifiedTime":1775334399345,
 	"name":"List MCP Server tools",
 	"nodes":[
 		{
@@ -478,7 +477,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -679,5 +677,5 @@
 	"tags":[
 		
 	],
-	"version":123
+	"version":124
 }
