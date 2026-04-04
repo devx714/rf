@@ -4,14 +4,14 @@
 	],
 	"createdTime":1773928084689,
 	"deleted":false,
-	"deployedVersion":3,
+	"deployedVersion":4,
 	"deploymentState":{
-		"deployedAt":1774342862584,
+		"deployedAt":1775320588227,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252ce8d65fb68e15637d5",
+		"deployedDefinitionId":"69d13e0c83aecf24ec254670",
 		"status":"DEPLOYED",
-		"version":3,
-		"workflowVersion":13
+		"version":4,
+		"workflowVersion":15
 	},
 	"edges":[
 		{
@@ -204,6 +204,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -213,7 +214,7 @@
 	"id":"69b94f0d5e04e71230d48b89",
 	"lastModifiedBy":-1,
 	"lcName":"memory | fetch applicable memories",
-	"modifiedTime":1775320583654,
+	"modifiedTime":1775320888614,
 	"name":"Memory | Fetch Applicable Memories",
 	"nodes":[
 		{
@@ -561,6 +562,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -817,6 +819,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1225,6 +1228,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1595,6 +1599,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1851,6 +1856,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2101,5 +2107,5 @@
 	"tags":[
 		
 	],
-	"version":15
+	"version":16
 }
