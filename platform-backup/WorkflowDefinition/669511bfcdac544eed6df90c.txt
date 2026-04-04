@@ -106,7 +106,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -116,7 +115,7 @@
 	"id":"669511bfcdac544eed6df90c",
 	"lastModifiedBy":-1,
 	"lcName":"text to workflow v2 | add vectors to store",
-	"modifiedTime":1774622955547,
+	"modifiedTime":1775320607528,
 	"name":"Text to Workflow v2 | Add Vectors to Store",
 	"nodes":[
 		{
@@ -596,5 +595,5 @@
 	"tags":[
 		"Text_to_Workflow_v2"
 	],
-	"version":173
+	"version":174
 }
