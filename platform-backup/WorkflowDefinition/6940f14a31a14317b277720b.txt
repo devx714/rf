@@ -4,14 +4,14 @@
 	],
 	"createdTime":1766522784241,
 	"deleted":false,
-	"deployedVersion":22,
+	"deployedVersion":23,
 	"deploymentState":{
-		"deployedAt":1775320680308,
+		"deployedAt":1775334473642,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e6883aecf24ec254eca",
+		"deployedDefinitionId":"69d1744939824e0613819d8a",
 		"status":"DEPLOYED",
-		"version":22,
-		"workflowVersion":45
+		"version":23,
+		"workflowVersion":47
 	},
 	"edges":[
 		{
@@ -173,7 +173,7 @@
 	"id":"6940f14a31a14317b277720b",
 	"lastModifiedBy":-1,
 	"lcName":"index uem metadata",
-	"modifiedTime":1775320888245,
+	"modifiedTime":1775334705900,
 	"name":"Index UEM Metadata",
 	"nodes":[
 		{
@@ -1223,5 +1223,5 @@
 	"tags":[
 		
 	],
-	"version":46
+	"version":48
 }
