@@ -63,7 +63,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -73,7 +72,7 @@
 	"id":"6944287935cabe6cb9959372",
 	"lastModifiedBy":-1,
 	"lcName":"attachment processor",
-	"modifiedTime":1774622955483,
+	"modifiedTime":1775320628359,
 	"name":"Attachment Processor",
 	"nodes":[
 		{
@@ -355,5 +354,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":33
+	"version":34
 }
