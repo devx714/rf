@@ -4,14 +4,14 @@
 	],
 	"createdTime":1727786274182,
 	"deleted":false,
-	"deployedVersion":110,
+	"deployedVersion":111,
 	"deploymentState":{
-		"deployedAt":1775320672102,
+		"deployedAt":1775334465688,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e6083aecf24ec254e11",
+		"deployedDefinitionId":"69d1744139824e0613819cfd",
 		"status":"DEPLOYED",
-		"version":110,
-		"workflowVersion":156
+		"version":111,
+		"workflowVersion":158
 	},
 	"edges":[
 		{
@@ -279,6 +279,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -288,7 +289,7 @@
 	"id":"66fbed229edc4e0b6303cefd",
 	"lastModifiedBy":-1,
 	"lcName":"response publisher impl with runtime",
-	"modifiedTime":1775334465635,
+	"modifiedTime":1775334706939,
 	"name":"Response Publisher Impl With Runtime",
 	"nodes":[
 		{
@@ -652,6 +653,7 @@
 				"runTimeType":"{{ __RUN__.outputs.workflowRunTimeType }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -812,6 +814,7 @@
 				"caseId":"=MAPGET({{ ysaHW.outputs }}, \"caseId\")"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1141,6 +1144,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1546,5 +1550,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":158
+	"version":159
 }
