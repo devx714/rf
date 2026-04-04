@@ -4,14 +4,14 @@
 	],
 	"createdTime":1732265535549,
 	"deleted":false,
-	"deployedVersion":88,
+	"deployedVersion":89,
 	"deploymentState":{
-		"deployedAt":1774342892795,
+		"deployedAt":1775320620938,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252ec29fa153f07e09a31",
+		"deployedDefinitionId":"69d13e2cc6b0c9120df17393",
 		"status":"DEPLOYED",
-		"version":88,
-		"workflowVersion":137
+		"version":89,
+		"workflowVersion":139
 	},
 	"edges":[
 		{
@@ -40,6 +40,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -49,7 +50,7 @@
 	"id":"6740463fc6bd8f799d92ce28",
 	"lastModifiedBy":-1,
 	"lcName":"get nudge block",
-	"modifiedTime":1775320620887,
+	"modifiedTime":1775320891547,
 	"name":"Get Nudge Block",
 	"nodes":[
 		{
@@ -201,5 +202,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":139
+	"version":140
 }
