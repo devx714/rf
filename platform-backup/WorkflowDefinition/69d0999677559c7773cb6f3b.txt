@@ -10,7 +10,7 @@
 	"id":"69d0999677559c7773cb6f3b",
 	"lastModifiedBy":426,
 	"lcName":"abcd",
-	"modifiedTime":1775278492776,
+	"modifiedTime":1775278501136,
 	"name":"abcd",
 	"nodes":[
 		{
@@ -20,7 +20,7 @@
 				"resourceName":"webhooks_default"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_oJNWI-1",
 			"id":"n_wwJVP",
@@ -46,12 +46,13 @@
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
-		"enableVariableLogging":true,
+		"enableVariableLogging":false,
 		"route":{
 			"default":false,
+			"headerValueTierMap":{},
 			"tierName":"global"
 		}
 	},
 	"standard":false,
-	"version":1
+	"version":2
 }
