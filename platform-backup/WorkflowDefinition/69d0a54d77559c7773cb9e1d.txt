@@ -91,7 +91,7 @@
 	"id":"69d0a54d77559c7773cb9e1d",
 	"lastModifiedBy":43523,
 	"lcName":"vertex test",
-	"modifiedTime":1775287329549,
+	"modifiedTime":1775287371641,
 	"name":"Vertex test",
 	"nodes":[
 		{
@@ -162,7 +162,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_4F6On@_zjDR6-1@1",
 			"id":"n_4F6On@1",
@@ -170,7 +170,7 @@
 			"inputs":{
 				"name":"Big payload"
 			},
-			"skip":true,
+			"skip":false,
 			"title":"",
 			"type":"BRANCH_CONDITION"
 		},
@@ -465,7 +465,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_4F6On@_zjDR6-1@2",
 			"id":"n_4F6On@2",
@@ -473,7 +473,7 @@
 			"inputs":{
 				"name":"Small payload"
 			},
-			"skip":false,
+			"skip":true,
 			"title":"",
 			"type":"BRANCH_CONDITION"
 		},
@@ -790,5 +790,5 @@
 		}
 	},
 	"standard":false,
-	"version":19
+	"version":20
 }
