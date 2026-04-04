@@ -46,7 +46,7 @@
 	"id":"69d0f0fc29ac75386e00581e",
 	"lastModifiedBy":161958,
 	"lcName":"autofill pill mapping sample",
-	"modifiedTime":1775313620804,
+	"modifiedTime":1775314182980,
 	"name":"Autofill Pill Mapping Sample",
 	"nodes":[
 		{
@@ -127,7 +127,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -212,7 +211,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -384,8 +382,8 @@
 		
 	],
 	"settings":{
-		"enableNodeLevelLogging":false,
-		"enableRunLogging":false,
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
 		"enableVariableLogging":false,
 		"route":{
 			"default":false,
@@ -397,5 +395,5 @@
 	"tags":[
 		
 	],
-	"version":7
+	"version":8
 }
