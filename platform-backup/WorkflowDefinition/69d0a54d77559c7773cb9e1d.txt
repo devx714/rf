@@ -4,14 +4,14 @@
 	],
 	"createdTime":1775281485316,
 	"deleted":false,
-	"deployedVersion":3,
+	"deployedVersion":4,
 	"deploymentState":{
-		"deployedAt":1775282912381,
+		"deployedAt":1775283682789,
 		"deployedBy":43523,
-		"deployedDefinitionId":"69d0aae077559c7773cbb36a",
+		"deployedDefinitionId":"69d0ade277559c7773cbc16e",
 		"status":"DEPLOYED",
-		"version":3,
-		"workflowVersion":11
+		"version":4,
+		"workflowVersion":16
 	},
 	"edges":[
 		{
@@ -91,7 +91,7 @@
 	"id":"69d0a54d77559c7773cb9e1d",
 	"lastModifiedBy":43523,
 	"lcName":"vertex test",
-	"modifiedTime":1775283680388,
+	"modifiedTime":1775286439690,
 	"name":"Vertex test",
 	"nodes":[
 		{
@@ -170,7 +170,7 @@
 			"inputs":{
 				"name":"Big payload"
 			},
-			"skip":false,
+			"skip":true,
 			"title":"",
 			"type":"BRANCH_CONDITION"
 		},
@@ -473,7 +473,7 @@
 			"inputs":{
 				"name":"Small payload"
 			},
-			"skip":true,
+			"skip":false,
 			"title":"",
 			"type":"BRANCH_CONDITION"
 		},
@@ -790,5 +790,5 @@
 		}
 	},
 	"standard":false,
-	"version":16
+	"version":17
 }
