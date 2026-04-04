@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775280983727,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775280999504,
+		"deployedBy":33453,
+		"deployedDefinitionId":"69d0a36577559c7773cb9384",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"edges":[
 		{
 			"fromNodeId":"n_HoRB4",
@@ -16,7 +25,7 @@
 	"id":"69d0a35777559c7773cb9365",
 	"lastModifiedBy":33453,
 	"lcName":"hgfds",
-	"modifiedTime":1775280996204,
+	"modifiedTime":1775281010673,
 	"name":"hgfds",
 	"nodes":[
 		{
@@ -75,7 +84,9 @@
 					]
 				}
 			},
-			"inputs":{},
+			"inputs":{
+				"fgvdcs":"hytgfrds"
+			},
 			"outputSchema":{
 				"dynamic":false,
 				"schema":{
@@ -112,5 +123,5 @@
 		}
 	},
 	"standard":false,
-	"version":1
+	"version":2
 }
