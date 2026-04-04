@@ -32,7 +32,7 @@
 	"id":"692f024ba8cba562657f62d2",
 	"lastModifiedBy":195323,
 	"lcName":"getpublicfile",
-	"modifiedTime":1775295072609,
+	"modifiedTime":1775295309841,
 	"name":"getPublicFile",
 	"nodes":[
 		{
@@ -96,7 +96,7 @@
 			"index":2,
 			"inputs":{
 				"file":"{{ n_WpduT.outputs.file }}",
-				"expiryTime":0
+				"expiryTime":1
 			},
 			"skip":false,
 			"subTitle":"Utility by UnifyApps",
@@ -144,5 +144,5 @@
 	"tags":[
 		
 	],
-	"version":7
+	"version":8
 }
