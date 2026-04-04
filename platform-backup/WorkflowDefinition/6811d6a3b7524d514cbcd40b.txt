@@ -4,14 +4,14 @@
 	],
 	"createdTime":1747641655057,
 	"deleted":false,
-	"deployedVersion":94,
+	"deployedVersion":95,
 	"deploymentState":{
-		"deployedAt":1774342963498,
+		"deployedAt":1775320684198,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2533329fa153f07e09d92",
+		"deployedDefinitionId":"69d13e6c83aecf24ec254f44",
 		"status":"DEPLOYED",
-		"version":94,
-		"workflowVersion":157
+		"version":95,
+		"workflowVersion":159
 	},
 	"edges":[
 		{
@@ -40,27 +40,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"161165"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -70,7 +49,7 @@
 	"id":"6811d6a3b7524d514cbcd40b",
 	"lastModifiedBy":-1,
 	"lcName":"text to workflow v2 | get case context",
-	"modifiedTime":1774622955481,
+	"modifiedTime":1775334477366,
 	"name":"Text to Workflow v2 | Get Case Context",
 	"nodes":[
 		{
@@ -212,5 +191,5 @@
 	"tags":[
 		"Text_to_Workflow_v2"
 	],
-	"version":158
+	"version":161
 }
