@@ -2,10 +2,10 @@
 	"createdTime":1747820935001,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1775330869429,
+		"deployedAt":1775334224942,
 		"deployedBy":-1,
-		"entityVersion":659,
-		"version":274
+		"entityVersion":660,
+		"version":275
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -56,7 +56,7 @@
 	},
 	"id":"ua-agentic-ai",
 	"lastModifiedBy":-1,
-	"modifiedTime":1775331420085,
+	"modifiedTime":1775334632211,
 	"ownerUserId":325,
 	"properties":{
 		"standard":true,
@@ -717,5 +717,5 @@
 		"provisionApp":true
 	},
 	"standard":true,
-	"version":659
+	"version":660
 }
