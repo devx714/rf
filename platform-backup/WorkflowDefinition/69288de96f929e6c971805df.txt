@@ -63,7 +63,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -73,7 +72,7 @@
 	"id":"69288de96f929e6c971805df",
 	"lastModifiedBy":-1,
 	"lcName":"get semaphore",
-	"modifiedTime":1774622956034,
+	"modifiedTime":1775320663529,
 	"name":"Get Semaphore",
 	"nodes":[
 		{
@@ -274,5 +273,5 @@
 	"tags":[
 		
 	],
-	"version":48
+	"version":49
 }
