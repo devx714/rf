@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1770718691747,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_qsY5e",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_7t6CH",
+			"type":"next"
+		}
+	],
+	"id":"698b05e36b2f3c5ea4e3cc4b",
+	"lastModifiedBy":195322,
+	"lcName":"assignment-aut2-mk",
+	"modifiedTime":1770718691747,
+	"name":"Assignment-Aut2-MK",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_qsY5e-1",
+			"id":"_qsY5e",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_qsY5e-1",
+			"id":"_7t6CH",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":195322,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":0
+}
