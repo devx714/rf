@@ -4,14 +4,14 @@
 	],
 	"createdTime":1752511449026,
 	"deleted":false,
-	"deployedVersion":65,
+	"deployedVersion":66,
 	"deploymentState":{
-		"deployedAt":1774342966610,
+		"deployedAt":1775320687209,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2533629fa153f07e09da7",
+		"deployedDefinitionId":"69d13e6fc6b0c9120df17548",
 		"status":"DEPLOYED",
-		"version":65,
-		"workflowVersion":113
+		"version":66,
+		"workflowVersion":115
 	},
 	"edges":[
 		{
@@ -342,7 +342,7 @@
 	"id":"68712e940efd02597703f2f3",
 	"lastModifiedBy":-1,
 	"lcName":"data rag - fetch metadata for user query",
-	"modifiedTime":1775320687129,
+	"modifiedTime":1775334480248,
 	"name":"DATA RAG - Fetch Metadata for User Query",
 	"nodes":[
 		{
@@ -2498,5 +2498,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":115
+	"version":117
 }
