@@ -4,14 +4,14 @@
 	],
 	"createdTime":1726555302575,
 	"deleted":false,
-	"deployedVersion":170,
+	"deployedVersion":171,
 	"deploymentState":{
-		"deployedAt":1774342890712,
+		"deployedAt":1775320618848,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252ea29fa153f07e09a25",
+		"deployedDefinitionId":"69d13e2a83aecf24ec2548fc",
 		"status":"DEPLOYED",
-		"version":170,
-		"workflowVersion":303
+		"version":171,
+		"workflowVersion":305
 	},
 	"edges":[
 		{
@@ -230,37 +230,16 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
-			},
-			{
-				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"6757db349b09ba5b01b6c44c"
-				],
-				"principalType":"USER_GROUPS"
 			}
 		]
 	},
 	"id":"66e924a61076a11bebd61ffd",
 	"lastModifiedBy":-1,
 	"lcName":"observability | traces of message",
-	"modifiedTime":1774622955560,
+	"modifiedTime":1775334397038,
 	"name":"Observability | Traces of Message",
 	"nodes":[
 		{
@@ -415,7 +394,6 @@
 				"observabilityChangesEnabled":true
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -578,7 +556,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1285,7 +1262,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1921,5 +1897,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":304
+	"version":307
 }
