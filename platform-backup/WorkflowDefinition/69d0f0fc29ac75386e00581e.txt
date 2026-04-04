@@ -46,7 +46,7 @@
 	"id":"69d0f0fc29ac75386e00581e",
 	"lastModifiedBy":161958,
 	"lcName":"autofill pill mapping sample",
-	"modifiedTime":1775313613142,
+	"modifiedTime":1775313618880,
 	"name":"Autofill Pill Mapping Sample",
 	"nodes":[
 		{
@@ -68,8 +68,8 @@
 				"sequential":false,
 				"timezone":"Asia/Calcutta",
 				"daysOfMonth":"",
-				"interval":1,
-				"frequency":"MINUTES"
+				"interval":15,
+				"frequency":"SECONDS"
 			},
 			"skip":false,
 			"subTitle":"Schedule",
@@ -395,5 +395,5 @@
 	"tags":[
 		
 	],
-	"version":6
+	"version":7
 }
