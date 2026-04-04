@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762858199991,
 	"deleted":false,
-	"deployedVersion":28,
+	"deployedVersion":29,
 	"deploymentState":{
-		"deployedAt":1774342921869,
+		"deployedAt":1775320646839,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2530929fa153f07e09be8",
+		"deployedDefinitionId":"69d13e4683aecf24ec254c11",
 		"status":"DEPLOYED",
-		"version":28,
-		"workflowVersion":102
+		"version":29,
+		"workflowVersion":104
 	},
 	"edges":[
 		{
@@ -405,6 +405,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -414,7 +415,7 @@
 	"id":"68ee13c825dd2a2a758ffa51",
 	"lastModifiedBy":-1,
 	"lcName":"query ppr | graphrag with versioning",
-	"modifiedTime":1775320646684,
+	"modifiedTime":1775320890309,
 	"name":"Query PPR | GraphRAG with versioning",
 	"nodes":[
 		{
@@ -765,6 +766,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1244,6 +1246,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2188,6 +2191,7 @@
 				"ua:title":"seedNodesDbOutput"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -3056,6 +3060,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -3688,5 +3693,5 @@
 		}
 	},
 	"standard":true,
-	"version":104
+	"version":105
 }
