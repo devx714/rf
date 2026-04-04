@@ -4,14 +4,14 @@
 	],
 	"createdTime":1724673444529,
 	"deleted":false,
-	"deployedVersion":108,
+	"deployedVersion":109,
 	"deploymentState":{
-		"deployedAt":1775320628570,
+		"deployedAt":1775334405325,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e3483aecf24ec254ab6",
+		"deployedDefinitionId":"69d1740539824e0613819998",
 		"status":"DEPLOYED",
-		"version":108,
-		"workflowVersion":210
+		"version":109,
+		"workflowVersion":212
 	},
 	"edges":[
 		{
@@ -323,6 +323,27 @@
 		"configs":[
 			{
 				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"47193"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -332,7 +353,7 @@
 	"id":"66cc6da466e9a451803eba3c",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge refresher",
-	"modifiedTime":1775334405238,
+	"modifiedTime":1775334705742,
 	"name":"Knowledge Refresher",
 	"nodes":[
 		{
@@ -604,6 +625,7 @@
 				"userId":"{{ FLEro.outputs.result.userId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1673,6 +1695,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2289,5 +2312,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":212
+	"version":213
 }
