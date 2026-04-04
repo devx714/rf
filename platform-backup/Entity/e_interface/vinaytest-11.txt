@@ -30,7 +30,7 @@
 	},
 	"id":"vinaytest-11",
 	"lastModifiedBy":195414,
-	"modifiedTime":1775303938633,
+	"modifiedTime":1775303992030,
 	"ownerUserId":195435,
 	"properties":{
 		"standard":false,
@@ -297,9 +297,7 @@
 				"id":"f_user_id",
 				"segment":":userId",
 				"parentId":"f_user",
-				"children":[
-					"f_course"
-				],
+				"children":[],
 				"path":"/userly878/:userId"
 			},
 			"f_b":{
@@ -319,7 +317,7 @@
 				"children":[
 					"e_696771150543417598ee5563"
 				],
-				"path":"/userly878/:userId/course/:courseId"
+				"path":"/alpha/course/:courseId"
 			},
 			"f_a":{
 				"id":"f_a",
@@ -328,7 +326,8 @@
 					"f_b",
 					"e_69d0a7640f39af2e5600f792",
 					"e_69b79fc600e2c81d3f19b3ae",
-					"e_69d0a7e60f39af2e5600f7de"
+					"e_69d0a7e60f39af2e5600f7de",
+					"f_course"
 				],
 				"path":"/alpha"
 			},
@@ -363,11 +362,11 @@
 			"f_course":{
 				"id":"f_course",
 				"segment":"course",
-				"parentId":"f_user_id",
+				"parentId":"f_a",
 				"children":[
 					"f_course_id"
 				],
-				"path":"/userly878/:userId/course"
+				"path":"/alpha/course"
 			},
 			"f_RXrsT":{
 				"id":"f_RXrsT",
@@ -470,5 +469,5 @@
 		}
 	},
 	"standard":false,
-	"version":1146
+	"version":1147
 }
