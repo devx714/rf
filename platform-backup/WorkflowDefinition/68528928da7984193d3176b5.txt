@@ -33,7 +33,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -43,7 +42,7 @@
 	"id":"68528928da7984193d3176b5",
 	"lastModifiedBy":-1,
 	"lcName":"video chunker",
-	"modifiedTime":1774622956968,
+	"modifiedTime":1775320577605,
 	"name":"Video Chunker",
 	"nodes":[
 		{
@@ -334,5 +333,5 @@
 	"tags":[
 		
 	],
-	"version":118
+	"version":119
 }
