@@ -4,14 +4,14 @@
 	],
 	"createdTime":1722521608224,
 	"deleted":false,
-	"deployedVersion":203,
+	"deployedVersion":204,
 	"deploymentState":{
-		"deployedAt":1774342946658,
+		"deployedAt":1775320668853,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2532229fa153f07e09cec",
+		"deployedDefinitionId":"69d13e5c83aecf24ec254d39",
 		"status":"DEPLOYED",
-		"version":203,
-		"workflowVersion":381
+		"version":204,
+		"workflowVersion":383
 	},
 	"edges":[
 		{
@@ -261,6 +261,68 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
+					"V"
+				],
+				"principalIds":[
+					"44109"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
+					"E",
+					"V"
+				],
+				"principalIds":[
+					"635"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"87628"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"45775"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -270,7 +332,7 @@
 	"id":"66ab98083d73300e63962287",
 	"lastModifiedBy":-1,
 	"lcName":"generic_co_pilot_fetch_case_conversation",
-	"modifiedTime":1775320668707,
+	"modifiedTime":1775320887712,
 	"name":"GENERIC_CO_PILOT_Fetch_Case_Conversation",
 	"nodes":[
 		{
@@ -633,6 +695,7 @@
 				"limit":"{{ n_jgwHI.outputs.result.limit }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2142,6 +2205,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2512,6 +2576,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -3265,5 +3330,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":383
+	"version":384
 }
