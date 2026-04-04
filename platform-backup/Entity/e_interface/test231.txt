@@ -30,7 +30,7 @@
 	},
 	"id":"test231",
 	"lastModifiedBy":196883,
-	"modifiedTime":1775304144037,
+	"modifiedTime":1775305241645,
 	"ownerUserId":522,
 	"properties":{
 		"standard":false,
@@ -472,10 +472,14 @@
 				"pt",
 				"ar-AE",
 				"kn",
-				"gu"
+				"gu",
+				"doi",
+				"fr-FR",
+				"pl",
+				"ja"
 			]
 		}
 	},
 	"standard":false,
-	"version":820
+	"version":828
 }
