@@ -1,0 +1,60 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1774701705460,
+	"deleted":false,
+	"edges":[
+		
+	],
+	"id":"69c7cc8991d94a548bbde9ad",
+	"lastModifiedBy":161912,
+	"lcName":"hii",
+	"modifiedTime":1774701712537,
+	"name":"hii",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":873,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_wuF4r-1",
+			"id":"n_CqyxN",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":161912,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		"tag delete"
+	],
+	"version":1
+}
