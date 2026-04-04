@@ -210,7 +210,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -220,7 +219,7 @@
 	"id":"69b2c6124df22e00555d2b58",
 	"lastModifiedBy":-1,
 	"lcName":"memoryprofile | userspecificmemories",
-	"modifiedTime":1775320889077,
+	"modifiedTime":1775334410170,
 	"name":"MemoryProfile | UserSpecificMemories",
 	"nodes":[
 		{
@@ -629,7 +628,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1472,5 +1470,5 @@
 	"tags":[
 		
 	],
-	"version":29
+	"version":30
 }
