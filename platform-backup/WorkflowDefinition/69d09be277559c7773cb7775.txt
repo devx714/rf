@@ -6,7 +6,7 @@
 	"deleted":false,
 	"edges":[
 		{
-			"fromNodeId":"_hrQzA",
+			"fromNodeId":"n_DZWEj",
 			"priority":0,
 			"skip":false,
 			"toNodeId":"_eEFLc",
@@ -16,18 +16,30 @@
 	"id":"69d09be277559c7773cb7775",
 	"lastModifiedBy":195820,
 	"lcName":"test workspace",
-	"modifiedTime":1775279074350,
+	"modifiedTime":1775279101464,
 	"name":"test workspace",
 	"nodes":[
 		{
+			"context":{
+				"appName":"standard_entities",
+				"resourceVersion":9682,
+				"resourceName":"standard_entities_on_platform_event"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_hrQzA-1",
-			"id":"_hrQzA",
-			"index":0,
+			"id":"n_DZWEj",
+			"index":1,
+			"inputs":{
+				"changeType":"CREATED",
+				"entityTypes":[
+					"s_project"
+				]
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Standard entities by UnifyApps",
+			"title":"On platform event",
 			"trigger":{
 				"type":"EVENT"
 			},
@@ -39,13 +51,16 @@
 			"fallbackMode":"STOP",
 			"groupId":"_hrQzA-1",
 			"id":"_eEFLc",
-			"index":0,
+			"index":2,
 			"skip":false,
 			"title":"Select an app and action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":195820,
+	"schemaReferences":[
+		
+	],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -56,5 +71,5 @@
 		}
 	},
 	"standard":false,
-	"version":0
+	"version":1
 }
