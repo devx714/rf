@@ -63,7 +63,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -73,7 +72,7 @@
 	"id":"684c0d07abedda7d0c5742b9",
 	"lastModifiedBy":-1,
 	"lcName":"copilot | live chat | mark as read",
-	"modifiedTime":1774622955948,
+	"modifiedTime":1775320648943,
 	"name":"Copilot | Live Chat | Mark as Read",
 	"nodes":[
 		{
@@ -317,5 +316,5 @@
 	"tags":[
 		
 	],
-	"version":71
+	"version":72
 }
