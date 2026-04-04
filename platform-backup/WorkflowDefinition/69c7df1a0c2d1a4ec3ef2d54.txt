@@ -1,0 +1,95 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1774801519884,
+	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1774801530370,
+		"deployedBy":197352,
+		"deployedDefinitionId":"69c9526f0a728243c56b3865",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":14
+	},
+	"edges":[
+		{
+			"fromNodeId":"n_GvPYW",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_7NvG7",
+			"type":"next"
+		}
+	],
+	"id":"69c7df1a0c2d1a4ec3ef2d54",
+	"lastModifiedBy":197352,
+	"lcName":"create_new_task_test",
+	"modifiedTime":1774801530373,
+	"name":"create_new_task_test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":141,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_mfVlr-1",
+			"id":"n_GvPYW",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":0,
+				"resourceName":"code_by_unifyapps_playwright",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_mfVlr-1",
+			"id":"n_7NvG7",
+			"index":2,
+			"inputs":{
+				"async":false,
+				"usePlaywrightTestFramework":false,
+				"script":"const { chromium } = require('playwright');\nconst delay = ms => new Promise(res => setTimeout(res, ms));\n(async () => {\n    // 1. Launch browser\n    const browser = await chromium.launch({ headless: true }); // Headed for visual verification\n    const context = await browser.newContext();\n    const page = await context.newPage();\n    try {\n        // 2. Go to site\n        console.log('Navigating to site...');\n        await page.goto('https://orbit.uat.unifyapps.com/p/0/interfaces/department-task-system/preview/signin');\n        await delay(2000);\n        // 3. Click on \"Login via Username\"\n        console.log('Clicking \"Login via Username\"...');\n        await page.click('button[value=\"Login via Username\"]');\n        await delay(2000);\n        // 4. Fill \"Company Email\" and \"Password\"\n        console.log('Filling login credentials...');\n        await page.fill('input[placeholder=\"Enter your company email\"]', 'Demo');\n        await delay(2000);\n        await page.fill('input[placeholder=\"••••••••\"]', 'Unify@2026');\n        await delay(2000);\n        // 5. Click \"Log In\" button\n        console.log('Clicking \"Log in\"...');\n        await page.click('button[value=\"Log in\"]');\n        await delay(2000);\n        // 6. Select \"Anjali\" from dropdown\n        console.log('Selecting \"Anjali\" from dropdown...');\n        // We do NOT type here because it triggers a bug showing \"No options found\"\n        await page.click('input#b_NCQoG'); // Click to open the dropdown\n        await delay(2000);\n        // Select \"Anjali\" from the list\n        await page.click('role=option >> text=\"shivaniss\"');\n        await delay(2000);\n        // 7. Fill password \"12345\"\n        console.log('Filling password...');\n        await page.fill('input[id=\"root.F_VJ20h\"]', '54321');\n        await delay(2000);\n        // 8. Click \"Submit\" button\n        console.log('Clicking first submit button...');\n        await page.click('button[value=\"Submit\"][data-block-id=\"b_PbhXl\"]');\n        await page.screenshot({ path: 'step_8_submit.png' });\n        await delay(2000);\n        // 9. Fill new password \"12345\" and confirm password \"12345\"\n        console.log('Filling new password boxes...');\n        await page.waitForSelector('input[id=\"root.F_IYfKn\"]', { state: 'visible', timeout: 60000 });\n        await page.fill('input[id=\"root.F_IYfKn\"]', 'shivani@123');\n        await delay(2000);\n        await page.fill('input[id=\"root.F_VJ20h\"]', 'shivani@123');\n        await delay(2000);\n        await page.screenshot({ path: 'step_9_new_password.png' });\n        // 10. Click \"Submit\" button\n        console.log('Clicking second submit button...');\n        await page.click('button[value=\"Submit\"][data-block-id=\"b_06sTI\"]');\n        await page.screenshot({ path: 'step_10_submit.png' });\n        await delay(2000);\n        // 11. Navigate from Dashboard to Create Task Form\n        console.log('On Dashboard, clicking \"+ Create New Task\"...');\n        const createBtn = page.locator('button:has-text(\"Create New Task\")');\n        // Wait for dashboard to stabilize\n        await page.waitForTimeout(3000);\n        if (await createBtn.count() > 0) {\n            await createBtn.click();\n            await delay(2000);\n        }\n        // 12. Fill Task Creation Form\n        console.log('Filling task creation form...');\n        await page.waitForSelector('input[id=\"root.F_BcdjQ\"]', { state: 'visible', timeout: 60000 });\n        await delay(2000);\n        // Helper for dropdowns to avoid readonly 'fill' issues\n        const selectDropdownOption = async (inputId, optionText) => {\n            console.log(`Selecting \"${optionText}\" in field ${inputId}...`);\n            const input = page.locator(`input[id=\"${inputId}\"]`);\n            await input.click();\n            await delay(2000);\n            // Try to find the option in the already visible list\n            const option = page.locator(`role=option >> text=\"${optionText}\"`);\n            if (await option.count() > 0) {\n                await option.click();\n            } else {\n                // If not found, try typing (for autocompletes that filter)\n                // but ONLY if the field is not readonly\n                const isReadOnly = await input.getAttribute('readonly');\n                if (isReadOnly === null) {\n                    await input.fill(optionText);\n                    await delay(2000);\n                    await page.click(`role=option >> text=\"${optionText}\"`);\n                } else {\n                    console.log(`Field ${inputId} is readonly, scroll or look for option...`);\n                    // If readonly and not found, maybe it needs scrolling? \n                    // But in our case they should be visible.\n                    await page.click(`role=option >> text=\"${optionText}\"`);\n                }\n            }\n            await delay(2000);\n        };\n        // Assignee (Owner) - \"somya\"\n        await selectDropdownOption('root.F_BcdjQ', 'somya');\n        // Support - \"jaya\"\n        await selectDropdownOption('b_uCNvy', 'jaya');\n        // Verifier - \"het\"\n        await selectDropdownOption('b_ANh2Y', 'het');\n        // Task Title - \"abc\"\n        console.log('Filling task title...');\n        await page.fill('input[id=\"root.F_at6qc\"]', 'abc');\n        await delay(2000);\n        // Function - \"Admin\"\n        await selectDropdownOption('root.F_CahSM', 'Admin');\n        // Project - \"Process Documentation\"\n        await selectDropdownOption('root.F_uwG1g', 'Process Documentation');\n        // Start Date - 28 march\n        console.log('Filling start date...');\n        await page.fill('input[id=\"root.F_d7t87\"]', '2026-03-28');\n        await delay(2000);\n        // Due Date - 30 march\n        console.log('Filling due date...');\n        await page.fill('input[id=\"root.F_iTrFf\"]', '2026-03-30');\n        await delay(2000);\n        // Description - \"test desc\"\n        console.log('Filling description...');\n        await page.fill('textarea[id=\"root.F_uS5wM\"]', 'test desc');\n        await delay(2000);\n        // Status - \"In Progress\"\n        await selectDropdownOption('root.F_mzVX1', 'In Progress');\n        // Priority - \"Medium\"\n        await selectDropdownOption('root.F_FpNo0', 'Medium');\n        // Urgency Flag - Check \"Mark as urgent\"\n        console.log('Checking urgency flag...');\n        await page.check('input#root[type=\"checkbox\"]');\n        await delay(2000);\n        // Reminder Date - 29 march\n        console.log('Filling reminder date...');\n        await page.fill('input[id=\"root.F_JMD5D\"]', '2026-03-29');\n        await delay(2000);\n        // Custom Tags - \"test\"\n        console.log('Adding custom tags...');\n        await page.fill('input[placeholder=\"Add Custom tag and press Enter\"]', 'test');\n        await delay(2000);\n        await page.click('button[value=\"Add\"]');\n        await delay(2000);\n        // 13. Click \"Create Task\"\n        console.log('Clicking \"Create Task\"...');\n        await page.click('button[value=\"Create Task\"][data-block-id=\"b_dWcKC\"]');\n        await delay(2000);\n        // 14. Verification\n        console.log('Verifying success...');\n        // The success screen has \"Create New Task\" or \"Task List\"\n        await page.waitForSelector('button:has-text(\"Create New Task\")', { timeout: 15000 });\n        await page.screenshot({ path: 'final_success.png' });\n        console.log('Task Created Successfully!');\n    } catch (error) {\n        console.error('An error occurred during automation:', error);\n        await page.screenshot({ path: 'failure_state.png' });\n    } finally {\n        // Keep browser open for observation\n        await page.waitForTimeout(5000);\n        await browser.close();\n    }\n})();"
+			},
+			"skip":false,
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute playwright script",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":197352,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"version":14
+}
