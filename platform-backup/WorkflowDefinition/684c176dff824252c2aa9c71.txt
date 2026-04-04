@@ -200,67 +200,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"67a1a7856d555959c8608546"
-				],
-				"principalType":"USER_GROUPS"
-			},
-			{
-				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"669e40a04fbd653337a9aa8e"
-				],
-				"principalType":"USER_GROUPS"
-			},
-			{
-				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"6757db349b09ba5b01b6c44c"
-				],
-				"principalType":"USER_GROUPS"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -270,7 +209,7 @@
 	"id":"684c176dff824252c2aa9c71",
 	"lastModifiedBy":-1,
 	"lcName":"get org details",
-	"modifiedTime":1774622956412,
+	"modifiedTime":1775320641755,
 	"name":"Get Org Details",
 	"nodes":[
 		{
@@ -764,7 +703,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -936,7 +874,6 @@
 				"hasMore":true
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1010,7 +947,6 @@
 				"hasMoreEmail":true
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1876,7 +1812,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2269,5 +2204,5 @@
 	"tags":[
 		
 	],
-	"version":110
+	"version":111
 }
