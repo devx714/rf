@@ -25,7 +25,7 @@
 	"id":"69d09378bf6b7139d9360fa1",
 	"lastModifiedBy":426,
 	"lcName":"changesetqa2n7kygs6jfhp7",
-	"modifiedTime":1775278045034,
+	"modifiedTime":1775278095633,
 	"name":"changeSetQA2n7kyGs6jFHp7",
 	"nodes":[
 		{
@@ -125,7 +125,7 @@
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
-		"enableVariableLogging":false,
+		"enableVariableLogging":true,
 		"route":{
 			"default":false,
 			"headerValueTierMap":{},
@@ -136,5 +136,5 @@
 	"tags":[
 		
 	],
-	"version":3
+	"version":4
 }
