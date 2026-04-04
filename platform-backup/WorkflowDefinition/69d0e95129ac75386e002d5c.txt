@@ -1,52 +1,81 @@
 {
 	"appsUsed":[
-		
+		"slack"
 	],
 	"createdTime":1775298897996,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_nARYC",
+			"fromNodeId":"n_GZLpf",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_kmjCV",
+			"toNodeId":"n_HQbCn",
 			"type":"next"
 		}
 	],
 	"id":"69d0e95129ac75386e002d5c",
 	"lastModifiedBy":175325,
 	"lcName":"check_citcuitbreakerlist_217752988921850",
-	"modifiedTime":1775298903546,
+	"modifiedTime":1775298937401,
 	"name":"Check_CitcuitBreakerList_217752988921850",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":875,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_nARYC-1",
-			"id":"_nARYC",
-			"index":0,
+			"id":"n_GZLpf",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"slack",
+				"resourceVersion":7347,
+				"connectionId":"69ccb549d39d3f1648937232",
+				"resourceName":"slack_post_message_in_channel",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_nARYC-1",
-			"id":"_kmjCV",
-			"index":0,
+			"id":"n_HQbCn",
+			"index":2,
+			"inputs":{
+				"link_names":true,
+				"messageType":"text",
+				"channel":"C08LLJ5UR0U",
+				"text":"Check Circuit Breaker List",
+				"mrkdwn":true
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Slack",
+			"title":"Post message",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":175325,
+	"schemaReferences":[
+		
+	],
 	"settings":{
 		"enableNodeLevelLogging":false,
 		"enableRunLogging":false,
@@ -61,5 +90,5 @@
 	"tags":[
 		"dnt_tag"
 	],
-	"version":1
+	"version":2
 }
