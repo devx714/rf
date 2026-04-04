@@ -107,47 +107,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"1866"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"17"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -157,7 +116,7 @@
 	"id":"66a784c1c2d78732bf240022",
 	"lastModifiedBy":-1,
 	"lcName":"file upload | knowledge indexer",
-	"modifiedTime":1774622955427,
+	"modifiedTime":1775320677368,
 	"name":"File Upload | Knowledge Indexer",
 	"nodes":[
 		{
@@ -336,7 +295,6 @@
 				"path":"{{ tCcXj.outputs.fileDetails.url }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -694,5 +652,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":801
+	"version":802
 }
