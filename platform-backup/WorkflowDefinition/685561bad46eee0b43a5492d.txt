@@ -4,14 +4,14 @@
 	],
 	"createdTime":1750672051236,
 	"deleted":false,
-	"deployedVersion":40,
+	"deployedVersion":41,
 	"deploymentState":{
-		"deployedAt":1774342965703,
+		"deployedAt":1775320686243,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2533529fa153f07e09d9f",
+		"deployedDefinitionId":"69d13e6ec6b0c9120df17538",
 		"status":"DEPLOYED",
-		"version":40,
-		"workflowVersion":85
+		"version":41,
+		"workflowVersion":87
 	},
 	"edges":[
 		{
@@ -133,7 +133,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -143,7 +142,7 @@
 	"id":"685561bad46eee0b43a5492d",
 	"lastModifiedBy":-1,
 	"lcName":"index people",
-	"modifiedTime":1774622956456,
+	"modifiedTime":1775334479327,
 	"name":"Index People",
 	"nodes":[
 		{
@@ -999,5 +998,5 @@
 	"tags":[
 		
 	],
-	"version":86
+	"version":89
 }
