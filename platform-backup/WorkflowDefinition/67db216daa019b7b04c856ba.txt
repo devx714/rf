@@ -4,14 +4,14 @@
 	],
 	"createdTime":1742454584311,
 	"deleted":false,
-	"deployedVersion":86,
+	"deployedVersion":88,
 	"deploymentState":{
-		"deployedAt":1774342913590,
+		"deployedAt":1775334416633,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c253018d65fb68e1563a11",
+		"deployedDefinitionId":"69d1741039824e0613819a72",
 		"status":"DEPLOYED",
-		"version":86,
-		"workflowVersion":135
+		"version":88,
+		"workflowVersion":139
 	},
 	"edges":[
 		{
@@ -63,6 +63,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -72,7 +73,7 @@
 	"id":"67db216daa019b7b04c856ba",
 	"lastModifiedBy":-1,
 	"lcName":"construct knowledge input",
-	"modifiedTime":1775320640904,
+	"modifiedTime":1775334706252,
 	"name":"Construct Knowledge Input",
 	"nodes":[
 		{
@@ -361,5 +362,5 @@
 	"tags":[
 		
 	],
-	"version":137
+	"version":140
 }
