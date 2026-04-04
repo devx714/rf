@@ -1,0 +1,588 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1774995502025,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"n_sTaRt",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_fAgnt",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_fAgnt",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_fRass",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_fRass",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_bRnch",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_bRnch",
+			"name":"single_lan",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_lSlan",
+			"type":"branch"
+		},
+		{
+			"fromNodeId":"n_bRnch",
+			"name":"multi_lan",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_lMlan",
+			"type":"branch"
+		},
+		{
+			"fromNodeId":"n_bRnch",
+			"name":"default",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_lA2a",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_lSlan",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_fSlag",
+			"type":"loop"
+		},
+		{
+			"fromNodeId":"n_fSlag",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_cSlog",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_cSlog",
+			"name":"loopback",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_lSlan",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_lSlan",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_sToP",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_lMlan",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_fMlag",
+			"type":"loop"
+		},
+		{
+			"fromNodeId":"n_fMlag",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_cMlog",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_cMlog",
+			"name":"loopback",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_lMlan",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_lMlan",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_sToP",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_lA2a",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_fA2ag",
+			"type":"loop"
+		},
+		{
+			"fromNodeId":"n_fA2ag",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_cA2lg",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_cA2lg",
+			"name":"loopback",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_lA2a",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_lA2a",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_sToP",
+			"type":"next"
+		}
+	],
+	"id":"69cc482e92a22351a644b0f1",
+	"lastModifiedBy":9,
+	"lcName":"dummy",
+	"modifiedTime":1774998491531,
+	"name":"dummy",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":0,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_rQ7mP-1",
+			"id":"n_sTaRt",
+			"index":1,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[],
+					"properties":{}
+				},
+				"setup":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[
+						"reassignmentId",
+						"fromAgentId",
+						"toAgentIds",
+						"transferType"
+					],
+					"properties":{
+						"reassignmentId":{
+							"type":"string",
+							"title":"Reassignment ID",
+							"help":"ID of the reassignment record"
+						},
+						"fromAgentId":{
+							"type":"string",
+							"title":"From Agent ID",
+							"help":"Employee ID of the agent losing the loans"
+						},
+						"toAgentIds":{
+							"type":"array",
+							"title":"To Agent IDs",
+							"help":"List of employee IDs receiving the loans"
+						},
+						"transferType":{
+							"type":"string",
+							"title":"Transfer Type",
+							"help":"One of: SINGLE_LAN, MULTI_LAN, AGENT_TO_AGENT"
+						}
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":0,
+				"resourceName":"storage_by_unifyapps_get_record_by_id",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_rQ7mP-1",
+			"id":"n_fAgnt",
+			"index":2,
+			"inputs":{
+				"object_type":"Employee",
+				"id":"{{ n_sTaRt.outputs.fromAgentId }}"
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Fetch from-agent record",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":0,
+				"resourceName":"storage_by_unifyapps_get_record_by_id",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_rQ7mP-1",
+			"id":"n_fRass",
+			"index":3,
+			"inputs":{
+				"object_type":"LoanReassignment",
+				"id":"{{ n_sTaRt.outputs.reassignmentId }}"
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Fetch reassignment record",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"branch",
+				"resourceVersion":0,
+				"resourceName":"branch_default",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_rQ7mP-1",
+			"id":"n_bRnch",
+			"index":4,
+			"inputs":{
+				"branches":[
+					{
+						"id":"single_lan",
+						"inputs":{
+							"name":"Single LAN",
+							"conditions":{
+								"filters":[
+									{
+										"property":"{{ n_sTaRt.outputs.transferType }}",
+										"filter":{
+											"operator":"EQUAL",
+											"value":"SINGLE_LAN"
+										}
+									}
+								],
+								"operator":"AND"
+							}
+						}
+					},
+					{
+						"id":"multi_lan",
+						"inputs":{
+							"name":"Multi LAN",
+							"conditions":{
+								"filters":[
+									{
+										"property":"{{ n_sTaRt.outputs.transferType }}",
+										"filter":{
+											"operator":"EQUAL",
+											"value":"MULTI_LAN"
+										}
+									}
+								],
+								"operator":"AND"
+							}
+						}
+					},
+					{
+						"id":"agent_to_agent",
+						"inputs":{
+							"name":"Agent to Agent"
+						}
+					}
+				]
+			},
+			"skip":false,
+			"subTitle":"Branch",
+			"title":"Branch on transfer type",
+			"type":"BRANCH"
+		},
+		{
+			"context":{
+				"appName":"loop",
+				"resourceVersion":0,
+				"resourceName":"loop_for_each",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_bRnch@_rQ7mP-1@0",
+			"id":"n_lSlan",
+			"index":5,
+			"inputs":{
+				"repeatMode":"SINGLE",
+				"listSource":"{{ n_sTaRt.outputs.toAgentIds }}",
+				"captureIterations":false
+			},
+			"skip":false,
+			"subTitle":"Loop",
+			"title":"For each to-agent (Single LAN)",
+			"type":"LOOP"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":0,
+				"resourceName":"storage_by_unifyapps_get_record_by_id",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_lSlan@n_bRnch@_rQ7mP-1@0@l",
+			"id":"n_fSlag",
+			"index":6,
+			"inputs":{
+				"object_type":"Employee",
+				"id":"{{ n_lSlan.outputs.item }}"
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Fetch to-agent record",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":0,
+				"resourceName":"storage_by_unifyapps_create_record",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_lSlan@n_bRnch@_rQ7mP-1@0@l",
+			"id":"n_cSlog",
+			"index":7,
+			"inputs":{
+				"useRawPayload":false,
+				"writeThroughSessionVariables":false,
+				"object_type":"ActivityLog",
+				"skipIfBlank":false,
+				"record":{
+					"transferType":"SINGLE_LAN",
+					"reassignmentId":"{{ n_sTaRt.outputs.reassignmentId }}",
+					"fromAgentId":"{{ n_sTaRt.outputs.fromAgentId }}",
+					"fromAgentName":"{{ n_fAgnt.outputs.object.properties.name }}",
+					"toAgentId":"{{ n_lSlan.outputs.item }}",
+					"toAgentName":"{{ n_fSlag.outputs.object.properties.name }}",
+					"loanDetails":"{{ n_fRass.outputs.object.properties.loanDetails }}",
+					"lan":"{{ n_fRass.outputs.object.properties.lan }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Create activity log entry",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"loop",
+				"resourceVersion":0,
+				"resourceName":"loop_for_each",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_bRnch@_rQ7mP-1@1",
+			"id":"n_lMlan",
+			"index":8,
+			"inputs":{
+				"repeatMode":"SINGLE",
+				"listSource":"{{ n_sTaRt.outputs.toAgentIds }}",
+				"captureIterations":false
+			},
+			"skip":false,
+			"subTitle":"Loop",
+			"title":"For each to-agent (Multi LAN)",
+			"type":"LOOP"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":0,
+				"resourceName":"storage_by_unifyapps_get_record_by_id",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_lMlan@n_bRnch@_rQ7mP-1@1@l",
+			"id":"n_fMlag",
+			"index":9,
+			"inputs":{
+				"object_type":"Employee",
+				"id":"{{ n_lMlan.outputs.item }}"
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Fetch to-agent record",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":0,
+				"resourceName":"storage_by_unifyapps_create_record",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_lMlan@n_bRnch@_rQ7mP-1@1@l",
+			"id":"n_cMlog",
+			"index":10,
+			"inputs":{
+				"useRawPayload":false,
+				"writeThroughSessionVariables":false,
+				"object_type":"ActivityLog",
+				"skipIfBlank":false,
+				"record":{
+					"transferType":"MULTI_LAN",
+					"reassignmentId":"{{ n_sTaRt.outputs.reassignmentId }}",
+					"fromAgentId":"{{ n_sTaRt.outputs.fromAgentId }}",
+					"fromAgentName":"{{ n_fAgnt.outputs.object.properties.name }}",
+					"toAgentId":"{{ n_lMlan.outputs.item }}",
+					"toAgentName":"{{ n_fMlag.outputs.object.properties.name }}",
+					"loanDetails":"{{ n_fRass.outputs.object.properties.loanDetails }}",
+					"lans":"{{ n_fRass.outputs.object.properties.lans }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Create activity log entry",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"loop",
+				"resourceVersion":0,
+				"resourceName":"loop_for_each",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_bRnch@_rQ7mP-1@2",
+			"id":"n_lA2a",
+			"index":11,
+			"inputs":{
+				"repeatMode":"SINGLE",
+				"listSource":"{{ n_sTaRt.outputs.toAgentIds }}",
+				"captureIterations":false
+			},
+			"skip":false,
+			"subTitle":"Loop",
+			"title":"For each to-agent (Agent to Agent)",
+			"type":"LOOP"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":0,
+				"resourceName":"storage_by_unifyapps_get_record_by_id",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_lA2a@n_bRnch@_rQ7mP-1@2@l",
+			"id":"n_fA2ag",
+			"index":12,
+			"inputs":{
+				"object_type":"Employee",
+				"id":"{{ n_lA2a.outputs.item }}"
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Fetch to-agent record",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":0,
+				"resourceName":"storage_by_unifyapps_create_record",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_lA2a@n_bRnch@_rQ7mP-1@2@l",
+			"id":"n_cA2lg",
+			"index":13,
+			"inputs":{
+				"useRawPayload":false,
+				"writeThroughSessionVariables":false,
+				"object_type":"ActivityLog",
+				"skipIfBlank":false,
+				"record":{
+					"transferType":"AGENT_TO_AGENT",
+					"reassignmentId":"{{ n_sTaRt.outputs.reassignmentId }}",
+					"fromAgentId":"{{ n_sTaRt.outputs.fromAgentId }}",
+					"fromAgentName":"{{ n_fAgnt.outputs.object.properties.name }}",
+					"toAgentId":"{{ n_lA2a.outputs.item }}",
+					"toAgentName":"{{ n_fA2ag.outputs.object.properties.name }}",
+					"loanDetails":"{{ n_fRass.outputs.object.properties.loanDetails }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Create activity log entry",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":0,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_rQ7mP-1",
+			"id":"n_sToP",
+			"index":14,
+			"inputs":{
+				"result":{}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":9,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"version":3
+}
