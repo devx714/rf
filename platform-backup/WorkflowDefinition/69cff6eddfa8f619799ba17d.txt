@@ -1,6 +1,6 @@
 {
 	"appsUsed":[
-		
+		"mollie"
 	],
 	"createdTime":1775236845365,
 	"deleted":false,
@@ -9,14 +9,91 @@
 			"fromNodeId":"_SzVOn",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_C0bQ0",
+			"toNodeId":"n_P4TA7",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_P4TA7",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_yJKCf",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_yJKCf",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_mGEMR",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_mGEMR",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_mrxCz",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_mrxCz",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_UmXuh",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_UmXuh",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_Y4VjW",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_Y4VjW",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_8tYAR",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_8tYAR",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_5z9PH",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_5z9PH",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_OS7xh",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_OS7xh",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_bNYeS",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_bNYeS",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_WvyaB",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_WvyaB",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_1Nxrk",
 			"type":"next"
 		}
 	],
 	"id":"69cff6eddfa8f619799ba17d",
 	"lastModifiedBy":191676,
 	"lcName":"test",
-	"modifiedTime":1775236845365,
+	"modifiedTime":1775280533388,
 	"name":"test",
 	"nodes":[
 		{
@@ -25,7 +102,7 @@
 			"fallbackMode":"STOP",
 			"groupId":"_SzVOn-1",
 			"id":"_SzVOn",
-			"index":0,
+			"index":1,
 			"skip":false,
 			"title":"Select a trigger event",
 			"trigger":{
@@ -34,18 +111,283 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"mollie",
+				"resourceVersion":7,
+				"connectionId":"69cfbdeff5ba0e3efde6e905",
+				"resourceName":"mollie_list_payments",
+				"type":"APPLICATION"
+			},
 			"debug":false,
 			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_SzVOn-1",
-			"id":"_C0bQ0",
-			"index":0,
+			"id":"n_P4TA7",
+			"index":2,
+			"inputs":{},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Mollie",
+			"title":"List payments",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"mollie",
+				"resourceVersion":12,
+				"connectionId":"69cfbdeff5ba0e3efde6e905",
+				"resourceName":"mollie_list_customers",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_SzVOn-1",
+			"id":"n_yJKCf",
+			"index":3,
+			"inputs":{},
+			"skip":false,
+			"subTitle":"Mollie",
+			"title":"List customers",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"mollie",
+				"resourceVersion":13,
+				"connectionId":"69cfbdeff5ba0e3efde6e905",
+				"resourceName":"mollie_list_customer_payments",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_SzVOn-1",
+			"id":"n_mGEMR",
+			"index":4,
+			"inputs":{
+				"customerId":"cst_vNE7Kv6LBd"
+			},
+			"skip":false,
+			"subTitle":"Mollie",
+			"title":"List customer payments",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"mollie",
+				"resourceVersion":15,
+				"connectionId":"69cfbdeff5ba0e3efde6e905",
+				"resourceName":"mollie_get_customer",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_SzVOn-1",
+			"id":"n_mrxCz",
+			"index":5,
+			"inputs":{
+				"customerId":"cst_vNE7Kv6LBd"
+			},
+			"skip":false,
+			"subTitle":"Mollie",
+			"title":"Get customer",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"mollie",
+				"resourceVersion":8,
+				"connectionId":"69cfbdeff5ba0e3efde6e905",
+				"resourceName":"mollie_get_payment",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_SzVOn-1",
+			"id":"n_UmXuh",
+			"index":6,
+			"inputs":{
+				"paymentId":"tr_UjtDv9q87hdgoKYd5DLPJ"
+			},
+			"skip":false,
+			"subTitle":"Mollie",
+			"title":"Get payment",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"mollie",
+				"resourceVersion":16,
+				"connectionId":"69cfbdeff5ba0e3efde6e905",
+				"resourceName":"mollie_create_customer",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_SzVOn-1",
+			"id":"n_Y4VjW",
+			"index":7,
+			"inputs":{},
+			"skip":false,
+			"subTitle":"Mollie",
+			"title":"Create customer",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"mollie",
+				"resourceVersion":15,
+				"connectionId":"69cfbdeff5ba0e3efde6e905",
+				"resourceName":"mollie_create_customer_payment",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_SzVOn-1",
+			"id":"n_8tYAR",
+			"index":8,
+			"inputs":{
+				"amount":{
+					"currency":"EUR",
+					"value":"10.00"
+				},
+				"redirectUrl":"https://webshop.example.org/order/12345/",
+				"customerId":"cst_vNE7Kv6LBd",
+				"description":"hsahvx"
+			},
+			"skip":false,
+			"subTitle":"Mollie",
+			"title":"Create customer payment",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"mollie",
+				"resourceVersion":12,
+				"connectionId":"69cfbdeff5ba0e3efde6e905",
+				"resourceName":"mollie_create_mandate",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_SzVOn-1",
+			"id":"n_5z9PH",
+			"index":9,
+			"inputs":{
+				"method":"directdebit",
+				"customerId":"cst_vNE7Kv6LBd",
+				"consumerAccount":"NL55INGB0000000000",
+				"consumerName":"hscg"
+			},
+			"skip":false,
+			"subTitle":"Mollie",
+			"title":"Create mandate",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"mollie",
+				"resourceVersion":15,
+				"connectionId":"69cfbdeff5ba0e3efde6e905",
+				"resourceName":"mollie_create_payment",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_SzVOn-1",
+			"id":"n_OS7xh",
+			"index":10,
+			"inputs":{
+				"amount":{
+					"currency":"EUR",
+					"value":"10.00"
+				},
+				"redirectUrl":"https://webshop.example.org/order/12345/",
+				"description":"bshx"
+			},
+			"skip":false,
+			"subTitle":"Mollie",
+			"title":"Create payment",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"mollie",
+				"resourceVersion":3,
+				"connectionId":"69cfbdeff5ba0e3efde6e905",
+				"resourceName":"mollie_release_payment_authorization",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_SzVOn-1",
+			"id":"n_bNYeS",
+			"index":11,
+			"inputs":{
+				"testmode":true,
+				"paymentId":"tr_UjtDv9q87hdgoKYd5DLPJ"
+			},
+			"skip":false,
+			"subTitle":"Mollie",
+			"title":"Release payment authorization",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"mollie",
+				"resourceVersion":4,
+				"connectionId":"69cfbdeff5ba0e3efde6e905",
+				"resourceName":"mollie_update_customer",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_SzVOn-1",
+			"id":"n_WvyaB",
+			"index":12,
+			"inputs":{
+				"customerId":"cst_vNE7Kv6LBd"
+			},
+			"skip":false,
+			"subTitle":"Mollie",
+			"title":"Update customer",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"mollie",
+				"resourceVersion":2,
+				"connectionId":"69cfbdeff5ba0e3efde6e905",
+				"resourceName":"mollie_update_payment",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_SzVOn-1",
+			"id":"n_1Nxrk",
+			"index":13,
+			"inputs":{
+				"paymentId":"tr_nfw8WiHhTpQEUDdvJeLPJ"
+			},
+			"skip":false,
+			"subTitle":"Mollie",
+			"title":"Update payment",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":191676,
+	"schemaReferences":[
+		
+	],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -56,5 +398,5 @@
 		}
 	},
 	"standard":false,
-	"version":0
+	"version":2
 }
