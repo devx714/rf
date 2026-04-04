@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775278718334,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775278718474,
+		"deployedBy":175325,
+		"deployedDefinitionId":"69d09a7e77559c7773cb706c",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"edges":[
 		{
 			"fromNodeId":"3MWHo",
@@ -37,7 +46,7 @@
 	"id":"69d09a7e77559c7773cb7069",
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa26144899945",
-	"modifiedTime":1775278718395,
+	"modifiedTime":1775278718475,
 	"name":"changeSetQA26144899945",
 	"nodes":[
 		{
@@ -47,7 +56,7 @@
 				"resourceName":"callables_from_automation"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"GPDEx-1",
 			"id":"3MWHo",
@@ -101,7 +110,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"GPDEx-1",
 			"id":"69Yz7",
@@ -130,7 +139,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"GPDEx-1",
 			"id":"vDoal",
@@ -155,7 +164,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"GPDEx-1",
 			"id":"dkG42",
@@ -400,6 +409,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -438,7 +448,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"GPDEx-1",
 			"id":"JD2Ju",
