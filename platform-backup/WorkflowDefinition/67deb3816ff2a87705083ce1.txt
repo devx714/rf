@@ -4,14 +4,14 @@
 	],
 	"createdTime":1742648193253,
 	"deleted":false,
-	"deployedVersion":86,
+	"deployedVersion":87,
 	"deploymentState":{
-		"deployedAt":1774342873794,
+		"deployedAt":1775320605636,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252d929fa153f07e09991",
+		"deployedDefinitionId":"69d13e1d83aecf24ec254774",
 		"status":"DEPLOYED",
-		"version":86,
-		"workflowVersion":129
+		"version":87,
+		"workflowVersion":131
 	},
 	"edges":[
 		{
@@ -273,6 +273,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -282,7 +283,7 @@
 	"id":"67deb3816ff2a87705083ce1",
 	"lastModifiedBy":-1,
 	"lcName":"[mcp server] call tool",
-	"modifiedTime":1775320605527,
+	"modifiedTime":1775320888278,
 	"name":"[MCP Server] Call Tool",
 	"nodes":[
 		{
@@ -881,6 +882,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1015,6 +1017,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1447,6 +1450,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1760,6 +1764,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1851,6 +1856,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2088,5 +2094,5 @@
 	"tags":[
 		"MCP Server"
 	],
-	"version":131
+	"version":132
 }
