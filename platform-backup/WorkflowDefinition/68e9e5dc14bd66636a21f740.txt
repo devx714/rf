@@ -93,7 +93,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -103,7 +102,7 @@
 	"id":"68e9e5dc14bd66636a21f740",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] index knowledge",
-	"modifiedTime":1775320890828,
+	"modifiedTime":1775334347541,
 	"name":"[DT] Index Knowledge",
 	"nodes":[
 		{
@@ -600,5 +599,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":95
+	"version":96
 }
