@@ -32,17 +32,22 @@
 	"id":"69d13595c6b0c9120df16eb2",
 	"lastModifiedBy":197352,
 	"lcName":"test_png",
-	"modifiedTime":1775318569743,
+	"modifiedTime":1775319507089,
 	"name":"test_png",
 	"nodes":[
 		{
+			"additional":{
+				"xsdSchemaConfig":{
+					"root":{}
+				}
+			},
 			"context":{
 				"appName":"callables",
 				"resourceVersion":3298,
 				"resourceName":"callables_from_automation"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_51vtD-1",
 			"id":"n_jc3sI",
@@ -51,13 +56,116 @@
 				"setup":{
 					"type":"object",
 					"additionalProperties":false,
-					"required":[],
 					"properties":{
-						"inputFile":{
+						"file":{
 							"type":"object",
-							"properties":{},
-							"additionalProperties":false,
-							"title":"Input File"
+							"properties":{
+								"source":{
+									"type":"string",
+									"title":"source"
+								},
+								"mimeType":{
+									"type":"string",
+									"title":"mimeType"
+								},
+								"type":{
+									"type":"string",
+									"title":"type"
+								},
+								"url":{
+									"type":"string",
+									"title":"url"
+								},
+								"size":{
+									"type":"integer",
+									"title":"size"
+								},
+								"sourceType":{
+									"type":"string",
+									"title":"sourceType"
+								},
+								"meta":{
+									"type":"object",
+									"properties":{
+										"previewUrl":{
+											"type":"string",
+											"title":"previewUrl"
+										},
+										"queryMeta":{
+											"type":"object",
+											"title":"queryMeta"
+										},
+										"useExternalApi":{
+											"type":"boolean",
+											"title":"useExternalApi"
+										},
+										"relativePath":{
+											"type":"string",
+											"title":"relativePath"
+										},
+										"name":{
+											"type":"string",
+											"title":"name"
+										},
+										"type":{
+											"type":"string",
+											"title":"type"
+										},
+										"publicAcl":{
+											"type":"boolean",
+											"title":"publicAcl"
+										},
+										"uri":{
+											"type":"string",
+											"title":"uri"
+										},
+										"referenceId":{
+											"type":"string",
+											"title":"referenceId"
+										},
+										"cacheControl":{
+											"type":"string",
+											"title":"cacheControl"
+										}
+									},
+									"title":"meta",
+									"additionalProperties":false
+								},
+								"name":{
+									"type":"string",
+									"title":"name"
+								},
+								"progress":{
+									"type":"integer",
+									"title":"progress"
+								},
+								"isUploaded":{
+									"type":"boolean",
+									"title":"isUploaded"
+								},
+								"id":{
+									"type":"string",
+									"title":"id"
+								},
+								"hasError":{
+									"type":"boolean",
+									"title":"hasError"
+								},
+								"fileType":{
+									"type":"string",
+									"title":"fileType"
+								}
+							},
+							"title":"file",
+							"additionalProperties":false
+						},
+						"sourceMimeType":{
+							"type":"string",
+							"title":"sourceMimeType"
+						},
+						"targetMimeType":{
+							"type":"string",
+							"title":"targetMimeType"
 						}
 					}
 				}
@@ -78,14 +186,14 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_51vtD-1",
 			"id":"n_hI7ID",
 			"index":2,
 			"inputs":{
-				"file":"{{ n_jc3sI.outputs.inputFile }}",
-				"sourceMimeType":"image/webp",
+				"file":"",
+				"sourceMimeType":"text/plain",
 				"targetMimeType":"image/png"
 			},
 			"skip":false,
@@ -101,7 +209,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_51vtD-1",
 			"id":"n_y4lzr",
@@ -129,5 +237,5 @@
 		}
 	},
 	"standard":false,
-	"version":2
+	"version":3
 }
