@@ -23,7 +23,7 @@
 	"id":"69d11e74de80d477ad1d1bc8",
 	"lastModifiedBy":196883,
 	"lcName":"test-or",
-	"modifiedTime":1775313047547,
+	"modifiedTime":1775313058219,
 	"name":"test-or",
 	"nodes":[
 		{
@@ -308,7 +308,9 @@
 			"groupId":"_MDB8s-1",
 			"id":"n_CkNpe",
 			"index":3,
-			"inputs":{},
+			"inputs":{
+				"result":"200"
+			},
 			"skip":false,
 			"subTitle":"Callable",
 			"title":"Respond to automation",
@@ -329,5 +331,5 @@
 		}
 	},
 	"standard":false,
-	"version":2
+	"version":3
 }
