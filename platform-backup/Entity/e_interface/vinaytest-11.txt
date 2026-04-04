@@ -30,7 +30,7 @@
 	},
 	"id":"vinaytest-11",
 	"lastModifiedBy":195414,
-	"modifiedTime":1775288108809,
+	"modifiedTime":1775288582355,
 	"ownerUserId":195435,
 	"properties":{
 		"standard":false,
@@ -59,7 +59,8 @@
 			"e_696771150543417598ee5563":{},
 			"e_69677532d1aa6b56b37b5f45":{},
 			"e_6985afdc9d5b5252328aab41":{},
-			"e_69d0a7640f39af2e5600f792":{}
+			"e_69d0a7640f39af2e5600f792":{},
+			"e_69d0a7e60f39af2e5600f7de":{}
 		},
 		"type":"application",
 		"locale":{
@@ -259,7 +260,7 @@
 			"e_69b79fc600e2c81d3f19b3ae":"page-37",
 			"e_69d0a7640f39af2e5600f792":"ssssss",
 			"e_69ba4c797091fd58ef93252d":"_5nlS3",
-			"e_69d0a7e60f39af2e5600f7de":"page-44"
+			"e_69d0a7e60f39af2e5600f7de":"hello"
 		},
 		"paths":{
 			"f_root":{
@@ -339,7 +340,8 @@
 				"children":[
 					"f_user_id",
 					"f_setting",
-					"e_69d0a7640f39af2e5600f792"
+					"e_69d0a7640f39af2e5600f792",
+					"e_69d0a7e60f39af2e5600f7de"
 				],
 				"path":"/user"
 			},
@@ -391,9 +393,7 @@
 				"id":"f_kSM1r",
 				"segment":":courseid",
 				"parentId":"f_4wyW4",
-				"children":[
-					"e_69d0a7e60f39af2e5600f7de"
-				],
+				"children":[],
 				"path":"/course/:courseid"
 			},
 			"f_Ny90s":{
@@ -443,12 +443,12 @@
 				"type":"PAGE"
 			},
 			"e_69d0a7e60f39af2e5600f7de":{
-				"slug":"page-44",
+				"slug":"hello",
 				"isPublic":false,
 				"type":"PAGE"
 			}
 		}
 	},
 	"standard":false,
-	"version":1132
+	"version":1133
 }
