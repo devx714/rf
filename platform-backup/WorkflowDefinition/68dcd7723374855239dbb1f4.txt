@@ -368,7 +368,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -378,7 +377,7 @@
 	"id":"68dcd7723374855239dbb1f4",
 	"lastModifiedBy":-1,
 	"lcName":"call perplexity deep research",
-	"modifiedTime":1775320889499,
+	"modifiedTime":1775334419246,
 	"name":"Call Perplexity Deep Research",
 	"nodes":[
 		{
@@ -1017,7 +1016,6 @@
 				"isLastSlash":false
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1121,7 +1119,6 @@
 				"topP":"{{ CpGDp.outputs.top_p }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1724,7 +1721,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1974,7 +1970,6 @@
 				"bufferSize":"3"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2243,7 +2238,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2346,7 +2340,6 @@
 				"currentTime":"{{ n_AiAmO.outputs.result.time }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2593,7 +2586,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -3205,7 +3197,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -3829,5 +3820,5 @@
 		}
 	},
 	"standard":true,
-	"version":81
+	"version":82
 }
