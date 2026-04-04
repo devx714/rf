@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1770966740982,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_hwQmR",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_eawsu",
+			"type":"next"
+		}
+	],
+	"id":"698eced4219f6745f703ce19",
+	"lastModifiedBy":517,
+	"lcName":"testaut",
+	"modifiedTime":1770966826301,
+	"name":"testAut",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_hwQmR-1",
+			"id":"_hwQmR",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_hwQmR-1",
+			"id":"_eawsu",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":687,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		"newtestingtag"
+	],
+	"version":1
+}
