@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1770627851109,
+	"deleted":true,
+	"edges":[
+		{
+			"fromNodeId":"_g9rsa",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_Nb1qo",
+			"type":"next"
+		}
+	],
+	"id":"6989a30b5ffbca125da9c8ba",
+	"lastModifiedBy":196273,
+	"lcName":"snowflake-dtgreece-test",
+	"modifiedTime":1770627863583,
+	"name":"snowflake-dtgreece-test",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_g9rsa-1",
+			"id":"_g9rsa",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_g9rsa-1",
+			"id":"_Nb1qo",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":196273,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
