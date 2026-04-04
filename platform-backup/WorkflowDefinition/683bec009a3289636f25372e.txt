@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748758079769,
 	"deleted":false,
-	"deployedVersion":105,
+	"deployedVersion":106,
 	"deploymentState":{
-		"deployedAt":1775320691366,
+		"deployedAt":1775334504601,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e7383aecf24ec254fbb",
+		"deployedDefinitionId":"69d1746839824e0613819ec1",
 		"status":"DEPLOYED",
-		"version":105,
-		"workflowVersion":160
+		"version":106,
+		"workflowVersion":162
 	},
 	"edges":[
 		{
@@ -40,6 +40,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -49,7 +50,7 @@
 	"id":"683bec009a3289636f25372e",
 	"lastModifiedBy":-1,
 	"lcName":"ai eval | metrics | bert score",
-	"modifiedTime":1775334504553,
+	"modifiedTime":1775334705946,
 	"name":"AI Eval | Metrics | BERT Score",
 	"nodes":[
 		{
@@ -262,5 +263,5 @@
 		}
 	},
 	"standard":true,
-	"version":162
+	"version":163
 }
