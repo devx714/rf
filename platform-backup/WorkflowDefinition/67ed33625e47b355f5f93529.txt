@@ -128,25 +128,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"A",
-					"EXPORT_AS_TEMPLATE",
-					"C",
-					"S",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"DEP"
-				],
-				"principalIds":[
-					"44109"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -156,7 +137,7 @@
 	"id":"67ed33625e47b355f5f93529",
 	"lastModifiedBy":-1,
 	"lcName":"publish reading block",
-	"modifiedTime":1775320889078,
+	"modifiedTime":1775334409667,
 	"name":"Publish Reading Block",
 	"nodes":[
 		{
@@ -708,7 +689,6 @@
 				"messageSubType":"readingBlock"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -900,7 +880,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -957,5 +936,5 @@
 		}
 	},
 	"standard":true,
-	"version":138
+	"version":139
 }
