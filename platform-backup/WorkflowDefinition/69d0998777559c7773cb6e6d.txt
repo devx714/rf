@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775278471249,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775278546339,
+		"deployedBy":195820,
+		"deployedDefinitionId":"69d099d177559c7773cb6fbe",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":2
+	},
 	"edges":[
 		{
 			"fromNodeId":"n_lK9Th",
@@ -16,7 +25,7 @@
 	"id":"69d0998777559c7773cb6e6d",
 	"lastModifiedBy":195820,
 	"lcName":"test workspace",
-	"modifiedTime":1775278544120,
+	"modifiedTime":1775278961155,
 	"name":"test workspace",
 	"nodes":[
 		{
@@ -32,7 +41,7 @@
 			"id":"n_lK9Th",
 			"index":1,
 			"inputs":{
-				"changeType":"ANY",
+				"changeType":"CREATED",
 				"entityTypes":[
 					"s_project"
 				]
@@ -50,7 +59,7 @@
 				"appName":"stop"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_RrnQZ-1",
 			"id":"n_Sw03r",
@@ -75,5 +84,5 @@
 		}
 	},
 	"standard":false,
-	"version":2
+	"version":3
 }
