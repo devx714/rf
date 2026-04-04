@@ -24,7 +24,7 @@
 	},
 	"id":"test-locale-2",
 	"lastModifiedBy":196883,
-	"modifiedTime":1775296986260,
+	"modifiedTime":1775300594377,
 	"ownerUserId":196883,
 	"properties":{
 		"standard":false,
@@ -57,7 +57,10 @@
 				"fr-FR",
 				"nl-NL",
 				"en-IN",
-				"en-GB"
+				"en-GB",
+				"fa",
+				"ja",
+				"pt"
 			]
 		},
 		"navigation":{
@@ -290,5 +293,5 @@
 	"tags":[
 		
 	],
-	"version":10
+	"version":13
 }
