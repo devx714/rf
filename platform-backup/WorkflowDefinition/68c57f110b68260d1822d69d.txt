@@ -40,7 +40,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -50,7 +49,7 @@
 	"id":"68c57f110b68260d1822d69d",
 	"lastModifiedBy":-1,
 	"lcName":"[mcp server] new agent mcp",
-	"modifiedTime":1775320891225,
+	"modifiedTime":1775334416743,
 	"name":"[MCP Server] New Agent MCP",
 	"nodes":[
 		{
@@ -178,5 +177,5 @@
 	"tags":[
 		"MCP Server"
 	],
-	"version":65
+	"version":66
 }
