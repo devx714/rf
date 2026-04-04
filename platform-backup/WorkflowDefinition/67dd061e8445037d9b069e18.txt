@@ -4,14 +4,14 @@
 	],
 	"createdTime":1742538270899,
 	"deleted":false,
-	"deployedVersion":127,
+	"deployedVersion":128,
 	"deploymentState":{
-		"deployedAt":1775320673659,
+		"deployedAt":1775334467191,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e61c6b0c9120df1750b",
+		"deployedDefinitionId":"69d1744339824e0613819d16",
 		"status":"DEPLOYED",
-		"version":127,
-		"workflowVersion":193
+		"version":128,
+		"workflowVersion":195
 	},
 	"edges":[
 		{
@@ -329,6 +329,35 @@
 		"configs":[
 			{
 				"permissions":[
+					"A",
+					"EXPORT_AS_TEMPLATE",
+					"C",
+					"S",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"DEP"
+				],
+				"principalIds":[
+					"17"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
+					"V"
+				],
+				"principalIds":[
+					"87628"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -338,7 +367,7 @@
 	"id":"67dd061e8445037d9b069e18",
 	"lastModifiedBy":-1,
 	"lcName":"ai eval | evaluation engine",
-	"modifiedTime":1775334467103,
+	"modifiedTime":1775334707039,
 	"name":"AI Eval | Evaluation Engine",
 	"nodes":[
 		{
@@ -702,6 +731,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1290,6 +1320,7 @@
 				"modelId":"{{ 6OkAh.outputs.metricConfig.metricConfig.model }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1731,6 +1762,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2245,5 +2277,5 @@
 	"tags":[
 		
 	],
-	"version":195
+	"version":196
 }
