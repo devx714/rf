@@ -24,7 +24,7 @@
 	},
 	"id":"test-localization-locale",
 	"lastModifiedBy":196883,
-	"modifiedTime":1775298446833,
+	"modifiedTime":1775300704088,
 	"ownerUserId":196883,
 	"properties":{
 		"standard":false,
@@ -290,5 +290,5 @@
 	"tags":[
 		
 	],
-	"version":30
+	"version":31
 }
