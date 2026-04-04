@@ -4,14 +4,14 @@
 	],
 	"createdTime":1749021764352,
 	"deleted":false,
-	"deployedVersion":77,
+	"deployedVersion":78,
 	"deploymentState":{
-		"deployedAt":1774342892971,
+		"deployedAt":1775320621117,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252ec29fa153f07e09a33",
+		"deployedDefinitionId":"69d13e2dc6b0c9120df17397",
 		"status":"DEPLOYED",
-		"version":77,
-		"workflowVersion":120
+		"version":78,
+		"workflowVersion":122
 	},
 	"edges":[
 		{
@@ -72,7 +72,7 @@
 	"id":"683ff444331e784d63b1d2ce",
 	"lastModifiedBy":-1,
 	"lcName":"list mcp server tools",
-	"modifiedTime":1774622956477,
+	"modifiedTime":1775320891482,
 	"name":"List MCP Server tools",
 	"nodes":[
 		{
@@ -679,5 +679,5 @@
 	"tags":[
 		
 	],
-	"version":121
+	"version":123
 }
