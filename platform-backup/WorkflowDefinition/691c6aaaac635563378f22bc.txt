@@ -47,7 +47,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -57,7 +56,7 @@
 	"id":"691c6aaaac635563378f22bc",
 	"lastModifiedBy":-1,
 	"lcName":"sre | find related incidents",
-	"modifiedTime":1774622956890,
+	"modifiedTime":1775320597114,
 	"name":"SRE | Find Related Incidents",
 	"nodes":[
 		{
@@ -396,5 +395,5 @@
 		"sre_ai",
 		"dev_migrate"
 	],
-	"version":47
+	"version":48
 }
