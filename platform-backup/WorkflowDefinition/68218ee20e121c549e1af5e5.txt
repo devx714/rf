@@ -4,14 +4,14 @@
 	],
 	"createdTime":1747131516163,
 	"deleted":false,
-	"deployedVersion":82,
+	"deployedVersion":84,
 	"deploymentState":{
-		"deployedAt":1774342975638,
+		"deployedAt":1775334508725,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2533f29fa153f07e09dcd",
+		"deployedDefinitionId":"69d1746c39824e0613819f08",
 		"status":"DEPLOYED",
-		"version":82,
-		"workflowVersion":137
+		"version":84,
+		"workflowVersion":141
 	},
 	"edges":[
 		{
@@ -84,6 +84,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -93,7 +94,7 @@
 	"id":"68218ee20e121c549e1af5e5",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge channel entity ",
-	"modifiedTime":1775320695399,
+	"modifiedTime":1775334705803,
 	"name":"Knowledge Channel Entity ",
 	"nodes":[
 		{
@@ -183,6 +184,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -456,5 +458,5 @@
 	"tags":[
 		
 	],
-	"version":139
+	"version":142
 }
