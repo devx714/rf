@@ -6,46 +6,144 @@
 	"deleted":false,
 	"edges":[
 		{
-			"fromNodeId":"_qlNCX",
+			"fromNodeId":"n_ZNKdT",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_WGAgp",
+			"toNodeId":"n_xcX1g",
 			"type":"next"
 		}
 	],
 	"id":"69d17251a018835f7c4b834c",
 	"lastModifiedBy":92,
 	"lcName":"create custom component",
-	"modifiedTime":1775333969428,
+	"modifiedTime":1775334428411,
 	"name":"create custom component",
 	"nodes":[
 		{
+			"additional":{
+				"xsdSchemaConfig":{
+					"root":{}
+				}
+			},
+			"context":{
+				"appName":"callables",
+				"resourceVersion":3372,
+				"resourceName":"callables_from_automation"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_qlNCX-1",
-			"id":"_qlNCX",
-			"index":0,
+			"id":"n_ZNKdT",
+			"index":1,
+			"inputs":{
+				"setup":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[
+						"manifestURL"
+					],
+					"properties":{
+						"manifest":{
+							"type":"object",
+							"properties":{
+								"name":{
+									"type":"string",
+									"title":"name"
+								},
+								"style":{
+									"type":"string",
+									"title":"style"
+								},
+								"main":{
+									"type":"string",
+									"title":"main"
+								},
+								"type":{
+									"type":"string",
+									"title":"type"
+								},
+								"keywords":{
+									"type":"string",
+									"title":"keywords"
+								}
+							},
+							"title":"manifest",
+							"additionalProperties":false
+						},
+						"name":{
+							"type":"string",
+							"title":"name"
+						},
+						"id":{
+							"type":"string",
+							"title":"id"
+						},
+						"manifestURL":{
+							"type":"string",
+							"title":"Manifest URL"
+						}
+					}
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"additional":{
+				"visibleOptionalFields":[
+					"root.record.manifest.style",
+					"root.record.manifest.keywords",
+					"root.record.manifest.icon"
+				]
+			},
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":7214,
+				"resourceName":"storage_by_unifyapps_update_record_by_id",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_qlNCX-1",
-			"id":"_WGAgp",
-			"index":0,
+			"id":"n_xcX1g",
+			"index":2,
+			"inputs":{
+				"recordId":"{{ n_ZNKdT.outputs.id }}",
+				"useRawPayload":false,
+				"writeThroughSessionVariables":false,
+				"object_type":"e_custom_component",
+				"retryOnFailure":true,
+				"skipIfBlank":false,
+				"record":{
+					"name":"{{ n_ZNKdT.outputs.name }}",
+					"manifest":{
+						"name":"{{ n_ZNKdT.outputs.manifest.name }}",
+						"type":"{{ n_ZNKdT.outputs.manifest.type }}",
+						"main":"{{ n_ZNKdT.outputs.manifest.main }}",
+						"keywords":"{{ n_ZNKdT.outputs.manifest.keywords }}",
+						"style":"{{ n_ZNKdT.outputs.manifest.style }}"
+					},
+					"manifestUrl":"{{ n_ZNKdT.outputs.manifestURL }}"
+				},
+				"upsert":true
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Storage by UnifyApps",
+			"title":"Update an existing record",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":92,
+	"schemaReferences":[
+		
+	],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -56,5 +154,5 @@
 		}
 	},
 	"standard":false,
-	"version":0
+	"version":2
 }
