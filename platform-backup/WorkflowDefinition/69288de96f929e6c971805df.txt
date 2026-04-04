@@ -4,14 +4,14 @@
 	],
 	"createdTime":1766522752186,
 	"deleted":false,
-	"deployedVersion":21,
+	"deployedVersion":22,
 	"deploymentState":{
-		"deployedAt":1774342941652,
+		"deployedAt":1775320663580,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2531d29fa153f07e09cc0",
+		"deployedDefinitionId":"69d13e5783aecf24ec254d1c",
 		"status":"DEPLOYED",
-		"version":21,
-		"workflowVersion":47
+		"version":22,
+		"workflowVersion":49
 	},
 	"edges":[
 		{
@@ -63,6 +63,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -72,7 +73,7 @@
 	"id":"69288de96f929e6c971805df",
 	"lastModifiedBy":-1,
 	"lcName":"get semaphore",
-	"modifiedTime":1775320663529,
+	"modifiedTime":1775320890345,
 	"name":"Get Semaphore",
 	"nodes":[
 		{
@@ -273,5 +274,5 @@
 	"tags":[
 		
 	],
-	"version":49
+	"version":50
 }
