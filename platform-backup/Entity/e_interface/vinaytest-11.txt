@@ -2,10 +2,10 @@
 	"createdTime":1768386834461,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1774590031097,
-		"deployedBy":195435,
-		"entityVersion":822,
-		"version":131
+		"deployedAt":1775303014153,
+		"deployedBy":195414,
+		"entityVersion":1144,
+		"version":132
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -30,7 +30,7 @@
 	},
 	"id":"vinaytest-11",
 	"lastModifiedBy":195414,
-	"modifiedTime":1775302262701,
+	"modifiedTime":1775303938633,
 	"ownerUserId":195435,
 	"properties":{
 		"standard":false,
@@ -291,7 +291,7 @@
 				"children":[
 					"e_696771150543417598ee5563"
 				],
-				"path":"/userly/setting"
+				"path":"/userly878/setting"
 			},
 			"f_user_id":{
 				"id":"f_user_id",
@@ -300,7 +300,7 @@
 				"children":[
 					"f_course"
 				],
-				"path":"/userly/:userId"
+				"path":"/userly878/:userId"
 			},
 			"f_b":{
 				"id":"f_b",
@@ -310,7 +310,7 @@
 					"e_696771150543417598ee5563",
 					"f_c"
 				],
-				"path":"/a/b"
+				"path":"/alpha/b"
 			},
 			"f_course_id":{
 				"id":"f_course_id",
@@ -319,19 +319,18 @@
 				"children":[
 					"e_696771150543417598ee5563"
 				],
-				"path":"/userly/:userId/course/:courseId"
+				"path":"/userly878/:userId/course/:courseId"
 			},
 			"f_a":{
 				"id":"f_a",
-				"segment":"a",
-				"parentId":"null",
+				"segment":"alpha",
 				"children":[
 					"f_b",
 					"e_69d0a7640f39af2e5600f792",
 					"e_69b79fc600e2c81d3f19b3ae",
 					"e_69d0a7e60f39af2e5600f7de"
 				],
-				"path":"/a"
+				"path":"/alpha"
 			},
 			"f_d":{
 				"id":"f_d",
@@ -343,14 +342,13 @@
 			},
 			"f_user":{
 				"id":"f_user",
-				"segment":"userly",
-				"parentId":"f_root",
+				"segment":"userly878",
 				"children":[
 					"f_user_id",
 					"f_setting",
 					"e_69d0f6720749020b38d23ae7"
 				],
-				"path":"/userly"
+				"path":"/userly878"
 			},
 			"f_c":{
 				"id":"f_c",
@@ -359,7 +357,7 @@
 				"children":[
 					"f_RXrsT"
 				],
-				"path":"/a/b/c",
+				"path":"/alpha/b/c",
 				"redirect":"/a/b/homepage"
 			},
 			"f_course":{
@@ -369,14 +367,14 @@
 				"children":[
 					"f_course_id"
 				],
-				"path":"/userly/:userId/course"
+				"path":"/userly878/:userId/course"
 			},
 			"f_RXrsT":{
 				"id":"f_RXrsT",
 				"segment":"new",
 				"parentId":"f_c",
 				"children":[],
-				"path":"/a/b/c/new"
+				"path":"/alpha/b/c/new"
 			},
 			"f_4wyW4":{
 				"id":"f_4wyW4",
@@ -472,5 +470,5 @@
 		}
 	},
 	"standard":false,
-	"version":1144
+	"version":1146
 }
