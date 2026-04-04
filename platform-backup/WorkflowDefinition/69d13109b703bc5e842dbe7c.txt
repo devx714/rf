@@ -6,46 +6,100 @@
 	"deleted":false,
 	"edges":[
 		{
-			"fromNodeId":"_ELnhq",
+			"fromNodeId":"n_NpvQX",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_NCC9u",
+			"toNodeId":"n_L1InR",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_L1InR",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_8YPNy",
 			"type":"next"
 		}
 	],
 	"id":"69d13109b703bc5e842dbe7c",
 	"lastModifiedBy":30180,
 	"lcName":"invoke_agent",
-	"modifiedTime":1775317257985,
+	"modifiedTime":1775317458558,
 	"name":"invoke_agent",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":3298,
+				"resourceName":"callables_from_automation"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_ELnhq-1",
-			"id":"_ELnhq",
-			"index":0,
+			"id":"n_NpvQX",
+			"index":1,
+			"inputs":{},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"ai_agents_by_unifyapps",
+				"resourceVersion":946,
+				"resourceName":"ai_agents_by_unifyapps_invoke_agent",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_ELnhq-1",
-			"id":"_NCC9u",
-			"index":0,
+			"id":"n_L1InR",
+			"index":2,
+			"inputs":{
+				"callableInterfaceId":"__ua__invoke_ai_agent_by_unifyapps",
+				"triggerWorkflowWithRuntimeType":"IN_MEMORY",
+				"defaultFallbackWorkflowId":"68050ca67df58855654804a0",
+				"parameters":{
+					"aiAgentId":"e_69d130f98cbf9634b68ed0db",
+					"userQuery":"hello"
+				}
+			},
 			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
+			"subTitle":"AI Agents by UnifyApps",
+			"title":"Invoke Agent",
+			"type":"CALL_INTERFACE_WORKFLOW"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":3335,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_ELnhq-1",
+			"id":"n_8YPNy",
+			"index":3,
+			"inputs":{
+				"result":"{{ n_L1InR.outputs.agentResponses[0].text }}"
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":30180,
+	"schemaReferences":[
+		
+	],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -56,5 +110,5 @@
 		}
 	},
 	"standard":false,
-	"version":0
+	"version":1
 }
