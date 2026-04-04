@@ -1,0 +1,30 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1775267336845,
+	"deleted":false,
+	"edges":[
+		
+	],
+	"id":"69d06e08e95b7f4e93c0b51b",
+	"lastModifiedBy":175325,
+	"lcName":"changesetlocalautolyjazivkkg",
+	"modifiedTime":1775267336845,
+	"name":"changeSetLocalautolyJaZivKkg",
+	"nodes":[
+		
+	],
+	"ownerUserId":175325,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"version":0
+}
