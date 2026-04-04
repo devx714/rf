@@ -24,7 +24,7 @@
 	},
 	"id":"test-localization-locale",
 	"lastModifiedBy":196883,
-	"modifiedTime":1775295551397,
+	"modifiedTime":1775298446833,
 	"ownerUserId":196883,
 	"properties":{
 		"standard":false,
@@ -252,7 +252,10 @@
 			"defaultLocale":"en-US",
 			"supportedLocales":[
 				"fr-FR",
-				"nl-NL"
+				"nl-NL",
+				"fa",
+				"pt",
+				"zh-CN"
 			]
 		},
 		"entityDetailsMap":{
@@ -287,5 +290,5 @@
 	"tags":[
 		
 	],
-	"version":23
+	"version":30
 }
