@@ -4,14 +4,14 @@
 	],
 	"createdTime":1751491675909,
 	"deleted":false,
-	"deployedVersion":41,
+	"deployedVersion":42,
 	"deploymentState":{
-		"deployedAt":1775320622322,
+		"deployedAt":1775334400414,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e2ec6b0c9120df173ab",
+		"deployedDefinitionId":"69d1740039824e0613819940",
 		"status":"DEPLOYED",
-		"version":41,
-		"workflowVersion":110
+		"version":42,
+		"workflowVersion":112
 	},
 	"edges":[
 		{
@@ -215,6 +215,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -224,7 +225,7 @@
 	"id":"686530ef4aaa767a212b2a6f",
 	"lastModifiedBy":-1,
 	"lcName":"call vertex ai - generic (streaming)",
-	"modifiedTime":1775334400318,
+	"modifiedTime":1775334706424,
 	"name":"Call Vertex AI - Generic (Streaming)",
 	"nodes":[
 		{
@@ -701,6 +702,7 @@
 				"isLastSlash":false
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -971,6 +973,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1239,6 +1242,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1596,6 +1600,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2511,5 +2516,5 @@
 		}
 	},
 	"standard":true,
-	"version":112
+	"version":113
 }
