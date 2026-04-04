@@ -75,7 +75,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -85,7 +84,7 @@
 	"id":"687e7702c1f279e29abd1746",
 	"lastModifiedBy":-1,
 	"lcName":"memoryprofile | process single fact",
-	"modifiedTime":1774622956155,
+	"modifiedTime":1775320697067,
 	"name":"MemoryProfile | Process Single Fact",
 	"nodes":[
 		{
@@ -563,5 +562,5 @@
 	"tags":[
 		
 	],
-	"version":92
+	"version":93
 }
