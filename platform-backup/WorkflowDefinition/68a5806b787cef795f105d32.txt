@@ -225,7 +225,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -235,7 +234,7 @@
 	"id":"68a5806b787cef795f105d32",
 	"lastModifiedBy":-1,
 	"lcName":"[a2a] update agent cards auth",
-	"modifiedTime":1774622955980,
+	"modifiedTime":1775320647058,
 	"name":"[A2A] Update Agent Cards Auth",
 	"nodes":[
 		{
@@ -358,7 +357,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -696,7 +694,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1010,7 +1007,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1681,5 +1677,5 @@
 	"tags":[
 		"a2a"
 	],
-	"version":176
+	"version":177
 }
