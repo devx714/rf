@@ -4,14 +4,14 @@
 	],
 	"createdTime":1743778318743,
 	"deleted":false,
-	"deployedVersion":85,
+	"deployedVersion":86,
 	"deploymentState":{
-		"deployedAt":1774342949915,
+		"deployedAt":1775320671437,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2532529fa153f07e09d13",
+		"deployedDefinitionId":"69d13e5f83aecf24ec254e02",
 		"status":"DEPLOYED",
-		"version":85,
-		"workflowVersion":128
+		"version":86,
+		"workflowVersion":130
 	},
 	"edges":[
 		{
@@ -144,6 +144,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -153,7 +154,7 @@
 	"id":"67eab481d10e187ea2b053c2",
 	"lastModifiedBy":-1,
 	"lcName":"create claude models payload",
-	"modifiedTime":1775320671234,
+	"modifiedTime":1775320889894,
 	"name":"Create Claude Models Payload",
 	"nodes":[
 		{
@@ -1169,6 +1170,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1535,6 +1537,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2008,6 +2011,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2338,6 +2342,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2516,5 +2521,5 @@
 		}
 	},
 	"standard":true,
-	"version":130
+	"version":131
 }
