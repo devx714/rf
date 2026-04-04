@@ -18,12 +18,19 @@
 			"skip":false,
 			"toNodeId":"n_6P5gv",
 			"type":"next"
+		},
+		{
+			"fromNodeId":"n_6P5gv",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_mRmKt",
+			"type":"next"
 		}
 	],
 	"id":"69d0a54d77559c7773cb9e1d",
 	"lastModifiedBy":43523,
 	"lcName":"vertex test",
-	"modifiedTime":1775282785124,
+	"modifiedTime":1775282790963,
 	"name":"Vertex test",
 	"nodes":[
 		{
@@ -333,6 +340,21 @@
 			"subTitle":"Google vertex AI",
 			"title":"Generate content (Generic)",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"stop"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_zjDR6-1",
+			"id":"n_mRmKt",
+			"index":4,
+			"skip":false,
+			"subTitle":"Stop",
+			"title":"Stop",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":43523,
@@ -349,5 +371,5 @@
 		}
 	},
 	"standard":false,
-	"version":6
+	"version":7
 }
