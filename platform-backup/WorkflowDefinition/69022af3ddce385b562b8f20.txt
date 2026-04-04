@@ -4,14 +4,14 @@
 	],
 	"createdTime":1761762528892,
 	"deleted":false,
-	"deployedVersion":28,
+	"deployedVersion":30,
 	"deploymentState":{
-		"deployedAt":1774342924382,
+		"deployedAt":1775334443979,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2530c29fa153f07e09c07",
+		"deployedDefinitionId":"69d1742b39824e0613819b1e",
 		"status":"DEPLOYED",
-		"version":28,
-		"workflowVersion":59
+		"version":30,
+		"workflowVersion":63
 	},
 	"edges":[
 		{
@@ -54,6 +54,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -63,7 +64,7 @@
 	"id":"69022af3ddce385b562b8f20",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] unpin agents for user",
-	"modifiedTime":1775320648786,
+	"modifiedTime":1775334706844,
 	"name":"[DT] Unpin Agents for User",
 	"nodes":[
 		{
@@ -183,6 +184,7 @@
 				"userId":"=IF(ISBLANK({{ n_7ZwS2.outputs.body.userId }}) , {{ __RUN__.outputs.userId }} , {{ n_7ZwS2.outputs.body.userId }})"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -411,5 +413,5 @@
 	"tags":[
 		
 	],
-	"version":61
+	"version":64
 }
