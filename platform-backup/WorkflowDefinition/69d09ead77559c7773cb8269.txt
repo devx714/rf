@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775279789868,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775279810468,
+		"deployedBy":39714,
+		"deployedDefinitionId":"69d09ec277559c7773cb8275",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"edges":[
 		{
 			"fromNodeId":"n_4bnMv",
@@ -16,7 +25,7 @@
 	"id":"69d09ead77559c7773cb8269",
 	"lastModifiedBy":39714,
 	"lcName":"test",
-	"modifiedTime":1775279808802,
+	"modifiedTime":1775279810469,
 	"name":"test",
 	"nodes":[
 		{
@@ -26,7 +35,7 @@
 				"resourceName":"standard_entities_on_platform_event"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_SHUCL-1",
 			"id":"n_4bnMv",
@@ -50,7 +59,7 @@
 				"appName":"stop"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_SHUCL-1",
 			"id":"n_HqESK",
