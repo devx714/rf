@@ -30,7 +30,7 @@
 	},
 	"id":"vinaytest-11",
 	"lastModifiedBy":195414,
-	"modifiedTime":1775300691462,
+	"modifiedTime":1775302262701,
 	"ownerUserId":195435,
 	"properties":{
 		"standard":false,
@@ -45,7 +45,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":44,
+				"_pageCount":45,
 				"_moduleCount":1,
 				"_variableCounter":10,
 				"_functionCounter":9
@@ -259,6 +259,7 @@
 			"e_69d0e5ff093d2445b04fd345":"ssssss-_YQ7hK",
 			"e_69677532d1aa6b56b37b5f45":"page-2",
 			"e_69d0e61d093d2445b04fd34d":"hello-_F6W2u",
+			"e_69d0f6720749020b38d23ae7":"page-45",
 			"e_696771150543417598ee5563":"homepage",
 			"e_69b79fc600e2c81d3f19b3ae":"sujal",
 			"e_69d0a7640f39af2e5600f792":"student",
@@ -290,7 +291,7 @@
 				"children":[
 					"e_696771150543417598ee5563"
 				],
-				"path":"/user/setting"
+				"path":"/userly/setting"
 			},
 			"f_user_id":{
 				"id":"f_user_id",
@@ -299,7 +300,7 @@
 				"children":[
 					"f_course"
 				],
-				"path":"/user/:userId"
+				"path":"/userly/:userId"
 			},
 			"f_b":{
 				"id":"f_b",
@@ -318,7 +319,7 @@
 				"children":[
 					"e_696771150543417598ee5563"
 				],
-				"path":"/user/:userId/course/:courseId"
+				"path":"/userly/:userId/course/:courseId"
 			},
 			"f_a":{
 				"id":"f_a",
@@ -342,13 +343,14 @@
 			},
 			"f_user":{
 				"id":"f_user",
-				"segment":"user",
-				"parentId":"null",
+				"segment":"userly",
+				"parentId":"f_root",
 				"children":[
 					"f_user_id",
-					"f_setting"
+					"f_setting",
+					"e_69d0f6720749020b38d23ae7"
 				],
-				"path":"/user"
+				"path":"/userly"
 			},
 			"f_c":{
 				"id":"f_c",
@@ -367,7 +369,7 @@
 				"children":[
 					"f_course_id"
 				],
-				"path":"/user/:userId/course"
+				"path":"/userly/:userId/course"
 			},
 			"f_RXrsT":{
 				"id":"f_RXrsT",
@@ -437,6 +439,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_69d0f6720749020b38d23ae7":{
+				"slug":"page-45",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_696771150543417598ee5563":{
 				"slug":"homepage",
 				"isPublic":false,
@@ -465,5 +472,5 @@
 		}
 	},
 	"standard":false,
-	"version":1143
+	"version":1144
 }
