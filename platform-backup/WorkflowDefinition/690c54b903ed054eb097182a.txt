@@ -4,15 +4,15 @@
 	],
 	"createdTime":1762419625796,
 	"deleted":false,
-	"deployedVersion":28,
+	"deployedVersion":29,
 	"deploymentState":{
-		"deployedAt":1774342871890,
+		"deployedAt":1775320604164,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252d729fa153f07e09984",
+		"deployedDefinitionId":"69d13e1c83aecf24ec254759",
 		"deploymentTag":"resolve_translations",
 		"status":"DEPLOYED",
-		"version":28,
-		"workflowVersion":56
+		"version":29,
+		"workflowVersion":58
 	},
 	"edges":[
 		{
@@ -57,7 +57,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -67,7 +66,7 @@
 	"id":"690c54b903ed054eb097182a",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] list knowledge set api [filtered]",
-	"modifiedTime":1774622956972,
+	"modifiedTime":1775334383058,
 	"name":"[DT] List Knowledge Set API [filtered]",
 	"nodes":[
 		{
@@ -358,5 +357,5 @@
 	"tags":[
 		
 	],
-	"version":57
+	"version":60
 }
