@@ -4,14 +4,14 @@
 	],
 	"createdTime":1740110521560,
 	"deleted":false,
-	"deployedVersion":113,
+	"deployedVersion":114,
 	"deploymentState":{
-		"deployedAt":1775320679275,
+		"deployedAt":1775334472451,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e6783aecf24ec254eab",
+		"deployedDefinitionId":"69d1744839824e0613819d78",
 		"status":"DEPLOYED",
-		"version":113,
-		"workflowVersion":174
+		"version":114,
+		"workflowVersion":176
 	},
 	"edges":[
 		{
@@ -331,6 +331,45 @@
 		"configs":[
 			{
 				"permissions":[
+					"A",
+					"EXPORT_AS_TEMPLATE",
+					"C",
+					"S",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"DEP"
+				],
+				"principalIds":[
+					"44109"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"161165"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -340,7 +379,7 @@
 	"id":"67b4908aaffe713b4ced2d83",
 	"lastModifiedBy":-1,
 	"lcName":"stream content",
-	"modifiedTime":1775334472386,
+	"modifiedTime":1775334705543,
 	"name":"Stream content",
 	"nodes":[
 		{
@@ -1187,6 +1226,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1721,5 +1761,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":176
+	"version":177
 }
