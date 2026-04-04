@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775304798270,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775304803863,
+		"deployedBy":39712,
+		"deployedDefinitionId":"69d10063676fd579eb0aaef8",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":0
+	},
 	"edges":[
 		{
 			"fromNodeId":"llJgd",
@@ -37,7 +46,7 @@
 	"id":"69d1005e3d36804c0c549cb9",
 	"lastModifiedBy":39712,
 	"lcName":"autofill pill mapping sample (copy)",
-	"modifiedTime":1775304798270,
+	"modifiedTime":1775304803864,
 	"name":"Autofill Pill Mapping Sample (copy)",
 	"nodes":[
 		{
