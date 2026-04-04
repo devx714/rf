@@ -4,14 +4,14 @@
 	],
 	"createdTime":1740110521560,
 	"deleted":false,
-	"deployedVersion":112,
+	"deployedVersion":113,
 	"deploymentState":{
-		"deployedAt":1774342958215,
+		"deployedAt":1775320679275,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2532e29fa153f07e09d55",
+		"deployedDefinitionId":"69d13e6783aecf24ec254eab",
 		"status":"DEPLOYED",
-		"version":112,
-		"workflowVersion":172
+		"version":113,
+		"workflowVersion":174
 	},
 	"edges":[
 		{
@@ -340,7 +340,7 @@
 	"id":"67b4908aaffe713b4ced2d83",
 	"lastModifiedBy":-1,
 	"lcName":"stream content",
-	"modifiedTime":1775320679223,
+	"modifiedTime":1775334472386,
 	"name":"Stream content",
 	"nodes":[
 		{
@@ -1721,5 +1721,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":174
+	"version":176
 }
