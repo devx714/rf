@@ -4,14 +4,14 @@
 	],
 	"createdTime":1742670804804,
 	"deleted":false,
-	"deployedVersion":65,
+	"deployedVersion":66,
 	"deploymentState":{
-		"deployedAt":1774342972131,
+		"deployedAt":1775320691993,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2533c8d65fb68e1563cc0",
+		"deployedDefinitionId":"69d13e7383aecf24ec254fc6",
 		"status":"DEPLOYED",
-		"version":65,
-		"workflowVersion":146
+		"version":66,
+		"workflowVersion":148
 	},
 	"edges":[
 		{
@@ -65,7 +65,7 @@
 	"id":"67d94059c10a5b39b4700f9a",
 	"lastModifiedBy":-1,
 	"lcName":"call openai embeddings",
-	"modifiedTime":1775320691937,
+	"modifiedTime":1775334505188,
 	"name":"Call OpenAI Embeddings",
 	"nodes":[
 		{
@@ -388,5 +388,5 @@
 	"tags":[
 		
 	],
-	"version":148
+	"version":150
 }
