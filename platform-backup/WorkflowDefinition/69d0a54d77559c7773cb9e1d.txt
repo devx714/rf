@@ -4,14 +4,14 @@
 	],
 	"createdTime":1775281485316,
 	"deleted":false,
-	"deployedVersion":2,
+	"deployedVersion":3,
 	"deploymentState":{
-		"deployedAt":1775282818494,
+		"deployedAt":1775282912381,
 		"deployedBy":43523,
-		"deployedDefinitionId":"69d0aa8077559c7773cbb029",
+		"deployedDefinitionId":"69d0aae077559c7773cbb36a",
 		"status":"DEPLOYED",
-		"version":2,
-		"workflowVersion":8
+		"version":3,
+		"workflowVersion":11
 	},
 	"edges":[
 		{
@@ -53,7 +53,7 @@
 	"id":"69d0a54d77559c7773cb9e1d",
 	"lastModifiedBy":43523,
 	"lcName":"vertex test",
-	"modifiedTime":1775282908336,
+	"modifiedTime":1775283021803,
 	"name":"Vertex test",
 	"nodes":[
 		{
@@ -150,7 +150,7 @@
 				"outputFilesGlob":"*",
 				"captureStdOutput":false
 			},
-			"skip":true,
+			"skip":false,
 			"subTitle":"Code",
 			"title":"Execute Python script",
 			"type":"ACTION"
@@ -359,7 +359,7 @@
 				},
 				"project":"unifyai-422106"
 			},
-			"skip":true,
+			"skip":false,
 			"subTitle":"Google vertex AI",
 			"title":"Generate content (Generic)",
 			"type":"ACTION"
@@ -433,7 +433,7 @@
 				"outputFilesGlob":"*",
 				"captureStdOutput":false
 			},
-			"skip":false,
+			"skip":true,
 			"subTitle":"Code",
 			"title":"Execute Python script",
 			"type":"ACTION"
@@ -642,7 +642,7 @@
 				},
 				"project":"unifyai-422106"
 			},
-			"skip":false,
+			"skip":true,
 			"subTitle":"Google vertex AI",
 			"title":"Generate content (Generic)",
 			"type":"ACTION"
@@ -652,7 +652,7 @@
 				"appName":"stop"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_zjDR6-1",
 			"id":"n_mRmKt",
@@ -677,5 +677,5 @@
 		}
 	},
 	"standard":false,
-	"version":10
+	"version":12
 }
