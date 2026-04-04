@@ -4,14 +4,14 @@
 	],
 	"createdTime":1758646563823,
 	"deleted":false,
-	"deployedVersion":33,
+	"deployedVersion":34,
 	"deploymentState":{
-		"deployedAt":1774342909103,
+		"deployedAt":1775320636931,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252fd8d65fb68e15639e9",
+		"deployedDefinitionId":"69d13e3cc6b0c9120df17418",
 		"status":"DEPLOYED",
-		"version":33,
-		"workflowVersion":116
+		"version":34,
+		"workflowVersion":118
 	},
 	"edges":[
 		{
@@ -221,7 +221,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -231,7 +230,7 @@
 	"id":"6891ce76c06ff80a8817719a",
 	"lastModifiedBy":-1,
 	"lcName":"deep research tool | plan executor",
-	"modifiedTime":1774622956387,
+	"modifiedTime":1775334413010,
 	"name":"Deep Research Tool | Plan Executor",
 	"nodes":[
 		{
@@ -613,7 +612,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1133,7 +1131,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1496,5 +1493,5 @@
 	"tags":[
 		
 	],
-	"version":117
+	"version":120
 }
