@@ -30,7 +30,7 @@
 	},
 	"id":"test-madhav",
 	"lastModifiedBy":195850,
-	"modifiedTime":1775301215786,
+	"modifiedTime":1775304721227,
 	"ownerUserId":195850,
 	"properties":{
 		"standard":false,
@@ -499,7 +499,10 @@
 				}
 			},
 			"customColors":[
-				"#0B1014FF"
+				"#0B1014FF",
+				"#1F1F90FF",
+				"#09093FFF",
+				"#1818D1FF"
 			]
 		},
 		"entityDetailsMap":{
@@ -574,5 +577,5 @@
 	"tags":[
 		
 	],
-	"version":551
+	"version":554
 }
