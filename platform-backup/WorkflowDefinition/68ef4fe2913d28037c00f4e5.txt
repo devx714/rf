@@ -4,14 +4,14 @@
 	],
 	"createdTime":1761722820746,
 	"deleted":false,
-	"deployedVersion":26,
+	"deployedVersion":27,
 	"deploymentState":{
-		"deployedAt":1774342944475,
+		"deployedAt":1775320666613,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c253208d65fb68e1563bd6",
+		"deployedDefinitionId":"69d13e5ac6b0c9120df174dd",
 		"status":"DEPLOYED",
-		"version":26,
-		"workflowVersion":69
+		"version":27,
+		"workflowVersion":71
 	},
 	"edges":[
 		{
@@ -664,6 +664,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -673,7 +674,7 @@
 	"id":"68ef4fe2913d28037c00f4e5",
 	"lastModifiedBy":-1,
 	"lcName":"call llm messages to responses api inputs",
-	"modifiedTime":1775320666517,
+	"modifiedTime":1775320890310,
 	"name":"Call LLM Messages to Responses API Inputs",
 	"nodes":[
 		{
@@ -1208,6 +1209,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1581,6 +1583,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1882,6 +1885,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1960,6 +1964,7 @@
 				"is_tool_use":false
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -4545,5 +4550,5 @@
 	"tags":[
 		
 	],
-	"version":71
+	"version":72
 }
