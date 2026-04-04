@@ -49,7 +49,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -59,7 +58,7 @@
 	"id":"66b32686db0c6546b93d4bce",
 	"lastModifiedBy":-1,
 	"lcName":"redact sensitive information (ai agent)",
-	"modifiedTime":1774622955269,
+	"modifiedTime":1775320693752,
 	"name":"Redact Sensitive Information (AI Agent)",
 	"nodes":[
 		{
@@ -320,5 +319,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":149
+	"version":150
 }
