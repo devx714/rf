@@ -4,15 +4,15 @@
 	],
 	"createdTime":1741603796335,
 	"deleted":false,
-	"deployedVersion":83,
+	"deployedVersion":84,
 	"deploymentState":{
-		"deployedAt":1774342975301,
+		"deployedAt":1775320695123,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2533f29fa153f07e09dca",
+		"deployedDefinitionId":"69d13e77c6b0c9120df17580",
 		"deploymentTag":"added_caching",
 		"status":"DEPLOYED",
-		"version":83,
-		"workflowVersion":128
+		"version":84,
+		"workflowVersion":130
 	},
 	"edges":[
 		{
@@ -57,7 +57,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -67,7 +66,7 @@
 	"id":"67ce9e65a1b3c17a52011efb",
 	"lastModifiedBy":-1,
 	"lcName":"convert resourcename to action",
-	"modifiedTime":1774622956556,
+	"modifiedTime":1775334508353,
 	"name":"Convert ResourceName to Action",
 	"nodes":[
 		{
@@ -363,5 +362,5 @@
 	"tags":[
 		
 	],
-	"version":129
+	"version":132
 }
