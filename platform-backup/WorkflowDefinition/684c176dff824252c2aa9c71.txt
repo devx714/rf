@@ -4,14 +4,14 @@
 	],
 	"createdTime":1750575669250,
 	"deleted":false,
-	"deployedVersion":41,
+	"deployedVersion":42,
 	"deploymentState":{
-		"deployedAt":1774342916102,
+		"deployedAt":1775320641837,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2530429fa153f07e09b5b",
+		"deployedDefinitionId":"69d13e41c6b0c9120df1743a",
 		"status":"DEPLOYED",
-		"version":41,
-		"workflowVersion":109
+		"version":42,
+		"workflowVersion":111
 	},
 	"edges":[
 		{
@@ -209,7 +209,7 @@
 	"id":"684c176dff824252c2aa9c71",
 	"lastModifiedBy":-1,
 	"lcName":"get org details",
-	"modifiedTime":1775320641755,
+	"modifiedTime":1775334417360,
 	"name":"Get Org Details",
 	"nodes":[
 		{
@@ -2204,5 +2204,5 @@
 	"tags":[
 		
 	],
-	"version":111
+	"version":113
 }
