@@ -6,46 +6,65 @@
 	"deleted":false,
 	"edges":[
 		{
-			"fromNodeId":"_SHUCL",
+			"fromNodeId":"n_4bnMv",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_UpZ3a",
+			"toNodeId":"n_HqESK",
 			"type":"next"
 		}
 	],
 	"id":"69d09ead77559c7773cb8269",
 	"lastModifiedBy":39714,
 	"lcName":"test",
-	"modifiedTime":1775279789868,
+	"modifiedTime":1775279808802,
 	"name":"test",
 	"nodes":[
 		{
+			"context":{
+				"appName":"standard_entities",
+				"resourceVersion":9682,
+				"resourceName":"standard_entities_on_platform_event"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_SHUCL-1",
-			"id":"_SHUCL",
-			"index":0,
+			"id":"n_4bnMv",
+			"index":1,
+			"inputs":{
+				"changeType":"ANY",
+				"entityTypes":[
+					"s_project"
+				]
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Standard entities by UnifyApps",
+			"title":"On platform event",
 			"trigger":{
 				"type":"EVENT"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"stop"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_SHUCL-1",
-			"id":"_UpZ3a",
-			"index":0,
+			"id":"n_HqESK",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
+			"subTitle":"Stop",
+			"title":"Stop",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":39714,
+	"schemaReferences":[
+		
+	],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -56,5 +75,5 @@
 		}
 	},
 	"standard":false,
-	"version":0
+	"version":1
 }
