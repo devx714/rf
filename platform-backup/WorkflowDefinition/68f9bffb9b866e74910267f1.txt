@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762605916018,
 	"deleted":false,
-	"deployedVersion":27,
+	"deployedVersion":28,
 	"deploymentState":{
-		"deployedAt":1775320666740,
+		"deployedAt":1775334460553,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e5ac6b0c9120df174df",
+		"deployedDefinitionId":"69d1743c39824e0613819c75",
 		"status":"DEPLOYED",
-		"version":27,
-		"workflowVersion":57
+		"version":28,
+		"workflowVersion":59
 	},
 	"edges":[
 		{
@@ -135,6 +135,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -144,7 +145,7 @@
 	"id":"68f9bffb9b866e74910267f1",
 	"lastModifiedBy":-1,
 	"lcName":"metering | users | average number of sessions/queries initiated per unique user",
-	"modifiedTime":1775334460439,
+	"modifiedTime":1775334707160,
 	"name":"Metering | Users | Average Number of Sessions/Queries initiated per Unique User",
 	"nodes":[
 		{
@@ -1299,5 +1300,5 @@
 	"tags":[
 		
 	],
-	"version":59
+	"version":60
 }
