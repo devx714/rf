@@ -4,14 +4,14 @@
 	],
 	"createdTime":1761283323271,
 	"deleted":false,
-	"deployedVersion":30,
+	"deployedVersion":31,
 	"deploymentState":{
-		"deployedAt":1774342902977,
+		"deployedAt":1775320631063,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252f629fa153f07e09ae2",
+		"deployedDefinitionId":"69d13e3783aecf24ec254b42",
 		"status":"DEPLOYED",
-		"version":30,
-		"workflowVersion":58
+		"version":31,
+		"workflowVersion":60
 	},
 	"edges":[
 		{
@@ -109,6 +109,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -118,7 +119,7 @@
 	"id":"68f9135d2573eb22e792e83e",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] number of question on agent",
-	"modifiedTime":1775320631005,
+	"modifiedTime":1775320889294,
 	"name":"[DT] Number of question on agent",
 	"nodes":[
 		{
@@ -504,5 +505,5 @@
 	"tags":[
 		
 	],
-	"version":60
+	"version":61
 }
