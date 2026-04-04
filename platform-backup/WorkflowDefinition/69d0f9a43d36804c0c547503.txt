@@ -75,6 +75,13 @@
 			"fromNodeId":"n_8pC84",
 			"priority":0,
 			"skip":false,
+			"toNodeId":"n_ZeHtp",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_ZeHtp",
+			"priority":0,
+			"skip":false,
 			"toNodeId":"n_wworY",
 			"type":"next"
 		},
@@ -141,7 +148,7 @@
 	"id":"69d0f9a43d36804c0c547503",
 	"lastModifiedBy":45011,
 	"lcName":"[dnt] platform backup manager reporting",
-	"modifiedTime":1775305855988,
+	"modifiedTime":1775313884368,
 	"name":"[DNT] Platform Backup Manager Reporting",
 	"nodes":[
 		{
@@ -590,7 +597,18 @@
 			"id":"n_8pC84",
 			"index":10,
 			"inputs":{
-				"query":"SELECT count(distinct executionId) FROM PLATFORM_BACKUP where configId=:configId",
+				"outputSchema":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[],
+					"properties":{
+						"totalJobs":{
+							"type":"integer",
+							"title":"Total Jobs"
+						}
+					}
+				},
+				"query":"SELECT count(distinct executionId) as totalJobs FROM PLATFORM_BACKUP where configId=:configId",
 				"record":{
 					"configId":"{{ n_9W4tW.outputs.configId }}"
 				},
@@ -605,6 +623,28 @@
 						}
 					}
 				},
+				"group":"PLATFORM"
+			},
+			"skip":false,
+			"subTitle":"Analytics by UnifyApps",
+			"title":"Execute Analytics SQL Query",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"analytics_by_unifyapps",
+				"resourceVersion":1577,
+				"resourceName":"analytics_by_unifyapps_execute_query",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_SHHZw@n_bVpeE@_IvAuF-1@1@2",
+			"id":"n_ZeHtp",
+			"index":11,
+			"inputs":{
+				"query":"SELECT \n    COUNT(DISTINCT executionId) AS totalJobs,\n    COUNT(DISTINCT assetId) AS totalUniqueAssets,\n    COUNT(DISTINCT CASE WHEN status = 'SUCCESS' THEN assetId END) AS successfulAssets,\n    COUNT(DISTINCT CASE WHEN status = 'FAILED' THEN assetId END) AS failedAssets\nFROM PLATFORM_BACKUP\nWHERE configId = '69ccf6a9144e01072ec4cd55'\n  AND lastSyncTime >= 1772628015000\n  AND lastSyncTime <= 1775306547000;",
 				"group":"PLATFORM"
 			},
 			"skip":false,
@@ -632,7 +672,7 @@
 			"fallbackMode":"STOP",
 			"groupId":"n_SHHZw@n_bVpeE@_IvAuF-1@1@2",
 			"id":"n_wworY",
-			"index":11,
+			"index":12,
 			"inputs":{
 				"output":{
 					"type":"object",
@@ -689,7 +729,7 @@
 			"fallbackMode":"STOP",
 			"groupId":"n_bVpeE@_IvAuF-1@1",
 			"id":"n_tWYjb",
-			"index":12,
+			"index":13,
 			"inputs":{
 				"variables":[
 					{
@@ -715,7 +755,7 @@
 			"fallbackMode":"STOP",
 			"groupId":"n_bVpeE@_IvAuF-1@2",
 			"id":"n_bVpeE@2",
-			"index":13,
+			"index":14,
 			"inputs":{
 				"name":"Branch 2",
 				"conditions":{
@@ -746,7 +786,7 @@
 			"fallbackMode":"STOP",
 			"groupId":"n_bVpeE@_IvAuF-1@2",
 			"id":"n_phKMO",
-			"index":14,
+			"index":15,
 			"inputs":{
 				"group":"ENTITY_REPORTING"
 			},
@@ -767,7 +807,7 @@
 			"fallbackMode":"STOP",
 			"groupId":"_IvAuF-1",
 			"id":"n_K9PWV",
-			"index":15,
+			"index":16,
 			"inputs":{
 				"result":{
 					"result":"{{ n_pp0f5.outputs.result }}"
@@ -793,5 +833,5 @@
 		}
 	},
 	"standard":false,
-	"version":7
+	"version":8
 }
