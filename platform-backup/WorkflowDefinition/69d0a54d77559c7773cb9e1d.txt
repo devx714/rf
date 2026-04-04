@@ -23,7 +23,7 @@
 	"id":"69d0a54d77559c7773cb9e1d",
 	"lastModifiedBy":43523,
 	"lcName":"vertex test",
-	"modifiedTime":1775282478449,
+	"modifiedTime":1775282785124,
 	"name":"Vertex test",
 	"nodes":[
 		{
@@ -159,7 +159,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_zjDR6-1",
 			"id":"n_6P5gv",
@@ -301,12 +301,16 @@
 						}
 					}
 				},
-				"endpoint":"{{ n_MOspm.outputs.result.converted_endpoint }}",
+				"endpoint":"publishers/anthropic/models/claude-sonnet-4-6:rawPredict",
 				"httpVersion":"HTTP_2",
 				"record":{
 					"anthropic_version":"{{ n_5sS0v.outputs.result.anthropic_version }}",
 					"max_tokens":"{{ n_5sS0v.outputs.result.max_tokens }}",
+					"stream":"{{ n_5sS0v.outputs.result.stream }}",
 					"temperature":"{{ n_5sS0v.outputs.result.temperature }}",
+					"thinking":{
+						"type":"{{ n_5sS0v.outputs.result.thinking.type }}"
+					},
 					"tools":{
 						"ua:type":"mappedArray",
 						"items":"{{ n_5sS0v.outputs.result.tools[0] }}",
@@ -321,14 +325,9 @@
 						"source":"{{ n_5sS0v.outputs.result.system }}",
 						"ua:type":"mappedArray",
 						"items":"{{ n_5sS0v.outputs.result.system[0] }}"
-					},
-					"stream":"{{ n_5sS0v.outputs.result.stream }}",
-					"thinking":{
-						"type":"{{ n_5sS0v.outputs.result.thinking.type }}"
 					}
 				},
-				"project":"{{ n_mvkDN.outputs.properties.providerSpecficDetails.vertex_ai_project_id }}",
-				"location":"{{ n_mvkDN.outputs.properties.providerSpecficDetails.vertex_ai_region }}"
+				"project":"unifyai-422106"
 			},
 			"skip":false,
 			"subTitle":"Google vertex AI",
@@ -350,5 +349,5 @@
 		}
 	},
 	"standard":false,
-	"version":5
+	"version":6
 }
