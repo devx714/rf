@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1770461282077,
+	"deleted":true,
+	"edges":[
+		{
+			"fromNodeId":"_ES9QB",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_3bSNv",
+			"type":"next"
+		}
+	],
+	"id":"69871862e34b7b5d7a4941bf",
+	"lastModifiedBy":196143,
+	"lcName":"changeset to sheet wrapper",
+	"modifiedTime":1770461405419,
+	"name":"ChangeSet To Sheet Wrapper",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ES9QB-1",
+			"id":"_ES9QB",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ES9QB-1",
+			"id":"_3bSNv",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":196143,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":1
+}
