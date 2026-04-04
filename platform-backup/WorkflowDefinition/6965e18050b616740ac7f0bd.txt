@@ -4,14 +4,14 @@
 	],
 	"createdTime":1773768566435,
 	"deleted":false,
-	"deployedVersion":4,
+	"deployedVersion":5,
 	"deploymentState":{
-		"deployedAt":1774342980468,
+		"deployedAt":1775320700271,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2534429fa153f07e09dfa",
+		"deployedDefinitionId":"69d13e7cc6b0c9120df175e0",
 		"status":"DEPLOYED",
-		"version":4,
-		"workflowVersion":35
+		"version":5,
+		"workflowVersion":37
 	},
 	"edges":[
 		{
@@ -70,6 +70,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -79,7 +80,7 @@
 	"id":"6965e18050b616740ac7f0bd",
 	"lastModifiedBy":-1,
 	"lcName":"get pptx layout",
-	"modifiedTime":1775320700215,
+	"modifiedTime":1775320888612,
 	"name":"Get PPTX Layout",
 	"nodes":[
 		{
@@ -823,5 +824,5 @@
 	"tags":[
 		
 	],
-	"version":37
+	"version":38
 }
