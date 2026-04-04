@@ -3,7 +3,7 @@
 		
 	],
 	"createdTime":1775291686216,
-	"deleted":false,
+	"deleted":true,
 	"edges":[
 		{
 			"fromNodeId":"_hf4M9",
@@ -16,7 +16,7 @@
 	"id":"69d0cd2676ec8146bba8fbdf",
 	"lastModifiedBy":195392,
 	"lcName":"get data a1",
-	"modifiedTime":1775291686216,
+	"modifiedTime":1775291856173,
 	"name":"get data a1",
 	"nodes":[
 		{
@@ -56,5 +56,5 @@
 		}
 	},
 	"standard":false,
-	"version":0
+	"version":1
 }
