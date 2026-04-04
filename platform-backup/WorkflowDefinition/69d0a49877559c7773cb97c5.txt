@@ -16,7 +16,7 @@
 	"id":"69d0a49877559c7773cb97c5",
 	"lastModifiedBy":195299,
 	"lcName":"fdygr",
-	"modifiedTime":1775281304021,
+	"modifiedTime":1775281311854,
 	"name":"fdygr",
 	"nodes":[
 		{
@@ -47,14 +47,15 @@
 	],
 	"ownerUserId":195299,
 	"settings":{
-		"enableNodeLevelLogging":true,
-		"enableRunLogging":true,
-		"enableVariableLogging":true,
+		"enableNodeLevelLogging":false,
+		"enableRunLogging":false,
+		"enableVariableLogging":false,
 		"route":{
 			"default":false,
+			"headerValueTierMap":{},
 			"tierName":"global"
 		}
 	},
 	"standard":false,
-	"version":0
+	"version":1
 }
