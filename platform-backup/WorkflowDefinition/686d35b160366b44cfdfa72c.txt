@@ -211,7 +211,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -221,7 +220,7 @@
 	"id":"686d35b160366b44cfdfa72c",
 	"lastModifiedBy":-1,
 	"lcName":"channel knowledge indexer wrapper",
-	"modifiedTime":1775320890138,
+	"modifiedTime":1775334468147,
 	"name":"Channel Knowledge Indexer Wrapper",
 	"nodes":[
 		{
@@ -1104,5 +1103,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":155
+	"version":156
 }
