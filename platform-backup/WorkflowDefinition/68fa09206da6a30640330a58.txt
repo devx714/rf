@@ -106,7 +106,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -116,7 +115,7 @@
 	"id":"68fa09206da6a30640330a58",
 	"lastModifiedBy":-1,
 	"lcName":"metering | search | percentage of total queries answered using internal/external company knowledge",
-	"modifiedTime":1774622956058,
+	"modifiedTime":1775320634085,
 	"name":"Metering | Search | Percentage of total queries answered using internal/external company knowledge",
 	"nodes":[
 		{
@@ -796,5 +795,5 @@
 	"tags":[
 		
 	],
-	"version":70
+	"version":71
 }
