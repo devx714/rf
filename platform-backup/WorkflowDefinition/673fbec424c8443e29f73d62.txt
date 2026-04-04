@@ -26,7 +26,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -36,7 +35,7 @@
 	"id":"673fbec424c8443e29f73d62",
 	"lastModifiedBy":-1,
 	"lcName":"ai agent deployment delete handler",
-	"modifiedTime":1774622956553,
+	"modifiedTime":1775320654471,
 	"name":"AI Agent Deployment Delete Handler",
 	"nodes":[
 		{
@@ -99,5 +98,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":120
+	"version":121
 }
