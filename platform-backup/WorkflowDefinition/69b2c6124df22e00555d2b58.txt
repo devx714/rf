@@ -4,14 +4,14 @@
 	],
 	"createdTime":1773928136278,
 	"deleted":false,
-	"deployedVersion":3,
+	"deployedVersion":4,
 	"deploymentState":{
-		"deployedAt":1774342905652,
+		"deployedAt":1775320633669,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252f98d65fb68e1563993",
+		"deployedDefinitionId":"69d13e39c6b0c9120df173d8",
 		"status":"DEPLOYED",
-		"version":3,
-		"workflowVersion":26
+		"version":4,
+		"workflowVersion":28
 	},
 	"edges":[
 		{
@@ -210,6 +210,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -219,7 +220,7 @@
 	"id":"69b2c6124df22e00555d2b58",
 	"lastModifiedBy":-1,
 	"lcName":"memoryprofile | userspecificmemories",
-	"modifiedTime":1775320633597,
+	"modifiedTime":1775320889077,
 	"name":"MemoryProfile | UserSpecificMemories",
 	"nodes":[
 		{
@@ -628,6 +629,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1470,5 +1472,5 @@
 	"tags":[
 		
 	],
-	"version":28
+	"version":29
 }
