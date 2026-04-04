@@ -4,14 +4,14 @@
 	],
 	"createdTime":1722254529632,
 	"deleted":false,
-	"deployedVersion":110,
+	"deployedVersion":111,
 	"deploymentState":{
-		"deployedAt":1775320677433,
+		"deployedAt":1775334470643,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e6583aecf24ec254e4c",
+		"deployedDefinitionId":"69d1744639824e0613819d50",
 		"status":"DEPLOYED",
-		"version":110,
-		"workflowVersion":802
+		"version":111,
+		"workflowVersion":804
 	},
 	"description":"",
 	"edges":[
@@ -157,7 +157,7 @@
 	"id":"66a784c1c2d78732bf240022",
 	"lastModifiedBy":-1,
 	"lcName":"file upload | knowledge indexer",
-	"modifiedTime":1775320887375,
+	"modifiedTime":1775334705631,
 	"name":"File Upload | Knowledge Indexer",
 	"nodes":[
 		{
@@ -694,5 +694,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":803
+	"version":805
 }
