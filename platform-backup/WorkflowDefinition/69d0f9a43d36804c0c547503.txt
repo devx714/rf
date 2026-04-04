@@ -155,7 +155,7 @@
 	"id":"69d0f9a43d36804c0c547503",
 	"lastModifiedBy":45011,
 	"lcName":"[dnt] platform backup manager reporting",
-	"modifiedTime":1775317742127,
+	"modifiedTime":1775317982034,
 	"name":"[DNT] Platform Backup Manager Reporting",
 	"nodes":[
 		{
@@ -566,7 +566,7 @@
 						}
 					}
 				},
-				"code":"import java.time.Instant\nimport java.time.ZoneId\nimport java.time.format.DateTimeFormatter\n\ndef formatter = DateTimeFormatter.ofPattern(\"d MMMM, yyyy HH:mm:ss\")\n    .withZone(ZoneId.systemDefault())\n\ndef processedResult = data.collect { item ->\n    def row = item.columns\n    long ts = row.latestSyncTime as Long\n\n    return [\n        executionType: row.executionType,\n        totalAssets  : row.totalAssets as Integer,\n        lastSync: [\n            timestampMs: ts,\n            formatted  : formatter.format(Instant.ofEpochMilli(ts))\n        ]\n    ]\n}\n\nreturn processedResult",
+				"code":"import java.time.Instant\nimport java.time.ZoneId\nimport java.time.format.DateTimeFormatter\n\ndef formatter = DateTimeFormatter.ofPattern(\"d MMMM, yyyy HH:mm:ss\")\n    .withZone(ZoneId.systemDefault())\n\ndef processedResult = data.collect { item ->\n    def row = item.columns\n    long ts = row.latestSyncTime as Long\n\n    return [\n        executionType: row.executionType,\n        totalAssets  : row.totalAssets as Integer,\n        lastSync: [\n            timestampMs: ts,\n            formatted  : formatter.format(Instant.ofEpochMilli(ts))\n        ]\n    ]\n}\n\nreturn [\"processedResult\" : processedResult]",
 				"compile_static":false,
 				"captureStdOutput":false,
 				"parameters":{
@@ -854,7 +854,7 @@
 				"compile_static":false,
 				"captureStdOutput":false,
 				"parameters":{
-					"metrics":"{{ n_wworY.outputs.result }}",
+					"metrics":"{{ n_wworY.outputs.result.metrics }}",
 					"processedResult":"{{ n_LGDTu.outputs.result.processedResult }}"
 				}
 			},
@@ -980,5 +980,5 @@
 		}
 	},
 	"standard":false,
-	"version":11
+	"version":12
 }
