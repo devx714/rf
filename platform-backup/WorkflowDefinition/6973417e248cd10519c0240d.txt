@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769422031095,
 	"deleted":false,
-	"deployedVersion":11,
+	"deployedVersion":12,
 	"deploymentState":{
-		"deployedAt":1774342868290,
+		"deployedAt":1775320593122,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252d429fa153f07e0993b",
+		"deployedDefinitionId":"69d13e1183aecf24ec2546b6",
 		"status":"DEPLOYED",
-		"version":11,
-		"workflowVersion":25
+		"version":12,
+		"workflowVersion":27
 	},
 	"edges":[
 		{
@@ -109,7 +109,7 @@
 	"id":"6973417e248cd10519c0240d",
 	"lastModifiedBy":-1,
 	"lcName":"quote limit agent cost update job",
-	"modifiedTime":1775320593056,
+	"modifiedTime":1775334379929,
 	"name":"Quote Limit Agent Cost Update Job",
 	"nodes":[
 		{
@@ -516,5 +516,5 @@
 	"tags":[
 		
 	],
-	"version":27
+	"version":29
 }
