@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748544449841,
 	"deleted":false,
-	"deployedVersion":76,
+	"deployedVersion":78,
 	"deploymentState":{
-		"deployedAt":1774342867484,
+		"deployedAt":1775334359312,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252d329fa153f07e09931",
+		"deployedDefinitionId":"69d173d739824e061381975a",
 		"status":"DEPLOYED",
-		"version":76,
-		"workflowVersion":119
+		"version":78,
+		"workflowVersion":123
 	},
 	"edges":[
 		{
@@ -33,6 +33,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -42,7 +43,7 @@
 	"id":"68210922ccc45f469e28c54d",
 	"lastModifiedBy":-1,
 	"lcName":"default channel specific case management (create case)",
-	"modifiedTime":1775320592417,
+	"modifiedTime":1775334707726,
 	"name":"Default Channel Specific Case Management (Create case)",
 	"nodes":[
 		{
@@ -218,5 +219,5 @@
 	"tags":[
 		
 	],
-	"version":121
+	"version":124
 }
