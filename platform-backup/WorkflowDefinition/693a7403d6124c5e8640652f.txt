@@ -1,0 +1,253 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1770359718072,
+	"deleted":false,
+	"deployedVersion":2,
+	"deploymentState":{
+		"deployedAt":1770359813087,
+		"deployedBy":161930,
+		"deployedDefinitionId":"69858c05e65f293aad5b47a5",
+		"status":"DEPLOYED",
+		"version":2,
+		"workflowVersion":14
+	},
+	"edges":[
+		{
+			"fromNodeId":"n_s7KsF",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_ePTCK",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_ePTCK",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_ojWSt",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_ojWSt",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_9dgYY",
+			"type":"next"
+		}
+	],
+	"id":"693a7403d6124c5e8640652f",
+	"lastModifiedBy":161930,
+	"lcName":"crm update selected unmapped standard object data ",
+	"modifiedTime":1770359813088,
+	"name":"CRM Update Selected Unmapped Standard Object Data ",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":98,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_XDPu9-1",
+			"id":"n_s7KsF",
+			"index":1,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[],
+					"properties":{
+						"result":{
+							"type":"string",
+							"title":"Result"
+						}
+					}
+				},
+				"setup":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[],
+					"properties":{
+						"UpdatedName":{
+							"type":"string",
+							"title":"Updated Name"
+						},
+						"Object":{
+							"type":"string",
+							"title":"Object"
+						},
+						"MigrationID":{
+							"type":"string",
+							"title":"Migration ID"
+						},
+						"Prefix":{
+							"type":"string",
+							"title":"Prefix"
+						},
+						"Digits":{
+							"type":"string",
+							"title":"Digits"
+						},
+						"Number":{
+							"type":"string",
+							"title":"Number"
+						},
+						"ParentTableName":{
+							"type":"string",
+							"title":"Parent Table Name"
+						},
+						"Role":{
+							"type":"string",
+							"title":"Role"
+						}
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":210,
+				"resourceName":"storage_by_unifyapps_fetch_records",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_XDPu9-1",
+			"id":"n_ePTCK",
+			"index":2,
+			"inputs":{
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"properties_TableName",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"{{ n_s7KsF.outputs.Object }}"
+							}
+						},
+						{
+							"property":"properties_MigrationID",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"{{ n_s7KsF.outputs.MigrationID }}"
+							}
+						},
+						{
+							"property":"properties_Mapping",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"Unmapped"
+							}
+						}
+					],
+					"operator":"AND"
+				},
+				"object_type":"crm_selected_standard_objects",
+				"includeRoleMappings":false,
+				"includeCurrentUserPermissions":false,
+				"translationsOption":"DEFAULT",
+				"page":{
+					"paginateBy":"OFFSET",
+					"limit":20
+				},
+				"numberOfRecordsToFetch":"SINGLE",
+				"readThroughSessionVariables":false,
+				"includeTotalCount":false
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Fetch records",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":210,
+				"resourceName":"storage_by_unifyapps_update_record_by_id",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_XDPu9-1",
+			"id":"n_ojWSt",
+			"index":3,
+			"inputs":{
+				"recordId":"{{ n_ePTCK.outputs.id }}",
+				"writeThroughSessionVariables":false,
+				"object_type":"crm_selected_standard_objects",
+				"skipIfBlank":false,
+				"record":{
+					"TableName":"{{ n_ePTCK.outputs.properties.TableName }}",
+					"ServiceNowTableName":"{{ n_s7KsF.outputs.UpdatedName }}",
+					"MigrationID":"{{ n_ePTCK.outputs.properties.MigrationID }}",
+					"Mapping":"{{ n_ePTCK.outputs.properties.Mapping }}",
+					"Prefix":"{{ n_s7KsF.outputs.Prefix }}",
+					"Digits":"{{ n_s7KsF.outputs.Digits }}",
+					"Number":"{{ n_s7KsF.outputs.Number }}",
+					"Visited":true,
+					"ParentTableName":"{{ n_s7KsF.outputs.ParentTableName }}",
+					"Role":"{{ n_s7KsF.outputs.Role }}"
+				},
+				"upsert":false
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Update an existing record",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":98,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_XDPu9-1",
+			"id":"n_9dgYY",
+			"index":4,
+			"inputs":{
+				"result":{
+					"result":"200"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":161930,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		"SF_SN_R2"
+	],
+	"version":14
+}
