@@ -606,47 +606,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"635"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"311"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -656,7 +615,7 @@
 	"id":"6804db728588832203d32ebf",
 	"lastModifiedBy":-1,
 	"lcName":"openai session starter",
-	"modifiedTime":1775320892028,
+	"modifiedTime":1775334381269,
 	"name":"OpenAI Session Starter",
 	"nodes":[
 		{
@@ -787,7 +746,6 @@
 				"filler_sent":false
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1324,7 +1282,6 @@
 				"ua_voice_session_enabled":true
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2547,7 +2504,6 @@
 				"toolOutput":"{{ Ip1ZO.outputs.properties.content.agentResponse.toolUseDetails.toolOutput }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -3537,5 +3493,5 @@
 		}
 	},
 	"standard":true,
-	"version":456
+	"version":457
 }
