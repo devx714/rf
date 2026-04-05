@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775365309494,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775365309682,
+		"deployedBy":175325,
+		"deployedDefinitionId":"69d1ecbd3056b31235b55888",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"edges":[
 		{
 			"fromNodeId":"YCVAb",
@@ -30,7 +39,7 @@
 	"id":"69d1ecbd3056b31235b55885",
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2slack1613220532",
-	"modifiedTime":1775365309570,
+	"modifiedTime":1775365309683,
 	"name":"changeSetQA2Slack1613220532",
 	"nodes":[
 		{
@@ -40,7 +49,7 @@
 				"resourceName":"callables_from_api"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"q1OEE-1",
 			"id":"YCVAb",
@@ -91,7 +100,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"q1OEE-1",
 			"id":"xhcCx",
@@ -116,7 +125,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"q1OEE-1",
 			"id":"xJEAu",
@@ -141,7 +150,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"q1OEE-1",
 			"id":"fnMfF",
