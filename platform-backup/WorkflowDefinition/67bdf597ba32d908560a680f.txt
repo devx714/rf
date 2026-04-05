@@ -238,27 +238,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"39714"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -268,7 +247,7 @@
 	"id":"67bdf597ba32d908560a680f",
 	"lastModifiedBy":-1,
 	"lcName":"generic create case (streaming response)",
-	"modifiedTime":1775391438184,
+	"modifiedTime":1775407801712,
 	"name":"Generic Create Case (Streaming Response)",
 	"nodes":[
 		{
@@ -1596,5 +1575,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":213
+	"version":214
 }
