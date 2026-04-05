@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748544450023,
 	"deleted":false,
-	"deployedVersion":67,
+	"deployedVersion":71,
 	"deploymentState":{
-		"deployedAt":1775320606190,
+		"deployedAt":1775391243018,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e1e83aecf24ec25477e",
+		"deployedDefinitionId":"69d2520a50e82945c76a6457",
 		"status":"DEPLOYED",
-		"version":67,
-		"workflowVersion":139
+		"version":71,
+		"workflowVersion":147
 	},
 	"edges":[
 		{
@@ -156,7 +156,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -166,7 +165,7 @@
 	"id":"6818b362b1a6be79c76fd16c",
 	"lastModifiedBy":-1,
 	"lcName":"call custom http application (openai type payload) (streaming)",
-	"modifiedTime":1775320891812,
+	"modifiedTime":1775407723845,
 	"name":"Call Custom HTTP Application (OpenAI type Payload) (Streaming)",
 	"nodes":[
 		{
@@ -543,7 +542,6 @@
 				"currentState":"MESSAGE_START"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -638,7 +636,6 @@
 				"topP":"{{ CpGDp.outputs.top_p }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1662,5 +1659,5 @@
 		}
 	},
 	"standard":true,
-	"version":140
+	"version":149
 }
