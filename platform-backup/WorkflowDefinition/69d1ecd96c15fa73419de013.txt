@@ -1,21 +1,74 @@
 {
 	"appsUsed":[
-		
+		"69d1ecb512bee43cbbfc7ce2"
 	],
 	"createdTime":1775365337222,
 	"deleted":false,
 	"edges":[
-		
+		{
+			"fromNodeId":"n_Wl9z9",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"F60Kd",
+			"type":"next"
+		}
 	],
 	"id":"69d1ecd96c15fa73419de013",
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2sdk6641372339",
-	"modifiedTime":1775365337222,
+	"modifiedTime":1775365357306,
 	"name":"changeSetQA2sdk6641372339",
 	"nodes":[
-		
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":273,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"A7L4x-1",
+			"id":"n_Wl9z9",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"69d1ecb512bee43cbbfc7ce2",
+				"resourceVersion":3,
+				"connectionId":"69d1ecd312bee43cbbfc7cf5",
+				"resourceName":"69d1ecb512bee43cbbfc7ce2:69d1ecbd12bee43cbbfc7cec",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"A7L4x-1",
+			"id":"F60Kd",
+			"index":0,
+			"inputs":{},
+			"skip":false,
+			"subTitle":"changeSetQA2slck5188476860",
+			"title":"Get Count of Product",
+			"type":"ACTION"
+		}
 	],
 	"ownerUserId":175325,
+	"schemaReferences":[
+		
+	],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -26,5 +79,8 @@
 		}
 	},
 	"standard":false,
-	"version":0
+	"tags":[
+		
+	],
+	"version":1
 }
