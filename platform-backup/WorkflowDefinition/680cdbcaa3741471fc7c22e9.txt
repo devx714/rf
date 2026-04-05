@@ -4,14 +4,14 @@
 	],
 	"createdTime":1745765234177,
 	"deleted":false,
-	"deployedVersion":117,
+	"deployedVersion":120,
 	"deploymentState":{
-		"deployedAt":1774342926879,
+		"deployedAt":1775385599395,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2530e29fa153f07e09c1f",
+		"deployedDefinitionId":"69d23bffb31cfc01cc39f163",
 		"status":"DEPLOYED",
-		"version":117,
-		"workflowVersion":210
+		"version":120,
+		"workflowVersion":216
 	},
 	"edges":[
 		{
@@ -165,7 +165,7 @@
 	"id":"680cdbcaa3741471fc7c22e9",
 	"lastModifiedBy":-1,
 	"lcName":"observability | get trace timeline",
-	"modifiedTime":1775320650370,
+	"modifiedTime":1775385599396,
 	"name":"Observability | Get Trace Timeline",
 	"nodes":[
 		{
@@ -308,6 +308,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1466,5 +1467,5 @@
 	"tags":[
 		
 	],
-	"version":212
+	"version":216
 }
