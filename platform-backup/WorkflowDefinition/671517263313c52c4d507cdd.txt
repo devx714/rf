@@ -4,14 +4,14 @@
 	],
 	"createdTime":1729519906521,
 	"deleted":false,
-	"deployedVersion":94,
+	"deployedVersion":95,
 	"deploymentState":{
-		"deployedAt":1775334463201,
+		"deployedAt":1775385618068,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1743f39824e0613819ccb",
+		"deployedDefinitionId":"69d23c12b41de37eb670f672",
 		"status":"DEPLOYED",
-		"version":94,
-		"workflowVersion":148
+		"version":95,
+		"workflowVersion":150
 	},
 	"edges":[
 		{
@@ -70,7 +70,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -80,7 +79,7 @@
 	"id":"671517263313c52c4d507cdd",
 	"lastModifiedBy":-1,
 	"lcName":"send mqtt",
-	"modifiedTime":1775334707128,
+	"modifiedTime":1775385618069,
 	"name":"send mqtt",
 	"nodes":[
 		{
@@ -321,5 +320,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":149
+	"version":150
 }
