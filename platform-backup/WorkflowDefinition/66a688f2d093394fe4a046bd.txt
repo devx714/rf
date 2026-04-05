@@ -4,14 +4,14 @@
 	],
 	"createdTime":1722190066810,
 	"deleted":false,
-	"deployedVersion":126,
+	"deployedVersion":128,
 	"deploymentState":{
-		"deployedAt":1775385547137,
+		"deployedAt":1775391205463,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bcbb31cfc01cc39ed08",
+		"deployedDefinitionId":"69d251e550e82945c76a6345",
 		"status":"DEPLOYED",
-		"version":126,
-		"workflowVersion":186
+		"version":128,
+		"workflowVersion":190
 	},
 	"edges":[
 		{
@@ -98,6 +98,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -107,7 +108,7 @@
 	"id":"66a688f2d093394fe4a046bd",
 	"lastModifiedBy":-1,
 	"lcName":"copilot_clear_conversation",
-	"modifiedTime":1775389876257,
+	"modifiedTime":1775391431661,
 	"name":"Copilot_Clear_conversation",
 	"nodes":[
 		{
@@ -526,5 +527,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":188
+	"version":191
 }
