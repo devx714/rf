@@ -4,14 +4,14 @@
 	],
 	"createdTime":1744279530574,
 	"deleted":false,
-	"deployedVersion":116,
+	"deployedVersion":118,
 	"deploymentState":{
-		"deployedAt":1775385595019,
+		"deployedAt":1775391309808,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bfab31cfc01cc39f0cf",
+		"deployedDefinitionId":"69d2524d50e82945c76a67ed",
 		"status":"DEPLOYED",
-		"version":116,
-		"workflowVersion":224
+		"version":118,
+		"workflowVersion":228
 	},
 	"edges":[
 		{
@@ -334,7 +334,7 @@
 	"id":"67dff93439c7570c1008e463",
 	"lastModifiedBy":-1,
 	"lcName":"eval | dataset | generate from prompt",
-	"modifiedTime":1775385595020,
+	"modifiedTime":1775407775307,
 	"name":"Eval | Dataset | Generate from prompt",
 	"nodes":[
 		{
@@ -1031,7 +1031,6 @@
 				"totalTestCases":"{{ 4z8va.outputs.testCaseCount }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1359,7 +1358,6 @@
 				"testcaseCount":"{{ 4z8va.outputs.testCaseCount }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1767,7 +1765,6 @@
 				"userId":"{{ hsp6A.outputs.result.userId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1903,5 +1900,5 @@
 		}
 	},
 	"standard":true,
-	"version":224
+	"version":230
 }
