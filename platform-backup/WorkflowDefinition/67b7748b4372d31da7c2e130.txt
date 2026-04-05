@@ -4,14 +4,14 @@
 	],
 	"createdTime":1740110529541,
 	"deleted":false,
-	"deployedVersion":121,
+	"deployedVersion":125,
 	"deploymentState":{
-		"deployedAt":1775334408258,
+		"deployedAt":1775407758520,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1740839824e06138199dd",
+		"deployedDefinitionId":"69d2928e0e422443cf560621",
 		"status":"DEPLOYED",
-		"version":121,
-		"workflowVersion":190
+		"version":125,
+		"workflowVersion":198
 	},
 	"edges":[
 		{
@@ -1198,6 +1198,47 @@
 		"configs":[
 			{
 				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"44096"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"161165"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -1207,7 +1248,7 @@
 	"id":"67b7748b4372d31da7c2e130",
 	"lastModifiedBy":-1,
 	"lcName":"streaming accumulator",
-	"modifiedTime":1775385580875,
+	"modifiedTime":1775408108837,
 	"name":"Streaming Accumulator",
 	"nodes":[
 		{
@@ -1503,6 +1544,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1566,6 +1608,7 @@
 				"pushMessageContentDisabled":true
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1645,6 +1688,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1929,6 +1973,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2186,6 +2231,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2434,6 +2480,7 @@
 				"ua:title":"coPilotBlocks"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2691,6 +2738,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -3539,6 +3587,7 @@
 				"finalAnswerStart":true
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -7209,5 +7258,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":192
+	"version":199
 }
