@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775366161057,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775366163009,
+		"deployedBy":175325,
+		"deployedDefinitionId":"69d1f0113056b31235b56e76",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"edges":[
 		{
 			"fromNodeId":"dxBaL",
@@ -16,7 +25,7 @@
 	"id":"69d1f0113056b31235b56e72",
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa28144552977",
-	"modifiedTime":1775366161112,
+	"modifiedTime":1775366163011,
 	"name":"changeSetQA28144552977",
 	"nodes":[
 		{
