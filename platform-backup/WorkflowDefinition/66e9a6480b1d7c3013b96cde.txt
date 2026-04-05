@@ -6,14 +6,14 @@
 	],
 	"createdTime":1726588488803,
 	"deleted":false,
-	"deployedVersion":92,
+	"deployedVersion":94,
 	"deploymentState":{
-		"deployedAt":1775385607746,
+		"deployedAt":1775391326887,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c07b41de37eb670f602",
+		"deployedDefinitionId":"69d2525e50e82945c76a6942",
 		"status":"DEPLOYED",
-		"version":92,
-		"workflowVersion":148
+		"version":94,
+		"workflowVersion":152
 	},
 	"edges":[
 		{
@@ -266,6 +266,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -275,7 +276,7 @@
 	"id":"66e9a6480b1d7c3013b96cde",
 	"lastModifiedBy":-1,
 	"lcName":"call asr generic [do not touch]",
-	"modifiedTime":1775385607747,
+	"modifiedTime":1775391430359,
 	"name":"CALL ASR GENERIC [DO NOT TOUCH]",
 	"nodes":[
 		{
@@ -2010,5 +2011,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":148
+	"version":153
 }
