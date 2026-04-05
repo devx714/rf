@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769422245520,
 	"deleted":false,
-	"deployedVersion":16,
+	"deployedVersion":17,
 	"deploymentState":{
-		"deployedAt":1775334481082,
+		"deployedAt":1775385636691,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1745139824e0613819e74",
+		"deployedDefinitionId":"69d23c24b41de37eb670f761",
 		"status":"DEPLOYED",
-		"version":16,
-		"workflowVersion":32
+		"version":17,
+		"workflowVersion":34
 	},
 	"edges":[
 		{
@@ -50,7 +50,7 @@
 	"id":"6952616683a7ec5119011ae7",
 	"lastModifiedBy":-1,
 	"lcName":"call custom classifier model",
-	"modifiedTime":1775334705730,
+	"modifiedTime":1775385909115,
 	"name":"Call Custom Classifier Model",
 	"nodes":[
 		{
@@ -300,5 +300,5 @@
 	"tags":[
 		
 	],
-	"version":33
+	"version":35
 }
