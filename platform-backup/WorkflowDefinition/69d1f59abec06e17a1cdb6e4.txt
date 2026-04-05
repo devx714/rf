@@ -3,7 +3,7 @@
 		
 	],
 	"createdTime":1775367641265,
-	"deleted":false,
+	"deleted":true,
 	"deployedVersion":1,
 	"deploymentState":{
 		"deployedAt":1775367641355,
@@ -25,7 +25,7 @@
 	"id":"69d1f59abec06e17a1cdb6e4",
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2autowkqcfhmpql",
-	"modifiedTime":1775367641356,
+	"modifiedTime":1775368222866,
 	"name":"changeSetQA2autoWkqCFHmpQL",
 	"nodes":[
 		{
@@ -116,5 +116,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":2
 }
