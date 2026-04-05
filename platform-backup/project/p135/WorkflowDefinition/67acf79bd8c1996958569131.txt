@@ -4,14 +4,14 @@
 	],
 	"createdTime":1739388827900,
 	"deleted":false,
-	"deployedVersion":83,
+	"deployedVersion":84,
 	"deploymentState":{
-		"deployedAt":1775334468759,
+		"deployedAt":1775385623940,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1744439824e0613819d32",
+		"deployedDefinitionId":"69d23c17b31cfc01cc39f2ee",
 		"status":"DEPLOYED",
-		"version":83,
-		"workflowVersion":158
+		"version":84,
+		"workflowVersion":160
 	},
 	"edges":[
 		{
@@ -404,7 +404,7 @@
 	"id":"67acf79bd8c1996958569131",
 	"lastModifiedBy":-1,
 	"lcName":"upsert graph (hybrid+async) | graphrag",
-	"modifiedTime":1775385623752,
+	"modifiedTime":1775385623941,
 	"name":"Upsert Graph (Hybrid+Async) | GraphRAG",
 	"nodes":[
 		{
@@ -1150,6 +1150,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2079,6 +2080,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2568,6 +2570,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
