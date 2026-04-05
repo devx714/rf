@@ -49,7 +49,7 @@
 	"id":"67ae53c27598072af72b54f8",
 	"lastModifiedBy":-1,
 	"lcName":"extract data from a pdf file",
-	"modifiedTime":1775385641408,
+	"modifiedTime":1775390087791,
 	"name":"Extract Data from a pdf file",
 	"nodes":[
 		{
@@ -385,7 +385,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -537,5 +536,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":170
+	"version":172
 }
