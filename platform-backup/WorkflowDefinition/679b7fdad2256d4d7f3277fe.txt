@@ -447,6 +447,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -456,7 +457,7 @@
 	"id":"679b7fdad2256d4d7f3277fe",
 	"lastModifiedBy":-1,
 	"lcName":"fetch chunks given filter and embedding models",
-	"modifiedTime":1775385573535,
+	"modifiedTime":1775385908958,
 	"name":"Fetch Chunks Given Filter and Embedding Models",
 	"nodes":[
 		{
@@ -3257,5 +3258,5 @@
 		"AI Agent",
 		"Knowledge"
 	],
-	"version":171
+	"version":172
 }
