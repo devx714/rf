@@ -4,14 +4,14 @@
 	],
 	"createdTime":1749918647125,
 	"deleted":false,
-	"deployedVersion":25,
+	"deployedVersion":27,
 	"deploymentState":{
-		"deployedAt":1773928157413,
+		"deployedAt":1775391243192,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfedd40a2b92de9fe69df",
+		"deployedDefinitionId":"69d2520b50e82945c76a645b",
 		"status":"DEPLOYED",
-		"version":25,
-		"workflowVersion":63
+		"version":27,
+		"workflowVersion":66
 	},
 	"edges":[
 		{
@@ -111,6 +111,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -120,7 +121,7 @@
 	"id":"684d4ad52cf8b32edce6f1fe",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | gmail | index folders or all emails batch wrapper",
-	"modifiedTime":1775389915195,
+	"modifiedTime":1775391434292,
 	"name":"Knowledge Indexer | Gmail | Index folders or all emails batch Wrapper",
 	"nodes":[
 		{
@@ -468,6 +469,7 @@
 				"hasMore":true
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -825,5 +827,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":64
+	"version":67
 }
