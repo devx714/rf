@@ -118,6 +118,7 @@
 				"ghf":"{{ __ENV__.outputs.alert_channel }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
