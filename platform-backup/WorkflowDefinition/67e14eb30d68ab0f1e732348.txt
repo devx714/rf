@@ -159,7 +159,7 @@
 	"id":"67e14eb30d68ab0f1e732348",
 	"lastModifiedBy":-1,
 	"lcName":"eval | metrics | prompt alignment",
-	"modifiedTime":1775385619067,
+	"modifiedTime":1775390039190,
 	"name":"Eval | Metrics | Prompt Alignment",
 	"nodes":[
 		{
@@ -568,7 +568,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1132,5 +1131,5 @@
 	"tags":[
 		
 	],
-	"version":178
+	"version":180
 }
