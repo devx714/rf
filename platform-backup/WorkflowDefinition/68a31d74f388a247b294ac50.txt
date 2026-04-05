@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756411392654,
 	"deleted":false,
-	"deployedVersion":61,
+	"deployedVersion":63,
 	"deploymentState":{
-		"deployedAt":1775320701454,
+		"deployedAt":1775385650395,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e7dc6b0c9120df175f6",
+		"deployedDefinitionId":"69d23c32b41de37eb670f806",
 		"status":"DEPLOYED",
-		"version":61,
-		"workflowVersion":122
+		"version":63,
+		"workflowVersion":126
 	},
 	"edges":[
 		{
@@ -93,7 +93,7 @@
 	"id":"68a31d74f388a247b294ac50",
 	"lastModifiedBy":-1,
 	"lcName":"eval | metrics | text2sql",
-	"modifiedTime":1775334514217,
+	"modifiedTime":1775390099989,
 	"name":"Eval | Metrics | Text2SQL",
 	"nodes":[
 		{
@@ -705,5 +705,5 @@
 	"tags":[
 		
 	],
-	"version":124
+	"version":128
 }
