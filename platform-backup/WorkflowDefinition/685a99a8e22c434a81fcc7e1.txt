@@ -4,14 +4,14 @@
 	],
 	"createdTime":1750961537710,
 	"deleted":false,
-	"deployedVersion":20,
+	"deployedVersion":22,
 	"deploymentState":{
-		"deployedAt":1773928108425,
+		"deployedAt":1775391191929,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfeac16170c6243806731",
+		"deployedDefinitionId":"69d251d750e82945c76a6241",
 		"status":"DEPLOYED",
-		"version":20,
-		"workflowVersion":46
+		"version":22,
+		"workflowVersion":49
 	},
 	"edges":[
 		{
@@ -78,7 +78,7 @@
 	"id":"685a99a8e22c434a81fcc7e1",
 	"lastModifiedBy":-1,
 	"lcName":"people indexer | confluence",
-	"modifiedTime":1775389860496,
+	"modifiedTime":1775407693900,
 	"name":"People Indexer | Confluence",
 	"nodes":[
 		{
@@ -390,5 +390,5 @@
 	"tags":[
 		
 	],
-	"version":47
+	"version":51
 }
