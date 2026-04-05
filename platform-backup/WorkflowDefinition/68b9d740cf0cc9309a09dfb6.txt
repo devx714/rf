@@ -4,14 +4,14 @@
 	],
 	"createdTime":1758646650336,
 	"deleted":false,
-	"deployedVersion":36,
+	"deployedVersion":37,
 	"deploymentState":{
-		"deployedAt":1775385652182,
+		"deployedAt":1775390102154,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c34b31cfc01cc39f446",
+		"deployedDefinitionId":"69d24d9650e82945c76a4a6a",
 		"status":"DEPLOYED",
-		"version":36,
-		"workflowVersion":67
+		"version":37,
+		"workflowVersion":69
 	},
 	"edges":[
 		{
@@ -40,6 +40,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -49,7 +50,7 @@
 	"id":"68b9d740cf0cc9309a09dfb6",
 	"lastModifiedBy":-1,
 	"lcName":"fetch case citations",
-	"modifiedTime":1775390102104,
+	"modifiedTime":1775390109942,
 	"name":"Fetch Case Citations",
 	"nodes":[
 		{
@@ -282,5 +283,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":69
+	"version":70
 }
