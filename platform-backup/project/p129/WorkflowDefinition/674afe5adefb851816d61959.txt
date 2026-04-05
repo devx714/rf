@@ -4,14 +4,14 @@
 	],
 	"createdTime":1732968026880,
 	"deleted":false,
-	"deployedVersion":116,
+	"deployedVersion":119,
 	"deploymentState":{
-		"deployedAt":1775385630452,
+		"deployedAt":1775407824596,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c1eb41de37eb670f715",
+		"deployedDefinitionId":"69d292d00e422443cf560904",
 		"status":"DEPLOYED",
-		"version":116,
-		"workflowVersion":197
+		"version":119,
+		"workflowVersion":203
 	},
 	"edges":[
 		{
@@ -873,6 +873,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -882,7 +883,7 @@
 	"id":"674afe5adefb851816d61959",
 	"lastModifiedBy":-1,
 	"lcName":"case management (ai agent)",
-	"modifiedTime":1775385630453,
+	"modifiedTime":1775408105145,
 	"name":"Case Management (AI Agent)",
 	"nodes":[
 		{
@@ -4648,5 +4649,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":197
+	"version":204
 }
