@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762858126581,
 	"deleted":false,
-	"deployedVersion":28,
+	"deployedVersion":32,
 	"deploymentState":{
-		"deployedAt":1775320573158,
+		"deployedAt":1775391196324,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13dfd83aecf24ec2545a8",
+		"deployedDefinitionId":"69d251dc50e82945c76a6291",
 		"status":"DEPLOYED",
-		"version":28,
-		"workflowVersion":56
+		"version":32,
+		"workflowVersion":64
 	},
 	"edges":[
 		{
@@ -78,6 +78,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -87,7 +88,7 @@
 	"id":"68db6c55bea61507c175ff4e",
 	"lastModifiedBy":-1,
 	"lcName":"check prompt gaurdrail completion",
-	"modifiedTime":1775334343875,
+	"modifiedTime":1775391436174,
 	"name":"Check Prompt gaurdrail Completion",
 	"nodes":[
 		{
@@ -303,5 +304,5 @@
 	"tags":[
 		
 	],
-	"version":58
+	"version":65
 }
