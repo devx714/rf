@@ -4,14 +4,14 @@
 	],
 	"createdTime":1724672283837,
 	"deleted":false,
-	"deployedVersion":133,
+	"deployedVersion":136,
 	"deploymentState":{
-		"deployedAt":1775334512402,
+		"deployedAt":1775391420814,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1747039824e0613819f54",
+		"deployedDefinitionId":"69d252bc50e82945c76a6d66",
 		"status":"DEPLOYED",
-		"version":133,
-		"workflowVersion":220
+		"version":136,
+		"workflowVersion":226
 	},
 	"edges":[
 		{
@@ -320,7 +320,7 @@
 	"id":"66cc691b66e9a451803eb8f9",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge import runner",
-	"modifiedTime":1775385648384,
+	"modifiedTime":1775407849398,
 	"name":"Knowledge Import Runner",
 	"nodes":[
 		{
@@ -1697,5 +1697,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":222
+	"version":228
 }
