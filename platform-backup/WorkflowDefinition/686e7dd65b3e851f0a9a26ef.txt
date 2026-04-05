@@ -4,14 +4,14 @@
 	],
 	"createdTime":1752507475772,
 	"deleted":false,
-	"deployedVersion":64,
+	"deployedVersion":69,
 	"deploymentState":{
-		"deployedAt":1775320699828,
+		"deployedAt":1775407849927,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e7bc6b0c9120df175da",
+		"deployedDefinitionId":"69d292e9a2eda46706b04ca6",
 		"status":"DEPLOYED",
-		"version":64,
-		"workflowVersion":108
+		"version":69,
+		"workflowVersion":118
 	},
 	"edges":[
 		{
@@ -26,6 +26,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -35,7 +36,7 @@
 	"id":"686e7dd65b3e851f0a9a26ef",
 	"lastModifiedBy":-1,
 	"lcName":"supported model(ai agent) on update handler",
-	"modifiedTime":1775334512672,
+	"modifiedTime":1775408107977,
 	"name":"Supported Model(AI Agent) on Update Handler",
 	"nodes":[
 		{
@@ -148,5 +149,5 @@
 		}
 	},
 	"standard":true,
-	"version":110
+	"version":119
 }
