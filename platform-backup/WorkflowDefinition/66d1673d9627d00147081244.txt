@@ -441,7 +441,7 @@
 	"id":"66d1673d9627d00147081244",
 	"lastModifiedBy":-1,
 	"lcName":"response generator - ai agent",
-	"modifiedTime":1775385563030,
+	"modifiedTime":1775389923383,
 	"name":"Response Generator - AI Agent",
 	"nodes":[
 		{
@@ -995,7 +995,6 @@
 				"thought":false
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1253,7 +1252,6 @@
 				"defaultToCustomerId":"AI_CO_PILOT_ID"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1390,7 +1388,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1650,7 +1647,6 @@
 				"lastFanMessageId":"{{ n_rrDIf.outputs.properties.lastFanMessageId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2821,5 +2817,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":240
+	"version":242
 }
