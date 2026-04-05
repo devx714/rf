@@ -4,14 +4,14 @@
 	],
 	"createdTime":1773928107227,
 	"deleted":false,
-	"deployedVersion":1,
+	"deployedVersion":3,
 	"deploymentState":{
-		"deployedAt":1773928107349,
+		"deployedAt":1775391374089,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfeab40a2b92de9fe6696",
+		"deployedDefinitionId":"69d2528e50e82945c76a6b47",
 		"status":"DEPLOYED",
-		"version":1,
-		"workflowVersion":16
+		"version":3,
+		"workflowVersion":19
 	},
 	"edges":[
 		{
@@ -78,7 +78,7 @@
 	"id":"695e15d2b3203b6bc1e50c3f",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge downloader | google calender | events",
-	"modifiedTime":1775390050295,
+	"modifiedTime":1775407821051,
 	"name":"Knowledge Downloader | Google calender | events",
 	"nodes":[
 		{
@@ -608,5 +608,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":17
+	"version":21
 }
