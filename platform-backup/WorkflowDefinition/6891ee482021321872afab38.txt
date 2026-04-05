@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756411349677,
 	"deleted":false,
-	"deployedVersion":55,
+	"deployedVersion":57,
 	"deploymentState":{
-		"deployedAt":1775320654347,
+		"deployedAt":1775385602966,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e4e83aecf24ec254ca0",
+		"deployedDefinitionId":"69d23c02b41de37eb670f5aa",
 		"status":"DEPLOYED",
-		"version":55,
-		"workflowVersion":96
+		"version":57,
+		"workflowVersion":100
 	},
 	"edges":[
 		{
@@ -92,7 +92,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -102,7 +101,7 @@
 	"id":"6891ee482021321872afab38",
 	"lastModifiedBy":-1,
 	"lcName":"clustering | deduplication with cluster summary vector store",
-	"modifiedTime":1775320891945,
+	"modifiedTime":1775390016716,
 	"name":"Clustering | Deduplication with Cluster Summary Vector Store",
 	"nodes":[
 		{
@@ -560,5 +559,5 @@
 	"tags":[
 		"Clustering"
 	],
-	"version":97
+	"version":102
 }
