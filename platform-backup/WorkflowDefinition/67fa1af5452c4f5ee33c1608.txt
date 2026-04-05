@@ -4,14 +4,14 @@
 	],
 	"createdTime":1744444149292,
 	"deleted":false,
-	"deployedVersion":70,
+	"deployedVersion":72,
 	"deploymentState":{
-		"deployedAt":1775385578870,
+		"deployedAt":1775391271059,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23beab31cfc01cc39efbb",
+		"deployedDefinitionId":"69d2522750e82945c76a6685",
 		"status":"DEPLOYED",
-		"version":70,
-		"workflowVersion":126
+		"version":72,
+		"workflowVersion":130
 	},
 	"edges":[
 		{
@@ -40,6 +40,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -49,7 +50,7 @@
 	"id":"67fa1af5452c4f5ee33c1608",
 	"lastModifiedBy":-1,
 	"lcName":"execute starrocks query",
-	"modifiedTime":1775389965728,
+	"modifiedTime":1775391434623,
 	"name":"execute starrocks query",
 	"nodes":[
 		{
@@ -258,5 +259,5 @@
 		}
 	},
 	"standard":true,
-	"version":128
+	"version":131
 }
