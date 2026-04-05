@@ -247,7 +247,7 @@
 	"id":"67bdf597ba32d908560a680f",
 	"lastModifiedBy":-1,
 	"lcName":"generic create case (streaming response)",
-	"modifiedTime":1775385613691,
+	"modifiedTime":1775390031554,
 	"name":"Generic Create Case (Streaming Response)",
 	"nodes":[
 		{
@@ -1575,5 +1575,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":208
+	"version":210
 }
