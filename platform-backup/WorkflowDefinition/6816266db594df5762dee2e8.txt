@@ -4,14 +4,14 @@
 	],
 	"createdTime":1746282093638,
 	"deleted":false,
-	"deployedVersion":92,
+	"deployedVersion":93,
 	"deploymentState":{
-		"deployedAt":1775391270319,
+		"deployedAt":1775407754837,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2522650e82945c76a6674",
+		"deployedDefinitionId":"69d2928a0e422443cf560600",
 		"status":"DEPLOYED",
-		"version":92,
-		"workflowVersion":140
+		"version":93,
+		"workflowVersion":142
 	},
 	"edges":[
 		{
@@ -40,6 +40,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -49,7 +50,7 @@
 	"id":"6816266db594df5762dee2e8",
 	"lastModifiedBy":-1,
 	"lcName":"create user knowledge",
-	"modifiedTime":1775407754787,
+	"modifiedTime":1775408106195,
 	"name":"Create User Knowledge",
 	"nodes":[
 		{
@@ -375,5 +376,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":142
+	"version":143
 }
