@@ -4,14 +4,14 @@
 	],
 	"createdTime":1740599065215,
 	"deleted":false,
-	"deployedVersion":88,
+	"deployedVersion":92,
 	"deploymentState":{
-		"deployedAt":1775320608278,
+		"deployedAt":1775391245953,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e2083aecf24ec2547c1",
+		"deployedDefinitionId":"69d2520d50e82945c76a6495",
 		"status":"DEPLOYED",
-		"version":88,
-		"workflowVersion":147
+		"version":92,
+		"workflowVersion":155
 	},
 	"edges":[
 		{
@@ -76,6 +76,17 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
+					"V"
+				],
+				"principalIds":[
+					"45775"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -85,7 +96,7 @@
 	"id":"67bdeaa2ba32d908560a258c",
 	"lastModifiedBy":-1,
 	"lcName":"generate citations from reference",
-	"modifiedTime":1775334386870,
+	"modifiedTime":1775391437772,
 	"name":"Generate Citations from Reference",
 	"nodes":[
 		{
@@ -478,6 +489,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -666,5 +678,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":149
+	"version":156
 }
