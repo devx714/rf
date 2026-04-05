@@ -4,14 +4,14 @@
 	],
 	"createdTime":1736664162886,
 	"deleted":false,
-	"deployedVersion":108,
+	"deployedVersion":109,
 	"deploymentState":{
-		"deployedAt":1775334407045,
+		"deployedAt":1775385579904,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1740739824e06138199c9",
+		"deployedDefinitionId":"69d23bebb31cfc01cc39efcd",
 		"status":"DEPLOYED",
-		"version":108,
-		"workflowVersion":180
+		"version":109,
+		"workflowVersion":182
 	},
 	"edges":[
 		{
@@ -373,7 +373,7 @@
 	"id":"6783284f44ce135db1dab279",
 	"lastModifiedBy":-1,
 	"lcName":"prompt builder",
-	"modifiedTime":1775385579832,
+	"modifiedTime":1775385579905,
 	"name":"Prompt Builder",
 	"nodes":[
 		{
@@ -774,6 +774,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1163,6 +1164,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1281,6 +1283,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1907,6 +1910,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2106,6 +2110,7 @@
 				"modelId":"{{ JYICZ.outputs.modelId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2393,6 +2398,7 @@
 				"isStreaming":"{{ JYICZ.outputs.stream }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
