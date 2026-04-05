@@ -4,14 +4,14 @@
 	],
 	"createdTime":1740110524324,
 	"deleted":false,
-	"deployedVersion":47,
+	"deployedVersion":48,
 	"deploymentState":{
-		"deployedAt":1775390083870,
+		"deployedAt":1775391387328,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d24d8350e82945c76a48d9",
+		"deployedDefinitionId":"69d2529b50e82945c76a6c5f",
 		"status":"DEPLOYED",
-		"version":47,
-		"workflowVersion":72
+		"version":48,
+		"workflowVersion":74
 	},
 	"edges":[
 		{
@@ -123,7 +123,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -133,7 +132,7 @@
 	"id":"67b7429e13f6b44c9caf86bb",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | microsoft sentinel | get sharedids",
-	"modifiedTime":1775390108838,
+	"modifiedTime":1775407835073,
 	"name":"Knowledge Indexer | Microsoft Sentinel | Get sharedIDs",
 	"nodes":[
 		{
@@ -711,7 +710,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -806,5 +804,5 @@
 	"tags":[
 		
 	],
-	"version":73
+	"version":76
 }
