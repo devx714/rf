@@ -2,10 +2,10 @@
 	"createdTime":1772021081285,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1775370371913,
+		"deployedAt":1775370608286,
 		"deployedBy":195414,
-		"entityVersion":881,
-		"version":18
+		"entityVersion":889,
+		"version":19
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -30,7 +30,7 @@
 	},
 	"id":"sujal-111",
 	"lastModifiedBy":195414,
-	"modifiedTime":1775370589160,
+	"modifiedTime":1775370608288,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -697,5 +697,5 @@
 	"tags":[
 		
 	],
-	"version":888
+	"version":889
 }
