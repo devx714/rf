@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769522008346,
 	"deleted":false,
-	"deployedVersion":14,
+	"deployedVersion":16,
 	"deploymentState":{
-		"deployedAt":1775385556315,
+		"deployedAt":1775391240102,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bd4b31cfc01cc39ee17",
+		"deployedDefinitionId":"69d2520850e82945c76a6423",
 		"status":"DEPLOYED",
-		"version":14,
-		"workflowVersion":51
+		"version":16,
+		"workflowVersion":55
 	},
 	"edges":[
 		{
@@ -142,6 +142,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -151,7 +152,7 @@
 	"id":"6970a524648686730e1c9793",
 	"lastModifiedBy":-1,
 	"lcName":"memoryprofile | memoryinference",
-	"modifiedTime":1775389911971,
+	"modifiedTime":1775391433857,
 	"name":"MemoryProfile | memoryInference",
 	"nodes":[
 		{
@@ -314,6 +315,7 @@
 				"question":"{{ n_WF3Bn.outputs.query }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -977,6 +979,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1296,5 +1299,5 @@
 	"tags":[
 		
 	],
-	"version":53
+	"version":56
 }
