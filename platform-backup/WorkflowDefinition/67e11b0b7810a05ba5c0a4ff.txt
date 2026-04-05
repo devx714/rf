@@ -4,14 +4,14 @@
 	],
 	"createdTime":1744279534314,
 	"deleted":false,
-	"deployedVersion":119,
+	"deployedVersion":122,
 	"deploymentState":{
-		"deployedAt":1774342923797,
+		"deployedAt":1775385597139,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2530b29fa153f07e09c01",
+		"deployedDefinitionId":"69d23bfdb31cfc01cc39f11b",
 		"status":"DEPLOYED",
-		"version":119,
-		"workflowVersion":181
+		"version":122,
+		"workflowVersion":187
 	},
 	"edges":[
 		{
@@ -193,25 +193,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"A",
-					"EXPORT_AS_TEMPLATE",
-					"C",
-					"S",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"DEP"
-				],
-				"principalIds":[
-					"17"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -221,7 +202,7 @@
 	"id":"67e11b0b7810a05ba5c0a4ff",
 	"lastModifiedBy":-1,
 	"lcName":"ai eval | metrics | bias",
-	"modifiedTime":1774622955861,
+	"modifiedTime":1775389988826,
 	"name":"AI Eval | Metrics | Bias",
 	"nodes":[
 		{
@@ -630,7 +611,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1394,5 +1374,5 @@
 		}
 	},
 	"standard":true,
-	"version":182
+	"version":189
 }
