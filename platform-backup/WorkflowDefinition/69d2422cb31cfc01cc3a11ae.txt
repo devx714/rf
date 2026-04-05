@@ -32,7 +32,7 @@
 	"id":"69d2422cb31cfc01cc3a11ae",
 	"lastModifiedBy":33436,
 	"lcName":"sonyform",
-	"modifiedTime":1775389772571,
+	"modifiedTime":1775390024411,
 	"name":"SonyForm",
 	"nodes":[
 		{
@@ -42,7 +42,7 @@
 				"resourceName":"callables_from_automation"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_rufsc-1",
 			"id":"n_Jq3cC",
@@ -102,13 +102,13 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_rufsc-1",
 			"id":"n_h7SJI",
 			"index":2,
 			"inputs":{
-				"code":"const res={\n  \"schema\": {\n    \"type\": \"object\",\n    \"properties\": {\n      \"field1\": {\n        \"type\": \"string\",\n        \"format\": \"date\",\n        \"title\": \"start date\",\n        \"disablePast\": false,\n        \"valueType\": \"single\",\n        \"dateFormat\": \"iso\"\n      },\n      \"field2\": {\n        \"type\": \"string\",\n        \"format\": \"date\",\n        \"title\": \"end date\",\n        \"disablePast\": false,\n        \"valueType\": \"single\",\n        \"dateFormat\": \"iso\"\n      }\n    },\n    \"additionalProperties\": false,\n    \"required\": [\"field1\"]\n  },\n  \"uiSchema\": {\n    \"field1\": {\n      \"ua:valueType\": \"single\",\n      \"ua:displayFormat\": \"default\",\n      \"ui:label\": \"start date\",\n      \"ua:width\": \"100%\",\n      \"ua:fieldType\": \"DATE\"\n    },\n    \"ui:order\": [\"field1\", \"field2\"],\n    \"field2\": {\n      \"ua:valueType\": \"single\",\n      \"ua:displayFormat\": \"default\",\n      \"ui:label\": \"end date\",\n      \"ua:validationRules\": [\n        {\n          \"id\": \"f_vRules_3sqjM\",\n          \"errorMessage\": \"End date must be greater than start date\",\n          \"conditions\": {\n            \"type\": \"filter\",\n            \"payload\": {\n              \"filters\": [\n                {\n                  \"filters\": [\n                    {\n                      \"property\": \"{{ new Date(b_Ewjrm['content']['data']['formData']['field2']) }}\",\n                      \"filter\": {\n                        \"operator\": \"DATE_IS_ON_OR_AFTER\",\n                        \"value\": \"{{ new Date(b_Ewjrm['content']['data']['formData']['field1']) }}\"\n                      }\n                    },\n                    {\n                      \"property\": \"{{ b_Ewjrm['content']['data']['formData']['field2'] }}\",\n                      \"filter\": {\n                        \"operator\": \"EXISTS\"\n                      }\n                    }\n                  ],\n                  \"operator\": \"AND\"\n                },\n                {\n                  \"property\": \"{{ b_Ewjrm['content']['data']['formData']['field2'] }}\",\n                  \"filter\": {\n                    \"operator\": \"MISSING\"\n                  }\n                }\n              ],\n              \"operator\": \"OR\"\n            }\n          }\n        }\n      ],\n      \"ua:width\": \"100%\",\n      \"ua:fieldType\": \"DATE\"\n    }\n  }\n}\n\nres",
+				"code":"\n\nconst res={\n  \"schema\": {\n    \"type\": \"object\",\n    \"properties\": {\n      \"field1\": {\n        \"type\": \"string\",\n        \"format\": \"date\",\n        \"title\": \"start date\",\n        \"disablePast\": false,\n        \"valueType\": \"single\",\n        \"dateFormat\": \"iso\"\n      },\n      \"field2\": {\n        \"type\": \"string\",\n        \"format\": \"date\",\n        \"title\": \"end date\",\n        \"disablePast\": false,\n        \"valueType\": \"single\",\n        \"dateFormat\": \"iso\"\n      }\n    },\n    \"additionalProperties\": false,\n    \"required\": [\"field1\"]\n  },\n  \"uiSchema\": {\n    \"field1\": {\n      \"ua:valueType\": \"single\",\n      \"ua:displayFormat\": \"default\",\n      \"ui:label\": \"start date\",\n      \"ua:width\": \"100%\",\n      \"ua:fieldType\": \"DATE\"\n    },\n    \"ui:order\": [\"field1\", \"field2\"],\n    \"field2\": {\n      \"ua:valueType\": \"single\",\n      \"ua:displayFormat\": \"default\",\n      \"ui:label\": \"end date\",\n      \"ua:validationRules\": [\n        {\n          \"id\": \"f_vRules_3sqjM\",\n          \"errorMessage\": \"End date must be greater than start date\",\n          \"conditions\": {\n            \"type\": \"filter\",\n            \"payload\": {\n              \"filters\": [\n                {\n                  \"filters\": [\n                    {\n                      \"property\": \"\\{\\{ new Date(b_Ewjrm['content']['data']['formData']['field2']) \\}\\}\",\n                      \"filter\": {\n                        \"operator\": \"DATE_IS_ON_OR_AFTER\",\n                        \"value\": \"\\{\\{  new Date(b_Ewjrm['content']['data']['formData']['field1']) \\}\\}\"\n                      }\n                    },\n                    {\n                      \"property\": \"\\{\\{  b_Ewjrm['content']['data']['formData']['field2'] \\}\\}\",\n                      \"filter\": {\n                        \"operator\": \"EXISTS\"\n                      }\n                    }\n                  ],\n                  \"operator\": \"AND\"\n                },\n                {\n                  \"property\": \"\\{\\{  b_Ewjrm['content']['data']['formData']['field2'] \\}\\}\",\n                  \"filter\": {\n                    \"operator\": \"MISSING\"\n                  }\n                }\n              ],\n              \"operator\": \"OR\"\n            }\n          }\n        }\n      ],\n      \"ua:width\": \"100%\",\n      \"ua:fieldType\": \"DATE\"\n    }\n  }\n}\n\nres",
 				"isAsync":false
 			},
 			"skip":false,
@@ -131,7 +131,7 @@
 			"index":3,
 			"inputs":{
 				"result":{
-					"schemaAndUISchema":"{{ n_djH9P.outputs.result.Schema }}"
+					"schemaAndUISchema":"{{ n_h7SJI.outputs }}"
 				}
 			},
 			"skip":false,
@@ -154,5 +154,5 @@
 		}
 	},
 	"standard":false,
-	"version":13
+	"version":15
 }
