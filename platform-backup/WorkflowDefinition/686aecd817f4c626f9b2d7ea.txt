@@ -4,14 +4,14 @@
 	],
 	"createdTime":1753185889770,
 	"deleted":false,
-	"deployedVersion":83,
+	"deployedVersion":85,
 	"deploymentState":{
-		"deployedAt":1775320648450,
+		"deployedAt":1775385597208,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e4883aecf24ec254c42",
+		"deployedDefinitionId":"69d23bfdb31cfc01cc39f11d",
 		"status":"DEPLOYED",
-		"version":83,
-		"workflowVersion":143
+		"version":85,
+		"workflowVersion":147
 	},
 	"edges":[
 		{
@@ -88,7 +88,7 @@
 	"id":"686aecd817f4c626f9b2d7ea",
 	"lastModifiedBy":-1,
 	"lcName":"update indexer cursor",
-	"modifiedTime":1775334443555,
+	"modifiedTime":1775385597210,
 	"name":"Update Indexer Cursor",
 	"nodes":[
 		{
@@ -333,5 +333,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":145
+	"version":147
 }
