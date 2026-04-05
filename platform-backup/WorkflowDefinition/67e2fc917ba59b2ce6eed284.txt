@@ -184,25 +184,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"A",
-					"EXPORT_AS_TEMPLATE",
-					"C",
-					"S",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"DEP"
-				],
-				"principalIds":[
-					"411"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -212,7 +193,7 @@
 	"id":"67e2fc917ba59b2ce6eed284",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | github pr",
-	"modifiedTime":1775391429085,
+	"modifiedTime":1775407823651,
 	"name":"Knowledge Indexer | Github PR",
 	"nodes":[
 		{
@@ -1627,5 +1608,5 @@
 	"tags":[
 		
 	],
-	"version":187
+	"version":188
 }
