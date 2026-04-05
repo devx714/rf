@@ -83,7 +83,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -93,7 +92,7 @@
 	"id":"68ba733b69b2095feadb14b6",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge downloader | sharepoint | all folders",
-	"modifiedTime":1775391429657,
+	"modifiedTime":1775407752512,
 	"name":"Knowledge downloader | Sharepoint | All folders",
 	"nodes":[
 		{
@@ -374,7 +373,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -629,7 +627,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -887,5 +884,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":77
+	"version":78
 }
