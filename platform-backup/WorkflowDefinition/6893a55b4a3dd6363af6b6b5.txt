@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756473944548,
 	"deleted":false,
-	"deployedVersion":53,
+	"deployedVersion":54,
 	"deploymentState":{
-		"deployedAt":1775334464224,
+		"deployedAt":1775385619171,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1744039824e0613819cdd",
+		"deployedDefinitionId":"69d23c13b41de37eb670f684",
 		"status":"DEPLOYED",
-		"version":53,
-		"workflowVersion":96
+		"version":54,
+		"workflowVersion":98
 	},
 	"edges":[
 		{
@@ -169,7 +169,7 @@
 	"id":"6893a55b4a3dd6363af6b6b5",
 	"lastModifiedBy":-1,
 	"lcName":"mimetype/author to chunkmetadata",
-	"modifiedTime":1775385619091,
+	"modifiedTime":1775385619172,
 	"name":"MimeType/Author to ChunkMetadata",
 	"nodes":[
 		{
@@ -311,6 +311,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
