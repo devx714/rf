@@ -4,14 +4,14 @@
 	],
 	"createdTime":1740639832962,
 	"deleted":false,
-	"deployedVersion":42,
+	"deployedVersion":43,
 	"deploymentState":{
-		"deployedAt":1775389984249,
+		"deployedAt":1775391308111,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d24d2050e82945c76a43e7",
+		"deployedDefinitionId":"69d2524c50e82945c76a67d3",
 		"status":"DEPLOYED",
-		"version":42,
-		"workflowVersion":72
+		"version":43,
+		"workflowVersion":74
 	},
 	"edges":[
 		{
@@ -80,7 +80,7 @@
 	"id":"67c00e58ba4fdd638eeb2fad",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | jira | index attachment (final)",
-	"modifiedTime":1775390106709,
+	"modifiedTime":1775391430482,
 	"name":"Knowledge Indexer | JIRA | Index attachment (final)",
 	"nodes":[
 		{
@@ -487,5 +487,5 @@
 	"tags":[
 		
 	],
-	"version":73
+	"version":75
 }
