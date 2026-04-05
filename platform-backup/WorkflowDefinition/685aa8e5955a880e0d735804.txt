@@ -4,14 +4,14 @@
 	],
 	"createdTime":1750946772047,
 	"deleted":false,
-	"deployedVersion":84,
+	"deployedVersion":85,
 	"deploymentState":{
-		"deployedAt":1775334400218,
+		"deployedAt":1775385573100,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1740039824e061381993c",
+		"deployedDefinitionId":"69d23be5b31cfc01cc39ef50",
 		"status":"DEPLOYED",
-		"version":84,
-		"workflowVersion":140
+		"version":85,
+		"workflowVersion":142
 	},
 	"edges":[
 		{
@@ -115,7 +115,7 @@
 	"id":"685aa8e5955a880e0d735804",
 	"lastModifiedBy":-1,
 	"lcName":"copilot | live chat | fetch pinned messages",
-	"modifiedTime":1775385572977,
+	"modifiedTime":1775385573101,
 	"name":"Copilot | Live Chat | Fetch Pinned Messages",
 	"nodes":[
 		{
@@ -558,6 +558,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
