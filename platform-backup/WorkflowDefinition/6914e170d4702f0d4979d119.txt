@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769506025912,
 	"deleted":false,
-	"deployedVersion":13,
+	"deployedVersion":16,
 	"deploymentState":{
-		"deployedAt":1774342902667,
+		"deployedAt":1775385580298,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252f629fa153f07e09add",
+		"deployedDefinitionId":"69d23becb31cfc01cc39efd5",
 		"status":"DEPLOYED",
-		"version":13,
-		"workflowVersion":33
+		"version":16,
+		"workflowVersion":39
 	},
 	"edges":[
 		{
@@ -56,7 +56,7 @@
 	"id":"6914e170d4702f0d4979d119",
 	"lastModifiedBy":-1,
 	"lcName":"get deployment jstack",
-	"modifiedTime":1775320630708,
+	"modifiedTime":1775389967736,
 	"name":"Get Deployment Jstack",
 	"nodes":[
 		{
@@ -244,5 +244,5 @@
 	"tags":[
 		
 	],
-	"version":35
+	"version":41
 }
