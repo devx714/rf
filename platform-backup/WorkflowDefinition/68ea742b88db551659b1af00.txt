@@ -4,14 +4,14 @@
 	],
 	"createdTime":1760281938963,
 	"deleted":false,
-	"deployedVersion":34,
+	"deployedVersion":36,
 	"deploymentState":{
-		"deployedAt":1775334464639,
+		"deployedAt":1775390039902,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1744039824e0613819ce7",
+		"deployedDefinitionId":"69d24d5750e82945c76a46c2",
 		"status":"DEPLOYED",
-		"version":34,
-		"workflowVersion":68
+		"version":36,
+		"workflowVersion":72
 	},
 	"edges":[
 		{
@@ -47,6 +47,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -56,7 +57,7 @@
 	"id":"68ea742b88db551659b1af00",
 	"lastModifiedBy":-1,
 	"lcName":"workflow agent | output schema generation",
-	"modifiedTime":1775385619533,
+	"modifiedTime":1775390105738,
 	"name":"Workflow Agent | Output Schema Generation",
 	"nodes":[
 		{
@@ -268,5 +269,5 @@
 	"tags":[
 		
 	],
-	"version":70
+	"version":73
 }
