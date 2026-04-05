@@ -4,14 +4,14 @@
 	],
 	"createdTime":1751469655760,
 	"deleted":false,
-	"deployedVersion":95,
+	"deployedVersion":96,
 	"deploymentState":{
-		"deployedAt":1775334343851,
+		"deployedAt":1775385541959,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173c739824e061381967e",
+		"deployedDefinitionId":"69d23bc5b31cfc01cc39eba9",
 		"status":"DEPLOYED",
-		"version":95,
-		"workflowVersion":174
+		"version":96,
+		"workflowVersion":176
 	},
 	"edges":[
 		{
@@ -155,7 +155,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -165,7 +164,7 @@
 	"id":"68542c75651b6b3df907f38f",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer",
-	"modifiedTime":1775334707233,
+	"modifiedTime":1775385541960,
 	"name":"Knowledge Indexer",
 	"nodes":[
 		{
@@ -1056,5 +1055,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":175
+	"version":176
 }
