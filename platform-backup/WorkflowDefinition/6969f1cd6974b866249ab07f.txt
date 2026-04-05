@@ -42,7 +42,7 @@
 	"id":"6969f1cd6974b866249ab07f",
 	"lastModifiedBy":-1,
 	"lcName":"observability | trace metadata",
-	"modifiedTime":1775385568929,
+	"modifiedTime":1775389932144,
 	"name":"Observability | Trace Metadata",
 	"nodes":[
 		{
@@ -425,5 +425,5 @@
 	"tags":[
 		
 	],
-	"version":31
+	"version":33
 }
