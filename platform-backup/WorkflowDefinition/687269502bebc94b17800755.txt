@@ -4,14 +4,14 @@
 	],
 	"createdTime":1753185932366,
 	"deleted":false,
-	"deployedVersion":64,
+	"deployedVersion":65,
 	"deploymentState":{
-		"deployedAt":1775391268534,
+		"deployedAt":1775407752994,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2522450e82945c76a664e",
+		"deployedDefinitionId":"69d29288a2eda46706b04562",
 		"status":"DEPLOYED",
-		"version":64,
-		"workflowVersion":115
+		"version":65,
+		"workflowVersion":117
 	},
 	"edges":[
 		{
@@ -468,6 +468,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -477,7 +478,7 @@
 	"id":"687269502bebc94b17800755",
 	"lastModifiedBy":-1,
 	"lcName":"[strands] agent executor",
-	"modifiedTime":1775407752915,
+	"modifiedTime":1775408100272,
 	"name":"[Strands] Agent Executor",
 	"nodes":[
 		{
@@ -609,6 +610,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1180,6 +1182,7 @@
 				"publishMessageId":"{{ 8GW17.outputs.messageId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1716,6 +1719,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2685,5 +2689,5 @@
 	"tags":[
 		
 	],
-	"version":117
+	"version":118
 }
