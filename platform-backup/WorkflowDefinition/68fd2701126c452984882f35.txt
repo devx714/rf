@@ -4,14 +4,14 @@
 	],
 	"createdTime":1761722830816,
 	"deleted":false,
-	"deployedVersion":29,
+	"deployedVersion":30,
 	"deploymentState":{
-		"deployedAt":1775334464820,
+		"deployedAt":1775385619800,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1744039824e0613819ceb",
+		"deployedDefinitionId":"69d23c13b41de37eb670f692",
 		"status":"DEPLOYED",
-		"version":29,
-		"workflowVersion":59
+		"version":30,
+		"workflowVersion":61
 	},
 	"edges":[
 		{
@@ -33,7 +33,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -43,7 +42,7 @@
 	"id":"68fd2701126c452984882f35",
 	"lastModifiedBy":-1,
 	"lcName":"update citation usage count",
-	"modifiedTime":1775334707151,
+	"modifiedTime":1775390040316,
 	"name":"Update Citation Usage Count",
 	"nodes":[
 		{
@@ -192,5 +191,5 @@
 	"tags":[
 		
 	],
-	"version":60
+	"version":63
 }
