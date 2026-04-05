@@ -14,7 +14,6 @@
 	},
 	"id":"694fad5033ee0b6ab6255451",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -61,10 +60,9 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"custom metadata filter generator",
-	"modifiedTime":1775385430707,
+	"modifiedTime":1775407557079,
 	"name":"Custom Metadata Filter Generator",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -103,5 +101,5 @@
 	},
 	"ownerUserId":0,
 	"standard":true,
-	"version":24
+	"version":30
 }
