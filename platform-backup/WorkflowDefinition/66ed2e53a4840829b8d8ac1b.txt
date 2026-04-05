@@ -4,14 +4,14 @@
 	],
 	"createdTime":1726820285273,
 	"deleted":false,
-	"deployedVersion":80,
+	"deployedVersion":82,
 	"deploymentState":{
-		"deployedAt":1775334461122,
+		"deployedAt":1775390034564,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1743d39824e0613819c81",
+		"deployedDefinitionId":"69d24d5250e82945c76a465e",
 		"status":"DEPLOYED",
-		"version":80,
-		"workflowVersion":133
+		"version":82,
+		"workflowVersion":137
 	},
 	"edges":[
 		{
@@ -40,16 +40,37 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
+			},
+			{
+				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"6757db349b09ba5b01b6c44c"
+				],
+				"principalType":"USER_GROUPS"
 			}
 		]
 	},
 	"id":"66ed2e53a4840829b8d8ac1b",
 	"lastModifiedBy":-1,
 	"lcName":"observability | export conversation",
-	"modifiedTime":1775385615911,
+	"modifiedTime":1775390109580,
 	"name":"Observability | Export Conversation",
 	"nodes":[
 		{
@@ -207,5 +228,5 @@
 		"AI Agent",
 		"Observation"
 	],
-	"version":135
+	"version":138
 }
