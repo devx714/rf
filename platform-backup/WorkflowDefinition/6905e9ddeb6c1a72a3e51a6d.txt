@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762858156063,
 	"deleted":false,
-	"deployedVersion":29,
+	"deployedVersion":30,
 	"deploymentState":{
-		"deployedAt":1775334386848,
+		"deployedAt":1775385559750,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173f239824e061381984a",
+		"deployedDefinitionId":"69d23bd7b31cfc01cc39ee61",
 		"status":"DEPLOYED",
-		"version":29,
-		"workflowVersion":57
+		"version":30,
+		"workflowVersion":59
 	},
 	"edges":[
 		{
@@ -56,7 +56,7 @@
 	"id":"6905e9ddeb6c1a72a3e51a6d",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] delete agent",
-	"modifiedTime":1775385559702,
+	"modifiedTime":1775385559751,
 	"name":"[DT] Delete Agent",
 	"nodes":[
 		{
@@ -150,6 +150,7 @@
 				"agentId":"{{ n_T2Py7.outputs.pathParams.agentId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
