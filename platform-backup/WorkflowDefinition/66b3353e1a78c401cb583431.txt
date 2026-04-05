@@ -4,14 +4,14 @@
 	],
 	"createdTime":1723020606244,
 	"deleted":false,
-	"deployedVersion":102,
+	"deployedVersion":103,
 	"deploymentState":{
-		"deployedAt":1775385566936,
+		"deployedAt":1775389929262,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bdeb31cfc01cc39eee6",
+		"deployedDefinitionId":"69d24ce950e82945c76a410a",
 		"status":"DEPLOYED",
-		"version":102,
-		"workflowVersion":173
+		"version":103,
+		"workflowVersion":175
 	},
 	"edges":[
 		{
@@ -84,6 +84,81 @@
 		"configs":[
 			{
 				"permissions":[
+					"A",
+					"EXPORT_AS_TEMPLATE",
+					"C",
+					"S",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"DEP"
+				],
+				"principalIds":[
+					"76704"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A",
+					"EXPORT_AS_TEMPLATE",
+					"C",
+					"S",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"DEP"
+				],
+				"principalIds":[
+					"311"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A",
+					"EXPORT_AS_TEMPLATE",
+					"C",
+					"S",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"DEP"
+				],
+				"principalIds":[
+					"32120"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"45010"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -93,7 +168,7 @@
 	"id":"66b3353e1a78c401cb583431",
 	"lastModifiedBy":-1,
 	"lcName":"fetch embeddings-openai",
-	"modifiedTime":1775389929209,
+	"modifiedTime":1775390105848,
 	"name":"Fetch Embeddings-OPENAI",
 	"nodes":[
 		{
@@ -613,5 +688,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":175
+	"version":176
 }
