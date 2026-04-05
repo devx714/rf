@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769422243662,
 	"deleted":false,
-	"deployedVersion":16,
+	"deployedVersion":17,
 	"deploymentState":{
-		"deployedAt":1775334479697,
+		"deployedAt":1775385635342,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1744f39824e0613819e58",
+		"deployedDefinitionId":"69d23c23b41de37eb670f745",
 		"status":"DEPLOYED",
-		"version":16,
-		"workflowVersion":34
+		"version":17,
+		"workflowVersion":36
 	},
 	"edges":[
 		{
@@ -114,7 +114,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -124,7 +123,7 @@
 	"id":"6957bbcf4092531cd1732ebd",
 	"lastModifiedBy":-1,
 	"lcName":"sre | get current deployed commits",
-	"modifiedTime":1775334705604,
+	"modifiedTime":1775385635343,
 	"name":"SRE | Get Current Deployed Commits",
 	"nodes":[
 		{
@@ -798,5 +797,5 @@
 		"sre_ai",
 		"dev_migrate"
 	],
-	"version":35
+	"version":36
 }
