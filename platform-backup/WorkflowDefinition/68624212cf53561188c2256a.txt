@@ -4,14 +4,14 @@
 	],
 	"createdTime":1751269906879,
 	"deleted":false,
-	"deployedVersion":37,
+	"deployedVersion":38,
 	"deploymentState":{
-		"deployedAt":1775391364794,
+		"deployedAt":1775407811585,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2528450e82945c76a6a93",
+		"deployedDefinitionId":"69d292c30e422443cf560844",
 		"status":"DEPLOYED",
-		"version":37,
-		"workflowVersion":67
+		"version":38,
+		"workflowVersion":69
 	},
 	"edges":[
 		{
@@ -243,7 +243,7 @@
 	"id":"68624212cf53561188c2256a",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | qualtrics mailing list contacts",
-	"modifiedTime":1775391437042,
+	"modifiedTime":1775408108837,
 	"name":"Knowledge Indexer | Qualtrics Mailing List Contacts",
 	"nodes":[
 		{
@@ -1416,5 +1416,5 @@
 		}
 	},
 	"standard":true,
-	"version":68
+	"version":70
 }
