@@ -4,14 +4,14 @@
 	],
 	"createdTime":1741937514524,
 	"deleted":false,
-	"deployedVersion":90,
+	"deployedVersion":93,
 	"deploymentState":{
-		"deployedAt":1775385610712,
+		"deployedAt":1775407797291,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c0ab31cfc01cc39f1c9",
+		"deployedDefinitionId":"69d292b5a2eda46706b0484a",
 		"status":"DEPLOYED",
-		"version":90,
-		"workflowVersion":139
+		"version":93,
+		"workflowVersion":145
 	},
 	"edges":[
 		{
@@ -55,6 +55,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -64,7 +65,7 @@
 	"id":"67d3db6a94de00038c6005c3",
 	"lastModifiedBy":-1,
 	"lcName":"translated static text",
-	"modifiedTime":1775390027269,
+	"modifiedTime":1775408109213,
 	"name":"Translated Static Text",
 	"nodes":[
 		{
@@ -268,5 +269,5 @@
 	"tags":[
 		
 	],
-	"version":141
+	"version":146
 }
