@@ -4,14 +4,14 @@
 	],
 	"createdTime":1745179796076,
 	"deleted":false,
-	"deployedVersion":85,
+	"deployedVersion":89,
 	"deploymentState":{
-		"deployedAt":1775334388125,
+		"deployedAt":1775407729331,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173f439824e0613819860",
+		"deployedDefinitionId":"69d292710e422443cf5604b8",
 		"status":"DEPLOYED",
-		"version":85,
-		"workflowVersion":134
+		"version":89,
+		"workflowVersion":142
 	},
 	"edges":[
 		{
@@ -291,7 +291,7 @@
 	"id":"67f439a9faf9a1695c2e7fa9",
 	"lastModifiedBy":-1,
 	"lcName":"response guardrails (streaming)",
-	"modifiedTime":1775334707051,
+	"modifiedTime":1775408104068,
 	"name":"Response Guardrails (Streaming)",
 	"nodes":[
 		{
@@ -1360,5 +1360,5 @@
 		}
 	},
 	"standard":true,
-	"version":135
+	"version":143
 }
