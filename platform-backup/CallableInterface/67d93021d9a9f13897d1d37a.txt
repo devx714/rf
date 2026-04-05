@@ -63,7 +63,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"call embedding model",
-	"modifiedTime":1775385430677,
+	"modifiedTime":1775389812085,
 	"name":"Call Embedding Model",
 	"output":{
 		"dynamic":false,
@@ -126,5 +126,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":113
+	"version":115
 }
