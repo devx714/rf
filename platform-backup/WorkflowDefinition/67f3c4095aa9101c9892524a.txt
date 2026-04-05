@@ -4,14 +4,14 @@
 	],
 	"createdTime":1744698870809,
 	"deleted":false,
-	"deployedVersion":35,
+	"deployedVersion":36,
 	"deploymentState":{
-		"deployedAt":1775391361730,
+		"deployedAt":1775407808561,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2528150e82945c76a6a59",
+		"deployedDefinitionId":"69d292c00e422443cf56080a",
 		"status":"DEPLOYED",
-		"version":35,
-		"workflowVersion":66
+		"version":36,
+		"workflowVersion":68
 	},
 	"edges":[
 		{
@@ -122,6 +122,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -131,7 +132,7 @@
 	"id":"67f3c4095aa9101c9892524a",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | webex teams | index attachments",
-	"modifiedTime":1775407808502,
+	"modifiedTime":1775408097149,
 	"name":"Knowledge Indexer | Webex Teams | Index attachments",
 	"nodes":[
 		{
@@ -684,5 +685,5 @@
 	"tags":[
 		
 	],
-	"version":68
+	"version":69
 }
