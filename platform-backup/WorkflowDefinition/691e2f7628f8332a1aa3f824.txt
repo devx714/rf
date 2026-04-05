@@ -4,15 +4,15 @@
 	],
 	"createdTime":1764063157919,
 	"deleted":false,
-	"deployedVersion":25,
+	"deployedVersion":28,
 	"deploymentState":{
-		"deployedAt":1775385575269,
+		"deployedAt":1775407749770,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23be7b31cfc01cc39ef74",
+		"deployedDefinitionId":"69d292850e422443cf5605c0",
 		"deploymentTag":"used_old_interface",
 		"status":"DEPLOYED",
-		"version":25,
-		"workflowVersion":50
+		"version":28,
+		"workflowVersion":56
 	},
 	"edges":[
 		{
@@ -94,6 +94,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -103,7 +104,7 @@
 	"id":"691e2f7628f8332a1aa3f824",
 	"lastModifiedBy":-1,
 	"lcName":"pii mask knowledge chunk interface | wrapper",
-	"modifiedTime":1775385575270,
+	"modifiedTime":1775408109212,
 	"name":"PII Mask Knowledge Chunk Interface | Wrapper",
 	"nodes":[
 		{
@@ -456,5 +457,5 @@
 		}
 	},
 	"standard":true,
-	"version":50
+	"version":57
 }
