@@ -3,7 +3,16 @@
 		
 	],
 	"createdTime":1775367614583,
-	"deleted":false,
+	"deleted":true,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775367614664,
+		"deployedBy":175325,
+		"deployedDefinitionId":"69d1f5be3056b31235b59e2b",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"edges":[
 		{
 			"fromNodeId":"lZXRK",
@@ -16,7 +25,7 @@
 	"id":"69d1f4e0bec06e17a1cdb616",
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2autopnuwkmzqaw",
-	"modifiedTime":1775367614583,
+	"modifiedTime":1775368222911,
 	"name":"changeSetQA2autoPnUwkmZqaw",
 	"nodes":[
 		{
@@ -108,5 +117,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":2
 }
