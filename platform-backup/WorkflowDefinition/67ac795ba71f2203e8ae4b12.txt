@@ -4,14 +4,14 @@
 	],
 	"createdTime":1740110519125,
 	"deleted":false,
-	"deployedVersion":8,
+	"deployedVersion":10,
 	"deploymentState":{
-		"deployedAt":1773928118307,
+		"deployedAt":1775391262740,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfeb640a2b92de9fe6734",
+		"deployedDefinitionId":"69d2521e50e82945c76a65e1",
 		"status":"DEPLOYED",
-		"version":8,
-		"workflowVersion":129
+		"version":10,
+		"workflowVersion":132
 	},
 	"edges":[
 		{
@@ -319,6 +319,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -328,7 +329,7 @@
 	"id":"67ac795ba71f2203e8ae4b12",
 	"lastModifiedBy":-1,
 	"lcName":"[amazons3] get file sharedwithids",
-	"modifiedTime":1775389956858,
+	"modifiedTime":1775391431425,
 	"name":"[AmazonS3] Get File SharedWithIds",
 	"nodes":[
 		{
@@ -636,6 +637,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1115,6 +1117,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2025,5 +2028,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":130
+	"version":133
 }
