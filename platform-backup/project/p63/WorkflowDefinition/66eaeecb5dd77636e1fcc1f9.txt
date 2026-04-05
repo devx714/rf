@@ -5,14 +5,14 @@
 	],
 	"createdTime":1726672587863,
 	"deleted":false,
-	"deployedVersion":116,
+	"deployedVersion":118,
 	"deploymentState":{
-		"deployedAt":1775385606967,
+		"deployedAt":1775391325975,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c06b41de37eb670f5f9",
+		"deployedDefinitionId":"69d2525d50e82945c76a6934",
 		"status":"DEPLOYED",
-		"version":116,
-		"workflowVersion":190
+		"version":118,
+		"workflowVersion":194
 	},
 	"description":"",
 	"edges":[
@@ -288,7 +288,7 @@
 	"id":"66eaeecb5dd77636e1fcc1f9",
 	"lastModifiedBy":-1,
 	"lcName":"get or create customerprofile",
-	"modifiedTime":1775385606968,
+	"modifiedTime":1775407792367,
 	"name":"Get Or Create CustomerProfile",
 	"nodes":[
 		{
@@ -742,7 +742,6 @@
 				"emailId":"=IF(ISBLANK({{ _UOIlS.outputs.user.profile.email }}),SUBSTITUTE(LOWER({{ _UOIlS.outputs.user.profile.real_name }}),\" \",\"_\") & \"@slack.com\",LOWER({{ _UOIlS.outputs.user.profile.email }}))"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -907,7 +906,6 @@
 				"emailId":"=IF(ISBLANK({{ n_LyPZh.outputs.mail }}), SUBSTITUTE(LOWER({{ n_LyPZh.outputs.givenName }}),\" \",\"_\") & \"@microsoftteams.com\",{{ n_LyPZh.outputs.mail }})"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1529,5 +1527,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":190
+	"version":196
 }
