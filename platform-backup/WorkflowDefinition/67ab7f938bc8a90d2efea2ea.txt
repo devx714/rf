@@ -326,27 +326,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"33418"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -356,7 +335,7 @@
 	"id":"67ab7f938bc8a90d2efea2ea",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | confluence | index pages",
-	"modifiedTime":1775391435960,
+	"modifiedTime":1775407828102,
 	"name":"Knowledge Indexer | Confluence | Index Pages",
 	"nodes":[
 		{
@@ -925,7 +904,6 @@
 				"has_more":true
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1286,7 +1264,6 @@
 				"has_more":true
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1587,7 +1564,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2044,5 +2020,5 @@
 		}
 	},
 	"standard":true,
-	"version":203
+	"version":204
 }
