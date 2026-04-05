@@ -93,7 +93,7 @@
 	"id":"6864fd3f56c6143beed80ae6",
 	"lastModifiedBy":-1,
 	"lcName":"call bedrock embeddings",
-	"modifiedTime":1775385641943,
+	"modifiedTime":1775390088437,
 	"name":"Call Bedrock Embeddings",
 	"nodes":[
 		{
@@ -617,5 +617,5 @@
 	"tags":[
 		
 	],
-	"version":126
+	"version":128
 }
