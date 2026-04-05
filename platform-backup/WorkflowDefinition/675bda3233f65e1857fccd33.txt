@@ -4,14 +4,14 @@
 	],
 	"createdTime":1735457220834,
 	"deleted":false,
-	"deployedVersion":82,
+	"deployedVersion":83,
 	"deploymentState":{
-		"deployedAt":1775334409937,
+		"deployedAt":1775385582653,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1740939824e06138199f3",
+		"deployedDefinitionId":"69d23beeb31cfc01cc39eff8",
 		"status":"DEPLOYED",
-		"version":82,
-		"workflowVersion":141
+		"version":83,
+		"workflowVersion":143
 	},
 	"edges":[
 		{
@@ -135,7 +135,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -145,7 +144,7 @@
 	"id":"675bda3233f65e1857fccd33",
 	"lastModifiedBy":-1,
 	"lcName":"prev sessions rag",
-	"modifiedTime":1775334706234,
+	"modifiedTime":1775389970540,
 	"name":"Prev Sessions RAG",
 	"nodes":[
 		{
@@ -256,7 +255,6 @@
 				"aiAgentId":"{{ EIiwt.outputs.aiAgentId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -795,5 +793,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":142
+	"version":145
 }
