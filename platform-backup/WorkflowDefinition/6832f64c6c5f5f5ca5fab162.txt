@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748544404625,
 	"deleted":false,
-	"deployedVersion":79,
+	"deployedVersion":82,
 	"deploymentState":{
-		"deployedAt":1775320635938,
+		"deployedAt":1775389973989,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e3bc6b0c9120df17404",
+		"deployedDefinitionId":"69d24d1550e82945c76a4323",
 		"status":"DEPLOYED",
-		"version":79,
-		"workflowVersion":136
+		"version":82,
+		"workflowVersion":142
 	},
 	"edges":[
 		{
@@ -115,7 +115,7 @@
 	"id":"6832f64c6c5f5f5ca5fab162",
 	"lastModifiedBy":-1,
 	"lcName":"graphrag | de-duplication | fetch neighbours for node",
-	"modifiedTime":1775320889547,
+	"modifiedTime":1775390107428,
 	"name":"GraphRAG | De-duplication | Fetch Neighbours for Node",
 	"nodes":[
 		{
@@ -594,5 +594,5 @@
 		}
 	},
 	"standard":true,
-	"version":137
+	"version":143
 }
