@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756826713103,
 	"deleted":false,
-	"deployedVersion":47,
+	"deployedVersion":49,
 	"deploymentState":{
-		"deployedAt":1775320581092,
+		"deployedAt":1775385548987,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e0583aecf24ec254650",
+		"deployedDefinitionId":"69d23bccb31cfc01cc39ed28",
 		"status":"DEPLOYED",
-		"version":47,
-		"workflowVersion":96
+		"version":49,
+		"workflowVersion":100
 	},
 	"edges":[
 		{
@@ -71,7 +71,7 @@
 	"id":"688f58b413532e0883708646",
 	"lastModifiedBy":-1,
 	"lcName":"manual chunk enrichment",
-	"modifiedTime":1775334351791,
+	"modifiedTime":1775389878465,
 	"name":"Manual Chunk Enrichment",
 	"nodes":[
 		{
@@ -391,5 +391,5 @@
 	"tags":[
 		
 	],
-	"version":98
+	"version":102
 }
