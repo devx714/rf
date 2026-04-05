@@ -4,14 +4,14 @@
 	],
 	"createdTime":1766522803128,
 	"deleted":false,
-	"deployedVersion":23,
+	"deployedVersion":24,
 	"deploymentState":{
-		"deployedAt":1775334480516,
+		"deployedAt":1775385636096,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1745039824e0613819e66",
+		"deployedDefinitionId":"69d23c24b41de37eb670f753",
 		"status":"DEPLOYED",
-		"version":23,
-		"workflowVersion":49
+		"version":24,
+		"workflowVersion":51
 	},
 	"edges":[
 		{
@@ -94,7 +94,7 @@
 	"id":"692ac325031fbc3923093cc7",
 	"lastModifiedBy":-1,
 	"lcName":"workflow execution | cleanup job | customer wise v3.0",
-	"modifiedTime":1775385636041,
+	"modifiedTime":1775390061154,
 	"name":"Workflow Execution | Cleanup Job | Customer Wise V3.0",
 	"nodes":[
 		{
@@ -462,5 +462,5 @@
 		"cleanup",
 		"redis"
 	],
-	"version":51
+	"version":53
 }
