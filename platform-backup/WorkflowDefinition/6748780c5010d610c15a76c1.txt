@@ -4,14 +4,14 @@
 	],
 	"createdTime":1732802572742,
 	"deleted":false,
-	"deployedVersion":113,
+	"deployedVersion":116,
 	"deploymentState":{
-		"deployedAt":1775334461625,
+		"deployedAt":1775391359592,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1743d39824e0613819c89",
+		"deployedDefinitionId":"69d2527f50e82945c76a6a31",
 		"status":"DEPLOYED",
-		"version":113,
-		"workflowVersion":176
+		"version":116,
+		"workflowVersion":182
 	},
 	"edges":[
 		{
@@ -149,7 +149,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -159,7 +158,7 @@
 	"id":"6748780c5010d610c15a76c1",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge delete handler",
-	"modifiedTime":1775334707225,
+	"modifiedTime":1775407806177,
 	"name":"Knowledge Delete Handler",
 	"nodes":[
 		{
@@ -559,7 +558,6 @@
 				"hasMore":true
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -784,5 +782,5 @@
 		"Internal",
 		"knowledge_v2"
 	],
-	"version":177
+	"version":184
 }
