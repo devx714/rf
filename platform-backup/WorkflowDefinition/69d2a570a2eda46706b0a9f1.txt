@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775412592507,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775413252966,
+		"deployedBy":193358,
+		"deployedDefinitionId":"69d2a804a2eda46706b0b6ae",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":6
+	},
 	"edges":[
 		{
 			"fromNodeId":"n_Jq3cC",
@@ -23,7 +32,7 @@
 	"id":"69d2a570a2eda46706b0a9f1",
 	"lastModifiedBy":193358,
 	"lcName":"sonyform (copy)",
-	"modifiedTime":1775413235466,
+	"modifiedTime":1775413252967,
 	"name":"SonyForm (copy)",
 	"nodes":[
 		{
@@ -93,7 +102,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_rufsc-1",
 			"id":"n_h7SJI",
