@@ -4,14 +4,14 @@
 	],
 	"createdTime":1752842411480,
 	"deleted":false,
-	"deployedVersion":68,
+	"deployedVersion":71,
 	"deploymentState":{
-		"deployedAt":1775385549872,
+		"deployedAt":1775407712520,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bcdb31cfc01cc39ed44",
+		"deployedDefinitionId":"69d292600e422443cf5603f9",
 		"status":"DEPLOYED",
-		"version":68,
-		"workflowVersion":128
+		"version":71,
+		"workflowVersion":134
 	},
 	"edges":[
 		{
@@ -345,6 +345,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -354,7 +355,7 @@
 	"id":"686f898d08f6815261345bf6",
 	"lastModifiedBy":-1,
 	"lcName":"text to workflow v2 | update connectors job",
-	"modifiedTime":1775389879877,
+	"modifiedTime":1775408104927,
 	"name":"Text to workflow v2 | Update connectors Job",
 	"nodes":[
 		{
@@ -425,6 +426,7 @@
 				"limit":"500"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -701,6 +703,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -986,6 +989,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1220,6 +1224,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2140,5 +2145,5 @@
 	"tags":[
 		"Text_to_Workflow_v2"
 	],
-	"version":130
+	"version":135
 }
