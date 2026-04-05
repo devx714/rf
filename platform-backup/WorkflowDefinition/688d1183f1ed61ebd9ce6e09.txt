@@ -137,7 +137,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -147,7 +146,7 @@
 	"id":"688d1183f1ed61ebd9ce6e09",
 	"lastModifiedBy":-1,
 	"lcName":"update knowledge realtime indexing",
-	"modifiedTime":1775391432950,
+	"modifiedTime":1775407813681,
 	"name":"Update Knowledge Realtime Indexing",
 	"nodes":[
 		{
@@ -625,5 +624,5 @@
 	"tags":[
 		
 	],
-	"version":89
+	"version":90
 }
