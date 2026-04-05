@@ -161,7 +161,7 @@
 	"id":"68bc29147b3f397105eafea2",
 	"lastModifiedBy":-1,
 	"lcName":"user rbac detail fetcher",
-	"modifiedTime":1775385577362,
+	"modifiedTime":1775389963224,
 	"name":"User RBAC Detail Fetcher",
 	"nodes":[
 		{
@@ -536,7 +536,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1047,5 +1046,5 @@
 		"AI Agent",
 		"RBAC"
 	],
-	"version":97
+	"version":99
 }
