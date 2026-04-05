@@ -3,7 +3,7 @@
 		"slack"
 	],
 	"createdTime":1775363909565,
-	"deleted":false,
+	"deleted":true,
 	"deployedVersion":2,
 	"deploymentState":{
 		"deployedAt":1775364042750,
@@ -25,7 +25,7 @@
 	"id":"69d1e6babec06e17a1cd44e8",
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2yctdgjwvaf",
-	"modifiedTime":1775364042751,
+	"modifiedTime":1775368227245,
 	"name":"changeSetQA2YctDgjwvaF",
 	"nodes":[
 		{
@@ -93,5 +93,5 @@
 	"tags":[
 		
 	],
-	"version":2
+	"version":3
 }
