@@ -4,14 +4,14 @@
 	],
 	"createdTime":1745148786346,
 	"deleted":false,
-	"deployedVersion":329,
+	"deployedVersion":331,
 	"deploymentState":{
-		"deployedAt":1775320602355,
+		"deployedAt":1775385554602,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e1a83aecf24ec254731",
+		"deployedDefinitionId":"69d23bd2b31cfc01cc39ede7",
 		"status":"DEPLOYED",
-		"version":329,
-		"workflowVersion":455
+		"version":331,
+		"workflowVersion":459
 	},
 	"edges":[
 		{
@@ -615,7 +615,7 @@
 	"id":"6804db728588832203d32ebf",
 	"lastModifiedBy":-1,
 	"lcName":"openai session starter",
-	"modifiedTime":1775334381269,
+	"modifiedTime":1775385554603,
 	"name":"OpenAI Session Starter",
 	"nodes":[
 		{
@@ -746,6 +746,7 @@
 				"filler_sent":false
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1282,6 +1283,7 @@
 				"ua_voice_session_enabled":true
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2504,6 +2506,7 @@
 				"toolOutput":"{{ Ip1ZO.outputs.properties.content.agentResponse.toolUseDetails.toolOutput }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -3493,5 +3496,5 @@
 		}
 	},
 	"standard":true,
-	"version":457
+	"version":459
 }
