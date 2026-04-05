@@ -24,7 +24,7 @@
 	},
 	"id":"sujal-88",
 	"lastModifiedBy":195414,
-	"modifiedTime":1775370253332,
+	"modifiedTime":1775370253694,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -201,7 +201,8 @@
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
-			"e_69d2000daa1e4812e20328a1":"homepage"
+			"e_69d2000daa1e4812e20328a1":"homepage",
+			"e_global_sujal-88":"global-page-of-sujal-88"
 		},
 		"manifest":{
 			"type":"WEB"
@@ -219,6 +220,11 @@
 				"slug":"homepage",
 				"isPublic":false,
 				"type":"PAGE"
+			},
+			"e_global_sujal-88":{
+				"slug":"global-page-of-sujal-88",
+				"isPublic":false,
+				"type":"PAGE"
 			}
 		}
 	},
@@ -226,5 +232,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":2
 }
