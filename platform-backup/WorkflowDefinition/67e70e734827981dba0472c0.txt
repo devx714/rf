@@ -4,14 +4,14 @@
 	],
 	"createdTime":1743778349843,
 	"deleted":false,
-	"deployedVersion":85,
+	"deployedVersion":88,
 	"deploymentState":{
-		"deployedAt":1774342903835,
+		"deployedAt":1775385581263,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252f729fa153f07e09ae6",
+		"deployedDefinitionId":"69d23bedb31cfc01cc39efe3",
 		"status":"DEPLOYED",
-		"version":85,
-		"workflowVersion":163
+		"version":88,
+		"workflowVersion":169
 	},
 	"edges":[
 		{
@@ -196,7 +196,7 @@
 	"id":"67e70e734827981dba0472c0",
 	"lastModifiedBy":-1,
 	"lcName":"json parse and stream content | ai agent",
-	"modifiedTime":1775320631557,
+	"modifiedTime":1775389968802,
 	"name":"JSON Parse and Stream Content | AI Agent",
 	"nodes":[
 		{
@@ -910,5 +910,5 @@
 		}
 	},
 	"standard":true,
-	"version":165
+	"version":171
 }
