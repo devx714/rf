@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762605921007,
 	"deleted":false,
-	"deployedVersion":31,
+	"deployedVersion":32,
 	"deploymentState":{
-		"deployedAt":1775389910453,
+		"deployedAt":1775391238604,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d24cd650e82945c76a3fb4",
+		"deployedDefinitionId":"69d2520650e82945c76a6406",
 		"status":"DEPLOYED",
-		"version":31,
-		"workflowVersion":64
+		"version":32,
+		"workflowVersion":66
 	},
 	"edges":[
 		{
@@ -117,7 +117,7 @@
 	"id":"6904c2b7b7d9901293567412",
 	"lastModifiedBy":-1,
 	"lcName":"metering | search | knowledge data sources",
-	"modifiedTime":1775390106512,
+	"modifiedTime":1775391430345,
 	"name":"Metering | Search | Knowledge Data Sources",
 	"nodes":[
 		{
@@ -593,5 +593,5 @@
 	"tags":[
 		
 	],
-	"version":65
+	"version":67
 }
