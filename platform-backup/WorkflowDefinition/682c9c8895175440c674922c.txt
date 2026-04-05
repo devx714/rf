@@ -70,7 +70,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -80,7 +79,7 @@
 	"id":"682c9c8895175440c674922c",
 	"lastModifiedBy":-1,
 	"lcName":"get waiting music base64 mulaw",
-	"modifiedTime":1775334706223,
+	"modifiedTime":1775385640978,
 	"name":"Get Waiting Music Base64 Mulaw",
 	"nodes":[
 		{
@@ -343,5 +342,5 @@
 	"tags":[
 		
 	],
-	"version":128
+	"version":129
 }
