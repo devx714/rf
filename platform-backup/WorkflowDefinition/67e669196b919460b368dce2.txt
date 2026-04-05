@@ -4,15 +4,15 @@
 	],
 	"createdTime":1743153433360,
 	"deleted":false,
-	"deployedVersion":90,
+	"deployedVersion":92,
 	"deploymentState":{
-		"deployedAt":1775385580760,
+		"deployedAt":1775391273190,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23becb31cfc01cc39efdd",
+		"deployedDefinitionId":"69d2522950e82945c76a66af",
 		"deploymentTag":"fixed_caseId",
 		"status":"DEPLOYED",
-		"version":90,
-		"workflowVersion":142
+		"version":92,
+		"workflowVersion":146
 	},
 	"edges":[
 		{
@@ -177,7 +177,7 @@
 	"id":"67e669196b919460b368dce2",
 	"lastModifiedBy":-1,
 	"lcName":"mask knowledge chunk via regex",
-	"modifiedTime":1775385580761,
+	"modifiedTime":1775407757801,
 	"name":"Mask Knowledge Chunk via Regex",
 	"nodes":[
 		{
@@ -324,7 +324,6 @@
 				"redactionsPresent":"false"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1062,5 +1061,5 @@
 	"tags":[
 		"PII"
 	],
-	"version":142
+	"version":148
 }
