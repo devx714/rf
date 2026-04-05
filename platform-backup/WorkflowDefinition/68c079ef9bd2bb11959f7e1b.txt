@@ -4,14 +4,14 @@
 	],
 	"createdTime":1757961524753,
 	"deleted":false,
-	"deployedVersion":47,
+	"deployedVersion":51,
 	"deploymentState":{
-		"deployedAt":1775334508981,
+		"deployedAt":1775407844035,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1746c39824e0613819f0c",
+		"deployedDefinitionId":"69d292e3a2eda46706b04ad3",
 		"status":"DEPLOYED",
-		"version":47,
-		"workflowVersion":99
+		"version":51,
+		"workflowVersion":107
 	},
 	"edges":[
 		{
@@ -84,6 +84,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -93,7 +94,7 @@
 	"id":"68c079ef9bd2bb11959f7e1b",
 	"lastModifiedBy":-1,
 	"lcName":"eval | metrics | calculate evaluation scale for derived metric",
-	"modifiedTime":1775385644672,
+	"modifiedTime":1775408103178,
 	"name":"Eval | Metrics | Calculate Evaluation Scale for Derived metric",
 	"nodes":[
 		{
@@ -582,5 +583,5 @@
 	"tags":[
 		
 	],
-	"version":101
+	"version":108
 }
