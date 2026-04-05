@@ -93,7 +93,7 @@
 	"id":"697c4f95aa7a5c714d7a2a7a",
 	"lastModifiedBy":-1,
 	"lcName":"[gitlab] get user sharedwithids",
-	"modifiedTime":1775389910967,
+	"modifiedTime":1775407719829,
 	"name":"[Gitlab] Get User SharedWithIds",
 	"nodes":[
 		{
@@ -389,6 +389,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -646,5 +647,5 @@
 		}
 	},
 	"standard":true,
-	"version":13
+	"version":15
 }
