@@ -4,15 +4,15 @@
 	],
 	"createdTime":1740110511998,
 	"deleted":false,
-	"deployedVersion":91,
+	"deployedVersion":93,
 	"deploymentState":{
-		"deployedAt":1775320576620,
+		"deployedAt":1775385544826,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e0083aecf24ec2545ea",
+		"deployedDefinitionId":"69d23bc8b31cfc01cc39ebea",
 		"deploymentTag":"added_signal_handling_for_batch_call",
 		"status":"DEPLOYED",
-		"version":91,
-		"workflowVersion":156
+		"version":93,
+		"workflowVersion":160
 	},
 	"edges":[
 		{
@@ -274,7 +274,7 @@
 	"id":"67af3b753f15ad37494b2ce8",
 	"lastModifiedBy":-1,
 	"lcName":"agentic chunking pdf",
-	"modifiedTime":1775334346946,
+	"modifiedTime":1775385544827,
 	"name":"Agentic Chunking PDF",
 	"nodes":[
 		{
@@ -941,6 +941,7 @@
 				"document_topic":"{{ 1JyLi.outputs.result.documentTopic }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1201,6 +1202,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1403,6 +1405,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1984,5 +1987,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":158
+	"version":160
 }
