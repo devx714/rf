@@ -206,7 +206,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -216,7 +215,7 @@
 	"id":"696fb90c1c212d14b92e7f75",
 	"lastModifiedBy":-1,
 	"lcName":"debug error in new flow",
-	"modifiedTime":1775391434847,
+	"modifiedTime":1775407837066,
 	"name":"Debug Error in new Flow",
 	"nodes":[
 		{
@@ -334,7 +333,6 @@
 				"currentTime":"=INT((NOW() - DATE(1970,1,1)) * 86400000)"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -581,7 +579,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -839,7 +836,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1537,5 +1533,5 @@
 	"tags":[
 		
 	],
-	"version":43
+	"version":44
 }
