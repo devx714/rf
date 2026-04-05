@@ -4,14 +4,14 @@
 	],
 	"createdTime":1740110521288,
 	"deleted":false,
-	"deployedVersion":67,
+	"deployedVersion":70,
 	"deploymentState":{
-		"deployedAt":1775334398551,
+		"deployedAt":1775391260575,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173fe39824e0613819914",
+		"deployedDefinitionId":"69d2521c50e82945c76a65b1",
 		"status":"DEPLOYED",
-		"version":67,
-		"workflowVersion":136
+		"version":70,
+		"workflowVersion":142
 	},
 	"edges":[
 		{
@@ -597,6 +597,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -606,7 +607,7 @@
 	"id":"67b0459a06f67458bb95c2b7",
 	"lastModifiedBy":-1,
 	"lcName":"call gemini",
-	"modifiedTime":1775385571271,
+	"modifiedTime":1775391429085,
 	"name":"Call Gemini",
 	"nodes":[
 		{
@@ -1698,6 +1699,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1851,6 +1853,7 @@
 				"is_tool_use":false
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2319,6 +2322,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2640,6 +2644,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -4704,5 +4709,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":138
+	"version":143
 }
