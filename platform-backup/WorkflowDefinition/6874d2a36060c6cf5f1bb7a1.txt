@@ -4,14 +4,14 @@
 	],
 	"createdTime":1754468940522,
 	"deleted":false,
-	"deployedVersion":64,
+	"deployedVersion":67,
 	"deploymentState":{
-		"deployedAt":1775385613765,
+		"deployedAt":1775407801923,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c0db41de37eb670f64a",
+		"deployedDefinitionId":"69d292b9a2eda46706b04953",
 		"status":"DEPLOYED",
-		"version":64,
-		"workflowVersion":120
+		"version":67,
+		"workflowVersion":126
 	},
 	"edges":[
 		{
@@ -47,6 +47,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -56,7 +57,7 @@
 	"id":"6874d2a36060c6cf5f1bb7a1",
 	"lastModifiedBy":-1,
 	"lcName":"get agent and workflow | workflow agent",
-	"modifiedTime":1775385613766,
+	"modifiedTime":1775408107090,
 	"name":"Get Agent and Workflow | Workflow Agent",
 	"nodes":[
 		{
@@ -303,5 +304,5 @@
 		}
 	},
 	"standard":true,
-	"version":120
+	"version":127
 }
