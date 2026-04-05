@@ -4,14 +4,14 @@
 	],
 	"createdTime":1740599066448,
 	"deleted":false,
-	"deployedVersion":86,
+	"deployedVersion":89,
 	"deploymentState":{
-		"deployedAt":1775334396470,
+		"deployedAt":1775391258435,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173fc39824e06138198fe",
+		"deployedDefinitionId":"69d2521a50e82945c76a6597",
 		"status":"DEPLOYED",
-		"version":86,
-		"workflowVersion":134
+		"version":89,
+		"workflowVersion":140
 	},
 	"edges":[
 		{
@@ -78,7 +78,7 @@
 	"id":"67bddfb5ac77be6d502052c7",
 	"lastModifiedBy":-1,
 	"lcName":"add copilot block to a message",
-	"modifiedTime":1775334707127,
+	"modifiedTime":1775391437871,
 	"name":"Add copilot Block To A Message",
 	"nodes":[
 		{
@@ -411,5 +411,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":135
+	"version":141
 }
