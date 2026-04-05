@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769506034410,
 	"deleted":false,
-	"deployedVersion":16,
+	"deployedVersion":19,
 	"deploymentState":{
-		"deployedAt":1775385583337,
+		"deployedAt":1775407761041,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23befb31cfc01cc39f006",
+		"deployedDefinitionId":"69d29291a2eda46706b045c4",
 		"status":"DEPLOYED",
-		"version":16,
-		"workflowVersion":37
+		"version":19,
+		"workflowVersion":43
 	},
 	"edges":[
 		{
@@ -40,6 +40,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -49,7 +50,7 @@
 	"id":"6926af178dd1c95e821a2afc",
 	"lastModifiedBy":-1,
 	"lcName":"sre | get kafka consumer group metadata",
-	"modifiedTime":1775389971346,
+	"modifiedTime":1775408109119,
 	"name":"SRE | Get Kafka Consumer Group Metadata",
 	"nodes":[
 		{
@@ -302,5 +303,5 @@
 	"tags":[
 		"sre_ai"
 	],
-	"version":39
+	"version":44
 }
