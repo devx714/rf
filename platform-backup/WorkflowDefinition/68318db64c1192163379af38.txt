@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748544423762,
 	"deleted":false,
-	"deployedVersion":78,
+	"deployedVersion":81,
 	"deploymentState":{
-		"deployedAt":1774342963065,
+		"deployedAt":1775385632525,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2533329fa153f07e09d8d",
+		"deployedDefinitionId":"69d23c20b41de37eb670f731",
 		"status":"DEPLOYED",
-		"version":78,
-		"workflowVersion":125
+		"version":81,
+		"workflowVersion":131
 	},
 	"edges":[
 		{
@@ -63,7 +63,7 @@
 	"id":"68318db64c1192163379af38",
 	"lastModifiedBy":-1,
 	"lcName":"keyword extraction1 | graphrag",
-	"modifiedTime":1775320683706,
+	"modifiedTime":1775390056163,
 	"name":"Keyword Extraction1 | GraphRAG",
 	"nodes":[
 		{
@@ -298,5 +298,5 @@
 		}
 	},
 	"standard":true,
-	"version":127
+	"version":133
 }
