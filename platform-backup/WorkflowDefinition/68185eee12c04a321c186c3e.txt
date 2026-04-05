@@ -4,14 +4,14 @@
 	],
 	"createdTime":1747641656262,
 	"deleted":false,
-	"deployedVersion":86,
+	"deployedVersion":88,
 	"deploymentState":{
-		"deployedAt":1774342980896,
+		"deployedAt":1775334513549,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2534429fa153f07e09dfe",
+		"deployedDefinitionId":"69d1747139824e0613819f6a",
 		"status":"DEPLOYED",
-		"version":86,
-		"workflowVersion":136
+		"version":88,
+		"workflowVersion":140
 	},
 	"edges":[
 		{
@@ -196,7 +196,7 @@
 	"id":"68185eee12c04a321c186c3e",
 	"lastModifiedBy":-1,
 	"lcName":"text to workflow v2 | fetch app name for a action",
-	"modifiedTime":1775320700659,
+	"modifiedTime":1775385649573,
 	"name":"Text to Workflow v2 | Fetch App Name for a Action",
 	"nodes":[
 		{
@@ -940,5 +940,5 @@
 	"tags":[
 		"Text_to_Workflow_v2"
 	],
-	"version":138
+	"version":142
 }
