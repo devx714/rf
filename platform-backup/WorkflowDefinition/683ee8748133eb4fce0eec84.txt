@@ -4,14 +4,14 @@
 	],
 	"createdTime":1750159216646,
 	"deleted":false,
-	"deployedVersion":39,
+	"deployedVersion":41,
 	"deploymentState":{
-		"deployedAt":1773928128001,
+		"deployedAt":1775391203423,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfebf16170c62438067f0",
+		"deployedDefinitionId":"69d251e350e82945c76a631d",
 		"status":"DEPLOYED",
-		"version":39,
-		"workflowVersion":74
+		"version":41,
+		"workflowVersion":77
 	},
 	"edges":[
 		{
@@ -289,7 +289,7 @@
 	"id":"683ee8748133eb4fce0eec84",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | zendesk | index organization tickets parallel",
-	"modifiedTime":1775389873863,
+	"modifiedTime":1775407706216,
 	"name":"Knowledge Indexer | Zendesk | Index Organization Tickets Parallel",
 	"nodes":[
 		{
@@ -1976,5 +1976,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":75
+	"version":79
 }
