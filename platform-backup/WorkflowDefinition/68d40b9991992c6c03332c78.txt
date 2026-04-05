@@ -673,7 +673,7 @@
 	"id":"68d40b9991992c6c03332c78",
 	"lastModifiedBy":-1,
 	"lcName":"prepare prompt for sql generation",
-	"modifiedTime":1775385539253,
+	"modifiedTime":1775389859990,
 	"name":"Prepare Prompt For SQL Generation",
 	"nodes":[
 		{
@@ -1019,7 +1019,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1281,7 +1280,6 @@
 				"InputContextForBetterConditionalRenderingInPrompt":"{{ n_I6iGW.outputs.sqlServerRelatedDynamicMetadata }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1488,7 +1486,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1667,7 +1664,6 @@
 				"sqlOutputNeeded":true
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -3872,5 +3868,5 @@
 	"tags":[
 		
 	],
-	"version":95
+	"version":97
 }
