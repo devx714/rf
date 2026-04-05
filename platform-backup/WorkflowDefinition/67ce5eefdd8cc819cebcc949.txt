@@ -4,14 +4,14 @@
 	],
 	"createdTime":1741603795998,
 	"deleted":false,
-	"deployedVersion":86,
+	"deployedVersion":87,
 	"deploymentState":{
-		"deployedAt":1775391320922,
+		"deployedAt":1775407787293,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2525850e82945c76a68ca",
+		"deployedDefinitionId":"69d292ab0e422443cf560736",
 		"status":"DEPLOYED",
-		"version":86,
-		"workflowVersion":132
+		"version":87,
+		"workflowVersion":134
 	},
 	"edges":[
 		{
@@ -618,6 +618,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -627,7 +628,7 @@
 	"id":"67ce5eefdd8cc819cebcc949",
 	"lastModifiedBy":-1,
 	"lcName":"add default tools",
-	"modifiedTime":1775407787202,
+	"modifiedTime":1775408100405,
 	"name":"Add Default Tools",
 	"nodes":[
 		{
@@ -1080,6 +1081,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1879,6 +1881,7 @@
 				"pptxTemplateId":"{{ n_WI3dW.outputs.properties.generatePPTXSettings.pptxTemplateId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2193,6 +2196,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -3487,5 +3491,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":134
+	"version":135
 }
