@@ -4,14 +4,14 @@
 	],
 	"createdTime":1747728837276,
 	"deleted":false,
-	"deployedVersion":35,
+	"deployedVersion":36,
 	"deploymentState":{
-		"deployedAt":1775391245276,
+		"deployedAt":1775407726392,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2520d50e82945c76a648b",
+		"deployedDefinitionId":"69d2926ea2eda46706b044fb",
 		"status":"DEPLOYED",
-		"version":35,
-		"workflowVersion":73
+		"version":36,
+		"workflowVersion":75
 	},
 	"edges":[
 		{
@@ -33,6 +33,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -42,7 +43,7 @@
 	"id":"682b78f07f7eb34f85b3dd28",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | jira | index issue in batch (wrapper)",
-	"modifiedTime":1775407726346,
+	"modifiedTime":1775408099573,
 	"name":"Knowledge Indexer | JIRA | Index Issue in batch (Wrapper)",
 	"nodes":[
 		{
@@ -214,5 +215,5 @@
 	"tags":[
 		
 	],
-	"version":75
+	"version":76
 }
