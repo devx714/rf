@@ -4,14 +4,14 @@
 	],
 	"createdTime":1751383567355,
 	"deleted":false,
-	"deployedVersion":81,
+	"deployedVersion":83,
 	"deploymentState":{
-		"deployedAt":1775385554677,
+		"deployedAt":1775391237763,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bd2b31cfc01cc39edea",
+		"deployedDefinitionId":"69d2520550e82945c76a63f6",
 		"status":"DEPLOYED",
-		"version":81,
-		"workflowVersion":132
+		"version":83,
+		"workflowVersion":136
 	},
 	"edges":[
 		{
@@ -56,7 +56,7 @@
 	"id":"684c7bdc926b5f75dea84e43",
 	"lastModifiedBy":-1,
 	"lcName":"rebuildworkflow tool | text to workflow v2",
-	"modifiedTime":1775389909489,
+	"modifiedTime":1775407718348,
 	"name":"RebuildWorkflow Tool | Text to Workflow v2",
 	"nodes":[
 		{
@@ -238,5 +238,5 @@
 	"tags":[
 		"Text_to_Workflow_v2"
 	],
-	"version":134
+	"version":138
 }
