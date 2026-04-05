@@ -4,14 +4,14 @@
 	],
 	"createdTime":1726774761923,
 	"deleted":false,
-	"deployedVersion":110,
+	"deployedVersion":111,
 	"deploymentState":{
-		"deployedAt":1775334359067,
+		"deployedAt":1775385552562,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173d739824e0613819756",
+		"deployedDefinitionId":"69d23bd0b31cfc01cc39ed9f",
 		"status":"DEPLOYED",
-		"version":110,
-		"workflowVersion":177
+		"version":111,
+		"workflowVersion":179
 	},
 	"edges":[
 		{
@@ -40,27 +40,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"1866"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -70,7 +49,7 @@
 	"id":"66ec7de9343dbb10068139e8",
 	"lastModifiedBy":-1,
 	"lcName":"api to trigger ai agent",
-	"modifiedTime":1775334707739,
+	"modifiedTime":1775385552563,
 	"name":"API to Trigger AI Agent",
 	"nodes":[
 		{
@@ -416,5 +395,5 @@
 	"tags":[
 		
 	],
-	"version":178
+	"version":179
 }
