@@ -4,14 +4,14 @@
 	],
 	"createdTime":1753185930120,
 	"deleted":false,
-	"deployedVersion":60,
+	"deployedVersion":63,
 	"deploymentState":{
-		"deployedAt":1774342970046,
+		"deployedAt":1775385639104,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2533a29fa153f07e09db7",
+		"deployedDefinitionId":"69d23c27b41de37eb670f770",
 		"status":"DEPLOYED",
-		"version":60,
-		"workflowVersion":101
+		"version":63,
+		"workflowVersion":107
 	},
 	"edges":[
 		{
@@ -132,7 +132,7 @@
 	"id":"6873d5abe8894540c02427e0",
 	"lastModifiedBy":-1,
 	"lcName":"lasttoolresultmessage (strands ai)",
-	"modifiedTime":1775320690448,
+	"modifiedTime":1775390085047,
 	"name":"LastToolResultMessage (Strands AI)",
 	"nodes":[
 		{
@@ -777,5 +777,5 @@
 	"tags":[
 		
 	],
-	"version":103
+	"version":109
 }
