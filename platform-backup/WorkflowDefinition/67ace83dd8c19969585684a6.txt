@@ -4,14 +4,14 @@
 	],
 	"createdTime":1740110506355,
 	"deleted":false,
-	"deployedVersion":30,
+	"deployedVersion":32,
 	"deploymentState":{
-		"deployedAt":1773928115757,
+		"deployedAt":1775391196665,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfeb316170c6243806780",
+		"deployedDefinitionId":"69d251dc50e82945c76a6299",
 		"status":"DEPLOYED",
-		"version":30,
-		"workflowVersion":70
+		"version":32,
+		"workflowVersion":73
 	},
 	"edges":[
 		{
@@ -69,6 +69,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -78,7 +79,7 @@
 	"id":"67ace83dd8c19969585684a6",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer |  ms teams | index all chats",
-	"modifiedTime":1775389866245,
+	"modifiedTime":1775391437044,
 	"name":"Knowledge Indexer |  MS Teams | Index all chats",
 	"nodes":[
 		{
@@ -454,5 +455,5 @@
 	"tags":[
 		
 	],
-	"version":71
+	"version":74
 }
