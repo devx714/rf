@@ -4,14 +4,14 @@
 	],
 	"createdTime":1734951504148,
 	"deleted":false,
-	"deployedVersion":96,
+	"deployedVersion":102,
 	"deploymentState":{
-		"deployedAt":1774342969022,
+		"deployedAt":1775407835283,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2533829fa153f07e09db0",
+		"deployedDefinitionId":"69d292db0e422443cf560997",
 		"status":"DEPLOYED",
-		"version":96,
-		"workflowVersion":170
+		"version":102,
+		"workflowVersion":182
 	},
 	"edges":[
 		{
@@ -163,6 +163,27 @@
 		"configs":[
 			{
 				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"45771"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -172,7 +193,7 @@
 	"id":"6761589c529264022c7d1650",
 	"lastModifiedBy":-1,
 	"lcName":"signal trigger ",
-	"modifiedTime":1775320689396,
+	"modifiedTime":1775408101813,
 	"name":"Signal Trigger ",
 	"nodes":[
 		{
@@ -436,6 +457,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -782,6 +804,7 @@
 				"ua_api_citations_enabled":true
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1433,5 +1456,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":172
+	"version":183
 }
