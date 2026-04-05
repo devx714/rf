@@ -4,14 +4,14 @@
 	],
 	"createdTime":1750490577840,
 	"deleted":false,
-	"deployedVersion":79,
+	"deployedVersion":83,
 	"deploymentState":{
-		"deployedAt":1775320680757,
+		"deployedAt":1775391375795,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e6883aecf24ec254edb",
+		"deployedDefinitionId":"69d2528f50e82945c76a6b6b",
 		"status":"DEPLOYED",
-		"version":79,
-		"workflowVersion":135
+		"version":83,
+		"workflowVersion":143
 	},
 	"edges":[
 		{
@@ -132,6 +132,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -141,7 +142,7 @@
 	"id":"6836fb3865c3754d2eb5136f",
 	"lastModifiedBy":-1,
 	"lcName":"graphrag | upsert graph (hybrid) | signal wrapper",
-	"modifiedTime":1775334474009,
+	"modifiedTime":1775391429780,
 	"name":"GraphRAG | Upsert Graph (hybrid) | Signal Wrapper",
 	"nodes":[
 		{
@@ -822,5 +823,5 @@
 	"tags":[
 		
 	],
-	"version":137
+	"version":144
 }
