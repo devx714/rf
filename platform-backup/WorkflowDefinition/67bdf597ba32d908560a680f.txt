@@ -4,14 +4,14 @@
 	],
 	"createdTime":1740599063975,
 	"deleted":false,
-	"deployedVersion":123,
+	"deployedVersion":125,
 	"deploymentState":{
-		"deployedAt":1775385613689,
+		"deployedAt":1775391335293,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c0db41de37eb670f648",
+		"deployedDefinitionId":"69d2526750e82945c76a69e4",
 		"status":"DEPLOYED",
-		"version":123,
-		"workflowVersion":208
+		"version":125,
+		"workflowVersion":212
 	},
 	"edges":[
 		{
@@ -238,6 +238,27 @@
 		"configs":[
 			{
 				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"39714"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -247,7 +268,7 @@
 	"id":"67bdf597ba32d908560a680f",
 	"lastModifiedBy":-1,
 	"lcName":"generic create case (streaming response)",
-	"modifiedTime":1775390031554,
+	"modifiedTime":1775391438184,
 	"name":"Generic Create Case (Streaming Response)",
 	"nodes":[
 		{
@@ -1575,5 +1596,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":210
+	"version":213
 }
