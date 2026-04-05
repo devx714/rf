@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769422059580,
 	"deleted":false,
-	"deployedVersion":11,
+	"deployedVersion":14,
 	"deploymentState":{
-		"deployedAt":1774342889676,
+		"deployedAt":1775385568928,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252e929fa153f07e09a1d",
+		"deployedDefinitionId":"69d23be0b31cfc01cc39ef13",
 		"status":"DEPLOYED",
-		"version":11,
-		"workflowVersion":25
+		"version":14,
+		"workflowVersion":31
 	},
 	"edges":[
 		{
@@ -42,7 +42,7 @@
 	"id":"6969f1cd6974b866249ab07f",
 	"lastModifiedBy":-1,
 	"lcName":"observability | trace metadata",
-	"modifiedTime":1775320617798,
+	"modifiedTime":1775385568929,
 	"name":"Observability | Trace Metadata",
 	"nodes":[
 		{
@@ -425,5 +425,5 @@
 	"tags":[
 		
 	],
-	"version":27
+	"version":31
 }
