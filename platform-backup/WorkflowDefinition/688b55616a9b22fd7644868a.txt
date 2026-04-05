@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756473910444,
 	"deleted":false,
-	"deployedVersion":51,
+	"deployedVersion":53,
 	"deploymentState":{
-		"deployedAt":1775385576270,
+		"deployedAt":1775391267121,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23be8b31cfc01cc39ef8a",
+		"deployedDefinitionId":"69d2522350e82945c76a6631",
 		"status":"DEPLOYED",
-		"version":51,
-		"workflowVersion":113
+		"version":53,
+		"workflowVersion":117
 	},
 	"edges":[
 		{
@@ -216,7 +216,7 @@
 	"id":"688b55616a9b22fd7644868a",
 	"lastModifiedBy":-1,
 	"lcName":"query ppr | graphrag (v2)",
-	"modifiedTime":1775389961398,
+	"modifiedTime":1775407751278,
 	"name":"Query PPR | GraphRAG (v2)",
 	"nodes":[
 		{
@@ -1614,5 +1614,5 @@
 		}
 	},
 	"standard":true,
-	"version":115
+	"version":119
 }
