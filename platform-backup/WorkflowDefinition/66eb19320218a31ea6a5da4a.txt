@@ -4,14 +4,14 @@
 	],
 	"createdTime":1726683442763,
 	"deleted":false,
-	"deployedVersion":107,
+	"deployedVersion":109,
 	"deploymentState":{
-		"deployedAt":1775334506938,
+		"deployedAt":1775390089604,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1746a39824e0613819eef",
+		"deployedDefinitionId":"69d24d8950e82945c76a4951",
 		"status":"DEPLOYED",
-		"version":107,
-		"workflowVersion":172
+		"version":109,
+		"workflowVersion":176
 	},
 	"edges":[
 		{
@@ -40,6 +40,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -49,7 +50,7 @@
 	"id":"66eb19320218a31ea6a5da4a",
 	"lastModifiedBy":-1,
 	"lcName":"feedback count for ai agent id",
-	"modifiedTime":1775385642653,
+	"modifiedTime":1775390108421,
 	"name":"Feedback Count for ai Agent ID",
 	"nodes":[
 		{
@@ -254,5 +255,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":174
+	"version":177
 }
