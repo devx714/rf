@@ -4,14 +4,14 @@
 	],
 	"createdTime":1757066141855,
 	"deleted":false,
-	"deployedVersion":14,
+	"deployedVersion":17,
 	"deploymentState":{
-		"deployedAt":1773928143842,
+		"deployedAt":1775407715738,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfecf16170c62438068b1",
+		"deployedDefinitionId":"69d292630e422443cf560439",
 		"status":"DEPLOYED",
-		"version":14,
-		"workflowVersion":42
+		"version":17,
+		"workflowVersion":47
 	},
 	"edges":[
 		{
@@ -264,6 +264,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -273,7 +274,7 @@
 	"id":"68906e15f85dafc40095552a",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge downloader | asana | all workspace",
-	"modifiedTime":1775389906753,
+	"modifiedTime":1775408109214,
 	"name":"Knowledge Downloader | Asana | All workspace",
 	"nodes":[
 		{
@@ -713,6 +714,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -811,6 +813,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1050,6 +1053,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1177,6 +1181,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1703,5 +1708,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":43
+	"version":48
 }
