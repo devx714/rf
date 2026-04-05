@@ -4,14 +4,14 @@
 	],
 	"createdTime":1738562579542,
 	"deleted":false,
-	"deployedVersion":97,
+	"deployedVersion":101,
 	"deploymentState":{
-		"deployedAt":1775320568568,
+		"deployedAt":1775391188847,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13df883aecf24ec25454f",
+		"deployedDefinitionId":"69d251d450e82945c76a620d",
 		"status":"DEPLOYED",
-		"version":97,
-		"workflowVersion":143
+		"version":101,
+		"workflowVersion":151
 	},
 	"edges":[
 		{
@@ -56,7 +56,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -66,7 +65,7 @@
 	"id":"67a05c1370151957f9dcb7a7",
 	"lastModifiedBy":-1,
 	"lcName":"process single chunk wrapper for signal parallel | graphrag",
-	"modifiedTime":1775320890065,
+	"modifiedTime":1775407691005,
 	"name":"Process Single Chunk Wrapper for Signal Parallel | GraphRAG",
 	"nodes":[
 		{
@@ -393,5 +392,5 @@
 	"tags":[
 		
 	],
-	"version":144
+	"version":153
 }
