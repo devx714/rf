@@ -4,14 +4,14 @@
 	],
 	"createdTime":1770227114604,
 	"deleted":false,
-	"deployedVersion":12,
+	"deployedVersion":16,
 	"deploymentState":{
-		"deployedAt":1774342850972,
+		"deployedAt":1775389858757,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252c28d65fb68e156372e",
+		"deployedDefinitionId":"69d24ca250e82945c76a3dab",
 		"status":"DEPLOYED",
-		"version":12,
-		"workflowVersion":23
+		"version":16,
+		"workflowVersion":31
 	},
 	"edges":[
 		{
@@ -97,6 +97,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -106,7 +107,7 @@
 	"id":"69465fa12ea86209342e7ba4",
 	"lastModifiedBy":-1,
 	"lcName":"summary tool (wrapper)",
-	"modifiedTime":1775320569465,
+	"modifiedTime":1775390108619,
 	"name":"Summary Tool (Wrapper)",
 	"nodes":[
 		{
@@ -242,6 +243,7 @@
 				"aiAgentId":"{{ n_2zmWK.outputs.triggeredByAgentId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -500,6 +502,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -553,6 +556,7 @@
 				"maxTokenLimit":75000
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -905,5 +909,5 @@
 	"tags":[
 		
 	],
-	"version":25
+	"version":32
 }
