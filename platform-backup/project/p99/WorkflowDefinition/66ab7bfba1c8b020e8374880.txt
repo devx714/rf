@@ -4,14 +4,14 @@
 	],
 	"createdTime":1722514427359,
 	"deleted":false,
-	"deployedVersion":104,
+	"deployedVersion":107,
 	"deploymentState":{
-		"deployedAt":1775385617618,
+		"deployedAt":1775407807964,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c11b41de37eb670f668",
+		"deployedDefinitionId":"69d292bf0e422443cf5607fc",
 		"status":"DEPLOYED",
-		"version":104,
-		"workflowVersion":172
+		"version":107,
+		"workflowVersion":178
 	},
 	"edges":[
 		{
@@ -112,6 +112,27 @@
 		"configs":[
 			{
 				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"161165"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -121,7 +142,7 @@
 	"id":"66ab7bfba1c8b020e8374880",
 	"lastModifiedBy":-1,
 	"lcName":"2_code_generation_call_ai_agent",
-	"modifiedTime":1775385617619,
+	"modifiedTime":1775408108461,
 	"name":"2_Code_Generation_Call_AI_Agent",
 	"nodes":[
 		{
@@ -619,5 +640,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":172
+	"version":179
 }
