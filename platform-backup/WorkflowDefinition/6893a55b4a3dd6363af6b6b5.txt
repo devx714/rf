@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756473944548,
 	"deleted":false,
-	"deployedVersion":54,
+	"deployedVersion":56,
 	"deploymentState":{
-		"deployedAt":1775385619171,
+		"deployedAt":1775391363094,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c13b41de37eb670f684",
+		"deployedDefinitionId":"69d2528350e82945c76a6a73",
 		"status":"DEPLOYED",
-		"version":54,
-		"workflowVersion":98
+		"version":56,
+		"workflowVersion":102
 	},
 	"edges":[
 		{
@@ -160,6 +160,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -169,7 +170,7 @@
 	"id":"6893a55b4a3dd6363af6b6b5",
 	"lastModifiedBy":-1,
 	"lcName":"mimetype/author to chunkmetadata",
-	"modifiedTime":1775390039279,
+	"modifiedTime":1775391438083,
 	"name":"MimeType/Author to ChunkMetadata",
 	"nodes":[
 		{
@@ -311,6 +312,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -963,5 +965,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":100
+	"version":103
 }
