@@ -4,14 +4,14 @@
 	],
 	"createdTime":1754285444326,
 	"deleted":false,
-	"deployedVersion":61,
+	"deployedVersion":63,
 	"deploymentState":{
-		"deployedAt":1775320685594,
+		"deployedAt":1775385634371,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e6d83aecf24ec254f6a",
+		"deployedDefinitionId":"69d23c22b31cfc01cc39f378",
 		"status":"DEPLOYED",
-		"version":61,
-		"workflowVersion":104
+		"version":63,
+		"workflowVersion":108
 	},
 	"edges":[
 		{
@@ -26,7 +26,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -36,7 +35,7 @@
 	"id":"6887347ad545bfdc5bdfc2d9",
 	"lastModifiedBy":-1,
 	"lcName":"clone agent knowledge",
-	"modifiedTime":1775320891919,
+	"modifiedTime":1775385634372,
 	"name":"Clone Agent Knowledge",
 	"nodes":[
 		{
@@ -497,5 +496,5 @@
 	"tags":[
 		
 	],
-	"version":105
+	"version":108
 }
