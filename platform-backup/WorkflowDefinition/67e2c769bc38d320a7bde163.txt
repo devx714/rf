@@ -4,14 +4,14 @@
 	],
 	"createdTime":1742915433837,
 	"deleted":false,
-	"deployedVersion":76,
+	"deployedVersion":77,
 	"deploymentState":{
-		"deployedAt":1775391297990,
+		"deployedAt":1775407763115,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2524150e82945c76a670d",
+		"deployedDefinitionId":"69d29293a2eda46706b045f2",
 		"status":"DEPLOYED",
-		"version":76,
-		"workflowVersion":120
+		"version":77,
+		"workflowVersion":122
 	},
 	"edges":[
 		{
@@ -36,7 +36,7 @@
 	"id":"67e2c769bc38d320a7bde163",
 	"lastModifiedBy":-1,
 	"lcName":"[mcp server] sse session completed webhook",
-	"modifiedTime":1775391437357,
+	"modifiedTime":1775408109122,
 	"name":"[MCP Server] SSE Session Completed Webhook",
 	"nodes":[
 		{
@@ -126,5 +126,5 @@
 	"tags":[
 		"MCP Server"
 	],
-	"version":121
+	"version":123
 }
