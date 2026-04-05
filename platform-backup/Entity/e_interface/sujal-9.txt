@@ -1,6 +1,12 @@
 {
 	"createdTime":1775368400314,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1775368587707,
+		"deployedBy":195414,
+		"entityVersion":6,
+		"version":1
+	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
@@ -24,7 +30,7 @@
 	},
 	"id":"sujal-9",
 	"lastModifiedBy":195414,
-	"modifiedTime":1775368403358,
+	"modifiedTime":1775368587710,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -40,7 +46,7 @@
 			"_counter":{
 				"_moduleCount":0,
 				"_mqttTopicCounter":0,
-				"_pageCount":1
+				"_pageCount":2
 			}
 		},
 		"navigation":{
@@ -201,10 +207,33 @@
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
+			"e_global_sujal-9":"global-page-of-sujal-9",
+			"e_69d1f94a3749ce63c5e2cf85":"world",
 			"e_69d1f8d3aa1e4812e203266d":"homepage"
 		},
 		"manifest":{
 			"type":"WEB"
+		},
+		"paths":{
+			"f_root":{
+				"id":"f_root",
+				"segment":"",
+				"children":[
+					"e_global_sujal-9",
+					"e_69d1f8d3aa1e4812e203266d",
+					"f_xcO60"
+				],
+				"path":"/"
+			},
+			"f_xcO60":{
+				"id":"f_xcO60",
+				"segment":"hello",
+				"parentId":"f_root",
+				"children":[
+					"e_69d1f94a3749ce63c5e2cf85"
+				],
+				"path":"/hello"
+			}
 		},
 		"name":"sujal-9",
 		"theme":{
@@ -215,6 +244,16 @@
 			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
+			"e_global_sujal-9":{
+				"slug":"global-page-of-sujal-9",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_69d1f94a3749ce63c5e2cf85":{
+				"slug":"world",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_69d1f8d3aa1e4812e203266d":{
 				"slug":"homepage",
 				"isPublic":false,
@@ -226,5 +265,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":6
 }
