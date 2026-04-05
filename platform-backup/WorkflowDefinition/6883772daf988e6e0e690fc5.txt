@@ -4,14 +4,14 @@
 	],
 	"createdTime":1753782719266,
 	"deleted":false,
-	"deployedVersion":64,
+	"deployedVersion":67,
 	"deploymentState":{
-		"deployedAt":1774342884467,
+		"deployedAt":1775385566340,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252e429fa153f07e099ea",
+		"deployedDefinitionId":"69d23bdeb31cfc01cc39eedc",
 		"status":"DEPLOYED",
-		"version":64,
-		"workflowVersion":132
+		"version":67,
+		"workflowVersion":138
 	},
 	"edges":[
 		{
@@ -602,7 +602,7 @@
 	"id":"6883772daf988e6e0e690fc5",
 	"lastModifiedBy":-1,
 	"lcName":"read file using docling",
-	"modifiedTime":1775320615052,
+	"modifiedTime":1775385566341,
 	"name":"Read File Using Docling",
 	"nodes":[
 		{
@@ -1065,6 +1065,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1556,6 +1557,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1985,6 +1987,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2655,6 +2658,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -4341,5 +4345,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":134
+	"version":138
 }
