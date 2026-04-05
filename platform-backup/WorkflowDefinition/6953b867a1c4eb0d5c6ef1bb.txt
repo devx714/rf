@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769422115763,
 	"deleted":false,
-	"deployedVersion":16,
+	"deployedVersion":18,
 	"deploymentState":{
-		"deployedAt":1775385592064,
+		"deployedAt":1775391306585,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bf8b41de37eb670f56c",
+		"deployedDefinitionId":"69d2524a50e82945c76a67b5",
 		"status":"DEPLOYED",
-		"version":16,
-		"workflowVersion":41
+		"version":18,
+		"workflowVersion":45
 	},
 	"edges":[
 		{
@@ -289,6 +289,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -298,7 +299,7 @@
 	"id":"6953b867a1c4eb0d5c6ef1bb",
 	"lastModifiedBy":-1,
 	"lcName":"promptattack (ai agent)",
-	"modifiedTime":1775389982519,
+	"modifiedTime":1775391435176,
 	"name":"PromptAttack (AI Agent)",
 	"nodes":[
 		{
@@ -428,6 +429,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -584,6 +586,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1278,6 +1281,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1525,5 +1529,5 @@
 	"tags":[
 		
 	],
-	"version":43
+	"version":46
 }
