@@ -4,14 +4,14 @@
 	],
 	"createdTime":1773768530538,
 	"deleted":false,
-	"deployedVersion":9,
+	"deployedVersion":10,
 	"deploymentState":{
-		"deployedAt":1775391365448,
+		"deployedAt":1775407812249,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2528550e82945c76a6aa3",
+		"deployedDefinitionId":"69d292c40e422443cf560854",
 		"status":"DEPLOYED",
-		"version":9,
-		"workflowVersion":24
+		"version":10,
+		"workflowVersion":26
 	},
 	"edges":[
 		{
@@ -79,6 +79,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -88,7 +89,7 @@
 	"id":"699815f2b02eca0e00cd37ef",
 	"lastModifiedBy":-1,
 	"lcName":"livekit voice send mqtt",
-	"modifiedTime":1775407812174,
+	"modifiedTime":1775408097439,
 	"name":"LiveKit Voice Send MQTT",
 	"nodes":[
 		{
@@ -353,5 +354,5 @@
 	"tags":[
 		
 	],
-	"version":26
+	"version":27
 }
