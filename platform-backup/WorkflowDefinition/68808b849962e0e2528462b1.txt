@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756991754132,
 	"deleted":false,
-	"deployedVersion":24,
+	"deployedVersion":25,
 	"deploymentState":{
-		"deployedAt":1775390102008,
+		"deployedAt":1775391425526,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d24d9550e82945c76a4a66",
+		"deployedDefinitionId":"69d252c150e82945c76a6dc4",
 		"status":"DEPLOYED",
-		"version":24,
-		"workflowVersion":53
+		"version":25,
+		"workflowVersion":55
 	},
 	"edges":[
 		{
@@ -64,7 +64,7 @@
 	"id":"68808b849962e0e2528462b1",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | okta | user",
-	"modifiedTime":1775390107854,
+	"modifiedTime":1775391431802,
 	"name":"Knowledge Indexer | Okta | User",
 	"nodes":[
 		{
@@ -420,5 +420,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":54
+	"version":56
 }
