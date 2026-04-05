@@ -4,14 +4,14 @@
 	],
 	"createdTime":1744888897247,
 	"deleted":false,
-	"deployedVersion":40,
+	"deployedVersion":41,
 	"deploymentState":{
-		"deployedAt":1773928143203,
+		"deployedAt":1775389972175,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfecf16170c62438068ab",
+		"deployedDefinitionId":"69d24d1450e82945c76a42f9",
 		"status":"DEPLOYED",
-		"version":40,
-		"workflowVersion":77
+		"version":41,
+		"workflowVersion":78
 	},
 	"edges":[
 		{
@@ -83,6 +83,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -92,7 +93,7 @@
 	"id":"6800e4412560dd4c4be3f8ba",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | power bi | index datasets",
-	"modifiedTime":1775389972075,
+	"modifiedTime":1775390106389,
 	"name":"Knowledge Indexer | Power BI | Index Datasets",
 	"nodes":[
 		{
@@ -571,5 +572,5 @@
 		}
 	},
 	"standard":true,
-	"version":78
+	"version":79
 }
