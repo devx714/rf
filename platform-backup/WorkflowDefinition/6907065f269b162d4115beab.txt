@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762858209006,
 	"deleted":false,
-	"deployedVersion":26,
+	"deployedVersion":28,
 	"deploymentState":{
-		"deployedAt":1775320652830,
+		"deployedAt":1775385601365,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e4cc6b0c9120df1748a",
+		"deployedDefinitionId":"69d23c01b31cfc01cc39f18e",
 		"status":"DEPLOYED",
-		"version":26,
-		"workflowVersion":70
+		"version":28,
+		"workflowVersion":74
 	},
 	"edges":[
 		{
@@ -226,7 +226,7 @@
 	"id":"6907065f269b162d4115beab",
 	"lastModifiedBy":-1,
 	"lcName":"perform websearch (generic)",
-	"modifiedTime":1775334447637,
+	"modifiedTime":1775385601366,
 	"name":"Perform Websearch (Generic)",
 	"nodes":[
 		{
@@ -574,6 +574,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -853,6 +854,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1387,6 +1389,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1668,5 +1671,5 @@
 	"tags":[
 		
 	],
-	"version":72
+	"version":74
 }
