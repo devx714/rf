@@ -4,14 +4,14 @@
 	],
 	"createdTime":1739356372906,
 	"deleted":false,
-	"deployedVersion":114,
+	"deployedVersion":116,
 	"deploymentState":{
-		"deployedAt":1775385620964,
+		"deployedAt":1775391365550,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c14b41de37eb670f6a9",
+		"deployedDefinitionId":"69d2528550e82945c76a6aa5",
 		"status":"DEPLOYED",
-		"version":114,
-		"workflowVersion":206
+		"version":116,
+		"workflowVersion":210
 	},
 	"edges":[
 		{
@@ -278,6 +278,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -287,7 +288,7 @@
 	"id":"67ac78d4a71f2203e8ae4ac1",
 	"lastModifiedBy":-1,
 	"lcName":"agentic chunking pdf - rag",
-	"modifiedTime":1775390041684,
+	"modifiedTime":1775391436379,
 	"name":"Agentic Chunking PDF - RAG",
 	"nodes":[
 		{
@@ -435,6 +436,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -831,6 +833,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1199,6 +1202,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1774,6 +1778,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2077,6 +2082,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2263,5 +2269,5 @@
 	"tags":[
 		
 	],
-	"version":208
+	"version":211
 }
