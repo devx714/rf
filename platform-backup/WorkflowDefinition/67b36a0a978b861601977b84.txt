@@ -4,14 +4,14 @@
 	],
 	"createdTime":1740110512582,
 	"deleted":false,
-	"deployedVersion":100,
+	"deployedVersion":101,
 	"deploymentState":{
-		"deployedAt":1775334409846,
+		"deployedAt":1775385582558,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1740939824e06138199f1",
+		"deployedDefinitionId":"69d23beeb31cfc01cc39eff6",
 		"status":"DEPLOYED",
-		"version":100,
-		"workflowVersion":209
+		"version":101,
+		"workflowVersion":211
 	},
 	"edges":[
 		{
@@ -557,7 +557,7 @@
 	"id":"67b36a0a978b861601977b84",
 	"lastModifiedBy":-1,
 	"lcName":"dialogue manager new",
-	"modifiedTime":1775385582460,
+	"modifiedTime":1775389970234,
 	"name":"Dialogue Manager New",
 	"nodes":[
 		{
@@ -3584,5 +3584,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":211
+	"version":213
 }
