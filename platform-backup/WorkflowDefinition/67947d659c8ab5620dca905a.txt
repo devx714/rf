@@ -4,14 +4,14 @@
 	],
 	"createdTime":1738063145711,
 	"deleted":false,
-	"deployedVersion":87,
+	"deployedVersion":88,
 	"deploymentState":{
-		"deployedAt":1775334398387,
+		"deployedAt":1775385571243,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173fe39824e0613819912",
+		"deployedDefinitionId":"69d23be3b31cfc01cc39ef27",
 		"status":"DEPLOYED",
-		"version":87,
-		"workflowVersion":135
+		"version":88,
+		"workflowVersion":137
 	},
 	"edges":[
 		{
@@ -54,7 +54,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -64,7 +63,7 @@
 	"id":"67947d659c8ab5620dca905a",
 	"lastModifiedBy":-1,
 	"lcName":"fetch tools from topic",
-	"modifiedTime":1775334706345,
+	"modifiedTime":1775389934293,
 	"name":"Fetch Tools From Topic",
 	"nodes":[
 		{
@@ -427,7 +426,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -686,5 +684,5 @@
 		"AI Agent",
 		"Team"
 	],
-	"version":136
+	"version":139
 }
