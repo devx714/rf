@@ -1,0 +1,153 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1763384520933,
+	"deleted":false,
+	"deployedVersion":29,
+	"deploymentState":{
+		"deployedAt":1775385600765,
+		"deployedBy":-1,
+		"deployedDefinitionId":"69d23c00b31cfc01cc39f187",
+		"status":"DEPLOYED",
+		"version":29,
+		"workflowVersion":58
+	},
+	"edges":[
+		{
+			"fromNodeId":"_pKppz",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_wcMOP",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_wcMOP",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_sMTZG",
+			"type":"next"
+		}
+	],
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"V"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"6912f35fee4b8d590110d95f",
+	"lastModifiedBy":-1,
+	"lcName":"[dt] delete group",
+	"modifiedTime":1775389993194,
+	"name":"[DT] Delete Group",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_EwgUA@n_PwR3s@_XJVWI-1@y@l",
+			"id":"_pKppz",
+			"index":1,
+			"inputs":{
+				"result":{
+					"additionalProperties":false,
+					"properties":{
+						"success":{
+							"title":"Success",
+							"type":"boolean"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"setup":{
+					"additionalProperties":false,
+					"properties":{
+						"groupId":{
+							"title":"Group Id",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"standard_entities",
+				"resourceVersion":7,
+				"resourceName":"standard_entities_delete_user_team",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_EwgUA@n_PwR3s@_XJVWI-1@y@l",
+			"id":"_wcMOP",
+			"index":2,
+			"inputs":{
+				"id":"{{ _pKppz.outputs.groupId }}"
+			},
+			"skip":false,
+			"subTitle":"Standard entities by UnifyApps",
+			"title":"Delete User Team",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_EwgUA@n_PwR3s@_XJVWI-1@y@l",
+			"id":"_sMTZG",
+			"index":3,
+			"inputs":{
+				"result":{
+					"success":"{{ _wcMOP.outputs.success }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":0,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":true,
+	"tags":[
+		
+	],
+	"version":60
+}
