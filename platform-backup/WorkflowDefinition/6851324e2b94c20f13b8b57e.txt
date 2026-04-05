@@ -4,14 +4,14 @@
 	],
 	"createdTime":1750490455989,
 	"deleted":false,
-	"deployedVersion":76,
+	"deployedVersion":77,
 	"deploymentState":{
-		"deployedAt":1775334444524,
+		"deployedAt":1775385598160,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1742c39824e0613819b28",
+		"deployedDefinitionId":"69d23bfeb31cfc01cc39f13c",
 		"status":"DEPLOYED",
-		"version":76,
-		"workflowVersion":127
+		"version":77,
+		"workflowVersion":129
 	},
 	"description":"This automation converts the thinking_agent_without_tools models to agent_system_prompt_without_tools(default) response format.",
 	"edges":[
@@ -43,7 +43,7 @@
 	"id":"6851324e2b94c20f13b8b57e",
 	"lastModifiedBy":-1,
 	"lcName":"thinkingagentwithouttoolsresponseconverter",
-	"modifiedTime":1775385598009,
+	"modifiedTime":1775389989985,
 	"name":"ThinkingAgentWithoutToolsResponseConverter",
 	"nodes":[
 		{
@@ -278,5 +278,5 @@
 	"tags":[
 		"move"
 	],
-	"version":129
+	"version":131
 }
