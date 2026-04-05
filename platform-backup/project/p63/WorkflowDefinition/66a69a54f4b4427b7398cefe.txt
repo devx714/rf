@@ -4,14 +4,14 @@
 	],
 	"createdTime":1722194516222,
 	"deleted":false,
-	"deployedVersion":107,
+	"deployedVersion":109,
 	"deploymentState":{
-		"deployedAt":1775385647970,
+		"deployedAt":1775391420108,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c2fb41de37eb670f7da",
+		"deployedDefinitionId":"69d252bc50e82945c76a6d5a",
 		"status":"DEPLOYED",
-		"version":107,
-		"workflowVersion":157
+		"version":109,
+		"workflowVersion":161
 	},
 	"edges":[
 		{
@@ -54,6 +54,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -63,7 +64,7 @@
 	"id":"66a69a54f4b4427b7398cefe",
 	"lastModifiedBy":-1,
 	"lcName":"text_to_workflow_retain_inputs_detect_changes",
-	"modifiedTime":1775390096500,
+	"modifiedTime":1775391434974,
 	"name":"Text_to_workflow_Retain_Inputs_Detect_Changes",
 	"nodes":[
 		{
@@ -337,5 +338,5 @@
 	"tags":[
 		"Text_to_Workflow"
 	],
-	"version":159
+	"version":162
 }
