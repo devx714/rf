@@ -92,7 +92,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -102,7 +101,7 @@
 	"id":"68fa1a0d1ed85a5693eb86c1",
 	"lastModifiedBy":-1,
 	"lcName":"metering | search | success rate and error rate",
-	"modifiedTime":1775334706399,
+	"modifiedTime":1775385600135,
 	"name":"Metering | Search | Success Rate and Error Rate",
 	"nodes":[
 		{
@@ -719,5 +718,5 @@
 	"tags":[
 		
 	],
-	"version":63
+	"version":64
 }
