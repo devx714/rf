@@ -113,7 +113,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -123,7 +122,7 @@
 	"id":"672ef5d39d0e461f4f99c43d",
 	"lastModifiedBy":-1,
 	"lcName":"publish data rag response",
-	"modifiedTime":1775391432730,
+	"modifiedTime":1775407691383,
 	"name":"Publish Data RAG response",
 	"nodes":[
 		{
@@ -301,7 +300,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -728,5 +726,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":176
+	"version":177
 }
