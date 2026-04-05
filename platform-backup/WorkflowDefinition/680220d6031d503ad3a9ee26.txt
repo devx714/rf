@@ -4,14 +4,14 @@
 	],
 	"createdTime":1745145293875,
 	"deleted":false,
-	"deployedVersion":72,
+	"deployedVersion":75,
 	"deploymentState":{
-		"deployedAt":1774342975422,
+		"deployedAt":1775385644330,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2533f29fa153f07e09dcb",
+		"deployedDefinitionId":"69d23c2cb41de37eb670f792",
 		"status":"DEPLOYED",
-		"version":72,
-		"workflowVersion":144
+		"version":75,
+		"workflowVersion":150
 	},
 	"edges":[
 		{
@@ -486,7 +486,7 @@
 	"id":"680220d6031d503ad3a9ee26",
 	"lastModifiedBy":-1,
 	"lcName":"call llm messages to watsonx payload messages",
-	"modifiedTime":1775320695147,
+	"modifiedTime":1775385644332,
 	"name":"Call LLM Messages to Watsonx payload Messages",
 	"nodes":[
 		{
@@ -885,6 +885,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1504,6 +1505,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2651,6 +2653,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2711,6 +2714,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -3145,5 +3149,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":146
+	"version":150
 }
