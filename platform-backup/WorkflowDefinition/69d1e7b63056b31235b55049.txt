@@ -1,0 +1,30 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1775364022146,
+	"deleted":false,
+	"edges":[
+		
+	],
+	"id":"69d1e7b63056b31235b55049",
+	"lastModifiedBy":175325,
+	"lcName":"changesetqa21775364022132lwldpybuga",
+	"modifiedTime":1775364022146,
+	"name":"changeSetQA21775364022132LwlDpyBUga",
+	"nodes":[
+		
+	],
+	"ownerUserId":175325,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"version":0
+}
