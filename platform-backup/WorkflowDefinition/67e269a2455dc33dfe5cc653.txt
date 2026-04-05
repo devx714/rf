@@ -186,25 +186,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"A",
-					"EXPORT_AS_TEMPLATE",
-					"C",
-					"S",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"DEP"
-				],
-				"principalIds":[
-					"17"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -214,7 +195,7 @@
 	"id":"67e269a2455dc33dfe5cc653",
 	"lastModifiedBy":-1,
 	"lcName":"ai eval | metrix | task completion",
-	"modifiedTime":1775391433186,
+	"modifiedTime":1775407794329,
 	"name":"AI Eval | Metrix | Task Completion",
 	"nodes":[
 		{
@@ -623,7 +604,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1321,5 +1301,5 @@
 		}
 	},
 	"standard":true,
-	"version":197
+	"version":198
 }
