@@ -4,14 +4,14 @@
 	],
 	"createdTime":1773928096788,
 	"deleted":false,
-	"deployedVersion":4,
+	"deployedVersion":6,
 	"deploymentState":{
-		"deployedAt":1775320603965,
+		"deployedAt":1775385556065,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e1b83aecf24ec254754",
+		"deployedDefinitionId":"69d23bd4b31cfc01cc39ee11",
 		"status":"DEPLOYED",
-		"version":4,
-		"workflowVersion":10
+		"version":6,
+		"workflowVersion":14
 	},
 	"edges":[
 		{
@@ -33,7 +33,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -43,7 +42,7 @@
 	"id":"69b2bef4625e6b7e10a6b3e5",
 	"lastModifiedBy":-1,
 	"lcName":"memory api | delete memory (given memoryid)",
-	"modifiedTime":1775320891942,
+	"modifiedTime":1775389911655,
 	"name":"Memory API | Delete Memory (given memoryId)",
 	"nodes":[
 		{
@@ -172,5 +171,5 @@
 		}
 	},
 	"standard":true,
-	"version":11
+	"version":16
 }
