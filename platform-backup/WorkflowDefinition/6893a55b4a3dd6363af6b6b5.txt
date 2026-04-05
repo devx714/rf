@@ -169,7 +169,7 @@
 	"id":"6893a55b4a3dd6363af6b6b5",
 	"lastModifiedBy":-1,
 	"lcName":"mimetype/author to chunkmetadata",
-	"modifiedTime":1775385619172,
+	"modifiedTime":1775390039279,
 	"name":"MimeType/Author to ChunkMetadata",
 	"nodes":[
 		{
@@ -311,7 +311,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -964,5 +963,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":98
+	"version":100
 }
