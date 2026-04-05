@@ -4,14 +4,14 @@
 	],
 	"createdTime":1745474394004,
 	"deleted":false,
-	"deployedVersion":83,
+	"deployedVersion":85,
 	"deploymentState":{
-		"deployedAt":1775334517404,
+		"deployedAt":1775390104320,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1747539824e0613819fae",
+		"deployedDefinitionId":"69d24d9850e82945c76a4a98",
 		"status":"DEPLOYED",
-		"version":83,
-		"workflowVersion":138
+		"version":85,
+		"workflowVersion":142
 	},
 	"edges":[
 		{
@@ -115,6 +115,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -124,7 +125,7 @@
 	"id":"68061d3e9fe68756bec65c0f",
 	"lastModifiedBy":-1,
 	"lcName":"upsert topic advanced agent",
-	"modifiedTime":1775385653406,
+	"modifiedTime":1775390107213,
 	"name":"Upsert Topic Advanced Agent",
 	"nodes":[
 		{
@@ -302,6 +303,7 @@
 				"aiAgentId":"{{ xGoqE.outputs.topicPayload.aiAgentId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -696,5 +698,5 @@
 	"tags":[
 		
 	],
-	"version":140
+	"version":143
 }
