@@ -262,7 +262,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -272,7 +271,7 @@
 	"id":"68a6be894729367ce9192e4a",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge downloader | slack | user chats",
-	"modifiedTime":1775391431080,
+	"modifiedTime":1775407834288,
 	"name":"Knowledge Downloader | Slack | User Chats",
 	"nodes":[
 		{
@@ -770,7 +769,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1690,5 +1688,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":66
+	"version":67
 }
