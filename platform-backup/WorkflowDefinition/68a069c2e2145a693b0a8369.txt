@@ -40,7 +40,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -50,7 +49,7 @@
 	"id":"68a069c2e2145a693b0a8369",
 	"lastModifiedBy":-1,
 	"lcName":"mcp publish response",
-	"modifiedTime":1775334706864,
+	"modifiedTime":1775385535838,
 	"name":"MCP Publish Response",
 	"nodes":[
 		{
@@ -152,7 +151,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -252,5 +250,5 @@
 	"tags":[
 		
 	],
-	"version":84
+	"version":85
 }
