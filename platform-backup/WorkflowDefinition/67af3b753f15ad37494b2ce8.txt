@@ -274,7 +274,7 @@
 	"id":"67af3b753f15ad37494b2ce8",
 	"lastModifiedBy":-1,
 	"lcName":"agentic chunking pdf",
-	"modifiedTime":1775385544827,
+	"modifiedTime":1775389871277,
 	"name":"Agentic Chunking PDF",
 	"nodes":[
 		{
@@ -941,7 +941,6 @@
 				"document_topic":"{{ 1JyLi.outputs.result.documentTopic }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1202,7 +1201,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1405,7 +1403,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1987,5 +1984,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":160
+	"version":162
 }
