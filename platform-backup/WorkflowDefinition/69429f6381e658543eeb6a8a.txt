@@ -4,15 +4,15 @@
 	],
 	"createdTime":1769422049379,
 	"deleted":false,
-	"deployedVersion":19,
+	"deployedVersion":20,
 	"deploymentState":{
-		"deployedAt":1775391249744,
+		"deployedAt":1775407731159,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2521150e82945c76a64de",
+		"deployedDefinitionId":"69d29273a2eda46706b04525",
 		"deploymentTag":"revert",
 		"status":"DEPLOYED",
-		"version":19,
-		"workflowVersion":37
+		"version":20,
+		"workflowVersion":39
 	},
 	"edges":[
 		{
@@ -87,6 +87,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -96,7 +97,7 @@
 	"id":"69429f6381e658543eeb6a8a",
 	"lastModifiedBy":-1,
 	"lcName":"async file chunker",
-	"modifiedTime":1775407731112,
+	"modifiedTime":1775408109756,
 	"name":"Async File Chunker",
 	"nodes":[
 		{
@@ -512,5 +513,5 @@
 		"AI Agent",
 		"Knowledge"
 	],
-	"version":39
+	"version":40
 }
