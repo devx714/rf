@@ -4,14 +4,14 @@
 	],
 	"createdTime":1746356597369,
 	"deleted":false,
-	"deployedVersion":83,
+	"deployedVersion":84,
 	"deploymentState":{
-		"deployedAt":1775334355970,
+		"deployedAt":1775385551397,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173d339824e061381973b",
+		"deployedDefinitionId":"69d23bcfb31cfc01cc39ed7a",
 		"status":"DEPLOYED",
-		"version":83,
-		"workflowVersion":125
+		"version":84,
+		"workflowVersion":127
 	},
 	"edges":[
 		{
@@ -49,7 +49,7 @@
 	"id":"681743f7fa13fc297ec01fcd",
 	"lastModifiedBy":-1,
 	"lcName":"validate and clean llm response [voice] [openai]",
-	"modifiedTime":1775385551338,
+	"modifiedTime":1775389903938,
 	"name":"Validate And Clean LLM response [Voice] [OpenAI]",
 	"nodes":[
 		{
@@ -337,5 +337,5 @@
 		}
 	},
 	"standard":true,
-	"version":127
+	"version":129
 }
