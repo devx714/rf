@@ -4,14 +4,14 @@
 	],
 	"createdTime":1758646579707,
 	"deleted":false,
-	"deployedVersion":35,
+	"deployedVersion":36,
 	"deploymentState":{
-		"deployedAt":1775334446531,
+		"deployedAt":1775385600113,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1742e39824e0613819b4e",
+		"deployedDefinitionId":"69d23c00b31cfc01cc39f171",
 		"status":"DEPLOYED",
-		"version":35,
-		"workflowVersion":91
+		"version":36,
+		"workflowVersion":93
 	},
 	"edges":[
 		{
@@ -158,7 +158,7 @@
 	"id":"68a80aac8f443d617800033f",
 	"lastModifiedBy":-1,
 	"lcName":"deep research tool | websearchparallelisation ",
-	"modifiedTime":1775385600056,
+	"modifiedTime":1775389992513,
 	"name":"Deep Research Tool | WebSearchParallelisation ",
 	"nodes":[
 		{
@@ -1085,5 +1085,5 @@
 	"tags":[
 		
 	],
-	"version":93
+	"version":95
 }
