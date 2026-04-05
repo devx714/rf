@@ -200,7 +200,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -210,7 +209,7 @@
 	"id":"682389ac4ac3830d083e2c7d",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge metadata fetcher",
-	"modifiedTime":1775391438184,
+	"modifiedTime":1775407749389,
 	"name":"Knowledge Metadata Fetcher",
 	"nodes":[
 		{
@@ -392,7 +391,6 @@
 				"embeddingsLength":"=LEN({{ hqkdg.outputs.embeddings }})"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -732,7 +730,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1820,5 +1817,5 @@
 	"tags":[
 		
 	],
-	"version":151
+	"version":152
 }
