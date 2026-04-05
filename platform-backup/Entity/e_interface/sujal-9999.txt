@@ -2,9 +2,29 @@
 	"createdTime":1775369117103,
 	"deleted":false,
 	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"195414"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"sujal-9999",
 	"lastModifiedBy":195414,
-	"modifiedTime":1775369117103,
+	"modifiedTime":1775369197162,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -20,12 +40,12 @@
 			"_counter":{
 				"_moduleCount":0,
 				"_mqttTopicCounter":0,
-				"_pageCount":0
+				"_pageCount":1
 			}
 		},
 		"navigation":{
 			"secondary":[],
-			"defaultPageId":"",
+			"defaultPageId":"e_69d1fbedaa1e4812e20326b5",
 			"appearance":{
 				"SM":{
 					"primary":[],
@@ -57,7 +77,8 @@
 						"padding":{
 							"all":"p-0"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"LG":{
 					"primary":[],
@@ -95,7 +116,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"XL":{
 					"primary":[],
@@ -133,7 +155,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"MD":{
 					"primary":[],
@@ -171,13 +194,27 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				}
 			},
 			"primary":[]
 		},
+		"interfacePageIdVsSlugMap":{
+			"e_69d1fbedaa1e4812e20326b5":"homepage"
+		},
 		"manifest":{
 			"type":"WEB"
+		},
+		"paths":{
+			"f_root":{
+				"id":"f_root",
+				"segment":"",
+				"children":[
+					"e_69d1fbedaa1e4812e20326b5"
+				],
+				"path":"/"
+			}
 		},
 		"name":"sujal-9999",
 		"theme":{
@@ -186,11 +223,18 @@
 		"type":"application",
 		"locale":{
 			"defaultLocale":"en-US"
+		},
+		"entityDetailsMap":{
+			"e_69d1fbedaa1e4812e20326b5":{
+				"slug":"homepage",
+				"isPublic":false,
+				"type":"PAGE"
+			}
 		}
 	},
 	"standard":false,
 	"tags":[
 		
 	],
-	"version":0
+	"version":1
 }
