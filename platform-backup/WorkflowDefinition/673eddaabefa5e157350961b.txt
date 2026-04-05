@@ -4,14 +4,14 @@
 	],
 	"createdTime":1732173226604,
 	"deleted":false,
-	"deployedVersion":82,
+	"deployedVersion":83,
 	"deploymentState":{
-		"deployedAt":1775391322537,
+		"deployedAt":1775407789058,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2525a50e82945c76a68ee",
+		"deployedDefinitionId":"69d292ad0e422443cf56075a",
 		"status":"DEPLOYED",
-		"version":82,
-		"workflowVersion":130
+		"version":83,
+		"workflowVersion":132
 	},
 	"edges":[
 		{
@@ -50,7 +50,7 @@
 	"id":"673eddaabefa5e157350961b",
 	"lastModifiedBy":-1,
 	"lcName":"api publisher (ai agent)",
-	"modifiedTime":1775391431187,
+	"modifiedTime":1775408101744,
 	"name":"API Publisher (AI Agent)",
 	"nodes":[
 		{
@@ -268,5 +268,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":131
+	"version":133
 }
