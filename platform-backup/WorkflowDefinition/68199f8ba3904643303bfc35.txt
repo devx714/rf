@@ -4,14 +4,14 @@
 	],
 	"createdTime":1746509707342,
 	"deleted":false,
-	"deployedVersion":133,
+	"deployedVersion":136,
 	"deploymentState":{
-		"deployedAt":1775334453307,
+		"deployedAt":1775391326618,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1743539824e0613819bd2",
+		"deployedDefinitionId":"69d2525e50e82945c76a693c",
 		"status":"DEPLOYED",
-		"version":133,
-		"workflowVersion":209
+		"version":136,
+		"workflowVersion":215
 	},
 	"edges":[
 		{
@@ -384,6 +384,17 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
+					"V"
+				],
+				"principalIds":[
+					"87628"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -393,7 +404,7 @@
 	"id":"68199f8ba3904643303bfc35",
 	"lastModifiedBy":-1,
 	"lcName":"eval | experiment | run llm testcase",
-	"modifiedTime":1775385607339,
+	"modifiedTime":1775391433746,
 	"name":"Eval | Experiment | Run LLM Testcase",
 	"nodes":[
 		{
@@ -620,6 +631,7 @@
 				"success":0
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -900,6 +912,7 @@
 				"testCaseStartTime":"=(NOW() - DATE(1970,1,1)) * 86400"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1205,6 +1218,7 @@
 				"inputText":"{{ trK3s.outputs.item.properties.input }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2602,5 +2616,5 @@
 	"tags":[
 		
 	],
-	"version":211
+	"version":216
 }
