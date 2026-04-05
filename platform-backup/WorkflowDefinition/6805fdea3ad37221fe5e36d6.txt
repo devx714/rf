@@ -4,14 +4,14 @@
 	],
 	"createdTime":1750490373389,
 	"deleted":false,
-	"deployedVersion":37,
+	"deployedVersion":39,
 	"deploymentState":{
-		"deployedAt":1773928164008,
+		"deployedAt":1775391309704,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfee340a2b92de9fe6ab2",
+		"deployedDefinitionId":"69d2524d50e82945c76a67eb",
 		"status":"DEPLOYED",
-		"version":37,
-		"workflowVersion":105
+		"version":39,
+		"workflowVersion":108
 	},
 	"edges":[
 		{
@@ -211,6 +211,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -220,7 +221,7 @@
 	"id":"6805fdea3ad37221fe5e36d6",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | zoho invoice | index credit notes",
-	"modifiedTime":1775389985845,
+	"modifiedTime":1775391436598,
 	"name":"Knowledge Indexer | Zoho Invoice | Index Credit Notes",
 	"nodes":[
 		{
@@ -572,6 +573,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -798,6 +800,7 @@
 				"has":true
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1565,5 +1568,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":106
+	"version":109
 }
