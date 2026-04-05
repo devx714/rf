@@ -4,14 +4,14 @@
 	],
 	"createdTime":1760257334801,
 	"deleted":false,
-	"deployedVersion":34,
+	"deployedVersion":38,
 	"deploymentState":{
-		"deployedAt":1775320634690,
+		"deployedAt":1775391296840,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e3ac6b0c9120df173ec",
+		"deployedDefinitionId":"69d2524050e82945c76a66f3",
 		"status":"DEPLOYED",
-		"version":34,
-		"workflowVersion":102
+		"version":38,
+		"workflowVersion":110
 	},
 	"edges":[
 		{
@@ -269,7 +269,7 @@
 	"id":"68e7ae9b1ee11761a124949e",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] paginated list of all chat history",
-	"modifiedTime":1775320889116,
+	"modifiedTime":1775391430731,
 	"name":"[DT] Paginated list of all chat history",
 	"nodes":[
 		{
@@ -2187,5 +2187,5 @@
 		}
 	},
 	"standard":true,
-	"version":103
+	"version":111
 }
