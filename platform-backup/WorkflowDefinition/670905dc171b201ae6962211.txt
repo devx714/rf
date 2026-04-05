@@ -4,14 +4,14 @@
 	],
 	"createdTime":1728644572425,
 	"deleted":false,
-	"deployedVersion":85,
+	"deployedVersion":86,
 	"deploymentState":{
-		"deployedAt":1775334416353,
+		"deployedAt":1775385589778,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1741039824e0613819a6c",
+		"deployedDefinitionId":"69d23bf5b31cfc01cc39f069",
 		"status":"DEPLOYED",
-		"version":85,
-		"workflowVersion":132
+		"version":86,
+		"workflowVersion":134
 	},
 	"edges":[
 		{
@@ -215,7 +215,7 @@
 	"id":"670905dc171b201ae6962211",
 	"lastModifiedBy":-1,
 	"lcName":"audio indexing multi modality",
-	"modifiedTime":1775385589731,
+	"modifiedTime":1775385589779,
 	"name":"Audio Indexing Multi Modality",
 	"nodes":[
 		{
@@ -384,6 +384,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -644,6 +645,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1184,6 +1186,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1246,6 +1249,7 @@
 				"chunkMetadata":"{{ _bgrZD.outputs.chunkMetadata }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
