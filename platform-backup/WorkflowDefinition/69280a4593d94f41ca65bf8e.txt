@@ -100,7 +100,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -110,7 +109,7 @@
 	"id":"69280a4593d94f41ca65bf8e",
 	"lastModifiedBy":-1,
 	"lcName":"eval | experiment | get test cases count",
-	"modifiedTime":1775391434304,
+	"modifiedTime":1775407849480,
 	"name":"Eval | Experiment | Get Test Cases Count",
 	"nodes":[
 		{
@@ -574,5 +573,5 @@
 	"tags":[
 		
 	],
-	"version":64
+	"version":65
 }
