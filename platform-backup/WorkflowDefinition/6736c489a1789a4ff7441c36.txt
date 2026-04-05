@@ -4,14 +4,14 @@
 	],
 	"createdTime":1731642505238,
 	"deleted":false,
-	"deployedVersion":115,
+	"deployedVersion":116,
 	"deploymentState":{
-		"deployedAt":1775320572178,
+		"deployedAt":1775334342825,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13dfc83aecf24ec254590",
+		"deployedDefinitionId":"69d173c639824e0613819667",
 		"status":"DEPLOYED",
-		"version":115,
-		"workflowVersion":203
+		"version":116,
+		"workflowVersion":205
 	},
 	"edges":[
 		{
@@ -399,7 +399,7 @@
 	"id":"6736c489a1789a4ff7441c36",
 	"lastModifiedBy":-1,
 	"lcName":"publish on copilot (with widgets)",
-	"modifiedTime":1775334342634,
+	"modifiedTime":1775385540872,
 	"name":"Publish on CoPilot (With Widgets)",
 	"nodes":[
 		{
@@ -2971,5 +2971,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":205
+	"version":207
 }
