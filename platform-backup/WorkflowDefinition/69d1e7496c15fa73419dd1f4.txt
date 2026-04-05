@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775363913707,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775363914438,
+		"deployedBy":175325,
+		"deployedDefinitionId":"69d1e74a6c15fa73419dd1f7",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"edges":[
 		{
 			"fromNodeId":"n_1GOIj",
@@ -16,7 +25,7 @@
 	"id":"69d1e7496c15fa73419dd1f4",
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2yubklbyrwa",
-	"modifiedTime":1775363913768,
+	"modifiedTime":1775363914439,
 	"name":"changeSetQA2yuBKlbYRwa",
 	"nodes":[
 		{
@@ -26,7 +35,7 @@
 				"resourceName":"webhooks_default"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_l5XqK-1",
 			"id":"n_1GOIj",
@@ -53,7 +62,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_l5XqK-1",
 			"id":"n_6w9od",
