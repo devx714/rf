@@ -4,14 +4,14 @@
 	],
 	"createdTime":1726555302575,
 	"deleted":false,
-	"deployedVersion":173,
+	"deployedVersion":175,
 	"deploymentState":{
-		"deployedAt":1775385569896,
+		"deployedAt":1775391259384,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23be1b31cfc01cc39ef23",
+		"deployedDefinitionId":"69d2521b50e82945c76a65a9",
 		"status":"DEPLOYED",
-		"version":173,
-		"workflowVersion":309
+		"version":175,
+		"workflowVersion":313
 	},
 	"edges":[
 		{
@@ -239,7 +239,7 @@
 	"id":"66e924a61076a11bebd61ffd",
 	"lastModifiedBy":-1,
 	"lcName":"observability | traces of message",
-	"modifiedTime":1775385569897,
+	"modifiedTime":1775407743136,
 	"name":"Observability | Traces of Message",
 	"nodes":[
 		{
@@ -394,7 +394,6 @@
 				"observabilityChangesEnabled":true
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -557,7 +556,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1264,7 +1262,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1900,5 +1897,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":309
+	"version":315
 }
