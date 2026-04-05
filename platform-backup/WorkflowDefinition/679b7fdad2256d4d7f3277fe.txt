@@ -4,14 +4,14 @@
 	],
 	"createdTime":1738309677710,
 	"deleted":false,
-	"deployedVersion":100,
+	"deployedVersion":103,
 	"deploymentState":{
-		"deployedAt":1774342894511,
+		"deployedAt":1775385573534,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252ee29fa153f07e09a43",
+		"deployedDefinitionId":"69d23be5b31cfc01cc39ef58",
 		"status":"DEPLOYED",
-		"version":100,
-		"workflowVersion":165
+		"version":103,
+		"workflowVersion":171
 	},
 	"edges":[
 		{
@@ -456,7 +456,7 @@
 	"id":"679b7fdad2256d4d7f3277fe",
 	"lastModifiedBy":-1,
 	"lcName":"fetch chunks given filter and embedding models",
-	"modifiedTime":1775320622452,
+	"modifiedTime":1775385573535,
 	"name":"Fetch Chunks Given Filter and Embedding Models",
 	"nodes":[
 		{
@@ -1184,6 +1184,7 @@
 				"applyLookup":"{{ n_d1dun.outputs.result.applyLookup }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1720,6 +1721,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1813,6 +1815,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2553,6 +2556,7 @@
 				"startTime":"=INT((NOW() - DATE(1970,1,1)) * 86400000)"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -3253,5 +3257,5 @@
 		"AI Agent",
 		"Knowledge"
 	],
-	"version":167
+	"version":171
 }
