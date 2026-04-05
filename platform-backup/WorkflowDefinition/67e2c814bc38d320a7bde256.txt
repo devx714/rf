@@ -138,7 +138,7 @@
 	"id":"67e2c814bc38d320a7bde256",
 	"lastModifiedBy":-1,
 	"lcName":"[mcp server] send ping to clients",
-	"modifiedTime":1775385542750,
+	"modifiedTime":1775389867197,
 	"name":"[MCP Server] Send Ping to Clients",
 	"nodes":[
 		{
@@ -222,7 +222,6 @@
 				"counter":100000
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -605,5 +604,5 @@
 	"tags":[
 		"MCP Server"
 	],
-	"version":121
+	"version":123
 }
