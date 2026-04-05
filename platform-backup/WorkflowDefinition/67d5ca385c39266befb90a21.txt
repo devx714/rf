@@ -4,14 +4,14 @@
 	],
 	"createdTime":1742670789794,
 	"deleted":false,
-	"deployedVersion":89,
+	"deployedVersion":91,
 	"deploymentState":{
-		"deployedAt":1774342871641,
+		"deployedAt":1775334382889,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252d729fa153f07e09981",
+		"deployedDefinitionId":"69d173ee39824e06138197f4",
 		"status":"DEPLOYED",
-		"version":89,
-		"workflowVersion":189
+		"version":91,
+		"workflowVersion":193
 	},
 	"edges":[
 		{
@@ -260,7 +260,7 @@
 	"id":"67d5ca385c39266befb90a21",
 	"lastModifiedBy":-1,
 	"lcName":"model based system prompt builder",
-	"modifiedTime":1775320603798,
+	"modifiedTime":1775385555916,
 	"name":"Model Based System Prompt Builder",
 	"nodes":[
 		{
@@ -1592,5 +1592,5 @@
 	"tags":[
 		
 	],
-	"version":191
+	"version":195
 }
