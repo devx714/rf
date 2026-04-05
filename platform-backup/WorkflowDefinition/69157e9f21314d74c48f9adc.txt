@@ -4,14 +4,14 @@
 	],
 	"createdTime":1763384558068,
 	"deleted":false,
-	"deployedVersion":17,
+	"deployedVersion":18,
 	"deploymentState":{
-		"deployedAt":1775320673332,
+		"deployedAt":1775334466891,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e61c6b0c9120df17505",
+		"deployedDefinitionId":"69d1744239824e0613819d10",
 		"status":"DEPLOYED",
-		"version":17,
-		"workflowVersion":34
+		"version":18,
+		"workflowVersion":36
 	},
 	"edges":[
 		{
@@ -33,7 +33,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -43,7 +42,7 @@
 	"id":"69157e9f21314d74c48f9adc",
 	"lastModifiedBy":-1,
 	"lcName":"convert action to tool (batch) wrapper",
-	"modifiedTime":1775320887926,
+	"modifiedTime":1775385621902,
 	"name":"Convert Action to Tool (Batch) Wrapper",
 	"nodes":[
 		{
@@ -400,5 +399,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":35
+	"version":38
 }
