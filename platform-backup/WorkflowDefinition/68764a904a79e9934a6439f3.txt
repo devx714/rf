@@ -4,14 +4,14 @@
 	],
 	"createdTime":1753185940137,
 	"deleted":false,
-	"deployedVersion":68,
+	"deployedVersion":69,
 	"deploymentState":{
-		"deployedAt":1775385613447,
+		"deployedAt":1775390031108,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c0db41de37eb670f642",
+		"deployedDefinitionId":"69d24d4f50e82945c76a4615",
 		"status":"DEPLOYED",
-		"version":68,
-		"workflowVersion":118
+		"version":69,
+		"workflowVersion":120
 	},
 	"edges":[
 		{
@@ -156,6 +156,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -165,7 +166,7 @@
 	"id":"68764a904a79e9934a6439f3",
 	"lastModifiedBy":-1,
 	"lcName":"download and index files",
-	"modifiedTime":1775390031039,
+	"modifiedTime":1775390106284,
 	"name":"Download and Index Files",
 	"nodes":[
 		{
@@ -294,6 +295,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -704,6 +706,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1219,5 +1222,5 @@
 		}
 	},
 	"standard":true,
-	"version":120
+	"version":121
 }
