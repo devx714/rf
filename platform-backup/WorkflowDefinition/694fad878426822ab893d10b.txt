@@ -61,7 +61,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -71,7 +70,7 @@
 	"id":"694fad878426822ab893d10b",
 	"lastModifiedBy":-1,
 	"lcName":"custom metadata filter generator | llm",
-	"modifiedTime":1775391433636,
+	"modifiedTime":1775407828952,
 	"name":"Custom Metadata Filter Generator | LLM",
 	"nodes":[
 		{
@@ -458,5 +457,5 @@
 	"tags":[
 		
 	],
-	"version":43
+	"version":44
 }
