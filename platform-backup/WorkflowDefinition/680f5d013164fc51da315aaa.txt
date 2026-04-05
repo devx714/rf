@@ -4,14 +4,14 @@
 	],
 	"createdTime":1745929215210,
 	"deleted":false,
-	"deployedVersion":84,
+	"deployedVersion":85,
 	"deploymentState":{
-		"deployedAt":1775334356060,
+		"deployedAt":1775385551485,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173d439824e061381973d",
+		"deployedDefinitionId":"69d23bcfb31cfc01cc39ed7c",
 		"status":"DEPLOYED",
-		"version":84,
-		"workflowVersion":129
+		"version":85,
+		"workflowVersion":131
 	},
 	"edges":[
 		{
@@ -260,7 +260,7 @@
 	"id":"680f5d013164fc51da315aaa",
 	"lastModifiedBy":-1,
 	"lcName":"few shot delete - ui",
-	"modifiedTime":1775385551432,
+	"modifiedTime":1775385551486,
 	"name":"Few Shot Delete - UI",
 	"nodes":[
 		{
@@ -350,6 +350,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -570,6 +571,7 @@
 				"embeddingsLength":"=LEN({{ Dm7E2.outputs.embeddings }})"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
