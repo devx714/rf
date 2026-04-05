@@ -4,14 +4,14 @@
 	],
 	"createdTime":1763384597442,
 	"deleted":false,
-	"deployedVersion":25,
+	"deployedVersion":27,
 	"deploymentState":{
-		"deployedAt":1774342978462,
+		"deployedAt":1775334511345,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2534229fa153f07e09de9",
+		"deployedDefinitionId":"69d1746f39824e0613819f40",
 		"status":"DEPLOYED",
-		"version":25,
-		"workflowVersion":69
+		"version":27,
+		"workflowVersion":73
 	},
 	"edges":[
 		{
@@ -355,7 +355,7 @@
 	"id":"68d9f39c3b65366c185864ad",
 	"lastModifiedBy":-1,
 	"lcName":"run guardrail",
-	"modifiedTime":1775320698238,
+	"modifiedTime":1775385647242,
 	"name":"Run Guardrail",
 	"nodes":[
 		{
@@ -2064,5 +2064,5 @@
 		}
 	},
 	"standard":true,
-	"version":71
+	"version":75
 }
