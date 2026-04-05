@@ -26,7 +26,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -36,7 +35,7 @@
 	"id":"69104ec0f56923794f37bb71",
 	"lastModifiedBy":-1,
 	"lcName":"realtime people indexer | platform | on create",
-	"modifiedTime":1775391435404,
+	"modifiedTime":1775407852885,
 	"name":"Realtime People Indexer | Platform | On Create",
 	"nodes":[
 		{
@@ -128,5 +127,5 @@
 	"tags":[
 		
 	],
-	"version":68
+	"version":69
 }
