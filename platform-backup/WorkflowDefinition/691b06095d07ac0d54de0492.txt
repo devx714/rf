@@ -4,14 +4,14 @@
 	],
 	"createdTime":1766522821620,
 	"deleted":false,
-	"deployedVersion":22,
+	"deployedVersion":24,
 	"deploymentState":{
-		"deployedAt":1775320697044,
+		"deployedAt":1775385646092,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e79c6b0c9120df175a4",
+		"deployedDefinitionId":"69d23c2eb41de37eb670f7b4",
 		"status":"DEPLOYED",
-		"version":22,
-		"workflowVersion":49
+		"version":24,
+		"workflowVersion":53
 	},
 	"edges":[
 		{
@@ -79,7 +79,7 @@
 	"id":"691b06095d07ac0d54de0492",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] set default agent",
-	"modifiedTime":1775334510127,
+	"modifiedTime":1775385646093,
 	"name":"[DT] Set Default Agent",
 	"nodes":[
 		{
@@ -183,6 +183,7 @@
 				"department":"{{ n_BlQqv.outputs.body.department }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -378,5 +379,5 @@
 	"tags":[
 		
 	],
-	"version":51
+	"version":53
 }
