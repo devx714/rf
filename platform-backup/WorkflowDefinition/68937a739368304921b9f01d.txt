@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756795874151,
 	"deleted":false,
-	"deployedVersion":45,
+	"deployedVersion":46,
 	"deploymentState":{
-		"deployedAt":1775334418770,
+		"deployedAt":1775385592137,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1741239824e0613819a9a",
+		"deployedDefinitionId":"69d23bf8b41de37eb670f56e",
 		"status":"DEPLOYED",
-		"version":45,
-		"workflowVersion":94
+		"version":46,
+		"workflowVersion":96
 	},
 	"edges":[
 		{
@@ -47,7 +47,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -57,7 +56,7 @@
 	"id":"68937a739368304921b9f01d",
 	"lastModifiedBy":-1,
 	"lcName":"metering | agent analytics | error rate",
-	"modifiedTime":1775334706553,
+	"modifiedTime":1775389982602,
 	"name":"Metering | Agent Analytics | Error Rate",
 	"nodes":[
 		{
@@ -412,5 +411,5 @@
 	"tags":[
 		
 	],
-	"version":95
+	"version":98
 }
