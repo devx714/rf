@@ -4,14 +4,14 @@
 	],
 	"createdTime":1737456005569,
 	"deleted":false,
-	"deployedVersion":102,
+	"deployedVersion":104,
 	"deploymentState":{
-		"deployedAt":1775385643217,
+		"deployedAt":1775391393561,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c2bb31cfc01cc39f409",
+		"deployedDefinitionId":"69d252a150e82945c76a6ce1",
 		"status":"DEPLOYED",
-		"version":102,
-		"workflowVersion":195
+		"version":104,
+		"workflowVersion":199
 	},
 	"edges":[
 		{
@@ -192,7 +192,7 @@
 	"id":"678f7985ea6abd513c727a08",
 	"lastModifiedBy":-1,
 	"lcName":"personalized page rank | graphrag",
-	"modifiedTime":1775390089968,
+	"modifiedTime":1775407841615,
 	"name":"Personalized Page Rank | GraphRAG",
 	"nodes":[
 		{
@@ -1743,5 +1743,5 @@
 	"tags":[
 		"GraphRAG"
 	],
-	"version":197
+	"version":201
 }
