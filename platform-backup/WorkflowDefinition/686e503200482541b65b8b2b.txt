@@ -4,14 +4,14 @@
 	],
 	"createdTime":1752511076728,
 	"deleted":false,
-	"deployedVersion":70,
+	"deployedVersion":71,
 	"deploymentState":{
-		"deployedAt":1775391319026,
+		"deployedAt":1775407785285,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2525750e82945c76a68a8",
+		"deployedDefinitionId":"69d292a90e422443cf560714",
 		"status":"DEPLOYED",
-		"version":70,
-		"workflowVersion":128
+		"version":71,
+		"workflowVersion":130
 	},
 	"edges":[
 		{
@@ -63,6 +63,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -72,7 +73,7 @@
 	"id":"686e503200482541b65b8b2b",
 	"lastModifiedBy":-1,
 	"lcName":"storagebyua indexing wrapper",
-	"modifiedTime":1775407785234,
+	"modifiedTime":1775408101482,
 	"name":"StorageByUA indexing Wrapper",
 	"nodes":[
 		{
@@ -286,6 +287,7 @@
 				"metadataSource":"storage_by_unifyapps"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -533,5 +535,5 @@
 	"tags":[
 		
 	],
-	"version":130
+	"version":131
 }
