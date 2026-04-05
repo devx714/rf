@@ -4,14 +4,14 @@
 	],
 	"createdTime":1757060048491,
 	"deleted":false,
-	"deployedVersion":43,
+	"deployedVersion":44,
 	"deploymentState":{
-		"deployedAt":1775334389988,
+		"deployedAt":1775385562733,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173f539824e061381987e",
+		"deployedDefinitionId":"69d23bdab31cfc01cc39ee98",
 		"status":"DEPLOYED",
-		"version":43,
-		"workflowVersion":94
+		"version":44,
+		"workflowVersion":96
 	},
 	"edges":[
 		{
@@ -99,7 +99,7 @@
 	"id":"68711d37b1761951e9fc3377",
 	"lastModifiedBy":-1,
 	"lcName":"[indexing dashboard] get remaining data to index",
-	"modifiedTime":1775385562688,
+	"modifiedTime":1775385562735,
 	"name":"[Indexing Dashboard] Get Remaining data to index",
 	"nodes":[
 		{
@@ -423,6 +423,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
