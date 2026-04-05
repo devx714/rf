@@ -4,14 +4,14 @@
 	],
 	"createdTime":1757441857072,
 	"deleted":false,
-	"deployedVersion":40,
+	"deployedVersion":43,
 	"deploymentState":{
-		"deployedAt":1774342898779,
+		"deployedAt":1775385577361,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252f229fa153f07e09a68",
+		"deployedDefinitionId":"69d23be9b31cfc01cc39ef9c",
 		"status":"DEPLOYED",
-		"version":40,
-		"workflowVersion":91
+		"version":43,
+		"workflowVersion":97
 	},
 	"edges":[
 		{
@@ -152,7 +152,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -162,7 +161,7 @@
 	"id":"68bc29147b3f397105eafea2",
 	"lastModifiedBy":-1,
 	"lcName":"user rbac detail fetcher",
-	"modifiedTime":1774622955575,
+	"modifiedTime":1775385577362,
 	"name":"User RBAC Detail Fetcher",
 	"nodes":[
 		{
@@ -1048,5 +1047,5 @@
 		"AI Agent",
 		"RBAC"
 	],
-	"version":92
+	"version":97
 }
