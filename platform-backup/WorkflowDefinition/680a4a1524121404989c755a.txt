@@ -4,14 +4,14 @@
 	],
 	"createdTime":1745504789124,
 	"deleted":false,
-	"deployedVersion":113,
+	"deployedVersion":117,
 	"deploymentState":{
-		"deployedAt":1775320620254,
+		"deployedAt":1775391260656,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e2cc6b0c9120df17385",
+		"deployedDefinitionId":"69d2521c50e82945c76a65b3",
 		"status":"DEPLOYED",
-		"version":113,
-		"workflowVersion":167
+		"version":117,
+		"workflowVersion":175
 	},
 	"edges":[
 		{
@@ -143,6 +143,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -152,7 +153,7 @@
 	"id":"680a4a1524121404989c755a",
 	"lastModifiedBy":-1,
 	"lcName":"ai eval | metrics | ai vs human (groundtruth)",
-	"modifiedTime":1775334398578,
+	"modifiedTime":1775391435068,
 	"name":"AI Eval | Metrics | AI vs Human (Groundtruth)",
 	"nodes":[
 		{
@@ -556,6 +557,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1024,5 +1026,5 @@
 	"tags":[
 		
 	],
-	"version":169
+	"version":176
 }
