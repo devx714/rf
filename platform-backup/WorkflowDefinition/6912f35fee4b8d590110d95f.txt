@@ -4,14 +4,14 @@
 	],
 	"createdTime":1763384520933,
 	"deleted":false,
-	"deployedVersion":29,
+	"deployedVersion":32,
 	"deploymentState":{
-		"deployedAt":1775385600765,
+		"deployedAt":1775407782690,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c00b31cfc01cc39f187",
+		"deployedDefinitionId":"69d292a6a2eda46706b047a7",
 		"status":"DEPLOYED",
-		"version":29,
-		"workflowVersion":58
+		"version":32,
+		"workflowVersion":64
 	},
 	"edges":[
 		{
@@ -33,6 +33,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -42,7 +43,7 @@
 	"id":"6912f35fee4b8d590110d95f",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] delete group",
-	"modifiedTime":1775389993194,
+	"modifiedTime":1775408108944,
 	"name":"[DT] Delete Group",
 	"nodes":[
 		{
@@ -149,5 +150,5 @@
 	"tags":[
 		
 	],
-	"version":60
+	"version":65
 }
