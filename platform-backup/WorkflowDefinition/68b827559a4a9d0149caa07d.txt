@@ -4,14 +4,14 @@
 	],
 	"createdTime":1757150681814,
 	"deleted":false,
-	"deployedVersion":37,
+	"deployedVersion":42,
 	"deploymentState":{
-		"deployedAt":1775320678459,
+		"deployedAt":1775407819867,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e6683aecf24ec254e8b",
+		"deployedDefinitionId":"69d292cb0e422443cf5608a0",
 		"status":"DEPLOYED",
-		"version":37,
-		"workflowVersion":75
+		"version":42,
+		"workflowVersion":85
 	},
 	"edges":[
 		{
@@ -63,6 +63,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -72,7 +73,7 @@
 	"id":"68b827559a4a9d0149caa07d",
 	"lastModifiedBy":-1,
 	"lcName":"throw exception | agent",
-	"modifiedTime":1775334471520,
+	"modifiedTime":1775408106194,
 	"name":"Throw Exception | Agent",
 	"nodes":[
 		{
@@ -426,5 +427,5 @@
 	"tags":[
 		
 	],
-	"version":77
+	"version":86
 }
