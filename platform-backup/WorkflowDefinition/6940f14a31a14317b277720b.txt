@@ -4,14 +4,14 @@
 	],
 	"createdTime":1766522784241,
 	"deleted":false,
-	"deployedVersion":23,
+	"deployedVersion":24,
 	"deploymentState":{
-		"deployedAt":1775334473642,
+		"deployedAt":1775385628870,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1744939824e0613819d8a",
+		"deployedDefinitionId":"69d23c1cb31cfc01cc39f315",
 		"status":"DEPLOYED",
-		"version":23,
-		"workflowVersion":47
+		"version":24,
+		"workflowVersion":49
 	},
 	"edges":[
 		{
@@ -163,7 +163,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -173,7 +172,7 @@
 	"id":"6940f14a31a14317b277720b",
 	"lastModifiedBy":-1,
 	"lcName":"index uem metadata",
-	"modifiedTime":1775334705900,
+	"modifiedTime":1775390051415,
 	"name":"Index UEM Metadata",
 	"nodes":[
 		{
@@ -397,7 +396,6 @@
 				"uemId":"{{ fhPte.outputs.result.modelId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -867,7 +865,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1223,5 +1220,5 @@
 	"tags":[
 		
 	],
-	"version":48
+	"version":51
 }
