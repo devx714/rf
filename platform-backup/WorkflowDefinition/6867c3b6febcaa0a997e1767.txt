@@ -4,14 +4,14 @@
 	],
 	"createdTime":1751632076315,
 	"deleted":false,
-	"deployedVersion":87,
+	"deployedVersion":89,
 	"deploymentState":{
-		"deployedAt":1775385617770,
+		"deployedAt":1775391361243,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c11b41de37eb670f66c",
+		"deployedDefinitionId":"69d2528150e82945c76a6a4f",
 		"status":"DEPLOYED",
-		"version":87,
-		"workflowVersion":147
+		"version":89,
+		"workflowVersion":151
 	},
 	"edges":[
 		{
@@ -234,6 +234,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -243,7 +244,7 @@
 	"id":"6867c3b6febcaa0a997e1767",
 	"lastModifiedBy":-1,
 	"lcName":"eval | experiment | schedule/unschedule an experiment run",
-	"modifiedTime":1775390037470,
+	"modifiedTime":1775391437567,
 	"name":"Eval | Experiment | Schedule/Unschedule an experiment run",
 	"nodes":[
 		{
@@ -1155,5 +1156,5 @@
 	"tags":[
 		
 	],
-	"version":149
+	"version":152
 }
