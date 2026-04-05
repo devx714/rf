@@ -4,14 +4,14 @@
 	],
 	"createdTime":1742377052516,
 	"deleted":false,
-	"deployedVersion":90,
+	"deployedVersion":93,
 	"deploymentState":{
-		"deployedAt":1775385542352,
+		"deployedAt":1775407699028,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bc6b31cfc01cc39ebb3",
+		"deployedDefinitionId":"69d292530e422443cf5603b0",
 		"status":"DEPLOYED",
-		"version":90,
-		"workflowVersion":134
+		"version":93,
+		"workflowVersion":140
 	},
 	"edges":[
 		{
@@ -47,6 +47,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -56,7 +57,7 @@
 	"id":"67da905ccd168828f723b75f",
 	"lastModifiedBy":-1,
 	"lcName":"[prompt] test prompt",
-	"modifiedTime":1775389866593,
+	"modifiedTime":1775408108169,
 	"name":"[Prompt] Test Prompt",
 	"nodes":[
 		{
@@ -407,5 +408,5 @@
 		}
 	},
 	"standard":true,
-	"version":136
+	"version":141
 }
