@@ -4,14 +4,14 @@
 	],
 	"createdTime":1753185904730,
 	"deleted":false,
-	"deployedVersion":61,
+	"deployedVersion":65,
 	"deploymentState":{
-		"deployedAt":1775320697535,
+		"deployedAt":1775391417581,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e79c6b0c9120df175ae",
+		"deployedDefinitionId":"69d252b950e82945c76a6d2a",
 		"status":"DEPLOYED",
-		"version":61,
-		"workflowVersion":118
+		"version":65,
+		"workflowVersion":126
 	},
 	"edges":[
 		{
@@ -418,7 +418,7 @@
 	"id":"6870fe8eeb49b955d8bb990a",
 	"lastModifiedBy":-1,
 	"lcName":"slidingwindowconversationmanager (strands agent)",
-	"modifiedTime":1775334510555,
+	"modifiedTime":1775407846097,
 	"name":"SlidingWindowConversationManager (Strands Agent)",
 	"nodes":[
 		{
@@ -2044,5 +2044,5 @@
 	"tags":[
 		
 	],
-	"version":120
+	"version":128
 }
