@@ -4,14 +4,14 @@
 	],
 	"createdTime":1766522722720,
 	"deleted":false,
-	"deployedVersion":29,
+	"deployedVersion":30,
 	"deploymentState":{
-		"deployedAt":1775320569441,
+		"deployedAt":1775334340068,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13df983aecf24ec25455b",
+		"deployedDefinitionId":"69d173c439824e0613819632",
 		"status":"DEPLOYED",
-		"version":29,
-		"workflowVersion":58
+		"version":30,
+		"workflowVersion":60
 	},
 	"edges":[
 		{
@@ -76,7 +76,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -86,7 +85,7 @@
 	"id":"69259e92b14d3e26137a0e2f",
 	"lastModifiedBy":-1,
 	"lcName":"eval | dataset | knowledge set | generate llm test cases",
-	"modifiedTime":1775320889890,
+	"modifiedTime":1775385538417,
 	"name":"Eval | Dataset | Knowledge Set | Generate LLM Test Cases",
 	"nodes":[
 		{
@@ -477,5 +476,5 @@
 	"tags":[
 		
 	],
-	"version":59
+	"version":62
 }
