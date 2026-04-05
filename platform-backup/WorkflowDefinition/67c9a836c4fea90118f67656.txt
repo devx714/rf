@@ -92,17 +92,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
-					"V"
-				],
-				"principalIds":[
-					"45775"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -112,7 +101,7 @@
 	"id":"67c9a836c4fea90118f67656",
 	"lastModifiedBy":-1,
 	"lcName":"ingestknowledge tool",
-	"modifiedTime":1775334706606,
+	"modifiedTime":1775385596985,
 	"name":"IngestKnowledge Tool",
 	"nodes":[
 		{
@@ -294,7 +283,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -524,5 +512,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":147
+	"version":148
 }
