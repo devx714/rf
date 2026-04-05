@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762420478273,
 	"deleted":false,
-	"deployedVersion":28,
+	"deployedVersion":33,
 	"deploymentState":{
-		"deployedAt":1774342912733,
+		"deployedAt":1775391302993,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c253008d65fb68e1563a01",
+		"deployedDefinitionId":"69d2524650e82945c76a6769",
 		"status":"DEPLOYED",
-		"version":28,
-		"workflowVersion":66
+		"version":33,
+		"workflowVersion":76
 	},
 	"edges":[
 		{
@@ -144,6 +144,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -153,7 +154,7 @@
 	"id":"68fdd4ffff97b736e67e70ab",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] autocomplete query",
-	"modifiedTime":1775320639548,
+	"modifiedTime":1775391435403,
 	"name":"[DT] Autocomplete Query",
 	"nodes":[
 		{
@@ -440,6 +441,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -711,6 +713,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1563,5 +1566,5 @@
 	"tags":[
 		
 	],
-	"version":68
+	"version":77
 }
