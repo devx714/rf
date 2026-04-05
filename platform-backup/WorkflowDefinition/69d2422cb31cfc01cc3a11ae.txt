@@ -6,46 +6,95 @@
 	"deleted":false,
 	"edges":[
 		{
-			"fromNodeId":"_rufsc",
+			"fromNodeId":"n_Jq3cC",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_JMUFf",
+			"toNodeId":"n_EmJpA",
 			"type":"next"
 		}
 	],
 	"id":"69d2422cb31cfc01cc3a11ae",
 	"lastModifiedBy":33436,
 	"lcName":"sonyform",
-	"modifiedTime":1775387180183,
+	"modifiedTime":1775387370783,
 	"name":"SonyForm",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":3408,
+				"resourceName":"callables_from_automation"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_rufsc-1",
-			"id":"_rufsc",
-			"index":0,
+			"id":"n_Jq3cC",
+			"index":1,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[
+						"field1"
+					],
+					"properties":{
+						"field1":{
+							"type":"string",
+							"title":"Field 1"
+						}
+					}
+				},
+				"setup":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[
+						"field1"
+					],
+					"properties":{
+						"field1":{
+							"type":"string",
+							"title":"Field 1"
+						}
+					}
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":3445,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_rufsc-1",
-			"id":"_JMUFf",
-			"index":0,
+			"id":"n_EmJpA",
+			"index":2,
+			"inputs":{
+				"result":{
+					"field1":"{{ n_Jq3cC.outputs.field1 }}"
+				}
+			},
 			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":33436,
+	"schemaReferences":[
+		
+	],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -56,5 +105,5 @@
 		}
 	},
 	"standard":false,
-	"version":0
+	"version":1
 }
