@@ -4,14 +4,14 @@
 	],
 	"createdTime":1755241429336,
 	"deleted":false,
-	"deployedVersion":48,
+	"deployedVersion":50,
 	"deploymentState":{
-		"deployedAt":1775320693400,
+		"deployedAt":1775385642376,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e7583aecf24ec254fea",
+		"deployedDefinitionId":"69d23c2ab31cfc01cc39f3f4",
 		"status":"DEPLOYED",
-		"version":48,
-		"workflowVersion":85
+		"version":50,
+		"workflowVersion":89
 	},
 	"edges":[
 		{
@@ -115,7 +115,7 @@
 	"id":"689edbd5caebe9b840523489",
 	"lastModifiedBy":-1,
 	"lcName":"mcp collect slot",
-	"modifiedTime":1775334506562,
+	"modifiedTime":1775390089239,
 	"name":"MCP Collect Slot",
 	"nodes":[
 		{
@@ -637,5 +637,5 @@
 	"tags":[
 		
 	],
-	"version":87
+	"version":91
 }
