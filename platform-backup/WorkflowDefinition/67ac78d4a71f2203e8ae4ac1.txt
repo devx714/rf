@@ -4,14 +4,14 @@
 	],
 	"createdTime":1739356372906,
 	"deleted":false,
-	"deployedVersion":112,
+	"deployedVersion":114,
 	"deploymentState":{
-		"deployedAt":1775320672367,
+		"deployedAt":1775385620964,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e6083aecf24ec254e17",
+		"deployedDefinitionId":"69d23c14b41de37eb670f6a9",
 		"status":"DEPLOYED",
-		"version":112,
-		"workflowVersion":202
+		"version":114,
+		"workflowVersion":206
 	},
 	"edges":[
 		{
@@ -287,7 +287,7 @@
 	"id":"67ac78d4a71f2203e8ae4ac1",
 	"lastModifiedBy":-1,
 	"lcName":"agentic chunking pdf - rag",
-	"modifiedTime":1775334465860,
+	"modifiedTime":1775390041684,
 	"name":"Agentic Chunking PDF - RAG",
 	"nodes":[
 		{
@@ -2263,5 +2263,5 @@
 	"tags":[
 		
 	],
-	"version":204
+	"version":208
 }
