@@ -4,14 +4,14 @@
 	],
 	"createdTime":1738130949233,
 	"deleted":false,
-	"deployedVersion":95,
+	"deployedVersion":96,
 	"deploymentState":{
-		"deployedAt":1775391257385,
+		"deployedAt":1775407741360,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2521950e82945c76a657e",
+		"deployedDefinitionId":"69d2927d0e422443cf56052d",
 		"status":"DEPLOYED",
-		"version":95,
-		"workflowVersion":161
+		"version":96,
+		"workflowVersion":163
 	},
 	"edges":[
 		{
@@ -63,7 +63,7 @@
 	"id":"67993c3c7a3b5b63f1420164",
 	"lastModifiedBy":-1,
 	"lcName":"observability |  get nodes",
-	"modifiedTime":1775391429919,
+	"modifiedTime":1775408099654,
 	"name":"Observability |  Get nodes",
 	"nodes":[
 		{
@@ -247,5 +247,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":162
+	"version":164
 }
