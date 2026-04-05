@@ -4,14 +4,14 @@
 	],
 	"createdTime":1761674856929,
 	"deleted":false,
-	"deployedVersion":38,
+	"deployedVersion":39,
 	"deploymentState":{
-		"deployedAt":1775334386383,
+		"deployedAt":1775385559309,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173f239824e0613819840",
+		"deployedDefinitionId":"69d23bd7b31cfc01cc39ee57",
 		"status":"DEPLOYED",
-		"version":38,
-		"workflowVersion":81
+		"version":39,
+		"workflowVersion":83
 	},
 	"edges":[
 		{
@@ -106,7 +106,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -116,7 +115,7 @@
 	"id":"68fa1de51ed85a5693eb9344",
 	"lastModifiedBy":-1,
 	"lcName":"eval | task | calculate chunk consistency",
-	"modifiedTime":1775334706901,
+	"modifiedTime":1775385559310,
 	"name":"Eval | Task | Calculate Chunk Consistency",
 	"nodes":[
 		{
@@ -552,5 +551,5 @@
 	"tags":[
 		
 	],
-	"version":82
+	"version":83
 }
