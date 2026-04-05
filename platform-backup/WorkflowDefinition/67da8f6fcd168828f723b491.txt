@@ -4,14 +4,14 @@
 	],
 	"createdTime":1742376815987,
 	"deleted":false,
-	"deployedVersion":37,
+	"deployedVersion":38,
 	"deploymentState":{
-		"deployedAt":1773928150131,
+		"deployedAt":1775390095587,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfed640a2b92de9fe6948",
+		"deployedDefinitionId":"69d24d8f50e82945c76a49d7",
 		"status":"DEPLOYED",
-		"version":37,
-		"workflowVersion":64
+		"version":38,
+		"workflowVersion":65
 	},
 	"edges":[
 		{
@@ -70,6 +70,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -79,7 +80,7 @@
 	"id":"67da8f6fcd168828f723b491",
 	"lastModifiedBy":-1,
 	"lcName":"salesforce get opportunity stage sharedwithids",
-	"modifiedTime":1775390095512,
+	"modifiedTime":1775390108619,
 	"name":"Salesforce Get Opportunity stage SharedWithIds",
 	"nodes":[
 		{
@@ -367,6 +368,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1131,5 +1133,5 @@
 		}
 	},
 	"standard":true,
-	"version":65
+	"version":66
 }
