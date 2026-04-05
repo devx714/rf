@@ -4,14 +4,14 @@
 	],
 	"createdTime":1753185945606,
 	"deleted":false,
-	"deployedVersion":86,
+	"deployedVersion":88,
 	"deploymentState":{
-		"deployedAt":1775385615659,
+		"deployedAt":1775391357856,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c0fb31cfc01cc39f209",
+		"deployedDefinitionId":"69d2527d50e82945c76a6a17",
 		"status":"DEPLOYED",
-		"version":86,
-		"workflowVersion":142
+		"version":88,
+		"workflowVersion":146
 	},
 	"edges":[
 		{
@@ -64,7 +64,7 @@
 	"id":"686c42cde4bd825bb487afc3",
 	"lastModifiedBy":-1,
 	"lcName":"remove knowledge cursors",
-	"modifiedTime":1775390034055,
+	"modifiedTime":1775407804410,
 	"name":"Remove Knowledge Cursors",
 	"nodes":[
 		{
@@ -259,5 +259,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":144
+	"version":148
 }
