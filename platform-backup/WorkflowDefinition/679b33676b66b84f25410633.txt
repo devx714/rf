@@ -4,14 +4,14 @@
 	],
 	"createdTime":1738309677841,
 	"deleted":false,
-	"deployedVersion":94,
+	"deployedVersion":95,
 	"deploymentState":{
-		"deployedAt":1775390086217,
+		"deployedAt":1775391389776,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d24d8650e82945c76a490d",
+		"deployedDefinitionId":"69d2529d50e82945c76a6c93",
 		"status":"DEPLOYED",
-		"version":94,
-		"workflowVersion":155
+		"version":95,
+		"workflowVersion":157
 	},
 	"edges":[
 		{
@@ -125,27 +125,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"161165"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -155,7 +134,7 @@
 	"id":"679b33676b66b84f25410633",
 	"lastModifiedBy":-1,
 	"lcName":"agentexecutor enabled ",
-	"modifiedTime":1775390107533,
+	"modifiedTime":1775407837567,
 	"name":"AgentExecutor Enabled ",
 	"nodes":[
 		{
@@ -551,5 +530,5 @@
 		"AI Agent",
 		"Team"
 	],
-	"version":156
+	"version":159
 }
