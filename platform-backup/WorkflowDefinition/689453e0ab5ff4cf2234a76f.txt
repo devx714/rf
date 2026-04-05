@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756473890734,
 	"deleted":false,
-	"deployedVersion":49,
+	"deployedVersion":52,
 	"deploymentState":{
-		"deployedAt":1775334380629,
+		"deployedAt":1775391236905,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173ec39824e06138197cc",
+		"deployedDefinitionId":"69d2520450e82945c76a63e4",
 		"status":"DEPLOYED",
-		"version":49,
-		"workflowVersion":85
+		"version":52,
+		"workflowVersion":91
 	},
 	"edges":[
 		{
@@ -33,6 +33,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -42,7 +43,7 @@
 	"id":"689453e0ab5ff4cf2234a76f",
 	"lastModifiedBy":-1,
 	"lcName":"create titan models payload",
-	"modifiedTime":1775385553847,
+	"modifiedTime":1775391432955,
 	"name":"Create Titan Models Payload",
 	"nodes":[
 		{
@@ -747,5 +748,5 @@
 		}
 	},
 	"standard":true,
-	"version":87
+	"version":92
 }
