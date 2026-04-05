@@ -4,14 +4,14 @@
 	],
 	"createdTime":1747641655643,
 	"deleted":false,
-	"deployedVersion":90,
+	"deployedVersion":91,
 	"deploymentState":{
-		"deployedAt":1775391299947,
+		"deployedAt":1775407764915,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2524350e82945c76a6735",
+		"deployedDefinitionId":"69d29294a2eda46706b0471e",
 		"status":"DEPLOYED",
-		"version":90,
-		"workflowVersion":148
+		"version":91,
+		"workflowVersion":150
 	},
 	"edges":[
 		{
@@ -226,7 +226,7 @@
 	"id":"681b6d8e52dcee7c16bdd9cf",
 	"lastModifiedBy":-1,
 	"lcName":"text to workflow v2 | fill input of a node",
-	"modifiedTime":1775391431200,
+	"modifiedTime":1775408101816,
 	"name":"Text to Workflow v2 | Fill Input of a Node",
 	"nodes":[
 		{
@@ -1398,5 +1398,5 @@
 	"tags":[
 		"Text_to_Workflow_v2"
 	],
-	"version":149
+	"version":151
 }
