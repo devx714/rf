@@ -4,14 +4,14 @@
 	],
 	"createdTime":1759243526091,
 	"deleted":false,
-	"deployedVersion":33,
+	"deployedVersion":34,
 	"deploymentState":{
-		"deployedAt":1775334355891,
+		"deployedAt":1775385551312,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173d339824e0613819739",
+		"deployedDefinitionId":"69d23bcfb31cfc01cc39ed78",
 		"status":"DEPLOYED",
-		"version":33,
-		"workflowVersion":65
+		"version":34,
+		"workflowVersion":67
 	},
 	"edges":[
 		{
@@ -33,7 +33,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -43,7 +42,7 @@
 	"id":"68d4e25f125eb61e310c5bdd",
 	"lastModifiedBy":-1,
 	"lcName":"web scraping | firecrawl",
-	"modifiedTime":1775334707145,
+	"modifiedTime":1775385551313,
 	"name":"Web Scraping | FireCrawl",
 	"nodes":[
 		{
@@ -373,5 +372,5 @@
 	"tags":[
 		
 	],
-	"version":66
+	"version":67
 }
