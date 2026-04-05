@@ -4,14 +4,14 @@
 	],
 	"createdTime":1746274527728,
 	"deleted":false,
-	"deployedVersion":68,
+	"deployedVersion":69,
 	"deploymentState":{
-		"deployedAt":1775391381523,
+		"deployedAt":1775407828928,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2529550e82945c76a6be7",
+		"deployedDefinitionId":"69d292d4a2eda46706b04a29",
 		"status":"DEPLOYED",
-		"version":68,
-		"workflowVersion":138
+		"version":69,
+		"workflowVersion":140
 	},
 	"edges":[
 		{
@@ -79,7 +79,7 @@
 	"id":"681608dfb594df5762de5d1e",
 	"lastModifiedBy":-1,
 	"lcName":"agentic ai - count of departments",
-	"modifiedTime":1775391431420,
+	"modifiedTime":1775408102055,
 	"name":"Agentic AI - Count of Departments",
 	"nodes":[
 		{
@@ -610,5 +610,5 @@
 	"tags":[
 		
 	],
-	"version":139
+	"version":141
 }
