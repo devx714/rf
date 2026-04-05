@@ -4,14 +4,14 @@
 	],
 	"createdTime":1743778349843,
 	"deleted":false,
-	"deployedVersion":90,
+	"deployedVersion":91,
 	"deploymentState":{
-		"deployedAt":1775391273859,
+		"deployedAt":1775407758795,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2522950e82945c76a66b7",
+		"deployedDefinitionId":"69d2928ea2eda46706b045a0",
 		"status":"DEPLOYED",
-		"version":90,
-		"workflowVersion":173
+		"version":91,
+		"workflowVersion":175
 	},
 	"edges":[
 		{
@@ -187,6 +187,27 @@
 		"configs":[
 			{
 				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"45775"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -196,7 +217,7 @@
 	"id":"67e70e734827981dba0472c0",
 	"lastModifiedBy":-1,
 	"lcName":"json parse and stream content | ai agent",
-	"modifiedTime":1775407758551,
+	"modifiedTime":1775408107976,
 	"name":"JSON Parse and Stream Content | AI Agent",
 	"nodes":[
 		{
@@ -304,6 +325,7 @@
 				"event_type":"message_delta"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -910,5 +932,5 @@
 		}
 	},
 	"standard":true,
-	"version":175
+	"version":176
 }
