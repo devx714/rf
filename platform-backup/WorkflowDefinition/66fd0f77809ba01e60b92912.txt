@@ -130,7 +130,7 @@
 	"id":"66fd0f77809ba01e60b92912",
 	"lastModifiedBy":-1,
 	"lcName":"ai agents multimodality table processing",
-	"modifiedTime":1775385553159,
+	"modifiedTime":1775389907734,
 	"name":"AI Agents MultiModality Table Processing",
 	"nodes":[
 		{
@@ -293,7 +293,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -670,5 +669,5 @@
 	"tags":[
 		
 	],
-	"version":168
+	"version":170
 }
