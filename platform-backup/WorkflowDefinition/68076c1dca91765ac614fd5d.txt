@@ -4,14 +4,14 @@
 	],
 	"createdTime":1745399924646,
 	"deleted":false,
-	"deployedVersion":52,
+	"deployedVersion":53,
 	"deploymentState":{
-		"deployedAt":1775391194984,
+		"deployedAt":1775407696975,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d251da50e82945c76a6273",
+		"deployedDefinitionId":"69d29250a2eda46706b043c0",
 		"status":"DEPLOYED",
-		"version":52,
-		"workflowVersion":77
+		"version":53,
+		"workflowVersion":79
 	},
 	"edges":[
 		{
@@ -480,6 +480,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -489,7 +490,7 @@
 	"id":"68076c1dca91765ac614fd5d",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | zoho inventory | index sales orders",
-	"modifiedTime":1775407696808,
+	"modifiedTime":1775408102644,
 	"name":"Knowledge Indexer | Zoho inventory | Index sales orders",
 	"nodes":[
 		{
@@ -1550,6 +1551,7 @@
 				"hasMore2":true
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2527,5 +2529,5 @@
 	"tags":[
 		
 	],
-	"version":79
+	"version":80
 }
