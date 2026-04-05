@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756795875172,
 	"deleted":false,
-	"deployedVersion":47,
+	"deployedVersion":49,
 	"deploymentState":{
-		"deployedAt":1775385627572,
+		"deployedAt":1775391373670,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c1bb41de37eb670f6ef",
+		"deployedDefinitionId":"69d2528d50e82945c76a6b3d",
 		"status":"DEPLOYED",
-		"version":47,
-		"workflowVersion":113
+		"version":49,
+		"workflowVersion":117
 	},
 	"edges":[
 		{
@@ -33,6 +33,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -42,7 +43,7 @@
 	"id":"689339e69d6cd6615c867353",
 	"lastModifiedBy":-1,
 	"lcName":"metering | agent analytics | tool usage by agents",
-	"modifiedTime":1775390049912,
+	"modifiedTime":1775391434745,
 	"name":"Metering | Agent Analytics | Tool usage By Agents",
 	"nodes":[
 		{
@@ -223,5 +224,5 @@
 	"tags":[
 		
 	],
-	"version":115
+	"version":118
 }
