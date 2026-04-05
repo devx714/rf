@@ -4,14 +4,14 @@
 	],
 	"createdTime":1766522824140,
 	"deleted":false,
-	"deployedVersion":21,
+	"deployedVersion":24,
 	"deploymentState":{
-		"deployedAt":1774342911796,
+		"deployedAt":1775385588207,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252ff8d65fb68e15639f2",
+		"deployedDefinitionId":"69d23bf4b41de37eb670f558",
 		"status":"DEPLOYED",
-		"version":21,
-		"workflowVersion":53
+		"version":24,
+		"workflowVersion":59
 	},
 	"edges":[
 		{
@@ -112,7 +112,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -122,7 +121,7 @@
 	"id":"69287d1420790444f261cc2e",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge sync starter",
-	"modifiedTime":1774622956373,
+	"modifiedTime":1775389977521,
 	"name":"Knowledge Sync Starter",
 	"nodes":[
 		{
@@ -310,7 +309,6 @@
 				"userId":"{{ hsp6A.outputs.result.userId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -764,5 +762,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":54
+	"version":61
 }
