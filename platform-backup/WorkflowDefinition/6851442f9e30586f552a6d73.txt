@@ -4,14 +4,14 @@
 	],
 	"createdTime":1750490283283,
 	"deleted":false,
-	"deployedVersion":81,
+	"deployedVersion":83,
 	"deploymentState":{
-		"deployedAt":1775320689955,
+		"deployedAt":1775385638491,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e71c6b0c9120df1757e",
+		"deployedDefinitionId":"69d23c26b31cfc01cc39f3c4",
 		"status":"DEPLOYED",
-		"version":81,
-		"workflowVersion":175
+		"version":83,
+		"workflowVersion":179
 	},
 	"description":"This is a wrapper for Call LLM which processes category specific prompt and messages for Call LLM (AI Agent) automation.",
 	"edges":[
@@ -552,7 +552,7 @@
 	"id":"6851442f9e30586f552a6d73",
 	"lastModifiedBy":-1,
 	"lcName":"call llm (ai agent) wrapper",
-	"modifiedTime":1775334482649,
+	"modifiedTime":1775385638492,
 	"name":"Call LLM (AI Agent) Wrapper",
 	"nodes":[
 		{
@@ -984,6 +984,7 @@
 				"thoughtMethod":"{{ n_XK5wu.outputs.thoughtMethod }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1229,6 +1230,7 @@
 				"responseSchemaName":"{{ n_EYCFG.outputs.responseFormat.name }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1553,6 +1555,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1946,6 +1949,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -4881,5 +4885,5 @@
 	"tags":[
 		"move"
 	],
-	"version":177
+	"version":179
 }
