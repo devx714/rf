@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775387180183,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775387373236,
+		"deployedBy":33436,
+		"deployedDefinitionId":"69d242edb41de37eb670fbef",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"edges":[
 		{
 			"fromNodeId":"n_Jq3cC",
@@ -16,7 +25,7 @@
 	"id":"69d2422cb31cfc01cc3a11ae",
 	"lastModifiedBy":33436,
 	"lcName":"sonyform",
-	"modifiedTime":1775387370783,
+	"modifiedTime":1775387658046,
 	"name":"SonyForm",
 	"nodes":[
 		{
@@ -36,11 +45,13 @@
 					"type":"object",
 					"additionalProperties":false,
 					"required":[
-						"field1"
+						"schemaAndUISchema"
 					],
 					"properties":{
-						"field1":{
-							"type":"string",
+						"schemaAndUISchema":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
 							"title":"Field 1"
 						}
 					}
@@ -49,12 +60,21 @@
 					"type":"object",
 					"additionalProperties":false,
 					"required":[
-						"field1"
+						"schema",
+						"uiSchema"
 					],
 					"properties":{
-						"field1":{
-							"type":"string",
-							"title":"Field 1"
+						"schema":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
+							"title":"Schema"
+						},
+						"uiSchema":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
+							"title":"Ui Schema"
 						}
 					}
 				}
@@ -82,7 +102,7 @@
 			"index":2,
 			"inputs":{
 				"result":{
-					"field1":"{{ n_Jq3cC.outputs.field1 }}"
+					"field1":"{{ n_Jq3cC.outputs.schema }}"
 				}
 			},
 			"skip":false,
@@ -105,5 +125,5 @@
 		}
 	},
 	"standard":false,
-	"version":1
+	"version":2
 }
