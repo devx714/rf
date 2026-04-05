@@ -4,14 +4,14 @@
 	],
 	"createdTime":1757514030603,
 	"deleted":false,
-	"deployedVersion":18,
+	"deployedVersion":19,
 	"deploymentState":{
-		"deployedAt":1775391268603,
+		"deployedAt":1775407753064,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2522450e82945c76a6650",
+		"deployedDefinitionId":"69d292890e422443cf5605f7",
 		"status":"DEPLOYED",
-		"version":18,
-		"workflowVersion":32
+		"version":19,
+		"workflowVersion":34
 	},
 	"edges":[
 		{
@@ -33,6 +33,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -42,7 +43,7 @@
 	"id":"68821675db1bca0f13db5a80",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | confluence | index page in batch wrapper",
-	"modifiedTime":1775407753018,
+	"modifiedTime":1775408101772,
 	"name":"Knowledge Indexer | Confluence | Index page in batch wrapper",
 	"nodes":[
 		{
@@ -219,5 +220,5 @@
 		}
 	},
 	"standard":true,
-	"version":34
+	"version":35
 }
