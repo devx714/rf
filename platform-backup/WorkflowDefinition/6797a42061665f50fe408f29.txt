@@ -4,14 +4,14 @@
 	],
 	"createdTime":1737991200223,
 	"deleted":false,
-	"deployedVersion":105,
+	"deployedVersion":107,
 	"deploymentState":{
-		"deployedAt":1775320658486,
+		"deployedAt":1775385607310,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e5283aecf24ec254cf1",
+		"deployedDefinitionId":"69d23c07b41de37eb670f5fd",
 		"status":"DEPLOYED",
-		"version":105,
-		"workflowVersion":161
+		"version":107,
+		"workflowVersion":165
 	},
 	"edges":[
 		{
@@ -517,7 +517,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -527,7 +526,7 @@
 	"id":"6797a42061665f50fe408f29",
 	"lastModifiedBy":-1,
 	"lcName":"clustering | entrypoint",
-	"modifiedTime":1775320890139,
+	"modifiedTime":1775385607311,
 	"name":"Clustering | EntryPoint",
 	"nodes":[
 		{
@@ -5318,5 +5317,5 @@
 	"tags":[
 		"Clustering"
 	],
-	"version":162
+	"version":165
 }
