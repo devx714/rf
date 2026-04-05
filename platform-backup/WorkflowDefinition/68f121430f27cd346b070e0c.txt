@@ -356,7 +356,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -366,7 +365,7 @@
 	"id":"68f121430f27cd346b070e0c",
 	"lastModifiedBy":-1,
 	"lcName":"query ppr | graphrag (v2) with versioning",
-	"modifiedTime":1775391435719,
+	"modifiedTime":1775407753518,
 	"name":"Query PPR | GraphRAG (v2) with versioning",
 	"nodes":[
 		{
@@ -723,7 +722,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1267,7 +1265,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2710,7 +2707,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -3241,5 +3237,5 @@
 		}
 	},
 	"standard":true,
-	"version":82
+	"version":83
 }
