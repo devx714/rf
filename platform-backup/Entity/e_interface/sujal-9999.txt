@@ -1,6 +1,12 @@
 {
 	"createdTime":1775369117103,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1775369448926,
+		"deployedBy":195414,
+		"entityVersion":8,
+		"version":3
+	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
@@ -24,7 +30,7 @@
 	},
 	"id":"sujal-9999",
 	"lastModifiedBy":195414,
-	"modifiedTime":1775369229928,
+	"modifiedTime":1775369448928,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -261,5 +267,5 @@
 	"tags":[
 		
 	],
-	"version":5
+	"version":8
 }
