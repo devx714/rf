@@ -4,15 +4,15 @@
 	],
 	"createdTime":1762858204185,
 	"deleted":false,
-	"deployedVersion":28,
+	"deployedVersion":30,
 	"deploymentState":{
-		"deployedAt":1775320649892,
+		"deployedAt":1775385598663,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e4983aecf24ec254c6e",
+		"deployedDefinitionId":"69d23bfeb31cfc01cc39f152",
 		"deploymentTag":"swap_userId_userEmail",
 		"status":"DEPLOYED",
-		"version":28,
-		"workflowVersion":56
+		"version":30,
+		"workflowVersion":60
 	},
 	"edges":[
 		{
@@ -249,7 +249,7 @@
 	"id":"68fb3d5e7c0ee50198338f6a",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] bulk index membership",
-	"modifiedTime":1775334444941,
+	"modifiedTime":1775385598664,
 	"name":"[DT] Bulk Index Membership",
 	"nodes":[
 		{
@@ -824,6 +824,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1082,6 +1083,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1340,6 +1342,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1391,6 +1394,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2165,5 +2169,5 @@
 	"tags":[
 		
 	],
-	"version":58
+	"version":60
 }
