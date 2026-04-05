@@ -86,7 +86,7 @@
 	"id":"68bf492eb9564171346f808d",
 	"lastModifiedBy":-1,
 	"lcName":"update knowledge raw data | rbac",
-	"modifiedTime":1775385631036,
+	"modifiedTime":1775390054535,
 	"name":"Update Knowledge Raw Data | RBAC",
 	"nodes":[
 		{
@@ -199,7 +199,6 @@
 				"id":"{{ n_mCuz4.outputs.knowledgeId }}_{{ n_mCuz4.outputs.uniqueEntityId }}_{{ n_mCuz4.outputs.knowledgeVersion }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -481,5 +480,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":103
+	"version":105
 }
