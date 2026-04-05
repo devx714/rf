@@ -4,14 +4,14 @@
 	],
 	"createdTime":1722947272348,
 	"deleted":false,
-	"deployedVersion":87,
+	"deployedVersion":92,
 	"deploymentState":{
-		"deployedAt":1774342953865,
+		"deployedAt":1775391368749,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c253298d65fb68e1563c18",
+		"deployedDefinitionId":"69d2528850e82945c76a6ae1",
 		"status":"DEPLOYED",
-		"version":87,
-		"workflowVersion":159
+		"version":92,
+		"workflowVersion":169
 	},
 	"edges":[
 		{
@@ -47,6 +47,27 @@
 		"configs":[
 			{
 				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"161165"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -56,7 +77,7 @@
 	"id":"66b216c8ab12d571b5b5393b",
 	"lastModifiedBy":-1,
 	"lcName":"prompt tester",
-	"modifiedTime":1775320675107,
+	"modifiedTime":1775391433298,
 	"name":"Prompt Tester",
 	"nodes":[
 		{
@@ -288,5 +309,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":161
+	"version":170
 }
