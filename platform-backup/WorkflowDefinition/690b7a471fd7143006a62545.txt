@@ -132,7 +132,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -142,7 +141,7 @@
 	"id":"690b7a471fd7143006a62545",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] fetch sample prompts from knowledgeset",
-	"modifiedTime":1775391436737,
+	"modifiedTime":1775407725405,
 	"name":"[DT] Fetch Sample Prompts From KnowledgeSet",
 	"nodes":[
 		{
@@ -297,7 +296,6 @@
 				"cnt":0
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -555,7 +553,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -862,5 +859,5 @@
 	"tags":[
 		
 	],
-	"version":67
+	"version":68
 }
