@@ -4,14 +4,14 @@
 	],
 	"createdTime":1759243505819,
 	"deleted":false,
-	"deployedVersion":35,
+	"deployedVersion":36,
 	"deploymentState":{
-		"deployedAt":1775320570259,
+		"deployedAt":1775334340904,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13dfa83aecf24ec254569",
+		"deployedDefinitionId":"69d173c439824e0613819640",
 		"status":"DEPLOYED",
-		"version":35,
-		"workflowVersion":91
+		"version":36,
+		"workflowVersion":93
 	},
 	"edges":[
 		{
@@ -664,7 +664,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -674,7 +673,7 @@
 	"id":"68d40b9991992c6c03332c78",
 	"lastModifiedBy":-1,
 	"lcName":"prepare prompt for sql generation",
-	"modifiedTime":1775320890382,
+	"modifiedTime":1775385539145,
 	"name":"Prepare Prompt For SQL Generation",
 	"nodes":[
 		{
@@ -1020,7 +1019,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1282,7 +1280,6 @@
 				"InputContextForBetterConditionalRenderingInPrompt":"{{ n_I6iGW.outputs.sqlServerRelatedDynamicMetadata }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1489,7 +1486,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1668,7 +1664,6 @@
 				"sqlOutputNeeded":true
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -3873,5 +3868,5 @@
 	"tags":[
 		
 	],
-	"version":92
+	"version":95
 }
