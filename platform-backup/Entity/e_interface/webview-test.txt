@@ -10,7 +10,7 @@
 	"entityType":"e_interface",
 	"id":"webview-test",
 	"lastModifiedBy":195854,
-	"modifiedTime":1775387661968,
+	"modifiedTime":1775394888704,
 	"ownerUserId":43487,
 	"properties":{
 		"standard":false,
@@ -240,5 +240,5 @@
 	"tags":[
 		
 	],
-	"version":73
+	"version":75
 }
