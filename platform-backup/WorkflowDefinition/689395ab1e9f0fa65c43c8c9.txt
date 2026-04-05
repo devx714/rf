@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756795875695,
 	"deleted":false,
-	"deployedVersion":45,
+	"deployedVersion":47,
 	"deploymentState":{
-		"deployedAt":1775385572190,
+		"deployedAt":1775391261296,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23be4b31cfc01cc39ef3e",
+		"deployedDefinitionId":"69d2521d50e82945c76a65c3",
 		"status":"DEPLOYED",
-		"version":45,
-		"workflowVersion":100
+		"version":47,
+		"workflowVersion":104
 	},
 	"edges":[
 		{
@@ -47,6 +47,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -56,7 +57,7 @@
 	"id":"689395ab1e9f0fa65c43c8c9",
 	"lastModifiedBy":-1,
 	"lcName":"metering | models | agent level breakdown",
-	"modifiedTime":1775389955278,
+	"modifiedTime":1775391435068,
 	"name":"Metering | Models | Agent level breakdown",
 	"nodes":[
 		{
@@ -543,5 +544,5 @@
 	"tags":[
 		
 	],
-	"version":102
+	"version":105
 }
