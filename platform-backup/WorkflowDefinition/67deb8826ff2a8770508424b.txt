@@ -4,14 +4,14 @@
 	],
 	"createdTime":1742762775499,
 	"deleted":false,
-	"deployedVersion":99,
+	"deployedVersion":100,
 	"deploymentState":{
-		"deployedAt":1775320690769,
+		"deployedAt":1775334503951,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e7283aecf24ec254f9e",
+		"deployedDefinitionId":"69d1746739824e0613819eb1",
 		"status":"DEPLOYED",
-		"version":99,
-		"workflowVersion":149
+		"version":100,
+		"workflowVersion":151
 	},
 	"edges":[
 		{
@@ -451,25 +451,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"A",
-					"EXPORT_AS_TEMPLATE",
-					"C",
-					"S",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"DEP"
-				],
-				"principalIds":[
-					"44109"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -479,7 +460,7 @@
 	"id":"67deb8826ff2a8770508424b",
 	"lastModifiedBy":-1,
 	"lcName":"publish llm response",
-	"modifiedTime":1775320890985,
+	"modifiedTime":1775385639339,
 	"name":"Publish llm Response",
 	"nodes":[
 		{
@@ -617,7 +598,6 @@
 				"retrigger":true
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1335,7 +1315,6 @@
 				"internalMessageType":"THOUGHT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2439,5 +2418,5 @@
 		"AI Agent",
 		"Team"
 	],
-	"version":150
+	"version":153
 }
