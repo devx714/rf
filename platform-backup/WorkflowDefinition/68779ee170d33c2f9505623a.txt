@@ -42,7 +42,7 @@
 	"id":"68779ee170d33c2f9505623a",
 	"lastModifiedBy":-1,
 	"lcName":"text to workflow v2 | update dynamic schema",
-	"modifiedTime":1775385605874,
+	"modifiedTime":1775390020609,
 	"name":"Text to Workflow v2 | Update Dynamic Schema",
 	"nodes":[
 		{
@@ -227,5 +227,5 @@
 	"tags":[
 		
 	],
-	"version":133
+	"version":135
 }
