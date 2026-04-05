@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762858217506,
 	"deleted":false,
-	"deployedVersion":28,
+	"deployedVersion":29,
 	"deploymentState":{
-		"deployedAt":1775334453474,
+		"deployedAt":1775385607639,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1743539824e0613819bd6",
+		"deployedDefinitionId":"69d23c07b41de37eb670f601",
 		"status":"DEPLOYED",
-		"version":28,
-		"workflowVersion":59
+		"version":29,
+		"workflowVersion":61
 	},
 	"edges":[
 		{
@@ -85,7 +85,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -95,7 +94,7 @@
 	"id":"68fb34557c0ee50198333d43",
 	"lastModifiedBy":-1,
 	"lcName":"metering | users | count of unique users who submitted at least one query",
-	"modifiedTime":1775334706956,
+	"modifiedTime":1775385607640,
 	"name":"Metering | Users | Count of unique users who submitted at least one query",
 	"nodes":[
 		{
@@ -490,5 +489,5 @@
 	"tags":[
 		
 	],
-	"version":60
+	"version":61
 }
