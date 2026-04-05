@@ -195,7 +195,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -205,7 +204,7 @@
 	"id":"68e128fe5aba4e4a38933176",
 	"lastModifiedBy":-1,
 	"lcName":"update knowledge schedule frequency  ",
-	"modifiedTime":1775391436725,
+	"modifiedTime":1775407710855,
 	"name":"Update Knowledge Schedule Frequency  ",
 	"nodes":[
 		{
@@ -1169,5 +1168,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":119
+	"version":120
 }
