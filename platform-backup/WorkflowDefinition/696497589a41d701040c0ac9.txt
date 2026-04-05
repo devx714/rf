@@ -233,7 +233,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -243,7 +242,7 @@
 	"id":"696497589a41d701040c0ac9",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge downloader | outlook | email",
-	"modifiedTime":1775391436269,
+	"modifiedTime":1775407694642,
 	"name":"Knowledge Downloader | Outlook | Email",
 	"nodes":[
 		{
@@ -1565,5 +1564,5 @@
 		"release_27jan",
 		"msft_connectors"
 	],
-	"version":48
+	"version":49
 }
