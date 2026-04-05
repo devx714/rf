@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756795874372,
 	"deleted":false,
-	"deployedVersion":43,
+	"deployedVersion":45,
 	"deploymentState":{
-		"deployedAt":1775320677971,
+		"deployedAt":1775385626476,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e6583aecf24ec254e56",
+		"deployedDefinitionId":"69d23c1ab41de37eb670f6d5",
 		"status":"DEPLOYED",
-		"version":43,
-		"workflowVersion":78
+		"version":45,
+		"workflowVersion":82
 	},
 	"edges":[
 		{
@@ -63,7 +63,7 @@
 	"id":"68a467e1e2ad2358d730576d",
 	"lastModifiedBy":-1,
 	"lcName":"metering | model | error rate ",
-	"modifiedTime":1775334471104,
+	"modifiedTime":1775385626478,
 	"name":"Metering | Model | Error Rate ",
 	"nodes":[
 		{
@@ -554,5 +554,5 @@
 		}
 	},
 	"standard":true,
-	"version":80
+	"version":82
 }
