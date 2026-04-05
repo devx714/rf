@@ -4,14 +4,14 @@
 	],
 	"createdTime":1754285401397,
 	"deleted":false,
-	"deployedVersion":64,
+	"deployedVersion":66,
 	"deploymentState":{
-		"deployedAt":1775385592454,
+		"deployedAt":1775391306967,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bf8b41de37eb670f573",
+		"deployedDefinitionId":"69d2524a50e82945c76a67bd",
 		"status":"DEPLOYED",
-		"version":64,
-		"workflowVersion":114
+		"version":66,
+		"workflowVersion":118
 	},
 	"edges":[
 		{
@@ -101,7 +101,7 @@
 	"id":"688378bbf94d63a12c660ea0",
 	"lastModifiedBy":-1,
 	"lcName":"custom chunk fetcher",
-	"modifiedTime":1775389982908,
+	"modifiedTime":1775407772255,
 	"name":"Custom Chunk Fetcher",
 	"nodes":[
 		{
@@ -923,5 +923,5 @@
 	"tags":[
 		
 	],
-	"version":116
+	"version":120
 }
