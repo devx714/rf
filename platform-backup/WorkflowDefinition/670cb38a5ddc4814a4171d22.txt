@@ -4,14 +4,14 @@
 	],
 	"createdTime":1728885642865,
 	"deleted":false,
-	"deployedVersion":39,
+	"deployedVersion":41,
 	"deploymentState":{
-		"deployedAt":1773928111497,
+		"deployedAt":1775391193781,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfeaf16170c624380674f",
+		"deployedDefinitionId":"69d251d950e82945c76a6261",
 		"status":"DEPLOYED",
-		"version":39,
-		"workflowVersion":67
+		"version":41,
+		"workflowVersion":70
 	},
 	"edges":[
 		{
@@ -61,6 +61,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -70,7 +71,7 @@
 	"id":"670cb38a5ddc4814a4171d22",
 	"lastModifiedBy":-1,
 	"lcName":"[gmail] get user sharedwithids",
-	"modifiedTime":1775389862704,
+	"modifiedTime":1775391433954,
 	"name":"[Gmail] Get User SharedWithIds",
 	"nodes":[
 		{
@@ -361,6 +362,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -537,5 +539,5 @@
 		}
 	},
 	"standard":true,
-	"version":68
+	"version":71
 }
