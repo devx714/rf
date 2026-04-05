@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756411367810,
 	"deleted":false,
-	"deployedVersion":58,
+	"deployedVersion":61,
 	"deploymentState":{
-		"deployedAt":1775334466168,
+		"deployedAt":1775391365851,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1744239824e0613819d08",
+		"deployedDefinitionId":"69d2528550e82945c76a6aab",
 		"status":"DEPLOYED",
-		"version":58,
-		"workflowVersion":117
+		"version":61,
+		"workflowVersion":123
 	},
 	"edges":[
 		{
@@ -464,7 +464,7 @@
 	"id":"68a732da7cdf147e40657ff5",
 	"lastModifiedBy":-1,
 	"lcName":"[a2a] handle message stream (json + rpc)",
-	"modifiedTime":1775385621095,
+	"modifiedTime":1775407812567,
 	"name":"[A2A] Handle Message Stream (JSON + RPC)",
 	"nodes":[
 		{
@@ -3464,5 +3464,5 @@
 	"tags":[
 		"a2a"
 	],
-	"version":119
+	"version":125
 }
