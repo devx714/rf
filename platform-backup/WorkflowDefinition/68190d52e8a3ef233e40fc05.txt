@@ -4,14 +4,14 @@
 	],
 	"createdTime":1746473494563,
 	"deleted":false,
-	"deployedVersion":103,
+	"deployedVersion":105,
 	"deploymentState":{
-		"deployedAt":1775385550847,
+		"deployedAt":1775391232204,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bceb31cfc01cc39ed64",
+		"deployedDefinitionId":"69d2520050e82945c76a63a2",
 		"status":"DEPLOYED",
-		"version":103,
-		"workflowVersion":152
+		"version":105,
+		"workflowVersion":156
 	},
 	"edges":[
 		{
@@ -197,6 +197,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -206,7 +207,7 @@
 	"id":"68190d52e8a3ef233e40fc05",
 	"lastModifiedBy":-1,
 	"lcName":"livekit send audio message",
-	"modifiedTime":1775385550848,
+	"modifiedTime":1775391437262,
 	"name":"Livekit send audio message",
 	"nodes":[
 		{
@@ -1003,5 +1004,5 @@
 	"tags":[
 		
 	],
-	"version":152
+	"version":157
 }
