@@ -4,14 +4,14 @@
 	],
 	"createdTime":1755343298791,
 	"deleted":false,
-	"deployedVersion":51,
+	"deployedVersion":52,
 	"deploymentState":{
-		"deployedAt":1775389854157,
+		"deployedAt":1775391185466,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d24c9e50e82945c76a3d6b",
+		"deployedDefinitionId":"69d251d150e82945c76a61e5",
 		"status":"DEPLOYED",
-		"version":51,
-		"workflowVersion":87
+		"version":52,
+		"workflowVersion":89
 	},
 	"edges":[
 		{
@@ -50,7 +50,7 @@
 	"id":"68a069c2e2145a693b0a8369",
 	"lastModifiedBy":-1,
 	"lcName":"mcp publish response",
-	"modifiedTime":1775390108734,
+	"modifiedTime":1775391432845,
 	"name":"MCP Publish Response",
 	"nodes":[
 		{
@@ -252,5 +252,5 @@
 	"tags":[
 		
 	],
-	"version":88
+	"version":90
 }
