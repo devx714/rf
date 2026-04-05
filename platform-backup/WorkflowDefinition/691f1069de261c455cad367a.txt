@@ -4,14 +4,14 @@
 	],
 	"createdTime":1763725562990,
 	"deleted":false,
-	"deployedVersion":25,
+	"deployedVersion":28,
 	"deploymentState":{
-		"deployedAt":1775334446908,
+		"deployedAt":1775391316410,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1742e39824e0613819b56",
+		"deployedDefinitionId":"69d2525450e82945c76a6875",
 		"status":"DEPLOYED",
-		"version":25,
-		"workflowVersion":51
+		"version":28,
+		"workflowVersion":57
 	},
 	"edges":[
 		{
@@ -63,7 +63,7 @@
 	"id":"691f1069de261c455cad367a",
 	"lastModifiedBy":-1,
 	"lcName":"[ai agent] fetch prerequisite action's output schema",
-	"modifiedTime":1775385600419,
+	"modifiedTime":1775407782364,
 	"name":"[AI Agent] Fetch Prerequisite action's output schema",
 	"nodes":[
 		{
@@ -597,5 +597,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":53
+	"version":59
 }
