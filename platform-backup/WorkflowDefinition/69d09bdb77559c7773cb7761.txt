@@ -3,7 +3,16 @@
 		
 	],
 	"createdTime":1775279067127,
-	"deleted":false,
+	"deleted":true,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775279067304,
+		"deployedBy":175325,
+		"deployedDefinitionId":"69d09bdb77559c7773cb7765",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"edges":[
 		{
 			"fromNodeId":"n_KG3NM",
@@ -16,7 +25,7 @@
 	"id":"69d09bdb77559c7773cb7761",
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2schedule1775279067115",
-	"modifiedTime":1775279067219,
+	"modifiedTime":1775362507161,
 	"name":"changeSetQA2schedule1775279067115",
 	"nodes":[
 		{
@@ -141,5 +150,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":2
 }
