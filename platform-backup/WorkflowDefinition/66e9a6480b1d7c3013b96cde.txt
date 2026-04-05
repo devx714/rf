@@ -6,14 +6,14 @@
 	],
 	"createdTime":1726588488803,
 	"deleted":false,
-	"deployedVersion":91,
+	"deployedVersion":92,
 	"deploymentState":{
-		"deployedAt":1775334453571,
+		"deployedAt":1775385607746,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1743539824e0613819bd9",
+		"deployedDefinitionId":"69d23c07b41de37eb670f602",
 		"status":"DEPLOYED",
-		"version":91,
-		"workflowVersion":146
+		"version":92,
+		"workflowVersion":148
 	},
 	"edges":[
 		{
@@ -275,7 +275,7 @@
 	"id":"66e9a6480b1d7c3013b96cde",
 	"lastModifiedBy":-1,
 	"lcName":"call asr generic [do not touch]",
-	"modifiedTime":1775385607663,
+	"modifiedTime":1775385607747,
 	"name":"CALL ASR GENERIC [DO NOT TOUCH]",
 	"nodes":[
 		{
@@ -393,6 +393,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -653,6 +654,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1394,6 +1396,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
