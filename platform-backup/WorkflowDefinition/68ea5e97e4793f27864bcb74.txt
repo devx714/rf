@@ -4,14 +4,14 @@
 	],
 	"createdTime":1760201910557,
 	"deleted":false,
-	"deployedVersion":34,
+	"deployedVersion":35,
 	"deploymentState":{
-		"deployedAt":1775334387766,
+		"deployedAt":1775385560608,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173f339824e0613819858",
+		"deployedDefinitionId":"69d23bd8b31cfc01cc39ee72",
 		"status":"DEPLOYED",
-		"version":34,
-		"workflowVersion":69
+		"version":35,
+		"workflowVersion":71
 	},
 	"edges":[
 		{
@@ -70,7 +70,7 @@
 	"id":"68ea5e97e4793f27864bcb74",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] aggregated knowledges count api",
-	"modifiedTime":1775385560546,
+	"modifiedTime":1775385560609,
 	"name":"[DT] Aggregated knowledges count API",
 	"nodes":[
 		{
@@ -391,6 +391,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
