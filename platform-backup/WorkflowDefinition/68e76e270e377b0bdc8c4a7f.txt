@@ -159,7 +159,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -169,7 +168,7 @@
 	"id":"68e76e270e377b0bdc8c4a7f",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] retrieves the chat history api",
-	"modifiedTime":1775391436161,
+	"modifiedTime":1775407765446,
 	"name":"[DT] Retrieves the chat history API",
 	"nodes":[
 		{
@@ -1117,7 +1116,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1387,5 +1385,5 @@
 	"tags":[
 		
 	],
-	"version":90
+	"version":91
 }
