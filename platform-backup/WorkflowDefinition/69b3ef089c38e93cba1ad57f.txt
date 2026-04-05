@@ -4,14 +4,14 @@
 	],
 	"createdTime":1773928125144,
 	"deleted":false,
-	"deployedVersion":4,
+	"deployedVersion":6,
 	"deploymentState":{
-		"deployedAt":1775320623347,
+		"deployedAt":1775385574062,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e2fc6b0c9120df173bb",
+		"deployedDefinitionId":"69d23be6b31cfc01cc39ef64",
 		"status":"DEPLOYED",
-		"version":4,
-		"workflowVersion":10
+		"version":6,
+		"workflowVersion":14
 	},
 	"edges":[
 		{
@@ -56,7 +56,7 @@
 	"id":"69b3ef089c38e93cba1ad57f",
 	"lastModifiedBy":-1,
 	"lcName":"memoryprofile | deletespecificmemories",
-	"modifiedTime":1775334401129,
+	"modifiedTime":1775389958403,
 	"name":"MemoryProfile | DeleteSpecificMemories",
 	"nodes":[
 		{
@@ -399,5 +399,5 @@
 	"tags":[
 		"mem0"
 	],
-	"version":12
+	"version":16
 }
