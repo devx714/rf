@@ -4,14 +4,14 @@
 	],
 	"createdTime":1773928113524,
 	"deleted":false,
-	"deployedVersion":1,
+	"deployedVersion":3,
 	"deploymentState":{
-		"deployedAt":1773928113732,
+		"deployedAt":1775391195107,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfeb116170c6243806770",
+		"deployedDefinitionId":"69d251db50e82945c76a6275",
 		"status":"DEPLOYED",
-		"version":1,
-		"workflowVersion":30
+		"version":3,
+		"workflowVersion":33
 	},
 	"edges":[
 		{
@@ -206,7 +206,7 @@
 	"id":"68ba6f3769b2095feadb0c5c",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge downloader | ms teams | all channels from a team",
-	"modifiedTime":1775389864388,
+	"modifiedTime":1775407697078,
 	"name":"Knowledge Downloader | MS Teams | All Channels From A Team",
 	"nodes":[
 		{
@@ -1495,5 +1495,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":31
+	"version":35
 }
