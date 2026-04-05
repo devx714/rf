@@ -4,14 +4,14 @@
 	],
 	"createdTime":1742762807046,
 	"deleted":false,
-	"deployedVersion":100,
+	"deployedVersion":102,
 	"deploymentState":{
-		"deployedAt":1775385630246,
+		"deployedAt":1775391377047,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c1eb41de37eb670f713",
+		"deployedDefinitionId":"69d2529150e82945c76a6b87",
 		"status":"DEPLOYED",
-		"version":100,
-		"workflowVersion":163
+		"version":102,
+		"workflowVersion":167
 	},
 	"edges":[
 		{
@@ -569,7 +569,7 @@
 	"id":"67df12719fa26d792211be4f",
 	"lastModifiedBy":-1,
 	"lcName":"execute tool",
-	"modifiedTime":1775390053297,
+	"modifiedTime":1775407824147,
 	"name":"Execute Tool",
 	"nodes":[
 		{
@@ -3066,5 +3066,5 @@
 		"AI Agent",
 		"Team"
 	],
-	"version":165
+	"version":169
 }
