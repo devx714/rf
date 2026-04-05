@@ -4,27 +4,122 @@
 	],
 	"createdTime":1775364021678,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775364021817,
+		"deployedBy":175325,
+		"deployedDefinitionId":"69d1e7b53056b31235b5503f",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"edges":[
-		
+		{
+			"fromNodeId":"Ew0OA",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"S1FDY",
+			"type":"next"
+		}
 	],
 	"id":"69d1e7b53056b31235b5503c",
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2hfcnayego13o",
-	"modifiedTime":1775364021678,
+	"modifiedTime":1775364086967,
 	"name":"changeSetQA2hFCNayeGo13O",
 	"nodes":[
-		
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":178,
+				"resourceName":"callables_from_api"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"oVNXT-1",
+			"id":"Ew0OA",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json",
+					"body":{
+						"type":"object",
+						"properties":{
+							"a":{
+								"type":"integer",
+								"title":"A"
+							},
+							"b":{
+								"type":"integer",
+								"title":"B"
+							}
+						},
+						"additionalProperties":false,
+						"required":[
+							"a",
+							"b"
+						]
+					}
+				},
+				"endpointType":"REST",
+				"response":[
+					{
+						"status":200,
+						"contentType":"application/json",
+						"textBody":{
+							"type":"string"
+						},
+						"name":"Response"
+					}
+				]
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger via API",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":132,
+				"resourceName":"callables_return_response_to_api",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"oVNXT-1",
+			"id":"S1FDY",
+			"index":0,
+			"inputs":{
+				"responseName":"200_Response",
+				"set_cookies":[
+					"= PRODUCT({{ Ew0OA.outputs.body.a }},{{ Ew0OA.outputs.body.b }})"
+				],
+				"status":200
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to API request",
+			"type":"STOP"
+		}
 	],
 	"ownerUserId":175325,
+	"schemaReferences":[
+		
+	],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
-		"enableVariableLogging":true,
-		"route":{
-			"default":false,
-			"tierName":"global"
-		}
+		"enableVariableLogging":true
 	},
 	"standard":false,
-	"version":0
+	"tags":[
+		
+	],
+	"version":2
 }
