@@ -4,14 +4,14 @@
 	],
 	"createdTime":1754468922120,
 	"deleted":false,
-	"deployedVersion":63,
+	"deployedVersion":64,
 	"deploymentState":{
-		"deployedAt":1775334446277,
+		"deployedAt":1775385599838,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1742e39824e0613819b48",
+		"deployedDefinitionId":"69d23bffb31cfc01cc39f16c",
 		"status":"DEPLOYED",
-		"version":63,
-		"workflowVersion":128
+		"version":64,
+		"workflowVersion":130
 	},
 	"edges":[
 		{
@@ -56,7 +56,7 @@
 	"id":"68889a26eb7263bd220254d1",
 	"lastModifiedBy":-1,
 	"lcName":"workflow agent | summarize node",
-	"modifiedTime":1775385599790,
+	"modifiedTime":1775385599839,
 	"name":"Workflow Agent | Summarize Node",
 	"nodes":[
 		{
@@ -220,6 +220,7 @@
 				"summary":"{{ n_xSZvO.outputs.llmResponse }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
