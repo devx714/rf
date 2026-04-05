@@ -4,14 +4,14 @@
 	],
 	"createdTime":1747979789645,
 	"deleted":false,
-	"deployedVersion":90,
+	"deployedVersion":91,
 	"deploymentState":{
-		"deployedAt":1775385607965,
+		"deployedAt":1775390023870,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c07b31cfc01cc39f1ac",
+		"deployedDefinitionId":"69d24d4750e82945c76a4572",
 		"status":"DEPLOYED",
-		"version":90,
-		"workflowVersion":153
+		"version":91,
+		"workflowVersion":155
 	},
 	"edges":[
 		{
@@ -108,6 +108,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -117,7 +118,7 @@
 	"id":"682f24a872db1e4625387d75",
 	"lastModifiedBy":-1,
 	"lcName":"fetch llm models list",
-	"modifiedTime":1775390023820,
+	"modifiedTime":1775390109685,
 	"name":"Fetch LLM Models List",
 	"nodes":[
 		{
@@ -711,6 +712,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1200,5 +1202,5 @@
 	"tags":[
 		
 	],
-	"version":155
+	"version":156
 }
