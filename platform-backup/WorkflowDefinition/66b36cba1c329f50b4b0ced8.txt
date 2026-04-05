@@ -4,14 +4,14 @@
 	],
 	"createdTime":1723034810888,
 	"deleted":false,
-	"deployedVersion":95,
+	"deployedVersion":98,
 	"deploymentState":{
-		"deployedAt":1775334473546,
+		"deployedAt":1775391374998,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1744939824e0613819d88",
+		"deployedDefinitionId":"69d2528e50e82945c76a6b59",
 		"status":"DEPLOYED",
-		"version":95,
-		"workflowVersion":152
+		"version":98,
+		"workflowVersion":158
 	},
 	"edges":[
 		{
@@ -40,6 +40,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -49,7 +50,7 @@
 	"id":"66b36cba1c329f50b4b0ced8",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge_rag_qna_indexing",
-	"modifiedTime":1775385628710,
+	"modifiedTime":1775391429512,
 	"name":"Knowledge_rag_QNA_indexing",
 	"nodes":[
 		{
@@ -307,5 +308,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":154
+	"version":159
 }
