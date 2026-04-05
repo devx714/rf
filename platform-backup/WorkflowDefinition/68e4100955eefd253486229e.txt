@@ -4,14 +4,14 @@
 	],
 	"createdTime":1760296204733,
 	"deleted":false,
-	"deployedVersion":31,
+	"deployedVersion":32,
 	"deploymentState":{
-		"deployedAt":1775385565791,
+		"deployedAt":1775389927685,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bddb31cfc01cc39eed2",
+		"deployedDefinitionId":"69d24ce750e82945c76a40ef",
 		"status":"DEPLOYED",
-		"version":31,
-		"workflowVersion":64
+		"version":32,
+		"workflowVersion":66
 	},
 	"edges":[
 		{
@@ -54,6 +54,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -63,7 +64,7 @@
 	"id":"68e4100955eefd253486229e",
 	"lastModifiedBy":-1,
 	"lcName":"perfrom openrouter websearch",
-	"modifiedTime":1775385565792,
+	"modifiedTime":1775390110040,
 	"name":"Perfrom Openrouter Websearch",
 	"nodes":[
 		{
@@ -319,5 +320,5 @@
 	"tags":[
 		
 	],
-	"version":64
+	"version":67
 }
