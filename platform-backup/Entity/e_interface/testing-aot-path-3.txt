@@ -2,9 +2,29 @@
 	"createdTime":1775365823026,
 	"deleted":false,
 	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"195435"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"testing-aot-path-3",
-	"lastModifiedBy":195435,
-	"modifiedTime":1775365823026,
+	"lastModifiedBy":-1,
+	"modifiedTime":1775365824050,
 	"ownerUserId":195435,
 	"properties":{
 		"standard":false,
