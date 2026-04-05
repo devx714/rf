@@ -4,14 +4,14 @@
 	],
 	"createdTime":1758530327818,
 	"deleted":false,
-	"deployedVersion":38,
+	"deployedVersion":39,
 	"deploymentState":{
-		"deployedAt":1775334446015,
+		"deployedAt":1775385599566,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1742d39824e0613819b42",
+		"deployedDefinitionId":"69d23bffb41de37eb670f586",
 		"status":"DEPLOYED",
-		"version":38,
-		"workflowVersion":77
+		"version":39,
+		"workflowVersion":79
 	},
 	"edges":[
 		{
@@ -71,7 +71,7 @@
 	"id":"68c3ece3d2e4eb3bdf36e730",
 	"lastModifiedBy":-1,
 	"lcName":"gettingallknowledgeids-ki",
-	"modifiedTime":1775385599511,
+	"modifiedTime":1775389991937,
 	"name":"gettingAllKnowledgeIds-KI",
 	"nodes":[
 		{
@@ -505,5 +505,5 @@
 	"tags":[
 		
 	],
-	"version":79
+	"version":81
 }
