@@ -4,14 +4,14 @@
 	],
 	"createdTime":1751491675909,
 	"deleted":false,
-	"deployedVersion":42,
+	"deployedVersion":43,
 	"deploymentState":{
-		"deployedAt":1775334400414,
+		"deployedAt":1775385573262,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1740039824e0613819940",
+		"deployedDefinitionId":"69d23be5b31cfc01cc39ef54",
 		"status":"DEPLOYED",
-		"version":42,
-		"workflowVersion":112
+		"version":43,
+		"workflowVersion":114
 	},
 	"edges":[
 		{
@@ -215,7 +215,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -225,7 +224,7 @@
 	"id":"686530ef4aaa767a212b2a6f",
 	"lastModifiedBy":-1,
 	"lcName":"call vertex ai - generic (streaming)",
-	"modifiedTime":1775334706424,
+	"modifiedTime":1775385573263,
 	"name":"Call Vertex AI - Generic (Streaming)",
 	"nodes":[
 		{
@@ -2516,5 +2515,5 @@
 		}
 	},
 	"standard":true,
-	"version":113
+	"version":114
 }
