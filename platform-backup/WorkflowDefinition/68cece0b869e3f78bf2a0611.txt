@@ -4,14 +4,14 @@
 	],
 	"createdTime":1758646534659,
 	"deleted":false,
-	"deployedVersion":36,
+	"deployedVersion":38,
 	"deploymentState":{
-		"deployedAt":1775385564396,
+		"deployedAt":1775391252468,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bdcb31cfc01cc39eeb6",
+		"deployedDefinitionId":"69d2521450e82945c76a6514",
 		"status":"DEPLOYED",
-		"version":36,
-		"workflowVersion":69
+		"version":38,
+		"workflowVersion":73
 	},
 	"edges":[
 		{
@@ -200,7 +200,7 @@
 	"id":"68cece0b869e3f78bf2a0611",
 	"lastModifiedBy":-1,
 	"lcName":"generate file tool",
-	"modifiedTime":1775389925258,
+	"modifiedTime":1775407733915,
 	"name":"Generate File Tool",
 	"nodes":[
 		{
@@ -1087,5 +1087,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":71
+	"version":75
 }
