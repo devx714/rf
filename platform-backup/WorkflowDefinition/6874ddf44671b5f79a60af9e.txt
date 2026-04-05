@@ -4,14 +4,14 @@
 	],
 	"createdTime":1752514747260,
 	"deleted":false,
-	"deployedVersion":65,
+	"deployedVersion":67,
 	"deploymentState":{
-		"deployedAt":1775385553084,
+		"deployedAt":1775391236085,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bd1b31cfc01cc39edaa",
+		"deployedDefinitionId":"69d2520450e82945c76a63d2",
 		"status":"DEPLOYED",
-		"version":65,
-		"workflowVersion":128
+		"version":67,
+		"workflowVersion":132
 	},
 	"edges":[
 		{
@@ -215,6 +215,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -224,7 +225,7 @@
 	"id":"6874ddf44671b5f79a60af9e",
 	"lastModifiedBy":-1,
 	"lcName":"call watsonx (streaming)",
-	"modifiedTime":1775389907602,
+	"modifiedTime":1775391437771,
 	"name":"Call Watsonx (Streaming)",
 	"nodes":[
 		{
@@ -639,6 +640,7 @@
 				"isLastSlash":false
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -742,6 +744,7 @@
 				"topP":"{{ CpGDp.outputs.top_p }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -937,6 +940,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1194,6 +1198,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1949,5 +1954,5 @@
 		}
 	},
 	"standard":true,
-	"version":130
+	"version":133
 }
