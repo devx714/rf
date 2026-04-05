@@ -4,14 +4,14 @@
 	],
 	"createdTime":1727786274182,
 	"deleted":false,
-	"deployedVersion":111,
+	"deployedVersion":112,
 	"deploymentState":{
-		"deployedAt":1775334465688,
+		"deployedAt":1775385620675,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1744139824e0613819cfd",
+		"deployedDefinitionId":"69d23c14b41de37eb670f6a3",
 		"status":"DEPLOYED",
-		"version":111,
-		"workflowVersion":158
+		"version":112,
+		"workflowVersion":160
 	},
 	"edges":[
 		{
@@ -279,7 +279,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -289,7 +288,7 @@
 	"id":"66fbed229edc4e0b6303cefd",
 	"lastModifiedBy":-1,
 	"lcName":"response publisher impl with runtime",
-	"modifiedTime":1775334706939,
+	"modifiedTime":1775385620676,
 	"name":"Response Publisher Impl With Runtime",
 	"nodes":[
 		{
@@ -1550,5 +1549,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":159
+	"version":160
 }
