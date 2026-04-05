@@ -348,7 +348,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -358,7 +357,7 @@
 	"id":"696bc88ca669e657537d135f",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge update handler",
-	"modifiedTime":1775391431069,
+	"modifiedTime":1775407785598,
 	"name":"Knowledge Update Handler",
 	"nodes":[
 		{
@@ -2082,5 +2081,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":105
+	"version":106
 }
