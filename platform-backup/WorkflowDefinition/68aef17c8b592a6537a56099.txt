@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756464213194,
 	"deleted":false,
-	"deployedVersion":54,
+	"deployedVersion":57,
 	"deploymentState":{
-		"deployedAt":1775334469613,
+		"deployedAt":1775391369739,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1744539824e0613819d3a",
+		"deployedDefinitionId":"69d2528950e82945c76a6aeb",
 		"status":"DEPLOYED",
-		"version":54,
-		"workflowVersion":94
+		"version":57,
+		"workflowVersion":100
 	},
 	"edges":[
 		{
@@ -369,6 +369,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -378,7 +379,7 @@
 	"id":"68aef17c8b592a6537a56099",
 	"lastModifiedBy":-1,
 	"lcName":"addtext2sqlspecifictools",
-	"modifiedTime":1775385624588,
+	"modifiedTime":1775391433187,
 	"name":"AddText2SqlSpecificTools",
 	"nodes":[
 		{
@@ -823,6 +824,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1733,6 +1735,7 @@
 				"metadataSQL":"{{ n_6CE34.outputs.result }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1880,6 +1883,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2744,5 +2748,5 @@
 		}
 	},
 	"standard":true,
-	"version":96
+	"version":101
 }
