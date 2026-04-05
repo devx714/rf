@@ -4,14 +4,14 @@
 	],
 	"createdTime":1743520902248,
 	"deleted":false,
-	"deployedVersion":91,
+	"deployedVersion":93,
 	"deploymentState":{
-		"deployedAt":1775385645087,
+		"deployedAt":1775391415946,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c2db41de37eb670f7a0",
+		"deployedDefinitionId":"69d252b750e82945c76a6d04",
 		"status":"DEPLOYED",
-		"version":91,
-		"workflowVersion":140
+		"version":93,
+		"workflowVersion":144
 	},
 	"edges":[
 		{
@@ -42,7 +42,7 @@
 	"id":"67ec037440a4a8664291a627",
 	"lastModifiedBy":-1,
 	"lcName":"rbac detail fetcher wrapper",
-	"modifiedTime":1775390092521,
+	"modifiedTime":1775407844234,
 	"name":"Rbac Detail Fetcher Wrapper",
 	"nodes":[
 		{
@@ -181,5 +181,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":142
+	"version":146
 }
