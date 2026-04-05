@@ -4,14 +4,14 @@
 	],
 	"createdTime":1738062236670,
 	"deleted":false,
-	"deployedVersion":96,
+	"deployedVersion":97,
 	"deploymentState":{
-		"deployedAt":1775334411059,
+		"deployedAt":1775385583786,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1740b39824e0613819a0b",
+		"deployedDefinitionId":"69d23befb31cfc01cc39f010",
 		"status":"DEPLOYED",
-		"version":96,
-		"workflowVersion":146
+		"version":97,
+		"workflowVersion":148
 	},
 	"edges":[
 		{
@@ -158,7 +158,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -168,7 +167,7 @@
 	"id":"6794860f9c8ab5620dca97a5",
 	"lastModifiedBy":-1,
 	"lcName":"topic selection tool",
-	"modifiedTime":1775334706826,
+	"modifiedTime":1775385583787,
 	"name":"Topic Selection Tool",
 	"nodes":[
 		{
@@ -800,5 +799,5 @@
 		"AI Agent",
 		"Team"
 	],
-	"version":147
+	"version":148
 }
