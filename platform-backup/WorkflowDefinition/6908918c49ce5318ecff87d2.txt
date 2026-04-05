@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762858182848,
 	"deleted":false,
-	"deployedVersion":27,
+	"deployedVersion":29,
 	"deploymentState":{
-		"deployedAt":1775320630479,
+		"deployedAt":1775385580025,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e3683aecf24ec254b10",
+		"deployedDefinitionId":"69d23bebb31cfc01cc39efcf",
 		"status":"DEPLOYED",
-		"version":27,
-		"workflowVersion":68
+		"version":29,
+		"workflowVersion":72
 	},
 	"edges":[
 		{
@@ -278,7 +278,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -288,7 +287,7 @@
 	"id":"6908918c49ce5318ecff87d2",
 	"lastModifiedBy":-1,
 	"lcName":"perform llm websearch (generic)",
-	"modifiedTime":1775320891514,
+	"modifiedTime":1775389967401,
 	"name":"Perform LLM Websearch (Generic)",
 	"nodes":[
 		{
@@ -538,7 +537,6 @@
 				"stream":true
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -946,7 +944,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1310,7 +1307,6 @@
 				"ua:list_type":"INTEGER"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1603,7 +1599,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1831,5 +1826,5 @@
 	"tags":[
 		
 	],
-	"version":69
+	"version":74
 }
