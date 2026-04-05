@@ -4,14 +4,14 @@
 	],
 	"createdTime":1766522742883,
 	"deleted":false,
-	"deployedVersion":31,
+	"deployedVersion":34,
 	"deploymentState":{
-		"deployedAt":1775385549062,
+		"deployedAt":1775407711262,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bcdb31cfc01cc39ed2a",
+		"deployedDefinitionId":"69d2925f0e422443cf5603e0",
 		"status":"DEPLOYED",
-		"version":31,
-		"workflowVersion":68
+		"version":34,
+		"workflowVersion":74
 	},
 	"edges":[
 		{
@@ -76,6 +76,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -85,7 +86,7 @@
 	"id":"692584a02a4bd82fffa07d1b",
 	"lastModifiedBy":-1,
 	"lcName":"eval | dataset | knowledge sets | get targeted chunks",
-	"modifiedTime":1775385549063,
+	"modifiedTime":1775408108475,
 	"name":"Eval | Dataset | Knowledge Sets | Get Targeted Chunks",
 	"nodes":[
 		{
@@ -651,5 +652,5 @@
 	"tags":[
 		
 	],
-	"version":68
+	"version":75
 }
