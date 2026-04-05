@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748330608308,
 	"deleted":false,
-	"deployedVersion":58,
+	"deployedVersion":60,
 	"deploymentState":{
-		"deployedAt":1775385590559,
+		"deployedAt":1775391304625,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bf6b31cfc01cc39f08a",
+		"deployedDefinitionId":"69d2524850e82945c76a678d",
 		"status":"DEPLOYED",
-		"version":58,
-		"workflowVersion":149
+		"version":60,
+		"workflowVersion":153
 	},
 	"edges":[
 		{
@@ -100,6 +100,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -109,7 +110,7 @@
 	"id":"682b3373ddc73266c079f170",
 	"lastModifiedBy":-1,
 	"lcName":"call custom http endpoint (gemini payload)",
-	"modifiedTime":1775389980371,
+	"modifiedTime":1775391431067,
 	"name":"Call Custom HTTP Endpoint (Gemini Payload)",
 	"nodes":[
 		{
@@ -462,6 +463,7 @@
 				"response_type":"{{ _6odgE.outputs.response_format.type }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1369,5 +1371,5 @@
 		}
 	},
 	"standard":true,
-	"version":151
+	"version":154
 }
