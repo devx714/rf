@@ -4,14 +4,14 @@
 	],
 	"createdTime":1745602574187,
 	"deleted":false,
-	"deployedVersion":84,
+	"deployedVersion":87,
 	"deploymentState":{
-		"deployedAt":1775334480780,
+		"deployedAt":1775391385067,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1745039824e0613819e6c",
+		"deployedDefinitionId":"69d2529950e82945c76a6c2d",
 		"status":"DEPLOYED",
-		"version":84,
-		"workflowVersion":158
+		"version":87,
+		"workflowVersion":164
 	},
 	"edges":[
 		{
@@ -47,6 +47,17 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
+					"V"
+				],
+				"principalIds":[
+					"45771"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -56,7 +67,7 @@
 	"id":"680bb38e89c13d6ab6b7babe",
 	"lastModifiedBy":-1,
 	"lcName":"llm cost calculator",
-	"modifiedTime":1775385636299,
+	"modifiedTime":1775391429084,
 	"name":"LLM Cost Calculator",
 	"nodes":[
 		{
@@ -413,5 +424,5 @@
 	"tags":[
 		
 	],
-	"version":160
+	"version":165
 }
