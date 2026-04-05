@@ -4,14 +4,14 @@
 	],
 	"createdTime":1753445879390,
 	"deleted":false,
-	"deployedVersion":55,
+	"deployedVersion":56,
 	"deploymentState":{
-		"deployedAt":1775385611884,
+		"deployedAt":1775390028802,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c0bb31cfc01cc39f1e0",
+		"deployedDefinitionId":"69d24d4c50e82945c76a45ea",
 		"status":"DEPLOYED",
-		"version":55,
-		"workflowVersion":110
+		"version":56,
+		"workflowVersion":112
 	},
 	"edges":[
 		{
@@ -300,6 +300,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -309,7 +310,7 @@
 	"id":"687f8df47aa28afd1fcefdde",
 	"lastModifiedBy":-1,
 	"lcName":"[debug agent] test file knowledge indexing",
-	"modifiedTime":1775385611885,
+	"modifiedTime":1775390108514,
 	"name":"[Debug Agent] Test File Knowledge Indexing",
 	"nodes":[
 		{
@@ -1677,5 +1678,5 @@
 	"tags":[
 		
 	],
-	"version":110
+	"version":113
 }
