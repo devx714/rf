@@ -4,14 +4,14 @@
 	],
 	"createdTime":1760296238485,
 	"deleted":false,
-	"deployedVersion":30,
+	"deployedVersion":33,
 	"deploymentState":{
-		"deployedAt":1775385592774,
+		"deployedAt":1775407772674,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bf8b31cfc01cc39f0af",
+		"deployedDefinitionId":"69d2929c0e422443cf560677",
 		"status":"DEPLOYED",
-		"version":30,
-		"workflowVersion":84
+		"version":33,
+		"workflowVersion":90
 	},
 	"edges":[
 		{
@@ -368,6 +368,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -377,7 +378,7 @@
 	"id":"68dcd7723374855239dbb1f4",
 	"lastModifiedBy":-1,
 	"lcName":"call perplexity deep research",
-	"modifiedTime":1775385592776,
+	"modifiedTime":1775408101772,
 	"name":"Call Perplexity Deep Research",
 	"nodes":[
 		{
@@ -3828,5 +3829,5 @@
 		}
 	},
 	"standard":true,
-	"version":84
+	"version":91
 }
