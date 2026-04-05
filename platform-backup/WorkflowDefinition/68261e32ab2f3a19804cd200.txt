@@ -4,14 +4,14 @@
 	],
 	"createdTime":1747641656396,
 	"deleted":false,
-	"deployedVersion":88,
+	"deployedVersion":91,
 	"deploymentState":{
-		"deployedAt":1774342968241,
+		"deployedAt":1775385637351,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c253388d65fb68e1563cac",
+		"deployedDefinitionId":"69d23c25b31cfc01cc39f399",
 		"status":"DEPLOYED",
-		"version":88,
-		"workflowVersion":136
+		"version":91,
+		"workflowVersion":142
 	},
 	"edges":[
 		{
@@ -33,7 +33,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -43,7 +42,7 @@
 	"id":"68261e32ab2f3a19804cd200",
 	"lastModifiedBy":-1,
 	"lcName":"text to workflow v2 | adjacency list to graph",
-	"modifiedTime":1774622955492,
+	"modifiedTime":1775390083281,
 	"name":"Text to Workflow v2 | Adjacency List to Graph",
 	"nodes":[
 		{
@@ -208,5 +207,5 @@
 	"tags":[
 		"Text_to_Workflow_v2"
 	],
-	"version":137
+	"version":144
 }
