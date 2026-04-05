@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748544379551,
 	"deleted":false,
-	"deployedVersion":84,
+	"deployedVersion":89,
 	"deploymentState":{
-		"deployedAt":1775320691912,
+		"deployedAt":1775407838723,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e7383aecf24ec254fc4",
+		"deployedDefinitionId":"69d292de0e422443cf5609d6",
 		"status":"DEPLOYED",
-		"version":84,
-		"workflowVersion":147
+		"version":89,
+		"workflowVersion":157
 	},
 	"edges":[
 		{
@@ -750,7 +750,7 @@
 	"id":"682c460279253534f506cefb",
 	"lastModifiedBy":-1,
 	"lcName":"analysefile tool",
-	"modifiedTime":1775320891515,
+	"modifiedTime":1775408107976,
 	"name":"AnalyseFile Tool",
 	"nodes":[
 		{
@@ -4626,5 +4626,5 @@
 		}
 	},
 	"standard":true,
-	"version":148
+	"version":158
 }
