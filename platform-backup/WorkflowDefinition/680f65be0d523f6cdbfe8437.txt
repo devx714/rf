@@ -4,14 +4,14 @@
 	],
 	"createdTime":1747641656168,
 	"deleted":false,
-	"deployedVersion":87,
+	"deployedVersion":88,
 	"deploymentState":{
-		"deployedAt":1775385584052,
+		"deployedAt":1775389972751,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bf0b31cfc01cc39f016",
+		"deployedDefinitionId":"69d24d1450e82945c76a4308",
 		"status":"DEPLOYED",
-		"version":87,
-		"workflowVersion":143
+		"version":88,
+		"workflowVersion":145
 	},
 	"edges":[
 		{
@@ -49,6 +49,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -58,7 +59,7 @@
 	"id":"680f65be0d523f6cdbfe8437",
 	"lastModifiedBy":-1,
 	"lcName":"text to workflow v2 | get_current_workflow_state",
-	"modifiedTime":1775389972701,
+	"modifiedTime":1775390107428,
 	"name":"Text to Workflow v2 | get_current_workflow_state",
 	"nodes":[
 		{
@@ -250,5 +251,5 @@
 	"tags":[
 		"Text_to_Workflow_v2"
 	],
-	"version":145
+	"version":146
 }
