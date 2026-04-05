@@ -65,7 +65,7 @@
 	"id":"68a2ba0f9d7d8d3f5047e28b",
 	"lastModifiedBy":-1,
 	"lcName":"[a2a] get agent card",
-	"modifiedTime":1775385634214,
+	"modifiedTime":1775390058634,
 	"name":"[A2A] Get Agent Card",
 	"nodes":[
 		{
@@ -505,5 +505,5 @@
 	"tags":[
 		"a2a"
 	],
-	"version":110
+	"version":112
 }
