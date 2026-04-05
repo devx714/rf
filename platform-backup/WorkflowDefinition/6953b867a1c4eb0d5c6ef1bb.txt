@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769422115763,
 	"deleted":false,
-	"deployedVersion":15,
+	"deployedVersion":16,
 	"deploymentState":{
-		"deployedAt":1775334418700,
+		"deployedAt":1775385592064,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1741239824e0613819a98",
+		"deployedDefinitionId":"69d23bf8b41de37eb670f56c",
 		"status":"DEPLOYED",
-		"version":15,
-		"workflowVersion":39
+		"version":16,
+		"workflowVersion":41
 	},
 	"edges":[
 		{
@@ -298,7 +298,7 @@
 	"id":"6953b867a1c4eb0d5c6ef1bb",
 	"lastModifiedBy":-1,
 	"lcName":"promptattack (ai agent)",
-	"modifiedTime":1775385592002,
+	"modifiedTime":1775389982519,
 	"name":"PromptAttack (AI Agent)",
 	"nodes":[
 		{
@@ -1525,5 +1525,5 @@
 	"tags":[
 		
 	],
-	"version":41
+	"version":43
 }
