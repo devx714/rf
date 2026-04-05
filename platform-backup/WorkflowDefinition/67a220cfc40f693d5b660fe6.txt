@@ -4,14 +4,14 @@
 	],
 	"createdTime":1738691628435,
 	"deleted":false,
-	"deployedVersion":94,
+	"deployedVersion":96,
 	"deploymentState":{
-		"deployedAt":1774342917559,
+		"deployedAt":1775334418625,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2530529fa153f07e09bc5",
+		"deployedDefinitionId":"69d1741239824e0613819a96",
 		"status":"DEPLOYED",
-		"version":94,
-		"workflowVersion":140
+		"version":96,
+		"workflowVersion":144
 	},
 	"edges":[
 		{
@@ -349,25 +349,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"A",
-					"EXPORT_AS_TEMPLATE",
-					"C",
-					"S",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"DEP"
-				],
-				"principalIds":[
-					"44109"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -377,7 +358,7 @@
 	"id":"67a220cfc40f693d5b660fe6",
 	"lastModifiedBy":-1,
 	"lcName":"fetch global tools",
-	"modifiedTime":1774622955883,
+	"modifiedTime":1775385591899,
 	"name":"Fetch Global Tools",
 	"nodes":[
 		{
@@ -783,7 +764,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1317,7 +1297,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2749,5 +2728,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":141
+	"version":146
 }
