@@ -4,14 +4,14 @@
 	],
 	"createdTime":1726493234881,
 	"deleted":false,
-	"deployedVersion":93,
+	"deployedVersion":94,
 	"deploymentState":{
-		"deployedAt":1775390035928,
+		"deployedAt":1775391359660,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d24d5350e82945c76a4672",
+		"deployedDefinitionId":"69d2527f50e82945c76a6a33",
 		"status":"DEPLOYED",
-		"version":93,
-		"workflowVersion":144
+		"version":94,
+		"workflowVersion":146
 	},
 	"edges":[
 		{
@@ -47,7 +47,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -57,7 +56,7 @@
 	"id":"66e8323222a09e575dfaa4a2",
 	"lastModifiedBy":-1,
 	"lcName":"[model_compare] invoke llm",
-	"modifiedTime":1775390109688,
+	"modifiedTime":1775407806267,
 	"name":"[MODEL_COMPARE] Invoke LLM",
 	"nodes":[
 		{
@@ -330,5 +329,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":145
+	"version":148
 }
