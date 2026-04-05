@@ -4,14 +4,14 @@
 	],
 	"createdTime":1753782719266,
 	"deleted":false,
-	"deployedVersion":67,
+	"deployedVersion":69,
 	"deploymentState":{
-		"deployedAt":1775385566340,
+		"deployedAt":1775391255226,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bdeb31cfc01cc39eedc",
+		"deployedDefinitionId":"69d2521750e82945c76a654e",
 		"status":"DEPLOYED",
-		"version":67,
-		"workflowVersion":138
+		"version":69,
+		"workflowVersion":142
 	},
 	"edges":[
 		{
@@ -602,7 +602,7 @@
 	"id":"6883772daf988e6e0e690fc5",
 	"lastModifiedBy":-1,
 	"lcName":"read file using docling",
-	"modifiedTime":1775389928238,
+	"modifiedTime":1775407738857,
 	"name":"Read File Using Docling",
 	"nodes":[
 		{
@@ -4341,5 +4341,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":140
+	"version":144
 }
