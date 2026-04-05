@@ -4,14 +4,14 @@
 	],
 	"createdTime":1754285411112,
 	"deleted":false,
-	"deployedVersion":61,
+	"deployedVersion":62,
 	"deploymentState":{
-		"deployedAt":1775391323676,
+		"deployedAt":1775407790213,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2525b50e82945c76a6906",
+		"deployedDefinitionId":"69d292ae0e422443cf560772",
 		"status":"DEPLOYED",
-		"version":61,
-		"workflowVersion":119
+		"version":62,
+		"workflowVersion":121
 	},
 	"edges":[
 		{
@@ -84,6 +84,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -93,7 +94,7 @@
 	"id":"68834640b85c028e0d7175a2",
 	"lastModifiedBy":-1,
 	"lcName":"chunk indexer | weaviate",
-	"modifiedTime":1775407790150,
+	"modifiedTime":1775408102557,
 	"name":"Chunk Indexer | Weaviate",
 	"nodes":[
 		{
@@ -220,6 +221,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -655,5 +657,5 @@
 	"tags":[
 		
 	],
-	"version":121
+	"version":122
 }
