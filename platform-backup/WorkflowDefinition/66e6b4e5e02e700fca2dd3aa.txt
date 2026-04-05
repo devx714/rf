@@ -4,14 +4,14 @@
 	],
 	"createdTime":1726395621443,
 	"deleted":false,
-	"deployedVersion":105,
+	"deployedVersion":106,
 	"deploymentState":{
-		"deployedAt":1775334482549,
+		"deployedAt":1775385638154,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1745239824e0613819e95",
+		"deployedDefinitionId":"69d23c26b31cfc01cc39f3c0",
 		"status":"DEPLOYED",
-		"version":105,
-		"workflowVersion":206
+		"version":106,
+		"workflowVersion":208
 	},
 	"edges":[
 		{
@@ -302,27 +302,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"161165"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -332,7 +311,7 @@
 	"id":"66e6b4e5e02e700fca2dd3aa",
 	"lastModifiedBy":-1,
 	"lcName":"response generation(feedback, tone,style,format) {do not touch}",
-	"modifiedTime":1775334707025,
+	"modifiedTime":1775385638155,
 	"name":"Response Generation(Feedback, TOne,Style,Format) {DO NOT TOUCH}",
 	"nodes":[
 		{
@@ -1881,5 +1860,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":207
+	"version":208
 }
