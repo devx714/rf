@@ -4,15 +4,15 @@
 	],
 	"createdTime":1766522771839,
 	"deleted":false,
-	"deployedVersion":21,
+	"deployedVersion":24,
 	"deploymentState":{
-		"deployedAt":1774342953322,
+		"deployedAt":1775385623209,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c253298d65fb68e1563c0f",
+		"deployedDefinitionId":"69d23c17b31cfc01cc39f2dc",
 		"deploymentTag":"V6",
 		"status":"DEPLOYED",
-		"version":21,
-		"workflowVersion":51
+		"version":24,
+		"workflowVersion":57
 	},
 	"edges":[
 		{
@@ -115,7 +115,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -125,7 +124,7 @@
 	"id":"692bb902e956c55e3062b7f5",
 	"lastModifiedBy":-1,
 	"lcName":"web scraping | playwright",
-	"modifiedTime":1774622955548,
+	"modifiedTime":1775385623211,
 	"name":"Web Scraping | Playwright",
 	"nodes":[
 		{
@@ -598,5 +597,5 @@
 	"tags":[
 		
 	],
-	"version":52
+	"version":57
 }
