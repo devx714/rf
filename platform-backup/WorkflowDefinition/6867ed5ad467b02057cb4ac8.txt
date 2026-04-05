@@ -4,14 +4,14 @@
 	],
 	"createdTime":1753185946743,
 	"deleted":false,
-	"deployedVersion":83,
+	"deployedVersion":85,
 	"deploymentState":{
-		"deployedAt":1775320671922,
+		"deployedAt":1775385620493,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e5f83aecf24ec254e0c",
+		"deployedDefinitionId":"69d23c14b41de37eb670f69e",
 		"status":"DEPLOYED",
-		"version":83,
-		"workflowVersion":139
+		"version":85,
+		"workflowVersion":143
 	},
 	"edges":[
 		{
@@ -33,7 +33,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -43,7 +42,7 @@
 	"id":"6867ed5ad467b02057cb4ac8",
 	"lastModifiedBy":-1,
 	"lcName":"get nextfiretime",
-	"modifiedTime":1775320891812,
+	"modifiedTime":1775385620494,
 	"name":"Get nextFireTime",
 	"nodes":[
 		{
@@ -208,5 +207,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":140
+	"version":143
 }
