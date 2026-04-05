@@ -57,7 +57,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -67,7 +66,7 @@
 	"id":"687a9a1ba5fccfdfa73abae8",
 	"lastModifiedBy":-1,
 	"lcName":"call azure openai embeddings",
-	"modifiedTime":1775334705620,
+	"modifiedTime":1775385565886,
 	"name":"Call Azure OpenAI Embeddings",
 	"nodes":[
 		{
@@ -462,5 +461,5 @@
 		}
 	},
 	"standard":true,
-	"version":106
+	"version":107
 }
