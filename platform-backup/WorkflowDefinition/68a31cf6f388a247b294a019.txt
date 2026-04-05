@@ -206,7 +206,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -216,7 +215,7 @@
 	"id":"68a31cf6f388a247b294a019",
 	"lastModifiedBy":-1,
 	"lcName":"eval | task | trigger ai agent text2sql",
-	"modifiedTime":1775334705700,
+	"modifiedTime":1775385595185,
 	"name":"Eval | Task | Trigger AI Agent Text2SQL",
 	"nodes":[
 		{
@@ -340,7 +339,6 @@
 				"aiAgentId":"e_691ed877164d7c50b57c1c27"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -521,7 +519,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1272,7 +1269,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1350,5 +1346,5 @@
 	"tags":[
 		
 	],
-	"version":115
+	"version":116
 }
