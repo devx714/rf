@@ -4,14 +4,14 @@
 	],
 	"createdTime":1744474920919,
 	"deleted":false,
-	"deployedVersion":59,
+	"deployedVersion":60,
 	"deploymentState":{
-		"deployedAt":1775320653385,
+		"deployedAt":1775334448252,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e4d83aecf24ec254c86",
+		"deployedDefinitionId":"69d1743039824e0613819b6c",
 		"status":"DEPLOYED",
-		"version":59,
-		"workflowVersion":133
+		"version":60,
+		"workflowVersion":135
 	},
 	"edges":[
 		{
@@ -181,7 +181,7 @@
 	"id":"67fa51d456210c18cb18c7a2",
 	"lastModifiedBy":-1,
 	"lcName":"external agent executor",
-	"modifiedTime":1775334448187,
+	"modifiedTime":1775385601837,
 	"name":"External Agent Executor",
 	"nodes":[
 		{
@@ -899,5 +899,5 @@
 	"tags":[
 		
 	],
-	"version":135
+	"version":137
 }
