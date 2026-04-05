@@ -4,14 +4,14 @@
 	],
 	"createdTime":1754320684435,
 	"deleted":false,
-	"deployedVersion":13,
+	"deployedVersion":14,
 	"deploymentState":{
-		"deployedAt":1773928148343,
+		"deployedAt":1775389976268,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfed416170c62438068e9",
+		"deployedDefinitionId":"69d24d1850e82945c76a434e",
 		"status":"DEPLOYED",
-		"version":13,
-		"workflowVersion":60
+		"version":14,
+		"workflowVersion":61
 	},
 	"edges":[
 		{
@@ -135,6 +135,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -144,7 +145,7 @@
 	"id":"688613cafd7826d1c6aff054",
 	"lastModifiedBy":-1,
 	"lcName":"google drive | get folder recursively",
-	"modifiedTime":1775389976200,
+	"modifiedTime":1775390106390,
 	"name":"Google Drive | Get Folder Recursively",
 	"nodes":[
 		{
@@ -245,6 +246,7 @@
 				"hasMore":true
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -511,6 +513,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -899,5 +902,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":61
+	"version":62
 }
