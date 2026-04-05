@@ -4,14 +4,14 @@
 	],
 	"createdTime":1759243597008,
 	"deleted":false,
-	"deployedVersion":31,
+	"deployedVersion":35,
 	"deploymentState":{
-		"deployedAt":1774342942200,
+		"deployedAt":1775390030609,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2531e29fa153f07e09cc4",
+		"deployedDefinitionId":"69d24d4e50e82945c76a460c",
 		"status":"DEPLOYED",
-		"version":31,
-		"workflowVersion":74
+		"version":35,
+		"workflowVersion":82
 	},
 	"edges":[
 		{
@@ -73,7 +73,7 @@
 	"id":"68cd2079c691e61e1f774a4c",
 	"lastModifiedBy":-1,
 	"lcName":"call gemini embeddings",
-	"modifiedTime":1774622956239,
+	"modifiedTime":1775390106999,
 	"name":"Call Gemini Embeddings",
 	"nodes":[
 		{
@@ -430,5 +430,5 @@
 	"tags":[
 		
 	],
-	"version":75
+	"version":83
 }
