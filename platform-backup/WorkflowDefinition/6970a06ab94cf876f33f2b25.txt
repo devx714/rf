@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769522009718,
 	"deleted":false,
-	"deployedVersion":11,
+	"deployedVersion":13,
 	"deploymentState":{
-		"deployedAt":1774342886429,
+		"deployedAt":1775334395165,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252e68d65fb68e15638a1",
+		"deployedDefinitionId":"69d173fb39824e06138198de",
 		"status":"DEPLOYED",
-		"version":11,
-		"workflowVersion":56
+		"version":13,
+		"workflowVersion":60
 	},
 	"edges":[
 		{
@@ -339,7 +339,7 @@
 	"id":"6970a06ab94cf876f33f2b25",
 	"lastModifiedBy":-1,
 	"lcName":"memory enablement handler",
-	"modifiedTime":1775320616525,
+	"modifiedTime":1775385567628,
 	"name":"Memory Enablement Handler",
 	"nodes":[
 		{
@@ -1904,5 +1904,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":58
+	"version":62
 }
