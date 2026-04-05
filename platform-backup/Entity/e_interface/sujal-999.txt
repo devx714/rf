@@ -1,10 +1,36 @@
 {
-	"createdTime":1775368976101,
+	"createdTime":1775389176143,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1775393363943,
+		"deployedBy":195414,
+		"entityVersion":26,
+		"version":5
+	},
 	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"195414"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"sujal-999",
 	"lastModifiedBy":195414,
-	"modifiedTime":1775368976101,
+	"modifiedTime":1775393363945,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -20,12 +46,12 @@
 			"_counter":{
 				"_moduleCount":0,
 				"_mqttTopicCounter":0,
-				"_pageCount":0
+				"_pageCount":5
 			}
 		},
 		"navigation":{
 			"secondary":[],
-			"defaultPageId":"",
+			"defaultPageId":"e_69d24a04d6c5c24812392275",
 			"appearance":{
 				"SM":{
 					"primary":[],
@@ -57,7 +83,8 @@
 						"padding":{
 							"all":"p-0"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"LG":{
 					"primary":[],
@@ -95,7 +122,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"XL":{
 					"primary":[],
@@ -133,7 +161,8 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"MD":{
 					"primary":[],
@@ -171,13 +200,41 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				}
 			},
 			"primary":[]
 		},
+		"interfacePageIdVsSlugMap":{
+			"e_69d2570cabe84914055552cf":"mars",
+			"e_69d25789abe84914055552eb":"jupiter",
+			"e_69d24a04d6c5c24812392275":"homepage",
+			"e_69d25a4a2be04f59a5b276ea":"world"
+		},
 		"manifest":{
 			"type":"WEB"
+		},
+		"paths":{
+			"f_root":{
+				"id":"f_root",
+				"segment":"",
+				"children":[
+					"e_69d24a04d6c5c24812392275",
+					"f_NgzRV",
+					"f_yiHMb"
+				],
+				"path":"/"
+			},
+			"f_yiHMb":{
+				"id":"f_yiHMb",
+				"segment":"hello",
+				"parentId":"f_root",
+				"children":[
+					"e_69d25a4a2be04f59a5b276ea"
+				],
+				"path":"/hello"
+			}
 		},
 		"name":"sujal-999",
 		"theme":{
@@ -186,11 +243,33 @@
 		"type":"application",
 		"locale":{
 			"defaultLocale":"en-US"
+		},
+		"entityDetailsMap":{
+			"e_69d2570cabe84914055552cf":{
+				"slug":"mars",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_69d25789abe84914055552eb":{
+				"slug":"jupiter",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_69d24a04d6c5c24812392275":{
+				"slug":"homepage",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_69d25a4a2be04f59a5b276ea":{
+				"slug":"world",
+				"isPublic":false,
+				"type":"PAGE"
+			}
 		}
 	},
 	"standard":false,
 	"tags":[
 		
 	],
-	"version":0
+	"version":26
 }
