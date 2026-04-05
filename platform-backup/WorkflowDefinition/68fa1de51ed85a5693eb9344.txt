@@ -115,7 +115,7 @@
 	"id":"68fa1de51ed85a5693eb9344",
 	"lastModifiedBy":-1,
 	"lcName":"eval | task | calculate chunk consistency",
-	"modifiedTime":1775385559310,
+	"modifiedTime":1775389916915,
 	"name":"Eval | Task | Calculate Chunk Consistency",
 	"nodes":[
 		{
@@ -223,7 +223,6 @@
 				"modelId":"e_ai_agent_openai_gpt_4.1"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -551,5 +550,5 @@
 	"tags":[
 		
 	],
-	"version":83
+	"version":85
 }
