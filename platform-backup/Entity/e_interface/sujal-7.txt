@@ -1,6 +1,12 @@
 {
 	"createdTime":1775370686503,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1775370827749,
+		"deployedBy":195414,
+		"entityVersion":8,
+		"version":2
+	},
 	"entityType":"e_interface",
 	"grants":{
 		"configs":[
@@ -24,7 +30,7 @@
 	},
 	"id":"sujal-7",
 	"lastModifiedBy":195414,
-	"modifiedTime":1775370709665,
+	"modifiedTime":1775370916049,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -40,8 +46,25 @@
 			"_counter":{
 				"_moduleCount":0,
 				"_mqttTopicCounter":0,
-				"_pageCount":1
+				"_pageCount":3
 			}
+		},
+		"publicPageIds":[
+			"e_69d201c5aa1e4812e203296d",
+			"e_69d201df3749ce63c5e2d1da",
+			"e_69d2023f3749ce63c5e2d1e0"
+		],
+		"manifest":{
+			"type":"WEB"
+		},
+		"pagePermissions":{
+			"e_69d201c5aa1e4812e203296d":{},
+			"e_69d201df3749ce63c5e2d1da":{},
+			"e_69d2023f3749ce63c5e2d1e0":{}
+		},
+		"type":"application",
+		"locale":{
+			"defaultLocale":"en-US"
 		},
 		"navigation":{
 			"secondary":[],
@@ -201,18 +224,18 @@
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
-			"e_69d201c5aa1e4812e203296d":"homepage"
-		},
-		"manifest":{
-			"type":"WEB"
+			"e_69d201c5aa1e4812e203296d":"homepage",
+			"e_69d201df3749ce63c5e2d1da":"world",
+			"e_69d2023f3749ce63c5e2d1e0":"mars"
 		},
 		"paths":{
 			"f_root":{
 				"id":"f_root",
 				"segment":"",
 				"children":[
+					"f_BEm1X",
 					"e_69d201c5aa1e4812e203296d",
-					"f_BEm1X"
+					"e_69d201df3749ce63c5e2d1da"
 				],
 				"path":"/"
 			},
@@ -220,7 +243,9 @@
 				"id":"f_BEm1X",
 				"segment":"hello",
 				"parentId":"f_root",
-				"children":[],
+				"children":[
+					"e_69d2023f3749ce63c5e2d1e0"
+				],
 				"path":"/hello"
 			}
 		},
@@ -228,14 +253,20 @@
 		"theme":{
 			"defaultThemeId":"e_6966190f3d99d61567a86ad3"
 		},
-		"type":"application",
-		"locale":{
-			"defaultLocale":"en-US"
-		},
 		"entityDetailsMap":{
 			"e_69d201c5aa1e4812e203296d":{
 				"slug":"homepage",
-				"isPublic":false,
+				"isPublic":true,
+				"type":"PAGE"
+			},
+			"e_69d201df3749ce63c5e2d1da":{
+				"slug":"world",
+				"isPublic":true,
+				"type":"PAGE"
+			},
+			"e_69d2023f3749ce63c5e2d1e0":{
+				"slug":"mars",
+				"isPublic":true,
 				"type":"PAGE"
 			}
 		}
@@ -244,5 +275,5 @@
 	"tags":[
 		
 	],
-	"version":4
+	"version":11
 }
