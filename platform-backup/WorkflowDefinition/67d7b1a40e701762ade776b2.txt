@@ -4,14 +4,14 @@
 	],
 	"createdTime":1742466584828,
 	"deleted":false,
-	"deployedVersion":48,
+	"deployedVersion":49,
 	"deploymentState":{
-		"deployedAt":1775389968494,
+		"deployedAt":1775391273385,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d24d1050e82945c76a42bd",
+		"deployedDefinitionId":"69d2522950e82945c76a66b1",
 		"status":"DEPLOYED",
-		"version":48,
-		"workflowVersion":133
+		"version":49,
+		"workflowVersion":135
 	},
 	"edges":[
 		{
@@ -618,47 +618,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"72223"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"72119"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -668,7 +627,7 @@
 	"id":"67d7b1a40e701762ade776b2",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | slack | index specific chat",
-	"modifiedTime":1775390106391,
+	"modifiedTime":1775407758024,
 	"name":"Knowledge Indexer | Slack | Index specific chat",
 	"nodes":[
 		{
@@ -1129,7 +1088,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1206,7 +1164,6 @@
 				"hasMore":true
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1589,7 +1546,6 @@
 				"channelId":"{{ S2gna.outputs.item.Id }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1681,7 +1637,6 @@
 				"simpleMessageCount":0
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1957,7 +1912,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -4274,5 +4228,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":134
+	"version":137
 }
