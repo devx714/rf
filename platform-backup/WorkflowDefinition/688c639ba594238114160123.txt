@@ -4,14 +4,14 @@
 	],
 	"createdTime":1754031003931,
 	"deleted":false,
-	"deployedVersion":85,
+	"deployedVersion":90,
 	"deploymentState":{
-		"deployedAt":1775320702595,
+		"deployedAt":1775407854241,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e7ec6b0c9120df1760c",
+		"deployedDefinitionId":"69d292eea2eda46706b04d07",
 		"status":"DEPLOYED",
-		"version":85,
-		"workflowVersion":136
+		"version":90,
+		"workflowVersion":146
 	},
 	"edges":[
 		{
@@ -121,6 +121,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -130,7 +131,7 @@
 	"id":"688c639ba594238114160123",
 	"lastModifiedBy":-1,
 	"lcName":"eval | live evaluation | fetch testcases for a session",
-	"modifiedTime":1775334515881,
+	"modifiedTime":1775408099587,
 	"name":"Eval | Live Evaluation | Fetch Testcases for a session",
 	"nodes":[
 		{
@@ -292,6 +293,7 @@
 				"agentResponsePlaceholder":"<NO_AGENT_RESPONSE>"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -601,6 +603,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1149,5 +1152,5 @@
 	"tags":[
 		
 	],
-	"version":138
+	"version":147
 }
