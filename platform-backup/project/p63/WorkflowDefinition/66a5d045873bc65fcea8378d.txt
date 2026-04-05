@@ -4,14 +4,14 @@
 	],
 	"createdTime":1722142789530,
 	"deleted":false,
-	"deployedVersion":115,
+	"deployedVersion":118,
 	"deploymentState":{
-		"deployedAt":1774342929544,
+		"deployedAt":1775385601811,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2531129fa153f07e09c49",
+		"deployedDefinitionId":"69d23c01b31cfc01cc39f18f",
 		"status":"DEPLOYED",
-		"version":115,
-		"workflowVersion":185
+		"version":118,
+		"workflowVersion":191
 	},
 	"edges":[
 		{
@@ -63,7 +63,7 @@
 	"id":"66a5d045873bc65fcea8378d",
 	"lastModifiedBy":-1,
 	"lcName":"text_to_workflow_get_payload_for_llm",
-	"modifiedTime":1775320652855,
+	"modifiedTime":1775385601812,
 	"name":"Text_To_workflow_Get_payload_for_LLM",
 	"nodes":[
 		{
@@ -481,6 +481,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -857,5 +858,5 @@
 	"tags":[
 		"Text_to_Workflow"
 	],
-	"version":187
+	"version":191
 }
