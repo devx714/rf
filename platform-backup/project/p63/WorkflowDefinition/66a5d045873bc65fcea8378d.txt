@@ -63,7 +63,7 @@
 	"id":"66a5d045873bc65fcea8378d",
 	"lastModifiedBy":-1,
 	"lcName":"text_to_workflow_get_payload_for_llm",
-	"modifiedTime":1775385601812,
+	"modifiedTime":1775389994651,
 	"name":"Text_To_workflow_Get_payload_for_LLM",
 	"nodes":[
 		{
@@ -481,7 +481,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -858,5 +857,5 @@
 	"tags":[
 		"Text_to_Workflow"
 	],
-	"version":191
+	"version":193
 }
