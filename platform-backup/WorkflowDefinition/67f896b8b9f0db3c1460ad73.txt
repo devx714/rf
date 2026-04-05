@@ -86,7 +86,7 @@
 	"id":"67f896b8b9f0db3c1460ad73",
 	"lastModifiedBy":-1,
 	"lcName":"clarifyconnection tool",
-	"modifiedTime":1775385559230,
+	"modifiedTime":1775389916754,
 	"name":"ClarifyConnection Tool",
 	"nodes":[
 		{
@@ -205,7 +205,6 @@
 				"caseId":"{{ rSxcy.outputs.caseId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -434,5 +433,5 @@
 	"tags":[
 		
 	],
-	"version":131
+	"version":133
 }
