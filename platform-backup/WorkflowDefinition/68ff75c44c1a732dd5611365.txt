@@ -91,7 +91,7 @@
 	"id":"68ff75c44c1a732dd5611365",
 	"lastModifiedBy":-1,
 	"lcName":"metering | search | feedback overview",
-	"modifiedTime":1775385632450,
+	"modifiedTime":1775390056025,
 	"name":"Metering | Search | Feedback Overview",
 	"nodes":[
 		{
@@ -686,7 +686,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -934,5 +933,5 @@
 	"tags":[
 		
 	],
-	"version":64
+	"version":66
 }
