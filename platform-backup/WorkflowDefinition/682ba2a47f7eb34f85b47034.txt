@@ -4,14 +4,14 @@
 	],
 	"createdTime":1747690148189,
 	"deleted":false,
-	"deployedVersion":40,
+	"deployedVersion":42,
 	"deploymentState":{
-		"deployedAt":1773928154821,
+		"deployedAt":1775391360729,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfeda40a2b92de9fe69b4",
+		"deployedDefinitionId":"69d2528050e82945c76a6a43",
 		"status":"DEPLOYED",
-		"version":40,
-		"workflowVersion":60
+		"version":42,
+		"workflowVersion":63
 	},
 	"edges":[
 		{
@@ -33,6 +33,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -42,7 +43,7 @@
 	"id":"682ba2a47f7eb34f85b47034",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | bitbucket server | index a pr (batch wrapper)",
-	"modifiedTime":1775390036957,
+	"modifiedTime":1775391433297,
 	"name":"Knowledge Indexer | Bitbucket Server | Index a PR (batch wrapper)",
 	"nodes":[
 		{
@@ -234,5 +235,5 @@
 	"tags":[
 		
 	],
-	"version":61
+	"version":64
 }
