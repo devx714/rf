@@ -317,7 +317,7 @@
 	"id":"687657ea9f2cd2b4cd9ba5da",
 	"lastModifiedBy":-1,
 	"lcName":"recursive website crawler",
-	"modifiedTime":1775385536044,
+	"modifiedTime":1775389854189,
 	"name":"Recursive Website Crawler",
 	"nodes":[
 		{
@@ -483,7 +483,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -758,7 +757,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2141,5 +2139,5 @@
 	"tags":[
 		
 	],
-	"version":160
+	"version":162
 }
