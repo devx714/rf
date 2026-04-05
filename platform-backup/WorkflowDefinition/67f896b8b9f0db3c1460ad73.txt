@@ -4,14 +4,14 @@
 	],
 	"createdTime":1744346439792,
 	"deleted":false,
-	"deployedVersion":86,
+	"deployedVersion":88,
 	"deploymentState":{
-		"deployedAt":1775320607418,
+		"deployedAt":1775385559229,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e1f83aecf24ec2547a9",
+		"deployedDefinitionId":"69d23bd7b31cfc01cc39ee55",
 		"status":"DEPLOYED",
-		"version":86,
-		"workflowVersion":127
+		"version":88,
+		"workflowVersion":131
 	},
 	"edges":[
 		{
@@ -86,7 +86,7 @@
 	"id":"67f896b8b9f0db3c1460ad73",
 	"lastModifiedBy":-1,
 	"lcName":"clarifyconnection tool",
-	"modifiedTime":1775334386248,
+	"modifiedTime":1775385559230,
 	"name":"ClarifyConnection Tool",
 	"nodes":[
 		{
@@ -205,6 +205,7 @@
 				"caseId":"{{ rSxcy.outputs.caseId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -433,5 +434,5 @@
 	"tags":[
 		
 	],
-	"version":129
+	"version":131
 }
