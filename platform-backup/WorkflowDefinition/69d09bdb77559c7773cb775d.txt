@@ -1,21 +1,83 @@
 {
 	"appsUsed":[
-		
+		"69d09bb02c849a3b1a9e06f1"
 	],
 	"createdTime":1775279067065,
-	"deleted":false,
+	"deleted":true,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775279068799,
+		"deployedBy":175325,
+		"deployedDefinitionId":"69d09bdb77559c7773cb7763",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"edges":[
-		
+		{
+			"fromNodeId":"n_Wl9z9",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"F60Kd",
+			"type":"next"
+		}
 	],
 	"id":"69d09bdb77559c7773cb775d",
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2sdk9514110970",
-	"modifiedTime":1775279067065,
+	"modifiedTime":1775362507218,
 	"name":"changeSetQA2sdk9514110970",
 	"nodes":[
-		
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":273,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"A7L4x-1",
+			"id":"n_Wl9z9",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"69d09bb02c849a3b1a9e06f1",
+				"resourceVersion":3,
+				"connectionId":"69d09bd52c849a3b1a9e0713",
+				"resourceName":"69d09bb02c849a3b1a9e06f1:69d09bba2c849a3b1a9e06fc",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"A7L4x-1",
+			"id":"F60Kd",
+			"index":0,
+			"inputs":{},
+			"skip":false,
+			"subTitle":"changeSetQA2shopifyendget1775279020999",
+			"title":"Get Count of Product",
+			"type":"ACTION"
+		}
 	],
 	"ownerUserId":175325,
+	"schemaReferences":[
+		
+	],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -26,5 +88,8 @@
 		}
 	},
 	"standard":false,
-	"version":0
+	"tags":[
+		
+	],
+	"version":2
 }
