@@ -40,7 +40,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -50,7 +49,7 @@
 	"id":"68388c4efdb35d0130406ed0",
 	"lastModifiedBy":-1,
 	"lcName":"eval | experiment | export experiment runs",
-	"modifiedTime":1775391429920,
+	"modifiedTime":1775407742542,
 	"name":"Eval | Experiment | Export Experiment Runs",
 	"nodes":[
 		{
@@ -226,5 +225,5 @@
 	"tags":[
 		
 	],
-	"version":205
+	"version":206
 }
