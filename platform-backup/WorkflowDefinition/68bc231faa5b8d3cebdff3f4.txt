@@ -4,14 +4,14 @@
 	],
 	"createdTime":1757528316920,
 	"deleted":false,
-	"deployedVersion":11,
+	"deployedVersion":13,
 	"deploymentState":{
-		"deployedAt":1774435078549,
+		"deployedAt":1775391265945,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c3bb064fa6a57b4b166d23",
+		"deployedDefinitionId":"69d2522150e82945c76a661b",
 		"status":"DEPLOYED",
-		"version":11,
-		"workflowVersion":88
+		"version":13,
+		"workflowVersion":91
 	},
 	"edges":[
 		{
@@ -128,6 +128,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -137,7 +138,7 @@
 	"id":"68bc231faa5b8d3cebdff3f4",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge downloader | sharepoint | folder",
-	"modifiedTime":1775389960185,
+	"modifiedTime":1775391435947,
 	"name":"Knowledge Downloader | Sharepoint | Folder",
 	"nodes":[
 		{
@@ -444,6 +445,7 @@
 				"downloadedCount":0
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -946,5 +948,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":89
+	"version":92
 }
