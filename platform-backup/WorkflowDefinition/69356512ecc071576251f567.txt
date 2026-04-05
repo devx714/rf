@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769422060260,
 	"deleted":false,
-	"deployedVersion":14,
+	"deployedVersion":17,
 	"deploymentState":{
-		"deployedAt":1774342890238,
+		"deployedAt":1775385569436,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252ea29fa153f07e09a23",
+		"deployedDefinitionId":"69d23be1b31cfc01cc39ef1f",
 		"status":"DEPLOYED",
-		"version":14,
-		"workflowVersion":33
+		"version":17,
+		"workflowVersion":39
 	},
 	"edges":[
 		{
@@ -352,7 +352,7 @@
 	"id":"69356512ecc071576251f567",
 	"lastModifiedBy":-1,
 	"lcName":"call vertex embeddings",
-	"modifiedTime":1775320618267,
+	"modifiedTime":1775389932818,
 	"name":"Call Vertex Embeddings",
 	"nodes":[
 		{
@@ -2659,5 +2659,5 @@
 	"tags":[
 		
 	],
-	"version":35
+	"version":41
 }
