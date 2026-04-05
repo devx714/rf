@@ -4,14 +4,14 @@
 	],
 	"createdTime":1753102597407,
 	"deleted":false,
-	"deployedVersion":29,
+	"deployedVersion":32,
 	"deploymentState":{
-		"deployedAt":1775334455289,
+		"deployedAt":1775391329181,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1743739824e0613819c07",
+		"deployedDefinitionId":"69d2526150e82945c76a696a",
 		"status":"DEPLOYED",
-		"version":29,
-		"workflowVersion":105
+		"version":32,
+		"workflowVersion":111
 	},
 	"edges":[
 		{
@@ -56,7 +56,7 @@
 	"id":"687a9b9aa5fccfdfa73ac6b7",
 	"lastModifiedBy":-1,
 	"lcName":"call azure openai",
-	"modifiedTime":1775385609568,
+	"modifiedTime":1775407795534,
 	"name":"Call Azure OpenAI",
 	"nodes":[
 		{
@@ -855,5 +855,5 @@
 		}
 	},
 	"standard":true,
-	"version":107
+	"version":113
 }
