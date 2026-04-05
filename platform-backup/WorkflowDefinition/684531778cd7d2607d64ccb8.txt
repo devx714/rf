@@ -4,14 +4,14 @@
 	],
 	"createdTime":1750490403032,
 	"deleted":false,
-	"deployedVersion":56,
+	"deployedVersion":59,
 	"deploymentState":{
-		"deployedAt":1774342978245,
+		"deployedAt":1775385647125,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2534229fa153f07e09de7",
+		"deployedDefinitionId":"69d23c2fb41de37eb670f7ca",
 		"status":"DEPLOYED",
-		"version":56,
-		"workflowVersion":106
+		"version":59,
+		"workflowVersion":112
 	},
 	"edges":[
 		{
@@ -68,7 +68,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -78,7 +77,7 @@
 	"id":"684531778cd7d2607d64ccb8",
 	"lastModifiedBy":-1,
 	"lcName":"graphrag | destroy index by graphid",
-	"modifiedTime":1774622956168,
+	"modifiedTime":1775390094932,
 	"name":"GraphRAG | Destroy Index by GraphID",
 	"nodes":[
 		{
@@ -415,5 +414,5 @@
 	"tags":[
 		
 	],
-	"version":107
+	"version":114
 }
