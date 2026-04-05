@@ -4,14 +4,14 @@
 	],
 	"createdTime":1729235931163,
 	"deleted":false,
-	"deployedVersion":85,
+	"deployedVersion":89,
 	"deploymentState":{
-		"deployedAt":1775320657150,
+		"deployedAt":1775391323933,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e5183aecf24ec254cd7",
+		"deployedDefinitionId":"69d2525b50e82945c76a690c",
 		"status":"DEPLOYED",
-		"version":85,
-		"workflowVersion":137
+		"version":89,
+		"workflowVersion":145
 	},
 	"edges":[
 		{
@@ -40,6 +40,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -49,7 +50,7 @@
 	"id":"670ff744c425f16664abfcde",
 	"lastModifiedBy":-1,
 	"lcName":"languagebasedslotsgetter",
-	"modifiedTime":1775334451861,
+	"modifiedTime":1775391430606,
 	"name":"LanguageBasedSlotsGetter",
 	"nodes":[
 		{
@@ -247,5 +248,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":139
+	"version":146
 }
