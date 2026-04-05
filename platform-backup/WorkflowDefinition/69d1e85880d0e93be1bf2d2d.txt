@@ -82,6 +82,7 @@
 				"b":"hi hello"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
