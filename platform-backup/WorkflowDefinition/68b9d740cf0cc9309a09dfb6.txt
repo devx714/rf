@@ -49,7 +49,7 @@
 	"id":"68b9d740cf0cc9309a09dfb6",
 	"lastModifiedBy":-1,
 	"lcName":"fetch case citations",
-	"modifiedTime":1775385652183,
+	"modifiedTime":1775390102104,
 	"name":"Fetch Case Citations",
 	"nodes":[
 		{
@@ -282,5 +282,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":67
+	"version":69
 }
