@@ -199,7 +199,7 @@
 	"id":"6867a54b78989b484e92345e",
 	"lastModifiedBy":-1,
 	"lcName":"store knowledge raw data",
-	"modifiedTime":1775385567266,
+	"modifiedTime":1775389929785,
 	"name":"Store Knowledge Raw Data",
 	"nodes":[
 		{
@@ -373,7 +373,6 @@
 				"knowledgeSetId":"{{ n_mCuz4.outputs.knowledgeSetId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1235,5 +1234,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":148
+	"version":150
 }
