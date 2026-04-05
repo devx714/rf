@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762858121807,
 	"deleted":false,
-	"deployedVersion":33,
+	"deployedVersion":35,
 	"deploymentState":{
-		"deployedAt":1775385539329,
+		"deployedAt":1775391191608,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bc3b31cfc01cc39eb71",
+		"deployedDefinitionId":"69d251d750e82945c76a6239",
 		"status":"DEPLOYED",
-		"version":33,
-		"workflowVersion":68
+		"version":35,
+		"workflowVersion":72
 	},
 	"edges":[
 		{
@@ -63,6 +63,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -72,7 +73,7 @@
 	"id":"690a229fced20f56448f280b",
 	"lastModifiedBy":-1,
 	"lcName":"store split reporting",
-	"modifiedTime":1775389860156,
+	"modifiedTime":1775391435960,
 	"name":"Store Split Reporting",
 	"nodes":[
 		{
@@ -363,5 +364,5 @@
 	"tags":[
 		
 	],
-	"version":70
+	"version":73
 }
