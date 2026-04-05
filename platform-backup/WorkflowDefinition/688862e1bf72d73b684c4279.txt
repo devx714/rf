@@ -33,7 +33,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -43,7 +42,7 @@
 	"id":"688862e1bf72d73b684c4279",
 	"lastModifiedBy":-1,
 	"lcName":"upload file",
-	"modifiedTime":1775334706122,
+	"modifiedTime":1775385592315,
 	"name":"Upload File",
 	"nodes":[
 		{
@@ -272,5 +271,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":72
+	"version":73
 }
