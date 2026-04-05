@@ -4,14 +4,14 @@
 	],
 	"createdTime":1747292837083,
 	"deleted":false,
-	"deployedVersion":56,
+	"deployedVersion":57,
 	"deploymentState":{
-		"deployedAt":1773928145977,
+		"deployedAt":1775389908798,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfed140a2b92de9fe6904",
+		"deployedDefinitionId":"69d24cd450e82945c76a3f86",
 		"status":"DEPLOYED",
-		"version":56,
-		"workflowVersion":115
+		"version":57,
+		"workflowVersion":116
 	},
 	"edges":[
 		{
@@ -220,6 +220,17 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
+					"V"
+				],
+				"principalIds":[
+					"43523"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -229,7 +240,7 @@
 	"id":"682592a5b551bb619c450810",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | bitbucket server | index pr",
-	"modifiedTime":1775389908712,
+	"modifiedTime":1775390108838,
 	"name":"Knowledge Indexer | Bitbucket Server | Index PR",
 	"nodes":[
 		{
@@ -453,6 +464,7 @@
 				"projectHasMore":true
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -720,6 +732,7 @@
 				"repoPageNumber":0
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1026,6 +1039,7 @@
 				"prLimit":50
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1274,5 +1288,5 @@
 	"tags":[
 		
 	],
-	"version":116
+	"version":117
 }
