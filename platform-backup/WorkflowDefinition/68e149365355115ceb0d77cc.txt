@@ -122,7 +122,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -132,7 +131,7 @@
 	"id":"68e149365355115ceb0d77cc",
 	"lastModifiedBy":-1,
 	"lcName":"transfer downloader cursors ",
-	"modifiedTime":1775334707020,
+	"modifiedTime":1775385580052,
 	"name":"Transfer Downloader Cursors ",
 	"nodes":[
 		{
@@ -289,7 +288,6 @@
 				"hasMore":true
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -674,5 +672,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":96
+	"version":97
 }
