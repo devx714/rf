@@ -4,14 +4,14 @@
 	],
 	"createdTime":1746006649885,
 	"deleted":false,
-	"deployedVersion":77,
+	"deployedVersion":80,
 	"deploymentState":{
-		"deployedAt":1775334454182,
+		"deployedAt":1775391327681,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1743639824e0613819bf5",
+		"deployedDefinitionId":"69d2525f50e82945c76a6950",
 		"status":"DEPLOYED",
-		"version":77,
-		"workflowVersion":150
+		"version":80,
+		"workflowVersion":156
 	},
 	"edges":[
 		{
@@ -186,7 +186,7 @@
 	"id":"67dd2352c97621366e114e06",
 	"lastModifiedBy":-1,
 	"lcName":"get html content of a url",
-	"modifiedTime":1775385608372,
+	"modifiedTime":1775407794051,
 	"name":"Get HTML Content of a URL",
 	"nodes":[
 		{
@@ -833,5 +833,5 @@
 	"tags":[
 		
 	],
-	"version":152
+	"version":158
 }
