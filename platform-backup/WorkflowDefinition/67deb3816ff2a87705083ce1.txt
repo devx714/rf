@@ -4,14 +4,14 @@
 	],
 	"createdTime":1742648193253,
 	"deleted":false,
-	"deployedVersion":87,
+	"deployedVersion":88,
 	"deploymentState":{
-		"deployedAt":1775320605636,
+		"deployedAt":1775334384541,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e1d83aecf24ec254774",
+		"deployedDefinitionId":"69d173f039824e0613819817",
 		"status":"DEPLOYED",
-		"version":87,
-		"workflowVersion":131
+		"version":88,
+		"workflowVersion":133
 	},
 	"edges":[
 		{
@@ -282,7 +282,7 @@
 	"id":"67deb3816ff2a87705083ce1",
 	"lastModifiedBy":-1,
 	"lcName":"[mcp server] call tool",
-	"modifiedTime":1775334384431,
+	"modifiedTime":1775385557480,
 	"name":"[MCP Server] Call Tool",
 	"nodes":[
 		{
@@ -2088,5 +2088,5 @@
 	"tags":[
 		"MCP Server"
 	],
-	"version":133
+	"version":135
 }
