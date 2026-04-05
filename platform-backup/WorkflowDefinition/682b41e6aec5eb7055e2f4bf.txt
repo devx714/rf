@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748330608113,
 	"deleted":false,
-	"deployedVersion":79,
+	"deployedVersion":80,
 	"deploymentState":{
-		"deployedAt":1775385602466,
+		"deployedAt":1775390015731,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c02b41de37eb670f5a0",
+		"deployedDefinitionId":"69d24d3f50e82945c76a44cb",
 		"status":"DEPLOYED",
-		"version":79,
-		"workflowVersion":136
+		"version":80,
+		"workflowVersion":138
 	},
 	"edges":[
 		{
@@ -487,6 +487,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -496,7 +497,7 @@
 	"id":"682b41e6aec5eb7055e2f4bf",
 	"lastModifiedBy":-1,
 	"lcName":"call llm messages to gemini payload messages",
-	"modifiedTime":1775385602467,
+	"modifiedTime":1775390109062,
 	"name":"Call LLM Messages to Gemini payload Messages",
 	"nodes":[
 		{
@@ -3420,5 +3421,5 @@
 		}
 	},
 	"standard":true,
-	"version":136
+	"version":139
 }
