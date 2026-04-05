@@ -4,14 +4,14 @@
 	],
 	"createdTime":1740110501894,
 	"deleted":false,
-	"deployedVersion":87,
+	"deployedVersion":88,
 	"deploymentState":{
-		"deployedAt":1775334338813,
+		"deployedAt":1775385537398,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173c239824e0613819622",
+		"deployedDefinitionId":"69d23bc1b31cfc01cc39eb50",
 		"status":"DEPLOYED",
-		"version":87,
-		"workflowVersion":186
+		"version":88,
+		"workflowVersion":188
 	},
 	"edges":[
 		{
@@ -86,7 +86,7 @@
 	"id":"6789073d14d7fb7882cdaaad",
 	"lastModifiedBy":-1,
 	"lcName":"call agent api",
-	"modifiedTime":1775385537346,
+	"modifiedTime":1775385537400,
 	"name":"Call Agent API",
 	"nodes":[
 		{
@@ -237,6 +237,7 @@
 				"toCustomerUserId":"AI_AGENT_{{ 8mT24.outputs.body.SessionID }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
