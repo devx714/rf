@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748544412118,
 	"deleted":false,
-	"deployedVersion":87,
+	"deployedVersion":89,
 	"deploymentState":{
-		"deployedAt":1775385562345,
+		"deployedAt":1775391249668,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bdab31cfc01cc39ee90",
+		"deployedDefinitionId":"69d2521150e82945c76a64dc",
 		"status":"DEPLOYED",
-		"version":87,
-		"workflowVersion":168
+		"version":89,
+		"workflowVersion":172
 	},
 	"edges":[
 		{
@@ -924,6 +924,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -933,7 +934,7 @@
 	"id":"6805ed8f0b23cb21fda8bb24",
 	"lastModifiedBy":-1,
 	"lcName":"run query on sql based platforms",
-	"modifiedTime":1775389922234,
+	"modifiedTime":1775391434400,
 	"name":"Run Query On SQL Based Platforms",
 	"nodes":[
 		{
@@ -5005,5 +5006,5 @@
 	"tags":[
 		
 	],
-	"version":170
+	"version":173
 }
