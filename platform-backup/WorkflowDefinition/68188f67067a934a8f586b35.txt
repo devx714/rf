@@ -4,14 +4,14 @@
 	],
 	"createdTime":1746440039597,
 	"deleted":false,
-	"deployedVersion":124,
+	"deployedVersion":125,
 	"deploymentState":{
-		"deployedAt":1775385635827,
+		"deployedAt":1775390060957,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c23b41de37eb670f74d",
+		"deployedDefinitionId":"69d24d6c50e82945c76a4891",
 		"status":"DEPLOYED",
-		"version":124,
-		"workflowVersion":206
+		"version":125,
+		"workflowVersion":208
 	},
 	"edges":[
 		{
@@ -175,6 +175,27 @@
 		"configs":[
 			{
 				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"43502"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -184,7 +205,7 @@
 	"id":"68188f67067a934a8f586b35",
 	"lastModifiedBy":-1,
 	"lcName":"annotation | hitl metric score",
-	"modifiedTime":1775385635828,
+	"modifiedTime":1775390109834,
 	"name":"Annotation | HITL Metric Score",
 	"nodes":[
 		{
@@ -1503,5 +1524,5 @@
 	"tags":[
 		
 	],
-	"version":206
+	"version":209
 }
