@@ -1,6 +1,6 @@
 {
 	"createdTime":1775365358655,
-	"deleted":false,
+	"deleted":true,
 	"description":"nZNFSLdGFT",
 	"id":"69d1ecee3056b31235b558b0",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiuwyhfnsjxa",
-	"modifiedTime":1775365358655,
+	"modifiedTime":1775368232474,
 	"name":"changeSetQA2AIUwYHFNsJXA",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
