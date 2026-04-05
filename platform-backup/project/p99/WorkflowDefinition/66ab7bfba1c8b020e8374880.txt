@@ -112,27 +112,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"161165"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -142,7 +121,7 @@
 	"id":"66ab7bfba1c8b020e8374880",
 	"lastModifiedBy":-1,
 	"lcName":"2_code_generation_call_ai_agent",
-	"modifiedTime":1775334706640,
+	"modifiedTime":1775385617563,
 	"name":"2_Code_Generation_Call_AI_Agent",
 	"nodes":[
 		{
@@ -264,7 +243,6 @@
 				"defaultToCustomerId":"AI_CO_PILOT_ID"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -362,7 +340,6 @@
 				"responseId":"{{ hQkxu.outputs.responseId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -640,5 +617,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":171
+	"version":172
 }
