@@ -4,14 +4,14 @@
 	],
 	"createdTime":1751468160656,
 	"deleted":false,
-	"deployedVersion":35,
+	"deployedVersion":37,
 	"deploymentState":{
-		"deployedAt":1773928103326,
+		"deployedAt":1775391371951,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfea716170c6243806702",
+		"deployedDefinitionId":"69d2528b50e82945c76a6b17",
 		"status":"DEPLOYED",
-		"version":35,
-		"workflowVersion":58
+		"version":37,
+		"workflowVersion":61
 	},
 	"edges":[
 		{
@@ -126,6 +126,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -135,7 +136,7 @@
 	"id":"68654880b2f6bd0d74917761",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | qualtrics surveys ",
-	"modifiedTime":1775390048139,
+	"modifiedTime":1775391429646,
 	"name":"Knowledge Indexer | Qualtrics Surveys ",
 	"nodes":[
 		{
@@ -394,6 +395,7 @@
 				"hasMore":true
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -813,5 +815,5 @@
 		}
 	},
 	"standard":true,
-	"version":59
+	"version":62
 }
