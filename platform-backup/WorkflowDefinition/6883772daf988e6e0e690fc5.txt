@@ -602,7 +602,7 @@
 	"id":"6883772daf988e6e0e690fc5",
 	"lastModifiedBy":-1,
 	"lcName":"read file using docling",
-	"modifiedTime":1775385566341,
+	"modifiedTime":1775389928238,
 	"name":"Read File Using Docling",
 	"nodes":[
 		{
@@ -1065,7 +1065,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1557,7 +1556,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1987,7 +1985,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2658,7 +2655,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -4345,5 +4341,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":138
+	"version":140
 }
