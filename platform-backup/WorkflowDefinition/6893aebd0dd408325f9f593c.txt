@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756128822649,
 	"deleted":false,
-	"deployedVersion":49,
+	"deployedVersion":51,
 	"deploymentState":{
-		"deployedAt":1775320666921,
+		"deployedAt":1775385615589,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e5ac6b0c9120df174e4",
+		"deployedDefinitionId":"69d23c0fb31cfc01cc39f207",
 		"status":"DEPLOYED",
-		"version":49,
-		"workflowVersion":93
+		"version":51,
+		"workflowVersion":97
 	},
 	"edges":[
 		{
@@ -133,7 +133,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -143,7 +142,7 @@
 	"id":"6893aebd0dd408325f9f593c",
 	"lastModifiedBy":-1,
 	"lcName":"fetch recent accessed documents",
-	"modifiedTime":1775320890866,
+	"modifiedTime":1775390033980,
 	"name":"Fetch Recent Accessed Documents",
 	"nodes":[
 		{
@@ -412,7 +411,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -684,7 +682,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1154,5 +1151,5 @@
 	"tags":[
 		
 	],
-	"version":94
+	"version":99
 }
