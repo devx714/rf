@@ -123,7 +123,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -133,7 +132,7 @@
 	"id":"690b1cabd563c5323c413eb4",
 	"lastModifiedBy":-1,
 	"lcName":"query language detector - unifyapps",
-	"modifiedTime":1775334706659,
+	"modifiedTime":1775385652735,
 	"name":"Query Language Detector - Unifyapps",
 	"nodes":[
 		{
@@ -260,7 +259,6 @@
 				"detectionthreshold":"={{ n_9LTm6.outputs.detectionthreshold }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -864,5 +862,5 @@
 	"tags":[
 		
 	],
-	"version":43
+	"version":44
 }
