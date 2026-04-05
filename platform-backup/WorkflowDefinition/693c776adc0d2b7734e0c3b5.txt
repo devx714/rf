@@ -4,15 +4,15 @@
 	],
 	"createdTime":1766522747243,
 	"deleted":false,
-	"deployedVersion":23,
+	"deployedVersion":25,
 	"deploymentState":{
-		"deployedAt":1775320661118,
+		"deployedAt":1775385610001,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e55c6b0c9120df174a1",
+		"deployedDefinitionId":"69d23c09b41de37eb670f61b",
 		"deploymentTag":"vi_index_or_sendLLM_change",
 		"status":"DEPLOYED",
-		"version":23,
-		"workflowVersion":75
+		"version":25,
+		"workflowVersion":79
 	},
 	"edges":[
 		{
@@ -316,7 +316,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -326,7 +325,7 @@
 	"id":"693c776adc0d2b7734e0c3b5",
 	"lastModifiedBy":-1,
 	"lcName":"attachment convert and splitter",
-	"modifiedTime":1775320889344,
+	"modifiedTime":1775390026316,
 	"name":"Attachment Convert and Splitter",
 	"nodes":[
 		{
@@ -544,7 +543,6 @@
 				"aiAgentId":"{{ n_d8bhp.outputs.aiAgentId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -610,7 +608,6 @@
 				"isCsvExcel":false
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1780,7 +1777,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1891,5 +1887,5 @@
 		}
 	},
 	"standard":true,
-	"version":76
+	"version":81
 }
