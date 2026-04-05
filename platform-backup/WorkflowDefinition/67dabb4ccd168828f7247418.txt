@@ -4,14 +4,14 @@
 	],
 	"createdTime":1742392461207,
 	"deleted":false,
-	"deployedVersion":87,
+	"deployedVersion":88,
 	"deploymentState":{
-		"deployedAt":1775334475537,
+		"deployedAt":1775385630862,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1744b39824e0613819db6",
+		"deployedDefinitionId":"69d23c1eb31cfc01cc39f33a",
 		"status":"DEPLOYED",
-		"version":87,
-		"workflowVersion":134
+		"version":88,
+		"workflowVersion":136
 	},
 	"edges":[
 		{
@@ -49,7 +49,7 @@
 	"id":"67dabb4ccd168828f7247418",
 	"lastModifiedBy":-1,
 	"lcName":"get agent info",
-	"modifiedTime":1775385630815,
+	"modifiedTime":1775390054339,
 	"name":"Get Agent Info",
 	"nodes":[
 		{
@@ -218,5 +218,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":136
+	"version":138
 }
