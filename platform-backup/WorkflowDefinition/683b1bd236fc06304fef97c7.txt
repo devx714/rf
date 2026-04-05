@@ -4,14 +4,14 @@
 	],
 	"createdTime":1749503817226,
 	"deleted":false,
-	"deployedVersion":83,
+	"deployedVersion":85,
 	"deploymentState":{
-		"deployedAt":1775320700115,
+		"deployedAt":1775385649067,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e7bc6b0c9120df175dc",
+		"deployedDefinitionId":"69d23c30b41de37eb670f7ec",
 		"status":"DEPLOYED",
-		"version":83,
-		"workflowVersion":234
+		"version":85,
+		"workflowVersion":238
 	},
 	"edges":[
 		{
@@ -506,7 +506,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -516,7 +515,7 @@
 	"id":"683b1bd236fc06304fef97c7",
 	"lastModifiedBy":-1,
 	"lcName":"chunk enrichment ",
-	"modifiedTime":1775320891514,
+	"modifiedTime":1775385649068,
 	"name":"Chunk Enrichment ",
 	"nodes":[
 		{
@@ -3972,5 +3971,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":235
+	"version":238
 }
