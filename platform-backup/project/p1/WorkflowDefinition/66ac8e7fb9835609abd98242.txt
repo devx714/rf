@@ -4,14 +4,14 @@
 	],
 	"createdTime":1722584703093,
 	"deleted":false,
-	"deployedVersion":110,
+	"deployedVersion":112,
 	"deploymentState":{
-		"deployedAt":1775385593829,
+		"deployedAt":1775391308567,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bf9b41de37eb670f57c",
+		"deployedDefinitionId":"69d2524c50e82945c76a67dd",
 		"status":"DEPLOYED",
-		"version":110,
-		"workflowVersion":181
+		"version":112,
+		"workflowVersion":185
 	},
 	"edges":[
 		{
@@ -369,7 +369,7 @@
 	"id":"66ac8e7fb9835609abd98242",
 	"lastModifiedBy":-1,
 	"lcName":"data rag",
-	"modifiedTime":1775385593830,
+	"modifiedTime":1775407774053,
 	"name":"Data RAG",
 	"nodes":[
 		{
@@ -461,7 +461,6 @@
 				"dataRAGasActionEnabled":true
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -657,7 +656,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -846,7 +844,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1301,7 +1298,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1566,7 +1562,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2356,5 +2351,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":181
+	"version":187
 }
