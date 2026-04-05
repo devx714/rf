@@ -4,14 +4,14 @@
 	],
 	"createdTime":1738062228653,
 	"deleted":false,
-	"deployedVersion":112,
+	"deployedVersion":113,
 	"deploymentState":{
-		"deployedAt":1775334471974,
+		"deployedAt":1775385627340,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1744739824e0613819d6c",
+		"deployedDefinitionId":"69d23c1bb41de37eb670f6e7",
 		"status":"DEPLOYED",
-		"version":112,
-		"workflowVersion":196
+		"version":113,
+		"workflowVersion":198
 	},
 	"edges":[
 		{
@@ -781,37 +781,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
-					"V"
-				],
-				"principalIds":[
-					"522"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"161165"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -821,7 +790,7 @@
 	"id":"67933cc866e1f1098aa02c39",
 	"lastModifiedBy":-1,
 	"lcName":"invoke agent/ team",
-	"modifiedTime":1775334705709,
+	"modifiedTime":1775390049393,
 	"name":"Invoke Agent/ Team",
 	"nodes":[
 		{
@@ -939,7 +908,6 @@
 				"aiAgentId":"{{ TDKJR.outputs.aiAgentId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1098,7 +1066,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1650,7 +1617,6 @@
 				"disableThought":"{{ n_PdiuA.outputs.properties.responseGenerationSettings.disableThought }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2491,7 +2457,6 @@
 				"userQueryForRagGPT":"{{ TDKJR.outputs.userQueryForRagGPT }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -3903,5 +3868,5 @@
 		"Internal",
 		"Team"
 	],
-	"version":197
+	"version":200
 }
