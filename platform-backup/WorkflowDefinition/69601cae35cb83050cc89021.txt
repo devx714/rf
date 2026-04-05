@@ -47,7 +47,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -57,7 +56,7 @@
 	"id":"69601cae35cb83050cc89021",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | google calender | meet",
-	"modifiedTime":1775391435611,
+	"modifiedTime":1775407775080,
 	"name":"Knowledge Indexer | Google Calender | Meet",
 	"nodes":[
 		{
@@ -341,5 +340,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":6
+	"version":7
 }
