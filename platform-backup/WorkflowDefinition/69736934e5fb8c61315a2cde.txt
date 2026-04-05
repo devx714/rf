@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769422232111,
 	"deleted":false,
-	"deployedVersion":12,
+	"deployedVersion":13,
 	"deploymentState":{
-		"deployedAt":1775320680899,
+		"deployedAt":1775334474199,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e6883aecf24ec254edf",
+		"deployedDefinitionId":"69d1744a39824e0613819d98",
 		"status":"DEPLOYED",
-		"version":12,
-		"workflowVersion":26
+		"version":13,
+		"workflowVersion":28
 	},
 	"edges":[
 		{
@@ -93,7 +93,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -103,7 +102,7 @@
 	"id":"69736934e5fb8c61315a2cde",
 	"lastModifiedBy":-1,
 	"lcName":"agent cache management evict cache",
-	"modifiedTime":1775320891188,
+	"modifiedTime":1775385629389,
 	"name":"Agent Cache Management Evict cache",
 	"nodes":[
 		{
@@ -424,5 +423,5 @@
 	"tags":[
 		
 	],
-	"version":27
+	"version":30
 }
