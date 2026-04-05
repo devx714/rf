@@ -4,14 +4,14 @@
 	],
 	"createdTime":1737987579428,
 	"deleted":false,
-	"deployedVersion":73,
+	"deployedVersion":75,
 	"deploymentState":{
-		"deployedAt":1775320589956,
+		"deployedAt":1775385551784,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e0d83aecf24ec254696",
+		"deployedDefinitionId":"69d23bcfb31cfc01cc39ed82",
 		"status":"DEPLOYED",
-		"version":73,
-		"workflowVersion":121
+		"version":75,
+		"workflowVersion":125
 	},
 	"edges":[
 		{
@@ -86,7 +86,7 @@
 	"id":"679795fb3c56e407da9fd959",
 	"lastModifiedBy":-1,
 	"lcName":"clustering | generate and store embeddings - batch",
-	"modifiedTime":1775334356257,
+	"modifiedTime":1775385551785,
 	"name":"Clustering | Generate and Store Embeddings - Batch",
 	"nodes":[
 		{
@@ -453,6 +453,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -674,5 +675,5 @@
 	"tags":[
 		"Clustering"
 	],
-	"version":123
+	"version":125
 }
