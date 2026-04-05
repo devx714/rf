@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748544367852,
 	"deleted":false,
-	"deployedVersion":82,
+	"deployedVersion":83,
 	"deploymentState":{
-		"deployedAt":1775390037237,
+		"deployedAt":1775391360954,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d24d5550e82945c76a4689",
+		"deployedDefinitionId":"69d2528050e82945c76a6a47",
 		"status":"DEPLOYED",
-		"version":82,
-		"workflowVersion":136
+		"version":83,
+		"workflowVersion":138
 	},
 	"edges":[
 		{
@@ -88,7 +88,7 @@
 	"id":"68284de7df825e08a73ea58e",
 	"lastModifiedBy":-1,
 	"lcName":"expired chunks | authority rerank documents",
-	"modifiedTime":1775390109162,
+	"modifiedTime":1775391433182,
 	"name":"Expired Chunks | Authority Rerank Documents",
 	"nodes":[
 		{
@@ -690,5 +690,5 @@
 	"tags":[
 		
 	],
-	"version":137
+	"version":139
 }
