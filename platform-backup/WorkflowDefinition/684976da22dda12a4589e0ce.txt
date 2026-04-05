@@ -4,14 +4,14 @@
 	],
 	"createdTime":1749732622489,
 	"deleted":false,
-	"deployedVersion":36,
+	"deployedVersion":41,
 	"deploymentState":{
-		"deployedAt":1774342918601,
+		"deployedAt":1775391307331,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2530629fa153f07e09bce",
+		"deployedDefinitionId":"69d2524b50e82945c76a67c3",
 		"status":"DEPLOYED",
-		"version":36,
-		"workflowVersion":73
+		"version":41,
+		"workflowVersion":83
 	},
 	"edges":[
 		{
@@ -84,7 +84,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -94,7 +93,7 @@
 	"id":"684976da22dda12a4589e0ce",
 	"lastModifiedBy":-1,
 	"lcName":"pinning/unpinning support in copilot",
-	"modifiedTime":1774622955789,
+	"modifiedTime":1775407772698,
 	"name":"Pinning/Unpinning support in copilot",
 	"nodes":[
 		{
@@ -546,5 +545,5 @@
 	"tags":[
 		
 	],
-	"version":74
+	"version":85
 }
