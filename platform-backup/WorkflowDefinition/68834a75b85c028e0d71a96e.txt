@@ -4,14 +4,14 @@
 	],
 	"createdTime":1754285426565,
 	"deleted":false,
-	"deployedVersion":61,
+	"deployedVersion":62,
 	"deploymentState":{
-		"deployedAt":1775391362198,
+		"deployedAt":1775407808984,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2528250e82945c76a6a61",
+		"deployedDefinitionId":"69d292c00e422443cf560812",
 		"status":"DEPLOYED",
-		"version":61,
-		"workflowVersion":123
+		"version":62,
+		"workflowVersion":125
 	},
 	"edges":[
 		{
@@ -57,7 +57,7 @@
 	"id":"68834a75b85c028e0d71a96e",
 	"lastModifiedBy":-1,
 	"lcName":"chunk fetcher | weaviate",
-	"modifiedTime":1775391437871,
+	"modifiedTime":1775408109569,
 	"name":"Chunk Fetcher | Weaviate",
 	"nodes":[
 		{
@@ -449,5 +449,5 @@
 	"tags":[
 		
 	],
-	"version":124
+	"version":126
 }
