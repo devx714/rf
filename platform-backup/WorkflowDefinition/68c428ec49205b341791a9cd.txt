@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762858246489,
 	"deleted":false,
-	"deployedVersion":31,
+	"deployedVersion":34,
 	"deploymentState":{
-		"deployedAt":1775385627647,
+		"deployedAt":1775407820866,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c1bb41de37eb670f6f1",
+		"deployedDefinitionId":"69d292cc0e422443cf5608b8",
 		"status":"DEPLOYED",
-		"version":31,
-		"workflowVersion":64
+		"version":34,
+		"workflowVersion":70
 	},
 	"edges":[
 		{
@@ -47,6 +47,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -56,7 +57,7 @@
 	"id":"68c428ec49205b341791a9cd",
 	"lastModifiedBy":-1,
 	"lcName":"contextual retrieval indexer",
-	"modifiedTime":1775385627648,
+	"modifiedTime":1775408099932,
 	"name":"Contextual Retrieval Indexer",
 	"nodes":[
 		{
@@ -270,5 +271,5 @@
 	"tags":[
 		
 	],
-	"version":64
+	"version":71
 }
