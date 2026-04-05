@@ -4,14 +4,14 @@
 	],
 	"createdTime":1747641655141,
 	"deleted":false,
-	"deployedVersion":85,
+	"deployedVersion":86,
 	"deploymentState":{
-		"deployedAt":1775320638788,
+		"deployedAt":1775334414788,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e3e83aecf24ec254b81",
+		"deployedDefinitionId":"69d1740e39824e0613819a51",
 		"status":"DEPLOYED",
-		"version":85,
-		"workflowVersion":198
+		"version":86,
+		"workflowVersion":200
 	},
 	"edges":[
 		{
@@ -273,7 +273,7 @@
 	"id":"68126b879576f34b4cbd0ae9",
 	"lastModifiedBy":-1,
 	"lcName":"text to workflow v2 | updateworkflow tool",
-	"modifiedTime":1775334414544,
+	"modifiedTime":1775385587651,
 	"name":"Text to Workflow v2 | UpdateWorkflow Tool",
 	"nodes":[
 		{
@@ -1689,5 +1689,5 @@
 	"tags":[
 		"Text_to_Workflow_v2"
 	],
-	"version":200
+	"version":202
 }
