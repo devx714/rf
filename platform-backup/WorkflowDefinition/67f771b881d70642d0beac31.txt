@@ -4,14 +4,14 @@
 	],
 	"createdTime":1744441368104,
 	"deleted":false,
-	"deployedVersion":41,
+	"deployedVersion":42,
 	"deploymentState":{
-		"deployedAt":1775391329662,
+		"deployedAt":1775407796049,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2526150e82945c76a6974",
+		"deployedDefinitionId":"69d292b4a2eda46706b04826",
 		"status":"DEPLOYED",
-		"version":41,
-		"workflowVersion":61
+		"version":42,
+		"workflowVersion":63
 	},
 	"edges":[
 		{
@@ -33,6 +33,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -42,7 +43,7 @@
 	"id":"67f771b881d70642d0beac31",
 	"lastModifiedBy":-1,
 	"lcName":"[microsoft dynamics 365 crm] get users sharedwithids",
-	"modifiedTime":1775407795999,
+	"modifiedTime":1775408104847,
 	"name":"[Microsoft Dynamics 365 CRM] Get Users SharedWithIds",
 	"nodes":[
 		{
@@ -334,6 +335,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -396,5 +398,5 @@
 		}
 	},
 	"standard":true,
-	"version":63
+	"version":64
 }
