@@ -4,14 +4,14 @@
 	],
 	"createdTime":1747641656818,
 	"deleted":false,
-	"deployedVersion":89,
+	"deployedVersion":92,
 	"deploymentState":{
-		"deployedAt":1775385545058,
+		"deployedAt":1775407704445,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bc9b31cfc01cc39ecba",
+		"deployedDefinitionId":"69d29258a2eda46706b04419",
 		"status":"DEPLOYED",
-		"version":89,
-		"workflowVersion":152
+		"version":92,
+		"workflowVersion":158
 	},
 	"edges":[
 		{
@@ -333,6 +333,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -342,7 +343,7 @@
 	"id":"68244d7f1249194de4ab31c3",
 	"lastModifiedBy":-1,
 	"lcName":"text to workflow v2 | get input schema with instruction",
-	"modifiedTime":1775385545059,
+	"modifiedTime":1775408108363,
 	"name":"Text to Workflow v2 | Get Input Schema with Instruction",
 	"nodes":[
 		{
@@ -1565,5 +1566,5 @@
 	"tags":[
 		"Text_to_Workflow_v2"
 	],
-	"version":152
+	"version":159
 }
