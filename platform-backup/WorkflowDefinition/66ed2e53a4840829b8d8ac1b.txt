@@ -40,37 +40,16 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
-			},
-			{
-				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"6757db349b09ba5b01b6c44c"
-				],
-				"principalType":"USER_GROUPS"
 			}
 		]
 	},
 	"id":"66ed2e53a4840829b8d8ac1b",
 	"lastModifiedBy":-1,
 	"lcName":"observability | export conversation",
-	"modifiedTime":1775334707222,
+	"modifiedTime":1775385615911,
 	"name":"Observability | Export Conversation",
 	"nodes":[
 		{
@@ -228,5 +207,5 @@
 		"AI Agent",
 		"Observation"
 	],
-	"version":134
+	"version":135
 }
