@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775365078130,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775365078270,
+		"deployedBy":175325,
+		"deployedDefinitionId":"69d1ebd63056b31235b55750",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"edges":[
 		{
 			"fromNodeId":"tU6qw",
@@ -23,7 +32,7 @@
 	"id":"69d1ebd63056b31235b5574a",
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa26898337624",
-	"modifiedTime":1775365078191,
+	"modifiedTime":1775365078271,
 	"name":"changeSetQA26898337624",
 	"nodes":[
 		{
@@ -33,7 +42,7 @@
 				"resourceName":"callables_from_automation"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"Hgega-1",
 			"id":"tU6qw",
@@ -55,7 +64,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"Hgega-1",
 			"id":"FmWqc",
@@ -79,7 +88,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"Hgega-1",
 			"id":"9gowA",
