@@ -144,7 +144,7 @@
 	"id":"690c4fd26841d67da28f07c7",
 	"lastModifiedBy":-1,
 	"lcName":"generateppt",
-	"modifiedTime":1775391164180,
+	"modifiedTime":1775407688184,
 	"name":"GeneratePPT",
 	"nodes":[
 		{
@@ -486,7 +486,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1036,5 +1035,5 @@
 	"tags":[
 		
 	],
-	"version":175
+	"version":176
 }
