@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756795874797,
 	"deleted":false,
-	"deployedVersion":44,
+	"deployedVersion":47,
 	"deploymentState":{
-		"deployedAt":1774342960657,
+		"deployedAt":1775385630123,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2533029fa153f07e09d70",
+		"deployedDefinitionId":"69d23c1eb41de37eb670f712",
 		"status":"DEPLOYED",
-		"version":44,
-		"workflowVersion":82
+		"version":47,
+		"workflowVersion":88
 	},
 	"edges":[
 		{
@@ -42,7 +42,7 @@
 	"id":"68ac5983b443c8103234c1b9",
 	"lastModifiedBy":-1,
 	"lcName":"metering | agent analytics | agent model - sort fields",
-	"modifiedTime":1775320681503,
+	"modifiedTime":1775385630124,
 	"name":"Metering | Agent Analytics | Agent Model - Sort Fields",
 	"nodes":[
 		{
@@ -456,5 +456,5 @@
 	"tags":[
 		
 	],
-	"version":84
+	"version":88
 }
