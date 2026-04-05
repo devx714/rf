@@ -4,14 +4,14 @@
 	],
 	"createdTime":1752511449026,
 	"deleted":false,
-	"deployedVersion":66,
+	"deployedVersion":68,
 	"deploymentState":{
-		"deployedAt":1775320687209,
+		"deployedAt":1775385635931,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e6fc6b0c9120df17548",
+		"deployedDefinitionId":"69d23c23b41de37eb670f74f",
 		"status":"DEPLOYED",
-		"version":66,
-		"workflowVersion":115
+		"version":68,
+		"workflowVersion":119
 	},
 	"edges":[
 		{
@@ -342,7 +342,7 @@
 	"id":"68712e940efd02597703f2f3",
 	"lastModifiedBy":-1,
 	"lcName":"data rag - fetch metadata for user query",
-	"modifiedTime":1775334480248,
+	"modifiedTime":1775385635932,
 	"name":"DATA RAG - Fetch Metadata for User Query",
 	"nodes":[
 		{
@@ -832,6 +832,7 @@
 				"startTime":"=INT((NOW() - DATE(1970,1,1)) * 86400000)"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1196,6 +1197,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1800,6 +1802,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1970,6 +1973,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2498,5 +2502,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":117
+	"version":119
 }
