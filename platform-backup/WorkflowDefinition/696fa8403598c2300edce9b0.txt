@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769422062080,
 	"deleted":false,
-	"deployedVersion":16,
+	"deployedVersion":17,
 	"deploymentState":{
-		"deployedAt":1775334398316,
+		"deployedAt":1775385571175,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173fe39824e0613819910",
+		"deployedDefinitionId":"69d23be3b31cfc01cc39ef25",
 		"status":"DEPLOYED",
-		"version":16,
-		"workflowVersion":32
+		"version":17,
+		"workflowVersion":34
 	},
 	"edges":[
 		{
@@ -72,7 +72,7 @@
 	"id":"696fa8403598c2300edce9b0",
 	"lastModifiedBy":-1,
 	"lcName":"get last published interface servicehub message",
-	"modifiedTime":1775385571121,
+	"modifiedTime":1775389934172,
 	"name":"Get Last Published Interface Servicehub Message",
 	"nodes":[
 		{
@@ -355,5 +355,5 @@
 	"tags":[
 		
 	],
-	"version":34
+	"version":36
 }
