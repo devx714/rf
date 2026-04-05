@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748528569541,
 	"deleted":false,
-	"deployedVersion":39,
+	"deployedVersion":41,
 	"deploymentState":{
-		"deployedAt":1775320639971,
+		"deployedAt":1775385589251,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e3fc6b0c9120df17420",
+		"deployedDefinitionId":"69d23bf5b31cfc01cc39f060",
 		"status":"DEPLOYED",
-		"version":39,
-		"workflowVersion":114
+		"version":41,
+		"workflowVersion":118
 	},
 	"edges":[
 		{
@@ -144,7 +144,7 @@
 	"id":"6835e54e0c98860093440ef7",
 	"lastModifiedBy":-1,
 	"lcName":"api to trigger ai agent (streaming)",
-	"modifiedTime":1775334415848,
+	"modifiedTime":1775389978703,
 	"name":"API To Trigger AI Agent (Streaming)",
 	"nodes":[
 		{
@@ -780,5 +780,5 @@
 	"tags":[
 		
 	],
-	"version":116
+	"version":120
 }
