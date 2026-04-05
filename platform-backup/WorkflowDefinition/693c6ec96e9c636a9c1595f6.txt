@@ -4,15 +4,15 @@
 	],
 	"createdTime":1766522803380,
 	"deleted":false,
-	"deployedVersion":22,
+	"deployedVersion":25,
 	"deploymentState":{
-		"deployedAt":1774342966873,
+		"deployedAt":1775385636180,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2533629fa153f07e09daa",
+		"deployedDefinitionId":"69d23c24b41de37eb670f755",
 		"deploymentTag":"vi_index_or_sendLLM_change",
 		"status":"DEPLOYED",
-		"version":22,
-		"workflowVersion":53
+		"version":25,
+		"workflowVersion":59
 	},
 	"edges":[
 		{
@@ -282,7 +282,7 @@
 	"id":"693c6ec96e9c636a9c1595f6",
 	"lastModifiedBy":-1,
 	"lcName":"transform attachments to pdf",
-	"modifiedTime":1775320687407,
+	"modifiedTime":1775390061225,
 	"name":"Transform Attachments to PDF",
 	"nodes":[
 		{
@@ -1492,5 +1492,5 @@
 	"tags":[
 		
 	],
-	"version":55
+	"version":61
 }
