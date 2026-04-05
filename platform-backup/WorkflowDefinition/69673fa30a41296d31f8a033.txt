@@ -4,14 +4,14 @@
 	],
 	"createdTime":1773768375612,
 	"deleted":false,
-	"deployedVersion":4,
+	"deployedVersion":7,
 	"deploymentState":{
-		"deployedAt":1774342853387,
+		"deployedAt":1775385540846,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252c58d65fb68e1563765",
+		"deployedDefinitionId":"69d23bc4b31cfc01cc39eb91",
 		"status":"DEPLOYED",
-		"version":4,
-		"workflowVersion":10
+		"version":7,
+		"workflowVersion":16
 	},
 	"edges":[
 		{
@@ -85,7 +85,7 @@
 	"id":"69673fa30a41296d31f8a033",
 	"lastModifiedBy":-1,
 	"lcName":"image generation | bedrock",
-	"modifiedTime":1775320571897,
+	"modifiedTime":1775389863620,
 	"name":"Image Generation | Bedrock",
 	"nodes":[
 		{
@@ -805,5 +805,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":12
+	"version":18
 }
