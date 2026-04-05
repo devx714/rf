@@ -4,14 +4,14 @@
 	],
 	"createdTime":1737448759086,
 	"deleted":false,
-	"deployedVersion":121,
+	"deployedVersion":122,
 	"deploymentState":{
-		"deployedAt":1775334517241,
+		"deployedAt":1775385653285,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1747539824e0613819faa",
+		"deployedDefinitionId":"69d23c35b31cfc01cc39f46a",
 		"status":"DEPLOYED",
-		"version":121,
-		"workflowVersion":244
+		"version":122,
+		"workflowVersion":246
 	},
 	"edges":[
 		{
@@ -293,7 +293,7 @@
 	"id":"678f5d37812a5c063f02cc42",
 	"lastModifiedBy":-1,
 	"lcName":"query ppr | graphrag",
-	"modifiedTime":1775385653135,
+	"modifiedTime":1775385653288,
 	"name":"Query PPR | GraphRAG",
 	"nodes":[
 		{
@@ -967,6 +967,7 @@
 				"ua:title":"seedNodesDbOutput"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1820,6 +1821,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
