@@ -4,14 +4,14 @@
 	],
 	"createdTime":1761584384515,
 	"deleted":false,
-	"deployedVersion":31,
+	"deployedVersion":35,
 	"deploymentState":{
-		"deployedAt":1775334403069,
+		"deployedAt":1775407750562,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1740339824e061381996e",
+		"deployedDefinitionId":"69d292860e422443cf5605d2",
 		"status":"DEPLOYED",
-		"version":31,
-		"workflowVersion":62
+		"version":35,
+		"workflowVersion":70
 	},
 	"edges":[
 		{
@@ -47,6 +47,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -56,7 +57,7 @@
 	"id":"68ff75664c1a732dd5610e42",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] get additional case props",
-	"modifiedTime":1775385575819,
+	"modifiedTime":1775408109846,
 	"name":"[DT] get additional case props",
 	"nodes":[
 		{
@@ -373,5 +374,5 @@
 	"tags":[
 		
 	],
-	"version":64
+	"version":71
 }
