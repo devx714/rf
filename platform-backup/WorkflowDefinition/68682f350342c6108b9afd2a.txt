@@ -134,7 +134,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -144,7 +143,7 @@
 	"id":"68682f350342c6108b9afd2a",
 	"lastModifiedBy":-1,
 	"lcName":"call groq - generic (streaming)",
-	"modifiedTime":1775334705747,
+	"modifiedTime":1775385612182,
 	"name":"Call Groq - Generic (Streaming)",
 	"nodes":[
 		{
@@ -554,7 +553,6 @@
 				"isLastSlash":false
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -892,7 +890,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1411,5 +1408,5 @@
 	"tags":[
 		
 	],
-	"version":123
+	"version":124
 }
