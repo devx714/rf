@@ -4,14 +4,14 @@
 	],
 	"createdTime":1766522730763,
 	"deleted":false,
-	"deployedVersion":29,
+	"deployedVersion":31,
 	"deploymentState":{
-		"deployedAt":1775320573581,
+		"deployedAt":1775385542440,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13dfd83aecf24ec2545b2",
+		"deployedDefinitionId":"69d23bc6b31cfc01cc39ebb6",
 		"status":"DEPLOYED",
-		"version":29,
-		"workflowVersion":56
+		"version":31,
+		"workflowVersion":60
 	},
 	"edges":[
 		{
@@ -91,7 +91,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -101,7 +100,7 @@
 	"id":"69257ef22a4bd82fffa0736e",
 	"lastModifiedBy":-1,
 	"lcName":"eval | dataset | knowledge set | get random chunks",
-	"modifiedTime":1775320890634,
+	"modifiedTime":1775389866807,
 	"name":"Eval | Dataset | Knowledge Set | Get Random Chunks",
 	"nodes":[
 		{
@@ -420,7 +419,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -779,5 +777,5 @@
 	"tags":[
 		
 	],
-	"version":57
+	"version":62
 }
