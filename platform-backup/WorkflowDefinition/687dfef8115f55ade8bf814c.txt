@@ -1,0 +1,1720 @@
+{
+	"appsUsed":[
+		"confluence"
+	],
+	"createdTime":1757480396334,
+	"deleted":false,
+	"deployedVersion":13,
+	"deploymentState":{
+		"deployedAt":1775391262055,
+		"deployedBy":-1,
+		"deployedDefinitionId":"69d2521d50e82945c76a65d5",
+		"status":"DEPLOYED",
+		"version":13,
+		"workflowVersion":71
+	},
+	"edges":[
+		{
+			"fromNodeId":"n_1YoH5",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_0cq86",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_0cq86",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_YsqPE",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_YsqPE",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_b7IAX",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_b7IAX",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_dy5SW",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_dy5SW",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_odirR",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"n_dy5SW",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_uL0hH",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_uL0hH",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_0DJZl",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_0DJZl",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_4W9aR",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_4W9aR",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"VciuA",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"VciuA",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_s4f9y",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_odirR",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"DeMcd",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_s4f9y",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"DeMcd",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"DeMcd",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"7htxA",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"7htxA",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"P5Zls",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"P5Zls",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"rt04k",
+			"type":"loop"
+		},
+		{
+			"fromNodeId":"rt04k",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"hYn57",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"hYn57",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_fFntx",
+			"type":"loop"
+		},
+		{
+			"fromNodeId":"n_fFntx",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_piRdW",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"n_fFntx",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_qHEwM",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_qHEwM",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_MsXMN",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_MsXMN",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_M8mkI",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_M8mkI",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_Ru20F",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_Ru20F",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_JIEKv",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_JIEKv",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_Vvjdb",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_piRdW",
+			"name":"loopback",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"hYn57",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_Vvjdb",
+			"name":"loopback",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"hYn57",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"hYn57",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"o9K39",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"o9K39",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"j7JX5",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"j7JX5",
+			"name":"loopback",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"P5Zls",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"P5Zls",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_suDyD",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"DeMcd",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_suDyD",
+			"type":"next"
+		}
+	],
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"V"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"687dfef8115f55ade8bf814c",
+	"lastModifiedBy":-1,
+	"lcName":"knowledge downloader | confluence | blog",
+	"modifiedTime":1775407746040,
+	"name":"Knowledge Downloader | Confluence | Blog",
+	"nodes":[
+		{
+			"additional":{
+				"xsdSchemaConfig":{
+					"root":{}
+				}
+			},
+			"context":{
+				"appName":"callables",
+				"resourceVersion":444,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_KHpbz-1",
+			"id":"n_1YoH5",
+			"index":1,
+			"inputs":{
+				"result":{
+					"additionalProperties":false,
+					"properties":{
+						"success":{
+							"title":"Success",
+							"type":"boolean"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"setup":{
+					"additionalProperties":false,
+					"properties":{
+						"_links":{
+							"additionalProperties":false,
+							"properties":{
+								"editui":{
+									"title":"editui",
+									"type":"string"
+								},
+								"edituiv2":{
+									"title":"edituiv2",
+									"type":"string"
+								},
+								"tinyui":{
+									"title":"tinyui",
+									"type":"string"
+								},
+								"webui":{
+									"title":"webui",
+									"type":"string"
+								}
+							},
+							"title":"_links",
+							"type":"object"
+						},
+						"authorId":{
+							"title":"authorId",
+							"type":"string"
+						},
+						"body":{
+							"additionalProperties":false,
+							"properties":{
+								"storage":{
+									"additionalProperties":false,
+									"properties":{
+										"representation":{
+											"title":"representation",
+											"type":"string"
+										},
+										"value":{
+											"title":"value",
+											"type":"string"
+										}
+									},
+									"title":"storage",
+									"type":"object"
+								}
+							},
+							"title":"body",
+							"type":"object"
+						},
+						"connectionId":{
+							"title":"Connection Id",
+							"type":"string"
+						},
+						"createdAt":{
+							"title":"createdAt",
+							"type":"string"
+						},
+						"endDate":{
+							"title":"End Date",
+							"type":"string"
+						},
+						"grabberType":{
+							"title":"Grabber Type",
+							"type":"string"
+						},
+						"id":{
+							"title":"id",
+							"type":"string"
+						},
+						"includeAttachments":{
+							"title":"Include Attachments",
+							"type":"boolean"
+						},
+						"includeComments":{
+							"title":"Include Comments",
+							"type":"boolean"
+						},
+						"indexingVersion":{
+							"title":"Indexing Version",
+							"type":"integer"
+						},
+						"knowledgeId":{
+							"title":"Knowledge Id",
+							"type":"string"
+						},
+						"knowledgeSetId":{
+							"title":"Knowledge Set Id",
+							"type":"string"
+						},
+						"spaceId":{
+							"title":"spaceId",
+							"type":"string"
+						},
+						"startDate":{
+							"title":"Start Date",
+							"type":"string"
+						},
+						"status":{
+							"title":"status",
+							"type":"string"
+						},
+						"title":{
+							"title":"title",
+							"type":"string"
+						},
+						"version":{
+							"additionalProperties":false,
+							"properties":{
+								"authorId":{
+									"title":"authorId",
+									"type":"string"
+								},
+								"createdAt":{
+									"title":"createdAt",
+									"type":"string"
+								},
+								"message":{
+									"title":"message",
+									"type":"string"
+								},
+								"minorEdit":{
+									"title":"minorEdit",
+									"type":"boolean"
+								},
+								"ncsStepVersion":{
+									"title":"ncsStepVersion",
+									"type":"string"
+								},
+								"number":{
+									"title":"number",
+									"type":"integer"
+								}
+							},
+							"title":"version",
+							"type":"object"
+						}
+					},
+					"required":[],
+					"type":"object"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"confluence",
+				"resourceVersion":2300,
+				"connectionId":"68779d97c71fda18ce346642",
+				"resourceName":"confluence_get_blog_details",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_KHpbz-1",
+			"id":"n_0cq86",
+			"index":2,
+			"inputs":{
+				"blogId":"{{ n_1YoH5.outputs.id }}"
+			},
+			"options":{
+				"bulkheadConfig":{
+					"enabled":false,
+					"maxLeaseTimeUnit":"SECONDS",
+					"maxWaitDurationUnit":"SECONDS"
+				},
+				"businessHoursConfig":{
+					"enabled":false,
+					"waitForNextWindow":false
+				},
+				"cacheConfig":{
+					"enabled":false,
+					"usagePolicy":"ALWAYS"
+				},
+				"circuitBreakerConfig":{
+					"enabled":false
+				},
+				"disableLogging":false,
+				"enabledForReExecution":false,
+				"hookConfig":{
+					"enabled":false,
+					"postHooks":[
+						
+					],
+					"preHooks":[
+						
+					]
+				},
+				"logConfig":{
+					"enabled":false,
+					"logPolicies":[
+						
+					]
+				},
+				"retryConfig":{
+					"backOffFactor":null,
+					"captureRetries":false,
+					"enabled":false
+				},
+				"retryRetryableWorkConfig":{
+					"backOffFactor":null,
+					"captureRetries":false,
+					"count":2147483647,
+					"enabled":false,
+					"initialDelay":5000
+				},
+				"stepError":"STOP",
+				"telemetryConfig":{
+					"enableTelemetry":false,
+					"metricConfigs":[
+						
+					]
+				},
+				"timeoutConfig":{
+					"enabled":false
+				}
+			},
+			"skip":false,
+			"subTitle":"Confluence",
+			"title":"Get blog post details",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":723,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_KHpbz-1",
+			"id":"n_YsqPE",
+			"index":3,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"lastModifiedDateEpoch":{
+							"title":"Last Modified Date Epoch",
+							"type":"integer"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"lastModifiedDate":{
+							"title":"Last Modified Date",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"import java.time.Instant\n\ndef dateString = lastModifiedDate\n\nInstant instant = Instant.parse(dateString)\nlong epochMillis = instant.toEpochMilli()\n\nreturn [lastModifiedDateEpoch:epochMillis]",
+				"compile_static":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"lastModifiedDate":"{{ n_0cq86.outputs.version.when }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":48,
+				"resourceName":"callables_call_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_KHpbz-1",
+			"id":"_b7IAX",
+			"index":4,
+			"inputs":{
+				"automationId":"67b6fd13f81cc02b16a58fb2",
+				"runtimeConnections":{
+					"confluence":"{{ n_1YoH5.outputs.connectionId }}"
+				},
+				"synchronous":true,
+				"parameters":{
+					"groupList":{
+						"items":{
+							"id":"{{ n_0cq86.outputs.restrictions.read.restrictions.group.results[0].id }}"
+						},
+						"source":"{{ n_0cq86.outputs.restrictions.read.restrictions.group.results }}",
+						"ua:type":"mappedArray"
+					},
+					"userList":{
+						"items":{
+							"id":"{{ n_0cq86.outputs.restrictions.read.restrictions.user.results[0].email }}"
+						},
+						"source":"{{ n_0cq86.outputs.restrictions.read.restrictions.user.results }}",
+						"ua:type":"mappedArray"
+					}
+				},
+				"version":"-1"
+			},
+			"skip":false,
+			"subTitle":"Get SharedWithIds",
+			"title":"Call automation",
+			"type":"CALL_WORKFLOW"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":439,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_KHpbz-1",
+			"id":"n_dy5SW",
+			"index":5,
+			"inputs":{
+				"filters":[
+					{
+						"filter":{
+							"operator":"STARTS_WITH",
+							"value":"backward_"
+						},
+						"property":"{{ n_1YoH5.outputs.grabberType }}"
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":465,
+				"resourceName":"callables_call_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_dy5SW@_KHpbz-1@y",
+			"id":"n_odirR",
+			"index":6,
+			"inputs":{
+				"automationId":"68bf492eb9564171346f808d",
+				"runtimeConnections":{},
+				"synchronous":true,
+				"parameters":{
+					"knowledgeId":"{{ n_1YoH5.outputs.knowledgeId }}",
+					"knowledgeSetId":"{{ n_1YoH5.outputs.knowledgeSetId }}",
+					"knowledgeVersion":"{{ n_1YoH5.outputs.indexingVersion }}",
+					"sharedWithIds":{
+						"items":"{{ _b7IAX.outputs.sharedWithIds[0] }}",
+						"source":"{{ _b7IAX.outputs.sharedWithIds }}",
+						"ua:type":"mappedArray"
+					},
+					"uniqueEntityId":"{{ n_1YoH5.outputs.spaceId }}_{{ n_1YoH5.outputs.id }}"
+				},
+				"version":"-1"
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Call automation",
+			"type":"CALL_WORKFLOW"
+		},
+		{
+			"context":{
+				"appName":"utility_by_unifyapps",
+				"resourceVersion":7,
+				"resourceName":"utility_by_unifyapps_from_html_to_plain_text",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_dy5SW@_KHpbz-1@n",
+			"id":"_uL0hH",
+			"index":7,
+			"inputs":{
+				"conversionType":"plainText",
+				"htmlString":"{{ n_1YoH5.outputs.body.storage.value }}"
+			},
+			"skip":false,
+			"subTitle":"Utility by UnifyApps",
+			"title":"Convert HTML to text",
+			"type":"ACTION"
+		},
+		{
+			"additional":{
+				"visibleOptionalFields":[
+					"root.parameters.mentionedUserList.items.name",
+					"root.parameters.mentionedUserList.items.id"
+				]
+			},
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":52,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_dy5SW@_KHpbz-1@n",
+			"id":"_0DJZl",
+			"index":8,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"chunk":{
+							"title":"Chunk",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"blogId":{
+							"title":"Blog Id",
+							"type":"string"
+						},
+						"blogName":{
+							"title":"Blog Name",
+							"type":"string"
+						},
+						"spaceId":{
+							"title":"Space Id",
+							"type":"string"
+						},
+						"spaceName":{
+							"title":"Space Name",
+							"type":"string"
+						},
+						"text":{
+							"title":"Text",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"import java.text.SimpleDateFormat\n\ndef epochToReadable(epochTime) {\n    def timeInMillis = epochTime * 1000\n    def date = new Date(timeInMillis)\n    def sdf = new SimpleDateFormat(\"dd MMM yyyy hh:mma\")\n    return sdf.format(date)\n}\n\ndef remEmoji(text, mentionedUsers) {\n    // Remove emojis and extra spaces using regex\n    text = text.replaceAll(/(:\\S*?:)/, \"\").replaceAll(/\\s+/, \" \")\n    mentionedUsers.each { user ->\n        text = text.replaceAll(\"<@$user.id>\", user.name)\n    }\n    return text.toLowerCase()\n}\n\ndef formattedDate = null\nif (binding.hasVariable('timeStamp')) {\n    def time = Long.parseLong(timeStamp.split(\"\\\\.\")[0])\n    formattedDate = epochToReadable(time)\n}\n\ndef chunk = \"\"\n\nchunk += binding.hasVariable('text') ? \"text: $text\" : \"\"\ndef wordCount = chunk?.tokenize()?.size() ?: 0\nreturn [\n    \"chunk\": chunk\n    ]\n",
+				"compile_static":false,
+				"isAsync":false,
+				"parameters":{
+					"blogId":"{{ n_1YoH5.outputs.id }}",
+					"blogName":"{{ n_1YoH5.outputs.title }}",
+					"spaceId":"{{ n_1YoH5.outputs.spaceId }}",
+					"spaceName":"{{ n_0cq86.outputs.space.name }}",
+					"text":"{{ _uL0hH.outputs.convertedText }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Format blog chunk",
+			"title":"Execute groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":448,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_dy5SW@_KHpbz-1@n",
+			"id":"_4W9aR",
+			"index":9,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"sourceResponse":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Source Response",
+							"type":"object"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"chunk":{
+							"title":"Chunk",
+							"type":"string"
+						},
+						"email":{
+							"title":"Email",
+							"type":"string"
+						},
+						"referenceUrl":{
+							"title":"Reference Url",
+							"type":"string"
+						},
+						"response":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Response",
+							"type":"object"
+						},
+						"spaceName":{
+							"title":"Space Name",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"return [\n  \"sourceResponse\":[\n    \"response\" : response,\n    \"chunk\" : chunk,\n    \"referenceUrl\" : referenceUrl,\n    \"spaceName\" : spaceName,\n    \"email\": email\n  ]\n]",
+				"compile_static":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"chunk":"{{ _0DJZl.outputs.result.chunk }}",
+					"email":"{{ n_0cq86.outputs.history.createdBy.email }}",
+					"referenceUrl":"{{ n_0cq86.outputs._links.base }}{{ n_1YoH5.outputs._links.webui }}",
+					"response":"{{ n_1YoH5.outputs }}",
+					"spaceName":"{{ n_0cq86.outputs.space.name }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Create sourceResponse",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":52,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_dy5SW@_KHpbz-1@n",
+			"id":"VciuA",
+			"index":10,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"chunk_metadata":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Chunk Metadata",
+							"type":"object"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"author":{
+							"title":"Author",
+							"type":"string"
+						},
+						"blogName":{
+							"title":"Blog Name",
+							"type":"string"
+						},
+						"createdTime":{
+							"title":"Created Time",
+							"type":"string"
+						},
+						"referenceUrl":{
+							"title":"Reference Url",
+							"type":"string"
+						},
+						"spaceName":{
+							"title":"Space Name",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"import java.time.Instant\nimport java.time.ZoneId\nimport java.time.ZonedDateTime\nimport java.time.format.DateTimeFormatter\n\ndef createdTimeEpoch = \"\"\n\nif(binding.hasVariable('createdTime')){\n  Instant instant = Instant.parse(createdTime);\n  createdTimeEpoch = instant.toEpochMilli()\n}\n\n\n\ndef chunk_metadata = [:]\nchunk_metadata << ['appName':'confluence']\nchunk_metadata << (binding.hasVariable('blogName') && blogName ? [\"name\": blogName] : [:])\nchunk_metadata << (binding.hasVariable('spaceName') && spaceName ? [\"spaceName\": spaceName] : [:])\nchunk_metadata << (binding.hasVariable('referenceUrl') && referenceUrl ? [\"referenceUrl\": referenceUrl] : [:])\nchunk_metadata << (binding.hasVariable('author') && author ? [\"author\": author] : [:])\nchunk_metadata << (binding.hasVariable('createdTime') && createdTime ? [\"date\": createdTimeEpoch] : [:])\n\n\nreturn [\"chunk_metadata\":chunk_metadata]",
+				"compile_static":false,
+				"isAsync":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"author":"{{ n_0cq86.outputs.history.createdBy.email }}",
+					"blogName":"{{ n_1YoH5.outputs.title }}",
+					"createdTime":"{{ n_1YoH5.outputs.createdAt }}",
+					"referenceUrl":"{{ n_0cq86.outputs._links.base }}{{ n_1YoH5.outputs._links.webui }}",
+					"spaceName":"{{ n_0cq86.outputs.space.name }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Chunk Metadata",
+			"title":"Execute groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":459,
+				"resourceName":"callables_call_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_dy5SW@_KHpbz-1@n",
+			"id":"_s4f9y",
+			"index":11,
+			"inputs":{
+				"automationId":"6867a54b78989b484e92345e",
+				"runtimeConnections":{},
+				"synchronous":true,
+				"parameters":{
+					"LastFileModifiedDate":"{{ n_YsqPE.outputs.result.lastModifiedDateEpoch }}",
+					"knowledgeId":"{{ n_1YoH5.outputs.knowledgeId }}",
+					"knowledgeSetId":"{{ n_1YoH5.outputs.knowledgeSetId }}",
+					"knowledgeVersion":"{{ n_1YoH5.outputs.indexingVersion }}",
+					"metadata":"{{ VciuA.outputs.result.chunk_metadata }}",
+					"resourceType":"blog",
+					"sharedWithIds":{
+						"items":"{{ _b7IAX.outputs.sharedWithIds[0] }}",
+						"source":"{{ _b7IAX.outputs.sharedWithIds }}",
+						"ua:type":"mappedArray"
+					},
+					"sourceResponse":"{{ _4W9aR.outputs.result.sourceResponse }}",
+					"uniqueEntityId":"{{ n_1YoH5.outputs.spaceId }}_{{ n_1YoH5.outputs.id }}"
+				},
+				"version":"-1"
+			},
+			"skip":false,
+			"subTitle":"Store Raw Data",
+			"title":"Call automation",
+			"type":"CALL_WORKFLOW"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":71,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_KHpbz-1",
+			"id":"DeMcd",
+			"index":12,
+			"inputs":{
+				"filters":[
+					{
+						"filter":{
+							"operator":"EQUAL",
+							"value":"true"
+						},
+						"property":"{{ n_1YoH5.outputs.includeComments }}"
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":114,
+				"resourceName":"variable_by_unifyapps_create_variables",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"DeMcd@_KHpbz-1@y",
+			"id":"7htxA",
+			"index":13,
+			"inputSchema":{
+				"type":"SCHEMA_AND_LAYOUT",
+				"dynamic":false,
+				"layout":{
+					"ui:submitButtonOptions":{
+						"norender":true
+					}
+				},
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"cursor":{
+							"title":"Cursor",
+							"type":"string"
+						},
+						"has_more":{
+							"default":false,
+							"title":"Has More",
+							"type":"boolean"
+						}
+					},
+					"required":[]
+				}
+			},
+			"inputs":{
+				"has_more":true
+			},
+			"outputSchema":{
+				"dynamic":false,
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"cursor":{
+							"title":"Cursor",
+							"type":"string"
+						},
+						"has_more":{
+							"default":false,
+							"title":"Has More",
+							"type":"boolean"
+						}
+					},
+					"required":[]
+				}
+			},
+			"skip":false,
+			"subTitle":"Variable by UnifyApps",
+			"title":"Create variables",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"loop",
+				"resourceVersion":73,
+				"resourceName":"loop_while",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"DeMcd@_KHpbz-1@y",
+			"id":"P5Zls",
+			"index":14,
+			"inputs":{
+				"condition":{
+					"filters":[
+						{
+							"filter":{
+								"operator":"EQUAL",
+								"value":"true"
+							},
+							"property":"{{ 7htxA.outputs.has_more }}"
+						}
+					],
+					"operator":"AND"
+				},
+				"captureIterations":false
+			},
+			"skip":false,
+			"subTitle":"Loop",
+			"title":"While loop",
+			"type":"LOOP"
+		},
+		{
+			"context":{
+				"appName":"confluence",
+				"resourceVersion":23,
+				"connectionId":"6881ccf33ccd6b0f7e340b4b",
+				"resourceName":"confluence_list_blog_footer_comments",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"P5Zls@DeMcd@_KHpbz-1@y@l",
+			"id":"rt04k",
+			"index":15,
+			"inputs":{
+				"cursor":"{{ 7htxA.outputs.cursor }}",
+				"limit":30,
+				"start":0,
+				"id":"{{ n_1YoH5.outputs.id }}"
+			},
+			"options":{
+				"bulkheadConfig":{
+					"enabled":false,
+					"maxLeaseTimeUnit":"SECONDS",
+					"maxWaitDurationUnit":"SECONDS"
+				},
+				"businessHoursConfig":{
+					"enabled":false,
+					"waitForNextWindow":false
+				},
+				"cacheConfig":{
+					"enabled":false,
+					"usagePolicy":"ALWAYS"
+				},
+				"circuitBreakerConfig":{
+					"enabled":false
+				},
+				"disableLogging":false,
+				"enabledForReExecution":false,
+				"hookConfig":{
+					"enabled":false,
+					"postHooks":[
+						
+					],
+					"preHooks":[
+						
+					]
+				},
+				"logConfig":{
+					"enabled":false,
+					"logPolicies":[
+						
+					]
+				},
+				"retryConfig":{
+					"backOffFactor":null,
+					"captureRetries":false,
+					"enabled":false
+				},
+				"retryRetryableWorkConfig":{
+					"backOffFactor":null,
+					"captureRetries":false,
+					"count":2147483647,
+					"enabled":false,
+					"initialDelay":5000
+				},
+				"stepError":"STOP",
+				"telemetryConfig":{
+					"enableTelemetry":false,
+					"metricConfigs":[
+						
+					]
+				},
+				"timeoutConfig":{
+					"enabled":false
+				}
+			},
+			"skip":false,
+			"subTitle":"Confluence",
+			"title":"List comments",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"loop",
+				"resourceVersion":73,
+				"resourceName":"loop_for_each",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"P5Zls@DeMcd@_KHpbz-1@y@l",
+			"id":"hYn57",
+			"index":16,
+			"inputs":{
+				"repeatMode":"SINGLE",
+				"listSource":"{{ rt04k.outputs.results }}",
+				"captureIterations":false
+			},
+			"skip":false,
+			"subTitle":"Loop",
+			"title":"For loop",
+			"type":"LOOP"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":439,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"hYn57@P5Zls@DeMcd@_KHpbz-1@y@l@l",
+			"id":"n_fFntx",
+			"index":17,
+			"inputs":{
+				"filters":[
+					{
+						"filter":{
+							"operator":"STARTS_WITH",
+							"value":"backward_"
+						},
+						"property":"{{ n_1YoH5.outputs.grabberType }}"
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":465,
+				"resourceName":"callables_call_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_fFntx@hYn57@P5Zls@DeMcd@_KHpbz-1@y@l@l@y",
+			"id":"_piRdW",
+			"index":18,
+			"inputs":{
+				"automationId":"68bf492eb9564171346f808d",
+				"runtimeConnections":{},
+				"synchronous":true,
+				"parameters":{
+					"knowledgeId":"{{ n_1YoH5.outputs.knowledgeId }}",
+					"knowledgeSetId":"{{ n_1YoH5.outputs.knowledgeSetId }}",
+					"knowledgeVersion":"{{ n_1YoH5.outputs.indexingVersion }}",
+					"sharedWithIds":{
+						"items":"{{ _b7IAX.outputs.sharedWithIds[0] }}",
+						"source":"{{ _b7IAX.outputs.sharedWithIds }}",
+						"ua:type":"mappedArray"
+					},
+					"uniqueEntityId":"{{ n_1YoH5.outputs.spaceId }}_{{ n_1YoH5.outputs.id }}_{{ hYn57.outputs.item.id }}"
+				},
+				"version":"-1"
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Call automation",
+			"type":"CALL_WORKFLOW"
+		},
+		{
+			"context":{
+				"appName":"confluence",
+				"resourceVersion":146,
+				"connectionId":"68779d97c71fda18ce346642",
+				"resourceName":"confluence_get_user",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_fFntx@hYn57@P5Zls@DeMcd@_KHpbz-1@y@l@l@n",
+			"id":"_qHEwM",
+			"index":19,
+			"inputs":{
+				"accountId":"{{ hYn57.outputs.item.version.authorId }}"
+			},
+			"options":{
+				"bulkheadConfig":{
+					"enabled":false,
+					"maxLeaseTimeUnit":"SECONDS",
+					"maxWaitDurationUnit":"SECONDS"
+				},
+				"businessHoursConfig":{
+					"enabled":false,
+					"waitForNextWindow":false
+				},
+				"cacheConfig":{
+					"enabled":false,
+					"usagePolicy":"ALWAYS"
+				},
+				"circuitBreakerConfig":{
+					"enabled":false
+				},
+				"disableLogging":false,
+				"enabledForReExecution":false,
+				"hookConfig":{
+					"enabled":false,
+					"postHooks":[
+						
+					],
+					"preHooks":[
+						
+					]
+				},
+				"logConfig":{
+					"enabled":false,
+					"logPolicies":[
+						
+					]
+				},
+				"retryConfig":{
+					"backOffFactor":null,
+					"captureRetries":false,
+					"enabled":false
+				},
+				"retryRetryableWorkConfig":{
+					"backOffFactor":null,
+					"captureRetries":false,
+					"count":2147483647,
+					"enabled":false,
+					"initialDelay":5000
+				},
+				"stepError":"STOP",
+				"telemetryConfig":{
+					"enableTelemetry":false,
+					"metricConfigs":[
+						
+					]
+				},
+				"timeoutConfig":{
+					"enabled":false
+				}
+			},
+			"skip":false,
+			"subTitle":"Confluence",
+			"title":"Get user details",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":72,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_fFntx@hYn57@P5Zls@DeMcd@_KHpbz-1@y@l@l@n",
+			"id":"_MsXMN",
+			"index":20,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"value":{
+							"title":"Value",
+							"type":"string"
+						}
+					},
+					"required":[
+						"value"
+					],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"storage":{
+							"title":"Storage",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"def extractValue(storage) {\n    return storage?.value ?: \"No value found\"\n}\n\n\ndef value = extractValue(storage)\n\nreturn [\"value\" : value]",
+				"compile_static":false,
+				"parameters":{
+					"storage":"{{ hYn57.outputs.item.body.storage }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"utility_by_unifyapps",
+				"resourceVersion":7,
+				"resourceName":"utility_by_unifyapps_from_html_to_plain_text",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_fFntx@hYn57@P5Zls@DeMcd@_KHpbz-1@y@l@l@n",
+			"id":"_M8mkI",
+			"index":21,
+			"inputs":{
+				"conversionType":"plainText",
+				"htmlString":"{{ _MsXMN.outputs.result.value }}"
+			},
+			"skip":false,
+			"subTitle":"Utility by UnifyApps",
+			"title":"Convert HTML to text",
+			"type":"ACTION"
+		},
+		{
+			"additional":{
+				"visibleOptionalFields":[
+					"root.parameters.response.id",
+					"root.parameters.response.status",
+					"root.parameters.response.title",
+					"root.parameters.response.blogPostId",
+					"root.parameters.response.version.number",
+					"root.parameters.response.version.message",
+					"root.parameters.response.version.minorEdit",
+					"root.parameters.response.version.authorId",
+					"root.parameters.response.version.createdAt",
+					"root.parameters.response.body.storage.representation",
+					"root.parameters.response.body.storage.value",
+					"root.parameters.response._links.webui"
+				]
+			},
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":449,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_fFntx@hYn57@P5Zls@DeMcd@_KHpbz-1@y@l@l@n",
+			"id":"_Ru20F",
+			"index":22,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"sourceResponse":{
+							"title":"Source Response",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"author":{
+							"title":"Author",
+							"type":"string"
+						},
+						"blogName":{
+							"title":"Blog Name",
+							"type":"string"
+						},
+						"chunk":{
+							"title":"Chunk",
+							"type":"string"
+						},
+						"referenceUrl":{
+							"title":"Reference Url",
+							"type":"string"
+						},
+						"response":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Response",
+							"type":"object"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"return [\n  \"sourceResponse\":[\n    \"response\" : response,\n    \"chunk\" : chunk,\n    \"referenceUrl\" : referenceUrl,\n    \"type\" : \"blog\",\n    \"name\" : blogName,\n    \"author\" : author\n  ]\n]",
+				"compile_static":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"author":"{{ _qHEwM.outputs.email }}",
+					"blogName":"{{ n_1YoH5.outputs.title }}",
+					"chunk":"{{ _M8mkI.outputs.convertedText }}",
+					"referenceUrl":"{{ rt04k.outputs._links.base }}{{ hYn57.outputs.item._links.webui }}",
+					"response":"{{ hYn57.outputs.item }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":52,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_fFntx@hYn57@P5Zls@DeMcd@_KHpbz-1@y@l@l@n",
+			"id":"_JIEKv",
+			"index":23,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"chunk_metadata":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Chunk Metadata",
+							"type":"object"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"author":{
+							"title":"Author",
+							"type":"string"
+						},
+						"commentId":{
+							"title":"Comment Id",
+							"type":"string"
+						},
+						"createdTime":{
+							"title":"Created Time",
+							"type":"string"
+						},
+						"referenceUrl":{
+							"title":"Reference Url",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"import java.time.Instant\nimport java.time.ZoneId\nimport java.time.ZonedDateTime\nimport java.time.format.DateTimeFormatter\n\ndef createdTimeEpoch = \"\"\n\nif(binding.hasVariable('createdTime')){\n  Instant instant = Instant.parse(createdTime);\n  createdTimeEpoch = instant.toEpochMilli()\n}\n\n\n\n\ndef chunk_metadata = [:]\nchunk_metadata << ['appName':'confluence']\nchunk_metadata << (binding.hasVariable('commentId') && commentId ? [\"name\": commentId] : [:])\nchunk_metadata << (binding.hasVariable('referenceUrl') && referenceUrl ? [\"referenceUrl\": referenceUrl] : [:])\nchunk_metadata << (binding.hasVariable('createdTime') && createdTime ? [\"date\": createdTimeEpoch] : [:])\nchunk_metadata << (binding.hasVariable('author') && author ? [\"author\": author] : [:])\n\n\n\n\n\nreturn [\"chunk_metadata\":chunk_metadata]",
+				"compile_static":false,
+				"isAsync":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"author":"{{ _qHEwM.outputs.email }}",
+					"commentId":"{{ hYn57.outputs.item.id }}",
+					"createdTime":"{{ hYn57.outputs.item.version.createdAt }}",
+					"referenceUrl":"{{ rt04k.outputs._links.base }}{{ hYn57.outputs.item._links.webui }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Chunk Metadata",
+			"title":"Execute groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":459,
+				"resourceName":"callables_call_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_fFntx@hYn57@P5Zls@DeMcd@_KHpbz-1@y@l@l@n",
+			"id":"_Vvjdb",
+			"index":24,
+			"inputs":{
+				"automationId":"6867a54b78989b484e92345e",
+				"runtimeConnections":{},
+				"synchronous":true,
+				"parameters":{
+					"LastFileModifiedDate":"{{ n_YsqPE.outputs.result.lastModifiedDateEpoch }}",
+					"knowledgeId":"{{ n_1YoH5.outputs.knowledgeId }}",
+					"knowledgeSetId":"{{ n_1YoH5.outputs.knowledgeSetId }}",
+					"knowledgeVersion":"{{ n_1YoH5.outputs.indexingVersion }}",
+					"metadata":"{{ _JIEKv.outputs.result.chunk_metadata }}",
+					"resourceType":"blogComment",
+					"sharedWithIds":{
+						"items":"{{ _b7IAX.outputs.sharedWithIds[0] }}",
+						"source":"{{ _b7IAX.outputs.sharedWithIds }}",
+						"ua:type":"mappedArray"
+					},
+					"sourceResponse":"{{ _Ru20F.outputs.result.sourceResponse }}",
+					"uniqueEntityId":"{{ n_1YoH5.outputs.spaceId }}_{{ n_1YoH5.outputs.id }}_{{ hYn57.outputs.item.id }}"
+				},
+				"version":"-1"
+			},
+			"skip":false,
+			"subTitle":"Store Raw Data",
+			"title":"Call automation",
+			"type":"CALL_WORKFLOW"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":62,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"P5Zls@DeMcd@_KHpbz-1@y@l",
+			"id":"o9K39",
+			"index":25,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"cursor":{
+							"title":"Cursor",
+							"type":"string"
+						},
+						"hasMore":{
+							"title":"Has More",
+							"type":"boolean"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"nextUrl":{
+							"title":"nextUrl",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"def getCursor(url) {\n    def queryParams = url.split(\"\\\\?\")[-1] // Get the query string part\n    def paramsMap = queryParams.split(\"&\").collectEntries { entry ->\n        def (key, value) = entry.split(\"=\", 2)\n        [(key): value]\n    }\n    return paramsMap[\"cursor\"]\n}\n\nreturn [ \n    \"cursor\" : binding.hasVariable(\"nextUrl\") ? getCursor(nextUrl) : null,\n    \"hasMore\" : binding.hasVariable(\"nextUrl\") ? true : false\n]",
+				"compile_static":false,
+				"isAsync":false,
+				"parameters":{
+					"nextUrl":"{{ rt04k.outputs._links.next }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":63,
+				"resourceName":"variable_by_unifyapps_update_variables",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"P5Zls@DeMcd@_KHpbz-1@y@l",
+			"id":"j7JX5",
+			"index":26,
+			"inputs":{
+				"variables":[
+					{
+						"source":"{{ 7htxA.outputs.has_more }}",
+						"value":"{{ o9K39.outputs.result.hasMore }}"
+					},
+					{
+						"source":"{{ 7htxA.outputs.cursor }}",
+						"value":"{{ o9K39.outputs.result.cursor }}"
+					}
+				]
+			},
+			"skip":false,
+			"subTitle":"Variable by UnifyApps",
+			"title":"Update variables",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":454,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_KHpbz-1",
+			"id":"n_suDyD",
+			"index":27,
+			"inputs":{
+				"result":{
+					"success":true
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":44103,
+	"runtimeConnectionAppNames":[
+		"confluence"
+	],
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"headerValueTierMap":{},
+			"tierName":"global"
+		}
+	},
+	"standard":true,
+	"tags":[
+		"knowledge_v2"
+	],
+	"version":73
+}
