@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748544516015,
 	"deleted":false,
-	"deployedVersion":111,
+	"deployedVersion":112,
 	"deploymentState":{
-		"deployedAt":1775391258585,
+		"deployedAt":1775407742588,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2521a50e82945c76a659b",
+		"deployedDefinitionId":"69d2927e0e422443cf56054a",
 		"status":"DEPLOYED",
-		"version":111,
-		"workflowVersion":204
+		"version":112,
+		"workflowVersion":206
 	},
 	"edges":[
 		{
@@ -40,6 +40,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -49,7 +50,7 @@
 	"id":"68388c4efdb35d0130406ed0",
 	"lastModifiedBy":-1,
 	"lcName":"eval | experiment | export experiment runs",
-	"modifiedTime":1775407742542,
+	"modifiedTime":1775408099663,
 	"name":"Eval | Experiment | Export Experiment Runs",
 	"nodes":[
 		{
@@ -225,5 +226,5 @@
 	"tags":[
 		
 	],
-	"version":206
+	"version":207
 }
