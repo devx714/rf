@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769253318481,
 	"deleted":false,
-	"deployedVersion":18,
+	"deployedVersion":22,
 	"deploymentState":{
-		"deployedAt":1775320654275,
+		"deployedAt":1775391319431,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e4e83aecf24ec254c9e",
+		"deployedDefinitionId":"69d2525750e82945c76a68b0",
 		"status":"DEPLOYED",
-		"version":18,
-		"workflowVersion":96
+		"version":22,
+		"workflowVersion":104
 	},
 	"edges":[
 		{
@@ -348,6 +348,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -357,7 +358,7 @@
 	"id":"696bc88ca669e657537d135f",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge update handler",
-	"modifiedTime":1775334449014,
+	"modifiedTime":1775391431069,
 	"name":"Knowledge Update Handler",
 	"nodes":[
 		{
@@ -2081,5 +2082,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":98
+	"version":105
 }
