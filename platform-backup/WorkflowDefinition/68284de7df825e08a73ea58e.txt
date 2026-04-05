@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748544367852,
 	"deleted":false,
-	"deployedVersion":81,
+	"deployedVersion":82,
 	"deploymentState":{
-		"deployedAt":1775385617464,
+		"deployedAt":1775390037237,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c11b41de37eb670f664",
+		"deployedDefinitionId":"69d24d5550e82945c76a4689",
 		"status":"DEPLOYED",
-		"version":81,
-		"workflowVersion":134
+		"version":82,
+		"workflowVersion":136
 	},
 	"edges":[
 		{
@@ -78,6 +78,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -87,7 +88,7 @@
 	"id":"68284de7df825e08a73ea58e",
 	"lastModifiedBy":-1,
 	"lcName":"expired chunks | authority rerank documents",
-	"modifiedTime":1775390037185,
+	"modifiedTime":1775390109162,
 	"name":"Expired Chunks | Authority Rerank Documents",
 	"nodes":[
 		{
@@ -467,6 +468,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -688,5 +690,5 @@
 	"tags":[
 		
 	],
-	"version":136
+	"version":137
 }
