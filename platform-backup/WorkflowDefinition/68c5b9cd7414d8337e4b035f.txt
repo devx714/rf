@@ -4,14 +4,14 @@
 	],
 	"createdTime":1759243563961,
 	"deleted":false,
-	"deployedVersion":29,
+	"deployedVersion":30,
 	"deploymentState":{
-		"deployedAt":1775320632428,
+		"deployedAt":1775334409101,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e38c6b0c9120df173c2",
+		"deployedDefinitionId":"69d1740939824e06138199e3",
 		"status":"DEPLOYED",
-		"version":29,
-		"workflowVersion":72
+		"version":30,
+		"workflowVersion":74
 	},
 	"edges":[
 		{
@@ -430,7 +430,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -440,7 +439,7 @@
 	"id":"68c5b9cd7414d8337e4b035f",
 	"lastModifiedBy":-1,
 	"lcName":"[mcp server] call agent tool",
-	"modifiedTime":1775320891517,
+	"modifiedTime":1775385581689,
 	"name":"[MCP Server] Call Agent Tool",
 	"nodes":[
 		{
@@ -663,7 +662,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -789,7 +787,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1336,7 +1333,6 @@
 				"caseId":"{{ qexts.outputs.params.arguments.caseId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1749,7 +1745,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1884,7 +1879,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2318,7 +2312,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2633,7 +2626,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2725,7 +2717,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2956,5 +2947,5 @@
 		}
 	},
 	"standard":true,
-	"version":73
+	"version":76
 }
