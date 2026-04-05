@@ -483,7 +483,7 @@
 	"id":"67a0f2feb3380723d9e166ff",
 	"lastModifiedBy":-1,
 	"lcName":"clustering | deduplication of clusters",
-	"modifiedTime":1775385615794,
+	"modifiedTime":1775390034300,
 	"name":"Clustering | Deduplication of Clusters",
 	"nodes":[
 		{
@@ -857,7 +857,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -971,7 +970,6 @@
 				"isClusterMerged":false
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1243,7 +1241,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1797,7 +1794,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1865,7 +1861,6 @@
 				"flag":false
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -3498,5 +3493,5 @@
 	"tags":[
 		"Clustering"
 	],
-	"version":119
+	"version":121
 }
