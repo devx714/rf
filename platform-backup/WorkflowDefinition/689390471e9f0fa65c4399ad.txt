@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756795874443,
 	"deleted":false,
-	"deployedVersion":46,
+	"deployedVersion":49,
 	"deploymentState":{
-		"deployedAt":1775334481010,
+		"deployedAt":1775391385369,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1745039824e0613819e72",
+		"deployedDefinitionId":"69d2529950e82945c76a6c35",
 		"status":"DEPLOYED",
-		"version":46,
-		"workflowVersion":89
+		"version":49,
+		"workflowVersion":95
 	},
 	"edges":[
 		{
@@ -33,7 +33,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -43,7 +42,7 @@
 	"id":"689390471e9f0fa65c4399ad",
 	"lastModifiedBy":-1,
 	"lcName":"metering | agent analytics | performance | agent response time",
-	"modifiedTime":1775334705525,
+	"modifiedTime":1775407832926,
 	"name":"Metering | Agent Analytics | Performance | Agent Response Time",
 	"nodes":[
 		{
@@ -252,5 +251,5 @@
 	"tags":[
 		
 	],
-	"version":90
+	"version":97
 }
