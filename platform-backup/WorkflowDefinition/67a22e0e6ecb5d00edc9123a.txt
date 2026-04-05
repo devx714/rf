@@ -72,7 +72,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -82,7 +81,7 @@
 	"id":"67a22e0e6ecb5d00edc9123a",
 	"lastModifiedBy":-1,
 	"lcName":"fetch role goal background",
-	"modifiedTime":1775391434185,
+	"modifiedTime":1775407749862,
 	"name":"Fetch role goal background",
 	"nodes":[
 		{
@@ -380,5 +379,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":131
+	"version":132
 }
