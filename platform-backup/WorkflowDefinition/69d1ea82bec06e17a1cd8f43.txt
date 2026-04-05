@@ -1,8 +1,5 @@
 {
-	"appsUsed":[
-		"slack"
-	],
-	"createdTime":1775364862840,
+	"createdTime":1775364931213,
 	"deleted":false,
 	"edges":[
 		{
@@ -30,7 +27,7 @@
 	"id":"69d1ea82bec06e17a1cd8f43",
 	"lastModifiedBy":0,
 	"lcName":"changesetqa2slack2706670412",
-	"modifiedTime":1775364862840,
+	"modifiedTime":1775364931213,
 	"name":"changeSetQA2Slack2706670412",
 	"nodes":[
 		{
@@ -173,5 +170,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":3
 }
