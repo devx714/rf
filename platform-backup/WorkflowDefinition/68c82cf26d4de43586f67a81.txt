@@ -4,14 +4,14 @@
 	],
 	"createdTime":1759243504665,
 	"deleted":false,
-	"deployedVersion":40,
+	"deployedVersion":41,
 	"deploymentState":{
-		"deployedAt":1775391189898,
+		"deployedAt":1775407691985,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d251d550e82945c76a621b",
+		"deployedDefinitionId":"69d2924ba2eda46706b0438e",
 		"status":"DEPLOYED",
-		"version":40,
-		"workflowVersion":89
+		"version":41,
+		"workflowVersion":91
 	},
 	"edges":[
 		{
@@ -136,6 +136,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -145,7 +146,7 @@
 	"id":"68c82cf26d4de43586f67a81",
 	"lastModifiedBy":-1,
 	"lcName":"call automation batch with signal",
-	"modifiedTime":1775407691906,
+	"modifiedTime":1775408104322,
 	"name":"Call automation batch with signal",
 	"nodes":[
 		{
@@ -452,6 +453,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1006,5 +1008,5 @@
 	"tags":[
 		
 	],
-	"version":91
+	"version":92
 }
