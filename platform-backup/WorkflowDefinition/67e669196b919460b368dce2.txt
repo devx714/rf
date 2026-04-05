@@ -4,15 +4,15 @@
 	],
 	"createdTime":1743153433360,
 	"deleted":false,
-	"deployedVersion":92,
+	"deployedVersion":93,
 	"deploymentState":{
-		"deployedAt":1775391273190,
+		"deployedAt":1775407757992,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2522950e82945c76a66af",
+		"deployedDefinitionId":"69d2928d0e422443cf56061d",
 		"deploymentTag":"fixed_caseId",
 		"status":"DEPLOYED",
-		"version":92,
-		"workflowVersion":146
+		"version":93,
+		"workflowVersion":148
 	},
 	"edges":[
 		{
@@ -168,6 +168,25 @@
 		"configs":[
 			{
 				"permissions":[
+					"A",
+					"EXPORT_AS_TEMPLATE",
+					"C",
+					"S",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"DEP"
+				],
+				"principalIds":[
+					"311"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -177,7 +196,7 @@
 	"id":"67e669196b919460b368dce2",
 	"lastModifiedBy":-1,
 	"lcName":"mask knowledge chunk via regex",
-	"modifiedTime":1775407757801,
+	"modifiedTime":1775408109300,
 	"name":"Mask Knowledge Chunk via Regex",
 	"nodes":[
 		{
@@ -324,6 +343,7 @@
 				"redactionsPresent":"false"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1061,5 +1081,5 @@
 	"tags":[
 		"PII"
 	],
-	"version":148
+	"version":149
 }
