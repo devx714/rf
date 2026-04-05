@@ -172,6 +172,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -181,7 +182,7 @@
 	"id":"68e37251c1f0a911a75495c6",
 	"lastModifiedBy":-1,
 	"lcName":"utility | convert file object to images",
-	"modifiedTime":1775385616641,
+	"modifiedTime":1775385908326,
 	"name":"Utility | Convert File Object to Images",
 	"nodes":[
 		{
@@ -939,5 +940,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":71
+	"version":72
 }
