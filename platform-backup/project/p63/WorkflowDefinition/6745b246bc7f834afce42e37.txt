@@ -4,14 +4,14 @@
 	],
 	"createdTime":1732620870090,
 	"deleted":false,
-	"deployedVersion":103,
+	"deployedVersion":109,
 	"deploymentState":{
-		"deployedAt":1774342922700,
+		"deployedAt":1775407776890,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2530a29fa153f07e09bf0",
+		"deployedDefinitionId":"69d292a00e422443cf5606b1",
 		"status":"DEPLOYED",
-		"version":103,
-		"workflowVersion":569
+		"version":109,
+		"workflowVersion":581
 	},
 	"edges":[
 		{
@@ -114,6 +114,27 @@
 		"configs":[
 			{
 				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"32562"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -123,7 +144,7 @@
 	"id":"6745b246bc7f834afce42e37",
 	"lastModifiedBy":-1,
 	"lcName":"text to workflow input filling main [do not touch]",
-	"modifiedTime":1775320647342,
+	"modifiedTime":1775408107495,
 	"name":"Text to Workflow INPUT Filling MAIN [DO NOT TOUCH]",
 	"nodes":[
 		{
@@ -397,6 +418,7 @@
 				"workflowDefitionMap":"{{ _yzaLF.outputs.result.workflowDefinitionMap }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -705,5 +727,5 @@
 	"tags":[
 		
 	],
-	"version":571
+	"version":582
 }
