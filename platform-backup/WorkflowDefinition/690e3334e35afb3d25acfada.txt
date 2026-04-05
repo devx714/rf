@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762858142560,
 	"deleted":false,
-	"deployedVersion":27,
+	"deployedVersion":29,
 	"deploymentState":{
-		"deployedAt":1774342864675,
+		"deployedAt":1775334356232,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252d08d65fb68e15637f3",
+		"deployedDefinitionId":"69d173d439824e0613819742",
 		"status":"DEPLOYED",
-		"version":27,
-		"workflowVersion":56
+		"version":29,
+		"workflowVersion":60
 	},
 	"edges":[
 		{
@@ -102,7 +102,7 @@
 	"id":"690e3334e35afb3d25acfada",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] associate knowledge sets with agent | remove",
-	"modifiedTime":1775320589823,
+	"modifiedTime":1775385551647,
 	"name":"[DT] Associate Knowledge Sets with Agent | Remove",
 	"nodes":[
 		{
@@ -501,5 +501,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":58
+	"version":62
 }
