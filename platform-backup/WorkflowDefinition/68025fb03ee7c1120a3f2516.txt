@@ -4,14 +4,14 @@
 	],
 	"createdTime":1744986032488,
 	"deleted":false,
-	"deployedVersion":49,
+	"deployedVersion":50,
 	"deploymentState":{
-		"deployedAt":1775391311497,
+		"deployedAt":1775407777131,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2524f50e82945c76a6809",
+		"deployedDefinitionId":"69d292a10e422443cf5606b5",
 		"status":"DEPLOYED",
-		"version":49,
-		"workflowVersion":71
+		"version":50,
+		"workflowVersion":73
 	},
 	"edges":[
 		{
@@ -141,6 +141,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -150,7 +151,7 @@
 	"id":"68025fb03ee7c1120a3f2516",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer main | paypal",
-	"modifiedTime":1775407777030,
+	"modifiedTime":1775408099568,
 	"name":"Knowledge Indexer Main | PayPal",
 	"nodes":[
 		{
@@ -358,6 +359,7 @@
 				"newUpdateTime":0
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -954,5 +956,5 @@
 	"tags":[
 		
 	],
-	"version":73
+	"version":74
 }
