@@ -4,14 +4,14 @@
 	],
 	"createdTime":1757441869502,
 	"deleted":false,
-	"deployedVersion":37,
+	"deployedVersion":39,
 	"deploymentState":{
-		"deployedAt":1775385592377,
+		"deployedAt":1775391306891,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bf8b41de37eb670f571",
+		"deployedDefinitionId":"69d2524a50e82945c76a67bb",
 		"status":"DEPLOYED",
-		"version":37,
-		"workflowVersion":73
+		"version":39,
+		"workflowVersion":77
 	},
 	"edges":[
 		{
@@ -33,6 +33,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -42,7 +43,7 @@
 	"id":"688862e1bf72d73b684c4279",
 	"lastModifiedBy":-1,
 	"lcName":"upload file",
-	"modifiedTime":1775389982830,
+	"modifiedTime":1775391430608,
 	"name":"Upload File",
 	"nodes":[
 		{
@@ -271,5 +272,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":75
+	"version":78
 }
