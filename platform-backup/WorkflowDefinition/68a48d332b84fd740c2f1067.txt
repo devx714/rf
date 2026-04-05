@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756411359645,
 	"deleted":false,
-	"deployedVersion":58,
+	"deployedVersion":61,
 	"deploymentState":{
-		"deployedAt":1775334459345,
+		"deployedAt":1775391335671,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1743b39824e0613819c5f",
+		"deployedDefinitionId":"69d2526750e82945c76a69ee",
 		"status":"DEPLOYED",
-		"version":58,
-		"workflowVersion":131
+		"version":61,
+		"workflowVersion":137
 	},
 	"edges":[
 		{
@@ -238,7 +238,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -248,7 +247,7 @@
 	"id":"68a48d332b84fd740c2f1067",
 	"lastModifiedBy":-1,
 	"lcName":"[a2a] handle message send (json + rpc)",
-	"modifiedTime":1775334707128,
+	"modifiedTime":1775407802094,
 	"name":"[A2A] Handle Message Send (JSON + RPC)",
 	"nodes":[
 		{
@@ -1025,7 +1024,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1829,5 +1827,5 @@
 	"tags":[
 		"a2a"
 	],
-	"version":132
+	"version":139
 }
