@@ -4,14 +4,14 @@
 	],
 	"createdTime":1745474397015,
 	"deleted":false,
-	"deployedVersion":113,
+	"deployedVersion":115,
 	"deploymentState":{
-		"deployedAt":1775385553737,
+		"deployedAt":1775391236723,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bd1b31cfc01cc39edc6",
+		"deployedDefinitionId":"69d2520450e82945c76a63e0",
 		"status":"DEPLOYED",
-		"version":113,
-		"workflowVersion":197
+		"version":115,
+		"workflowVersion":201
 	},
 	"edges":[
 		{
@@ -186,6 +186,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -195,7 +196,7 @@
 	"id":"67f90262c75d692f1ee9eae2",
 	"lastModifiedBy":-1,
 	"lcName":"eval | dataset | fetch tools used for session",
-	"modifiedTime":1775385553738,
+	"modifiedTime":1775391437357,
 	"name":"Eval | Dataset | Fetch tools used for session",
 	"nodes":[
 		{
@@ -1593,5 +1594,5 @@
 	"tags":[
 		
 	],
-	"version":197
+	"version":202
 }
