@@ -4,14 +4,14 @@
 	],
 	"createdTime":1773768473585,
 	"deleted":false,
-	"deployedVersion":5,
+	"deployedVersion":10,
 	"deploymentState":{
-		"deployedAt":1775320634772,
+		"deployedAt":1775407762005,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e3ac6b0c9120df173ee",
+		"deployedDefinitionId":"69d29291a2eda46706b045da",
 		"status":"DEPLOYED",
-		"version":5,
-		"workflowVersion":15
+		"version":10,
+		"workflowVersion":25
 	},
 	"edges":[
 		{
@@ -78,7 +78,7 @@
 	"id":"69820a03e4630024dc06defc",
 	"lastModifiedBy":-1,
 	"lcName":"image generation | gemini ",
-	"modifiedTime":1775320888277,
+	"modifiedTime":1775408099936,
 	"name":"Image Generation | Gemini ",
 	"nodes":[
 		{
@@ -1068,5 +1068,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":16
+	"version":26
 }
