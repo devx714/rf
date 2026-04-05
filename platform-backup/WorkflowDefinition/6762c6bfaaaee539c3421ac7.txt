@@ -4,14 +4,14 @@
 	],
 	"createdTime":1735555119173,
 	"deleted":false,
-	"deployedVersion":95,
+	"deployedVersion":97,
 	"deploymentState":{
-		"deployedAt":1775385648112,
+		"deployedAt":1775391420306,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c30b41de37eb670f7dc",
+		"deployedDefinitionId":"69d252bc50e82945c76a6d5e",
 		"status":"DEPLOYED",
-		"version":95,
-		"workflowVersion":170
+		"version":97,
+		"workflowVersion":174
 	},
 	"edges":[
 		{
@@ -317,7 +317,7 @@
 	"id":"6762c6bfaaaee539c3421ac7",
 	"lastModifiedBy":-1,
 	"lcName":"get knowledge custom metadata filter",
-	"modifiedTime":1775385648113,
+	"modifiedTime":1775407848760,
 	"name":"Get Knowledge Custom Metadata Filter",
 	"nodes":[
 		{
@@ -680,7 +680,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -962,7 +961,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1247,7 +1245,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2103,7 +2100,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2303,5 +2299,5 @@
 		"AI Agent",
 		"Knowledge"
 	],
-	"version":170
+	"version":176
 }
