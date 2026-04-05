@@ -4,14 +4,14 @@
 	],
 	"createdTime":1745145294676,
 	"deleted":false,
-	"deployedVersion":78,
+	"deployedVersion":80,
 	"deploymentState":{
-		"deployedAt":1775385625134,
+		"deployedAt":1775391370090,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c19b41de37eb670f6bb",
+		"deployedDefinitionId":"69d2528a50e82945c76a6af1",
 		"status":"DEPLOYED",
-		"version":78,
-		"workflowVersion":137
+		"version":80,
+		"workflowVersion":141
 	},
 	"edges":[
 		{
@@ -63,7 +63,7 @@
 	"id":"680139b69ac0f732c0794010",
 	"lastModifiedBy":-1,
 	"lcName":"call watsonx",
-	"modifiedTime":1775390046366,
+	"modifiedTime":1775407817036,
 	"name":"Call Watsonx",
 	"nodes":[
 		{
@@ -738,5 +738,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":139
+	"version":143
 }
