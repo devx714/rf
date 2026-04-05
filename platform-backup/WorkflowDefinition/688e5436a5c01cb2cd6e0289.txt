@@ -4,14 +4,14 @@
 	],
 	"createdTime":1755332135519,
 	"deleted":false,
-	"deployedVersion":51,
+	"deployedVersion":53,
 	"deploymentState":{
-		"deployedAt":1775334447389,
+		"deployedAt":1775389994071,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1742f39824e0613819b62",
+		"deployedDefinitionId":"69d24d2a50e82945c76a44ab",
 		"status":"DEPLOYED",
-		"version":51,
-		"workflowVersion":108
+		"version":53,
+		"workflowVersion":112
 	},
 	"edges":[
 		{
@@ -154,7 +154,7 @@
 	"id":"688e5436a5c01cb2cd6e0289",
 	"lastModifiedBy":-1,
 	"lcName":"[debug agent] test agent response",
-	"modifiedTime":1775334706855,
+	"modifiedTime":1775390108734,
 	"name":"[Debug Agent] Test Agent Response",
 	"nodes":[
 		{
@@ -711,5 +711,5 @@
 	"tags":[
 		
 	],
-	"version":109
+	"version":113
 }
