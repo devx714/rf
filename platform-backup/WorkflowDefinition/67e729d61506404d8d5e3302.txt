@@ -4,14 +4,14 @@
 	],
 	"createdTime":1743778125132,
 	"deleted":false,
-	"deployedVersion":70,
+	"deployedVersion":73,
 	"deploymentState":{
-		"deployedAt":1775385535814,
+		"deployedAt":1775407688613,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bbfb31cfc01cc39eb24",
+		"deployedDefinitionId":"69d292480e422443cf560370",
 		"status":"DEPLOYED",
-		"version":70,
-		"workflowVersion":161
+		"version":73,
+		"workflowVersion":167
 	},
 	"edges":[
 		{
@@ -402,6 +402,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -411,7 +412,7 @@
 	"id":"67e729d61506404d8d5e3302",
 	"lastModifiedBy":-1,
 	"lcName":"call bedrock - generic (streaming)",
-	"modifiedTime":1775389846054,
+	"modifiedTime":1775408102368,
 	"name":"Call Bedrock - Generic (Streaming)",
 	"nodes":[
 		{
@@ -931,6 +932,7 @@
 				"isLastSlash":false
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1021,6 +1023,7 @@
 				"outputTokens":0
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1279,6 +1282,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1368,6 +1372,7 @@
 				"max_output_tokens":"{{ CpGDp.outputs.max_tokens }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1833,6 +1838,7 @@
 				"payload":"{{ oefeP.outputs.payload }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2305,6 +2311,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -3377,5 +3384,5 @@
 	"tags":[
 		
 	],
-	"version":163
+	"version":168
 }
