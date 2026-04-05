@@ -87,7 +87,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -97,7 +96,7 @@
 	"id":"69429f6381e658543eeb6a8a",
 	"lastModifiedBy":-1,
 	"lcName":"async file chunker",
-	"modifiedTime":1775391438083,
+	"modifiedTime":1775407731112,
 	"name":"Async File Chunker",
 	"nodes":[
 		{
@@ -513,5 +512,5 @@
 		"AI Agent",
 		"Knowledge"
 	],
-	"version":38
+	"version":39
 }
