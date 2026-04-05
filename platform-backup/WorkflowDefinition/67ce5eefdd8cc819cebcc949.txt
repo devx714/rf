@@ -618,7 +618,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -628,7 +627,7 @@
 	"id":"67ce5eefdd8cc819cebcc949",
 	"lastModifiedBy":-1,
 	"lcName":"add default tools",
-	"modifiedTime":1775334706225,
+	"modifiedTime":1775385603702,
 	"name":"Add Default Tools",
 	"nodes":[
 		{
@@ -1081,7 +1080,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1881,7 +1879,6 @@
 				"pptxTemplateId":"{{ n_WI3dW.outputs.properties.generatePPTXSettings.pptxTemplateId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2196,7 +2193,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -3491,5 +3487,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":127
+	"version":128
 }
