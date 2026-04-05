@@ -4,15 +4,15 @@
 	],
 	"createdTime":1761904092513,
 	"deleted":false,
-	"deployedVersion":29,
+	"deployedVersion":32,
 	"deploymentState":{
-		"deployedAt":1774342936550,
+		"deployedAt":1775385607887,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c253188d65fb68e1563b4b",
+		"deployedDefinitionId":"69d23c07b31cfc01cc39f1ab",
 		"deploymentTag":"resolve_translations",
 		"status":"DEPLOYED",
-		"version":29,
-		"workflowVersion":59
+		"version":32,
+		"workflowVersion":65
 	},
 	"edges":[
 		{
@@ -142,7 +142,7 @@
 	"id":"69031337501d855ce646d57f",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] get sample prompts for knowledge and knowledgeset",
-	"modifiedTime":1775320658978,
+	"modifiedTime":1775385607888,
 	"name":"[DT] Get sample prompts for knowledge and knowledgeSet",
 	"nodes":[
 		{
@@ -348,6 +348,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -685,5 +686,5 @@
 	"tags":[
 		
 	],
-	"version":61
+	"version":65
 }
