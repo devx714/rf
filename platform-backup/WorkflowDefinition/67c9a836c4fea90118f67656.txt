@@ -4,15 +4,15 @@
 	],
 	"createdTime":1741270927136,
 	"deleted":false,
-	"deployedVersion":89,
+	"deployedVersion":93,
 	"deploymentState":{
-		"deployedAt":1775334443432,
+		"deployedAt":1775407777955,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1742b39824e0613819b10",
+		"deployedDefinitionId":"69d292a10e422443cf5606c9",
 		"deploymentTag":"async_file_indexing",
 		"status":"DEPLOYED",
-		"version":89,
-		"workflowVersion":146
+		"version":93,
+		"workflowVersion":154
 	},
 	"edges":[
 		{
@@ -92,6 +92,17 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
+					"V"
+				],
+				"principalIds":[
+					"45775"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -101,7 +112,7 @@
 	"id":"67c9a836c4fea90118f67656",
 	"lastModifiedBy":-1,
 	"lcName":"ingestknowledge tool",
-	"modifiedTime":1775385596985,
+	"modifiedTime":1775408108278,
 	"name":"IngestKnowledge Tool",
 	"nodes":[
 		{
@@ -283,6 +294,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -512,5 +524,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":148
+	"version":155
 }
