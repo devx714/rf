@@ -2,10 +2,10 @@
 	"createdTime":1768386834461,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1775381791027,
+		"deployedAt":1775384472560,
 		"deployedBy":195414,
-		"entityVersion":1269,
-		"version":139
+		"entityVersion":1279,
+		"version":141
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -29,8 +29,8 @@
 		]
 	},
 	"id":"vinaytest-11",
-	"lastModifiedBy":195414,
-	"modifiedTime":1775381791029,
+	"lastModifiedBy":195437,
+	"modifiedTime":1775390207514,
 	"ownerUserId":195435,
 	"properties":{
 		"standard":false,
@@ -45,7 +45,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":56,
+				"_pageCount":59,
 				"_moduleCount":1,
 				"_variableCounter":10,
 				"_functionCounter":9
@@ -57,7 +57,11 @@
 		},
 		"pagePermissions":{
 			"e_696771150543417598ee5563":{},
-			"e_69d1121a1feba233289daa0b":{}
+			"e_69d1121a1feba233289daa0b":{},
+			"e_69d236456bceee317f011400":{},
+			"e_69d22d076bceee317f011226":{},
+			"e_69d24db0f3f4313042113ed6":{},
+			"e_69d24df4d6c5c24812392372":{}
 		},
 		"type":"application",
 		"locale":{
@@ -286,11 +290,14 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_69d1121a1feba233289daa0b":"page-499",
-			"e_69d22d076bceee317f011226":"page-56",
-			"e_69ba4c797091fd58ef93252d":"_5nlS3",
+			"e_69d24df4d6c5c24812392372":"page-prakul-02",
 			"e_69d0f6720749020b38d23ae7":"page-45",
 			"e_696771150543417598ee5563":"homepage",
-			"e_69d220f46bceee317f010fc6":"page-55"
+			"e_69d24db0f3f4313042113ed6":"page-prakul-01",
+			"e_69d220f46bceee317f010fc6":"page-55",
+			"e_69d22d076bceee317f011226":"page-56",
+			"e_69ba4c797091fd58ef93252d":"_5nlS3",
+			"e_69d236456bceee317f011400":"threeeeeee"
 		},
 		"paths":{
 			"f_root":{
@@ -308,24 +315,28 @@
 					"f_toLNT",
 					"f_JPs1U",
 					"e_69d220f46bceee317f010fc6",
-					"e_69d22d076bceee317f011226"
+					"f_7dgwx",
+					"e_69d236456bceee317f011400",
+					"e_69d22d076bceee317f011226",
+					"e_69d24db0f3f4313042113ed6"
 				],
 				"path":"/"
 			},
 			"f_46X3Q":{
 				"id":"f_46X3Q",
 				"segment":"prakul233",
-				"children":[],
+				"children":[
+					"e_69d22d076bceee317f011226"
+				],
 				"path":"/prakul233"
 			},
 			"f_toLNT":{
 				"id":"f_toLNT",
-				"segment":"hello",
-				"parentId":"f_root",
+				"segment":"hellooo",
 				"children":[
 					"f_OhXqt"
 				],
-				"path":"/hello"
+				"path":"/hellooo"
 			},
 			"f_OhXqt":{
 				"id":"f_OhXqt",
@@ -334,7 +345,7 @@
 				"children":[
 					"f_AWgq1"
 				],
-				"path":"/hello/:hello"
+				"path":"/hellooo/:hello"
 			},
 			"f_AWgq1":{
 				"id":"f_AWgq1",
@@ -343,7 +354,7 @@
 				"children":[
 					"f_0vU8E"
 				],
-				"path":"/hello/:hello/world"
+				"path":"/hellooo/:hello/world"
 			},
 			"f_0vU8E":{
 				"id":"f_0vU8E",
@@ -352,15 +363,15 @@
 				"children":[
 					"f_Ednu2"
 				],
-				"path":"/hello/:hello/world/:world"
+				"path":"/hellooo/:hello/world/:world"
 			},
 			"f_Ednu2":{
 				"id":"f_Ednu2",
-				"segment":"sujal",
+				"segment":":sujal",
 				"parentId":"f_0vU8E",
 				"children":[],
-				"path":"/hello/:hello/world/:world/sujal",
-				"redirect":"/homepage"
+				"path":"/hellooo/:hello/world/:world/:sujal",
+				"redirect":"/page-499"
 			},
 			"f_JPs1U":{
 				"id":"f_JPs1U",
@@ -379,6 +390,26 @@
 					"e_69d220f46bceee317f010fc6"
 				],
 				"path":"/new/:new"
+			},
+			"f_7dgwx":{
+				"id":"f_7dgwx",
+				"segment":"oneeeeee",
+				"children":[
+					"f_dHvZs",
+					"e_69d24db0f3f4313042113ed6"
+				],
+				"path":"/oneeeeee"
+			},
+			"f_dHvZs":{
+				"id":"f_dHvZs",
+				"segment":"two",
+				"parentId":"f_7dgwx",
+				"children":[
+					"e_69d236456bceee317f011400",
+					"e_69d24df4d6c5c24812392372"
+				],
+				"path":"/oneeeeee/two",
+				"redirect":"/page-56"
 			}
 		},
 		"name":"vinaytest11234567",
@@ -394,13 +425,8 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
-			"e_69d22d076bceee317f011226":{
-				"slug":"page-56",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_69ba4c797091fd58ef93252d":{
-				"slug":"_5nlS3",
+			"e_69d24df4d6c5c24812392372":{
+				"slug":"page-prakul-02",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -414,13 +440,33 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_69d24db0f3f4313042113ed6":{
+				"slug":"page-prakul-01",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_69d220f46bceee317f010fc6":{
 				"slug":"page-55",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_69d22d076bceee317f011226":{
+				"slug":"page-56",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_69ba4c797091fd58ef93252d":{
+				"slug":"_5nlS3",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_69d236456bceee317f011400":{
+				"slug":"threeeeeee",
 				"isPublic":false,
 				"type":"PAGE"
 			}
 		}
 	},
 	"standard":false,
-	"version":1269
+	"version":1285
 }
