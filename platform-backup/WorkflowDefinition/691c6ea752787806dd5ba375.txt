@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769505894950,
 	"deleted":false,
-	"deployedVersion":15,
+	"deployedVersion":18,
 	"deploymentState":{
-		"deployedAt":1775334341779,
+		"deployedAt":1775391193301,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173c539824e0613819651",
+		"deployedDefinitionId":"69d251d950e82945c76a6255",
 		"status":"DEPLOYED",
-		"version":15,
-		"workflowVersion":52
+		"version":18,
+		"workflowVersion":58
 	},
 	"edges":[
 		{
@@ -178,7 +178,7 @@
 	"id":"691c6ea752787806dd5ba375",
 	"lastModifiedBy":-1,
 	"lcName":"sre | merge investigation",
-	"modifiedTime":1775385540042,
+	"modifiedTime":1775407695240,
 	"name":"SRE | Merge Investigation",
 	"nodes":[
 		{
@@ -1608,5 +1608,5 @@
 		"sre_ai",
 		"dev_migrate"
 	],
-	"version":54
+	"version":60
 }
