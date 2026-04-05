@@ -4,14 +4,14 @@
 	],
 	"createdTime":1742392107387,
 	"deleted":false,
-	"deployedVersion":90,
+	"deployedVersion":92,
 	"deploymentState":{
-		"deployedAt":1774342908870,
+		"deployedAt":1775334412850,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252fc8d65fb68e15639c6",
+		"deployedDefinitionId":"69d1740c39824e0613819a33",
 		"status":"DEPLOYED",
-		"version":90,
-		"workflowVersion":148
+		"version":92,
+		"workflowVersion":152
 	},
 	"edges":[
 		{
@@ -49,7 +49,7 @@
 	"id":"67dab5e8cd168828f7246018",
 	"lastModifiedBy":-1,
 	"lcName":"delete agent (async)",
-	"modifiedTime":1775320636610,
+	"modifiedTime":1775385585665,
 	"name":"Delete Agent (Async)",
 	"nodes":[
 		{
@@ -195,5 +195,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":150
+	"version":154
 }
