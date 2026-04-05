@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748849807212,
 	"deleted":false,
-	"deployedVersion":35,
+	"deployedVersion":36,
 	"deploymentState":{
-		"deployedAt":1775334472362,
+		"deployedAt":1775385627770,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1744839824e0613819d76",
+		"deployedDefinitionId":"69d23c1bb41de37eb670f6f4",
 		"status":"DEPLOYED",
-		"version":35,
-		"workflowVersion":88
+		"version":36,
+		"workflowVersion":90
 	},
 	"edges":[
 		{
@@ -203,7 +203,7 @@
 	"id":"683d548f59c648704991562f",
 	"lastModifiedBy":-1,
 	"lcName":"[external mcp server] sse call",
-	"modifiedTime":1775385627669,
+	"modifiedTime":1775390050133,
 	"name":"[External MCP Server] SSE Call",
 	"nodes":[
 		{
@@ -1528,5 +1528,5 @@
 	"tags":[
 		"External MCP"
 	],
-	"version":90
+	"version":92
 }
