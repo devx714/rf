@@ -4,14 +4,14 @@
 	],
 	"createdTime":1728631637996,
 	"deleted":false,
-	"deployedVersion":124,
+	"deployedVersion":126,
 	"deploymentState":{
-		"deployedAt":1775385628686,
+		"deployedAt":1775391374927,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c1cb31cfc01cc39f30a",
+		"deployedDefinitionId":"69d2528e50e82945c76a6b57",
 		"status":"DEPLOYED",
-		"version":124,
-		"workflowVersion":185
+		"version":126,
+		"workflowVersion":189
 	},
 	"edges":[
 		{
@@ -450,7 +450,7 @@
 	"id":"6708d355e5c64343ba9b278e",
 	"lastModifiedBy":-1,
 	"lcName":"indexing strategy settings fetcher",
-	"modifiedTime":1775385628687,
+	"modifiedTime":1775407821989,
 	"name":"Indexing Strategy Settings Fetcher",
 	"nodes":[
 		{
@@ -841,7 +841,6 @@
 				"agentOrKnowledgeSetId":"{{ n_FCIDU.outputs.aiAgentId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -965,7 +964,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1049,7 +1047,6 @@
 				"isKnowledgeParsed":false
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1119,7 +1116,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1197,7 +1193,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -3057,5 +3052,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":185
+	"version":191
 }
