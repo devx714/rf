@@ -4,14 +4,14 @@
 	],
 	"createdTime":1752930407041,
 	"deleted":false,
-	"deployedVersion":98,
+	"deployedVersion":99,
 	"deploymentState":{
-		"deployedAt":1775391363910,
+		"deployedAt":1775407810760,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2528350e82945c76a6a85",
+		"deployedDefinitionId":"69d292c20e422443cf560836",
 		"status":"DEPLOYED",
-		"version":98,
-		"workflowVersion":163
+		"version":99,
+		"workflowVersion":165
 	},
 	"edges":[
 		{
@@ -348,6 +348,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -357,7 +358,7 @@
 	"id":"687b9867f373029c2489736a",
 	"lastModifiedBy":-1,
 	"lcName":"eval | experiment | process a llm testcase inside the conversation",
-	"modifiedTime":1775407810674,
+	"modifiedTime":1775408108837,
 	"name":"Eval | Experiment | Process a LLM testcase inside the conversation",
 	"nodes":[
 		{
@@ -775,6 +776,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -828,6 +830,7 @@
 				"avgLLMSuccess":true
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1265,6 +1268,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1377,6 +1381,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1486,6 +1491,7 @@
 				"startTime":"=(NOW() - DATE(1970,1,1)) * 86400"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1787,6 +1793,7 @@
 				"inputText":"{{ XG42x.outputs.item.properties.input }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2966,5 +2973,5 @@
 	"tags":[
 		
 	],
-	"version":165
+	"version":166
 }
