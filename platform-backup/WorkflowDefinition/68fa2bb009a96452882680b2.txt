@@ -4,14 +4,14 @@
 	],
 	"createdTime":1761674849270,
 	"deleted":false,
-	"deployedVersion":36,
+	"deployedVersion":39,
 	"deploymentState":{
-		"deployedAt":1774342957434,
+		"deployedAt":1775385627098,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2532d29fa153f07e09d4a",
+		"deployedDefinitionId":"69d23c1bb41de37eb670f6e1",
 		"status":"DEPLOYED",
-		"version":36,
-		"workflowVersion":72
+		"version":39,
+		"workflowVersion":78
 	},
 	"edges":[
 		{
@@ -96,7 +96,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -106,7 +105,7 @@
 	"id":"68fa2bb009a96452882680b2",
 	"lastModifiedBy":-1,
 	"lcName":"eval | task | calculate chunk relevancy",
-	"modifiedTime":1774622955453,
+	"modifiedTime":1775390049151,
 	"name":"Eval | Task | Calculate Chunk Relevancy",
 	"nodes":[
 		{
@@ -726,5 +725,5 @@
 	"tags":[
 		
 	],
-	"version":73
+	"version":80
 }
