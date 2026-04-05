@@ -4,14 +4,14 @@
 	],
 	"createdTime":1740110527168,
 	"deleted":false,
-	"deployedVersion":86,
+	"deployedVersion":87,
 	"deploymentState":{
-		"deployedAt":1775320675085,
+		"deployedAt":1775334468438,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e63c6b0c9120df17523",
+		"deployedDefinitionId":"69d1744439824e0613819d2e",
 		"status":"DEPLOYED",
-		"version":86,
-		"workflowVersion":143
+		"version":87,
+		"workflowVersion":145
 	},
 	"edges":[
 		{
@@ -40,7 +40,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -50,7 +49,7 @@
 	"id":"67a0a9d3800f6b2f86fe3206",
 	"lastModifiedBy":-1,
 	"lcName":"collect slot tool",
-	"modifiedTime":1775320890117,
+	"modifiedTime":1775385623596,
 	"name":"Collect Slot Tool",
 	"nodes":[
 		{
@@ -208,7 +207,6 @@
 				"collectedSlots":"{{ kGOsZ.outputs.result.toolInputs }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -272,5 +270,5 @@
 		"AI Agent",
 		"Team"
 	],
-	"version":144
+	"version":147
 }
