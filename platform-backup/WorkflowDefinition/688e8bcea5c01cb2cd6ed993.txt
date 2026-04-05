@@ -4,14 +4,14 @@
 	],
 	"createdTime":1755332135203,
 	"deleted":false,
-	"deployedVersion":51,
+	"deployedVersion":52,
 	"deploymentState":{
-		"deployedAt":1775334507143,
+		"deployedAt":1775385642870,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1746b39824e0613819ef3",
+		"deployedDefinitionId":"69d23c2ab31cfc01cc39f401",
 		"status":"DEPLOYED",
-		"version":51,
-		"workflowVersion":94
+		"version":52,
+		"workflowVersion":96
 	},
 	"edges":[
 		{
@@ -76,7 +76,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -86,7 +85,7 @@
 	"id":"688e8bcea5c01cb2cd6ed993",
 	"lastModifiedBy":-1,
 	"lcName":"[debug agent] get error links",
-	"modifiedTime":1775334706924,
+	"modifiedTime":1775390089716,
 	"name":"[Debug Agent] Get Error Links",
 	"nodes":[
 		{
@@ -606,7 +605,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -823,5 +821,5 @@
 	"tags":[
 		
 	],
-	"version":95
+	"version":98
 }
