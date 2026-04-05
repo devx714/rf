@@ -144,7 +144,7 @@
 	"id":"6835668650b3973ae9e37c54",
 	"lastModifiedBy":-1,
 	"lcName":"process single chunk | graphrag",
-	"modifiedTime":1775385634142,
+	"modifiedTime":1775390058311,
 	"name":"Process Single Chunk | GraphRAG",
 	"nodes":[
 		{
@@ -607,7 +607,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1327,5 +1326,5 @@
 	"tags":[
 		"GraphRAG"
 	],
-	"version":158
+	"version":160
 }
