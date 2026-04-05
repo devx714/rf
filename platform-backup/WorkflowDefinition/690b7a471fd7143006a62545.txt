@@ -4,15 +4,15 @@
 	],
 	"createdTime":1762858154569,
 	"deleted":false,
-	"deployedVersion":30,
+	"deployedVersion":32,
 	"deploymentState":{
-		"deployedAt":1775385558967,
+		"deployedAt":1775391244399,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bd6b31cfc01cc39ee4f",
+		"deployedDefinitionId":"69d2520c50e82945c76a6477",
 		"deploymentTag":"resolve_translations",
 		"status":"DEPLOYED",
-		"version":30,
-		"workflowVersion":62
+		"version":32,
+		"workflowVersion":66
 	},
 	"edges":[
 		{
@@ -132,6 +132,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -141,7 +142,7 @@
 	"id":"690b7a471fd7143006a62545",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] fetch sample prompts from knowledgeset",
-	"modifiedTime":1775389916501,
+	"modifiedTime":1775391436737,
 	"name":"[DT] Fetch Sample Prompts From KnowledgeSet",
 	"nodes":[
 		{
@@ -296,6 +297,7 @@
 				"cnt":0
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -553,6 +555,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -859,5 +862,5 @@
 	"tags":[
 		
 	],
-	"version":64
+	"version":67
 }
