@@ -311,7 +311,7 @@
 	"id":"66e6b4e5e02e700fca2dd3aa",
 	"lastModifiedBy":-1,
 	"lcName":"response generation(feedback, tone,style,format) {do not touch}",
-	"modifiedTime":1775385638155,
+	"modifiedTime":1775390084050,
 	"name":"Response Generation(Feedback, TOne,Style,Format) {DO NOT TOUCH}",
 	"nodes":[
 		{
@@ -764,7 +764,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1129,7 +1128,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1384,7 +1382,6 @@
 				"ua:list_type":"INTEGER"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1663,7 +1660,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1860,5 +1856,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":208
+	"version":210
 }
