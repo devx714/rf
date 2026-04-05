@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762858176068,
 	"deleted":false,
-	"deployedVersion":22,
+	"deployedVersion":24,
 	"deploymentState":{
-		"deployedAt":1775385575957,
+		"deployedAt":1775391266309,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23be7b31cfc01cc39ef84",
+		"deployedDefinitionId":"69d2522250e82945c76a6625",
 		"status":"DEPLOYED",
-		"version":22,
-		"workflowVersion":44
+		"version":24,
+		"workflowVersion":48
 	},
 	"edges":[
 		{
@@ -43,7 +43,7 @@
 	"id":"690b1de7d563c5323c414434",
 	"lastModifiedBy":-1,
 	"lcName":"query language detector - default",
-	"modifiedTime":1775385909598,
+	"modifiedTime":1775391434730,
 	"name":"Query Language Detector - Default",
 	"nodes":[
 		{
@@ -186,5 +186,5 @@
 	"tags":[
 		
 	],
-	"version":45
+	"version":49
 }
