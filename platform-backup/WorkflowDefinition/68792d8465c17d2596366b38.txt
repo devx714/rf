@@ -4,14 +4,14 @@
 	],
 	"createdTime":1757441825478,
 	"deleted":false,
-	"deployedVersion":37,
+	"deployedVersion":38,
 	"deploymentState":{
-		"deployedAt":1775334349886,
+		"deployedAt":1775385547222,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173cd39824e06138196f6",
+		"deployedDefinitionId":"69d23bcbb31cfc01cc39ed0a",
 		"status":"DEPLOYED",
-		"version":37,
-		"workflowVersion":112
+		"version":38,
+		"workflowVersion":114
 	},
 	"edges":[
 		{
@@ -101,7 +101,7 @@
 	"id":"68792d8465c17d2596366b38",
 	"lastModifiedBy":-1,
 	"lcName":"create knowledge",
-	"modifiedTime":1775385547159,
+	"modifiedTime":1775385547223,
 	"name":"Create Knowledge",
 	"nodes":[
 		{
