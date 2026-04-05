@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748544424594,
 	"deleted":false,
-	"deployedVersion":78,
+	"deployedVersion":82,
 	"deploymentState":{
-		"deployedAt":1775320689671,
+		"deployedAt":1775391387711,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e71c6b0c9120df1757c",
+		"deployedDefinitionId":"69d2529b50e82945c76a6c67",
 		"status":"DEPLOYED",
-		"version":78,
-		"workflowVersion":125
+		"version":82,
+		"workflowVersion":133
 	},
 	"edges":[
 		{
@@ -72,7 +72,7 @@
 	"id":"682ca5bcd19e0b782b8913e5",
 	"lastModifiedBy":-1,
 	"lcName":"download and index files (signal wrapper)",
-	"modifiedTime":1775334482571,
+	"modifiedTime":1775407835396,
 	"name":"Download and Index Files (Signal Wrapper)",
 	"nodes":[
 		{
@@ -402,5 +402,5 @@
 	"tags":[
 		
 	],
-	"version":127
+	"version":135
 }
