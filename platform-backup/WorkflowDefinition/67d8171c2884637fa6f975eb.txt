@@ -4,14 +4,14 @@
 	],
 	"createdTime":1742214940956,
 	"deleted":false,
-	"deployedVersion":37,
+	"deployedVersion":38,
 	"deploymentState":{
-		"deployedAt":1773928145070,
+		"deployedAt":1775390090562,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfed140a2b92de9fe68ea",
+		"deployedDefinitionId":"69d24d8a50e82945c76a4965",
 		"status":"DEPLOYED",
-		"version":37,
-		"workflowVersion":61
+		"version":38,
+		"workflowVersion":62
 	},
 	"edges":[
 		{
@@ -33,6 +33,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -42,7 +43,7 @@
 	"id":"67d8171c2884637fa6f975eb",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | trello | get usersharedids (rbac)",
-	"modifiedTime":1775390090513,
+	"modifiedTime":1775390108840,
 	"name":"Knowledge Indexer | Trello | Get userSharedIds (RBAC)",
 	"nodes":[
 		{
@@ -334,6 +335,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -399,5 +401,5 @@
 	"tags":[
 		
 	],
-	"version":62
+	"version":63
 }
