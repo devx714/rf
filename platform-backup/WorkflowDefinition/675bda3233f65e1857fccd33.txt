@@ -4,14 +4,14 @@
 	],
 	"createdTime":1735457220834,
 	"deleted":false,
-	"deployedVersion":83,
+	"deployedVersion":85,
 	"deploymentState":{
-		"deployedAt":1775385582653,
+		"deployedAt":1775391295262,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23beeb31cfc01cc39eff8",
+		"deployedDefinitionId":"69d2523f50e82945c76a66cf",
 		"status":"DEPLOYED",
-		"version":83,
-		"workflowVersion":143
+		"version":85,
+		"workflowVersion":147
 	},
 	"edges":[
 		{
@@ -144,7 +144,7 @@
 	"id":"675bda3233f65e1857fccd33",
 	"lastModifiedBy":-1,
 	"lcName":"prev sessions rag",
-	"modifiedTime":1775389970540,
+	"modifiedTime":1775407760206,
 	"name":"Prev Sessions RAG",
 	"nodes":[
 		{
@@ -793,5 +793,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":145
+	"version":149
 }
