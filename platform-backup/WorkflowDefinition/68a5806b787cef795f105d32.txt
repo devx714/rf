@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756411343599,
 	"deleted":false,
-	"deployedVersion":55,
+	"deployedVersion":58,
 	"deploymentState":{
-		"deployedAt":1774342922245,
+		"deployedAt":1775385595892,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2530a29fa153f07e09bee",
+		"deployedDefinitionId":"69d23bfbb31cfc01cc39f0ec",
 		"status":"DEPLOYED",
-		"version":55,
-		"workflowVersion":175
+		"version":58,
+		"workflowVersion":181
 	},
 	"edges":[
 		{
@@ -234,7 +234,7 @@
 	"id":"68a5806b787cef795f105d32",
 	"lastModifiedBy":-1,
 	"lcName":"[a2a] update agent cards auth",
-	"modifiedTime":1775320647058,
+	"modifiedTime":1775389987039,
 	"name":"[A2A] Update Agent Cards Auth",
 	"nodes":[
 		{
@@ -1677,5 +1677,5 @@
 	"tags":[
 		"a2a"
 	],
-	"version":177
+	"version":183
 }
