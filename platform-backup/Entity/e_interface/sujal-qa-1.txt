@@ -30,7 +30,7 @@
 	},
 	"id":"sujal-qa-1",
 	"lastModifiedBy":195414,
-	"modifiedTime":1775393885695,
+	"modifiedTime":1775396347998,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -46,7 +46,7 @@
 			"_counter":{
 				"_moduleCount":0,
 				"_mqttTopicCounter":0,
-				"_pageCount":4
+				"_pageCount":5
 			}
 		},
 		"publicPageIds":[],
@@ -219,6 +219,7 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_69d25b512be04f59a5b2779e":"homepage",
+			"e_69d265fbabe849140555555e":"page-5",
 			"e_69d25be5abe84914055554d4":"mars",
 			"e_69d25b71abe849140555546d":"hello",
 			"e_69d25bdcabe84914055554d2":"world"
@@ -231,7 +232,8 @@
 					"e_69d25b512be04f59a5b2779e",
 					"e_69d25b71abe849140555546d",
 					"e_69d25bdcabe84914055554d2",
-					"f_cU9rV"
+					"f_cU9rV",
+					"f_wzzqc"
 				],
 				"path":"/"
 			},
@@ -240,9 +242,44 @@
 				"segment":"sujal",
 				"parentId":"f_root",
 				"children":[
-					"e_69d25be5abe84914055554d4"
+					"e_69d25be5abe84914055554d4",
+					"f_Ph238"
 				],
 				"path":"/sujal"
+			},
+			"f_Ph238":{
+				"id":"f_Ph238",
+				"segment":":sujal",
+				"parentId":"f_cU9rV",
+				"children":[
+					"e_69d265fbabe849140555555e"
+				],
+				"path":"/sujal/:sujal"
+			},
+			"f_wzzqc":{
+				"id":"f_wzzqc",
+				"segment":"hello",
+				"parentId":"f_root",
+				"children":[
+					"f_E8Swe"
+				],
+				"path":"/hello"
+			},
+			"f_E8Swe":{
+				"id":"f_E8Swe",
+				"segment":":hello",
+				"parentId":"f_wzzqc",
+				"children":[
+					"f_SorcI"
+				],
+				"path":"/hello/:hello"
+			},
+			"f_SorcI":{
+				"id":"f_SorcI",
+				"segment":"alpha",
+				"parentId":"f_E8Swe",
+				"children":[],
+				"path":"/hello/:hello/alpha"
 			}
 		},
 		"name":"sujal-qa-1",
@@ -252,6 +289,11 @@
 		"entityDetailsMap":{
 			"e_69d25b512be04f59a5b2779e":{
 				"slug":"homepage",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_69d265fbabe849140555555e":{
+				"slug":"page-5",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -276,5 +318,5 @@
 	"tags":[
 		
 	],
-	"version":11
+	"version":18
 }
