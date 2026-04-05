@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775367539155,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775367578464,
+		"deployedBy":161912,
+		"deployedDefinitionId":"69d1f59a3056b31235b59e03",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"edges":[
 		{
 			"fromNodeId":"n_kqHRN",
@@ -23,7 +32,7 @@
 	"id":"69d1f5733056b31235b59daf",
 	"lastModifiedBy":161912,
 	"lcName":"g ",
-	"modifiedTime":1775367575681,
+	"modifiedTime":1775367601109,
 	"name":"g ",
 	"nodes":[
 		{
@@ -33,7 +42,7 @@
 				"resourceName":"webhooks_default"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_rcQiY-1",
 			"id":"n_kqHRN",
@@ -60,7 +69,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_rcQiY-1",
 			"id":"n_aQkuR",
@@ -82,7 +91,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_rcQiY-1",
 			"id":"n_t6b9W",
@@ -144,5 +153,8 @@
 		}
 	},
 	"standard":false,
-	"version":1
+	"tags":[
+		"check1"
+	],
+	"version":2
 }
