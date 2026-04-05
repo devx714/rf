@@ -4,14 +4,14 @@
 	],
 	"createdTime":1728300331410,
 	"deleted":false,
-	"deployedVersion":33,
+	"deployedVersion":35,
 	"deploymentState":{
-		"deployedAt":1773928140727,
+		"deployedAt":1775391390529,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfecc40a2b92de9fe6898",
+		"deployedDefinitionId":"69d2529e50e82945c76a6ca3",
 		"status":"DEPLOYED",
-		"version":33,
-		"workflowVersion":117
+		"version":35,
+		"workflowVersion":120
 	},
 	"edges":[
 		{
@@ -229,6 +229,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -238,7 +239,7 @@
 	"id":"6703c52bec30651a8ce4a1e2",
 	"lastModifiedBy":-1,
 	"lcName":"[onedrive] get file sharedwithids",
-	"modifiedTime":1775390086903,
+	"modifiedTime":1775391435508,
 	"name":"[OneDrive] Get File SharedWithIds",
 	"nodes":[
 		{
@@ -525,6 +526,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -598,6 +600,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1196,5 +1199,5 @@
 		"Knowledge",
 		"RBAC"
 	],
-	"version":118
+	"version":121
 }
