@@ -4,14 +4,14 @@
 	],
 	"createdTime":1745777625708,
 	"deleted":false,
-	"deployedVersion":158,
+	"deployedVersion":159,
 	"deploymentState":{
-		"deployedAt":1775334345019,
+		"deployedAt":1775385542931,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173c839824e0613819698",
+		"deployedDefinitionId":"69d23bc6b31cfc01cc39ebc2",
 		"status":"DEPLOYED",
-		"version":158,
-		"workflowVersion":255
+		"version":159,
+		"workflowVersion":257
 	},
 	"edges":[
 		{
@@ -528,7 +528,7 @@
 	"id":"680e73d93b699c146071a8f6",
 	"lastModifiedBy":-1,
 	"lcName":"eval | experiment | run experiment internal",
-	"modifiedTime":1775385542857,
+	"modifiedTime":1775385542932,
 	"name":"Eval | Experiment | Run Experiment Internal",
 	"nodes":[
 		{
@@ -612,6 +612,7 @@
 				"startTime":"=(NOW() - DATE(1970,1,1)) * 86400"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -852,6 +853,7 @@
 				"failureCount":0
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1353,6 +1355,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1892,6 +1895,7 @@
 				"success":0
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2672,6 +2676,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -3168,6 +3173,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
