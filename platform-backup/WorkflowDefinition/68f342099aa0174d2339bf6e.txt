@@ -4,14 +4,14 @@
 	],
 	"createdTime":1761424591710,
 	"deleted":false,
-	"deployedVersion":48,
+	"deployedVersion":51,
 	"deploymentState":{
-		"deployedAt":1774342901255,
+		"deployedAt":1775385579313,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252f529fa153f07e09ad5",
+		"deployedDefinitionId":"69d23bebb31cfc01cc39efc5",
 		"status":"DEPLOYED",
-		"version":48,
-		"workflowVersion":84
+		"version":51,
+		"workflowVersion":90
 	},
 	"edges":[
 		{
@@ -49,7 +49,7 @@
 	"id":"68f342099aa0174d2339bf6e",
 	"lastModifiedBy":-1,
 	"lcName":"unarchive knowledge | specific raw data",
-	"modifiedTime":1775320629687,
+	"modifiedTime":1775385579314,
 	"name":"Unarchive Knowledge | Specific Raw Data",
 	"nodes":[
 		{
@@ -234,5 +234,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":86
+	"version":90
 }
