@@ -6,46 +6,72 @@
 	"deleted":false,
 	"edges":[
 		{
-			"fromNodeId":"_2IzTp",
+			"fromNodeId":"n_iZUEY",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_dcSA4",
+			"toNodeId":"n_4pj7I",
 			"type":"next"
 		}
 	],
 	"id":"69d295550e422443cf560aa7",
 	"lastModifiedBy":39715,
 	"lcName":"testtemporetention",
-	"modifiedTime":1775408469888,
+	"modifiedTime":1775408482352,
 	"name":"testTempoRetention",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":881,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_2IzTp-1",
-			"id":"_2IzTp",
-			"index":0,
+			"id":"n_iZUEY",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":1761,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_2IzTp-1",
-			"id":"_dcSA4",
-			"index":0,
+			"id":"n_4pj7I",
+			"index":2,
+			"inputs":{
+				"code":"return 1;",
+				"compile_static":false,
+				"captureStdOutput":false
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute Groovy code",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":39715,
+	"schemaReferences":[
+		
+	],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -56,5 +82,5 @@
 		}
 	},
 	"standard":false,
-	"version":0
+	"version":1
 }
