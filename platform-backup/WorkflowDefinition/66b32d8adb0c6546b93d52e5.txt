@@ -4,14 +4,14 @@
 	],
 	"createdTime":1723018634955,
 	"deleted":false,
-	"deployedVersion":127,
+	"deployedVersion":129,
 	"deploymentState":{
-		"deployedAt":1775385548307,
+		"deployedAt":1775391206327,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bccb31cfc01cc39ed16",
+		"deployedDefinitionId":"69d251e650e82945c76a6355",
 		"status":"DEPLOYED",
-		"version":127,
-		"workflowVersion":191
+		"version":129,
+		"workflowVersion":195
 	},
 	"edges":[
 		{
@@ -412,7 +412,7 @@
 	"id":"66b32d8adb0c6546b93d52e5",
 	"lastModifiedBy":-1,
 	"lcName":"ai agent co-pilot ",
-	"modifiedTime":1775389877228,
+	"modifiedTime":1775407709867,
 	"name":"AI Agent CO-PILOT ",
 	"nodes":[
 		{
@@ -2181,5 +2181,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":193
+	"version":197
 }
