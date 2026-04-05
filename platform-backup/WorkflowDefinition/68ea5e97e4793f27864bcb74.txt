@@ -61,7 +61,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -71,7 +70,7 @@
 	"id":"68ea5e97e4793f27864bcb74",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] aggregated knowledges count api",
-	"modifiedTime":1775334705702,
+	"modifiedTime":1775385560546,
 	"name":"[DT] Aggregated knowledges count API",
 	"nodes":[
 		{
@@ -392,7 +391,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -635,5 +633,5 @@
 	"tags":[
 		
 	],
-	"version":70
+	"version":71
 }
