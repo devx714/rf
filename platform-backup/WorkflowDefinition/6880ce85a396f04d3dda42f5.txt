@@ -40,7 +40,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -50,7 +49,7 @@
 	"id":"6880ce85a396f04d3dda42f5",
 	"lastModifiedBy":-1,
 	"lcName":"[debug agent] fetch tool calls",
-	"modifiedTime":1775391436832,
+	"modifiedTime":1775407706755,
 	"name":"[Debug Agent] Fetch Tool Calls",
 	"nodes":[
 		{
@@ -374,5 +373,5 @@
 	"tags":[
 		
 	],
-	"version":113
+	"version":114
 }
