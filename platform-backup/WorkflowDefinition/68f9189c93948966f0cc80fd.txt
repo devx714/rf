@@ -4,14 +4,14 @@
 	],
 	"createdTime":1761283323374,
 	"deleted":false,
-	"deployedVersion":39,
+	"deployedVersion":42,
 	"deploymentState":{
-		"deployedAt":1774342938124,
+		"deployedAt":1775385609471,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2531a8d65fb68e1563b71",
+		"deployedDefinitionId":"69d23c09b41de37eb670f60f",
 		"status":"DEPLOYED",
-		"version":39,
-		"workflowVersion":106
+		"version":42,
+		"workflowVersion":112
 	},
 	"edges":[
 		{
@@ -223,7 +223,7 @@
 	"id":"68f9189c93948966f0cc80fd",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] filtered and sort agent list",
-	"modifiedTime":1775320660346,
+	"modifiedTime":1775385609472,
 	"name":"[DT] Filtered and sort agent list",
 	"nodes":[
 		{
@@ -620,6 +620,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -918,6 +919,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1001,6 +1003,7 @@
 				"userId":"=IF(ISBLANK({{ __RUN__.outputs.userId }}),{{ __USER__.outputs.id }},{{ __RUN__.outputs.userId }})"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2478,5 +2481,5 @@
 	"tags":[
 		
 	],
-	"version":108
+	"version":112
 }
