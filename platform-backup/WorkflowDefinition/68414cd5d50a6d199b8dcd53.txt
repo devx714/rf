@@ -4,14 +4,14 @@
 	],
 	"createdTime":1749118706061,
 	"deleted":false,
-	"deployedVersion":107,
+	"deployedVersion":110,
 	"deploymentState":{
-		"deployedAt":1775385546925,
+		"deployedAt":1775407707931,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bcab31cfc01cc39ed02",
+		"deployedDefinitionId":"69d2925ba2eda46706b0445d",
 		"status":"DEPLOYED",
-		"version":107,
-		"workflowVersion":170
+		"version":110,
+		"workflowVersion":176
 	},
 	"edges":[
 		{
@@ -119,6 +119,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -128,7 +129,7 @@
 	"id":"68414cd5d50a6d199b8dcd53",
 	"lastModifiedBy":-1,
 	"lcName":"eval | experiment | fetch cost and latency",
-	"modifiedTime":1775389875697,
+	"modifiedTime":1775408103967,
 	"name":"Eval | Experiment | Fetch Cost and Latency",
 	"nodes":[
 		{
@@ -426,6 +427,7 @@
 				"whereClause":"1=1"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -717,5 +719,5 @@
 	"tags":[
 		
 	],
-	"version":172
+	"version":177
 }
