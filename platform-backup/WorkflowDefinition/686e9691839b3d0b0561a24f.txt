@@ -4,14 +4,14 @@
 	],
 	"createdTime":1752507546773,
 	"deleted":false,
-	"deployedVersion":44,
+	"deployedVersion":45,
 	"deploymentState":{
-		"deployedAt":1775320663189,
+		"deployedAt":1775334457563,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e5783aecf24ec254d19",
+		"deployedDefinitionId":"69d1743939824e0613819c3b",
 		"status":"DEPLOYED",
-		"version":44,
-		"workflowVersion":106
+		"version":45,
+		"workflowVersion":108
 	},
 	"edges":[
 		{
@@ -51,7 +51,7 @@
 	"id":"686e9691839b3d0b0561a24f",
 	"lastModifiedBy":-1,
 	"lcName":"ai agent settings on update handler",
-	"modifiedTime":1775334457502,
+	"modifiedTime":1775385611981,
 	"name":"AI Agent Settings on Update Handler",
 	"nodes":[
 		{
@@ -209,5 +209,5 @@
 		}
 	},
 	"standard":true,
-	"version":108
+	"version":110
 }
