@@ -4,14 +4,14 @@
 	],
 	"createdTime":1733760311392,
 	"deleted":false,
-	"deployedVersion":66,
+	"deployedVersion":68,
 	"deploymentState":{
-		"deployedAt":1775385591437,
+		"deployedAt":1775391305767,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bf7b41de37eb670f566",
+		"deployedDefinitionId":"69d2524950e82945c76a67a5",
 		"status":"DEPLOYED",
-		"version":66,
-		"workflowVersion":114
+		"version":68,
+		"workflowVersion":118
 	},
 	"edges":[
 		{
@@ -118,6 +118,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -127,7 +128,7 @@
 	"id":"67571537db828272ef571341",
 	"lastModifiedBy":-1,
 	"lcName":"create pptx file | text to ppt ",
-	"modifiedTime":1775389981627,
+	"modifiedTime":1775391431187,
 	"name":"Create PPTX File | Text to PPT ",
 	"nodes":[
 		{
@@ -565,6 +566,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1037,5 +1039,5 @@
 	"tags":[
 		
 	],
-	"version":116
+	"version":119
 }
