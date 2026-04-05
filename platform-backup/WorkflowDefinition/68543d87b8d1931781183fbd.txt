@@ -4,14 +4,14 @@
 	],
 	"createdTime":1750411941493,
 	"deleted":false,
-	"deployedVersion":43,
+	"deployedVersion":45,
 	"deploymentState":{
-		"deployedAt":1774342940864,
+		"deployedAt":1775334457156,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2531c29fa153f07e09cb5",
+		"deployedDefinitionId":"69d1743939824e0613819c31",
 		"status":"DEPLOYED",
-		"version":43,
-		"workflowVersion":94
+		"version":45,
+		"workflowVersion":98
 	},
 	"edges":[
 		{
@@ -186,7 +186,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -196,7 +195,7 @@
 	"id":"68543d87b8d1931781183fbd",
 	"lastModifiedBy":-1,
 	"lcName":"get people details",
-	"modifiedTime":1774622956063,
+	"modifiedTime":1775385611537,
 	"name":"Get People Details",
 	"nodes":[
 		{
@@ -519,7 +518,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -777,7 +775,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1010,7 +1007,6 @@
 				"userId":"{{ n_GTAOX.outputs.id }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1471,5 +1467,5 @@
 	"tags":[
 		
 	],
-	"version":95
+	"version":100
 }
