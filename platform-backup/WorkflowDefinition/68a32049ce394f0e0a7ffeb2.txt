@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756795877100,
 	"deleted":false,
-	"deployedVersion":43,
+	"deployedVersion":45,
 	"deploymentState":{
-		"deployedAt":1775320705019,
+		"deployedAt":1775385654348,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e8083aecf24ec255028",
+		"deployedDefinitionId":"69d23c36b41de37eb670f815",
 		"status":"DEPLOYED",
-		"version":43,
-		"workflowVersion":88
+		"version":45,
+		"workflowVersion":92
 	},
 	"edges":[
 		{
@@ -70,7 +70,7 @@
 	"id":"68a32049ce394f0e0a7ffeb2",
 	"lastModifiedBy":-1,
 	"lcName":"metering | models | use case | by model",
-	"modifiedTime":1775334518103,
+	"modifiedTime":1775385654350,
 	"name":"Metering | Models | Use Case | By Model",
 	"nodes":[
 		{
@@ -674,5 +674,5 @@
 	"tags":[
 		
 	],
-	"version":90
+	"version":92
 }
