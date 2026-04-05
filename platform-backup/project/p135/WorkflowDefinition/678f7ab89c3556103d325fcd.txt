@@ -4,14 +4,14 @@
 	],
 	"createdTime":1737456312326,
 	"deleted":false,
-	"deployedVersion":96,
+	"deployedVersion":97,
 	"deploymentState":{
-		"deployedAt":1775334382044,
+		"deployedAt":1775385555189,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173ee39824e06138197e6",
+		"deployedDefinitionId":"69d23bd3b31cfc01cc39edf5",
 		"status":"DEPLOYED",
-		"version":96,
-		"workflowVersion":156
+		"version":97,
+		"workflowVersion":158
 	},
 	"edges":[
 		{
@@ -77,7 +77,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -87,7 +86,7 @@
 	"id":"678f7ab89c3556103d325fcd",
 	"lastModifiedBy":-1,
 	"lcName":"entity resolution | graphrag",
-	"modifiedTime":1775334705934,
+	"modifiedTime":1775389910180,
 	"name":"Entity Resolution | GraphRAG",
 	"nodes":[
 		{
@@ -659,5 +658,5 @@
 	"tags":[
 		
 	],
-	"version":157
+	"version":160
 }
