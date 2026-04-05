@@ -4,6 +4,15 @@
 	],
 	"createdTime":1775367032282,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775367052501,
+		"deployedBy":175325,
+		"deployedDefinitionId":"69d1f38c3056b31235b58bfd",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"edges":[
 		{
 			"fromNodeId":"Ew0OA",
@@ -16,7 +25,7 @@
 	"id":"69d1f3783056b31235b58bd1",
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa20ydszklzuavx",
-	"modifiedTime":1775367032376,
+	"modifiedTime":1775367361717,
 	"name":"changeSetQA20yDsZKLZuaVX",
 	"nodes":[
 		{
@@ -95,7 +104,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"oVNXT-1",
 			"id":"S1FDY",
@@ -122,11 +131,15 @@
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
-		"enableVariableLogging":true
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
 	},
 	"standard":false,
 	"tags":[
 		
 	],
-	"version":1
+	"version":2
 }
