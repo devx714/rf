@@ -4,14 +4,14 @@
 	],
 	"createdTime":1760532644179,
 	"deleted":false,
-	"deployedVersion":31,
+	"deployedVersion":32,
 	"deploymentState":{
-		"deployedAt":1775334403231,
+		"deployedAt":1775385576044,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1740339824e0613819972",
+		"deployedDefinitionId":"69d23be8b31cfc01cc39ef86",
 		"status":"DEPLOYED",
-		"version":31,
-		"workflowVersion":59
+		"version":32,
+		"workflowVersion":61
 	},
 	"edges":[
 		{
@@ -107,7 +107,7 @@
 	"id":"68ef8b5815076a5139086565",
 	"lastModifiedBy":-1,
 	"lcName":"workflow agent | published thought",
-	"modifiedTime":1775385575979,
+	"modifiedTime":1775389961051,
 	"name":"Workflow Agent | Published thought",
 	"nodes":[
 		{
@@ -580,5 +580,5 @@
 	"tags":[
 		
 	],
-	"version":61
+	"version":63
 }
