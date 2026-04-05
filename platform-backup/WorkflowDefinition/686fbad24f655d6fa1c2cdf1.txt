@@ -109,7 +109,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -119,7 +118,7 @@
 	"id":"686fbad24f655d6fa1c2cdf1",
 	"lastModifiedBy":-1,
 	"lcName":"model libary connector ",
-	"modifiedTime":1775334707229,
+	"modifiedTime":1775385609495,
 	"name":"Model Libary Connector ",
 	"nodes":[
 		{
@@ -593,5 +592,5 @@
 	"tags":[
 		
 	],
-	"version":107
+	"version":108
 }
