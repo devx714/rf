@@ -92,7 +92,7 @@
 	"id":"694a5aa598160f4370f3d7e2",
 	"lastModifiedBy":-1,
 	"lcName":"image generation tool",
-	"modifiedTime":1775385651340,
+	"modifiedTime":1775390100704,
 	"name":"Image Generation Tool",
 	"nodes":[
 		{
@@ -532,5 +532,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":30
+	"version":32
 }
