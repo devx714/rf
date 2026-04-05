@@ -4,14 +4,14 @@
 	],
 	"createdTime":1749815016964,
 	"deleted":false,
-	"deployedVersion":40,
+	"deployedVersion":41,
 	"deploymentState":{
-		"deployedAt":1775320648991,
+		"deployedAt":1775334444124,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e4883aecf24ec254c5a",
+		"deployedDefinitionId":"69d1742c39824e0613819b22",
 		"status":"DEPLOYED",
-		"version":40,
-		"workflowVersion":72
+		"version":41,
+		"workflowVersion":74
 	},
 	"edges":[
 		{
@@ -72,7 +72,7 @@
 	"id":"684c0d07abedda7d0c5742b9",
 	"lastModifiedBy":-1,
 	"lcName":"copilot | live chat | mark as read",
-	"modifiedTime":1775334444075,
+	"modifiedTime":1775385597691,
 	"name":"Copilot | Live Chat | Mark as Read",
 	"nodes":[
 		{
@@ -316,5 +316,5 @@
 	"tags":[
 		
 	],
-	"version":74
+	"version":76
 }
