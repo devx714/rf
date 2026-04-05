@@ -1,0 +1,381 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1756732847700,
+	"deleted":false,
+	"deployedVersion":50,
+	"deploymentState":{
+		"deployedAt":1775385557114,
+		"deployedBy":-1,
+		"deployedDefinitionId":"69d23bd5b31cfc01cc39ee25",
+		"status":"DEPLOYED",
+		"version":50,
+		"workflowVersion":97
+	},
+	"edges":[
+		{
+			"fromNodeId":"_W9xca",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_Im0I9",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_Im0I9",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_Q1ZEt",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_Q1ZEt",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_o11rI",
+			"type":"next"
+		}
+	],
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"V"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"689aed17aebbc06353598193",
+	"lastModifiedBy":-1,
+	"lcName":"trigger preview interface (canvas)",
+	"modifiedTime":1775389913106,
+	"name":"Trigger Preview Interface (Canvas)",
+	"nodes":[
+		{
+			"additional":{
+				"xsdSchemaConfig":{
+					"root":{}
+				}
+			},
+			"context":{
+				"appName":"callables",
+				"resourceVersion":3,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_IdCmG-1",
+			"id":"_W9xca",
+			"index":1,
+			"inputs":{
+				"result":{
+					"additionalProperties":false,
+					"properties":{
+						"success":{
+							"title":"Success",
+							"type":"boolean"
+						}
+					},
+					"required":[
+						"success"
+					],
+					"type":"object"
+				},
+				"setup":{
+					"additionalProperties":false,
+					"properties":{
+						"caseId":{
+							"title":"Case Id",
+							"type":"string"
+						},
+						"previewDetails":{
+							"additionalProperties":false,
+							"properties":{
+								"canvas":{
+									"additionalProperties":false,
+									"properties":{
+										"props":{
+											"additionalProperties":false,
+											"properties":{
+												"events":{
+													"items":{
+														"additionalProperties":false,
+														"properties":{
+															"action":{
+																"additionalProperties":false,
+																"properties":{
+																	"actionType":{
+																		"title":"Action Type",
+																		"type":"string"
+																	},
+																	"payload":{
+																		"additionalProperties":false,
+																		"properties":{
+																			"method":{
+																				"title":"Method",
+																				"type":"string"
+																			},
+																			"script":{
+																				"title":"Script",
+																				"type":"string"
+																			}
+																		},
+																		"required":[],
+																		"title":"Payload",
+																		"type":"object"
+																	}
+																},
+																"required":[],
+																"title":"Action",
+																"type":"object"
+															},
+															"entityType":{
+																"title":"Entity Type",
+																"type":"string"
+															}
+														},
+														"required":[],
+														"type":"object"
+													},
+													"title":"Events",
+													"type":"array"
+												},
+												"interfaceId":{
+													"title":"interfaceId",
+													"type":"string"
+												},
+												"interfacePageId":{
+													"title":"interfacePageId",
+													"type":"string"
+												},
+												"interfacePageSlug":{
+													"title":"interfacePageSlug",
+													"type":"string"
+												},
+												"pageInputs":{
+													"title":"pageInputs",
+													"type":"object"
+												},
+												"size":{
+													"title":"Size",
+													"type":"string"
+												},
+												"src":{
+													"title":"Src",
+													"type":"string"
+												}
+											},
+											"required":[],
+											"title":"props",
+											"type":"object"
+										},
+										"type":{
+											"title":"type",
+											"type":"string"
+										}
+									},
+									"title":"canvas",
+									"type":"object"
+								},
+								"thumbnail":{
+									"additionalProperties":false,
+									"properties":{
+										"display":{
+											"title":"Display",
+											"type":"string"
+										},
+										"props":{
+											"additionalProperties":false,
+											"properties":{
+												"description":{
+													"title":"Description",
+													"type":"string"
+												},
+												"iconUrl":{
+													"title":"Icon Url",
+													"type":"string"
+												},
+												"interfaceId":{
+													"title":"interfaceId",
+													"type":"string"
+												},
+												"interfacePageId":{
+													"title":"interfacePageId",
+													"type":"string"
+												},
+												"interfacePageSlug":{
+													"title":"interfacePageSlug",
+													"type":"string"
+												},
+												"pageInputs":{
+													"title":"pageInputs",
+													"type":"object"
+												},
+												"title":{
+													"title":"Title",
+													"type":"string"
+												}
+											},
+											"required":[],
+											"title":"props",
+											"type":"object"
+										},
+										"type":{
+											"title":"type",
+											"type":"string"
+										}
+									},
+									"required":[],
+									"title":"Thumbnail",
+									"type":"object"
+								}
+							},
+							"required":[],
+							"type":"object"
+						}
+					},
+					"required":[],
+					"type":"object"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger from automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":3,
+				"resourceName":"storage_by_unifyapps_get_record_by_id",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_IdCmG-1",
+			"id":"_Im0I9",
+			"index":2,
+			"inputs":{
+				"object_type":"e_ai_agent_conversation_state",
+				"includeRoleMappings":false,
+				"includeCurrentUserPermissions":false,
+				"id":"{{ _W9xca.outputs.caseId }}",
+				"readThroughSessionVariables":false
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Fetch records",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":57,
+				"resourceName":"callables_call_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_IdCmG-1",
+			"id":"_Q1ZEt",
+			"index":3,
+			"inputs":{
+				"automationId":"66d1673d9627d00147081244",
+				"runtimeConnections":{},
+				"synchronous":true,
+				"parameters":{
+					"caseId":"{{ _W9xca.outputs.caseId }}",
+					"fromCustomerUserId":"{{ _Im0I9.outputs.properties.currentAIAgentId }}",
+					"previewDetails":{
+						"canvas":{
+							"props":{
+								"events":{
+									"items":{
+										"action":{
+											"actionType":"{{ _W9xca.outputs.previewDetails.canvas.props.events[0].action.actionType }}",
+											"payload":{
+												"method":"{{ _W9xca.outputs.previewDetails.canvas.props.events[0].action.payload.method }}",
+												"script":"{{ _W9xca.outputs.previewDetails.canvas.props.events[0].action.payload.script }}"
+											}
+										},
+										"eventType":"{{ _W9xca.outputs.previewDetails.canvas.props.events[0].entityType }}"
+									},
+									"source":"{{ _W9xca.outputs.previewDetails.canvas.props.events }}",
+									"ua:type":"mappedArray"
+								},
+								"interfaceId":"{{ _W9xca.outputs.previewDetails.canvas.props.interfaceId }}",
+								"interfacePageId":"{{ _W9xca.outputs.previewDetails.canvas.props.interfacePageId }}",
+								"interfacePageSlug":"{{ _W9xca.outputs.previewDetails.canvas.props.interfacePageSlug }}",
+								"pageInputs":"{{ _W9xca.outputs.previewDetails.canvas.props.pageInputs }}",
+								"size":"{{ _W9xca.outputs.previewDetails.canvas.props.size }}",
+								"src":"{{ _W9xca.outputs.previewDetails.canvas.props.src }}"
+							},
+							"type":"{{ _W9xca.outputs.previewDetails.canvas.type }}"
+						},
+						"thumbnail":{
+							"display":"{{ _W9xca.outputs.previewDetails.thumbnail.display }}",
+							"props":{
+								"description":"{{ _W9xca.outputs.previewDetails.thumbnail.props.description }}",
+								"iconUrl":"{{ _W9xca.outputs.previewDetails.thumbnail.props.iconUrl }}",
+								"interfaceId":"{{ _W9xca.outputs.previewDetails.thumbnail.props.interfaceId }}",
+								"interfacePageId":"{{ _W9xca.outputs.previewDetails.thumbnail.props.interfacePageId }}",
+								"interfacePageSlug":"{{ _W9xca.outputs.previewDetails.thumbnail.props.interfacePageSlug }}",
+								"pageInputs":"{{ _W9xca.outputs.previewDetails.thumbnail.props.pageInputs }}",
+								"title":"{{ _W9xca.outputs.previewDetails.thumbnail.props.title }}"
+							},
+							"type":"{{ _W9xca.outputs.previewDetails.thumbnail.type }}"
+						}
+					}
+				},
+				"version":"-1"
+			},
+			"skip":false,
+			"subTitle":"Send Low Code App as Response",
+			"title":"Call automation",
+			"type":"CALL_WORKFLOW"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":4,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_IdCmG-1",
+			"id":"_o11rI",
+			"index":4,
+			"inputs":{
+				"result":{}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":-1,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":true,
+	"version":99
+}
