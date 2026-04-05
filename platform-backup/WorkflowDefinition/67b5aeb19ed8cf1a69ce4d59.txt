@@ -33,7 +33,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -43,7 +42,7 @@
 	"id":"67b5aeb19ed8cf1a69ce4d59",
 	"lastModifiedBy":-1,
 	"lcName":"[jira] get user sharedwithids",
-	"modifiedTime":1775391436174,
+	"modifiedTime":1775407763845,
 	"name":"[Jira] Get User SharedWithIds",
 	"nodes":[
 		{
@@ -223,5 +222,5 @@
 		}
 	},
 	"standard":true,
-	"version":101
+	"version":102
 }
