@@ -4,14 +4,14 @@
 	],
 	"createdTime":1760296210294,
 	"deleted":false,
-	"deployedVersion":28,
+	"deployedVersion":31,
 	"deploymentState":{
-		"deployedAt":1774342890339,
+		"deployedAt":1775385569538,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252ea29fa153f07e09a24",
+		"deployedDefinitionId":"69d23be1b31cfc01cc39ef21",
 		"status":"DEPLOYED",
-		"version":28,
-		"workflowVersion":64
+		"version":31,
+		"workflowVersion":70
 	},
 	"edges":[
 		{
@@ -70,7 +70,7 @@
 	"id":"68dd12ed75a316566ae409f5",
 	"lastModifiedBy":-1,
 	"lcName":"deep research tool | perplexity sonar deep research",
-	"modifiedTime":1775320618375,
+	"modifiedTime":1775389932931,
 	"name":"Deep Research Tool | Perplexity Sonar Deep Research",
 	"nodes":[
 		{
@@ -441,5 +441,5 @@
 	"tags":[
 		
 	],
-	"version":66
+	"version":72
 }
