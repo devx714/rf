@@ -4,14 +4,14 @@
 	],
 	"createdTime":1757060049162,
 	"deleted":false,
-	"deployedVersion":45,
+	"deployedVersion":47,
 	"deploymentState":{
-		"deployedAt":1775385560927,
+		"deployedAt":1775391247789,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bd8b31cfc01cc39ee78",
+		"deployedDefinitionId":"69d2520f50e82945c76a64b9",
 		"status":"DEPLOYED",
-		"version":45,
-		"workflowVersion":90
+		"version":47,
+		"workflowVersion":94
 	},
 	"edges":[
 		{
@@ -99,7 +99,7 @@
 	"id":"687115bcb1761951e9fbe82b",
 	"lastModifiedBy":-1,
 	"lcName":"[indexing dashboard] get download tasks in progress",
-	"modifiedTime":1775385560928,
+	"modifiedTime":1775407729103,
 	"name":"[Indexing Dashboard] Get Download tasks in Progress",
 	"nodes":[
 		{
@@ -410,7 +410,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -710,5 +709,5 @@
 	"tags":[
 		
 	],
-	"version":90
+	"version":96
 }
