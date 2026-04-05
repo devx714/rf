@@ -4,14 +4,14 @@
 	],
 	"createdTime":1738309677710,
 	"deleted":false,
-	"deployedVersion":103,
+	"deployedVersion":105,
 	"deploymentState":{
-		"deployedAt":1775385573534,
+		"deployedAt":1775391263262,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23be5b31cfc01cc39ef58",
+		"deployedDefinitionId":"69d2521f50e82945c76a65eb",
 		"status":"DEPLOYED",
-		"version":103,
-		"workflowVersion":171
+		"version":105,
+		"workflowVersion":175
 	},
 	"edges":[
 		{
@@ -456,7 +456,7 @@
 	"id":"679b7fdad2256d4d7f3277fe",
 	"lastModifiedBy":-1,
 	"lcName":"fetch chunks given filter and embedding models",
-	"modifiedTime":1775389957327,
+	"modifiedTime":1775407747347,
 	"name":"Fetch Chunks Given Filter and Embedding Models",
 	"nodes":[
 		{
@@ -3253,5 +3253,5 @@
 		"AI Agent",
 		"Knowledge"
 	],
-	"version":173
+	"version":177
 }
