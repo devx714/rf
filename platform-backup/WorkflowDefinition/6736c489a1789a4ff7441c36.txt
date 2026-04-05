@@ -4,14 +4,14 @@
 	],
 	"createdTime":1731642505238,
 	"deleted":false,
-	"deployedVersion":116,
+	"deployedVersion":117,
 	"deploymentState":{
-		"deployedAt":1775334342825,
+		"deployedAt":1775385541055,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173c639824e0613819667",
+		"deployedDefinitionId":"69d23bc4b31cfc01cc39eb93",
 		"status":"DEPLOYED",
-		"version":116,
-		"workflowVersion":205
+		"version":117,
+		"workflowVersion":207
 	},
 	"edges":[
 		{
@@ -399,7 +399,7 @@
 	"id":"6736c489a1789a4ff7441c36",
 	"lastModifiedBy":-1,
 	"lcName":"publish on copilot (with widgets)",
-	"modifiedTime":1775385540872,
+	"modifiedTime":1775385541056,
 	"name":"Publish on CoPilot (With Widgets)",
 	"nodes":[
 		{
@@ -768,6 +768,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -846,6 +847,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1359,6 +1361,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1582,6 +1585,7 @@
 				"extractedContent":"{{ teuPB.outputs.result }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1881,6 +1885,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
