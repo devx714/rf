@@ -4,14 +4,14 @@
 	],
 	"createdTime":1742670805211,
 	"deleted":false,
-	"deployedVersion":90,
+	"deployedVersion":93,
 	"deploymentState":{
-		"deployedAt":1775334404524,
+		"deployedAt":1775391268855,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1740439824e061381998a",
+		"deployedDefinitionId":"69d2522450e82945c76a6656",
 		"status":"DEPLOYED",
-		"version":90,
-		"workflowVersion":138
+		"version":93,
+		"workflowVersion":144
 	},
 	"edges":[
 		{
@@ -93,6 +93,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -102,7 +103,7 @@
 	"id":"67deb2086ff2a87705083ae4",
 	"lastModifiedBy":-1,
 	"lcName":"runthroughgaurdrail",
-	"modifiedTime":1775385577384,
+	"modifiedTime":1775391437355,
 	"name":"RunThroughGaurdRail",
 	"nodes":[
 		{
@@ -194,6 +195,7 @@
 				"finalAnswer":"{{ fLxdM.outputs.finalAnswer }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -483,5 +485,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":140
+	"version":145
 }
