@@ -205,7 +205,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -215,7 +214,7 @@
 	"id":"66fbf2629edc4e0b6303d0c5",
 	"lastModifiedBy":-1,
 	"lcName":"ai agents multi modality indexing [ do not touch]",
-	"modifiedTime":1775334706824,
+	"modifiedTime":1775385542464,
 	"name":"Ai Agents Multi Modality Indexing [ DO NOT TOUCH]",
 	"nodes":[
 		{
@@ -951,7 +950,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1256,7 +1254,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1338,7 +1335,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1996,5 +1992,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":193
+	"version":194
 }
