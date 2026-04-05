@@ -4,14 +4,14 @@
 	],
 	"createdTime":1745148786346,
 	"deleted":false,
-	"deployedVersion":331,
+	"deployedVersion":333,
 	"deploymentState":{
-		"deployedAt":1775385554602,
+		"deployedAt":1775391237691,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bd2b31cfc01cc39ede7",
+		"deployedDefinitionId":"69d2520550e82945c76a63f4",
 		"status":"DEPLOYED",
-		"version":331,
-		"workflowVersion":459
+		"version":333,
+		"workflowVersion":463
 	},
 	"edges":[
 		{
@@ -606,6 +606,47 @@
 		"configs":[
 			{
 				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"635"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"311"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -615,7 +656,7 @@
 	"id":"6804db728588832203d32ebf",
 	"lastModifiedBy":-1,
 	"lcName":"openai session starter",
-	"modifiedTime":1775385554603,
+	"modifiedTime":1775391438287,
 	"name":"OpenAI Session Starter",
 	"nodes":[
 		{
@@ -3496,5 +3537,5 @@
 		}
 	},
 	"standard":true,
-	"version":459
+	"version":464
 }
