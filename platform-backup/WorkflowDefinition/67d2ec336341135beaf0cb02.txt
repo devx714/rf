@@ -4,14 +4,14 @@
 	],
 	"createdTime":1741883465932,
 	"deleted":false,
-	"deployedVersion":88,
+	"deployedVersion":91,
 	"deploymentState":{
-		"deployedAt":1775385581660,
+		"deployedAt":1775407759227,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bedb31cfc01cc39efe5",
+		"deployedDefinitionId":"69d2928e0e422443cf560623",
 		"status":"DEPLOYED",
-		"version":88,
-		"workflowVersion":149
+		"version":91,
+		"workflowVersion":155
 	},
 	"edges":[
 		{
@@ -279,6 +279,18 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
+					"E",
+					"V"
+				],
+				"principalIds":[
+					"44104"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -288,7 +300,7 @@
 	"id":"67d2ec336341135beaf0cb02",
 	"lastModifiedBy":-1,
 	"lcName":"get schema for action",
-	"modifiedTime":1775385581662,
+	"modifiedTime":1775408107975,
 	"name":"Get Schema For Action",
 	"nodes":[
 		{
@@ -2213,5 +2225,5 @@
 	"tags":[
 		
 	],
-	"version":149
+	"version":156
 }
