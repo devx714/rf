@@ -519,37 +519,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
-					"V"
-				],
-				"principalIds":[
-					"83632"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"45771"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -559,7 +528,7 @@
 	"id":"680e73d93b699c146071a8f6",
 	"lastModifiedBy":-1,
 	"lcName":"eval | experiment | run experiment internal",
-	"modifiedTime":1775334707745,
+	"modifiedTime":1775385542857,
 	"name":"Eval | Experiment | Run Experiment Internal",
 	"nodes":[
 		{
@@ -643,7 +612,6 @@
 				"startTime":"=(NOW() - DATE(1970,1,1)) * 86400"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -884,7 +852,6 @@
 				"failureCount":0
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1386,7 +1353,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1926,7 +1892,6 @@
 				"success":0
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2707,7 +2672,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -3204,7 +3168,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -3630,5 +3593,5 @@
 		}
 	},
 	"standard":true,
-	"version":256
+	"version":257
 }
