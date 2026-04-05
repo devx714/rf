@@ -4,14 +4,14 @@
 	],
 	"createdTime":1763725564512,
 	"deleted":false,
-	"deployedVersion":25,
+	"deployedVersion":28,
 	"deploymentState":{
-		"deployedAt":1775385592583,
+		"deployedAt":1775407772487,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bf8b41de37eb670f574",
+		"deployedDefinitionId":"69d2929c0e422443cf560675",
 		"status":"DEPLOYED",
-		"version":25,
-		"workflowVersion":129
+		"version":28,
+		"workflowVersion":135
 	},
 	"edges":[
 		{
@@ -234,6 +234,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -243,7 +244,7 @@
 	"id":"691f1ea7de261c455cad9176",
 	"lastModifiedBy":-1,
 	"lcName":"agent-tool-task governance evaluator",
-	"modifiedTime":1775385592585,
+	"modifiedTime":1775408099886,
 	"name":"Agent-Tool-Task Governance Evaluator",
 	"nodes":[
 		{
@@ -1164,5 +1165,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":129
+	"version":136
 }
