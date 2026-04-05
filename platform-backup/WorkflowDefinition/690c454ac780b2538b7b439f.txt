@@ -84,7 +84,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -94,7 +93,7 @@
 	"id":"690c454ac780b2538b7b439f",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] create agent ",
-	"modifiedTime":1775391430212,
+	"modifiedTime":1775407826990,
 	"name":"[DT] Create Agent ",
 	"nodes":[
 		{
@@ -214,7 +213,6 @@
 				"name":"Untitled Agent"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1077,5 +1075,5 @@
 	"tags":[
 		
 	],
-	"version":67
+	"version":68
 }
