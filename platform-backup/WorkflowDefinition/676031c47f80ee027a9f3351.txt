@@ -40,7 +40,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -50,7 +49,7 @@
 	"id":"676031c47f80ee027a9f3351",
 	"lastModifiedBy":-1,
 	"lcName":"execute mssql server",
-	"modifiedTime":1775391437249,
+	"modifiedTime":1775407725942,
 	"name":"Execute mssql server",
 	"nodes":[
 		{
@@ -261,5 +260,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":69
+	"version":70
 }
