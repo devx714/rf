@@ -4,14 +4,14 @@
 	],
 	"createdTime":1761722820746,
 	"deleted":false,
-	"deployedVersion":29,
+	"deployedVersion":32,
 	"deploymentState":{
-		"deployedAt":1775385615252,
+		"deployedAt":1775407803944,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c0fb31cfc01cc39f1fa",
+		"deployedDefinitionId":"69d292bb0e422443cf5607cc",
 		"status":"DEPLOYED",
-		"version":29,
-		"workflowVersion":75
+		"version":32,
+		"workflowVersion":81
 	},
 	"edges":[
 		{
@@ -664,6 +664,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -673,7 +674,7 @@
 	"id":"68ef4fe2913d28037c00f4e5",
 	"lastModifiedBy":-1,
 	"lcName":"call llm messages to responses api inputs",
-	"modifiedTime":1775385615253,
+	"modifiedTime":1775408108560,
 	"name":"Call LLM Messages to Responses API Inputs",
 	"nodes":[
 		{
@@ -4549,5 +4550,5 @@
 	"tags":[
 		
 	],
-	"version":75
+	"version":82
 }
