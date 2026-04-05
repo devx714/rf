@@ -4,14 +4,14 @@
 	],
 	"createdTime":1743778318743,
 	"deleted":false,
-	"deployedVersion":86,
+	"deployedVersion":88,
 	"deploymentState":{
-		"deployedAt":1775320671437,
+		"deployedAt":1775385620032,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e5f83aecf24ec254e02",
+		"deployedDefinitionId":"69d23c13b41de37eb670f694",
 		"status":"DEPLOYED",
-		"version":86,
-		"workflowVersion":130
+		"version":88,
+		"workflowVersion":134
 	},
 	"edges":[
 		{
@@ -153,7 +153,7 @@
 	"id":"67eab481d10e187ea2b053c2",
 	"lastModifiedBy":-1,
 	"lcName":"create claude models payload",
-	"modifiedTime":1775334464844,
+	"modifiedTime":1775390040464,
 	"name":"Create Claude Models Payload",
 	"nodes":[
 		{
@@ -2516,5 +2516,5 @@
 		}
 	},
 	"standard":true,
-	"version":132
+	"version":136
 }
