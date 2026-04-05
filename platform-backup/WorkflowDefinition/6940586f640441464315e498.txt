@@ -4,15 +4,15 @@
 	],
 	"createdTime":1769421998777,
 	"deleted":false,
-	"deployedVersion":15,
+	"deployedVersion":16,
 	"deploymentState":{
-		"deployedAt":1775334337590,
+		"deployedAt":1775385536301,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173c139824e061381960c",
+		"deployedDefinitionId":"69d23bc0b31cfc01cc39eb2c",
 		"deploymentTag":"revert_v28",
 		"status":"DEPLOYED",
-		"version":15,
-		"workflowVersion":46
+		"version":16,
+		"workflowVersion":48
 	},
 	"edges":[
 		{
@@ -304,7 +304,7 @@
 	"id":"6940586f640441464315e498",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] api to trigger ai agent",
-	"modifiedTime":1775385536186,
+	"modifiedTime":1775385536302,
 	"name":"[DT] API To Trigger AI Agent",
 	"nodes":[
 		{
@@ -971,6 +971,7 @@
 				"name":"error"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1134,6 +1135,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1470,6 +1472,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1719,6 +1722,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2016,6 +2020,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
