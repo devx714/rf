@@ -4,14 +4,14 @@
 	],
 	"createdTime":1760281937837,
 	"deleted":false,
-	"deployedVersion":53,
+	"deployedVersion":54,
 	"deploymentState":{
-		"deployedAt":1775391203814,
+		"deployedAt":1775407706732,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d251e350e82945c76a6323",
+		"deployedDefinitionId":"69d2925aa2eda46706b04445",
 		"status":"DEPLOYED",
-		"version":53,
-		"workflowVersion":91
+		"version":54,
+		"workflowVersion":93
 	},
 	"edges":[
 		{
@@ -185,6 +185,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -194,7 +195,7 @@
 	"id":"68ea9499fe0c701e6dbf323a",
 	"lastModifiedBy":-1,
 	"lcName":"workflow agent | ask an ai agent",
-	"modifiedTime":1775407706605,
+	"modifiedTime":1775408106999,
 	"name":"Workflow Agent | Ask an AI Agent",
 	"nodes":[
 		{
@@ -451,6 +452,7 @@
 				"model":"{{ n_2omrf.outputs.model }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1109,6 +1111,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1353,6 +1356,7 @@
 				"ai_agent_runtime_knowledge_tools":false
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1521,5 +1525,5 @@
 	"tags":[
 		
 	],
-	"version":93
+	"version":94
 }
