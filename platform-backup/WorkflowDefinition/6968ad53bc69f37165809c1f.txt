@@ -4,15 +4,15 @@
 	],
 	"createdTime":1768467795566,
 	"deleted":false,
-	"deployedVersion":30,
+	"deployedVersion":32,
 	"deploymentState":{
-		"deployedAt":1775320660232,
+		"deployedAt":1775385609167,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e54c6b0c9120df1748e",
+		"deployedDefinitionId":"69d23c09b41de37eb670f60b",
 		"deploymentTag":"always_complete_indexing",
 		"status":"DEPLOYED",
-		"version":30,
-		"workflowVersion":83
+		"version":32,
+		"workflowVersion":87
 	},
 	"edges":[
 		{
@@ -315,7 +315,7 @@
 	"id":"6968ad53bc69f37165809c1f",
 	"lastModifiedBy":-1,
 	"lcName":"add knowledge | es",
-	"modifiedTime":1775334454738,
+	"modifiedTime":1775385609169,
 	"name":"Add Knowledge | ES",
 	"nodes":[
 		{
@@ -809,6 +809,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2923,5 +2924,5 @@
 	"tags":[
 		
 	],
-	"version":85
+	"version":87
 }
