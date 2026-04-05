@@ -4,14 +4,14 @@
 	],
 	"createdTime":1753185889109,
 	"deleted":false,
-	"deployedVersion":64,
+	"deployedVersion":67,
 	"deploymentState":{
-		"deployedAt":1775385536042,
+		"deployedAt":1775407688841,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bbfb31cfc01cc39eb28",
+		"deployedDefinitionId":"69d29248a2eda46706b0434b",
 		"status":"DEPLOYED",
-		"version":64,
-		"workflowVersion":160
+		"version":67,
+		"workflowVersion":166
 	},
 	"description":"Takes the input as the list of urls indexes them and extract the urls present in them and calls it self back for the next level of indexing.",
 	"edges":[
@@ -308,6 +308,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -317,7 +318,7 @@
 	"id":"687657ea9f2cd2b4cd9ba5da",
 	"lastModifiedBy":-1,
 	"lcName":"recursive website crawler",
-	"modifiedTime":1775389854189,
+	"modifiedTime":1775408109847,
 	"name":"Recursive Website Crawler",
 	"nodes":[
 		{
@@ -483,6 +484,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -757,6 +759,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2139,5 +2142,5 @@
 	"tags":[
 		
 	],
-	"version":162
+	"version":167
 }
