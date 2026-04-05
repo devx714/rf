@@ -40,7 +40,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -50,7 +49,7 @@
 	"id":"6816266db594df5762dee2e8",
 	"lastModifiedBy":-1,
 	"lcName":"create user knowledge",
-	"modifiedTime":1775391434512,
+	"modifiedTime":1775407754787,
 	"name":"Create User Knowledge",
 	"nodes":[
 		{
@@ -376,5 +375,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":141
+	"version":142
 }
