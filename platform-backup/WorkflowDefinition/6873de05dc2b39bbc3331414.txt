@@ -4,14 +4,14 @@
 	],
 	"createdTime":1754285428887,
 	"deleted":false,
-	"deployedVersion":61,
+	"deployedVersion":62,
 	"deploymentState":{
-		"deployedAt":1775334465260,
+		"deployedAt":1775385620268,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1744139824e0613819cf3",
+		"deployedDefinitionId":"69d23c14b41de37eb670f698",
 		"status":"DEPLOYED",
-		"version":61,
-		"workflowVersion":104
+		"version":62,
+		"workflowVersion":106
 	},
 	"edges":[
 		{
@@ -26,7 +26,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -36,7 +35,7 @@
 	"id":"6873de05dc2b39bbc3331414",
 	"lastModifiedBy":-1,
 	"lcName":"truncatetoolresults (strands ai)",
-	"modifiedTime":1775334706952,
+	"modifiedTime":1775390040867,
 	"name":"TruncateToolResults (Strands AI)",
 	"nodes":[
 		{
@@ -198,5 +197,5 @@
 	"tags":[
 		
 	],
-	"version":105
+	"version":108
 }
