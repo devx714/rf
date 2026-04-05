@@ -4,14 +4,14 @@
 	],
 	"createdTime":1744474920919,
 	"deleted":false,
-	"deployedVersion":61,
+	"deployedVersion":63,
 	"deploymentState":{
-		"deployedAt":1775385601904,
+		"deployedAt":1775391318409,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c01b41de37eb670f596",
+		"deployedDefinitionId":"69d2525650e82945c76a689a",
 		"status":"DEPLOYED",
-		"version":61,
-		"workflowVersion":137
+		"version":63,
+		"workflowVersion":141
 	},
 	"edges":[
 		{
@@ -172,6 +172,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -181,7 +182,7 @@
 	"id":"67fa51d456210c18cb18c7a2",
 	"lastModifiedBy":-1,
 	"lcName":"external agent executor",
-	"modifiedTime":1775389995106,
+	"modifiedTime":1775391432728,
 	"name":"External Agent Executor",
 	"nodes":[
 		{
@@ -276,6 +277,7 @@
 				"caseId":"{{ T0IRp.outputs.caseId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -899,5 +901,5 @@
 	"tags":[
 		
 	],
-	"version":139
+	"version":142
 }
