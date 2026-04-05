@@ -4,14 +4,14 @@
 	],
 	"createdTime":1727787618418,
 	"deleted":false,
-	"deployedVersion":91,
+	"deployedVersion":95,
 	"deploymentState":{
-		"deployedAt":1775334344479,
+		"deployedAt":1775407699308,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173c839824e061381968e",
+		"deployedDefinitionId":"69d29253a2eda46706b043dc",
 		"status":"DEPLOYED",
-		"version":91,
-		"workflowVersion":192
+		"version":95,
+		"workflowVersion":200
 	},
 	"edges":[
 		{
@@ -205,6 +205,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -214,7 +215,7 @@
 	"id":"66fbf2629edc4e0b6303d0c5",
 	"lastModifiedBy":-1,
 	"lcName":"ai agents multi modality indexing [ do not touch]",
-	"modifiedTime":1775385542464,
+	"modifiedTime":1775408108837,
 	"name":"Ai Agents Multi Modality Indexing [ DO NOT TOUCH]",
 	"nodes":[
 		{
@@ -950,6 +951,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1254,6 +1256,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1335,6 +1338,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1992,5 +1996,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":194
+	"version":201
 }
