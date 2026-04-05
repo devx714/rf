@@ -155,27 +155,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"45010"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -185,7 +164,7 @@
 	"id":"67dfaa617ecfd00c27834bdf",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | microsoft calendar | index all events",
-	"modifiedTime":1775391435290,
+	"modifiedTime":1775407851535,
 	"name":"Knowledge Indexer | Microsoft Calendar | Index all events",
 	"nodes":[
 		{
@@ -917,5 +896,5 @@
 		}
 	},
 	"standard":true,
-	"version":374
+	"version":375
 }
