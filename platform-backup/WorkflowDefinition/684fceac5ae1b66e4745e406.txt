@@ -4,14 +4,14 @@
 	],
 	"createdTime":1750926680777,
 	"deleted":false,
-	"deployedVersion":84,
+	"deployedVersion":85,
 	"deploymentState":{
-		"deployedAt":1775391197363,
+		"deployedAt":1775407699375,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d251dd50e82945c76a62a7",
+		"deployedDefinitionId":"69d292530e422443cf5603b4",
 		"status":"DEPLOYED",
-		"version":84,
-		"workflowVersion":140
+		"version":85,
+		"workflowVersion":142
 	},
 	"edges":[
 		{
@@ -56,6 +56,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -65,7 +66,7 @@
 	"id":"684fceac5ae1b66e4745e406",
 	"lastModifiedBy":-1,
 	"lcName":"simple call llm | signal wrapper",
-	"modifiedTime":1775407699330,
+	"modifiedTime":1775408103086,
 	"name":"Simple Call LLM | Signal Wrapper",
 	"nodes":[
 		{
@@ -387,5 +388,5 @@
 		}
 	},
 	"standard":true,
-	"version":142
+	"version":143
 }
