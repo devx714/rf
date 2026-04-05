@@ -4,14 +4,14 @@
 	],
 	"createdTime":1737982541865,
 	"deleted":false,
-	"deployedVersion":120,
+	"deployedVersion":126,
 	"deploymentState":{
-		"deployedAt":1774342856863,
+		"deployedAt":1775407702028,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252c88d65fb68e1563789",
+		"deployedDefinitionId":"69d29256a2eda46706b043ed",
 		"status":"DEPLOYED",
-		"version":120,
-		"workflowVersion":173
+		"version":126,
+		"workflowVersion":185
 	},
 	"edges":[
 		{
@@ -199,6 +199,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -208,7 +209,7 @@
 	"id":"679247bfd01dd716e03289df",
 	"lastModifiedBy":-1,
 	"lcName":"save agent",
-	"modifiedTime":1775320575728,
+	"modifiedTime":1775408103750,
 	"name":"Save Agent",
 	"nodes":[
 		{
@@ -490,6 +491,7 @@
 				"aiAgentId":"{{ xGoqE.outputs.id }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1584,6 +1586,7 @@
 				"userId":"{{ hsp6A.outputs.result.userId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1849,5 +1852,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":175
+	"version":186
 }
