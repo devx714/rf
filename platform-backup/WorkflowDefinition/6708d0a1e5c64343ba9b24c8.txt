@@ -4,14 +4,14 @@
 	],
 	"createdTime":1728630945926,
 	"deleted":false,
-	"deployedVersion":143,
+	"deployedVersion":147,
 	"deploymentState":{
-		"deployedAt":1775334350134,
+		"deployedAt":1775407709040,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173cd39824e06138196f8",
+		"deployedDefinitionId":"69d2925ca2eda46706b04471",
 		"status":"DEPLOYED",
-		"version":143,
-		"workflowVersion":211
+		"version":147,
+		"workflowVersion":219
 	},
 	"edges":[
 		{
@@ -1571,16 +1571,55 @@
 		"configs":[
 			{
 				"permissions":[
+					"A",
+					"EXPORT_AS_TEMPLATE",
+					"C",
+					"S",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"DEP"
+				],
+				"principalIds":[
+					"44109"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
+			},
+			{
+				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"45775"
+				],
+				"principalType":"USER"
 			}
 		]
 	},
 	"id":"6708d0a1e5c64343ba9b24c8",
 	"lastModifiedBy":-1,
 	"lcName":"file chunker | knowledge",
-	"modifiedTime":1775385547258,
+	"modifiedTime":1775408102353,
 	"name":"File Chunker | Knowledge",
 	"nodes":[
 		{
@@ -2049,6 +2088,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -3475,6 +3515,7 @@
 				"chunkMetadata":"{{ _phUSg.outputs.chunkMetadata }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -4291,6 +4332,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -4911,6 +4953,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -5937,6 +5980,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -6662,6 +6706,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -6795,6 +6840,7 @@
 				"loopCounter":0
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -7058,6 +7104,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -7676,6 +7723,7 @@
 				"fileObj":"{{ _phUSg.outputs.fileDetails }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -7901,6 +7949,7 @@
 				"imageParsingModel":"{{ uwueD.outputs.image.textExtractionModel }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -8321,6 +8370,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -10344,5 +10394,5 @@
 		}
 	},
 	"standard":true,
-	"version":213
+	"version":220
 }
