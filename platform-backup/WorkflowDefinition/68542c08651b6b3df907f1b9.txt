@@ -4,14 +4,14 @@
 	],
 	"createdTime":1751469757170,
 	"deleted":false,
-	"deployedVersion":94,
+	"deployedVersion":98,
 	"deploymentState":{
-		"deployedAt":1774342905854,
+		"deployedAt":1775389971248,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252f98d65fb68e1563995",
+		"deployedDefinitionId":"69d24d1350e82945c76a42e5",
 		"status":"DEPLOYED",
-		"version":94,
-		"workflowVersion":185
+		"version":98,
+		"workflowVersion":193
 	},
 	"edges":[
 		{
@@ -263,7 +263,7 @@
 	"id":"68542c08651b6b3df907f1b9",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge downloader",
-	"modifiedTime":1774622955315,
+	"modifiedTime":1775390106723,
 	"name":"Knowledge Downloader",
 	"nodes":[
 		{
@@ -1381,5 +1381,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":186
+	"version":194
 }
