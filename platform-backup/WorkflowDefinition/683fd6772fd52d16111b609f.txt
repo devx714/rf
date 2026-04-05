@@ -4,14 +4,14 @@
 	],
 	"createdTime":1750490286159,
 	"deleted":false,
-	"deployedVersion":76,
+	"deployedVersion":82,
 	"deploymentState":{
-		"deployedAt":1774342894819,
+		"deployedAt":1775407747962,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252ee29fa153f07e09a46",
+		"deployedDefinitionId":"69d292830e422443cf5605a4",
 		"status":"DEPLOYED",
-		"version":76,
-		"workflowVersion":130
+		"version":82,
+		"workflowVersion":142
 	},
 	"edges":[
 		{
@@ -113,6 +113,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -122,7 +123,7 @@
 	"id":"683fd6772fd52d16111b609f",
 	"lastModifiedBy":-1,
 	"lcName":"graphrag | knowledge set indexer",
-	"modifiedTime":1775320622981,
+	"modifiedTime":1775408107495,
 	"name":"GraphRAG | Knowledge Set Indexer",
 	"nodes":[
 		{
@@ -206,6 +207,7 @@
 				"createdTime":0
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -567,5 +569,5 @@
 		}
 	},
 	"standard":true,
-	"version":132
+	"version":143
 }
