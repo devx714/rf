@@ -4,14 +4,14 @@
 	],
 	"createdTime":1753185872099,
 	"deleted":false,
-	"deployedVersion":85,
+	"deployedVersion":86,
 	"deploymentState":{
-		"deployedAt":1775334467925,
+		"deployedAt":1775385623131,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1744339824e0613819d22",
+		"deployedDefinitionId":"69d23c17b31cfc01cc39f2da",
 		"status":"DEPLOYED",
-		"version":85,
-		"workflowVersion":140
+		"version":86,
+		"workflowVersion":142
 	},
 	"edges":[
 		{
@@ -64,7 +64,7 @@
 	"id":"6870d744db7d45423d3ec64b",
 	"lastModifiedBy":-1,
 	"lcName":"remove stale knowledge data",
-	"modifiedTime":1775385623079,
+	"modifiedTime":1775385623132,
 	"name":"Remove Stale Knowledge Data",
 	"nodes":[
 		{
