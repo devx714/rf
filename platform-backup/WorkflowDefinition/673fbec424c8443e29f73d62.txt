@@ -4,14 +4,14 @@
 	],
 	"createdTime":1732230852809,
 	"deleted":false,
-	"deployedVersion":78,
+	"deployedVersion":81,
 	"deploymentState":{
-		"deployedAt":1775320654552,
+		"deployedAt":1775390016937,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e4e83aecf24ec254ca5",
+		"deployedDefinitionId":"69d24d4050e82945c76a44e5",
 		"status":"DEPLOYED",
-		"version":78,
-		"workflowVersion":121
+		"version":81,
+		"workflowVersion":127
 	},
 	"edges":[
 		{
@@ -36,7 +36,7 @@
 	"id":"673fbec424c8443e29f73d62",
 	"lastModifiedBy":-1,
 	"lcName":"ai agent deployment delete handler",
-	"modifiedTime":1775320891546,
+	"modifiedTime":1775390107628,
 	"name":"AI Agent Deployment Delete Handler",
 	"nodes":[
 		{
@@ -99,5 +99,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":122
+	"version":128
 }
