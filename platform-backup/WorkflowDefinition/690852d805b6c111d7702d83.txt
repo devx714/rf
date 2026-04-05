@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762858256829,
 	"deleted":false,
-	"deployedVersion":28,
+	"deployedVersion":29,
 	"deploymentState":{
-		"deployedAt":1775320685501,
+		"deployedAt":1775334478714,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e6d83aecf24ec254f68",
+		"deployedDefinitionId":"69d1744e39824e0613819e48",
 		"status":"DEPLOYED",
-		"version":28,
-		"workflowVersion":56
+		"version":29,
+		"workflowVersion":58
 	},
 	"edges":[
 		{
@@ -49,7 +49,7 @@
 	"id":"690852d805b6c111d7702d83",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] fetch background colors",
-	"modifiedTime":1775334478652,
+	"modifiedTime":1775385634235,
 	"name":"[DT] Fetch Background Colors",
 	"nodes":[
 		{
@@ -267,5 +267,5 @@
 	"tags":[
 		
 	],
-	"version":58
+	"version":60
 }
