@@ -4,14 +4,14 @@
 	],
 	"createdTime":1722852112850,
 	"deleted":false,
-	"deployedVersion":53,
+	"deployedVersion":55,
 	"deploymentState":{
-		"deployedAt":1774342870410,
+		"deployedAt":1775334381865,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252d629fa153f07e09978",
+		"deployedDefinitionId":"69d173ed39824e06138197e2",
 		"status":"DEPLOYED",
-		"version":53,
-		"workflowVersion":116
+		"version":55,
+		"workflowVersion":120
 	},
 	"edges":[
 		{
@@ -131,7 +131,7 @@
 	"id":"66b0a310edae7f274f43b7b4",
 	"lastModifiedBy":-1,
 	"lcName":"fetch embeddings ",
-	"modifiedTime":1775320602767,
+	"modifiedTime":1775385554932,
 	"name":"Fetch Embeddings ",
 	"nodes":[
 		{
@@ -803,5 +803,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":118
+	"version":122
 }
