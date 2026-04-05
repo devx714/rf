@@ -4,14 +4,14 @@
 	],
 	"createdTime":1738691628884,
 	"deleted":false,
-	"deployedVersion":113,
+	"deployedVersion":114,
 	"deploymentState":{
-		"deployedAt":1775391326067,
+		"deployedAt":1775407792530,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2525e50e82945c76a6936",
+		"deployedDefinitionId":"69d292b00e422443cf560797",
 		"status":"DEPLOYED",
-		"version":113,
-		"workflowVersion":165
+		"version":114,
+		"workflowVersion":167
 	},
 	"edges":[
 		{
@@ -298,6 +298,25 @@
 		"configs":[
 			{
 				"permissions":[
+					"A",
+					"EXPORT_AS_TEMPLATE",
+					"C",
+					"S",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"DEP"
+				],
+				"principalIds":[
+					"44109"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -307,7 +326,7 @@
 	"id":"67a221c16371b010adbe2e8e",
 	"lastModifiedBy":-1,
 	"lcName":"fetch test tools",
-	"modifiedTime":1775407792460,
+	"modifiedTime":1775408107495,
 	"name":"Fetch Test Tools",
 	"nodes":[
 		{
@@ -702,6 +721,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1006,6 +1026,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2328,5 +2349,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":167
+	"version":168
 }
