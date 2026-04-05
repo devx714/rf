@@ -4,14 +4,14 @@
 	],
 	"createdTime":1752507469873,
 	"deleted":false,
-	"deployedVersion":66,
+	"deployedVersion":67,
 	"deploymentState":{
-		"deployedAt":1775334450726,
+		"deployedAt":1775385604685,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1743239824e0613819b9c",
+		"deployedDefinitionId":"69d23c04b41de37eb670f5c9",
 		"status":"DEPLOYED",
-		"version":66,
-		"workflowVersion":119
+		"version":67,
+		"workflowVersion":121
 	},
 	"edges":[
 		{
@@ -93,7 +93,7 @@
 	"id":"682cd6aba66f2460f7c092f6",
 	"lastModifiedBy":-1,
 	"lcName":"clustering | cluster summary",
-	"modifiedTime":1775385604597,
+	"modifiedTime":1775390018906,
 	"name":"Clustering | Cluster Summary",
 	"nodes":[
 		{
@@ -661,5 +661,5 @@
 	"tags":[
 		"Clustering"
 	],
-	"version":121
+	"version":123
 }
