@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762858162302,
 	"deleted":false,
-	"deployedVersion":31,
+	"deployedVersion":33,
 	"deploymentState":{
-		"deployedAt":1775385564020,
+		"deployedAt":1775391252123,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bdbb31cfc01cc39eeb0",
+		"deployedDefinitionId":"69d2521350e82945c76a650e",
 		"status":"DEPLOYED",
-		"version":31,
-		"workflowVersion":66
+		"version":33,
+		"workflowVersion":70
 	},
 	"edges":[
 		{
@@ -455,7 +455,7 @@
 	"id":"68fb4257ecc44120a88dbfb5",
 	"lastModifiedBy":-1,
 	"lcName":"upsert graph (hybrid+async) | graphrag with versioning",
-	"modifiedTime":1775389924736,
+	"modifiedTime":1775407733427,
 	"name":"Upsert Graph (Hybrid+Async) | GraphRAG with Versioning",
 	"nodes":[
 		{
@@ -3606,5 +3606,5 @@
 	"tags":[
 		"GraphRAG"
 	],
-	"version":68
+	"version":72
 }
