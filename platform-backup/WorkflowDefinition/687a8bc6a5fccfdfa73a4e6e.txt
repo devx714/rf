@@ -1,0 +1,966 @@
+{
+	"appsUsed":[
+		"confluence"
+	],
+	"createdTime":1757480394892,
+	"deleted":false,
+	"deployedVersion":10,
+	"deploymentState":{
+		"deployedAt":1773928156362,
+		"deployedBy":-1,
+		"deployedDefinitionId":"69bbfedc40a2b92de9fe69cc",
+		"status":"DEPLOYED",
+		"version":10,
+		"workflowVersion":116
+	},
+	"edges":[
+		{
+			"fromNodeId":"n_YxLaL",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"1WPP3",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"1WPP3",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_C599k",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_C599k",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_FQYWz",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_FQYWz",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_wJoBy",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_wJoBy",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_CPRYj",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_CPRYj",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_LTeh6",
+			"type":"loop"
+		},
+		{
+			"fromNodeId":"_LTeh6",
+			"name":"loopback",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_CPRYj",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_CPRYj",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_KefNv",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_KefNv",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_Y2Rk0",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_Y2Rk0",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_wVbLz",
+			"type":"next"
+		}
+	],
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"V"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"687a8bc6a5fccfdfa73a4e6e",
+	"lastModifiedBy":-1,
+	"lcName":"knowledge downloader | confluence | space pages",
+	"modifiedTime":1775390038543,
+	"name":"Knowledge Downloader | Confluence | Space pages",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":435,
+				"resourceName":"callables_from_interface"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_SQjXE-1",
+			"id":"n_YxLaL",
+			"index":1,
+			"inputs":{
+				"result":{
+					"additionalProperties":false,
+					"properties":{
+						"cursor":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Cursor",
+							"type":"object"
+						},
+						"downloadedEntitiesCount":{
+							"title":"Downloaded Entities Count",
+							"type":"integer"
+						},
+						"hasMore":{
+							"title":"Has More",
+							"type":"boolean"
+						},
+						"knowledgeDownloadFinished":{
+							"title":"Knowledge Download Finished",
+							"type":"boolean"
+						}
+					},
+					"required":[],
+					"type":"object",
+					"ua:modal":{
+						"field_type":"STRING",
+						"is_optional":true
+					}
+				},
+				"callableInterfaceId":"6854484ac68462013926b9cf",
+				"setup":{
+					"additionalProperties":false,
+					"properties":{
+						"aiAgentId":{
+							"title":"aiAgentId",
+							"type":"string"
+						},
+						"cursor":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Cursor",
+							"type":"object"
+						},
+						"downloaderConfig":{
+							"additionalProperties":false,
+							"properties":{
+								"currentTimeEpoch":{
+									"title":"Current Time Epoch",
+									"type":"integer"
+								},
+								"grabberType":{
+									"title":"Grabber Type",
+									"type":"string"
+								},
+								"startTimeEpoch":{
+									"title":"Start Time Epoch",
+									"type":"integer"
+								}
+							},
+							"required":[],
+							"title":"Downloader Config",
+							"type":"object"
+						},
+						"importerConnections":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Importer Connections",
+							"type":"object"
+						},
+						"inputs":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Inputs",
+							"type":"object"
+						},
+						"knowledge":{
+							"additionalProperties":false,
+							"properties":{
+								"applicationInfo":{
+									"additionalProperties":false,
+									"properties":{
+										"context":{
+											"additionalProperties":false,
+											"properties":{
+												"connectionId":{
+													"title":"Connection Id",
+													"type":"string"
+												}
+											},
+											"required":[],
+											"title":"Context",
+											"type":"object"
+										}
+									},
+									"required":[],
+									"title":"Application Info",
+									"type":"object"
+								},
+								"cursorObject":{
+									"title":"cursorObject",
+									"type":"object"
+								},
+								"indexingVersion":{
+									"title":"Indexing Version",
+									"type":"integer"
+								},
+								"knowledgeSetId":{
+									"title":"Knowledge Set Id",
+									"type":"string"
+								},
+								"lastSyncTime":{
+									"title":"lastSyncTime",
+									"type":"integer"
+								},
+								"readVersion":{
+									"title":"readVersion",
+									"type":"integer"
+								}
+							},
+							"required":[],
+							"title":"knowledge",
+							"type":"object"
+						},
+						"knowledgeId":{
+							"title":"knowledgeId",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object",
+					"ua:modal":{
+						"field_type":"STRING",
+						"is_optional":true
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger interface",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":68,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_SQjXE-1",
+			"id":"1WPP3",
+			"index":2,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"mappedInputs":{
+							"additionalProperties":false,
+							"properties":{
+								"includeAttachments":{
+									"title":"Include Attachments",
+									"type":"boolean"
+								},
+								"includeComments":{
+									"title":"Include Comments",
+									"type":"boolean"
+								},
+								"nextCur":{
+									"title":"Next Cur",
+									"type":"string"
+								},
+								"pageList":{
+									"items":{
+										"type":"string"
+									},
+									"title":"Page List",
+									"type":"array"
+								},
+								"spaceId":{
+									"title":"Space Id",
+									"type":"string"
+								}
+							},
+							"required":[],
+							"title":"Mapped Inputs",
+							"type":"object"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"cursor":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Cursor",
+							"type":"object"
+						},
+						"inputs":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Inputs",
+							"type":"object"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"\n\ndef mappedInputs = [:]\n\nif (binding.hasVariable('inputs')) {\n    mappedInputs[\"spaceId\"] = inputs?.spaceId ?: null \n    mappedInputs[\"allowed\"] = inputs?.spaceId ? true: false \n    mappedInputs[\"includeAttachments\"] = inputs?.includeAttachments ?: false\n    mappedInputs[\"includeComments\"] = inputs?.includeComments ?: false\n    mappedInputs[\"pageList\"] = inputs?.pageList ?: [:]\n}\nif (binding.hasVariable('cursor')) {\n mappedInputs[\"nextCur\"] = cursor?.nextCur ?: null\n}\n\nreturn [\"mappedInputs\": mappedInputs];\n",
+				"compile_static":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"cursor":"{{ n_YxLaL.outputs.cursor }}",
+					"inputs":"{{ n_YxLaL.outputs.inputs }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Resolve inputs",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"additional":{
+				"visibleOptionalFields":[
+					"root.parameters.pageList.items"
+				]
+			},
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":451,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_SQjXE-1",
+			"id":"n_C599k",
+			"index":3,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"pageListString":{
+							"title":"Page List String",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"pageList":{
+							"items":{
+								"type":"string"
+							},
+							"title":"Page List",
+							"type":"array"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"def pageListString = \"\"\n\nif (binding.hasVariable(\"pageList\")){\npageListString = pageList.join(\",\")\n}\n\nreturn [\n    \"pageListString\": pageListString\n]",
+				"compile_static":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"pageList":{
+						"items":"{{ 1WPP3.outputs.result.mappedInputs.pageList[0] }}",
+						"source":"{{ 1WPP3.outputs.result.mappedInputs.pageList }}",
+						"ua:type":"mappedArray"
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"confluence",
+				"resourceVersion":2326,
+				"connectionId":"68779d97c71fda18ce346642",
+				"resourceName":"confluence_list_pages",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_SQjXE-1",
+			"id":"_FQYWz",
+			"index":4,
+			"inputs":{
+				"cursor":"{{ 1WPP3.outputs.result.mappedInputs.nextCur }}",
+				"spaceId":"{{ 1WPP3.outputs.result.mappedInputs.spaceId }}",
+				"limit":30,
+				"start":0,
+				"id":"{{ n_C599k.outputs.result.pageListString }}",
+				"sort":"modified-date",
+				"bodyFormat":"storage"
+			},
+			"options":{
+				"bulkheadConfig":{
+					"enabled":false,
+					"maxLeaseTimeUnit":"SECONDS",
+					"maxWaitDurationUnit":"SECONDS"
+				},
+				"businessHoursConfig":{
+					"enabled":false,
+					"waitForNextWindow":false
+				},
+				"cacheConfig":{
+					"enabled":false,
+					"usagePolicy":"ALWAYS"
+				},
+				"circuitBreakerConfig":{
+					"enabled":false
+				},
+				"disableLogging":false,
+				"enabledForReExecution":false,
+				"hookConfig":{
+					"enabled":false,
+					"postHooks":[
+						
+					],
+					"preHooks":[
+						
+					]
+				},
+				"logConfig":{
+					"enabled":false,
+					"logPolicies":[
+						
+					]
+				},
+				"rateLimitConfig":{
+					"duration":"1",
+					"enabled":true,
+					"threshold":"1000",
+					"unit":"MINUTES",
+					"waitForNextWindow":false
+				},
+				"retryConfig":{
+					"backOffFactor":null,
+					"captureRetries":false,
+					"enabled":false
+				},
+				"stepError":"STOP",
+				"telemetryConfig":{
+					"enableTelemetry":false,
+					"metricConfigs":[
+						
+					]
+				}
+			},
+			"skip":false,
+			"subTitle":"Confluence",
+			"title":"List pages",
+			"type":"ACTION"
+		},
+		{
+			"additional":{
+				"xsdSchemaConfig":{
+					"root":{}
+				},
+				"visibleOptionalFields":[
+					"root.parameters.pageList.items"
+				]
+			},
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":452,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_SQjXE-1",
+			"id":"n_wJoBy",
+			"index":5,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"filteredPageList":{
+							"items":{
+								"additionalProperties":false,
+								"properties":{
+									"_links":{
+										"additionalProperties":false,
+										"properties":{
+											"editui":{
+												"title":"editui",
+												"type":"string"
+											},
+											"edituiv2":{
+												"title":"edituiv2",
+												"type":"string"
+											},
+											"tinyui":{
+												"title":"tinyui",
+												"type":"string"
+											},
+											"webui":{
+												"title":"webui",
+												"type":"string"
+											}
+										},
+										"title":"_links",
+										"type":"object"
+									},
+									"authorId":{
+										"title":"authorId",
+										"type":"string"
+									},
+									"body":{
+										"additionalProperties":false,
+										"properties":{
+											"storage":{
+												"additionalProperties":false,
+												"properties":{
+													"representation":{
+														"title":"representation",
+														"type":"string"
+													},
+													"value":{
+														"title":"value",
+														"type":"string"
+													}
+												},
+												"title":"storage",
+												"type":"object"
+											}
+										},
+										"title":"body",
+										"type":"object"
+									},
+									"createdAt":{
+										"title":"createdAt",
+										"type":"string"
+									},
+									"id":{
+										"title":"id",
+										"type":"string"
+									},
+									"ownerId":{
+										"title":"ownerId",
+										"type":"string"
+									},
+									"parentId":{
+										"title":"parentId",
+										"type":"string"
+									},
+									"parentType":{
+										"title":"parentType",
+										"type":"string"
+									},
+									"position":{
+										"title":"position",
+										"type":"integer"
+									},
+									"spaceId":{
+										"title":"spaceId",
+										"type":"string"
+									},
+									"status":{
+										"title":"status",
+										"type":"string"
+									},
+									"title":{
+										"title":"title",
+										"type":"string"
+									},
+									"version":{
+										"additionalProperties":false,
+										"properties":{
+											"authorId":{
+												"title":"authorId",
+												"type":"string"
+											},
+											"createdAt":{
+												"title":"createdAt",
+												"type":"string"
+											},
+											"message":{
+												"title":"message",
+												"type":"string"
+											},
+											"minorEdit":{
+												"title":"minorEdit",
+												"type":"boolean"
+											},
+											"ncsStepVersion":{
+												"title":"ncsStepVersion",
+												"type":"string"
+											},
+											"number":{
+												"title":"number",
+												"type":"integer"
+											}
+										},
+										"title":"version",
+										"type":"object"
+									}
+								},
+								"type":"object"
+							},
+							"title":"Filtered Page List",
+							"type":"array"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"cursor":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Cursor",
+							"type":"object"
+						},
+						"pageList":{
+							"items":{
+								"additionalProperties":false,
+								"properties":{},
+								"type":"object"
+							},
+							"title":"Page List",
+							"type":"array"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"def filterPages(pageList, cursor) {\n    def lastModifiedTime = cursor?.lastModifiedTime ?: 0L\n\n    def filteredPageList = pageList.findAll { page ->\n        def createdAtStr = page?.version?.createdAt\n        if (!createdAtStr) {\n            return false\n        }\n        long createdAtEpoch = java.time.Instant.parse(createdAtStr).toEpochMilli()\n        return createdAtEpoch > lastModifiedTime\n      \n    }\n\n    return [filteredPageList: filteredPageList]\n}\n\nif (!binding.hasVariable('pageList') || pageList == null) {\n    return [\"filteredPageList\": []]\n}\n\nreturn binding.hasVariable('cursor') && cursor?.lastModifiedTime ? filterPages(pageList, cursor) :[\"filteredPageList\" : pageList]",
+				"compile_static":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"cursor":"{{ n_YxLaL.outputs.cursor }}",
+					"pageList":{
+						"items":"{{ _FQYWz.outputs.results[0] }}",
+						"source":"{{ _FQYWz.outputs.results }}",
+						"ua:type":"mappedArray"
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"loop",
+				"resourceVersion":453,
+				"resourceName":"loop_for_each",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_SQjXE-1",
+			"id":"n_CPRYj",
+			"index":6,
+			"inputs":{
+				"repeatMode":"BATCH",
+				"listSource":"{{ n_wJoBy.outputs.result.filteredPageList }}",
+				"captureIterations":false,
+				"batchSize":30
+			},
+			"skip":false,
+			"subTitle":"Loop (Batch = 30)",
+			"title":"For loop",
+			"type":"LOOP"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":447,
+				"resourceName":"callables_call_automation_batch",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_CPRYj@_SQjXE-1@l",
+			"id":"_LTeh6",
+			"index":7,
+			"inputs":{
+				"automationId":"687b3e7b19d2a563e56127e8",
+				"runtimeConnections":{
+					"confluence":"{{ n_YxLaL.outputs.knowledge.applicationInfo.context.connectionId }}",
+					"slack":"{{ n_YxLaL.outputs.knowledge.applicationInfo.context.connectionId }}"
+				},
+				"synchronous":true,
+				"distributeWorkflowLoad":false,
+				"parametersList":{
+					"items":{
+						"_links":{
+							"editui":"{{ n_CPRYj.outputs.item[0]._links.editui }}",
+							"tinyui":"{{ n_CPRYj.outputs.item[0]._links.tinyui }}",
+							"webui":"{{ n_CPRYj.outputs.item[0]._links.webui }}"
+						},
+						"authorId":"{{ n_CPRYj.outputs.item[0].authorId }}",
+						"base":"{{ _FQYWz.outputs._links.base }}",
+						"body":{
+							"storage":{
+								"representation":"{{ n_CPRYj.outputs.item[0].body.storage.representation }}",
+								"value":"{{ n_CPRYj.outputs.item[0].body.storage.value }}"
+							}
+						},
+						"connectionId":"{{ n_YxLaL.outputs.knowledge.applicationInfo.context.connectionId }}",
+						"createdAt":"{{ n_CPRYj.outputs.item[0].createdAt }}",
+						"grabberType":"{{ n_YxLaL.outputs.downloaderConfig.grabberType }}",
+						"id":"{{ n_CPRYj.outputs.item[0].id }}",
+						"includeAttachments":"{{ 1WPP3.outputs.result.mappedInputs.includeAttachments }}",
+						"includeComments":"{{ 1WPP3.outputs.result.mappedInputs.includeComments }}",
+						"indexingVersion":"{{ n_YxLaL.outputs.knowledge.indexingVersion }}",
+						"knowledgeId":"{{ n_YxLaL.outputs.knowledgeId }}",
+						"knowledgeSetId":"{{ n_YxLaL.outputs.knowledge.knowledgeSetId }}",
+						"ownerId":"{{ n_CPRYj.outputs.item[0].ownerId }}",
+						"position":"{{ n_CPRYj.outputs.item[0].position }}",
+						"spaceId":"{{ n_CPRYj.outputs.item[0].spaceId }}",
+						"status":"{{ n_CPRYj.outputs.item[0].status }}",
+						"title":"{{ n_CPRYj.outputs.item[0].title }}",
+						"version":{
+							"authorId":"{{ n_CPRYj.outputs.item[0].version.authorId }}",
+							"createdAt":"{{ n_CPRYj.outputs.item[0].version.createdAt }}",
+							"message":"{{ n_CPRYj.outputs.item[0].version.message }}",
+							"minorEdit":"{{ n_CPRYj.outputs.item[0].version.minorEdit }}",
+							"number":"{{ n_CPRYj.outputs.item[0].version.number }}"
+						}
+					},
+					"source":"{{ n_CPRYj.outputs.item }}",
+					"ua:type":"mappedArray"
+				},
+				"version":"-1"
+			},
+			"skip":false,
+			"subTitle":"Page Downloader",
+			"title":"Call automation (batch)",
+			"type":"CALL_WORKFLOW"
+		},
+		{
+			"additional":{
+				"visibleOptionalFields":[
+					"root.parameters.pageList.items"
+				]
+			},
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":62,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_SQjXE-1",
+			"id":"_KefNv",
+			"index":8,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"cursor":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Cursor",
+							"type":"object"
+						},
+						"hasMore":{
+							"title":"Has More",
+							"type":"boolean"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"cursor":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Cursor",
+							"type":"object"
+						},
+						"nextUrl":{
+							"title":"nextUrl",
+							"type":"string"
+						},
+						"pageList":{
+							"items":{
+								"additionalProperties":false,
+								"properties":{},
+								"type":"object"
+							},
+							"title":"Page List",
+							"type":"array"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"def getCursor(url) {\n    def queryParams = url.split(\"\\\\?\")[-1] // Get the query string part\n    def paramsMap = queryParams.split(\"&\").collectEntries { entry ->\n        def (key, value) = entry.split(\"=\", 2)\n        [(key): value]\n    }\n    return [\"nextCur\": paramsMap[\"cursor\"]] \n}\n\ndef curCursor = [:]\nif (binding.hasVariable(\"pageList\") && pageList && !pageList.isEmpty()) {\n    def lastElement = pageList[-1]  // last element\n    def createdAtStr = lastElement?.version?.createdAt\n    long createdAtEpoch = 0\n    if (createdAtStr) {\n        createdAtEpoch = java.time.Instant.parse(createdAtStr).toEpochMilli()\n    }\n    curCursor[\"lastModifiedTime\"] = createdAtEpoch\n}\n\ncurCursor[\"nextCur\"] = (binding.hasVariable('cursor') && cursor?.nextCur) ? cursor.nextCur : null\n\n\nreturn [ \n    \"cursor\" : binding.hasVariable(\"nextUrl\") ? getCursor(nextUrl) : curCursor,\n    \"hasMore\" : binding.hasVariable(\"nextUrl\") ? true : false\n]",
+				"compile_static":false,
+				"isAsync":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"cursor":"{{ n_YxLaL.outputs.cursor }}",
+					"nextUrl":"{{ _FQYWz.outputs._links.next }}",
+					"pageList":{
+						"items":"{{ _FQYWz.outputs.results[0] }}",
+						"source":"{{ _FQYWz.outputs.results }}",
+						"ua:type":"mappedArray"
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"additional":{
+				"visibleOptionalFields":[
+					"root.parameters.pageArray.items"
+				]
+			},
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":449,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_SQjXE-1",
+			"id":"n_Y2Rk0",
+			"index":9,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"downloadedPageCount":{
+							"title":"Downloaded Page Count",
+							"type":"integer"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"pageArray":{
+							"items":{
+								"additionalProperties":false,
+								"properties":{},
+								"type":"object"
+							},
+							"title":"Page Array",
+							"type":"array"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"def count = 0;\n\nif(binding.hasVariable('pageArray'))\n{\n  count = pageArray.size();\n}\n\nreturn ['downloadedPageCount' : count]",
+				"compile_static":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"pageArray":{
+						"items":"{{ n_wJoBy.outputs.result.filteredPageList[0] }}",
+						"source":"{{ n_wJoBy.outputs.result.filteredPageList }}",
+						"ua:type":"mappedArray"
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":454,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_SQjXE-1",
+			"id":"_wVbLz",
+			"index":10,
+			"inputs":{
+				"result":{
+					"cursor":"{{ _KefNv.outputs.result.cursor }}",
+					"downloadedEntitiesCount":"{{ n_Y2Rk0.outputs.result.downloadedPageCount }}",
+					"hasMore":"{{ _KefNv.outputs.result.hasMore }}",
+					"knowledgeDownloadFinished":false
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":44103,
+	"runtimeConnectionAppNames":[
+		"confluence"
+	],
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"headerValueTierMap":{},
+			"tierName":"global"
+		}
+	},
+	"standard":true,
+	"tags":[
+		"knowledge_v2"
+	],
+	"version":117
+}
