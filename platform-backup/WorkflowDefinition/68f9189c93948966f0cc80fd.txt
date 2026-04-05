@@ -4,14 +4,14 @@
 	],
 	"createdTime":1761283323374,
 	"deleted":false,
-	"deployedVersion":42,
+	"deployedVersion":45,
 	"deploymentState":{
-		"deployedAt":1775385609471,
+		"deployedAt":1775407795135,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c09b41de37eb670f60f",
+		"deployedDefinitionId":"69d292b3a2eda46706b04806",
 		"status":"DEPLOYED",
-		"version":42,
-		"workflowVersion":112
+		"version":45,
+		"workflowVersion":118
 	},
 	"edges":[
 		{
@@ -214,6 +214,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -223,7 +224,7 @@
 	"id":"68f9189c93948966f0cc80fd",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] filtered and sort agent list",
-	"modifiedTime":1775385609472,
+	"modifiedTime":1775408100138,
 	"name":"[DT] Filtered and sort agent list",
 	"nodes":[
 		{
@@ -2481,5 +2482,5 @@
 	"tags":[
 		
 	],
-	"version":112
+	"version":119
 }
