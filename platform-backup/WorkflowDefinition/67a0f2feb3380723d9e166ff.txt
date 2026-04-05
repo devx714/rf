@@ -4,14 +4,14 @@
 	],
 	"createdTime":1738665916650,
 	"deleted":false,
-	"deployedVersion":65,
+	"deployedVersion":68,
 	"deploymentState":{
-		"deployedAt":1774342944970,
+		"deployedAt":1775385615793,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c253208d65fb68e1563bdb",
+		"deployedDefinitionId":"69d23c0fb31cfc01cc39f20b",
 		"status":"DEPLOYED",
-		"version":65,
-		"workflowVersion":113
+		"version":68,
+		"workflowVersion":119
 	},
 	"edges":[
 		{
@@ -483,7 +483,7 @@
 	"id":"67a0f2feb3380723d9e166ff",
 	"lastModifiedBy":-1,
 	"lcName":"clustering | deduplication of clusters",
-	"modifiedTime":1775320667028,
+	"modifiedTime":1775385615794,
 	"name":"Clustering | Deduplication of Clusters",
 	"nodes":[
 		{
@@ -857,6 +857,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -970,6 +971,7 @@
 				"isClusterMerged":false
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1241,6 +1243,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1794,6 +1797,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1861,6 +1865,7 @@
 				"flag":false
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -3493,5 +3498,5 @@
 	"tags":[
 		"Clustering"
 	],
-	"version":115
+	"version":119
 }
