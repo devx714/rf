@@ -249,7 +249,7 @@
 	"id":"68fb3d5e7c0ee50198338f6a",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] bulk index membership",
-	"modifiedTime":1775385598664,
+	"modifiedTime":1775389990640,
 	"name":"[DT] Bulk Index Membership",
 	"nodes":[
 		{
@@ -824,7 +824,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1083,7 +1082,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1342,7 +1340,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1394,7 +1391,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2169,5 +2165,5 @@
 	"tags":[
 		
 	],
-	"version":60
+	"version":62
 }
