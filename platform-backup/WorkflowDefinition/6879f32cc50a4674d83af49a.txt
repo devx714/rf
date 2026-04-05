@@ -1,0 +1,1605 @@
+{
+	"appsUsed":[
+		"jira"
+	],
+	"createdTime":1756991652815,
+	"deleted":false,
+	"deployedVersion":15,
+	"deploymentState":{
+		"deployedAt":1773928134446,
+		"deployedBy":-1,
+		"deployedDefinitionId":"69bbfec616170c6243806849",
+		"status":"DEPLOYED",
+		"version":15,
+		"workflowVersion":127
+	},
+	"edges":[
+		{
+			"fromNodeId":"_JoVof",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_B7QXL",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_B7QXL",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"undefined_0SDTd",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"undefined_0SDTd",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"undefined_hfDJI",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"undefined_hfDJI",
+			"name":"error",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_stO4f",
+			"type":"error"
+		},
+		{
+			"fromNodeId":"n_stO4f",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_U0yyD",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"n_stO4f",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_1kbGt",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"undefined_hfDJI",
+			"name":"success",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_GPT7I",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_U0yyD",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_GPT7I",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_1kbGt",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_GPT7I",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_GPT7I",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"HMSsN",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"HMSsN",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_Oqz5w",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_Oqz5w",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_Qf1iZ",
+			"type":"loop"
+		},
+		{
+			"fromNodeId":"n_Qf1iZ",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"a00wp",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"a00wp",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"bF2HZ",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"bF2HZ",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"yUuoJ",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"yUuoJ",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"mCNwC",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"mCNwC",
+			"name":"loopback",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_Oqz5w",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_Oqz5w",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_rRa51",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_rRa51",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_Ui8zx",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"_Ui8zx",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_fOz87",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"R0Dzq",
+			"name":"loopback",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_fOz87",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_rRa51",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_fOz87",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_fOz87",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"R0Dzq",
+			"type":"loop"
+		},
+		{
+			"fromNodeId":"n_fOz87",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_oM6ck",
+			"type":"next"
+		}
+	],
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"V"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"6879f32cc50a4674d83af49a",
+	"lastModifiedBy":-1,
+	"lcName":"knowledge downloader | jira | project",
+	"modifiedTime":1775389877619,
+	"name":"Knowledge Downloader | Jira | Project",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":436,
+				"resourceName":"callables_from_interface"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"GD0zw@zsXdn-1@l",
+			"id":"_JoVof",
+			"index":1,
+			"inputs":{
+				"result":{
+					"additionalProperties":false,
+					"properties":{
+						"cursor":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Cursor",
+							"type":"object"
+						},
+						"downloadedEntitiesCount":{
+							"title":"Downloaded Entities Count",
+							"type":"integer"
+						},
+						"hasMore":{
+							"title":"Has More",
+							"type":"boolean"
+						},
+						"knowledgeDownloadFinished":{
+							"title":"Knowledge Download Finished",
+							"type":"boolean"
+						}
+					},
+					"required":[],
+					"type":"object",
+					"ua:modal":{
+						"field_type":"STRING",
+						"is_optional":true
+					}
+				},
+				"callableInterfaceId":"6854484ac68462013926b9cf",
+				"setup":{
+					"additionalProperties":false,
+					"properties":{
+						"aiAgentId":{
+							"title":"aiAgentId",
+							"type":"string"
+						},
+						"cursor":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Cursor",
+							"type":"object"
+						},
+						"downloaderConfig":{
+							"additionalProperties":false,
+							"properties":{
+								"currentTimeEpoch":{
+									"title":"Current Time Epoch",
+									"type":"integer"
+								},
+								"grabberType":{
+									"title":"Grabber Type",
+									"type":"string"
+								},
+								"startTimeEpoch":{
+									"title":"Start Time Epoch",
+									"type":"integer"
+								}
+							},
+							"required":[],
+							"title":"Downloader Config",
+							"type":"object"
+						},
+						"importerConnections":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Importer Connections",
+							"type":"object"
+						},
+						"inputs":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Inputs",
+							"type":"object"
+						},
+						"knowledge":{
+							"additionalProperties":false,
+							"properties":{
+								"applicationInfo":{
+									"additionalProperties":false,
+									"properties":{
+										"context":{
+											"additionalProperties":false,
+											"properties":{
+												"connectionId":{
+													"title":"Connection Id",
+													"type":"string"
+												}
+											},
+											"required":[],
+											"title":"Context",
+											"type":"object"
+										}
+									},
+									"required":[],
+									"title":"Application Info",
+									"type":"object"
+								},
+								"cursorObject":{
+									"title":"cursorObject",
+									"type":"object"
+								},
+								"indexingVersion":{
+									"title":"Indexing Version",
+									"type":"integer"
+								},
+								"knowledgeSetId":{
+									"title":"Knowledge Set Id",
+									"type":"string"
+								},
+								"lastSyncTime":{
+									"title":"lastSyncTime",
+									"type":"integer"
+								},
+								"readVersion":{
+									"title":"readVersion",
+									"type":"integer"
+								}
+							},
+							"required":[],
+							"title":"knowledge",
+							"type":"object"
+						},
+						"knowledgeId":{
+							"title":"knowledgeId",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object",
+					"ua:modal":{
+						"field_type":"STRING",
+						"is_optional":true
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger interface",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"additional":{
+				"xsdSchemaConfig":{
+					"root":{}
+				}
+			},
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":2,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"GD0zw@zsXdn-1@l",
+			"id":"_B7QXL",
+			"index":2,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"assignees":{
+							"items":{
+								"type":"string"
+							},
+							"title":"Assignees",
+							"type":"array"
+						},
+						"createdDate":{
+							"additionalProperties":false,
+							"properties":{
+								"from":{
+									"title":"from",
+									"type":"string"
+								},
+								"to":{
+									"title":"to",
+									"type":"string"
+								}
+							},
+							"type":"object"
+						},
+						"cursorModifiedFromDate":{
+							"title":"Cursor Modified From Date",
+							"type":"integer"
+						},
+						"includeAttachments":{
+							"title":"Include Attachments",
+							"type":"boolean"
+						},
+						"includeComments":{
+							"title":"Include Comments",
+							"type":"boolean"
+						},
+						"isPrivate":{
+							"title":"Is Private",
+							"type":"boolean"
+						},
+						"nextPageToken":{
+							"title":"Next Page Token",
+							"type":"string"
+						},
+						"priorities":{
+							"items":{
+								"type":"string"
+							},
+							"title":"Priorities",
+							"type":"array"
+						},
+						"projectId":{
+							"title":"Project Id",
+							"type":"string"
+						},
+						"projectKey":{
+							"title":"Project Key",
+							"type":"string"
+						},
+						"reporters":{
+							"items":{
+								"type":"string"
+							},
+							"title":"Reporters",
+							"type":"array"
+						},
+						"timeZoneRef":{
+							"title":"Time Zone Ref",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"cursor":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Cursor",
+							"type":"object"
+						},
+						"inputs":{
+							"title":"inputs",
+							"type":"object"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"def convertDate(dateTimeStr, format){\n    def offsetDateTime = java.time.OffsetDateTime.parse(dateTimeStr, java.time.format.DateTimeFormatter.ofPattern(format))\n    return offsetDateTime.toInstant().toEpochMilli()    \n}\n\ndef convertLocalDate(dateStr, format){\n    def localDate = java.time.LocalDate.parse(dateStr, java.time.format.DateTimeFormatter.ofPattern(format))\n    return localDate.atStartOfDay(java.time.ZoneOffset.UTC).toInstant().toEpochMilli()\n}\n\nif (binding.hasVariable('inputs')) {\n    if (binding.hasVariable('cursor') && cursor instanceof Map && cursor.containsKey('cursorModifiedFromDate')) {\n        inputs << [\"timeZoneRef\" : cursor.get('cursorModifiedFromDate')]\n        inputs << [\"cursorModifiedFromDate\" : convertDate(cursor.get('cursorModifiedFromDate'), \"yyyy-MM-dd'T'HH:mm:ss.SSSxx\")]\n    }\n    if (binding.hasVariable('cursor')) {                    // *** CHANGED: Added cursor instanceof Map check ***\n        inputs << [\"nextPageToken\" : cursor?.nextPageToken ?: null]                  // *** CHANGED: Added to inputs, not mappedInputs ***\n    }\n\n    return inputs\n}\n\nreturn [:]",
+				"compile_static":false,
+				"isAsync":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"cursor":"{{ _JoVof.outputs.cursor }}",
+					"inputs":"{{ _JoVof.outputs.inputs }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"input parsing",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"additional":{
+				"visibleOptionalFields":[
+					"root.parameters.reporters.items",
+					"root.parameters.assignees.items",
+					"root.parameters.priorities.items"
+				]
+			},
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":64,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"GD0zw@zsXdn-1@l",
+			"id":"undefined_0SDTd",
+			"index":3,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"cursorModifiedFromDate":{
+							"title":"Cursor Modified From Date",
+							"type":"string"
+						},
+						"jqlQuery":{
+							"title":"JQL Query",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"assignees":{
+							"items":{
+								"type":"string"
+							},
+							"title":"Assignees",
+							"type":"array"
+						},
+						"cursorModifiedFromDate":{
+							"title":"Cursor Modified From Date",
+							"type":"string"
+						},
+						"cursorModifiedToDate":{
+							"title":"Cursor Modified To Date",
+							"type":"string"
+						},
+						"priorities":{
+							"items":{
+								"type":"string"
+							},
+							"title":"Priorities",
+							"type":"array"
+						},
+						"projectId":{
+							"title":"projectId",
+							"type":"string"
+						},
+						"projectKey":{
+							"title":"Project Key",
+							"type":"string"
+						},
+						"reporters":{
+							"items":{
+								"type":"string"
+							},
+							"title":"Reporters",
+							"type":"array"
+						},
+						"startTime":{
+							"title":"Start Time",
+							"type":"string"
+						},
+						"timeZoneRef":{
+							"title":"Time Zone Ref",
+							"type":"string"
+						},
+						"userFilterCreatedFromDate":{
+							"title":"User Filter Created From Date",
+							"type":"string"
+						},
+						"userFilterCreatedToDate":{
+							"title":"User Filter Created To Date",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"import java.time.*\nimport java.time.format.*\n\ndef buildJQLQueryWithCursor(String projectId,                              // *** CHANGED: Renamed function ***\n                  String userCreatedFrom,\n                  String userCreatedTo,\n                  Long cursorModifiedFromEpoch,\n                  Long cursorModifiedToEpoch,\n                  String timeZoneRef,\n                  List<String> reporters,       \n                  List<String> assignees,       \n                  List<String> priorities) {\n    def conditions = []\n    def cursorModifiedFromFormatted = null                                  // *** ADDED: Variable to store formatted cursor ***\n\n    // Project filter\n    if (projectId?.trim()) {\n        conditions << \"project = '${projectId}'\"\n    }\n\n    ZoneOffset zoneOffset = ZoneOffset.of(\"+05:30\")\n    if (timeZoneRef?.trim()) {\n        try {\n            def matcher = timeZoneRef =~ /([+-]\\d{4})$/\n            if (matcher.find()) {\n                def offsetStr = matcher.group(1)\n                def formattedOffset = offsetStr.substring(0, 3) + \":\" + offsetStr.substring(3)\n                zoneOffset = ZoneOffset.of(formattedOffset)\n            }\n        } catch (Exception e) {\n            println \"Failed to parse timezone from timeZoneRef: ${e.message}\"\n        }\n    }\n\n    // yyyy-MM-dd HH:mm formatter for Jira API\n    DateTimeFormatter outFmt = DateTimeFormatter.ofPattern(\"yyyy-MM-dd HH:mm\")\n    DateTimeFormatter dateFmt = DateTimeFormatter.ofPattern(\"yyyy-MM-dd\")\n    \n    Closure<String> formatEpoch = { Long ms ->\n        Instant.ofEpochMilli(ms).atZone(zoneOffset).format(outFmt)\n    }\n\n    // ---- CREATED filters from user ----\n    if (userCreatedFrom?.trim()) {\n        try {\n            LocalDate fromDate = LocalDate.parse(userCreatedFrom, dateFmt)\n            ZonedDateTime zdtFrom = fromDate.atStartOfDay(zoneOffset)\n            conditions << \"created >= '${zdtFrom.format(outFmt)}'\"\n        } catch (Exception e) {\n            println \"Failed to parse userCreatedFrom: ${e.message}\"\n        }\n    }\n    \n    if (userCreatedTo?.trim()) {\n        try {\n            LocalDate toDate = LocalDate.parse(userCreatedTo, dateFmt)\n            LocalDate incrementedToDate = toDate.plusDays(1)\n            ZonedDateTime zdtTo = incrementedToDate.atStartOfDay(zoneOffset)\n            conditions << \"created < '${zdtTo.format(outFmt)}'\"\n        } catch (Exception e) {\n            println \"Failed to parse userCreatedTo: ${e.message}\"\n        }\n    }\n\n    // ---- MODIFIED filters from cursor ----\n    if (cursorModifiedFromEpoch != null) {\n        cursorModifiedFromFormatted = formatEpoch(cursorModifiedFromEpoch)  // *** ADDED: Capture formatted value ***\n        conditions << \"updated >= '${cursorModifiedFromFormatted}'\"         // *** CHANGED: Use captured variable ***\n    }\n    if (cursorModifiedToEpoch != null) {\n        conditions << \"updated <= '${formatEpoch(cursorModifiedToEpoch)}'\"\n    }\n\n    // ---- REPORTER filter ----\n    if (reporters && reporters.size() > 0) {\n        def reporterList = reporters.collect { \"'${it}'\" }.join(', ')\n        conditions << \"reporter IN (${reporterList})\"\n    }\n\n    // ---- ASSIGNEE filter ----\n    if (assignees && assignees.size() > 0) {\n        def assigneeList = assignees.collect { \"'${it}'\" }.join(', ')\n        conditions << \"assignee IN (${assigneeList})\"\n    }\n\n    // ---- PRIORITY filter ----\n    if (priorities && priorities.size() > 0) {\n        def priorityList = priorities.collect { \"'${it}'\" }.join(', ')\n        conditions << \"priority IN (${priorityList})\"\n    }\n\n\n    // Sort by updated time (modified time)\n    def orderClause = \"ORDER BY updated ASC\"\n\n    def jqlQuery = conditions ? (conditions.join(' AND ') + \" \" + orderClause) : orderClause  // *** ADDED: Store in variable ***\n    \n    return [jqlQuery: jqlQuery, cursorModifiedFromDate: cursorModifiedFromFormatted]          // *** CHANGED: Return both values ***\n}\n\n// ---- Build JQL from binding vars ----\ndef result = buildJQLQueryWithCursor(                                       // *** CHANGED: Store result, renamed function call ***\n    binding.hasVariable('projectKey') ? projectKey : null,\n\n    binding.hasVariable('userFilterCreatedFromDate') ? userFilterCreatedFromDate : null,\n    binding.hasVariable('userFilterCreatedToDate')   ? userFilterCreatedToDate   : null,\n\n    binding.hasVariable('cursorModifiedFromDate') ? (cursorModifiedFromDate as Long) : (startTime as Long),\n    binding.hasVariable('cursorModifiedToDate')   ? (cursorModifiedToDate   as Long) : null,\n\n    binding.hasVariable('timeZoneRef') ? timeZoneRef : null,\n\n    binding.hasVariable('reporters') ? reporters : [],      \n    binding.hasVariable('assignees') ? assignees : [],      \n    binding.hasVariable('priorities') ? priorities : []     \n)\n\nreturn [\"jqlQuery\": result.jqlQuery, \"cursorModifiedFromDate\": result.cursorModifiedFromDate]  // *** CHANGED: Return format ***",
+				"compile_static":false,
+				"isAsync":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"assignees":{
+						"items":"{{ _B7QXL.outputs.result.assignees[0] }}",
+						"source":"{{ _B7QXL.outputs.result.assignees }}",
+						"ua:type":"mappedArray"
+					},
+					"cursorModifiedFromDate":"{{ _B7QXL.outputs.result.cursorModifiedFromDate }}",
+					"cursorModifiedToDate":"{{ _JoVof.outputs.downloaderConfig.currentTimeEpoch }}",
+					"priorities":{
+						"items":"{{ _B7QXL.outputs.result.priorities[0] }}",
+						"source":"{{ _B7QXL.outputs.result.priorities }}",
+						"ua:type":"mappedArray"
+					},
+					"projectId":"{{ _B7QXL.outputs.result.projectId }}",
+					"projectKey":"{{ _B7QXL.outputs.result.projectKey }}",
+					"reporters":{
+						"items":"{{ _B7QXL.outputs.result.reporters[0] }}",
+						"source":"{{ _B7QXL.outputs.result.reporters }}",
+						"ua:type":"mappedArray"
+					},
+					"startTime":"{{ _JoVof.outputs.downloaderConfig.startTimeEpoch }}",
+					"timeZoneRef":"{{ _B7QXL.outputs.result.timeZoneRef }}",
+					"userFilterCreatedFromDate":"{{ _B7QXL.outputs.result.createdDate.from }}",
+					"userFilterCreatedToDate":"{{ _B7QXL.outputs.result.createdDate.to }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"prepare JQL query",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"jira",
+				"resourceVersion":130,
+				"connectionId":"6960e5eb8a8747610e21c0c6",
+				"resourceName":"jira_search_issues_using_jql",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"MANUAL",
+			"groupId":"GD0zw@zsXdn-1@l",
+			"id":"undefined_hfDJI",
+			"index":4,
+			"inputs":{
+				"jql":"{{ undefined_0SDTd.outputs.result.jqlQuery }}",
+				"maxResults":100,
+				"nextPageToken":"{{ _B7QXL.outputs.result.nextPageToken }}",
+				"objectSourceResourceName":"jira_fetch_issue_schema",
+				"fields":"*all",
+				"startAt":0
+			},
+			"options":{
+				"businessHoursConfig":{
+					"enabled":false,
+					"waitForNextWindow":false
+				},
+				"cacheConfig":{
+					"enabled":false,
+					"usagePolicy":"ALWAYS"
+				},
+				"circuitBreakerConfig":{
+					"enabled":false,
+					"slidingWindowType":"COUNT_BASED"
+				},
+				"disableLogging":false,
+				"enabledForReExecution":false,
+				"hookConfig":{
+					"enabled":false,
+					"postHooks":[
+						
+					],
+					"preHooks":[
+						
+					]
+				},
+				"logConfig":{
+					"enabled":false,
+					"logPolicies":[
+						
+					]
+				},
+				"rateLimitConfig":{
+					"duration":"1",
+					"enabled":true,
+					"threshold":"100",
+					"unit":"MINUTES",
+					"waitForNextWindow":false
+				},
+				"retryConfig":{
+					"backOffFactor":2.0,
+					"captureRetries":false,
+					"count":5,
+					"enabled":true,
+					"initialDelay":2000
+				},
+				"stepError":"MANUAL",
+				"telemetryConfig":{
+					"enableTelemetry":false,
+					"metricConfigs":[
+						
+					]
+				}
+			},
+			"skip":false,
+			"subTitle":"Jira",
+			"title":"Search issues by JQL",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":437,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"undefined_hfDJI@GD0zw@zsXdn-1@l@error",
+			"id":"n_stO4f",
+			"index":5,
+			"inputs":{
+				"filters":[
+					{
+						"filter":{
+							"operator":"EQUAL",
+							"value":"true"
+						},
+						"property":"{{ _B7QXL.outputs.result.isPrivate }}"
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Is private?",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_stO4f@undefined_hfDJI@GD0zw@zsXdn-1@l@error@y",
+			"id":"_U0yyD",
+			"index":6,
+			"inputs":{
+				"result":{
+					"cursor":"{{ _JoVof.outputs.cursor }}",
+					"downloadedEntitiesCount":0,
+					"hasMore":false
+				}
+			},
+			"skip":false,
+			"subTitle":"Project is private, no more issues",
+			"title":"Respond to automation",
+			"type":"STOP"
+		},
+		{
+			"context":{
+				"appName":"utility_by_unifyapps",
+				"resourceVersion":445,
+				"resourceName":"utility_by_unifyapps_to_json_string",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_stO4f@undefined_hfDJI@GD0zw@zsXdn-1@l@error@n",
+			"id":"n_1kbGt",
+			"index":7,
+			"inputs":{
+				"object":"{{ undefined_hfDJI.outputs }}"
+			},
+			"skip":false,
+			"subTitle":"FAIL ON ERROR",
+			"title":"Serialise object to JSON string",
+			"type":"ACTION"
+		},
+		{
+			"additional":{
+				"visibleOptionalFields":[
+					"root.parameters.issues.items"
+				]
+			},
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":65,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"GD0zw@zsXdn-1@l",
+			"id":"_GPT7I",
+			"index":8,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"cursorObj":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Cursor Obj",
+							"type":"object"
+						},
+						"hasMore":{
+							"title":"Has More",
+							"type":"boolean"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"currentCursorModifiedFromDate":{
+							"title":"Current Cursor Modified From Date",
+							"type":"string"
+						},
+						"isLast":{
+							"title":"Is Last",
+							"type":"boolean"
+						},
+						"issues":{
+							"items":{
+								"additionalProperties":false,
+								"properties":{},
+								"type":"object"
+							},
+							"title":"Issues",
+							"type":"array"
+						},
+						"nextPageToken":{
+							"title":"Next Page Token",
+							"type":"string"
+						},
+						"prevCursor":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Prev Cursor",
+							"type":"object"
+						},
+						"startTime":{
+							"title":"Start Time",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"import java.time.LocalDateTime\nimport java.time.OffsetDateTime                                              // *** ADDED: Import for parsing with timezone ***\nimport java.time.format.DateTimeFormatter\n\ndef issues = binding.hasVariable(\"issues\") ? issues : []\ndef isLast = binding.hasVariable('isLast') ? isLast : true\n\ndef cursorModifiedFromDate = issues.size() > 0 ? issues[-1]?.fields?.updated : null\n\ndef hasMore = !isLast\n\n// *** ADDED: Check if currentCursorModifiedFromDate minutes match cursorModifiedFromDate minutes ***\ndef returnNextPageToken = false\nif (binding.hasVariable('currentCursorModifiedFromDate') && currentCursorModifiedFromDate?.trim() && cursorModifiedFromDate?.trim()) {\n    try {\n        DateTimeFormatter currentFmt = DateTimeFormatter.ofPattern(\"yyyy-MM-dd HH:mm\")              // *** Format for current cursor ***\n        DateTimeFormatter cursorFmt = DateTimeFormatter.ofPattern(\"yyyy-MM-dd'T'HH:mm:ss.SSSxx\")    // *** Format for cursor with timezone ***\n        \n        LocalDateTime currentDateTime = LocalDateTime.parse(currentCursorModifiedFromDate, currentFmt)\n        OffsetDateTime cursorDateTime = OffsetDateTime.parse(cursorModifiedFromDate, cursorFmt)     // *** Parse as OffsetDateTime ***\n        \n        // Compare year, month, day, hour, and minute\n        returnNextPageToken = (currentDateTime.getYear() == cursorDateTime.getYear() &&\n                               currentDateTime.getMonthValue() == cursorDateTime.getMonthValue() &&\n                               currentDateTime.getDayOfMonth() == cursorDateTime.getDayOfMonth() &&\n                               currentDateTime.getHour() == cursorDateTime.getHour() &&\n                               currentDateTime.getMinute() == cursorDateTime.getMinute())\n    } catch (Exception e) {\n        println \"Failed to compare dates: ${e.message}\"\n    }\n}\n\n// *** ADDED: Build cursor object conditionally ***\ndef cursorObj = [\"cursorModifiedFromDate\": cursorModifiedFromDate]\nif(cursorModifiedFromDate == null && binding.hasVariable('cursor')){\n   cursorObj = [\"cursorModifiedFromDate\": cursor?.cursorModifiedFromDate]\n}\n\n\nif (returnNextPageToken && binding.hasVariable('nextPageToken') && nextPageToken != null) {\n    cursorObj[\"nextPageToken\"] = nextPageToken\n}\n\nreturn [ \n    \"cursorObj\": cursorObj,\n    \"hasMore\": hasMore,\n    \"returnNextPageToken\": returnNextPageToken\n]",
+				"compile_static":false,
+				"isAsync":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"currentCursorModifiedFromDate":"{{ undefined_0SDTd.outputs.result.cursorModifiedFromDate }}",
+					"isLast":"{{ undefined_hfDJI.outputs.isLast }}",
+					"issues":{
+						"items":"{{ undefined_hfDJI.outputs.issues[0] }}",
+						"source":"{{ undefined_hfDJI.outputs.issues }}",
+						"ua:type":"mappedArray"
+					},
+					"nextPageToken":"{{ undefined_hfDJI.outputs.nextPageToken }}",
+					"prevCursor":"{{ _JoVof.outputs.cursor }}",
+					"startTime":"{{ _JoVof.outputs.downloaderConfig.startTimeEpoch }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"cursor computation",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":349,
+				"resourceName":"variable_by_unifyapps_create_list",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"GD0zw@zsXdn-1@l",
+			"id":"HMSsN",
+			"index":9,
+			"inputSchema":{
+				"type":"SCHEMA_AND_LAYOUT",
+				"dynamic":false,
+				"layout":{
+					"createList":{
+						"items":{
+							"ui:description":"Set the initial values of the list (defaults to empty)",
+							"ui:title":"Initial list items"
+						},
+						"ua:type":{
+							"ui:widget":"hidden"
+						},
+						"ui:order":[
+							"*",
+							"items"
+						],
+						"ui:title":""
+					},
+					"ua:title":{
+						"ui:widget":"hidden"
+					},
+					"ua:list_type":{
+						"ui:widget":"hidden"
+					}
+				},
+				"schema":{
+					"allOf":[
+						{
+							"if":{
+								"properties":{
+									"ua:list_type":{
+										"const":"OBJECT"
+									}
+								}
+							},
+							"then":{
+								"properties":{
+									"createList":{
+										"properties":{
+											"items":{
+												"properties":{},
+												"type":"object"
+											}
+										},
+										"type":"object"
+									}
+								}
+							}
+						},
+						{
+							"if":{
+								"properties":{
+									"ua:list_type":{
+										"const":"STRING"
+									}
+								}
+							},
+							"then":{
+								"properties":{
+									"createList":{
+										"properties":{
+											"items":{
+												"type":"string"
+											},
+											"source":{
+												"format":"ua:source",
+												"title":"List of String",
+												"type":"string"
+											}
+										},
+										"type":"object"
+									}
+								}
+							}
+						},
+						{
+							"if":{
+								"properties":{
+									"ua:list_type":{
+										"const":"INTEGER"
+									}
+								}
+							},
+							"then":{
+								"properties":{
+									"createList":{
+										"properties":{
+											"items":{
+												"type":"integer"
+											},
+											"source":{
+												"format":"ua:source",
+												"title":"List of Integers",
+												"type":"string"
+											}
+										},
+										"type":"object"
+									}
+								}
+							}
+						},
+						{
+							"if":{
+								"properties":{
+									"ua:list_type":{
+										"const":"NUMBER"
+									}
+								}
+							},
+							"then":{
+								"properties":{
+									"createList":{
+										"properties":{
+											"items":{
+												"type":"number"
+											},
+											"source":{
+												"format":"ua:source",
+												"title":"List of Numbers",
+												"type":"string"
+											}
+										},
+										"type":"object"
+									}
+								}
+							}
+						},
+						{
+							"if":{
+								"properties":{
+									"ua:list_type":{
+										"const":"BOOLEAN"
+									}
+								}
+							},
+							"then":{
+								"properties":{
+									"createList":{
+										"properties":{
+											"items":{
+												"type":"boolean"
+											},
+											"source":{
+												"format":"ua:source",
+												"title":"List of Booleans",
+												"type":"string"
+											}
+										},
+										"type":"object"
+									}
+								}
+							}
+						}
+					],
+					"format":"ua:list",
+					"type":"object",
+					"properties":{
+						"createList":{
+							"properties":{
+								"items":{
+									"additionalProperties":false,
+									"properties":{
+										"inputs":{
+											"additionalProperties":false,
+											"properties":{},
+											"required":[],
+											"title":"inputs",
+											"type":"object"
+										}
+									},
+									"required":[],
+									"type":"object"
+								},
+								"source":{
+									"format":"ua:source",
+									"title":"List Item Source",
+									"type":"string"
+								},
+								"ua:type":{
+									"default":"mappedArray",
+									"type":"string"
+								}
+							},
+							"type":"object"
+						},
+						"ua:list_type":{
+							"default":"OBJECT",
+							"oneOf":[
+								{
+									"const":"OBJECT",
+									"title":"Object"
+								},
+								{
+									"const":"STRING",
+									"title":"String"
+								},
+								{
+									"const":"NUMBER",
+									"title":"Number"
+								},
+								{
+									"const":"INTEGER",
+									"title":"Integer"
+								},
+								{
+									"const":"BOOLEAN",
+									"title":"Boolean"
+								}
+							],
+							"title":"List Type",
+							"type":"string"
+						},
+						"ua:title":{
+							"type":"string"
+						}
+					}
+				}
+			},
+			"inputs":{
+				"createList":{
+					"ua:type":"mappedArray"
+				},
+				"ua:title":"issues",
+				"ua:list_type":"OBJECT"
+			},
+			"outputSchema":{
+				"dynamic":false,
+				"schema":{
+					"type":"object",
+					"properties":{
+						"items":{
+							"disableActions":true,
+							"items":{
+								"properties":{
+									"inputs":{
+										"additionalProperties":false,
+										"properties":{},
+										"required":[],
+										"title":"inputs",
+										"type":"object"
+									}
+								},
+								"required":[],
+								"type":"object"
+							},
+							"title":"issues",
+							"type":"array"
+						}
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"batch input list",
+			"title":"Create list",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"loop",
+				"resourceVersion":95,
+				"resourceName":"loop_for_each",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"GD0zw@zsXdn-1@l",
+			"id":"_Oqz5w",
+			"index":10,
+			"inputs":{
+				"repeatMode":"SINGLE",
+				"listSource":"{{ undefined_hfDJI.outputs.issues }}",
+				"captureIterations":false
+			},
+			"skip":false,
+			"subTitle":"For Each Issue",
+			"title":"For loop",
+			"type":"LOOP"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":661,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Oqz5w@GD0zw@zsXdn-1@l@l",
+			"id":"n_Qf1iZ",
+			"index":11,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"enable":{
+							"title":"Enable",
+							"type":"boolean"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"currentIssueModifiedDate":{
+							"title":"Current Issue Modified Date",
+							"type":"string"
+						},
+						"cursor":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Cursor",
+							"type":"object"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"def formatter = java.time.format.DateTimeFormatter.ofPattern(\"yyyy-MM-dd'T'HH:mm:ss.SSSxx\")\ndef enable = true\n\nif(binding.hasVariable('cursor') && cursor && binding.hasVariable('currentIssueModifiedDate')){\n    def cursorModifiedDate = cursor?.cursorModifiedFromDate\n    if(cursorModifiedDate){\n            def issueDt = java.time.OffsetDateTime.parse(currentIssueModifiedDate, formatter)\n            def cursorDt = java.time.OffsetDateTime.parse(cursorModifiedDate, formatter)\n            enable = issueDt > cursorDt\n    }\n}\n\n\nreturn ['enable' : enable]",
+				"compile_static":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"currentIssueModifiedDate":"{{ _Oqz5w.outputs.item.fields.updated }}",
+					"cursor":"{{ _JoVof.outputs.cursor }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"continue",
+				"resourceVersion":61,
+				"resourceName":"continue",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Oqz5w@GD0zw@zsXdn-1@l@l",
+			"id":"a00wp",
+			"index":12,
+			"inputs":{
+				"loop":"_Oqz5w",
+				"conditions":{
+					"filters":[
+						{
+							"filter":{
+								"operator":"EQUAL",
+								"value":"false"
+							},
+							"property":"{{ n_Qf1iZ.outputs.result.enable }}"
+						}
+					],
+					"operator":"OR"
+				}
+			},
+			"skip":false,
+			"subTitle":"overlap",
+			"title":"Continue",
+			"type":"CONTINUE"
+		},
+		{
+			"additional":{
+				"visibleOptionalFields":[
+					"root.parameters.changeLog.items"
+				]
+			},
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":66,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Oqz5w@GD0zw@zsXdn-1@l@l",
+			"id":"bF2HZ",
+			"index":13,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"modifiedBy":{
+							"title":"Modified By",
+							"type":"string"
+						},
+						"modifiedOn":{
+							"title":"Modified On",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"changeLog":{
+							"items":{
+								"additionalProperties":false,
+								"properties":{},
+								"type":"object"
+							},
+							"title":"Change Log",
+							"type":"array"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"if (binding.hasVariable('changeLog') && changeLog instanceof List && !changeLog.isEmpty()) {\n    def lastChange = changeLog[0]  // Get the last element\n    def email = lastChange?.author?.emailAddress ?: null\n    def created = lastChange?.created ?: null\n\n    def modifiedData = [\n        \"modifiedBy\": email,\n        \"modifiedOn\": created\n    ]\n    \n    return modifiedData\n}\n",
+				"compile_static":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"changeLog":{
+						"items":"{{ _Oqz5w.outputs.item.changelog.histories[0] }}",
+						"source":"{{ _Oqz5w.outputs.item.changelog.histories }}",
+						"ua:type":"mappedArray"
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Extract modified on and modified by",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"additional":{
+				"visibleOptionalFields":[
+					"root.parameters.sharedWithIds.items"
+				]
+			},
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":65,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Oqz5w@GD0zw@zsXdn-1@l@l",
+			"id":"yUuoJ",
+			"index":14,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"inputs":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Inputs",
+							"type":"object"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"includeAttachments":{
+							"title":"Include Attachments",
+							"type":"boolean"
+						},
+						"includeComments":{
+							"title":"Include Comments",
+							"type":"boolean"
+						},
+						"issueId":{
+							"title":"Issue Id",
+							"type":"string"
+						},
+						"modifiedBy":{
+							"title":"Modified By",
+							"type":"string"
+						},
+						"modifiedOn":{
+							"title":"Modified On",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"return [\n    \"inputs\": [\n        \"issueId\"   : issueId,\n        \"includeComments\" : binding.variables.containsKey('includeComments') ? includeComments : null,\n        \"modifiedOn\"  : binding.variables.containsKey('modifiedOn') ? modifiedOn?.toString() : null,\n        \"modifiedBy\"  : binding.variables.containsKey('modifiedBy') ? modifiedBy?.toString() : null,\n        \"includeAttachments\"  : binding.variables.containsKey('includeAttachments') ? includeAttachments : null\n    ]\n]\n",
+				"compile_static":false,
+				"isAsync":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"includeAttachments":"{{ _B7QXL.outputs.result.includeAttachments }}",
+					"includeComments":"{{ _B7QXL.outputs.result.includeComments }}",
+					"issueId":"{{ _Oqz5w.outputs.item.id }}",
+					"modifiedBy":"{{ bF2HZ.outputs.result.modifiedBy }}",
+					"modifiedOn":"{{ bF2HZ.outputs.result.modifiedOn }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"prepare Inputs",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"additional":{
+				"visibleOptionalFields":[
+					"root.itemToAdd.inputs.includeComments",
+					"root.itemToAdd.inputs.issueId",
+					"root.itemToAdd.inputs.modifiedBy",
+					"root.itemToAdd.inputs.modifiedOn",
+					"root.itemToAdd.knowledge.applicationInfo.context.connectionId",
+					"root.itemToAdd.knowledge.readVersion"
+				]
+			},
+			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":348,
+				"resourceName":"variable_by_unifyapps_add_item_to_list",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Oqz5w@GD0zw@zsXdn-1@l@l",
+			"id":"mCNwC",
+			"index":15,
+			"inputs":{
+				"itemToAdd":{
+					"aiAgentId":"{{ _JoVof.outputs.aiAgentId  }}",
+					"inputs":"{{ yUuoJ.outputs.result.inputs }}",
+					"knowledge":{
+						"applicationInfo":{
+							"context":{
+								"connectionId":"{{ _JoVof.outputs.knowledge.applicationInfo.context.connectionId  }}"
+							}
+						},
+						"readVersion":"{{ _JoVof.outputs.knowledge.readVersion  }}"
+					},
+					"knowledgeId":"{{ _JoVof.outputs.knowledgeId  }}"
+				},
+				"insertLocation":"END",
+				"listName":"{{ HMSsN.outputs.items[0] }}"
+			},
+			"skip":false,
+			"subTitle":"Variable by UnifyApps",
+			"title":"Add item to list",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":438,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"GD0zw@zsXdn-1@l",
+			"id":"n_rRa51",
+			"index":16,
+			"inputs":{
+				"filters":[
+					{
+						"filter":{
+							"operator":"EQUAL",
+							"value":"0"
+						},
+						"property":"=LEN({{ HMSsN.outputs.items }})"
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Return if no issues are added to list",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_rRa51@GD0zw@zsXdn-1@l@y",
+			"id":"_Ui8zx",
+			"index":17,
+			"inputs":{
+				"result":{
+					"cursor":"{{ _GPT7I.outputs.result.cursorObj }}",
+					"downloadedEntitiesCount":0,
+					"hasMore":"{{ _GPT7I.outputs.result.hasMore }}",
+					"knowledgeDownloadFinished":false
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		},
+		{
+			"context":{
+				"appName":"loop",
+				"resourceVersion":13,
+				"resourceName":"loop_for_each",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"GD0zw@zsXdn-1@l",
+			"id":"n_fOz87",
+			"index":18,
+			"inputs":{
+				"repeatMode":"BATCH",
+				"listSource":"{{ HMSsN.outputs.items }}",
+				"captureIterations":false,
+				"batchSize":30
+			},
+			"skip":false,
+			"subTitle":"Loop on filtered issues",
+			"title":"For loop",
+			"type":"LOOP"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":344,
+				"resourceName":"callables_call_automation_batch",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_fOz87@GD0zw@zsXdn-1@l@l",
+			"id":"R0Dzq",
+			"index":19,
+			"inputs":{
+				"automationId":"687a0ae0e048686b003020b8",
+				"runtimeConnections":{
+					"jira":"{{ _JoVof.outputs.knowledge.applicationInfo.context.connectionId }}"
+				},
+				"synchronous":true,
+				"distributeWorkflowLoad":false,
+				"parametersList":{
+					"items":{
+						"connectionId":"{{ _JoVof.outputs.knowledge.applicationInfo.context.connectionId }}",
+						"grabberType":"{{ _JoVof.outputs.downloaderConfig.grabberType }}",
+						"indexingVersion":"{{ _JoVof.outputs.knowledge.indexingVersion }}",
+						"inputs":"{{ n_fOz87.outputs.item[0].inputs }}",
+						"knowledgeId":"{{ _JoVof.outputs.knowledgeId  }}",
+						"knowledgeSetId":"{{ _JoVof.outputs.knowledge.knowledgeSetId }}"
+					},
+					"source":"{{ n_fOz87.outputs.item }}",
+					"ua:type":"mappedArray"
+				},
+				"version":"-1"
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Call automation (batch)",
+			"type":"CALL_WORKFLOW"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"GD0zw@zsXdn-1@l",
+			"id":"_oM6ck",
+			"index":20,
+			"inputs":{
+				"result":{
+					"cursor":"{{ _GPT7I.outputs.result.cursorObj }}",
+					"downloadedEntitiesCount":"=LEN({{ HMSsN.outputs.items }})",
+					"hasMore":"{{ _GPT7I.outputs.result.hasMore }}",
+					"knowledgeDownloadFinished":false
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":0,
+	"runtimeConnectionAppNames":[
+		"jira"
+	],
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"headerValueTierMap":{},
+			"tierName":"global"
+		}
+	},
+	"standard":true,
+	"tags":[
+		"knowledge_v2"
+	],
+	"version":128
+}
