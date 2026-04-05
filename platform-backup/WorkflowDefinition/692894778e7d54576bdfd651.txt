@@ -4,14 +4,14 @@
 	],
 	"createdTime":1766522814230,
 	"deleted":false,
-	"deployedVersion":24,
+	"deployedVersion":25,
 	"deploymentState":{
-		"deployedAt":1775385641621,
+		"deployedAt":1775390088268,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c29b31cfc01cc39f3e1",
+		"deployedDefinitionId":"69d24d8850e82945c76a4935",
 		"status":"DEPLOYED",
-		"version":24,
-		"workflowVersion":55
+		"version":25,
+		"workflowVersion":57
 	},
 	"edges":[
 		{
@@ -93,6 +93,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -102,7 +103,7 @@
 	"id":"692894778e7d54576bdfd651",
 	"lastModifiedBy":-1,
 	"lcName":"trigger knowledge sync",
-	"modifiedTime":1775390088217,
+	"modifiedTime":1775390109159,
 	"name":"Trigger Knowledge Sync",
 	"nodes":[
 		{
@@ -638,5 +639,5 @@
 	"tags":[
 		
 	],
-	"version":57
+	"version":58
 }
