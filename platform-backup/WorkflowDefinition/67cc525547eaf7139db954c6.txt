@@ -215,7 +215,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -225,7 +224,7 @@
 	"id":"67cc525547eaf7139db954c6",
 	"lastModifiedBy":-1,
 	"lcName":"summarize",
-	"modifiedTime":1775334705624,
+	"modifiedTime":1775385576390,
 	"name":"Summarize",
 	"nodes":[
 		{
@@ -584,7 +583,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -682,7 +680,6 @@
 				"caseId":"{{ evtvp.outputs.properties.caseId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1498,5 +1495,5 @@
 		}
 	},
 	"standard":true,
-	"version":174
+	"version":175
 }
