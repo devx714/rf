@@ -4,14 +4,14 @@
 	],
 	"createdTime":1773768568408,
 	"deleted":false,
-	"deployedVersion":7,
+	"deployedVersion":8,
 	"deploymentState":{
-		"deployedAt":1775385651265,
+		"deployedAt":1775390100685,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c33b31cfc01cc39f425",
+		"deployedDefinitionId":"69d24d9450e82945c76a4a47",
 		"status":"DEPLOYED",
-		"version":7,
-		"workflowVersion":38
+		"version":8,
+		"workflowVersion":40
 	},
 	"edges":[
 		{
@@ -107,6 +107,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -116,7 +117,7 @@
 	"id":"6978617eec4c1178730a712a",
 	"lastModifiedBy":-1,
 	"lcName":"mask knowledge chunk via entitytypes",
-	"modifiedTime":1775385651266,
+	"modifiedTime":1775390108513,
 	"name":"Mask Knowledge Chunk via EntityTypes",
 	"nodes":[
 		{
@@ -616,5 +617,5 @@
 	"tags":[
 		
 	],
-	"version":38
+	"version":41
 }
