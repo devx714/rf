@@ -4,14 +4,14 @@
 	],
 	"createdTime":1759243563961,
 	"deleted":false,
-	"deployedVersion":31,
+	"deployedVersion":33,
 	"deploymentState":{
-		"deployedAt":1775385581847,
+		"deployedAt":1775391294453,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bedb31cfc01cc39efe8",
+		"deployedDefinitionId":"69d2523e50e82945c76a66bd",
 		"status":"DEPLOYED",
-		"version":31,
-		"workflowVersion":76
+		"version":33,
+		"workflowVersion":80
 	},
 	"edges":[
 		{
@@ -430,6 +430,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -439,7 +440,7 @@
 	"id":"68c5b9cd7414d8337e4b035f",
 	"lastModifiedBy":-1,
 	"lcName":"[mcp server] call agent tool",
-	"modifiedTime":1775385581848,
+	"modifiedTime":1775391436165,
 	"name":"[MCP Server] Call Agent Tool",
 	"nodes":[
 		{
@@ -2955,5 +2956,5 @@
 		}
 	},
 	"standard":true,
-	"version":76
+	"version":81
 }
