@@ -4,14 +4,14 @@
 	],
 	"createdTime":1764063142178,
 	"deleted":false,
-	"deployedVersion":23,
+	"deployedVersion":25,
 	"deploymentState":{
-		"deployedAt":1775320614454,
+		"deployedAt":1775385565594,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e2683aecf24ec254858",
+		"deployedDefinitionId":"69d23bddb31cfc01cc39eece",
 		"status":"DEPLOYED",
-		"version":23,
-		"workflowVersion":52
+		"version":25,
+		"workflowVersion":56
 	},
 	"edges":[
 		{
@@ -251,7 +251,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -261,7 +260,7 @@
 	"id":"69159bf1d199a2695ded8885",
 	"lastModifiedBy":-1,
 	"lcName":"retrievecolumnsfromknowledgeid",
-	"modifiedTime":1775320887193,
+	"modifiedTime":1775385565595,
 	"name":"retrieveColumnsFromKnowledgeId",
 	"nodes":[
 		{
@@ -1390,5 +1389,5 @@
 	"tags":[
 		
 	],
-	"version":53
+	"version":56
 }
