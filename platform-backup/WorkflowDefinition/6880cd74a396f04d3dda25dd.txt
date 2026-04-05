@@ -4,14 +4,14 @@
 	],
 	"createdTime":1758530337502,
 	"deleted":false,
-	"deployedVersion":13,
+	"deployedVersion":14,
 	"deploymentState":{
-		"deployedAt":1775391358596,
+		"deployedAt":1775407805274,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2527e50e82945c76a6a23",
+		"deployedDefinitionId":"69d292bd0e422443cf5607e4",
 		"status":"DEPLOYED",
-		"version":13,
-		"workflowVersion":43
+		"version":14,
+		"workflowVersion":45
 	},
 	"edges":[
 		{
@@ -116,7 +116,7 @@
 	"id":"6880cd74a396f04d3dda25dd",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge downloader | hubspot | index companies",
-	"modifiedTime":1775391429513,
+	"modifiedTime":1775408097478,
 	"name":"Knowledge Downloader | Hubspot | Index companies",
 	"nodes":[
 		{
@@ -912,5 +912,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":44
+	"version":46
 }
