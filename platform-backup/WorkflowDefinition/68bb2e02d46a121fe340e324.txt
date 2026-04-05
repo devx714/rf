@@ -4,14 +4,14 @@
 	],
 	"createdTime":1758646650564,
 	"deleted":false,
-	"deployedVersion":38,
+	"deployedVersion":40,
 	"deploymentState":{
-		"deployedAt":1775320703031,
+		"deployedAt":1775385652337,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e7fc6b0c9120df17616",
+		"deployedDefinitionId":"69d23c34b31cfc01cc39f44b",
 		"status":"DEPLOYED",
-		"version":38,
-		"workflowVersion":80
+		"version":40,
+		"workflowVersion":84
 	},
 	"edges":[
 		{
@@ -174,7 +174,7 @@
 	"id":"68bb2e02d46a121fe340e324",
 	"lastModifiedBy":-1,
 	"lcName":"index pdf data",
-	"modifiedTime":1775334516327,
+	"modifiedTime":1775390102328,
 	"name":"Index PDF Data",
 	"nodes":[
 		{
@@ -1302,5 +1302,5 @@
 	"tags":[
 		
 	],
-	"version":82
+	"version":86
 }
