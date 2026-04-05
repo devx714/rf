@@ -4,14 +4,14 @@
 	],
 	"createdTime":1763384492921,
 	"deleted":false,
-	"deployedVersion":27,
+	"deployedVersion":28,
 	"deploymentState":{
-		"deployedAt":1775385580225,
+		"deployedAt":1775389967712,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23becb31cfc01cc39efd3",
+		"deployedDefinitionId":"69d24d0f50e82945c76a42b1",
 		"status":"DEPLOYED",
-		"version":27,
-		"workflowVersion":77
+		"version":28,
+		"workflowVersion":79
 	},
 	"edges":[
 		{
@@ -279,6 +279,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -288,7 +289,7 @@
 	"id":"68b728ac4b08281a3d213b5a",
 	"lastModifiedBy":-1,
 	"lcName":"[external mcp server] list tools",
-	"modifiedTime":1775389967611,
+	"modifiedTime":1775390107103,
 	"name":"[External MCP Server] List Tools",
 	"nodes":[
 		{
@@ -756,6 +757,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1297,6 +1299,7 @@
 				"mcpUrl":"{{ KResr.outputs.result.mcpUrl }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2031,6 +2034,7 @@
 				"mcp_terminate":"done"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2312,5 +2316,5 @@
 	"tags":[
 		"External MCP"
 	],
-	"version":79
+	"version":80
 }
