@@ -4,14 +4,14 @@
 	],
 	"createdTime":1744279537894,
 	"deleted":false,
-	"deployedVersion":121,
+	"deployedVersion":122,
 	"deploymentState":{
-		"deployedAt":1775385632149,
+		"deployedAt":1775390055777,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c20b41de37eb670f72b",
+		"deployedDefinitionId":"69d24d6750e82945c76a4804",
 		"status":"DEPLOYED",
-		"version":121,
-		"workflowVersion":183
+		"version":122,
+		"workflowVersion":185
 	},
 	"edges":[
 		{
@@ -193,6 +193,25 @@
 		"configs":[
 			{
 				"permissions":[
+					"A",
+					"EXPORT_AS_TEMPLATE",
+					"C",
+					"S",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"DEP"
+				],
+				"principalIds":[
+					"17"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -202,7 +221,7 @@
 	"id":"67e14752d5ff3e69decc14f6",
 	"lastModifiedBy":-1,
 	"lcName":"ai eval | metrics | toxicity",
-	"modifiedTime":1775390055704,
+	"modifiedTime":1775390106393,
 	"name":"AI Eval | Metrics | Toxicity",
 	"nodes":[
 		{
@@ -611,6 +630,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1374,5 +1394,5 @@
 		}
 	},
 	"standard":true,
-	"version":185
+	"version":186
 }
