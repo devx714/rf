@@ -4,14 +4,14 @@
 	],
 	"createdTime":1763725561504,
 	"deleted":false,
-	"deployedVersion":26,
+	"deployedVersion":27,
 	"deploymentState":{
-		"deployedAt":1775385644482,
+		"deployedAt":1775390091992,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c2cb41de37eb670f794",
+		"deployedDefinitionId":"69d24d8b50e82945c76a4971",
 		"status":"DEPLOYED",
-		"version":26,
-		"workflowVersion":81
+		"version":27,
+		"workflowVersion":83
 	},
 	"edges":[
 		{
@@ -274,6 +274,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -283,7 +284,7 @@
 	"id":"691ecf55b1f3b6672572801e",
 	"lastModifiedBy":-1,
 	"lcName":"runtime tool execution approval",
-	"modifiedTime":1775390091891,
+	"modifiedTime":1775390108407,
 	"name":"Runtime tool execution approval",
 	"nodes":[
 		{
@@ -607,6 +608,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1016,6 +1018,7 @@
 				"thoughtGroupId":"{{ cKuWx.outputs.messageId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1511,5 +1514,5 @@
 	"tags":[
 		
 	],
-	"version":83
+	"version":84
 }
