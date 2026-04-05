@@ -4,15 +4,15 @@
 	],
 	"createdTime":1761722748155,
 	"deleted":false,
-	"deployedVersion":29,
+	"deployedVersion":34,
 	"deploymentState":{
-		"deployedAt":1774342892713,
+		"deployedAt":1775391261142,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252ec29fa153f07e09a30",
+		"deployedDefinitionId":"69d2521d50e82945c76a65bf",
 		"deploymentTag":"userId_swap_userEmail",
 		"status":"DEPLOYED",
-		"version":29,
-		"workflowVersion":67
+		"version":34,
+		"workflowVersion":77
 	},
 	"edges":[
 		{
@@ -163,6 +163,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -172,7 +173,7 @@
 	"id":"68ef440a5cb19e238e339c05",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] index membership",
-	"modifiedTime":1775320620781,
+	"modifiedTime":1775391431661,
 	"name":"[DT] Index Membership",
 	"nodes":[
 		{
@@ -824,5 +825,5 @@
 	"tags":[
 		
 	],
-	"version":69
+	"version":78
 }
