@@ -4,14 +4,14 @@
 	],
 	"createdTime":1760281937837,
 	"deleted":false,
-	"deployedVersion":50,
+	"deployedVersion":51,
 	"deploymentState":{
-		"deployedAt":1775334348656,
+		"deployedAt":1775385546151,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173cc39824e06138196dc",
+		"deployedDefinitionId":"69d23bcab31cfc01cc39ece2",
 		"status":"DEPLOYED",
-		"version":50,
-		"workflowVersion":85
+		"version":51,
+		"workflowVersion":87
 	},
 	"edges":[
 		{
@@ -194,7 +194,7 @@
 	"id":"68ea9499fe0c701e6dbf323a",
 	"lastModifiedBy":-1,
 	"lcName":"workflow agent | ask an ai agent",
-	"modifiedTime":1775385546050,
+	"modifiedTime":1775389874340,
 	"name":"Workflow Agent | Ask an AI Agent",
 	"nodes":[
 		{
@@ -1521,5 +1521,5 @@
 	"tags":[
 		
 	],
-	"version":87
+	"version":89
 }
