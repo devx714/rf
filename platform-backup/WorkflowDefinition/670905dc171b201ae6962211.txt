@@ -4,14 +4,14 @@
 	],
 	"createdTime":1728644572425,
 	"deleted":false,
-	"deployedVersion":84,
+	"deployedVersion":85,
 	"deploymentState":{
-		"deployedAt":1775320640461,
+		"deployedAt":1775334416353,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e4083aecf24ec254bab",
+		"deployedDefinitionId":"69d1741039824e0613819a6c",
 		"status":"DEPLOYED",
-		"version":84,
-		"workflowVersion":130
+		"version":85,
+		"workflowVersion":132
 	},
 	"edges":[
 		{
@@ -215,7 +215,7 @@
 	"id":"670905dc171b201ae6962211",
 	"lastModifiedBy":-1,
 	"lcName":"audio indexing multi modality",
-	"modifiedTime":1775334416304,
+	"modifiedTime":1775385589731,
 	"name":"Audio Indexing Multi Modality",
 	"nodes":[
 		{
@@ -1555,5 +1555,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":132
+	"version":134
 }
