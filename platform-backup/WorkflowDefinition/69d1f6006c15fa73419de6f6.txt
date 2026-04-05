@@ -5,26 +5,91 @@
 	"createdTime":1775367680096,
 	"deleted":false,
 	"edges":[
-		
+		{
+			"fromNodeId":"X1w0w",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"Pbm2u",
+			"type":"next"
+		}
 	],
 	"id":"69d1f6006c15fa73419de6f6",
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa21775367680074",
-	"modifiedTime":1775367680096,
+	"modifiedTime":1775367720179,
 	"name":"changeSetQA21775367680074",
 	"nodes":[
-		
+		{
+			"additional":{
+				"xsdSchemaConfig":{
+					"root.request.pathParams":{}
+				}
+			},
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":200,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"qs0li-1",
+			"id":"X1w0w",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"streams_by_unifyapps",
+				"resourceVersion":15374,
+				"resourceName":"streams_by_unifyapps_publish_event",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"qs0li-1",
+			"id":"Pbm2u",
+			"index":0,
+			"inputs":{
+				"streamId":"e_69d1f5efaa1e4812e2032619",
+				"event":{
+					"fullName":"Automation",
+					"age":21,
+					"height":169.2,
+					"married":true
+				},
+				"key":"1"
+			},
+			"skip":false,
+			"subTitle":"Streams by UnifyApps",
+			"title":"Publish event to stream",
+			"type":"ACTION"
+		}
 	],
 	"ownerUserId":175325,
+	"schemaReferences":[
+		
+	],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
-		"enableVariableLogging":true,
-		"route":{
-			"default":false,
-			"tierName":"global"
-		}
+		"enableVariableLogging":true
 	},
 	"standard":false,
-	"version":0
+	"tags":[
+		
+	],
+	"version":1
 }
