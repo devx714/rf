@@ -4,14 +4,14 @@
 	],
 	"createdTime":1722584703093,
 	"deleted":false,
-	"deployedVersion":109,
+	"deployedVersion":110,
 	"deploymentState":{
-		"deployedAt":1775334420385,
+		"deployedAt":1775385593829,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1741439824e0613819aba",
+		"deployedDefinitionId":"69d23bf9b41de37eb670f57c",
 		"status":"DEPLOYED",
-		"version":109,
-		"workflowVersion":179
+		"version":110,
+		"workflowVersion":181
 	},
 	"edges":[
 		{
@@ -369,7 +369,7 @@
 	"id":"66ac8e7fb9835609abd98242",
 	"lastModifiedBy":-1,
 	"lcName":"data rag",
-	"modifiedTime":1775385593765,
+	"modifiedTime":1775385593830,
 	"name":"Data RAG",
 	"nodes":[
 		{
@@ -461,6 +461,7 @@
 				"dataRAGasActionEnabled":true
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -656,6 +657,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -844,6 +846,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1298,6 +1301,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1562,6 +1566,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
