@@ -4,14 +4,14 @@
 	],
 	"createdTime":1755080902461,
 	"deleted":false,
-	"deployedVersion":53,
+	"deployedVersion":55,
 	"deploymentState":{
-		"deployedAt":1775334383036,
+		"deployedAt":1775389911785,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173ef39824e06138197f8",
+		"deployedDefinitionId":"69d24cd750e82945c76a3fcb",
 		"status":"DEPLOYED",
-		"version":53,
-		"workflowVersion":90
+		"version":55,
+		"workflowVersion":94
 	},
 	"edges":[
 		{
@@ -50,7 +50,7 @@
 	"id":"689c68c6d37586cda44bb394",
 	"lastModifiedBy":-1,
 	"lcName":"get connection auth details",
-	"modifiedTime":1775334707243,
+	"modifiedTime":1775390109685,
 	"name":"Get Connection Auth Details",
 	"nodes":[
 		{
@@ -209,5 +209,5 @@
 	"tags":[
 		
 	],
-	"version":91
+	"version":95
 }
