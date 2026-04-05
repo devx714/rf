@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769422073948,
 	"deleted":false,
-	"deployedVersion":4,
+	"deployedVersion":5,
 	"deploymentState":{
-		"deployedAt":1775391265589,
+		"deployedAt":1775407749841,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2522150e82945c76a6613",
+		"deployedDefinitionId":"69d292850e422443cf5605c2",
 		"status":"DEPLOYED",
-		"version":4,
-		"workflowVersion":6
+		"version":5,
+		"workflowVersion":8
 	},
 	"edges":[
 		{
@@ -33,6 +33,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -42,7 +43,7 @@
 	"id":"695d10aa4a6cd262dc90ea23",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge downloader | blob | get file sharedwithids",
-	"modifiedTime":1775407749791,
+	"modifiedTime":1775408100413,
 	"name":"Knowledge Downloader | Blob | Get File SharedWithIds",
 	"nodes":[
 		{
@@ -320,6 +321,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -385,5 +387,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":8
+	"version":9
 }
