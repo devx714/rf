@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769506007854,
 	"deleted":false,
-	"deployedVersion":14,
+	"deployedVersion":15,
 	"deploymentState":{
-		"deployedAt":1775320622853,
+		"deployedAt":1775334400775,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e2ec6b0c9120df173b1",
+		"deployedDefinitionId":"69d1740039824e0613819946",
 		"status":"DEPLOYED",
-		"version":14,
-		"workflowVersion":48
+		"version":15,
+		"workflowVersion":50
 	},
 	"edges":[
 		{
@@ -76,7 +76,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -86,7 +85,7 @@
 	"id":"691389170f51da3d178c871b",
 	"lastModifiedBy":-1,
 	"lcName":"describe deployment",
-	"modifiedTime":1775320889142,
+	"modifiedTime":1775385573563,
 	"name":"Describe Deployment",
 	"nodes":[
 		{
@@ -578,7 +577,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -735,5 +733,5 @@
 		"sre_ai",
 		"dev_migrate"
 	],
-	"version":49
+	"version":52
 }
