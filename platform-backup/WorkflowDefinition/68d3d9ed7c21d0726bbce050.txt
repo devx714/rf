@@ -225,7 +225,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -235,7 +234,7 @@
 	"id":"68d3d9ed7c21d0726bbce050",
 	"lastModifiedBy":-1,
 	"lcName":"deep research tool | websearch latest",
-	"modifiedTime":1775391433297,
+	"modifiedTime":1775407726415,
 	"name":"Deep Research Tool | WebSearch latest",
 	"nodes":[
 		{
@@ -740,7 +739,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1096,7 +1094,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1348,7 +1345,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1717,5 +1713,5 @@
 	"tags":[
 		
 	],
-	"version":90
+	"version":91
 }
