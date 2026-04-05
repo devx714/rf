@@ -4,14 +4,14 @@
 	],
 	"createdTime":1760008613262,
 	"deleted":false,
-	"deployedVersion":30,
+	"deployedVersion":33,
 	"deploymentState":{
-		"deployedAt":1774342892444,
+		"deployedAt":1775385571787,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252ec29fa153f07e09a2d",
+		"deployedDefinitionId":"69d23be3b31cfc01cc39ef34",
 		"status":"DEPLOYED",
-		"version":30,
-		"workflowVersion":58
+		"version":33,
+		"workflowVersion":64
 	},
 	"edges":[
 		{
@@ -87,7 +87,7 @@
 	"id":"68e15f7e3aa5aa0d3e2bd0c7",
 	"lastModifiedBy":-1,
 	"lcName":"get page count for attachment",
-	"modifiedTime":1775320620514,
+	"modifiedTime":1775385571788,
 	"name":"Get page Count for Attachment",
 	"nodes":[
 		{
@@ -169,6 +169,7 @@
 				"pageCounter":0
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -328,5 +329,5 @@
 	"tags":[
 		
 	],
-	"version":60
+	"version":64
 }
