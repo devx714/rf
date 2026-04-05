@@ -144,7 +144,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -154,7 +153,7 @@
 	"id":"676529011a3995364ee3df60",
 	"lastModifiedBy":-1,
 	"lcName":"get data catalog relationships",
-	"modifiedTime":1775391435403,
+	"modifiedTime":1775407759408,
 	"name":"Get Data Catalog Relationships",
 	"nodes":[
 		{
@@ -343,7 +342,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -838,5 +836,5 @@
 		}
 	},
 	"standard":true,
-	"version":168
+	"version":169
 }
