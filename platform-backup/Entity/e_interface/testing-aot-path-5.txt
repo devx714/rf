@@ -1,5 +1,5 @@
 {
-	"createdTime":1775380506243,
+	"createdTime":1775384067680,
 	"deleted":false,
 	"entityType":"e_interface",
 	"grants":{
@@ -24,7 +24,7 @@
 	},
 	"id":"testing-aot-path-5",
 	"lastModifiedBy":195435,
-	"modifiedTime":1775380512604,
+	"modifiedTime":1775384074017,
 	"ownerUserId":195435,
 	"properties":{
 		"standard":false,
@@ -45,7 +45,7 @@
 		},
 		"navigation":{
 			"secondary":[],
-			"defaultPageId":"e_69d2282097c47c60cad58bd8",
+			"defaultPageId":"e_69d2360a6bceee317f0113fd",
 			"appearance":{
 				"SM":{
 					"primary":[],
@@ -201,7 +201,7 @@
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
-			"e_69d2282097c47c60cad58bd8":"homepage"
+			"e_69d2360a6bceee317f0113fd":"homepage"
 		},
 		"manifest":{
 			"type":"WEB"
@@ -215,7 +215,7 @@
 			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
-			"e_69d2282097c47c60cad58bd8":{
+			"e_69d2360a6bceee317f0113fd":{
 				"slug":"homepage",
 				"isPublic":false,
 				"type":"PAGE"
