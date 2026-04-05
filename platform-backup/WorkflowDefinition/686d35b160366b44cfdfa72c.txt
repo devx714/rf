@@ -4,14 +4,14 @@
 	],
 	"createdTime":1753185889313,
 	"deleted":false,
-	"deployedVersion":87,
+	"deployedVersion":92,
 	"deploymentState":{
-		"deployedAt":1775320674845,
+		"deployedAt":1775407815305,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e62c6b0c9120df1751d",
+		"deployedDefinitionId":"69d292c7a2eda46706b049cc",
 		"status":"DEPLOYED",
-		"version":87,
-		"workflowVersion":154
+		"version":92,
+		"workflowVersion":164
 	},
 	"edges":[
 		{
@@ -211,6 +211,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -220,7 +221,7 @@
 	"id":"686d35b160366b44cfdfa72c",
 	"lastModifiedBy":-1,
 	"lcName":"channel knowledge indexer wrapper",
-	"modifiedTime":1775334468147,
+	"modifiedTime":1775408102604,
 	"name":"Channel Knowledge Indexer Wrapper",
 	"nodes":[
 		{
@@ -1103,5 +1104,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":156
+	"version":165
 }
