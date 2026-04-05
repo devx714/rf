@@ -24,7 +24,7 @@
 	},
 	"id":"sujal-777",
 	"lastModifiedBy":195414,
-	"modifiedTime":1775371659620,
+	"modifiedTime":1775371664746,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -40,7 +40,7 @@
 			"_counter":{
 				"_moduleCount":0,
 				"_mqttTopicCounter":0,
-				"_pageCount":1
+				"_pageCount":2
 			}
 		},
 		"navigation":{
@@ -201,6 +201,7 @@
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
+			"e_69d20590aa1e4812e2032b22":"page-2",
 			"e_69d205523749ce63c5e2d22e":"homepage"
 		},
 		"manifest":{
@@ -220,7 +221,9 @@
 				"id":"f_CfSD5",
 				"segment":"hello",
 				"parentId":"f_root",
-				"children":[],
+				"children":[
+					"e_69d20590aa1e4812e2032b22"
+				],
 				"path":"/hello"
 			}
 		},
@@ -233,6 +236,11 @@
 			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
+			"e_69d20590aa1e4812e2032b22":{
+				"slug":"page-2",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_69d205523749ce63c5e2d22e":{
 				"slug":"homepage",
 				"isPublic":false,
@@ -244,5 +252,5 @@
 	"tags":[
 		
 	],
-	"version":3
+	"version":4
 }
