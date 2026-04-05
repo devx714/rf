@@ -4,14 +4,14 @@
 	],
 	"createdTime":1726503946536,
 	"deleted":false,
-	"deployedVersion":94,
+	"deployedVersion":100,
 	"deploymentState":{
-		"deployedAt":1774342937307,
+		"deployedAt":1775407794307,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c253198d65fb68e1563b62",
+		"deployedDefinitionId":"69d292b2a2eda46706b047fb",
 		"status":"DEPLOYED",
-		"version":94,
-		"workflowVersion":157
+		"version":100,
+		"workflowVersion":169
 	},
 	"edges":[
 		{
@@ -116,6 +116,27 @@
 		"configs":[
 			{
 				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"161165"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -125,7 +146,7 @@
 	"id":"66e2c210bf7f521f97b36643",
 	"lastModifiedBy":-1,
 	"lcName":"get case language",
-	"modifiedTime":1775320659655,
+	"modifiedTime":1775408109299,
 	"name":"Get Case Language",
 	"nodes":[
 		{
@@ -246,6 +267,7 @@
 				"language":"{{ __USER__.outputs.locale }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -533,5 +555,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":159
+	"version":170
 }
