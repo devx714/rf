@@ -4,14 +4,14 @@
 	],
 	"createdTime":1743778370025,
 	"deleted":false,
-	"deployedVersion":86,
+	"deployedVersion":87,
 	"deploymentState":{
-		"deployedAt":1775385633395,
+		"deployedAt":1775390057645,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c21b31cfc01cc39f357",
+		"deployedDefinitionId":"69d24d6950e82945c76a482e",
 		"status":"DEPLOYED",
-		"version":86,
-		"workflowVersion":134
+		"version":87,
+		"workflowVersion":136
 	},
 	"edges":[
 		{
@@ -40,6 +40,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -49,7 +50,7 @@
 	"id":"67e72a29e21aa01f098c7e95",
 	"lastModifiedBy":-1,
 	"lcName":"create llama models payload",
-	"modifiedTime":1775390057439,
+	"modifiedTime":1775390107429,
 	"name":"Create LLAMA Models Payload",
 	"nodes":[
 		{
@@ -634,5 +635,5 @@
 		}
 	},
 	"standard":true,
-	"version":136
+	"version":137
 }
