@@ -293,7 +293,7 @@
 	"id":"678f5d37812a5c063f02cc42",
 	"lastModifiedBy":-1,
 	"lcName":"query ppr | graphrag",
-	"modifiedTime":1775385653288,
+	"modifiedTime":1775390103736,
 	"name":"Query PPR | GraphRAG",
 	"nodes":[
 		{
@@ -967,7 +967,6 @@
 				"ua:title":"seedNodesDbOutput"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1821,7 +1820,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2459,5 +2457,5 @@
 	"tags":[
 		"GraphRAG"
 	],
-	"version":246
+	"version":248
 }
