@@ -1,6 +1,15 @@
 {
 	"createdTime":1775366789431,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775366829510,
+		"deployedBy":175325,
+		"deployedDefinitionId":"69d1f2ad3056b31235b58567",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":3
+	},
 	"edges":[
 		{
 			"fromNodeId":"lZXRK",
@@ -13,7 +22,7 @@
 	"id":"69d1f1d63056b31235b57e38",
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2automclpdnakgp",
-	"modifiedTime":1775366789431,
+	"modifiedTime":1775366829511,
 	"name":"changeSetQA2autoMClPdnAKgP",
 	"nodes":[
 		{
