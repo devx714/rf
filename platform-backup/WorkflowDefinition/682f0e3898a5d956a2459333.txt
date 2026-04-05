@@ -4,15 +4,15 @@
 	],
 	"createdTime":1748130379367,
 	"deleted":false,
-	"deployedVersion":88,
+	"deployedVersion":92,
 	"deploymentState":{
-		"deployedAt":1775320626575,
+		"deployedAt":1775391267336,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e3283aecf24ec254a14",
+		"deployedDefinitionId":"69d2522350e82945c76a6635",
 		"deploymentTag":"null_error_handling",
 		"status":"DEPLOYED",
-		"version":88,
-		"workflowVersion":142
+		"version":92,
+		"workflowVersion":150
 	},
 	"edges":[
 		{
@@ -181,7 +181,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -191,7 +190,7 @@
 	"id":"682f0e3898a5d956a2459333",
 	"lastModifiedBy":-1,
 	"lcName":"execute pdf data in parallel",
-	"modifiedTime":1775320890830,
+	"modifiedTime":1775407751557,
 	"name":"Execute pdf data in parallel",
 	"nodes":[
 		{
@@ -1184,7 +1183,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1484,5 +1482,5 @@
 	"tags":[
 		
 	],
-	"version":143
+	"version":152
 }
