@@ -25,7 +25,7 @@
 	"id":"6888c3828ca03fb2e46d31e4",
 	"lastModifiedBy":175325,
 	"lcName":"cs_webhook_combined_api_dnd",
-	"modifiedTime":1775276443157,
+	"modifiedTime":1775363287086,
 	"name":"CS_WEBHOOK_COMBINED_API_DND",
 	"nodes":[
 		{
@@ -131,7 +131,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -165,5 +164,5 @@
 		}
 	},
 	"standard":false,
-	"version":360
+	"version":361
 }
