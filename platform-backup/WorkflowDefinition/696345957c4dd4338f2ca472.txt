@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769422272162,
 	"deleted":false,
-	"deployedVersion":16,
+	"deployedVersion":17,
 	"deploymentState":{
-		"deployedAt":1775334513959,
+		"deployedAt":1775385650037,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1747139824e0613819f74",
+		"deployedDefinitionId":"69d23c32b41de37eb670f802",
 		"status":"DEPLOYED",
-		"version":16,
-		"workflowVersion":40
+		"version":17,
+		"workflowVersion":42
 	},
 	"edges":[
 		{
@@ -107,7 +107,7 @@
 	"id":"696345957c4dd4338f2ca472",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] allowed group intersection",
-	"modifiedTime":1775385649976,
+	"modifiedTime":1775385650038,
 	"name":"[DT] Allowed Group Intersection",
 	"nodes":[
 		{
@@ -384,6 +384,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
