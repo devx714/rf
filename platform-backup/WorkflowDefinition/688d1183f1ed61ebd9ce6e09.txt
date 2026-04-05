@@ -4,14 +4,14 @@
 	],
 	"createdTime":1768652991482,
 	"deleted":false,
-	"deployedVersion":35,
+	"deployedVersion":37,
 	"deploymentState":{
-		"deployedAt":1775385622071,
+		"deployedAt":1775391366873,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c16b31cfc01cc39f2bf",
+		"deployedDefinitionId":"69d2528650e82945c76a6abb",
 		"status":"DEPLOYED",
-		"version":35,
-		"workflowVersion":84
+		"version":37,
+		"workflowVersion":88
 	},
 	"edges":[
 		{
@@ -137,6 +137,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -146,7 +147,7 @@
 	"id":"688d1183f1ed61ebd9ce6e09",
 	"lastModifiedBy":-1,
 	"lcName":"update knowledge realtime indexing",
-	"modifiedTime":1775390043008,
+	"modifiedTime":1775391432950,
 	"name":"Update Knowledge Realtime Indexing",
 	"nodes":[
 		{
@@ -624,5 +625,5 @@
 	"tags":[
 		
 	],
-	"version":86
+	"version":89
 }
