@@ -4,14 +4,14 @@
 	],
 	"createdTime":1750490578094,
 	"deleted":false,
-	"deployedVersion":55,
+	"deployedVersion":57,
 	"deploymentState":{
-		"deployedAt":1775385612753,
+		"deployedAt":1775391333980,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c0cb41de37eb670f636",
+		"deployedDefinitionId":"69d2526550e82945c76a69ca",
 		"status":"DEPLOYED",
-		"version":55,
-		"workflowVersion":121
+		"version":57,
+		"workflowVersion":125
 	},
 	"edges":[
 		{
@@ -33,6 +33,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -42,7 +43,7 @@
 	"id":"6842f208a5855413f87c2efc",
 	"lastModifiedBy":-1,
 	"lcName":"call amazon bedrock wrapper",
-	"modifiedTime":1775390030243,
+	"modifiedTime":1775391430064,
 	"name":"Call Amazon Bedrock Wrapper",
 	"nodes":[
 		{
@@ -163,5 +164,5 @@
 		}
 	},
 	"standard":true,
-	"version":123
+	"version":126
 }
