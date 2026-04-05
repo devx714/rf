@@ -2,9 +2,29 @@
 	"createdTime":1775364788672,
 	"deleted":false,
 	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"195414"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"new-appli",
-	"lastModifiedBy":195414,
-	"modifiedTime":1775364788672,
+	"lastModifiedBy":-1,
+	"modifiedTime":1775364794224,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
