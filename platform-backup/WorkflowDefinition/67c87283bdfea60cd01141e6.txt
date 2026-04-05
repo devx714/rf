@@ -121,7 +121,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -131,7 +130,7 @@
 	"id":"67c87283bdfea60cd01141e6",
 	"lastModifiedBy":-1,
 	"lcName":"websearch agent",
-	"modifiedTime":1775334707124,
+	"modifiedTime":1775385637083,
 	"name":"WebSearch agent",
 	"nodes":[
 		{
@@ -397,7 +396,6 @@
 				"scrapModelId":"{{ n_e5rFx.outputs.properties.websearchSettings.scrapModelId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -796,5 +794,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":156
+	"version":157
 }
