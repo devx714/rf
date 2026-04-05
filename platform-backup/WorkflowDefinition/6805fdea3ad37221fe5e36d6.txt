@@ -211,7 +211,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -221,7 +220,7 @@
 	"id":"6805fdea3ad37221fe5e36d6",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | zoho invoice | index credit notes",
-	"modifiedTime":1775391436598,
+	"modifiedTime":1775407775153,
 	"name":"Knowledge Indexer | Zoho Invoice | Index Credit Notes",
 	"nodes":[
 		{
@@ -573,7 +572,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -800,7 +798,6 @@
 				"has":true
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1568,5 +1565,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":109
+	"version":110
 }
