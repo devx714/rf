@@ -3,7 +3,7 @@
 		
 	],
 	"createdTime":1775365682219,
-	"deleted":false,
+	"deleted":true,
 	"edges":[
 		{
 			"fromNodeId":"3MWHo",
@@ -37,7 +37,7 @@
 	"id":"69d1ede1bec06e17a1cdaf53",
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa21440232934",
-	"modifiedTime":1775365682219,
+	"modifiedTime":1775368225138,
 	"name":"changeSetQA21440232934",
 	"nodes":[
 		{
@@ -400,6 +400,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -471,5 +472,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":2
 }
