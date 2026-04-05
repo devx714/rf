@@ -56,7 +56,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -66,7 +65,7 @@
 	"id":"679b73add2256d4d7f3264d1",
 	"lastModifiedBy":-1,
 	"lcName":"openai embeddings",
-	"modifiedTime":1775391430345,
+	"modifiedTime":1775407745064,
 	"name":"OpenAI Embeddings",
 	"nodes":[
 		{
@@ -384,5 +383,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":157
+	"version":158
 }
