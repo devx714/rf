@@ -4,14 +4,14 @@
 	],
 	"createdTime":1741602371773,
 	"deleted":false,
-	"deployedVersion":88,
+	"deployedVersion":92,
 	"deploymentState":{
-		"deployedAt":1775320703454,
+		"deployedAt":1775391426287,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e7fc6b0c9120df1761f",
+		"deployedDefinitionId":"69d252c250e82945c76a6dd6",
 		"status":"DEPLOYED",
-		"version":88,
-		"workflowVersion":134
+		"version":92,
+		"workflowVersion":142
 	},
 	"edges":[
 		{
@@ -50,7 +50,7 @@
 	"id":"67bef8d7a35b4c13aa06d413",
 	"lastModifiedBy":-1,
 	"lcName":"ai team on update handler",
-	"modifiedTime":1775320889077,
+	"modifiedTime":1775391435292,
 	"name":"AI Team on Update Handler",
 	"nodes":[
 		{
@@ -162,5 +162,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":135
+	"version":143
 }
