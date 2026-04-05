@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748544401618,
 	"deleted":false,
-	"deployedVersion":79,
+	"deployedVersion":82,
 	"deploymentState":{
-		"deployedAt":1775385585177,
+		"deployedAt":1775407763554,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bf1b31cfc01cc39f02c",
+		"deployedDefinitionId":"69d29293a2eda46706b045fc",
 		"status":"DEPLOYED",
-		"version":79,
-		"workflowVersion":173
+		"version":82,
+		"workflowVersion":179
 	},
 	"edges":[
 		{
@@ -77,6 +77,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -86,7 +87,7 @@
 	"id":"682debbafe3f32434fd08acb",
 	"lastModifiedBy":-1,
 	"lcName":"publish tool form block",
-	"modifiedTime":1775389974012,
+	"modifiedTime":1775408107090,
 	"name":"Publish tool Form Block",
 	"nodes":[
 		{
@@ -478,5 +479,5 @@
 	"tags":[
 		
 	],
-	"version":175
+	"version":180
 }
