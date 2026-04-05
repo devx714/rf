@@ -123,7 +123,7 @@
 	"id":"68ac3880d6b3ed5e68cb3ce8",
 	"lastModifiedBy":-1,
 	"lcName":"llm stream processor",
-	"modifiedTime":1775385571097,
+	"modifiedTime":1775389933326,
 	"name":"LLM Stream Processor",
 	"nodes":[
 		{
@@ -370,7 +370,6 @@
 				"isLastSlash":"{{ _gqpbo.outputs.isLastSlash }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -647,7 +646,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1143,5 +1141,5 @@
 	"tags":[
 		
 	],
-	"version":117
+	"version":119
 }
