@@ -4,14 +4,14 @@
 	],
 	"createdTime":1752511076331,
 	"deleted":false,
-	"deployedVersion":66,
+	"deployedVersion":67,
 	"deploymentState":{
-		"deployedAt":1775334477667,
+		"deployedAt":1775385633208,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1744d39824e0613819de4",
+		"deployedDefinitionId":"69d23c21b41de37eb670f739",
 		"status":"DEPLOYED",
-		"version":66,
-		"workflowVersion":141
+		"version":67,
+		"workflowVersion":143
 	},
 	"edges":[
 		{
@@ -357,7 +357,7 @@
 	"id":"686e04d3c92a3538c99188b0",
 	"lastModifiedBy":-1,
 	"lcName":"text2sql | tables metadata indexer",
-	"modifiedTime":1775385633086,
+	"modifiedTime":1775385633209,
 	"name":"Text2sql | Tables Metadata Indexer",
 	"nodes":[
 		{
@@ -812,6 +812,7 @@
 				"knowledgeSetId":"{{ n_CXGX6.outputs.knowledgeSetId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1468,6 +1469,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1963,6 +1965,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2431,6 +2434,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
