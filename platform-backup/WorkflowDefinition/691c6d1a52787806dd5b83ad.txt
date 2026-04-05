@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769505987837,
 	"deleted":false,
-	"deployedVersion":14,
+	"deployedVersion":15,
 	"deploymentState":{
-		"deployedAt":1775320679365,
+		"deployedAt":1775334472741,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e6783aecf24ec254ead",
+		"deployedDefinitionId":"69d1744839824e0613819d7a",
 		"status":"DEPLOYED",
-		"version":14,
-		"workflowVersion":41
+		"version":15,
+		"workflowVersion":43
 	},
 	"edges":[
 		{
@@ -109,7 +109,7 @@
 	"id":"691c6d1a52787806dd5b83ad",
 	"lastModifiedBy":-1,
 	"lcName":"sre | update investigation summary",
-	"modifiedTime":1775334472474,
+	"modifiedTime":1775385627871,
 	"name":"SRE | Update Investigation Summary",
 	"nodes":[
 		{
@@ -874,5 +874,5 @@
 		"sre_ai",
 		"dev_migrate"
 	],
-	"version":43
+	"version":45
 }
