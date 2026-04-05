@@ -4,14 +4,14 @@
 	],
 	"createdTime":1760438582940,
 	"deleted":false,
-	"deployedVersion":30,
+	"deployedVersion":32,
 	"deploymentState":{
-		"deployedAt":1774342896195,
+		"deployedAt":1775334402200,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252f029fa153f07e09a4e",
+		"deployedDefinitionId":"69d1740239824e061381995a",
 		"status":"DEPLOYED",
-		"version":30,
-		"workflowVersion":71
+		"version":32,
+		"workflowVersion":75
 	},
 	"edges":[
 		{
@@ -163,7 +163,7 @@
 	"id":"68ee0cfa4c0d3754ed6bf180",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] delete chats ",
-	"modifiedTime":1775320624656,
+	"modifiedTime":1775385574968,
 	"name":"[DT] Delete Chats ",
 	"nodes":[
 		{
@@ -818,5 +818,5 @@
 	"tags":[
 		
 	],
-	"version":73
+	"version":77
 }
