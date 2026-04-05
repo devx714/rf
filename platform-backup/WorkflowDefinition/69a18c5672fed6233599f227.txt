@@ -239,7 +239,7 @@
 	"id":"69a18c5672fed6233599f227",
 	"lastModifiedBy":-1,
 	"lcName":"create pdf and docx tool",
-	"modifiedTime":1775385608552,
+	"modifiedTime":1775390024317,
 	"name":"Create PDF and Docx Tool",
 	"nodes":[
 		{
@@ -772,7 +772,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1620,5 +1619,5 @@
 	"tags":[
 		
 	],
-	"version":40
+	"version":42
 }
