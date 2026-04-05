@@ -54,7 +54,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -64,7 +63,7 @@
 	"id":"68e4100955eefd253486229e",
 	"lastModifiedBy":-1,
 	"lcName":"perfrom openrouter websearch",
-	"modifiedTime":1775391434185,
+	"modifiedTime":1775407738257,
 	"name":"Perfrom Openrouter Websearch",
 	"nodes":[
 		{
@@ -320,5 +319,5 @@
 	"tags":[
 		
 	],
-	"version":69
+	"version":70
 }
