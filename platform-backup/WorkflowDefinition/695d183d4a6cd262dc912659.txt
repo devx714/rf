@@ -70,7 +70,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -80,7 +79,7 @@
 	"id":"695d183d4a6cd262dc912659",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | blob | file",
-	"modifiedTime":1775391437871,
+	"modifiedTime":1775407737887,
 	"name":"Knowledge Indexer | Blob | File",
 	"nodes":[
 		{
@@ -432,5 +431,5 @@
 	"tags":[
 		
 	],
-	"version":6
+	"version":7
 }
