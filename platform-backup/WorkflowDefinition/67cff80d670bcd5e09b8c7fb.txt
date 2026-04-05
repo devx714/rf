@@ -4,14 +4,14 @@
 	],
 	"createdTime":1741682701459,
 	"deleted":false,
-	"deployedVersion":97,
+	"deployedVersion":100,
 	"deploymentState":{
-		"deployedAt":1775385616302,
+		"deployedAt":1775407805600,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c10b31cfc01cc39f21e",
+		"deployedDefinitionId":"69d292bd0e422443cf5607ea",
 		"status":"DEPLOYED",
-		"version":97,
-		"workflowVersion":146
+		"version":100,
+		"workflowVersion":152
 	},
 	"edges":[
 		{
@@ -180,6 +180,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -189,7 +190,7 @@
 	"id":"67cff80d670bcd5e09b8c7fb",
 	"lastModifiedBy":-1,
 	"lcName":"[mcp server] list tools",
-	"modifiedTime":1775390035075,
+	"modifiedTime":1775408108745,
 	"name":"[MCP Server] List Tools",
 	"nodes":[
 		{
@@ -701,6 +702,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1013,6 +1015,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1304,5 +1307,5 @@
 	"tags":[
 		"MCP Server"
 	],
-	"version":148
+	"version":153
 }
