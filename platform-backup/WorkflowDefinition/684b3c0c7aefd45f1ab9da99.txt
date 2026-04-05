@@ -4,14 +4,14 @@
 	],
 	"createdTime":1754468997029,
 	"deleted":false,
-	"deployedVersion":65,
+	"deployedVersion":66,
 	"deploymentState":{
-		"deployedAt":1775334420302,
+		"deployedAt":1775385593741,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1741439824e0613819ab8",
+		"deployedDefinitionId":"69d23bf9b41de37eb670f57b",
 		"status":"DEPLOYED",
-		"version":65,
-		"workflowVersion":124
+		"version":66,
+		"workflowVersion":126
 	},
 	"edges":[
 		{
@@ -105,7 +105,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -115,7 +114,7 @@
 	"id":"684b3c0c7aefd45f1ab9da99",
 	"lastModifiedBy":-1,
 	"lcName":"workflow agent | reply to user",
-	"modifiedTime":1775334705709,
+	"modifiedTime":1775389984427,
 	"name":"Workflow Agent | Reply to User",
 	"nodes":[
 		{
@@ -245,7 +244,6 @@
 				"model":"{{ n_KDi4z.outputs.model }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -438,7 +436,6 @@
 				"ua_taskExecutionModel":"{{ n_KdmAh.outputs.model }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -616,5 +613,5 @@
 	"tags":[
 		
 	],
-	"version":125
+	"version":128
 }
