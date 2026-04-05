@@ -4,14 +4,14 @@
 	],
 	"createdTime":1743426852262,
 	"deleted":false,
-	"deployedVersion":37,
+	"deployedVersion":39,
 	"deploymentState":{
-		"deployedAt":1773928148802,
+		"deployedAt":1775391336561,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfed416170c62438068f1",
+		"deployedDefinitionId":"69d2526850e82945c76a6a00",
 		"status":"DEPLOYED",
-		"version":37,
-		"workflowVersion":61
+		"version":39,
+		"workflowVersion":64
 	},
 	"edges":[
 		{
@@ -47,6 +47,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -56,7 +57,7 @@
 	"id":"67ea80ae56f7440ff76f9e46",
 	"lastModifiedBy":-1,
 	"lcName":"[coda] get users sharedwithids",
-	"modifiedTime":1775390032771,
+	"modifiedTime":1775391430485,
 	"name":"[Coda] Get Users SharedWithIds",
 	"nodes":[
 		{
@@ -347,6 +348,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -458,5 +460,5 @@
 	"tags":[
 		
 	],
-	"version":62
+	"version":65
 }
