@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756473895044,
 	"deleted":false,
-	"deployedVersion":37,
+	"deployedVersion":38,
 	"deploymentState":{
-		"deployedAt":1775389914540,
+		"deployedAt":1775391242474,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d24cda50e82945c76a3ffb",
+		"deployedDefinitionId":"69d2520a50e82945c76a644d",
 		"status":"DEPLOYED",
-		"version":37,
-		"workflowVersion":111
+		"version":38,
+		"workflowVersion":113
 	},
 	"edges":[
 		{
@@ -71,7 +71,7 @@
 	"id":"68563ae35c09f7272fc39057",
 	"lastModifiedBy":-1,
 	"lcName":"call bedrock - generic",
-	"modifiedTime":1775390110040,
+	"modifiedTime":1775391434185,
 	"name":"Call Bedrock - Generic",
 	"nodes":[
 		{
@@ -1134,5 +1134,5 @@
 		}
 	},
 	"standard":true,
-	"version":112
+	"version":114
 }
