@@ -4,14 +4,14 @@
 	],
 	"createdTime":1759243504665,
 	"deleted":false,
-	"deployedVersion":38,
+	"deployedVersion":40,
 	"deploymentState":{
-		"deployedAt":1775385538395,
+		"deployedAt":1775391189898,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bc2b31cfc01cc39eb5f",
+		"deployedDefinitionId":"69d251d550e82945c76a621b",
 		"status":"DEPLOYED",
-		"version":38,
-		"workflowVersion":85
+		"version":40,
+		"workflowVersion":89
 	},
 	"edges":[
 		{
@@ -145,7 +145,7 @@
 	"id":"68c82cf26d4de43586f67a81",
 	"lastModifiedBy":-1,
 	"lcName":"call automation batch with signal",
-	"modifiedTime":1775389858283,
+	"modifiedTime":1775407691906,
 	"name":"Call automation batch with signal",
 	"nodes":[
 		{
@@ -1006,5 +1006,5 @@
 	"tags":[
 		
 	],
-	"version":87
+	"version":91
 }
