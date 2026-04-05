@@ -4,14 +4,14 @@
 	],
 	"createdTime":1763384428420,
 	"deleted":false,
-	"deployedVersion":30,
+	"deployedVersion":32,
 	"deploymentState":{
-		"deployedAt":1775385543978,
+		"deployedAt":1775391199050,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bc7b31cfc01cc39ebd8",
+		"deployedDefinitionId":"69d251df50e82945c76a62c9",
 		"status":"DEPLOYED",
-		"version":30,
-		"workflowVersion":65
+		"version":32,
+		"workflowVersion":69
 	},
 	"edges":[
 		{
@@ -35,7 +35,7 @@
 	"id":"69104b26d49c444f72a35991",
 	"lastModifiedBy":-1,
 	"lcName":"realtime people indexer | platform | on update",
-	"modifiedTime":1775389868849,
+	"modifiedTime":1775407701017,
 	"name":"Realtime People Indexer | Platform | On Update",
 	"nodes":[
 		{
@@ -127,5 +127,5 @@
 	"tags":[
 		
 	],
-	"version":67
+	"version":71
 }
