@@ -4,14 +4,14 @@
 	],
 	"createdTime":1758646650564,
 	"deleted":false,
-	"deployedVersion":41,
+	"deployedVersion":42,
 	"deploymentState":{
-		"deployedAt":1775390102393,
+		"deployedAt":1775391425905,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d24d9650e82945c76a4a70",
+		"deployedDefinitionId":"69d252c150e82945c76a6dce",
 		"status":"DEPLOYED",
-		"version":41,
-		"workflowVersion":86
+		"version":42,
+		"workflowVersion":88
 	},
 	"edges":[
 		{
@@ -165,7 +165,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -175,7 +174,7 @@
 	"id":"68bb2e02d46a121fe340e324",
 	"lastModifiedBy":-1,
 	"lcName":"index pdf data",
-	"modifiedTime":1775390110040,
+	"modifiedTime":1775407854776,
 	"name":"Index PDF Data",
 	"nodes":[
 		{
@@ -404,7 +403,6 @@
 				"loopCounter":0
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -673,7 +671,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1305,5 +1302,5 @@
 	"tags":[
 		
 	],
-	"version":87
+	"version":90
 }
