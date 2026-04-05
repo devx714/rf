@@ -4,14 +4,14 @@
 	],
 	"createdTime":1729080226808,
 	"deleted":false,
-	"deployedVersion":111,
+	"deployedVersion":112,
 	"deploymentState":{
-		"deployedAt":1775391336713,
+		"deployedAt":1775407803352,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2526850e82945c76a6a04",
+		"deployedDefinitionId":"69d292bb0e422443cf5607c5",
 		"status":"DEPLOYED",
-		"version":111,
-		"workflowVersion":177
+		"version":112,
+		"workflowVersion":179
 	},
 	"description":"",
 	"edges":[
@@ -85,6 +85,17 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
+					"V"
+				],
+				"principalIds":[
+					"45775"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -94,7 +105,7 @@
 	"id":"670faba2ed06293383433d38",
 	"lastModifiedBy":-1,
 	"lcName":"data rag - search records ",
-	"modifiedTime":1775407803281,
+	"modifiedTime":1775408109942,
 	"name":"DATA RAG - Search Records ",
 	"nodes":[
 		{
@@ -628,5 +639,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":179
+	"version":180
 }
