@@ -4,14 +4,14 @@
 	],
 	"createdTime":1764062898916,
 	"deleted":false,
-	"deployedVersion":33,
+	"deployedVersion":35,
 	"deploymentState":{
-		"deployedAt":1775385618955,
+		"deployedAt":1775391362915,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c12b41de37eb670f680",
+		"deployedDefinitionId":"69d2528250e82945c76a6a6f",
 		"status":"DEPLOYED",
-		"version":33,
-		"workflowVersion":89
+		"version":35,
+		"workflowVersion":93
 	},
 	"edges":[
 		{
@@ -269,7 +269,7 @@
 	"id":"6921f2df7dc2f63f36c9868f",
 	"lastModifiedBy":-1,
 	"lcName":"eval | export experiment | write data",
-	"modifiedTime":1775385618957,
+	"modifiedTime":1775407809537,
 	"name":"Eval | Export Experiment | Write Data",
 	"nodes":[
 		{
@@ -386,7 +386,6 @@
 				"file":"{{ _v2LUi.outputs.file }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -682,7 +681,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1449,7 +1447,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1866,5 +1863,5 @@
 	"tags":[
 		
 	],
-	"version":89
+	"version":95
 }
