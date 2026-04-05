@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756732847700,
 	"deleted":false,
-	"deployedVersion":50,
+	"deployedVersion":53,
 	"deploymentState":{
-		"deployedAt":1775385557114,
+		"deployedAt":1775407722028,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bd5b31cfc01cc39ee25",
+		"deployedDefinitionId":"69d2926aa2eda46706b044b7",
 		"status":"DEPLOYED",
-		"version":50,
-		"workflowVersion":97
+		"version":53,
+		"workflowVersion":103
 	},
 	"edges":[
 		{
@@ -40,6 +40,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -49,7 +50,7 @@
 	"id":"689aed17aebbc06353598193",
 	"lastModifiedBy":-1,
 	"lcName":"trigger preview interface (canvas)",
-	"modifiedTime":1775389913106,
+	"modifiedTime":1775408109847,
 	"name":"Trigger Preview Interface (Canvas)",
 	"nodes":[
 		{
@@ -377,5 +378,5 @@
 		}
 	},
 	"standard":true,
-	"version":99
+	"version":104
 }
