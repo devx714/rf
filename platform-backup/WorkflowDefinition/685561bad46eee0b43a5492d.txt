@@ -133,7 +133,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -143,7 +142,7 @@
 	"id":"685561bad46eee0b43a5492d",
 	"lastModifiedBy":-1,
 	"lcName":"index people",
-	"modifiedTime":1775334706429,
+	"modifiedTime":1775385634899,
 	"name":"Index People",
 	"nodes":[
 		{
@@ -999,5 +998,5 @@
 	"tags":[
 		
 	],
-	"version":90
+	"version":91
 }
