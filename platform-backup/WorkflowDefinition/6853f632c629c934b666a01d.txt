@@ -4,14 +4,14 @@
 	],
 	"createdTime":1750512893638,
 	"deleted":false,
-	"deployedVersion":84,
+	"deployedVersion":86,
 	"deploymentState":{
-		"deployedAt":1775385549327,
+		"deployedAt":1775391208031,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bcdb31cfc01cc39ed2e",
+		"deployedDefinitionId":"69d251e850e82945c76a636f",
 		"status":"DEPLOYED",
-		"version":84,
-		"workflowVersion":131
+		"version":86,
+		"workflowVersion":135
 	},
 	"edges":[
 		{
@@ -93,7 +93,7 @@
 	"id":"6853f632c629c934b666a01d",
 	"lastModifiedBy":-1,
 	"lcName":"load case",
-	"modifiedTime":1775385549328,
+	"modifiedTime":1775407711498,
 	"name":"Load Case",
 	"nodes":[
 		{
@@ -694,7 +694,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1740,7 +1739,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2066,5 +2064,5 @@
 	"tags":[
 		
 	],
-	"version":131
+	"version":137
 }
