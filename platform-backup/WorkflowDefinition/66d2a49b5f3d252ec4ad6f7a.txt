@@ -79,7 +79,7 @@
 	"id":"66d2a49b5f3d252ec4ad6f7a",
 	"lastModifiedBy":-1,
 	"lcName":"ai agent list tasks (dnd)",
-	"modifiedTime":1775385650676,
+	"modifiedTime":1775390100470,
 	"name":"AI Agent List Tasks (DND)",
 	"nodes":[
 		{
@@ -165,7 +165,6 @@
 				"useDeployedEntity":false
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -383,5 +382,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":150
+	"version":152
 }
