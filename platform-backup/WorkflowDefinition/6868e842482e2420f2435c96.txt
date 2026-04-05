@@ -4,14 +4,14 @@
 	],
 	"createdTime":1754285350564,
 	"deleted":false,
-	"deployedVersion":83,
+	"deployedVersion":85,
 	"deploymentState":{
-		"deployedAt":1775320576397,
+		"deployedAt":1775385544604,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e0083aecf24ec2545e6",
+		"deployedDefinitionId":"69d23bc8b31cfc01cc39ebe6",
 		"status":"DEPLOYED",
-		"version":83,
-		"workflowVersion":156
+		"version":85,
+		"workflowVersion":160
 	},
 	"edges":[
 		{
@@ -229,7 +229,7 @@
 	"id":"6868e842482e2420f2435c96",
 	"lastModifiedBy":-1,
 	"lcName":"indexing status update job",
-	"modifiedTime":1775334346744,
+	"modifiedTime":1775389871062,
 	"name":"Indexing Status Update Job",
 	"nodes":[
 		{
@@ -1260,5 +1260,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":158
+	"version":162
 }
