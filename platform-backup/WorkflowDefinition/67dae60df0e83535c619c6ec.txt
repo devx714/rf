@@ -4,14 +4,14 @@
 	],
 	"createdTime":1742398989156,
 	"deleted":false,
-	"deployedVersion":80,
+	"deployedVersion":81,
 	"deploymentState":{
-		"deployedAt":1775320677187,
+		"deployedAt":1775334470408,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e6583aecf24ec254e45",
+		"deployedDefinitionId":"69d1744639824e0613819d4a",
 		"status":"DEPLOYED",
-		"version":80,
-		"workflowVersion":126
+		"version":81,
+		"workflowVersion":128
 	},
 	"edges":[
 		{
@@ -138,7 +138,7 @@
 	"id":"67dae60df0e83535c619c6ec",
 	"lastModifiedBy":-1,
 	"lcName":"[mcp server] mcp tool changed",
-	"modifiedTime":1775334470336,
+	"modifiedTime":1775385625553,
 	"name":"[MCP Server] MCP Tool Changed",
 	"nodes":[
 		{
@@ -658,5 +658,5 @@
 	"tags":[
 		"MCP Server"
 	],
-	"version":128
+	"version":130
 }
