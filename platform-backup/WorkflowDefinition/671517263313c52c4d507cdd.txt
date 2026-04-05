@@ -70,7 +70,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -80,7 +79,7 @@
 	"id":"671517263313c52c4d507cdd",
 	"lastModifiedBy":-1,
 	"lcName":"send mqtt",
-	"modifiedTime":1775391433418,
+	"modifiedTime":1775407808581,
 	"name":"send mqtt",
 	"nodes":[
 		{
@@ -321,5 +320,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":155
+	"version":156
 }
