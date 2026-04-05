@@ -4,14 +4,14 @@
 	],
 	"createdTime":1744348964971,
 	"deleted":false,
-	"deployedVersion":33,
+	"deployedVersion":34,
 	"deploymentState":{
-		"deployedAt":1775391389558,
+		"deployedAt":1775407837353,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2529d50e82945c76a6c8d",
+		"deployedDefinitionId":"69d292dd0e422443cf5609be",
 		"status":"DEPLOYED",
-		"version":33,
-		"workflowVersion":58
+		"version":34,
+		"workflowVersion":60
 	},
 	"edges":[
 		{
@@ -163,7 +163,7 @@
 	"id":"67f8a724767e7a6c34cd3f9e",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | asana | list memberships",
-	"modifiedTime":1775391435407,
+	"modifiedTime":1775408107279,
 	"name":"knowledge Indexer | Asana | list memberships",
 	"nodes":[
 		{
@@ -857,5 +857,5 @@
 		}
 	},
 	"standard":true,
-	"version":59
+	"version":61
 }
