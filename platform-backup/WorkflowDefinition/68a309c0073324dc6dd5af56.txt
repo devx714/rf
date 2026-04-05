@@ -47,7 +47,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -57,7 +56,7 @@
 	"id":"68a309c0073324dc6dd5af56",
 	"lastModifiedBy":-1,
 	"lcName":"metering | enterprise search | error rate graph",
-	"modifiedTime":1775391437975,
+	"modifiedTime":1775407740795,
 	"name":"Metering | Enterprise Search | Error Rate Graph",
 	"nodes":[
 		{
@@ -378,5 +377,5 @@
 	"tags":[
 		
 	],
-	"version":102
+	"version":103
 }
