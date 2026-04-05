@@ -4,14 +4,14 @@
 	],
 	"createdTime":1753445879989,
 	"deleted":false,
-	"deployedVersion":54,
+	"deployedVersion":55,
 	"deploymentState":{
-		"deployedAt":1775385645476,
+		"deployedAt":1775390092867,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c2db41de37eb670f7a6",
+		"deployedDefinitionId":"69d24d8c50e82945c76a4983",
 		"status":"DEPLOYED",
-		"version":54,
-		"workflowVersion":105
+		"version":55,
+		"workflowVersion":107
 	},
 	"edges":[
 		{
@@ -354,6 +354,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -363,7 +364,7 @@
 	"id":"68809da3cd30144980f0383f",
 	"lastModifiedBy":-1,
 	"lcName":"[debug agent] test agent tools & knowledge",
-	"modifiedTime":1775385645477,
+	"modifiedTime":1775390107742,
 	"name":"[Debug Agent] Test Agent Tools & Knowledge",
 	"nodes":[
 		{
@@ -2724,5 +2725,5 @@
 	"tags":[
 		
 	],
-	"version":105
+	"version":108
 }
