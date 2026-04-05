@@ -4,14 +4,14 @@
 	],
 	"createdTime":1752511451446,
 	"deleted":false,
-	"deployedVersion":64,
+	"deployedVersion":66,
 	"deploymentState":{
-		"deployedAt":1775320673084,
+		"deployedAt":1775385621720,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e6083aecf24ec254e1e",
+		"deployedDefinitionId":"69d23c15b41de37eb670f6b1",
 		"status":"DEPLOYED",
-		"version":64,
-		"workflowVersion":116
+		"version":66,
+		"workflowVersion":120
 	},
 	"edges":[
 		{
@@ -555,7 +555,7 @@
 	"id":"6874b1992b1acace3a8cbff4",
 	"lastModifiedBy":-1,
 	"lcName":"generate chart | convert llm json to copilot blocks",
-	"modifiedTime":1775334466198,
+	"modifiedTime":1775385621721,
 	"name":"Generate Chart | Convert LLM JSON to CoPilot Blocks",
 	"nodes":[
 		{
@@ -1051,6 +1051,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1315,6 +1316,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1596,6 +1598,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -4499,6 +4502,7 @@
 				"abc":"a"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -4717,6 +4721,7 @@
 				"abc":"a"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -4880,5 +4885,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":118
+	"version":120
 }
