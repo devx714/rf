@@ -4,14 +4,14 @@
 	],
 	"createdTime":1730876963309,
 	"deleted":false,
-	"deployedVersion":95,
+	"deployedVersion":96,
 	"deploymentState":{
-		"deployedAt":1775334417251,
+		"deployedAt":1775385590637,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1741139824e0613819a80",
+		"deployedDefinitionId":"69d23bf6b31cfc01cc39f08c",
 		"status":"DEPLOYED",
-		"version":95,
-		"workflowVersion":161
+		"version":96,
+		"workflowVersion":163
 	},
 	"edges":[
 		{
@@ -172,7 +172,7 @@
 	"id":"672b162353086c0e3e2c34ae",
 	"lastModifiedBy":-1,
 	"lcName":"excel file indexer",
-	"modifiedTime":1775385590584,
+	"modifiedTime":1775389980448,
 	"name":"Excel File Indexer",
 	"nodes":[
 		{
@@ -1030,5 +1030,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":163
+	"version":165
 }
