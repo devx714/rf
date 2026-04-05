@@ -4,14 +4,14 @@
 	],
 	"createdTime":1746006650127,
 	"deleted":false,
-	"deployedVersion":84,
+	"deployedVersion":86,
 	"deploymentState":{
-		"deployedAt":1775385615502,
+		"deployedAt":1775391357643,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c0fb31cfc01cc39f205",
+		"deployedDefinitionId":"69d2527d50e82945c76a6a11",
 		"status":"DEPLOYED",
-		"version":84,
-		"workflowVersion":138
+		"version":86,
+		"workflowVersion":142
 	},
 	"edges":[
 		{
@@ -107,6 +107,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -116,7 +117,7 @@
 	"id":"67da7f7305ff7e5fe6f32c4b",
 	"lastModifiedBy":-1,
 	"lcName":"download file from public url",
-	"modifiedTime":1775390033816,
+	"modifiedTime":1775391433853,
 	"name":"Download File from Public Url",
 	"nodes":[
 		{
@@ -225,6 +226,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -577,5 +579,5 @@
 	"tags":[
 		
 	],
-	"version":140
+	"version":143
 }
