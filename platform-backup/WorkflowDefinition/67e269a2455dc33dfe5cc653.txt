@@ -4,14 +4,14 @@
 	],
 	"createdTime":1744279542144,
 	"deleted":false,
-	"deployedVersion":119,
+	"deployedVersion":120,
 	"deploymentState":{
-		"deployedAt":1775385608738,
+		"deployedAt":1775390024576,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c08b41de37eb670f609",
+		"deployedDefinitionId":"69d24d4850e82945c76a4581",
 		"status":"DEPLOYED",
-		"version":119,
-		"workflowVersion":192
+		"version":120,
+		"workflowVersion":194
 	},
 	"edges":[
 		{
@@ -186,6 +186,25 @@
 		"configs":[
 			{
 				"permissions":[
+					"A",
+					"EXPORT_AS_TEMPLATE",
+					"C",
+					"S",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"DEP"
+				],
+				"principalIds":[
+					"17"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -195,7 +214,7 @@
 	"id":"67e269a2455dc33dfe5cc653",
 	"lastModifiedBy":-1,
 	"lcName":"ai eval | metrix | task completion",
-	"modifiedTime":1775390024504,
+	"modifiedTime":1775390109063,
 	"name":"AI Eval | Metrix | Task Completion",
 	"nodes":[
 		{
@@ -604,6 +623,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1301,5 +1321,5 @@
 		}
 	},
 	"standard":true,
-	"version":194
+	"version":195
 }
