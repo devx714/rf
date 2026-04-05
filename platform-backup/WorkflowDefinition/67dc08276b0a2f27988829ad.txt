@@ -47,67 +47,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"6766637bf53aa736a6892b9b"
-				],
-				"principalType":"USER_GROUPS"
-			},
-			{
-				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"678021c2306be66a76534b2a"
-				],
-				"principalType":"USER_GROUPS"
-			},
-			{
-				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"311"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -117,7 +56,7 @@
 	"id":"67dc08276b0a2f27988829ad",
 	"lastModifiedBy":-1,
 	"lcName":"[mcp server] initialize",
-	"modifiedTime":1775391436393,
+	"modifiedTime":1775407695821,
 	"name":"[MCP Server] Initialize",
 	"nodes":[
 		{
@@ -471,5 +410,5 @@
 	"tags":[
 		"MCP Server"
 	],
-	"version":161
+	"version":162
 }
