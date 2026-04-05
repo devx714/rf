@@ -4,14 +4,14 @@
 	],
 	"createdTime":1773768369273,
 	"deleted":false,
-	"deployedVersion":5,
+	"deployedVersion":8,
 	"deploymentState":{
-		"deployedAt":1775320567429,
+		"deployedAt":1775389855648,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13df783aecf24ec25453e",
+		"deployedDefinitionId":"69d24c9f50e82945c76a3d7f",
 		"status":"DEPLOYED",
-		"version":5,
-		"workflowVersion":8
+		"version":8,
+		"workflowVersion":14
 	},
 	"edges":[
 		{
@@ -47,6 +47,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -56,7 +57,7 @@
 	"id":"69a53f52af574e1b05b1dc82",
 	"lastModifiedBy":-1,
 	"lcName":"ocr document extraction | image enhancer ",
-	"modifiedTime":1775334338037,
+	"modifiedTime":1775390108079,
 	"name":"OCR Document Extraction | Image Enhancer ",
 	"nodes":[
 		{
@@ -293,5 +294,5 @@
 	"tags":[
 		
 	],
-	"version":10
+	"version":15
 }
