@@ -4,14 +4,14 @@
 	],
 	"createdTime":1766522833825,
 	"deleted":false,
-	"deployedVersion":21,
+	"deployedVersion":23,
 	"deploymentState":{
-		"deployedAt":1774342983351,
+		"deployedAt":1775334516472,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2534729fa153f07e09e1e",
+		"deployedDefinitionId":"69d1747439824e0613819f9a",
 		"status":"DEPLOYED",
-		"version":21,
-		"workflowVersion":56
+		"version":23,
+		"workflowVersion":60
 	},
 	"edges":[
 		{
@@ -124,7 +124,7 @@
 	"id":"69308ae7cd3248207d701dfb",
 	"lastModifiedBy":-1,
 	"lcName":"resync stuck knowledges",
-	"modifiedTime":1775320703054,
+	"modifiedTime":1775385652367,
 	"name":"Resync Stuck Knowledges",
 	"nodes":[
 		{
@@ -618,5 +618,5 @@
 	"tags":[
 		
 	],
-	"version":58
+	"version":62
 }
