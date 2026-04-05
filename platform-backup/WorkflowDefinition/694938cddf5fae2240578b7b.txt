@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769422070251,
 	"deleted":false,
-	"deployedVersion":16,
+	"deployedVersion":17,
 	"deploymentState":{
-		"deployedAt":1775334401104,
+		"deployedAt":1775385573987,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1740139824e061381994e",
+		"deployedDefinitionId":"69d23be5b31cfc01cc39ef62",
 		"status":"DEPLOYED",
-		"version":16,
-		"workflowVersion":34
+		"version":17,
+		"workflowVersion":36
 	},
 	"edges":[
 		{
@@ -198,7 +198,7 @@
 	"id":"694938cddf5fae2240578b7b",
 	"lastModifiedBy":-1,
 	"lcName":"simple call llm council",
-	"modifiedTime":1775385573933,
+	"modifiedTime":1775385573988,
 	"name":"Simple Call LLM Council",
 	"nodes":[
 		{
@@ -559,6 +559,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -801,6 +802,7 @@
 				"aggregatorLlmModelId":"{{ VurtA.outputs.aggregatorLlmModelId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1215,6 +1217,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
