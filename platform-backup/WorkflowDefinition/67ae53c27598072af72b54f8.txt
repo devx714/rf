@@ -4,14 +4,14 @@
 	],
 	"createdTime":1739535159744,
 	"deleted":false,
-	"deployedVersion":90,
+	"deployedVersion":93,
 	"deploymentState":{
-		"deployedAt":1774342972598,
+		"deployedAt":1775385641407,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2533c8d65fb68e1563ccd",
+		"deployedDefinitionId":"69d23c29b31cfc01cc39f3dd",
 		"status":"DEPLOYED",
-		"version":90,
-		"workflowVersion":164
+		"version":93,
+		"workflowVersion":170
 	},
 	"edges":[
 		{
@@ -40,27 +40,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"1"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -70,7 +49,7 @@
 	"id":"67ae53c27598072af72b54f8",
 	"lastModifiedBy":-1,
 	"lcName":"extract data from a pdf file",
-	"modifiedTime":1774622956427,
+	"modifiedTime":1775385641408,
 	"name":"Extract Data from a pdf file",
 	"nodes":[
 		{
@@ -558,5 +537,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":165
+	"version":170
 }
