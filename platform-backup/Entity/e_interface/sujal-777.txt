@@ -24,7 +24,7 @@
 	},
 	"id":"sujal-777",
 	"lastModifiedBy":195414,
-	"modifiedTime":1775371615491,
+	"modifiedTime":1775371659620,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -201,8 +201,7 @@
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
-			"e_69d205523749ce63c5e2d22e":"homepage",
-			"e_global_sujal-777":"global-page-of-sujal-777"
+			"e_69d205523749ce63c5e2d22e":"homepage"
 		},
 		"manifest":{
 			"type":"WEB"
@@ -213,9 +212,16 @@
 				"segment":"",
 				"children":[
 					"e_69d205523749ce63c5e2d22e",
-					"e_global_sujal-777"
+					"f_CfSD5"
 				],
 				"path":"/"
+			},
+			"f_CfSD5":{
+				"id":"f_CfSD5",
+				"segment":"hello",
+				"parentId":"f_root",
+				"children":[],
+				"path":"/hello"
 			}
 		},
 		"name":"sujal-777",
@@ -231,11 +237,6 @@
 				"slug":"homepage",
 				"isPublic":false,
 				"type":"PAGE"
-			},
-			"e_global_sujal-777":{
-				"slug":"global-page-of-sujal-777",
-				"isPublic":false,
-				"type":"PAGE"
 			}
 		}
 	},
@@ -243,5 +244,5 @@
 	"tags":[
 		
 	],
-	"version":2
+	"version":3
 }
