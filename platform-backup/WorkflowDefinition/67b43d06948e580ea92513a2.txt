@@ -4,14 +4,14 @@
 	],
 	"createdTime":1740110505876,
 	"deleted":false,
-	"deployedVersion":93,
+	"deployedVersion":94,
 	"deploymentState":{
-		"deployedAt":1775391243090,
+		"deployedAt":1775407724026,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2520b50e82945c76a6459",
+		"deployedDefinitionId":"69d2926ca2eda46706b044dc",
 		"status":"DEPLOYED",
-		"version":93,
-		"workflowVersion":157
+		"version":94,
+		"workflowVersion":159
 	},
 	"edges":[
 		{
@@ -236,6 +236,17 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
+					"V"
+				],
+				"principalIds":[
+					"522"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -245,7 +256,7 @@
 	"id":"67b43d06948e580ea92513a2",
 	"lastModifiedBy":-1,
 	"lcName":"retrigger agent executor",
-	"modifiedTime":1775407723972,
+	"modifiedTime":1775408108835,
 	"name":"Retrigger Agent Executor",
 	"nodes":[
 		{
@@ -504,6 +515,7 @@
 				"messageId":"{{ vUdEi.outputs.properties.lastFanMessageId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1042,5 +1054,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":159
+	"version":160
 }
