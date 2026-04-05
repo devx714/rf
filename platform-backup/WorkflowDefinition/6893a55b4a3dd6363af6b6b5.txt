@@ -160,7 +160,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -170,7 +169,7 @@
 	"id":"6893a55b4a3dd6363af6b6b5",
 	"lastModifiedBy":-1,
 	"lcName":"mimetype/author to chunkmetadata",
-	"modifiedTime":1775334707162,
+	"modifiedTime":1775385619091,
 	"name":"MimeType/Author to ChunkMetadata",
 	"nodes":[
 		{
@@ -312,7 +311,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -965,5 +963,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":97
+	"version":98
 }
