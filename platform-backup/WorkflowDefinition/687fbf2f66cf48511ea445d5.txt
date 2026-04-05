@@ -4,15 +4,15 @@
 	],
 	"createdTime":1754285427398,
 	"deleted":false,
-	"deployedVersion":86,
+	"deployedVersion":87,
 	"deploymentState":{
-		"deployedAt":1775391363469,
+		"deployedAt":1775407810310,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2528350e82945c76a6a7b",
+		"deployedDefinitionId":"69d292c20e422443cf56082c",
 		"deploymentTag":"is_deleted_check",
 		"status":"DEPLOYED",
-		"version":86,
-		"workflowVersion":144
+		"version":87,
+		"workflowVersion":146
 	},
 	"edges":[
 		{
@@ -41,6 +41,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -50,7 +51,7 @@
 	"id":"687fbf2f66cf48511ea445d5",
 	"lastModifiedBy":-1,
 	"lcName":"load downloading progress",
-	"modifiedTime":1775407810262,
+	"modifiedTime":1775408099626,
 	"name":"Load Downloading Progress",
 	"nodes":[
 		{
@@ -257,5 +258,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":146
+	"version":147
 }
