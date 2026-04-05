@@ -4,14 +4,14 @@
 	],
 	"createdTime":1760296247167,
 	"deleted":false,
-	"deployedVersion":51,
+	"deployedVersion":56,
 	"deploymentState":{
-		"deployedAt":1774342927875,
+		"deployedAt":1775391316236,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2530f29fa153f07e09c36",
+		"deployedDefinitionId":"69d2525450e82945c76a6871",
 		"status":"DEPLOYED",
-		"version":51,
-		"workflowVersion":100
+		"version":56,
+		"workflowVersion":110
 	},
 	"edges":[
 		{
@@ -122,6 +122,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -131,7 +132,7 @@
 	"id":"68dfd2e9ff54bc77a8a18919",
 	"lastModifiedBy":-1,
 	"lcName":"initialize knowledge object",
-	"modifiedTime":1775320651627,
+	"modifiedTime":1775391436936,
 	"name":"Initialize Knowledge Object",
 	"nodes":[
 		{
@@ -523,6 +524,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -862,5 +864,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":102
+	"version":111
 }
