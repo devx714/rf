@@ -2,10 +2,10 @@
 	"createdTime":1774420266200,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1775326959786,
+		"deployedAt":1775364595574,
 		"deployedBy":195414,
-		"entityVersion":33,
-		"version":3
+		"entityVersion":41,
+		"version":4
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -30,7 +30,7 @@
 	},
 	"id":"shubham-v2",
 	"lastModifiedBy":195414,
-	"modifiedTime":1775326959788,
+	"modifiedTime":1775364595576,
 	"ownerUserId":195802,
 	"properties":{
 		"standard":false,
@@ -45,7 +45,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":5,
+				"_pageCount":6,
 				"_moduleCount":0,
 				"_variableCounter":1
 			}
@@ -264,6 +264,7 @@
 		},
 		"interfacePageIdVsSlugMap":{
 			"e_69d15460066dbf20e3d48fae":"page-3",
+			"e_69d16339066dbf20e3d4984f":"page-6",
 			"e_69d154378cbf9634b68edaba":"world",
 			"e_69d1556d8cbf9634b68edac4":"page-4",
 			"e_69c38143f0be5570d09cd9d9":"homepage",
@@ -288,7 +289,8 @@
 				"parentId":"f_root",
 				"children":[
 					"e_69d154378cbf9634b68edaba",
-					"f_Dpj4v"
+					"f_Dpj4v",
+					"f_KuHmh"
 				],
 				"path":"/hello"
 			},
@@ -298,9 +300,62 @@
 				"parentId":"f_bRwDW",
 				"children":[
 					"e_69d15460066dbf20e3d48fae",
-					"e_69d156df8cbf9634b68edb09"
+					"e_69d156df8cbf9634b68edb09",
+					"f_c3hU2"
 				],
 				"path":"/hello/world"
+			},
+			"f_c3hU2":{
+				"id":"f_c3hU2",
+				"segment":":world",
+				"parentId":"f_Dpj4v",
+				"children":[
+					"f_AGs30"
+				],
+				"path":"/hello/world/:world"
+			},
+			"f_AGs30":{
+				"id":"f_AGs30",
+				"segment":"student",
+				"parentId":"f_c3hU2",
+				"children":[
+					"f_gRTlQ"
+				],
+				"path":"/hello/world/:world/student"
+			},
+			"f_gRTlQ":{
+				"id":"f_gRTlQ",
+				"segment":":student",
+				"parentId":"f_AGs30",
+				"children":[
+					"f_59fxH"
+				],
+				"path":"/hello/world/:world/student/:student"
+			},
+			"f_59fxH":{
+				"id":"f_59fxH",
+				"segment":"course",
+				"parentId":"f_gRTlQ",
+				"children":[],
+				"path":"/hello/world/:world/student/:student/course"
+			},
+			"f_KuHmh":{
+				"id":"f_KuHmh",
+				"segment":"subject",
+				"parentId":"f_bRwDW",
+				"children":[
+					"f_DeRzF"
+				],
+				"path":"/hello/subject"
+			},
+			"f_DeRzF":{
+				"id":"f_DeRzF",
+				"segment":":subject",
+				"parentId":"f_KuHmh",
+				"children":[
+					"e_69d16339066dbf20e3d4984f"
+				],
+				"path":"/hello/subject/:subject"
 			}
 		},
 		"name":"shubham",
@@ -312,6 +367,11 @@
 		"entityDetailsMap":{
 			"e_69d15460066dbf20e3d48fae":{
 				"slug":"page-3",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_69d16339066dbf20e3d4984f":{
+				"slug":"page-6",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -341,5 +401,5 @@
 	"tags":[
 		
 	],
-	"version":33
+	"version":41
 }
