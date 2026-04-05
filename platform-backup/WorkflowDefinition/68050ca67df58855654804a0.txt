@@ -4,14 +4,14 @@
 	],
 	"createdTime":1745179322875,
 	"deleted":false,
-	"deployedVersion":98,
+	"deployedVersion":99,
 	"deploymentState":{
-		"deployedAt":1775389932606,
+		"deployedAt":1775391258738,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d24cec50e82945c76a4151",
+		"deployedDefinitionId":"69d2521a50e82945c76a659f",
 		"status":"DEPLOYED",
-		"version":98,
-		"workflowVersion":163
+		"version":99,
+		"workflowVersion":165
 	},
 	"edges":[
 		{
@@ -198,45 +198,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"A",
-					"EXPORT_AS_TEMPLATE",
-					"C",
-					"S",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"DEP"
-				],
-				"principalIds":[
-					"83076"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"1866"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -246,7 +207,7 @@
 	"id":"68050ca67df58855654804a0",
 	"lastModifiedBy":-1,
 	"lcName":"invoke ai agent by unifyapps",
-	"modifiedTime":1775390109848,
+	"modifiedTime":1775407742678,
 	"name":"Invoke AI Agent By UnifyApps",
 	"nodes":[
 		{
@@ -650,7 +611,6 @@
 				"ai_agent_ua_test_mode":false
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -977,7 +937,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1162,7 +1121,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1740,7 +1698,6 @@
 				"ua_voice_session_enabled":"{{ n_Lgmon.outputs.ua_voice_session_enabled }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1883,5 +1840,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":164
+	"version":167
 }
