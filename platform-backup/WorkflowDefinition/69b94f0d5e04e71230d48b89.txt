@@ -4,14 +4,14 @@
 	],
 	"createdTime":1773928084689,
 	"deleted":false,
-	"deployedVersion":5,
+	"deployedVersion":6,
 	"deploymentState":{
-		"deployedAt":1775334354581,
+		"deployedAt":1775385549948,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173d239824e0613819721",
+		"deployedDefinitionId":"69d23bcdb31cfc01cc39ed46",
 		"status":"DEPLOYED",
-		"version":5,
-		"workflowVersion":17
+		"version":6,
+		"workflowVersion":19
 	},
 	"edges":[
 		{
@@ -213,7 +213,7 @@
 	"id":"69b94f0d5e04e71230d48b89",
 	"lastModifiedBy":-1,
 	"lcName":"memory | fetch applicable memories",
-	"modifiedTime":1775385549897,
+	"modifiedTime":1775389881558,
 	"name":"Memory | Fetch Applicable Memories",
 	"nodes":[
 		{
@@ -2101,5 +2101,5 @@
 	"tags":[
 		
 	],
-	"version":19
+	"version":21
 }
