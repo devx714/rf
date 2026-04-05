@@ -31,7 +31,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"knowledge enrichment interface",
-	"modifiedTime":1775389812004,
+	"modifiedTime":1775407556976,
 	"name":"Knowledge Enrichment Interface",
 	"output":{
 		"dynamic":false,
@@ -52,5 +52,5 @@
 	},
 	"ownerUserId":311,
 	"standard":false,
-	"version":101
+	"version":105
 }
