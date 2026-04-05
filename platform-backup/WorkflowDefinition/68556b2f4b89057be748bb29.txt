@@ -4,14 +4,14 @@
 	],
 	"createdTime":1750510602042,
 	"deleted":false,
-	"deployedVersion":40,
+	"deployedVersion":43,
 	"deploymentState":{
-		"deployedAt":1774342878361,
+		"deployedAt":1775385561333,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252de29fa153f07e099bb",
+		"deployedDefinitionId":"69d23bd9b31cfc01cc39ee7e",
 		"status":"DEPLOYED",
-		"version":40,
-		"workflowVersion":80
+		"version":43,
+		"workflowVersion":86
 	},
 	"edges":[
 		{
@@ -70,7 +70,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -80,7 +79,7 @@
 	"id":"68556b2f4b89057be748bb29",
 	"lastModifiedBy":-1,
 	"lcName":"get apppeoplemapping",
-	"modifiedTime":1774622955525,
+	"modifiedTime":1775389920896,
 	"name":"Get AppPeopleMapping",
 	"nodes":[
 		{
@@ -389,5 +388,5 @@
 	"tags":[
 		
 	],
-	"version":81
+	"version":88
 }
