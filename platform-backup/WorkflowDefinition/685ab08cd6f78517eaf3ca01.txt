@@ -4,14 +4,14 @@
 	],
 	"createdTime":1750946773840,
 	"deleted":false,
-	"deployedVersion":82,
+	"deployedVersion":87,
 	"deploymentState":{
-		"deployedAt":1774342905562,
+		"deployedAt":1775391295537,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252f98d65fb68e1563992",
+		"deployedDefinitionId":"69d2523f50e82945c76a66d5",
 		"status":"DEPLOYED",
-		"version":82,
-		"workflowVersion":132
+		"version":87,
+		"workflowVersion":142
 	},
 	"edges":[
 		{
@@ -106,7 +106,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -116,7 +115,7 @@
 	"id":"685ab08cd6f78517eaf3ca01",
 	"lastModifiedBy":-1,
 	"lcName":"copilot | live chat | fetch replied to messages",
-	"modifiedTime":1774622955335,
+	"modifiedTime":1775407760468,
 	"name":"Copilot | Live Chat | Fetch Replied To Messages",
 	"nodes":[
 		{
@@ -548,7 +547,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1092,5 +1090,5 @@
 	"tags":[
 		
 	],
-	"version":133
+	"version":144
 }
