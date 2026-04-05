@@ -3,7 +3,7 @@
 		
 	],
 	"createdTime":1775365083775,
-	"deleted":false,
+	"deleted":true,
 	"edges":[
 		{
 			"fromNodeId":"7pKsG",
@@ -16,7 +16,7 @@
 	"id":"69d1ebdb3056b31235b5577b",
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa21775365083754iouofsgfvn",
-	"modifiedTime":1775365133400,
+	"modifiedTime":1775365184399,
 	"name":"changeSetQA21775365083754IouofSGFVN",
 	"nodes":[
 		{
@@ -26,7 +26,7 @@
 				"resourceName":"callables_from_automation"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"5stgo-1",
 			"id":"7pKsG",
@@ -80,7 +80,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"5stgo-1",
 			"id":"mGr1K",
@@ -109,5 +109,5 @@
 	"tags":[
 		
 	],
-	"version":2
+	"version":3
 }
