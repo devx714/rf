@@ -4,14 +4,14 @@
 	],
 	"createdTime":1731130835583,
 	"deleted":false,
-	"deployedVersion":113,
+	"deployedVersion":114,
 	"deploymentState":{
-		"deployedAt":1775334339450,
+		"deployedAt":1775385537974,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173c339824e061381962a",
+		"deployedDefinitionId":"69d23bc1b31cfc01cc39eb59",
 		"status":"DEPLOYED",
-		"version":113,
-		"workflowVersion":169
+		"version":114,
+		"workflowVersion":171
 	},
 	"edges":[
 		{
@@ -113,7 +113,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -123,7 +122,7 @@
 	"id":"672ef5d39d0e461f4f99c43d",
 	"lastModifiedBy":-1,
 	"lcName":"publish data rag response",
-	"modifiedTime":1775334706854,
+	"modifiedTime":1775389857601,
 	"name":"Publish Data RAG response",
 	"nodes":[
 		{
@@ -301,7 +300,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -680,6 +678,7 @@
 			"enableTelemetry":true,
 			"metricConfigs":[
 				{
+					"baseMetricType":"COUNTER",
 					"eventType":"ALWAYS_START",
 					"metricType":"WORKFLOW_EXECUTION",
 					"name":"metric123",
@@ -699,6 +698,7 @@
 					]
 				},
 				{
+					"baseMetricType":"COUNTER",
 					"eventType":"ALWAYS_END",
 					"metricType":"WORKFLOW_EXECUTION",
 					"name":"metric234",
@@ -728,5 +728,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":170
+	"version":173
 }
