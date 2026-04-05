@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748544420195,
 	"deleted":false,
-	"deployedVersion":78,
+	"deployedVersion":80,
 	"deploymentState":{
-		"deployedAt":1775320623511,
+		"deployedAt":1775385574194,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e2fc6b0c9120df173bd",
+		"deployedDefinitionId":"69d23be6b31cfc01cc39ef66",
 		"status":"DEPLOYED",
-		"version":78,
-		"workflowVersion":168
+		"version":80,
+		"workflowVersion":172
 	},
 	"edges":[
 		{
@@ -264,7 +264,7 @@
 	"id":"67d974b49fd67f0caf7bbbde",
 	"lastModifiedBy":-1,
 	"lcName":"graphrag | index chunks",
-	"modifiedTime":1775334401205,
+	"modifiedTime":1775389958478,
 	"name":"GraphRAG | Index Chunks",
 	"nodes":[
 		{
@@ -2694,5 +2694,5 @@
 	"tags":[
 		"GraphRAG"
 	],
-	"version":170
+	"version":174
 }
