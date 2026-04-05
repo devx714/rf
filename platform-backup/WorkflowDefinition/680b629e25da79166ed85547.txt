@@ -4,14 +4,14 @@
 	],
 	"createdTime":1745576606245,
 	"deleted":false,
-	"deployedVersion":108,
+	"deployedVersion":110,
 	"deploymentState":{
-		"deployedAt":1775320622425,
+		"deployedAt":1775385573354,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e2ec6b0c9120df173ad",
+		"deployedDefinitionId":"69d23be5b31cfc01cc39ef56",
 		"status":"DEPLOYED",
-		"version":108,
-		"workflowVersion":161
+		"version":110,
+		"workflowVersion":165
 	},
 	"edges":[
 		{
@@ -159,7 +159,7 @@
 	"id":"680b629e25da79166ed85547",
 	"lastModifiedBy":-1,
 	"lcName":"ai eval | metrics | citation evals",
-	"modifiedTime":1775334400438,
+	"modifiedTime":1775389957151,
 	"name":"AI Eval | Metrics | Citation Evals",
 	"nodes":[
 		{
@@ -1105,5 +1105,5 @@
 	"tags":[
 		
 	],
-	"version":163
+	"version":167
 }
