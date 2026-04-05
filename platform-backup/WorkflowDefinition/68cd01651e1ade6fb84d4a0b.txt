@@ -4,14 +4,14 @@
 	],
 	"createdTime":1758646553643,
 	"deleted":false,
-	"deployedVersion":55,
+	"deployedVersion":58,
 	"deploymentState":{
-		"deployedAt":1774342899366,
+		"deployedAt":1775385577831,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252f329fa153f07e09a72",
+		"deployedDefinitionId":"69d23be9b31cfc01cc39efa4",
 		"status":"DEPLOYED",
-		"version":55,
-		"workflowVersion":107
+		"version":58,
+		"workflowVersion":113
 	},
 	"edges":[
 		{
@@ -114,7 +114,7 @@
 	"id":"68cd01651e1ade6fb84d4a0b",
 	"lastModifiedBy":-1,
 	"lcName":"remove expired knowledge chunks",
-	"modifiedTime":1775320628154,
+	"modifiedTime":1775385577833,
 	"name":"Remove Expired Knowledge Chunks",
 	"nodes":[
 		{
@@ -181,6 +181,7 @@
 				"hasMore":true
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -537,5 +538,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":109
+	"version":113
 }
