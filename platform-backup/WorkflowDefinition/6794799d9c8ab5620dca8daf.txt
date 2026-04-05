@@ -4,14 +4,14 @@
 	],
 	"createdTime":1738062236424,
 	"deleted":false,
-	"deployedVersion":118,
+	"deployedVersion":122,
 	"deploymentState":{
-		"deployedAt":1775334395431,
+		"deployedAt":1775407741050,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173fb39824e06138198e2",
+		"deployedDefinitionId":"69d2927c0e422443cf560525",
 		"status":"DEPLOYED",
-		"version":118,
-		"workflowVersion":166
+		"version":122,
+		"workflowVersion":174
 	},
 	"edges":[
 		{
@@ -554,7 +554,7 @@
 	"id":"6794799d9c8ab5620dca8daf",
 	"lastModifiedBy":-1,
 	"lcName":"agent system prompt generator",
-	"modifiedTime":1775334705809,
+	"modifiedTime":1775408106513,
 	"name":"Agent System Prompt Generator",
 	"nodes":[
 		{
@@ -4130,5 +4130,5 @@
 		"AI Agent",
 		"Team"
 	],
-	"version":167
+	"version":175
 }
