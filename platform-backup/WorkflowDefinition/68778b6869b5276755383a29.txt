@@ -4,14 +4,14 @@
 	],
 	"createdTime":1757060049358,
 	"deleted":false,
-	"deployedVersion":43,
+	"deployedVersion":45,
 	"deploymentState":{
-		"deployedAt":1775385571700,
+		"deployedAt":1775391260844,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23be3b31cfc01cc39ef32",
+		"deployedDefinitionId":"69d2521c50e82945c76a65b7",
 		"status":"DEPLOYED",
-		"version":43,
-		"workflowVersion":112
+		"version":45,
+		"workflowVersion":116
 	},
 	"edges":[
 		{
@@ -68,6 +68,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -77,7 +78,7 @@
 	"id":"68778b6869b5276755383a29",
 	"lastModifiedBy":-1,
 	"lcName":"[indexing dashboard] fetch indexer cursor specific schedulers",
-	"modifiedTime":1775389954766,
+	"modifiedTime":1775391434735,
 	"name":"[Indexing Dashboard] Fetch Indexer Cursor Specific Schedulers",
 	"nodes":[
 		{
@@ -186,6 +187,7 @@
 				"domain":"{{ __ENV__.outputs.PlatformDomain }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -622,5 +624,5 @@
 		}
 	},
 	"standard":true,
-	"version":114
+	"version":117
 }
