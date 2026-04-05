@@ -280,7 +280,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -290,7 +289,7 @@
 	"id":"673ed795befa5e1573509477",
 	"lastModifiedBy":-1,
 	"lcName":"slack publisher (ai agent)",
-	"modifiedTime":1775391432951,
+	"modifiedTime":1775407727398,
 	"name":"Slack Publisher (AI Agent)",
 	"nodes":[
 		{
@@ -518,7 +517,6 @@
 				"content":"{{ _WKf7K.outputs.content }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1242,7 +1240,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1719,5 +1716,5 @@
 		"AI Agent",
 		"Publish"
 	],
-	"version":93
+	"version":94
 }
