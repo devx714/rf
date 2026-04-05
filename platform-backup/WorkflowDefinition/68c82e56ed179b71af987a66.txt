@@ -4,14 +4,14 @@
 	],
 	"createdTime":1759243631921,
 	"deleted":false,
-	"deployedVersion":38,
+	"deployedVersion":40,
 	"deploymentState":{
-		"deployedAt":1775385642150,
+		"deployedAt":1775391392503,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c2ab31cfc01cc39f3ed",
+		"deployedDefinitionId":"69d252a050e82945c76a6cc9",
 		"status":"DEPLOYED",
-		"version":38,
-		"workflowVersion":78
+		"version":40,
+		"workflowVersion":82
 	},
 	"edges":[
 		{
@@ -86,7 +86,7 @@
 	"id":"68c82e56ed179b71af987a66",
 	"lastModifiedBy":-1,
 	"lcName":"call automation and emit signal",
-	"modifiedTime":1775385642151,
+	"modifiedTime":1775407840534,
 	"name":"Call Automation And Emit Signal",
 	"nodes":[
 		{
@@ -541,5 +541,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":78
+	"version":84
 }
