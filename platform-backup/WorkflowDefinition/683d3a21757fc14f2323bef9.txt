@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748843041405,
 	"deleted":false,
-	"deployedVersion":43,
+	"deployedVersion":44,
 	"deploymentState":{
-		"deployedAt":1775391251063,
+		"deployedAt":1775407732506,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2521250e82945c76a64f8",
+		"deployedDefinitionId":"69d29274a2eda46706b04538",
 		"status":"DEPLOYED",
-		"version":43,
-		"workflowVersion":95
+		"version":44,
+		"workflowVersion":97
 	},
 	"edges":[
 		{
@@ -286,6 +286,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -295,7 +296,7 @@
 	"id":"683d3a21757fc14f2323bef9",
 	"lastModifiedBy":-1,
 	"lcName":"[external mcp server] tool call",
-	"modifiedTime":1775407732397,
+	"modifiedTime":1775408097469,
 	"name":"[External MCP Server] Tool Call",
 	"nodes":[
 		{
@@ -838,6 +839,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1379,6 +1381,7 @@
 				"mcpUrl":"{{ KResr.outputs.result.mcpUrl }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2319,5 +2322,5 @@
 	"tags":[
 		"External MCP"
 	],
-	"version":97
+	"version":98
 }
