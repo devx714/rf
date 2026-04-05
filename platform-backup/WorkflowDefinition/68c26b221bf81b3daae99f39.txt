@@ -4,14 +4,14 @@
 	],
 	"createdTime":1757961528767,
 	"deleted":false,
-	"deployedVersion":48,
+	"deployedVersion":51,
 	"deploymentState":{
-		"deployedAt":1775385560256,
+		"deployedAt":1775407727887,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bd8b31cfc01cc39ee68",
+		"deployedDefinitionId":"69d2926f0e422443cf5604a3",
 		"status":"DEPLOYED",
-		"version":48,
-		"workflowVersion":103
+		"version":51,
+		"workflowVersion":109
 	},
 	"edges":[
 		{
@@ -70,6 +70,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -79,7 +80,7 @@
 	"id":"68c26b221bf81b3daae99f39",
 	"lastModifiedBy":-1,
 	"lcName":"eval | metrics | calculate derived metric score",
-	"modifiedTime":1775389918896,
+	"modifiedTime":1775408106444,
 	"name":"Eval | Metrics | Calculate Derived Metric Score",
 	"nodes":[
 		{
@@ -435,5 +436,5 @@
 	"tags":[
 		
 	],
-	"version":105
+	"version":110
 }
