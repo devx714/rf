@@ -97,7 +97,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -107,7 +106,7 @@
 	"id":"688b0bb8e81f724f111f64de",
 	"lastModifiedBy":-1,
 	"lcName":"analysefile tool (wrapper)",
-	"modifiedTime":1775334707242,
+	"modifiedTime":1775385587984,
 	"name":"AnalyseFile Tool (Wrapper)",
 	"nodes":[
 		{
@@ -243,7 +242,6 @@
 				"aiAgentId":"{{ n_2zmWK.outputs.triggeredByAgentId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -299,7 +297,6 @@
 				"maxTokenLimit":75000
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -554,7 +551,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -966,5 +962,5 @@
 	"tags":[
 		
 	],
-	"version":98
+	"version":99
 }
