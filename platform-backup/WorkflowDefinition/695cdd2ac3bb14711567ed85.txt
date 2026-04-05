@@ -1,0 +1,838 @@
+{
+	"appsUsed":[
+		"gmail"
+	],
+	"createdTime":1773928119909,
+	"deleted":false,
+	"deployedVersion":3,
+	"deploymentState":{
+		"deployedAt":1775391264029,
+		"deployedBy":-1,
+		"deployedDefinitionId":"69d2521f50e82945c76a65fb",
+		"status":"DEPLOYED",
+		"version":3,
+		"workflowVersion":36
+	},
+	"edges":[
+		{
+			"fromNodeId":"n_MX5xx",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_7l6SD",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_7l6SD",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"S3ti0",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"S3ti0",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"to1iu",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"to1iu",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"JX0I7",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"JX0I7",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_4hbVa",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"_4hbVa",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_EjjFi",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_EjjFi",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_hBkKM",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"n_hBkKM",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_6foSg",
+			"type":"loop"
+		},
+		{
+			"fromNodeId":"n_6foSg",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_Jey7v",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_Jey7v",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_J6fua",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_J6fua",
+			"name":"loopback",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_hBkKM",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_hBkKM",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_Rah3o",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_EjjFi",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_Rah3o",
+			"type":"next"
+		}
+	],
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"V"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"695cdd2ac3bb14711567ed85",
+	"lastModifiedBy":-1,
+	"lcName":"knowledge downloader | gmail | mail",
+	"modifiedTime":1775407748141,
+	"name":"Knowledge Downloader | Gmail | Mail",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":445,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_7q32U-1",
+			"id":"n_MX5xx",
+			"index":1,
+			"inputs":{
+				"result":{
+					"additionalProperties":false,
+					"properties":{
+						"Success":{
+							"title":"Success",
+							"type":"boolean"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"setup":{
+					"additionalProperties":false,
+					"properties":{
+						"Id":{
+							"title":"Id",
+							"type":"string"
+						},
+						"includeAttachments":{
+							"title":"Include Attachments",
+							"type":"boolean"
+						},
+						"knowledge":{
+							"additionalProperties":false,
+							"properties":{
+								"indexingVersion":{
+									"title":"Indexing Version",
+									"type":"integer"
+								}
+							},
+							"required":[],
+							"title":"Knowledge",
+							"type":"object"
+						},
+						"knowledgeId":{
+							"title":"Knowledge Id",
+							"type":"string"
+						},
+						"knowledgeSetId":{
+							"title":"Knowledge Set Id",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"gmail",
+				"resourceVersion":2617,
+				"connectionId":"698731733b3ed30aa0b58542",
+				"resourceName":"gmail_get_message",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_7q32U-1",
+			"id":"n_7l6SD",
+			"index":2,
+			"inputs":{
+				"format":"full",
+				"id":"{{ n_MX5xx.outputs.Id }}"
+			},
+			"skip":false,
+			"subTitle":"Gmail",
+			"title":"Get message",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":142,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_7q32U-1",
+			"id":"S3ti0",
+			"index":3,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"textData":{
+							"title":"Text Data",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"payload":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Payload",
+							"type":"object"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"import java.util.Base64\n\ndef extractTextData(payload) {\n\n    def plainText = null\n    def htmlText = null\n\n    def walk\n    walk = { parts ->\n        if (!parts) return\n\n        for (part in parts) {\n            if (!(part instanceof Map)) continue\n\n            def mime = part.mimeType?.toLowerCase()\n\n            if (mime?.startsWith(\"multipart/\")) {\n                walk(part.parts)\n                continue\n            }\n\n            if (mime == \"text/plain\" && part.body?.data && !plainText) {\n                plainText = part.body.data\n            }\n\n            if (mime == \"text/html\" && part.body?.data && !htmlText) {\n                htmlText = part.body.data\n            }\n        }\n    }\n\n    if (payload?.parts) {\n        walk(payload.parts)\n    } else if (payload?.body?.data) {\n        plainText = payload.body.data\n    }\n\n    return plainText ?: htmlText\n}\n\n// ---- Entry Point ----\n\nif (!binding.hasVariable('payload')) {\n    return [\"textData\": \"\"]\n}\n\ndef encodedString = extractTextData(payload)\n\ndef decodedString = \"\"\nif (encodedString?.trim()) {\n    try {\n        byte[] decodedBytes = Base64.getUrlDecoder().decode(encodedString)\n        decodedString = new String(decodedBytes, \"UTF-8\")\n    } catch (Exception e) {\n        decodedString = \"Invalid Base64 format\"\n    }\n}\n\nreturn [\"textData\": decodedString]",
+				"compile_static":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"payload":"{{ n_7l6SD.outputs.payload }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Extracting content and convert base64 to text",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":142,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_7q32U-1",
+			"id":"to1iu",
+			"index":4,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"allEmailsList":{
+							"items":{
+								"type":"string"
+							},
+							"title":"All Email List",
+							"type":"array"
+						},
+						"attachments":{
+							"items":{
+								"additionalProperties":false,
+								"properties":{
+									"attachmentId":{
+										"title":"Attachment Id",
+										"type":"string"
+									},
+									"filename":{
+										"title":"Filename",
+										"type":"string"
+									}
+								},
+								"required":[],
+								"type":"object"
+							},
+							"title":"Attachments",
+							"type":"array"
+						},
+						"bccEmails":{
+							"items":{
+								"type":"string"
+							},
+							"title":"Bcc Emails",
+							"type":"array"
+						},
+						"ccEmails":{
+							"items":{
+								"type":"string"
+							},
+							"title":"Cc Emails",
+							"type":"array"
+						},
+						"content":{
+							"title":"Content",
+							"type":"string"
+						},
+						"date":{
+							"title":"Date",
+							"type":"string"
+						},
+						"fromEmail":{
+							"title":"From Email",
+							"type":"string"
+						},
+						"labels":{
+							"items":{
+								"type":"string"
+							},
+							"title":"Labels",
+							"type":"array"
+						},
+						"messageID":{
+							"title":"Message ID",
+							"type":"string"
+						},
+						"snippet":{
+							"title":"Snippet",
+							"type":"string"
+						},
+						"subject":{
+							"title":"Subject",
+							"type":"string"
+						},
+						"threadID":{
+							"title":"Thread ID",
+							"type":"string"
+						},
+						"toEmails":{
+							"items":{
+								"type":"string"
+							},
+							"title":"To Emails",
+							"type":"array"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"content":{
+							"title":"Content",
+							"type":"string"
+						},
+						"jsonObject":{
+							"additionalProperties":false,
+							"properties":{
+								"historyId":{
+									"title":"History Id",
+									"type":"string"
+								},
+								"id":{
+									"title":"Id",
+									"type":"string"
+								},
+								"internalDate":{
+									"title":"Internal Date",
+									"type":"string"
+								},
+								"labels":{
+									"items":{
+										"type":"string"
+									},
+									"title":"Labels",
+									"type":"array"
+								},
+								"payload":{
+									"additionalProperties":false,
+									"properties":{
+										"headers":{
+											"items":{
+												"additionalProperties":false,
+												"properties":{},
+												"type":"object"
+											},
+											"title":"Headers",
+											"type":"array"
+										},
+										"parts":{
+											"items":{
+												"additionalProperties":false,
+												"properties":{},
+												"type":"object"
+											},
+											"title":"Parts",
+											"type":"array"
+										}
+									},
+									"required":[
+										"headers",
+										"parts"
+									],
+									"title":"Payload",
+									"type":"object"
+								},
+								"sizeEstimate":{
+									"title":"Size Estimate",
+									"type":"integer"
+								},
+								"snippet":{
+									"title":"Snippet",
+									"type":"string"
+								},
+								"threadId":{
+									"title":"Thread Id",
+									"type":"string"
+								}
+							},
+							"required":[
+								"id",
+								"threadId",
+								"snippet",
+								"payload",
+								"sizeEstimate",
+								"historyId",
+								"internalDate",
+								"labels"
+							],
+							"title":"Json Object",
+							"type":"object"
+						}
+					},
+					"required":[
+						"jsonObject"
+					],
+					"type":"object"
+				},
+				"code":"import java.text.SimpleDateFormat\n\n// Returns a single email address from a header value.\n// If the text contains \"<>\", extract the email inside; otherwise, return the trimmed text.\ndef extractSingleEmail(String text) {\n    if (text == null) return \"\"\n    if (text.contains(\"<\")) {\n        def matcher = text =~ /<([^>]+)>/\n        return matcher.find() ? matcher.group(1) : text.trim()\n    } else {\n        return text.trim()\n    }\n}\n\n// Returns a list of email addresses from a header value.\n// If the text contains \"<>\", extract all emails; otherwise, split by comma.\ndef extractMultipleEmails(String text) {\n    if (text == null) return []\n    if (text.contains(\"<\")) {\n        def matcher = text =~ /<([^>]+)>/\n        return matcher.collect { it[1] }\n    } else {\n        return text.split(\",\").collect { it.trim() }\n    }\n}\n\n// Recursively extract all attachment IDs from parts (if any).\ndef extractAttachments(parts) {\n    def attachments = []\n    if (!parts) return attachments\n\n    parts.each { part ->\n        if (part.body?.attachmentId) {\n            def filename = part.filename ?: \"attachment\"\n            attachments << [\n                attachmentId: part.body.attachmentId,\n                filename    : filename\n            ]\n        }\n        if (part.parts) {\n            attachments.addAll(extractAttachments(part.parts))\n        }\n    }\n    return attachments\n}\n\ndef formatEpochToDate(String epochMillis) {\n    try {\n        def date = new Date(epochMillis.toLong())\n        return new SimpleDateFormat(\"dd/MM/yyyy\").format(date)\n    } catch (Exception e) {\n        return \"\"\n    }\n}\n\n// --- Main Extraction Code ---\n\ndef headers = jsonObject.payload.headers\n\ndef fromHeader = headers.find { it.name.equalsIgnoreCase(\"From\") }?.value ?: \"\"\ndef toHeader   = headers.find { it.name.equalsIgnoreCase(\"To\") }?.value ?: \"\"\ndef ccHeader   = headers.find { it.name.equalsIgnoreCase(\"Cc\") }?.value ?: \"\"\ndef bccHeader   = headers.find { it.name.equalsIgnoreCase(\"Bcc\") }?.value ?: \"\"\ndef subject    = headers.find { it.name.equalsIgnoreCase(\"Subject\") }?.value ?: \"\"\n\ndef fromEmail = extractSingleEmail(fromHeader)\ndef toEmails   = extractMultipleEmails(toHeader)\ndef ccEmails  = extractMultipleEmails(ccHeader)\ndef bccEmails  = extractMultipleEmails(bccHeader)\n\n// Build the allEmailsList from From, To, and Cc headers.\ndef allEmails = []\nheaders.findAll { header ->\n    header.name.equalsIgnoreCase(\"From\") ||\n    header.name.equalsIgnoreCase(\"To\") ||\n    header.name.equalsIgnoreCase(\"Cc\") || \n    header.name.equalsIgnoreCase(\"Bcc\")\n}.each { header ->\n    allEmails.addAll(extractMultipleEmails(header.value))\n}\nallEmails = allEmails.unique()\n\ndef formattedDate = formatEpochToDate(jsonObject.internalDate)\ndef snippet = jsonObject.snippet ?: \"\"\ndef attachments = []\nif (jsonObject.payload.parts) {\n    attachments = extractAttachments(jsonObject.payload.parts)\n}\n\ndef content = binding.hasVariable('content') ? content : \"\"\n\n// Build the final output map.\nreturn result = [\n    \"messageID\"     : jsonObject.id,\n    \"threadID\"      : jsonObject.threadId,\n    \"labels\"        : jsonObject.labels,\n    \"fromEmail\"     : fromEmail,\n    \"toEmails\"      : toEmails,\n    \"ccEmails\"      : ccEmails,\n    \"bccEmails\"     : bccEmails,\n    \"allEmailsList\" : allEmails,\n    \"subject\"       : subject,\n    \"snippet\"       : snippet,\n    \"date\"          : formattedDate,\n    \"attachments\"   : attachments,\n    \"content\"       : content\n]\n",
+				"compile_static":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"content":"{{ S3ti0.outputs.result.textData }}",
+					"jsonObject":{
+						"historyId":"{{ n_7l6SD.outputs.historyId }}",
+						"id":"{{ n_7l6SD.outputs.id }}",
+						"internalDate":"{{ n_7l6SD.outputs.internalDate }}",
+						"labels":{
+							"items":"{{ n_7l6SD.outputs.labelIds[0] }}",
+							"source":"{{ n_7l6SD.outputs.labelIds }}",
+							"ua:type":"mappedArray"
+						},
+						"payload":{
+							"headers":{
+								"items":"{{ n_7l6SD.outputs.payload.headers[0] }}",
+								"source":"{{ n_7l6SD.outputs.payload.headers }}",
+								"ua:type":"mappedArray"
+							},
+							"parts":{
+								"items":"{{ n_7l6SD.outputs.payload.parts[0] }}",
+								"source":"{{ n_7l6SD.outputs.payload.parts }}",
+								"ua:type":"mappedArray"
+							}
+						},
+						"sizeEstimate":"{{ n_7l6SD.outputs.sizeEstimate }}",
+						"snippet":"{{ n_7l6SD.outputs.snippet }}",
+						"threadId":"{{ n_7l6SD.outputs.threadId }}"
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Extract other data from response",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":415,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_7q32U-1",
+			"id":"JX0I7",
+			"index":5,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"emailGrants":{
+							"items":{
+								"type":"string"
+							},
+							"title":"Email Grants",
+							"type":"array"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"allEmailsList":{
+							"items":{
+								"type":"string"
+							},
+							"title":"All Emails List",
+							"type":"array"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"def emailGrants = []\n\nallEmailsList.each { item ->\n    emailGrants << \"gmail/u/\" + item\n}\n\nreturn [\"emailGrants\": emailGrants]\n",
+				"compile_static":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"allEmailsList":{
+						"items":"{{ to1iu.outputs.result.allEmailsList[0] }}",
+						"source":"{{ to1iu.outputs.result.allEmailsList }}",
+						"ua:type":"mappedArray"
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Get email shared with ids",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":459,
+				"resourceName":"callables_call_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_7q32U-1",
+			"id":"_4hbVa",
+			"index":6,
+			"inputs":{
+				"automationId":"6867a54b78989b484e92345e",
+				"runtimeConnections":{},
+				"synchronous":true,
+				"parameters":{
+					"knowledgeId":"{{ n_MX5xx.outputs.knowledgeId }}",
+					"knowledgeSetId":"{{ n_MX5xx.outputs.knowledgeSetId }}",
+					"knowledgeVersion":"{{ n_MX5xx.outputs.knowledge.indexingVersion }}",
+					"resourceType":"mailContent",
+					"sharedWithIds":{
+						"items":"{{ JX0I7.outputs.result.emailGrants[0] }}",
+						"source":"{{ JX0I7.outputs.result.emailGrants }}",
+						"ua:type":"mappedArray"
+					},
+					"sourceResponse":"{{ to1iu.outputs.result }}",
+					"uniqueEntityId":"{{ n_MX5xx.outputs.Id }}"
+				},
+				"version":"-1"
+			},
+			"skip":false,
+			"subTitle":"Store Raw Data",
+			"title":"Call automation",
+			"type":"CALL_WORKFLOW"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":450,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_7q32U-1",
+			"id":"n_EjjFi",
+			"index":7,
+			"inputs":{
+				"filters":[
+					{
+						"filter":{
+							"operator":"GT",
+							"value":"0"
+						},
+						"property":"=LEN({{ to1iu.outputs.result.attachments }})"
+					},
+					{
+						"filter":{
+							"operator":"EQUAL",
+							"value":"true"
+						},
+						"property":"{{ n_MX5xx.outputs.includeAttachments }}"
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"loop",
+				"resourceVersion":468,
+				"resourceName":"loop_for_each",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_EjjFi@_7q32U-1@y",
+			"id":"n_hBkKM",
+			"index":8,
+			"inputs":{
+				"repeatMode":"SINGLE",
+				"listSource":"{{ to1iu.outputs.result.attachments }}",
+				"captureIterations":false
+			},
+			"skip":false,
+			"subTitle":"Loop",
+			"title":"For each loop",
+			"type":"LOOP"
+		},
+		{
+			"context":{
+				"appName":"gmail",
+				"resourceVersion":2613,
+				"connectionId":"698731733b3ed30aa0b58542",
+				"resourceName":"gmail_download_attachment",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_hBkKM@n_EjjFi@_7q32U-1@y@l",
+			"id":"n_6foSg",
+			"index":9,
+			"inputs":{
+				"messageId":"{{ n_MX5xx.outputs.Id }}",
+				"attachmentId":"{{ n_hBkKM.outputs.item.attachmentId }}"
+			},
+			"skip":false,
+			"subTitle":"Gmail",
+			"title":"Download attachment",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":448,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_hBkKM@n_EjjFi@_7q32U-1@y@l",
+			"id":"n_Jey7v",
+			"index":10,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"sourceResponse":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Source Response",
+							"type":"object"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"attachmentId":{
+							"title":"Attachment Id",
+							"type":"string"
+						},
+						"date":{
+							"title":"Date",
+							"type":"string"
+						},
+						"fileDetails":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"File Details",
+							"type":"object"
+						},
+						"fromEmail":{
+							"title":"From Email",
+							"type":"string"
+						},
+						"messageId":{
+							"title":"Message Id",
+							"type":"string"
+						},
+						"name":{
+							"title":"Name",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"return [\n  \"sourceResponse\":[\n    \"response\" : [\n      \"messageId\": messageId,\n      \"name\": name,\n      \"attachmentId\": attachmentId,\n      \"fromEmail\": fromEmail,\n      \"date\": date\n    ],\n    \"fileDetails\" : fileDetails\n  ]\n]",
+				"compile_static":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"attachmentId":"{{ n_hBkKM.outputs.item.attachmentId }}",
+					"date":"{{ to1iu.outputs.result.date }}",
+					"fileDetails":"{{ n_6foSg.outputs.file }}",
+					"fromEmail":"{{ to1iu.outputs.result.fromEmail }}",
+					"messageId":"{{ to1iu.outputs.result.messageID }}",
+					"name":"{{ n_hBkKM.outputs.item.filename }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Create sourceResponse ",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":459,
+				"resourceName":"callables_call_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_hBkKM@n_EjjFi@_7q32U-1@y@l",
+			"id":"n_J6fua",
+			"index":11,
+			"inputs":{
+				"automationId":"6867a54b78989b484e92345e",
+				"runtimeConnections":{},
+				"synchronous":true,
+				"parameters":{
+					"isTypeFile":true,
+					"knowledgeId":"{{ n_MX5xx.outputs.knowledgeId }}",
+					"knowledgeSetId":"{{ n_MX5xx.outputs.knowledgeSetId }}",
+					"knowledgeVersion":"{{ n_MX5xx.outputs.knowledge.indexingVersion }}",
+					"resourceType":"mailAttachment",
+					"sharedWithIds":{
+						"items":"{{ JX0I7.outputs.result.emailGrants[0] }}",
+						"source":"{{ JX0I7.outputs.result.emailGrants }}",
+						"ua:type":"mappedArray"
+					},
+					"sourceResponse":"{{ n_Jey7v.outputs.result.sourceResponse }}",
+					"uniqueEntityId":"{{ n_MX5xx.outputs.Id }}_{{ n_hBkKM.outputs.index }}"
+				},
+				"version":"-1"
+			},
+			"skip":false,
+			"subTitle":"Store Raw Data",
+			"title":"Call automation",
+			"type":"CALL_WORKFLOW"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":454,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_7q32U-1",
+			"id":"n_Rah3o",
+			"index":12,
+			"inputs":{
+				"result":{
+					"Success":true
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":-1,
+	"runtimeConnectionAppNames":[
+		"gmail"
+	],
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":false,
+		"enableRunLogging":false,
+		"enableVariableLogging":false,
+		"route":{
+			"default":false,
+			"headerValueTierMap":{},
+			"tierName":"global"
+		}
+	},
+	"standard":true,
+	"tags":[
+		"knowledge_v2"
+	],
+	"version":38
+}
