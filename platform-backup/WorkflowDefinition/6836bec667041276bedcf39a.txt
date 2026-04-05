@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748530221625,
 	"deleted":false,
-	"deployedVersion":90,
+	"deployedVersion":92,
 	"deploymentState":{
-		"deployedAt":1775385646799,
+		"deployedAt":1775391417887,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c2eb41de37eb670f7c4",
+		"deployedDefinitionId":"69d252b950e82945c76a6d32",
 		"status":"DEPLOYED",
-		"version":90,
-		"workflowVersion":135
+		"version":92,
+		"workflowVersion":139
 	},
 	"edges":[
 		{
@@ -111,6 +111,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -120,7 +121,7 @@
 	"id":"6836bec667041276bedcf39a",
 	"lastModifiedBy":-1,
 	"lcName":"handle stream completion",
-	"modifiedTime":1775385646800,
+	"modifiedTime":1775391436273,
 	"name":"Handle Stream Completion",
 	"nodes":[
 		{
@@ -778,5 +779,5 @@
 	"tags":[
 		
 	],
-	"version":135
+	"version":140
 }
