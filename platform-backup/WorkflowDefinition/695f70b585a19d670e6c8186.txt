@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769422214753,
 	"deleted":false,
-	"deployedVersion":16,
+	"deployedVersion":19,
 	"deploymentState":{
-		"deployedAt":1775334471081,
+		"deployedAt":1775391372132,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1744639824e0613819d58",
+		"deployedDefinitionId":"69d2528c50e82945c76a6b19",
 		"status":"DEPLOYED",
-		"version":16,
-		"workflowVersion":56
+		"version":19,
+		"workflowVersion":62
 	},
 	"edges":[
 		{
@@ -129,7 +129,7 @@
 	"id":"695f70b585a19d670e6c8186",
 	"lastModifiedBy":-1,
 	"lcName":"excel | fetch header from excel",
-	"modifiedTime":1775334706440,
+	"modifiedTime":1775391431435,
 	"name":"Excel | Fetch header from excel",
 	"nodes":[
 		{
@@ -1611,5 +1611,5 @@
 	"tags":[
 		
 	],
-	"version":57
+	"version":63
 }
