@@ -4,14 +4,14 @@
 	],
 	"createdTime":1750490293477,
 	"deleted":false,
-	"deployedVersion":77,
+	"deployedVersion":78,
 	"deploymentState":{
-		"deployedAt":1775320698501,
+		"deployedAt":1775334511485,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e7ac6b0c9120df175c2",
+		"deployedDefinitionId":"69d1746f39824e0613819f44",
 		"status":"DEPLOYED",
-		"version":77,
-		"workflowVersion":118
+		"version":78,
+		"workflowVersion":120
 	},
 	"edges":[
 		{
@@ -26,7 +26,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -36,7 +35,7 @@
 	"id":"6839b3c471899b7ee7cb048e",
 	"lastModifiedBy":-1,
 	"lcName":"default consumer",
-	"modifiedTime":1775320891546,
+	"modifiedTime":1775385647428,
 	"name":"Default Consumer",
 	"nodes":[
 		{
@@ -153,5 +152,5 @@
 	"tags":[
 		
 	],
-	"version":119
+	"version":122
 }
