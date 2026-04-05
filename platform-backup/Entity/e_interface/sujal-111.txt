@@ -2,10 +2,10 @@
 	"createdTime":1772021081285,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1774869153672,
-		"deployedBy":19752,
-		"entityVersion":798,
-		"version":17
+		"deployedAt":1775370371913,
+		"deployedBy":195414,
+		"entityVersion":881,
+		"version":18
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -29,8 +29,8 @@
 		]
 	},
 	"id":"sujal-111",
-	"lastModifiedBy":195854,
-	"modifiedTime":1775322263953,
+	"lastModifiedBy":195414,
+	"modifiedTime":1775370573714,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -51,7 +51,7 @@
 			"_counter":{
 				"_mqttTopicCounter":0,
 				"_dataSourceCounter":3,
-				"_pageCount":22,
+				"_pageCount":23,
 				"_moduleCount":3,
 				"_variableCounter":4,
 				"_functionCounter":5
@@ -469,11 +469,16 @@
 			}
 		},
 		"interfacePageIdVsSlugMap":{
+			"e_69abd4c8a8d9a80f10cafb19":"page-6",
+			"e_69bd293b8307bd3aaf61e8d0":"page-14",
+			"e_69bd1e128307bd3aaf61da9a":"page-13",
+			"e_69a2f665f8e8a77e0e702051":"page-3",
+			"e_69a81cac82be704e6560d53b":"page-4",
+			"e_69b55d525fe0267ca4942b0e":"e_69b55d525fe0267ca4942b0e",
 			"e_69b415db68e5c6589ff8f199":"page-11",
 			"e_69abea91a8d9a80f10caff3f":"page-7",
 			"e_69c6dd8f2fa9202a70dcacfc":"page-20",
 			"e_69aab46f19417634cc26f634":"page-5",
-			"e_69abd4c8a8d9a80f10cafb19":"page-6",
 			"e_69afdecbbc7ce90d1877e714":"page-8",
 			"e_69b15c108dab8727f9d33420":"page10",
 			"e_69d140a18cbf9634b68ed62f":"page-21",
@@ -483,15 +488,11 @@
 			"e_69a042cc3adb4a5c19970d62":"dont-change-this-page",
 			"e_69b40cb59635f31b07b67d9d":"page-10",
 			"e_global_sujal-111":"global-page-of-sujal-111",
-			"e_69bd293b8307bd3aaf61e8d0":"page-14",
 			"e_69b55d4a44bf8a149dede0b2":"page-12",
-			"e_69bd1e128307bd3aaf61da9a":"page-13",
 			"e_69c513e091635930447859df":"page-19",
-			"e_69a2f665f8e8a77e0e702051":"page-3",
 			"e_699ee78832d47f187b9e2a93":"homepage",
 			"e_69c5137191635930447859b7":"page-18",
-			"e_69a81cac82be704e6560d53b":"page-4",
-			"e_69b55d525fe0267ca4942b0e":"e_69b55d525fe0267ca4942b0e",
+			"e_69d1510f8cbf9634b68eda16":"userpage",
 			"e_69c509b32884a4229e2d807a":"page-17"
 		},
 		"paths":{
@@ -499,10 +500,6 @@
 				"id":"f_root",
 				"segment":"",
 				"children":[
-					"f_ehKDu",
-					"f_hOyL8",
-					"f_IEg31",
-					"f_AsI0g",
 					"e_69b415db68e5c6589ff8f199",
 					"e_69abea91a8d9a80f10caff3f",
 					"e_69c6dd8f2fa9202a70dcacfc",
@@ -524,46 +521,20 @@
 					"e_69c5137191635930447859b7",
 					"e_69a81cac82be704e6560d53b",
 					"e_69b55d525fe0267ca4942b0e",
-					"e_69c509b32884a4229e2d807a"
+					"e_69c509b32884a4229e2d807a",
+					"e_69d140a18cbf9634b68ed62f",
+					"e_69d140ab8cbf9634b68ed641",
+					"f_cJXHF",
+					"e_69d1510f8cbf9634b68eda16"
 				],
 				"path":"/"
 			},
-			"f_ehKDu":{
-				"id":"f_ehKDu",
-				"segment":"xsx",
+			"f_cJXHF":{
+				"id":"f_cJXHF",
+				"segment":"hello",
 				"parentId":"f_root",
 				"children":[],
-				"path":"/xsx"
-			},
-			"f_hOyL8":{
-				"id":"f_hOyL8",
-				"segment":"dcdcd",
-				"parentId":"f_root",
-				"children":[
-					"f_9fR2h"
-				],
-				"path":"/dcdcd"
-			},
-			"f_IEg31":{
-				"id":"f_IEg31",
-				"segment":"xd",
-				"parentId":"f_root",
-				"children":[],
-				"path":"/xd"
-			},
-			"f_AsI0g":{
-				"id":"f_AsI0g",
-				"segment":"xasda",
-				"parentId":"f_root",
-				"children":[],
-				"path":"/xasda"
-			},
-			"f_9fR2h":{
-				"id":"f_9fR2h",
-				"segment":"xxxxxxxxxxx",
-				"parentId":"f_hOyL8",
-				"children":[],
-				"path":"/dcdcd/xxxxxxxxxxx"
+				"path":"/hello"
 			}
 		},
 		"name":"sujal-111",
@@ -587,6 +558,36 @@
 			}
 		},
 		"entityDetailsMap":{
+			"e_69abd4c8a8d9a80f10cafb19":{
+				"slug":"page-6",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_69bd293b8307bd3aaf61e8d0":{
+				"slug":"page-14",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_69bd1e128307bd3aaf61da9a":{
+				"slug":"page-13",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_69a2f665f8e8a77e0e702051":{
+				"slug":"page-3",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_69a81cac82be704e6560d53b":{
+				"slug":"page-4",
+				"isPublic":false,
+				"type":"PAGE"
+			},
+			"e_69b55d525fe0267ca4942b0e":{
+				"slug":"e_69b55d525fe0267ca4942b0e",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_69b415db68e5c6589ff8f199":{
 				"slug":"page-11",
 				"isPublic":false,
@@ -604,11 +605,6 @@
 			},
 			"e_69aab46f19417634cc26f634":{
 				"slug":"page-5",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_69abd4c8a8d9a80f10cafb19":{
-				"slug":"page-6",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -657,28 +653,13 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
-			"e_69bd293b8307bd3aaf61e8d0":{
-				"slug":"page-14",
-				"isPublic":false,
-				"type":"PAGE"
-			},
 			"e_69b55d4a44bf8a149dede0b2":{
 				"slug":"page-12",
 				"isPublic":false,
 				"type":"PAGE"
 			},
-			"e_69bd1e128307bd3aaf61da9a":{
-				"slug":"page-13",
-				"isPublic":false,
-				"type":"PAGE"
-			},
 			"e_69c513e091635930447859df":{
 				"slug":"page-19",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_69a2f665f8e8a77e0e702051":{
-				"slug":"page-3",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -692,13 +673,8 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
-			"e_69a81cac82be704e6560d53b":{
-				"slug":"page-4",
-				"isPublic":false,
-				"type":"PAGE"
-			},
-			"e_69b55d525fe0267ca4942b0e":{
-				"slug":"e_69b55d525fe0267ca4942b0e",
+			"e_69d1510f8cbf9634b68eda16":{
+				"slug":"userpage",
 				"isPublic":false,
 				"type":"PAGE"
 			},
@@ -713,5 +689,5 @@
 	"tags":[
 		
 	],
-	"version":878
+	"version":887
 }
