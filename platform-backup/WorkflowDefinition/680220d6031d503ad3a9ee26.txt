@@ -4,14 +4,14 @@
 	],
 	"createdTime":1745145293875,
 	"deleted":false,
-	"deployedVersion":75,
+	"deployedVersion":78,
 	"deploymentState":{
-		"deployedAt":1775385644330,
+		"deployedAt":1775407843543,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c2cb41de37eb670f792",
+		"deployedDefinitionId":"69d292e3a2eda46706b04ac2",
 		"status":"DEPLOYED",
-		"version":75,
-		"workflowVersion":150
+		"version":78,
+		"workflowVersion":156
 	},
 	"edges":[
 		{
@@ -477,6 +477,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -486,7 +487,7 @@
 	"id":"680220d6031d503ad3a9ee26",
 	"lastModifiedBy":-1,
 	"lcName":"call llm messages to watsonx payload messages",
-	"modifiedTime":1775385644332,
+	"modifiedTime":1775408100277,
 	"name":"Call LLM Messages to Watsonx payload Messages",
 	"nodes":[
 		{
@@ -3149,5 +3150,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":150
+	"version":157
 }
