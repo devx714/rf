@@ -4,14 +4,14 @@
 	],
 	"createdTime":1747413551725,
 	"deleted":false,
-	"deployedVersion":80,
+	"deployedVersion":81,
 	"deploymentState":{
-		"deployedAt":1775334452576,
+		"deployedAt":1775385606674,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1743439824e0613819bc6",
+		"deployedDefinitionId":"69d23c06b41de37eb670f5f3",
 		"status":"DEPLOYED",
-		"version":80,
-		"workflowVersion":122
+		"version":81,
+		"workflowVersion":124
 	},
 	"edges":[
 		{
@@ -47,7 +47,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -57,7 +56,7 @@
 	"id":"682765fa36516f034a828b0c",
 	"lastModifiedBy":-1,
 	"lcName":"update openai voice session",
-	"modifiedTime":1775334706729,
+	"modifiedTime":1775390022247,
 	"name":"Update OpenAI Voice Session",
 	"nodes":[
 		{
@@ -310,5 +309,5 @@
 	"tags":[
 		
 	],
-	"version":123
+	"version":126
 }
