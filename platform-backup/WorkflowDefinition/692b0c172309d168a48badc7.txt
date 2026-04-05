@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769506055139,
 	"deleted":false,
-	"deployedVersion":14,
+	"deployedVersion":16,
 	"deploymentState":{
-		"deployedAt":1775320700888,
+		"deployedAt":1775385649796,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e7cc6b0c9120df175ec",
+		"deployedDefinitionId":"69d23c31b41de37eb670f7fc",
 		"status":"DEPLOYED",
-		"version":14,
-		"workflowVersion":31
+		"version":16,
+		"workflowVersion":35
 	},
 	"edges":[
 		{
@@ -56,7 +56,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -66,7 +65,7 @@
 	"id":"692b0c172309d168a48badc7",
 	"lastModifiedBy":-1,
 	"lcName":"sre | split investigation",
-	"modifiedTime":1775320889883,
+	"modifiedTime":1775385649797,
 	"name":"SRE | Split Investigation",
 	"nodes":[
 		{
@@ -455,5 +454,5 @@
 		"sre_ai",
 		"dev_migrate"
 	],
-	"version":32
+	"version":35
 }
