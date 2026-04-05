@@ -4,14 +4,14 @@
 	],
 	"createdTime":1770295691327,
 	"deleted":false,
-	"deployedVersion":12,
+	"deployedVersion":18,
 	"deploymentState":{
-		"deployedAt":1774342885412,
+		"deployedAt":1775407740100,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252e529fa153f07e099f2",
+		"deployedDefinitionId":"69d2927c0e422443cf560513",
 		"status":"DEPLOYED",
-		"version":12,
-		"workflowVersion":26
+		"version":18,
+		"workflowVersion":38
 	},
 	"edges":[
 		{
@@ -63,6 +63,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -72,7 +73,7 @@
 	"id":"6971f9abcab85f6c5b9d9986",
 	"lastModifiedBy":-1,
 	"lcName":"eval | live evaluation scheduler",
-	"modifiedTime":1775320616010,
+	"modifiedTime":1775408105379,
 	"name":"Eval | Live Evaluation Scheduler",
 	"nodes":[
 		{
@@ -279,5 +280,5 @@
 	"tags":[
 		
 	],
-	"version":28
+	"version":39
 }
