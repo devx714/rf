@@ -84,17 +84,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
-					"V"
-				],
-				"principalIds":[
-					"45775"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -104,7 +93,7 @@
 	"id":"67f3fb6287fcc53cf63d4938",
 	"lastModifiedBy":-1,
 	"lcName":"fetch few shot examples and instructions",
-	"modifiedTime":1775334706434,
+	"modifiedTime":1775385647613,
 	"name":"Fetch Few Shot Examples and Instructions",
 	"nodes":[
 		{
@@ -608,5 +597,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":175
+	"version":176
 }
