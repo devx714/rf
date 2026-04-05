@@ -251,7 +251,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -261,7 +260,7 @@
 	"id":"68efb9391ff997436ed336fc",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] bulk index groups | single group",
-	"modifiedTime":1775391436936,
+	"modifiedTime":1775407762392,
 	"name":"[DT] Bulk Index Groups | Single Group",
 	"nodes":[
 		{
@@ -355,7 +354,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -440,7 +438,6 @@
 				"trimmedGroupName":"=TRIM({{ n_rQpyK.outputs.name }})"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1359,5 +1356,5 @@
 	"tags":[
 		
 	],
-	"version":72
+	"version":73
 }
