@@ -63,7 +63,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -73,7 +72,7 @@
 	"id":"690a229fced20f56448f280b",
 	"lastModifiedBy":-1,
 	"lcName":"store split reporting",
-	"modifiedTime":1775391435960,
+	"modifiedTime":1775407693590,
 	"name":"Store Split Reporting",
 	"nodes":[
 		{
@@ -364,5 +363,5 @@
 	"tags":[
 		
 	],
-	"version":73
+	"version":74
 }
