@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748544408312,
 	"deleted":false,
-	"deployedVersion":86,
+	"deployedVersion":89,
 	"deploymentState":{
-		"deployedAt":1775334391644,
+		"deployedAt":1775391252387,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173f739824e061381989a",
+		"deployedDefinitionId":"69d2521450e82945c76a6512",
 		"status":"DEPLOYED",
-		"version":86,
-		"workflowVersion":149
+		"version":89,
+		"workflowVersion":155
 	},
 	"edges":[
 		{
@@ -147,6 +147,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -156,7 +157,7 @@
 	"id":"6818efa4700e7d07bedf2ebd",
 	"lastModifiedBy":-1,
 	"lcName":"docx to html",
-	"modifiedTime":1775385564245,
+	"modifiedTime":1775391434292,
 	"name":"Docx to HTML",
 	"nodes":[
 		{
@@ -234,6 +235,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -773,5 +775,5 @@
 	"tags":[
 		
 	],
-	"version":151
+	"version":156
 }
