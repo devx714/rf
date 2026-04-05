@@ -4,14 +4,14 @@
 	],
 	"createdTime":1732968026880,
 	"deleted":false,
-	"deployedVersion":114,
+	"deployedVersion":115,
 	"deploymentState":{
-		"deployedAt":1775320681896,
+		"deployedAt":1775334475151,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e6983aecf24ec254ef7",
+		"deployedDefinitionId":"69d1744b39824e0613819dac",
 		"status":"DEPLOYED",
-		"version":114,
-		"workflowVersion":193
+		"version":115,
+		"workflowVersion":195
 	},
 	"edges":[
 		{
@@ -873,7 +873,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -883,7 +882,7 @@
 	"id":"674afe5adefb851816d61959",
 	"lastModifiedBy":-1,
 	"lcName":"case management (ai agent)",
-	"modifiedTime":1775320892006,
+	"modifiedTime":1775385630374,
 	"name":"Case Management (AI Agent)",
 	"nodes":[
 		{
@@ -1201,7 +1200,6 @@
 				"toCustomerUserId":"{{ _FlBIT.outputs.toCustomerUserId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -3060,7 +3058,6 @@
 				"messageId":"{{ NlhVg.outputs.result.messageId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -3152,7 +3149,6 @@
 				"channelCreatedTime":"{{ NlhVg.outputs.result.creationEpoch }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -4239,7 +4235,6 @@
 				"fanCustomerProfileId":"{{ DXrXv.outputs.customerProfileId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -4332,7 +4327,6 @@
 				"hasAttachments":false
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -4649,5 +4643,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":194
+	"version":197
 }
