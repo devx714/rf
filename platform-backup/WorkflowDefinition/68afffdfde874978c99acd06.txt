@@ -4,14 +4,14 @@
 	],
 	"createdTime":1764063140998,
 	"deleted":false,
-	"deployedVersion":25,
+	"deployedVersion":27,
 	"deploymentState":{
-		"deployedAt":1775385565171,
+		"deployedAt":1775391253631,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bddb31cfc01cc39eec4",
+		"deployedDefinitionId":"69d2521550e82945c76a652a",
 		"status":"DEPLOYED",
-		"version":25,
-		"workflowVersion":94
+		"version":27,
+		"workflowVersion":98
 	},
 	"edges":[
 		{
@@ -375,7 +375,7 @@
 	"id":"68afffdfde874978c99acd06",
 	"lastModifiedBy":-1,
 	"lcName":"call openai response api (streaming) ",
-	"modifiedTime":1775385565172,
+	"modifiedTime":1775407737073,
 	"name":"Call OpenAI Response API (Streaming) ",
 	"nodes":[
 		{
@@ -859,7 +859,6 @@
 				"isLastSlash":false
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1157,7 +1156,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1440,7 +1438,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1975,7 +1972,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2239,7 +2235,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2497,7 +2492,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2560,7 +2554,6 @@
 				"topP":"{{ CpGDp.outputs.top_p }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2937,7 +2930,6 @@
 				"ua:list_type":"INTEGER"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -4146,5 +4138,5 @@
 	"tags":[
 		
 	],
-	"version":94
+	"version":100
 }
