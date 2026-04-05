@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769422054467,
 	"deleted":false,
-	"deployedVersion":2,
+	"deployedVersion":4,
 	"deploymentState":{
-		"deployedAt":1773928106894,
+		"deployedAt":1775391254254,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfeaa40a2b92de9fe6688",
+		"deployedDefinitionId":"69d2521650e82945c76a6538",
 		"status":"DEPLOYED",
-		"version":2,
-		"workflowVersion":2
+		"version":4,
+		"workflowVersion":5
 	},
 	"edges":[
 		{
@@ -70,6 +70,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -79,7 +80,7 @@
 	"id":"695d183d4a6cd262dc912659",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | blob | file",
-	"modifiedTime":1775389927273,
+	"modifiedTime":1775391437871,
 	"name":"Knowledge Indexer | Blob | File",
 	"nodes":[
 		{
@@ -431,5 +432,5 @@
 	"tags":[
 		
 	],
-	"version":3
+	"version":6
 }
