@@ -4,14 +4,14 @@
 	],
 	"createdTime":1758646529870,
 	"deleted":false,
-	"deployedVersion":38,
+	"deployedVersion":39,
 	"deploymentState":{
-		"deployedAt":1775391247644,
+		"deployedAt":1775407728964,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2520f50e82945c76a64b5",
+		"deployedDefinitionId":"69d29270a2eda46706b04507",
 		"status":"DEPLOYED",
-		"version":38,
-		"workflowVersion":107
+		"version":39,
+		"workflowVersion":109
 	},
 	"edges":[
 		{
@@ -291,7 +291,7 @@
 	"id":"6891d10dd46f679ce7a212fa",
 	"lastModifiedBy":-1,
 	"lcName":"deep research tool | research plan and draft generator | execute plan",
-	"modifiedTime":1775391437577,
+	"modifiedTime":1775408109390,
 	"name":"Deep Research Tool | Research Plan and Draft Generator | Execute Plan",
 	"nodes":[
 		{
@@ -2356,5 +2356,5 @@
 	"tags":[
 		
 	],
-	"version":108
+	"version":110
 }
