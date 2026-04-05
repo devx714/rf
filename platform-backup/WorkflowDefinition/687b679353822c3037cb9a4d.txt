@@ -4,14 +4,14 @@
 	],
 	"createdTime":1752917907727,
 	"deleted":false,
-	"deployedVersion":57,
+	"deployedVersion":58,
 	"deploymentState":{
-		"deployedAt":1775334462244,
+		"deployedAt":1775385617087,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1743d39824e0613819cb7",
+		"deployedDefinitionId":"69d23c10b31cfc01cc39f229",
 		"status":"DEPLOYED",
-		"version":57,
-		"workflowVersion":106
+		"version":58,
+		"workflowVersion":108
 	},
 	"edges":[
 		{
@@ -534,7 +534,7 @@
 	"id":"687b679353822c3037cb9a4d",
 	"lastModifiedBy":-1,
 	"lcName":"executesql, table tool ",
-	"modifiedTime":1775385616669,
+	"modifiedTime":1775385617088,
 	"name":"ExecuteSQL, Table Tool ",
 	"nodes":[
 		{
@@ -1259,6 +1259,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1336,6 +1337,7 @@
 				"sql_with_limit":"{{ LnUU4.outputs.result.limited_sql }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2001,6 +2003,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -3300,6 +3303,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -4294,6 +4298,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -4448,6 +4453,7 @@
 				"disableThought":true
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
