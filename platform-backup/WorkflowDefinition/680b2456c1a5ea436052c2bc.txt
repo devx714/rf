@@ -4,14 +4,14 @@
 	],
 	"createdTime":1745560662317,
 	"deleted":false,
-	"deployedVersion":111,
+	"deployedVersion":115,
 	"deploymentState":{
-		"deployedAt":1775334443211,
+		"deployedAt":1775407777724,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1742b39824e0613819b0a",
+		"deployedDefinitionId":"69d292a10e422443cf5606c3",
 		"status":"DEPLOYED",
-		"version":111,
-		"workflowVersion":163
+		"version":115,
+		"workflowVersion":171
 	},
 	"edges":[
 		{
@@ -143,6 +143,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -152,7 +153,7 @@
 	"id":"680b2456c1a5ea436052c2bc",
 	"lastModifiedBy":-1,
 	"lcName":"ai eval | metrics | sql generation ",
-	"modifiedTime":1775385596747,
+	"modifiedTime":1775408102356,
 	"name":"AI Eval | Metrics | SQL Generation ",
 	"nodes":[
 		{
@@ -555,6 +556,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1012,5 +1014,5 @@
 		}
 	},
 	"standard":true,
-	"version":165
+	"version":172
 }
