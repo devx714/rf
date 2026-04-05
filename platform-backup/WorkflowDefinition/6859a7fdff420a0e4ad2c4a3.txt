@@ -4,14 +4,14 @@
 	],
 	"createdTime":1751469905923,
 	"deleted":false,
-	"deployedVersion":94,
+	"deployedVersion":97,
 	"deploymentState":{
-		"deployedAt":1774342873892,
+		"deployedAt":1775385557660,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252d929fa153f07e09993",
+		"deployedDefinitionId":"69d23bd5b31cfc01cc39ee31",
 		"status":"DEPLOYED",
-		"version":94,
-		"workflowVersion":166
+		"version":97,
+		"workflowVersion":172
 	},
 	"edges":[
 		{
@@ -197,7 +197,7 @@
 	"id":"6859a7fdff420a0e4ad2c4a3",
 	"lastModifiedBy":-1,
 	"lcName":"schedule knowledge downloader",
-	"modifiedTime":1775320605662,
+	"modifiedTime":1775385557661,
 	"name":"Schedule Knowledge Downloader",
 	"nodes":[
 		{
@@ -358,6 +358,7 @@
 				"parentEntityId":"{{ n_Vw44g.outputs.parentEntityId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -419,6 +420,7 @@
 				"errorCount":"{{ n_Vw44g.outputs.errorCount }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1200,5 +1202,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":168
+	"version":172
 }
