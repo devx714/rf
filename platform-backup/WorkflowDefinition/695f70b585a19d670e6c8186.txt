@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769422214753,
 	"deleted":false,
-	"deployedVersion":19,
+	"deployedVersion":20,
 	"deploymentState":{
-		"deployedAt":1775391372132,
+		"deployedAt":1775407819155,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2528c50e82945c76a6b19",
+		"deployedDefinitionId":"69d292cb0e422443cf560890",
 		"status":"DEPLOYED",
-		"version":19,
-		"workflowVersion":62
+		"version":20,
+		"workflowVersion":64
 	},
 	"edges":[
 		{
@@ -119,6 +119,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -128,7 +129,7 @@
 	"id":"695f70b585a19d670e6c8186",
 	"lastModifiedBy":-1,
 	"lcName":"excel | fetch header from excel",
-	"modifiedTime":1775407818976,
+	"modifiedTime":1775408102072,
 	"name":"Excel | Fetch header from excel",
 	"nodes":[
 		{
@@ -279,6 +280,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -605,6 +607,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1159,6 +1162,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1607,5 +1611,5 @@
 	"tags":[
 		
 	],
-	"version":64
+	"version":65
 }
