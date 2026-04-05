@@ -33,7 +33,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -43,7 +42,7 @@
 	"id":"696352faafccf43b2aa73c97",
 	"lastModifiedBy":-1,
 	"lcName":"observability | sessions metadata",
-	"modifiedTime":1775391437459,
+	"modifiedTime":1775407798635,
 	"name":"Observability | Sessions Metadata",
 	"nodes":[
 		{
@@ -484,5 +483,5 @@
 	"tags":[
 		
 	],
-	"version":52
+	"version":53
 }
