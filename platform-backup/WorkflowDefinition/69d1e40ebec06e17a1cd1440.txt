@@ -3,7 +3,16 @@
 		"slack"
 	],
 	"createdTime":1775363211866,
-	"deleted":false,
+	"deleted":true,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1775363214891,
+		"deployedBy":0,
+		"deployedDefinitionId":"69d1e48e3056b31235b5489a",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"edges":[
 		{
 			"fromNodeId":"YCVAb",
@@ -28,9 +37,9 @@
 		}
 	],
 	"id":"69d1e40ebec06e17a1cd1440",
-	"lastModifiedBy":0,
+	"lastModifiedBy":175325,
 	"lcName":"changesetqa2slack3679515427",
-	"modifiedTime":1775363211866,
+	"modifiedTime":1775363296115,
 	"name":"changeSetQA2Slack3679515427",
 	"nodes":[
 		{
@@ -173,5 +182,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":2
 }
