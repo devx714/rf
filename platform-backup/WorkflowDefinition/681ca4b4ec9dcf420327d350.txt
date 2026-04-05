@@ -4,14 +4,14 @@
 	],
 	"createdTime":1746713207835,
 	"deleted":false,
-	"deployedVersion":107,
+	"deployedVersion":108,
 	"deploymentState":{
-		"deployedAt":1775385583542,
+		"deployedAt":1775389971722,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23befb31cfc01cc39f00a",
+		"deployedDefinitionId":"69d24d1350e82945c76a42ef",
 		"status":"DEPLOYED",
-		"version":107,
-		"workflowVersion":168
+		"version":108,
+		"workflowVersion":170
 	},
 	"edges":[
 		{
@@ -186,6 +186,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -195,7 +196,7 @@
 	"id":"681ca4b4ec9dcf420327d350",
 	"lastModifiedBy":-1,
 	"lcName":"ai eval | metrics | contextual relevancy",
-	"modifiedTime":1775385583543,
+	"modifiedTime":1775390106999,
 	"name":"AI Eval | Metrics | Contextual Relevancy",
 	"nodes":[
 		{
@@ -1332,5 +1333,5 @@
 		}
 	},
 	"standard":true,
-	"version":168
+	"version":171
 }
