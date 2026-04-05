@@ -4,14 +4,14 @@
 	],
 	"createdTime":1744279532159,
 	"deleted":false,
-	"deployedVersion":125,
+	"deployedVersion":126,
 	"deploymentState":{
-		"deployedAt":1775389926348,
+		"deployedAt":1775391253368,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d24ce650e82945c76a40d5",
+		"deployedDefinitionId":"69d2521550e82945c76a6526",
 		"status":"DEPLOYED",
-		"version":125,
-		"workflowVersion":182
+		"version":126,
+		"workflowVersion":184
 	},
 	"edges":[
 		{
@@ -179,25 +179,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"A",
-					"EXPORT_AS_TEMPLATE",
-					"C",
-					"S",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"DEP"
-				],
-				"principalIds":[
-					"17"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -207,7 +188,7 @@
 	"id":"67e288d0bb5c3c51ededeabc",
 	"lastModifiedBy":-1,
 	"lcName":"ai eval | metrics | faithfulness",
-	"modifiedTime":1775390106499,
+	"modifiedTime":1775407734853,
 	"name":"AI Eval | Metrics | Faithfulness",
 	"nodes":[
 		{
@@ -616,7 +597,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1290,5 +1270,5 @@
 		}
 	},
 	"standard":true,
-	"version":183
+	"version":186
 }
