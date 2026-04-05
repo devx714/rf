@@ -4,14 +4,14 @@
 	],
 	"createdTime":1730746229875,
 	"deleted":false,
-	"deployedVersion":147,
+	"deployedVersion":150,
 	"deploymentState":{
-		"deployedAt":1775334473340,
+		"deployedAt":1775391374811,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1744939824e0613819d84",
+		"deployedDefinitionId":"69d2528e50e82945c76a6b55",
 		"status":"DEPLOYED",
-		"version":147,
-		"workflowVersion":236
+		"version":150,
+		"workflowVersion":242
 	},
 	"edges":[
 		{
@@ -356,17 +356,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
-					"V"
-				],
-				"principalIds":[
-					"522"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -376,7 +365,7 @@
 	"id":"6729177526f70f5310b25dcf",
 	"lastModifiedBy":-1,
 	"lcName":"excel file indexing for sql",
-	"modifiedTime":1775334705911,
+	"modifiedTime":1775407821770,
 	"name":"Excel File Indexing For SQL",
 	"nodes":[
 		{
@@ -508,7 +497,6 @@
 				"storeToStarrocks":"{{ __ENV__.outputs.storeToStarrocks }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -775,7 +763,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1032,7 +1019,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1399,7 +1385,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2477,5 +2462,5 @@
 		}
 	},
 	"standard":true,
-	"version":237
+	"version":244
 }
