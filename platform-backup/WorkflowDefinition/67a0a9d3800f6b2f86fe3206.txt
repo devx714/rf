@@ -40,7 +40,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -50,7 +49,7 @@
 	"id":"67a0a9d3800f6b2f86fe3206",
 	"lastModifiedBy":-1,
 	"lcName":"collect slot tool",
-	"modifiedTime":1775391432154,
+	"modifiedTime":1775407815540,
 	"name":"Collect Slot Tool",
 	"nodes":[
 		{
@@ -208,7 +207,6 @@
 				"collectedSlots":"{{ kGOsZ.outputs.result.toolInputs }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -272,5 +270,5 @@
 		"AI Agent",
 		"Team"
 	],
-	"version":152
+	"version":153
 }
