@@ -56,7 +56,7 @@
 	"id":"6905e9ddeb6c1a72a3e51a6d",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] delete agent",
-	"modifiedTime":1775385559751,
+	"modifiedTime":1775389917867,
 	"name":"[DT] Delete Agent",
 	"nodes":[
 		{
@@ -150,7 +150,6 @@
 				"agentId":"{{ n_T2Py7.outputs.pathParams.agentId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -279,5 +278,5 @@
 	"tags":[
 		
 	],
-	"version":59
+	"version":61
 }
