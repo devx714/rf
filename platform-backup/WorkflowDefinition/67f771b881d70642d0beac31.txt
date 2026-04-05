@@ -33,7 +33,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -43,7 +42,7 @@
 	"id":"67f771b881d70642d0beac31",
 	"lastModifiedBy":-1,
 	"lcName":"[microsoft dynamics 365 crm] get users sharedwithids",
-	"modifiedTime":1775391433646,
+	"modifiedTime":1775407795999,
 	"name":"[Microsoft Dynamics 365 CRM] Get Users SharedWithIds",
 	"nodes":[
 		{
@@ -335,7 +334,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -398,5 +396,5 @@
 		}
 	},
 	"standard":true,
-	"version":62
+	"version":63
 }
