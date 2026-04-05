@@ -4,14 +4,14 @@
 	],
 	"createdTime":1753445879989,
 	"deleted":false,
-	"deployedVersion":55,
+	"deployedVersion":56,
 	"deploymentState":{
-		"deployedAt":1775390092867,
+		"deployedAt":1775391416254,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d24d8c50e82945c76a4983",
+		"deployedDefinitionId":"69d252b850e82945c76a6d0a",
 		"status":"DEPLOYED",
-		"version":55,
-		"workflowVersion":107
+		"version":56,
+		"workflowVersion":109
 	},
 	"edges":[
 		{
@@ -354,7 +354,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -364,7 +363,7 @@
 	"id":"68809da3cd30144980f0383f",
 	"lastModifiedBy":-1,
 	"lcName":"[debug agent] test agent tools & knowledge",
-	"modifiedTime":1775390107742,
+	"modifiedTime":1775407844547,
 	"name":"[Debug Agent] Test Agent Tools & Knowledge",
 	"nodes":[
 		{
@@ -561,7 +560,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1561,7 +1559,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2725,5 +2722,5 @@
 	"tags":[
 		
 	],
-	"version":108
+	"version":111
 }
