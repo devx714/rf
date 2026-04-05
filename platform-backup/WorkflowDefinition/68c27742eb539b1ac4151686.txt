@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762858275589,
 	"deleted":false,
-	"deployedVersion":29,
+	"deployedVersion":31,
 	"deploymentState":{
-		"deployedAt":1775320700415,
+		"deployedAt":1775385649338,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e7cc6b0c9120df175e2",
+		"deployedDefinitionId":"69d23c31b41de37eb670f7f2",
 		"status":"DEPLOYED",
-		"version":29,
-		"workflowVersion":65
+		"version":31,
+		"workflowVersion":69
 	},
 	"edges":[
 		{
@@ -247,7 +247,7 @@
 	"id":"68c27742eb539b1ac4151686",
 	"lastModifiedBy":-1,
 	"lcName":"graph rag | add relations to object",
-	"modifiedTime":1775334513131,
+	"modifiedTime":1775390098418,
 	"name":"Graph RAG | Add Relations to object",
 	"nodes":[
 		{
@@ -1744,5 +1744,5 @@
 	"tags":[
 		
 	],
-	"version":67
+	"version":71
 }
