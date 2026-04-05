@@ -4,14 +4,14 @@
 	],
 	"createdTime":1732217221409,
 	"deleted":false,
-	"deployedVersion":31,
+	"deployedVersion":34,
 	"deploymentState":{
-		"deployedAt":1773928101740,
+		"deployedAt":1775407730921,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfea516170c62438066f8",
+		"deployedDefinitionId":"69d292720e422443cf5604bd",
 		"status":"DEPLOYED",
-		"version":31,
-		"workflowVersion":67
+		"version":34,
+		"workflowVersion":72
 	},
 	"edges":[
 		{
@@ -70,6 +70,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -79,7 +80,7 @@
 	"id":"673f8985f53e031ca5b55915",
 	"lastModifiedBy":-1,
 	"lcName":"gmail publisher",
-	"modifiedTime":1775389922134,
+	"modifiedTime":1775408106721,
 	"name":"Gmail Publisher",
 	"nodes":[
 		{
@@ -514,5 +515,5 @@
 		"Publish",
 		"AI Agent"
 	],
-	"version":68
+	"version":73
 }
