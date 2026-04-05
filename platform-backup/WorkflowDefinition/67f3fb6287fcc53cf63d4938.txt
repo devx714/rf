@@ -4,14 +4,14 @@
 	],
 	"createdTime":1744186514875,
 	"deleted":false,
-	"deployedVersion":92,
+	"deployedVersion":95,
 	"deploymentState":{
-		"deployedAt":1775334511720,
+		"deployedAt":1775391419569,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1746f39824e0613819f48",
+		"deployedDefinitionId":"69d252bb50e82945c76a6d54",
 		"status":"DEPLOYED",
-		"version":92,
-		"workflowVersion":174
+		"version":95,
+		"workflowVersion":180
 	},
 	"edges":[
 		{
@@ -93,7 +93,7 @@
 	"id":"67f3fb6287fcc53cf63d4938",
 	"lastModifiedBy":-1,
 	"lcName":"fetch few shot examples and instructions",
-	"modifiedTime":1775385647613,
+	"modifiedTime":1775407848138,
 	"name":"Fetch Few Shot Examples and Instructions",
 	"nodes":[
 		{
@@ -597,5 +597,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":176
+	"version":182
 }
