@@ -10,7 +10,7 @@
 	"entityType":"e_interface",
 	"id":"webview-test",
 	"lastModifiedBy":195854,
-	"modifiedTime":1775382794902,
+	"modifiedTime":1775387661968,
 	"ownerUserId":43487,
 	"properties":{
 		"standard":false,
@@ -25,7 +25,7 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":4,
+				"_pageCount":5,
 				"_moduleCount":0,
 				"_functionCounter":1
 			}
@@ -194,6 +194,7 @@
 			"e_69d230a397c47c60cad58c97":"page-4",
 			"e_69c3c34f45b7402e26296388":"page-2",
 			"e_69c3b98339591b0ecb3d308a":"homepage",
+			"e_69d243b9d6d3d12bcf222359":"page-5",
 			"e_69ce1617c5d7e218ec1ce334":"page-3"
 		},
 		"manifest":{
@@ -223,6 +224,11 @@
 				"isPublic":false,
 				"type":"PAGE"
 			},
+			"e_69d243b9d6d3d12bcf222359":{
+				"slug":"page-5",
+				"isPublic":false,
+				"type":"PAGE"
+			},
 			"e_69ce1617c5d7e218ec1ce334":{
 				"slug":"page-3",
 				"isPublic":false,
@@ -234,5 +240,5 @@
 	"tags":[
 		
 	],
-	"version":49
+	"version":73
 }
