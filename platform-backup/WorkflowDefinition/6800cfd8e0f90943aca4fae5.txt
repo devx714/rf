@@ -4,14 +4,14 @@
 	],
 	"createdTime":1744883672451,
 	"deleted":false,
-	"deployedVersion":38,
+	"deployedVersion":40,
 	"deploymentState":{
-		"deployedAt":1775389989506,
+		"deployedAt":1775407778638,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d24d2550e82945c76a444d",
+		"deployedDefinitionId":"69d292a20e422443cf5606db",
 		"status":"DEPLOYED",
-		"version":38,
-		"workflowVersion":61
+		"version":40,
+		"workflowVersion":65
 	},
 	"edges":[
 		{
@@ -50,7 +50,7 @@
 	"id":"6800cfd8e0f90943aca4fae5",
 	"lastModifiedBy":-1,
 	"lcName":"[power bi] get user sharedwithids",
-	"modifiedTime":1775390107868,
+	"modifiedTime":1775408102346,
 	"name":"[Power BI] Get User SharedWithIds",
 	"nodes":[
 		{
@@ -428,5 +428,5 @@
 		}
 	},
 	"standard":true,
-	"version":62
+	"version":66
 }
