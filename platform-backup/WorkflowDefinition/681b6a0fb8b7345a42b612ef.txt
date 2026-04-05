@@ -4,14 +4,14 @@
 	],
 	"createdTime":1747641655742,
 	"deleted":false,
-	"deployedVersion":84,
+	"deployedVersion":86,
 	"deploymentState":{
-		"deployedAt":1775320665646,
+		"deployedAt":1775385614222,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e5983aecf24ec254d30",
+		"deployedDefinitionId":"69d23c0eb41de37eb670f654",
 		"status":"DEPLOYED",
-		"version":84,
-		"workflowVersion":132
+		"version":86,
+		"workflowVersion":136
 	},
 	"edges":[
 		{
@@ -70,7 +70,7 @@
 	"id":"681b6a0fb8b7345a42b612ef",
 	"lastModifiedBy":-1,
 	"lcName":"text to workflow v2 | send message to ui",
-	"modifiedTime":1775334459450,
+	"modifiedTime":1775390032243,
 	"name":"Text to Workflow v2 | Send message to UI",
 	"nodes":[
 		{
@@ -431,5 +431,5 @@
 	"tags":[
 		
 	],
-	"version":134
+	"version":138
 }
