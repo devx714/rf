@@ -4,14 +4,14 @@
 	],
 	"createdTime":1739428192292,
 	"deleted":false,
-	"deployedVersion":106,
+	"deployedVersion":107,
 	"deploymentState":{
-		"deployedAt":1775320569072,
+		"deployedAt":1775334339636,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13df883aecf24ec254555",
+		"deployedDefinitionId":"69d173c339824e061381962c",
 		"status":"DEPLOYED",
-		"version":106,
-		"workflowVersion":178
+		"version":107,
+		"workflowVersion":180
 	},
 	"edges":[
 		{
@@ -564,7 +564,7 @@
 	"id":"67ad91606e8af63ecd1b5565",
 	"lastModifiedBy":-1,
 	"lcName":"agentic chunking pdf - rag | extract chunks from a page",
-	"modifiedTime":1775334339478,
+	"modifiedTime":1775385538000,
 	"name":"Agentic Chunking PDF - RAG | Extract Chunks from a Page",
 	"nodes":[
 		{
@@ -4520,5 +4520,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":180
+	"version":182
 }
