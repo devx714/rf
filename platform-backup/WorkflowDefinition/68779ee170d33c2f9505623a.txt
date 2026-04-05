@@ -4,14 +4,14 @@
 	],
 	"createdTime":1752842408959,
 	"deleted":false,
-	"deployedVersion":67,
+	"deployedVersion":70,
 	"deploymentState":{
-		"deployedAt":1774342934199,
+		"deployedAt":1775385605873,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2531629fa153f07e09c75",
+		"deployedDefinitionId":"69d23c05b41de37eb670f5e1",
 		"status":"DEPLOYED",
-		"version":67,
-		"workflowVersion":127
+		"version":70,
+		"workflowVersion":133
 	},
 	"edges":[
 		{
@@ -33,7 +33,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -43,7 +42,7 @@
 	"id":"68779ee170d33c2f9505623a",
 	"lastModifiedBy":-1,
 	"lcName":"text to workflow v2 | update dynamic schema",
-	"modifiedTime":1774622955961,
+	"modifiedTime":1775385605874,
 	"name":"Text to Workflow v2 | Update Dynamic Schema",
 	"nodes":[
 		{
@@ -228,5 +227,5 @@
 	"tags":[
 		
 	],
-	"version":128
+	"version":133
 }
