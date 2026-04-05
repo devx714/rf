@@ -4,14 +4,14 @@
 	],
 	"createdTime":1763384438272,
 	"deleted":false,
-	"deployedVersion":26,
+	"deployedVersion":28,
 	"deploymentState":{
-		"deployedAt":1774342860937,
+		"deployedAt":1775334351224,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252cc8d65fb68e15637ba",
+		"deployedDefinitionId":"69d173cf39824e0613819700",
 		"status":"DEPLOYED",
-		"version":26,
-		"workflowVersion":60
+		"version":28,
+		"workflowVersion":64
 	},
 	"edges":[
 		{
@@ -86,7 +86,7 @@
 	"id":"69144f6450363b782db7b601",
 	"lastModifiedBy":-1,
 	"lcName":"store first query and responce on change",
-	"modifiedTime":1775320580421,
+	"modifiedTime":1775385548332,
 	"name":"Store First Query and Responce on Change",
 	"nodes":[
 		{
@@ -416,5 +416,5 @@
 	"tags":[
 		
 	],
-	"version":62
+	"version":66
 }
