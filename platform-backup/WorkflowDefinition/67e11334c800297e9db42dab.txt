@@ -408,7 +408,7 @@
 	"id":"67e11334c800297e9db42dab",
 	"lastModifiedBy":-1,
 	"lcName":"eval | dataset | generate from csv",
-	"modifiedTime":1775385628096,
+	"modifiedTime":1775390050482,
 	"name":"Eval | Dataset | Generate from CSV",
 	"nodes":[
 		{
@@ -972,7 +972,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1284,7 +1283,6 @@
 				"currentConversationId":"-999999999"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2328,7 +2326,6 @@
 				"userId":"{{ hsp6A.outputs.result.userId }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2439,7 +2436,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2688,5 +2684,5 @@
 		}
 	},
 	"standard":true,
-	"version":281
+	"version":283
 }
