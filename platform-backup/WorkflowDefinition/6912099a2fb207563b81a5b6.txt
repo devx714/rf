@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762858254067,
 	"deleted":false,
-	"deployedVersion":31,
+	"deployedVersion":32,
 	"deploymentState":{
-		"deployedAt":1775390056278,
+		"deployedAt":1775391379947,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d24d6850e82945c76a4813",
+		"deployedDefinitionId":"69d2529350e82945c76a6bc9",
 		"status":"DEPLOYED",
-		"version":31,
-		"workflowVersion":62
+		"version":32,
+		"workflowVersion":64
 	},
 	"edges":[
 		{
@@ -63,7 +63,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -73,7 +72,7 @@
 	"id":"6912099a2fb207563b81a5b6",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] delete knowledge",
-	"modifiedTime":1775390107533,
+	"modifiedTime":1775407827252,
 	"name":"[DT] Delete Knowledge",
 	"nodes":[
 		{
@@ -334,5 +333,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":63
+	"version":66
 }
