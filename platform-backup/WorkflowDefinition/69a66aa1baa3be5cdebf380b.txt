@@ -4,14 +4,14 @@
 	],
 	"createdTime":1773056955236,
 	"deleted":false,
-	"deployedVersion":9,
+	"deployedVersion":11,
 	"deploymentState":{
-		"deployedAt":1775334380860,
+		"deployedAt":1775389908954,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173ec39824e06138197d2",
+		"deployedDefinitionId":"69d24cd450e82945c76a3f8a",
 		"status":"DEPLOYED",
-		"version":9,
-		"workflowVersion":20
+		"version":11,
+		"workflowVersion":24
 	},
 	"edges":[
 		{
@@ -179,6 +179,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -188,7 +189,7 @@
 	"id":"69a66aa1baa3be5cdebf380b",
 	"lastModifiedBy":-1,
 	"lcName":"alerts | alert message generator ",
-	"modifiedTime":1775385554087,
+	"modifiedTime":1775390108407,
 	"name":"alerts | alert message generator ",
 	"nodes":[
 		{
@@ -276,6 +277,7 @@
 				"baseUrl":"{{ __ENV__.outputs.PlatformDomain }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -375,6 +377,7 @@
 				"knowledgeSetId":"{{ n_FrHvR.outputs.properties.knowledgeSetId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -967,5 +970,5 @@
 	"tags":[
 		
 	],
-	"version":22
+	"version":25
 }
