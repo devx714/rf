@@ -4,14 +4,14 @@
 	],
 	"createdTime":1764062871844,
 	"deleted":false,
-	"deployedVersion":35,
+	"deployedVersion":36,
 	"deploymentState":{
-		"deployedAt":1775391316497,
+		"deployedAt":1775407782521,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2525450e82945c76a6877",
+		"deployedDefinitionId":"69d292a6a2eda46706b047a0",
 		"status":"DEPLOYED",
-		"version":35,
-		"workflowVersion":77
+		"version":36,
+		"workflowVersion":79
 	},
 	"edges":[
 		{
@@ -200,6 +200,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -209,7 +210,7 @@
 	"id":"69202cd06cbd0c7ee1c47a71",
 	"lastModifiedBy":-1,
 	"lcName":"eval | experiment | metric evaluation wrapper",
-	"modifiedTime":1775407782445,
+	"modifiedTime":1775408109570,
 	"name":"Eval | Experiment | Metric Evaluation Wrapper",
 	"nodes":[
 		{
@@ -459,6 +460,7 @@
 				"totalMetricsCost":0
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -563,6 +565,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -902,6 +905,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1866,5 +1870,5 @@
 	"tags":[
 		
 	],
-	"version":79
+	"version":80
 }
