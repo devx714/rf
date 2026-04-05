@@ -4,14 +4,14 @@
 	],
 	"createdTime":1743575650063,
 	"deleted":false,
-	"deployedVersion":40,
+	"deployedVersion":41,
 	"deploymentState":{
-		"deployedAt":1775391419089,
+		"deployedAt":1775407847731,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d252ba50e82945c76a6d4a",
+		"deployedDefinitionId":"69d292e7a2eda46706b04c78",
 		"status":"DEPLOYED",
-		"version":40,
-		"workflowVersion":106
+		"version":41,
+		"workflowVersion":108
 	},
 	"edges":[
 		{
@@ -246,6 +246,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -255,7 +256,7 @@
 	"id":"67ea96bd6f26c73e1322b013",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | shortcut | index epics",
-	"modifiedTime":1775407847573,
+	"modifiedTime":1775408100171,
 	"name":"Knowledge Indexer | Shortcut | Index Epics",
 	"nodes":[
 		{
@@ -607,6 +608,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1526,6 +1528,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2077,5 +2080,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":108
+	"version":109
 }
