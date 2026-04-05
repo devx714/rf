@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762605917962,
 	"deleted":false,
-	"deployedVersion":30,
+	"deployedVersion":32,
 	"deploymentState":{
-		"deployedAt":1775385598758,
+		"deployedAt":1775391314219,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bfeb31cfc01cc39f155",
+		"deployedDefinitionId":"69d2525250e82945c76a6849",
 		"status":"DEPLOYED",
-		"version":30,
-		"workflowVersion":74
+		"version":32,
+		"workflowVersion":78
 	},
 	"edges":[
 		{
@@ -92,6 +92,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -101,7 +102,7 @@
 	"id":"68f9b80d3a522e39a82d9eab",
 	"lastModifiedBy":-1,
 	"lcName":"metering | users | total sessions/queries/attachment queries metric",
-	"modifiedTime":1775389990736,
+	"modifiedTime":1775391431421,
 	"name":"Metering | Users | Total Sessions/Queries/Attachment Queries Metric",
 	"nodes":[
 		{
@@ -734,5 +735,5 @@
 	"tags":[
 		
 	],
-	"version":76
+	"version":79
 }
