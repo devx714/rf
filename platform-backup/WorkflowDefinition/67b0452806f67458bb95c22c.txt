@@ -47,7 +47,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -57,7 +56,7 @@
 	"id":"67b0452806f67458bb95c22c",
 	"lastModifiedBy":-1,
 	"lcName":"[amazons3] get user sharedwithids",
-	"modifiedTime":1775391436269,
+	"modifiedTime":1775407746408,
 	"name":"[AmazonS3] Get User SharedWithIds",
 	"nodes":[
 		{
@@ -349,7 +348,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -490,5 +488,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":67
+	"version":68
 }
