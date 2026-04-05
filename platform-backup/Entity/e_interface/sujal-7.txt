@@ -24,7 +24,7 @@
 	},
 	"id":"sujal-7",
 	"lastModifiedBy":195414,
-	"modifiedTime":1775370693840,
+	"modifiedTime":1775370695603,
 	"ownerUserId":195414,
 	"properties":{
 		"standard":false,
@@ -201,7 +201,8 @@
 			"primary":[]
 		},
 		"interfacePageIdVsSlugMap":{
-			"e_69d201c5aa1e4812e203296d":"homepage"
+			"e_69d201c5aa1e4812e203296d":"homepage",
+			"e_global_sujal-7":"global-page-of-sujal-7"
 		},
 		"manifest":{
 			"type":"WEB"
@@ -211,7 +212,8 @@
 				"id":"f_root",
 				"segment":"",
 				"children":[
-					"e_69d201c5aa1e4812e203296d"
+					"e_69d201c5aa1e4812e203296d",
+					"e_global_sujal-7"
 				],
 				"path":"/"
 			}
@@ -229,6 +231,11 @@
 				"slug":"homepage",
 				"isPublic":false,
 				"type":"PAGE"
+			},
+			"e_global_sujal-7":{
+				"slug":"global-page-of-sujal-7",
+				"isPublic":false,
+				"type":"PAGE"
 			}
 		}
 	},
@@ -236,5 +243,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":2
 }
