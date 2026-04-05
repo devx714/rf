@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769506032002,
 	"deleted":false,
-	"deployedVersion":17,
+	"deployedVersion":18,
 	"deploymentState":{
-		"deployedAt":1775389970042,
+		"deployedAt":1775391294823,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d24d1250e82945c76a42cf",
+		"deployedDefinitionId":"69d2523e50e82945c76a66c5",
 		"status":"DEPLOYED",
-		"version":17,
-		"workflowVersion":39
+		"version":18,
+		"workflowVersion":41
 	},
 	"edges":[
 		{
@@ -50,7 +50,7 @@
 	"id":"6926b07c2309d168a475facf",
 	"lastModifiedBy":-1,
 	"lcName":"sre | get kafka topic metadata",
-	"modifiedTime":1775390107001,
+	"modifiedTime":1775391430925,
 	"name":"SRE | Get Kafka Topic Metadata",
 	"nodes":[
 		{
@@ -302,5 +302,5 @@
 	"tags":[
 		"sre_ai"
 	],
-	"version":40
+	"version":42
 }
