@@ -4,14 +4,14 @@
 	],
 	"createdTime":1740599063975,
 	"deleted":false,
-	"deployedVersion":121,
+	"deployedVersion":123,
 	"deploymentState":{
-		"deployedAt":1775320665136,
+		"deployedAt":1775385613689,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e5983aecf24ec254d28",
+		"deployedDefinitionId":"69d23c0db41de37eb670f648",
 		"status":"DEPLOYED",
-		"version":121,
-		"workflowVersion":204
+		"version":123,
+		"workflowVersion":208
 	},
 	"edges":[
 		{
@@ -247,7 +247,7 @@
 	"id":"67bdf597ba32d908560a680f",
 	"lastModifiedBy":-1,
 	"lcName":"generic create case (streaming response)",
-	"modifiedTime":1775334458965,
+	"modifiedTime":1775385613691,
 	"name":"Generic Create Case (Streaming Response)",
 	"nodes":[
 		{
@@ -1575,5 +1575,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":206
+	"version":208
 }
