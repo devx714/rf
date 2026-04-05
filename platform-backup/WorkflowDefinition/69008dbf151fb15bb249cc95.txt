@@ -4,14 +4,14 @@
 	],
 	"createdTime":1761722702570,
 	"deleted":false,
-	"deployedVersion":27,
+	"deployedVersion":31,
 	"deploymentState":{
-		"deployedAt":1775320581501,
+		"deployedAt":1775391208169,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e0583aecf24ec254658",
+		"deployedDefinitionId":"69d251e850e82945c76a6373",
 		"status":"DEPLOYED",
-		"version":27,
-		"workflowVersion":57
+		"version":31,
+		"workflowVersion":65
 	},
 	"edges":[
 		{
@@ -55,6 +55,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -64,7 +65,7 @@
 	"id":"69008dbf151fb15bb249cc95",
 	"lastModifiedBy":-1,
 	"lcName":"workflow agent | add thought",
-	"modifiedTime":1775334352237,
+	"modifiedTime":1775391437044,
 	"name":"Workflow Agent | Add thought",
 	"nodes":[
 		{
@@ -274,5 +275,5 @@
 	"tags":[
 		
 	],
-	"version":59
+	"version":66
 }
