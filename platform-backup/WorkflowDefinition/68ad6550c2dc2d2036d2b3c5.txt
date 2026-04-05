@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756473919016,
 	"deleted":false,
-	"deployedVersion":48,
+	"deployedVersion":53,
 	"deploymentState":{
-		"deployedAt":1775320638352,
+		"deployedAt":1775407766233,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e3e83aecf24ec254b7d",
+		"deployedDefinitionId":"69d292960e422443cf560635",
 		"status":"DEPLOYED",
-		"version":48,
-		"workflowVersion":82
+		"version":53,
+		"workflowVersion":92
 	},
 	"edges":[
 		{
@@ -105,6 +105,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -114,7 +115,7 @@
 	"id":"68ad6550c2dc2d2036d2b3c5",
 	"lastModifiedBy":-1,
 	"lcName":"publish error message",
-	"modifiedTime":1775334414328,
+	"modifiedTime":1775408108066,
 	"name":"Publish Error Message",
 	"nodes":[
 		{
@@ -213,6 +214,7 @@
 				"language":"=IF(ISBLANK({{ _XUW6q.outputs.language }}),\"en\",{{ _XUW6q.outputs.language }})"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -470,6 +472,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -674,5 +677,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":84
+	"version":93
 }
