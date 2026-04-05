@@ -4,14 +4,14 @@
 	],
 	"createdTime":1760296287811,
 	"deleted":false,
-	"deployedVersion":30,
+	"deployedVersion":33,
 	"deploymentState":{
-		"deployedAt":1775385625465,
+		"deployedAt":1775407817564,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c19b41de37eb670f6c1",
+		"deployedDefinitionId":"69d292c90e422443cf560872",
 		"status":"DEPLOYED",
-		"version":30,
-		"workflowVersion":64
+		"version":33,
+		"workflowVersion":70
 	},
 	"edges":[
 		{
@@ -148,6 +148,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -157,7 +158,7 @@
 	"id":"68e4108255eefd25348624f9",
 	"lastModifiedBy":-1,
 	"lcName":"perform tavily websearch",
-	"modifiedTime":1775385625466,
+	"modifiedTime":1775408108376,
 	"name":"Perform Tavily Websearch",
 	"nodes":[
 		{
@@ -1140,5 +1141,5 @@
 	"tags":[
 		
 	],
-	"version":64
+	"version":71
 }
