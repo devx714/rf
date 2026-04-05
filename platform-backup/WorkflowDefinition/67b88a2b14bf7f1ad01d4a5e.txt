@@ -4,14 +4,14 @@
 	],
 	"createdTime":1740419118371,
 	"deleted":false,
-	"deployedVersion":92,
+	"deployedVersion":93,
 	"deploymentState":{
-		"deployedAt":1775391197462,
+		"deployedAt":1775407699472,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d251dd50e82945c76a62a9",
+		"deployedDefinitionId":"69d292530e422443cf5603b5",
 		"status":"DEPLOYED",
-		"version":92,
-		"workflowVersion":143
+		"version":93,
+		"workflowVersion":145
 	},
 	"edges":[
 		{
@@ -84,6 +84,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -93,7 +94,7 @@
 	"id":"67b88a2b14bf7f1ad01d4a5e",
 	"lastModifiedBy":-1,
 	"lcName":"call custom http endpoint (openai type payload)",
-	"modifiedTime":1775407699398,
+	"modifiedTime":1775408102874,
 	"name":"Call Custom HTTP Endpoint (OpenAI type Payload)",
 	"nodes":[
 		{
@@ -476,6 +477,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1270,5 +1272,5 @@
 		}
 	},
 	"standard":true,
-	"version":145
+	"version":146
 }
