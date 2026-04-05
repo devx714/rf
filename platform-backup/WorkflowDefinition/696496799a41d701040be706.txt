@@ -1,0 +1,885 @@
+{
+	"appsUsed":[
+		"microsoft_outlook"
+	],
+	"createdTime":1773928127573,
+	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1773928127744,
+		"deployedBy":-1,
+		"deployedDefinitionId":"69bbfebf16170c62438067ee",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":73
+	},
+	"edges":[
+		{
+			"fromNodeId":"n_odqe1",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_ZoZJY",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_ZoZJY",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"1WPP3",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"1WPP3",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_DwVo5",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_DwVo5",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_ALG07",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_ALG07",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_1cr5W",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_1cr5W",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_eZToW",
+			"type":"loop"
+		},
+		{
+			"fromNodeId":"n_eZToW",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_WdJwe",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_WdJwe",
+			"name":"loopback",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_1cr5W",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_1cr5W",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_vwbKn",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_vwbKn",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_yoZPJ",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_yoZPJ",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_dSFok",
+			"type":"next"
+		}
+	],
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"V"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"696496799a41d701040be706",
+	"lastModifiedBy":-1,
+	"lcName":"knowledge downloader | outlook | folder",
+	"modifiedTime":1775389873623,
+	"name":"Knowledge Downloader | Outlook | Folder",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":718,
+				"resourceName":"callables_from_interface"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GRKFk-1",
+			"id":"n_odqe1",
+			"index":1,
+			"inputs":{
+				"result":{
+					"additionalProperties":false,
+					"properties":{
+						"cursor":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Cursor",
+							"type":"object"
+						},
+						"downloadedEntitiesCount":{
+							"title":"Downloaded Entities Count",
+							"type":"integer"
+						},
+						"hasMore":{
+							"title":"Has More",
+							"type":"boolean"
+						},
+						"knowledgeDownloadFinished":{
+							"title":"Knowledge Download Finished",
+							"type":"boolean"
+						}
+					},
+					"required":[],
+					"type":"object",
+					"ua:modal":{
+						"field_type":"STRING",
+						"is_optional":true
+					}
+				},
+				"callableInterfaceId":"6854484ac68462013926b9cf",
+				"setup":{
+					"additionalProperties":false,
+					"properties":{
+						"aiAgentId":{
+							"title":"aiAgentId",
+							"type":"string"
+						},
+						"cursor":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Cursor",
+							"type":"object"
+						},
+						"downloaderConfig":{
+							"additionalProperties":false,
+							"properties":{
+								"currentTimeEpoch":{
+									"title":"Current Time Epoch",
+									"type":"integer"
+								},
+								"grabberType":{
+									"title":"Grabber Type",
+									"type":"string"
+								},
+								"startTimeEpoch":{
+									"title":"Start Time Epoch",
+									"type":"integer"
+								}
+							},
+							"required":[],
+							"title":"Downloader Config",
+							"type":"object"
+						},
+						"importerConnections":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Importer Connections",
+							"type":"object"
+						},
+						"inputs":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Inputs",
+							"type":"object"
+						},
+						"knowledge":{
+							"additionalProperties":false,
+							"properties":{
+								"applicationInfo":{
+									"additionalProperties":false,
+									"properties":{
+										"context":{
+											"additionalProperties":false,
+											"properties":{
+												"connectionId":{
+													"title":"Connection Id",
+													"type":"string"
+												}
+											},
+											"required":[],
+											"title":"Context",
+											"type":"object"
+										}
+									},
+									"required":[],
+									"title":"Application Info",
+									"type":"object"
+								},
+								"cursorObject":{
+									"title":"cursorObject",
+									"type":"object"
+								},
+								"indexingVersion":{
+									"title":"Indexing Version",
+									"type":"integer"
+								},
+								"knowledgeSetId":{
+									"title":"Knowledge Set Id",
+									"type":"string"
+								},
+								"lastSyncTime":{
+									"title":"lastSyncTime",
+									"type":"integer"
+								},
+								"readVersion":{
+									"title":"readVersion",
+									"type":"integer"
+								}
+							},
+							"required":[],
+							"title":"knowledge",
+							"type":"object"
+						},
+						"knowledgeId":{
+							"title":"knowledgeId",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object",
+					"ua:modal":{
+						"field_type":"STRING",
+						"is_optional":true
+					}
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger interface",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":0,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GRKFk-1",
+			"id":"n_ZoZJY",
+			"index":2,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"lastModifiedTime":{
+							"title":"Last Modified Time",
+							"type":"integer"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"cursorObject":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Cursor Object",
+							"type":"object"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"return binding.hasVariable('cursorObject') ? cursorObject : [:]",
+				"compile_static":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"cursorObject":"{{ n_odqe1.outputs.cursor }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":68,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GRKFk-1",
+			"id":"1WPP3",
+			"index":3,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"mappedInputs":{
+							"additionalProperties":false,
+							"properties":{
+								"fileType":{
+									"items":{
+										"type":"string"
+									},
+									"title":"File Type",
+									"type":"array"
+								},
+								"filter":{
+									"title":"Filter",
+									"type":"string"
+								},
+								"folderId":{
+									"title":"folder id",
+									"type":"string"
+								},
+								"fromDate":{
+									"title":"From Date",
+									"type":"string"
+								},
+								"includeAttachments":{
+									"title":"Include Attachments",
+									"type":"boolean"
+								},
+								"mailboxId":{
+									"title":"Mailbox Id",
+									"type":"string"
+								},
+								"modifiedDate":{
+									"additionalProperties":false,
+									"properties":{
+										"from":{
+											"title":"from",
+											"type":"string"
+										},
+										"to":{
+											"title":"to",
+											"type":"string"
+										}
+									},
+									"type":"object"
+								},
+								"organisationName":{
+									"title":"Organisation Name",
+									"type":"string"
+								},
+								"toDate":{
+									"title":"To Date",
+									"type":"string"
+								}
+							},
+							"required":[],
+							"title":"Mapped Inputs",
+							"type":"object"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"cursor":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Cursor",
+							"type":"object"
+						},
+						"downloaderConfig":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Downloader Config",
+							"type":"object"
+						},
+						"inputs":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Inputs",
+							"type":"object"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"import java.time.Instant\n\nString getTimeStampString(Long epoch) {\n    return Instant.ofEpochMilli(epoch).toString()\n}\n\ndef mappedInputs = [:]\ndef filters = []\n\ndef inputMap = [:]\nif (binding.hasVariable('inputs')) {\n    inputMap = inputs?.inputs\n    mappedInputs[\"folderId\"] = inputs?.id\n    mappedInputs[\"mailboxId\"] = inputMap?.mailboxId\n    mappedInputs[\"organisationName\"] = inputMap?.organisationName\n    mappedInputs[\"includeAttachments\"] = inputMap?.includeAttachments\n    mappedInputs[\"recursive\"] = inputMap?.recursive\n    mappedInputs[\"fileType\"] = inputMap?.fileType\n    mappedInputs[\"modifiedDate\"] = inputMap?.modifiedDate\n}\n\ndef effectiveStartTime = binding.hasVariable(\"downloaderConfig\") ? downloaderConfig.get(\"startTimeEpoch\", 0) : 0\n\nif (inputMap?.modifiedDate?.from) {\n    effectiveStartTime = Math.max(effectiveStartTime, Instant.parse(inputMap?.modifiedDate?.from).toEpochMilli())\n}\n\nif (binding.hasVariable(\"cursor\") && cursor?.lastModifiedTime) {\n    effectiveStartTime = cursor.lastModifiedTime as Long\n}\n\nif (effectiveStartTime) {\n    def ts = getTimeStampString(effectiveStartTime)\n    filters << \"lastModifiedDateTime ge ${ts}\"\n}\n\nif (!filters.isEmpty()) {\n    mappedInputs[\"filter\"] = filters.join(\" and \")\n}\n\nreturn [\"mappedInputs\": mappedInputs]\n",
+				"compile_static":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"cursor":"{{ n_odqe1.outputs.cursor }}",
+					"downloaderConfig":"{{ n_odqe1.outputs.downloaderConfig }}",
+					"inputs":"{{ n_odqe1.outputs.inputs }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Resolve and prepare action inputs",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":458,
+				"resourceName":"variable_by_unifyapps_create_variables",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GRKFk-1",
+			"id":"n_DwVo5",
+			"index":4,
+			"inputSchema":{
+				"type":"SCHEMA_AND_LAYOUT",
+				"dynamic":false,
+				"layout":{},
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"downloadedCount":{
+							"title":"Downloaded Count",
+							"type":"integer"
+						},
+						"hasMore":{
+							"title":"Has More",
+							"type":"boolean"
+						}
+					},
+					"required":[]
+				}
+			},
+			"inputs":{
+				"hasMore":true,
+				"downloadedCount":0
+			},
+			"outputSchema":{
+				"dynamic":false,
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"downloadedCount":{
+							"title":"Downloaded Count",
+							"type":"integer"
+						},
+						"hasMore":{
+							"title":"Has More",
+							"type":"boolean"
+						}
+					},
+					"required":[]
+				}
+			},
+			"skip":false,
+			"subTitle":"Variable by UnifyApps",
+			"title":"Create variables",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"microsoft_outlook",
+				"resourceVersion":69,
+				"connectionId":"694bc95856770238add666cf",
+				"resourceName":"microsoft_outlook_get_messages_in_shared_mailbox",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GRKFk-1",
+			"id":"n_ALG07",
+			"index":5,
+			"inputs":{
+				"filter":"{{ 1WPP3.outputs.result.mappedInputs.filter }}",
+				"top":100,
+				"orderby":"lastModifiedDateTime asc",
+				"mailBoxId":"{{ 1WPP3.outputs.result.mappedInputs.mailboxId }}",
+				"skip":0,
+				"folderId":"{{ 1WPP3.outputs.result.mappedInputs.folderId }}"
+			},
+			"skip":false,
+			"subTitle":"Microsoft Outlook",
+			"title":"Get Messages in Shared Mailbox",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"loop",
+				"resourceVersion":456,
+				"resourceName":"loop_for_each",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GRKFk-1",
+			"id":"n_1cr5W",
+			"index":6,
+			"inputs":{
+				"repeatMode":"BATCH",
+				"listSource":"{{ n_ALG07.outputs.value }}",
+				"captureIterations":false,
+				"batchSize":25
+			},
+			"skip":false,
+			"subTitle":"Loop",
+			"title":"For each loop",
+			"type":"LOOP"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":454,
+				"resourceName":"callables_call_automation_batch",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_1cr5W@_GRKFk-1@l",
+			"id":"n_eZToW",
+			"index":7,
+			"inputs":{
+				"automationId":"696497589a41d701040c0ac9",
+				"runtimeConnections":{
+					"microsoft_outlook":"{{ n_odqe1.outputs.knowledge.applicationInfo.context.connectionId }}",
+					"microsoft_sharepoint":"{{ n_BCpyz.outputs.knowledge.applicationInfo.context.connectionId }}"
+				},
+				"synchronous":true,
+				"distributeWorkflowLoad":false,
+				"parametersList":{
+					"items":{
+						"downloaderConfig":"{{ n_odqe1.outputs.downloaderConfig }}",
+						"knowledgeId":"{{ n_odqe1.outputs.knowledgeId }}",
+						"knowledgeSetId":"{{ n_odqe1.outputs.knowledge.knowledgeSetId }}",
+						"knowledgeVersion":"{{ n_odqe1.outputs.knowledge.indexingVersion }}",
+						"mappedInputs":"{{ 1WPP3.outputs.result.mappedInputs }}",
+						"maxModifiedTime":"{{ n_ZoZJY.outputs.result.lastModifiedTime }}",
+						"messageObject":{
+							"bccRecipients":{
+								"items":{
+									"emailAddress":{
+										"address":"{{ n_1cr5W.outputs.item[0].bccRecipients[0].emailAddress.address }}",
+										"name":"{{ n_1cr5W.outputs.item[0].bccRecipients[0].emailAddress.name }}"
+									}
+								},
+								"source":"{{ n_1cr5W.outputs.item[0].bccRecipients }}",
+								"ua:type":"mappedArray"
+							},
+							"body":{
+								"content":"{{ n_1cr5W.outputs.item[0].body.content }}",
+								"contentType":"{{ n_1cr5W.outputs.item[0].body.contentType }}"
+							},
+							"bodyPreview":"{{ n_1cr5W.outputs.item[0].bodyPreview }}",
+							"categories":{
+								"items":"{{ n_1cr5W.outputs.item[0].categories[0] }}",
+								"source":"{{ n_1cr5W.outputs.item[0].categories }}",
+								"ua:type":"mappedArray"
+							},
+							"ccRecipients":{
+								"items":{
+									"emailAddress":{
+										"address":"{{ n_1cr5W.outputs.item[0].toRecipients[0].emailAddress.address }}",
+										"name":"{{ n_1cr5W.outputs.item[0].toRecipients[0].emailAddress.name }}"
+									}
+								},
+								"source":"{{ n_1cr5W.outputs.item[0].ccRecipients }}",
+								"ua:type":"mappedArray"
+							},
+							"changeKey":"{{ n_1cr5W.outputs.item[0].changeKey }}",
+							"conversationId":"{{ n_1cr5W.outputs.item[0].conversationId }}",
+							"createdDateTime":"{{ n_1cr5W.outputs.item[0].createdDateTime }}",
+							"flag":{
+								"flagStatus":"{{ n_1cr5W.outputs.item[0].flag.flagStatus }}"
+							},
+							"from":{
+								"emailAddress":{
+									"address":"{{ n_1cr5W.outputs.item[0].from.emailAddress.address }}",
+									"name":"{{ n_1cr5W.outputs.item[0].from.emailAddress.name }}"
+								}
+							},
+							"hasAttachments":"{{ n_1cr5W.outputs.item[0].hasAttachments }}",
+							"id":"{{ n_1cr5W.outputs.item[0].id }}",
+							"importance":"{{ n_1cr5W.outputs.item[0].importance }}",
+							"inferenceClassification":"{{ n_1cr5W.outputs.item[0].inferenceClassification }}",
+							"internetMessageId":"{{ n_1cr5W.outputs.item[0].internetMessageId }}",
+							"isDeliveryReceiptRequested":"{{ n_1cr5W.outputs.item[0].isDeliveryReceiptRequested }}",
+							"isDraft":"{{ n_1cr5W.outputs.item[0].isDraft }}",
+							"isRead":"{{ n_1cr5W.outputs.item[0].isRead }}",
+							"isReadReceiptRequested":"{{ n_1cr5W.outputs.item[0].isReadReceiptRequested }}",
+							"lastModifiedDateTime":"{{ n_1cr5W.outputs.item[0].lastModifiedDateTime }}",
+							"parentFolderId":"{{ n_1cr5W.outputs.item[0].parentFolderId }}",
+							"receivedDateTime":"{{ n_1cr5W.outputs.item[0].receivedDateTime }}",
+							"replyTo":{
+								"items":{
+									"emailAddress":{
+										"address":"{{ n_1cr5W.outputs.item[0].replyTo[0].emailAddress.address }}",
+										"name":"{{ n_1cr5W.outputs.item[0].replyTo[0].emailAddress.name }}"
+									}
+								},
+								"source":"{{ n_1cr5W.outputs.item[0].replyTo }}",
+								"ua:type":"mappedArray"
+							},
+							"sender":{
+								"emailAddress":{
+									"address":"{{ n_1cr5W.outputs.item[0].sender.emailAddress.address }}",
+									"name":"{{ n_1cr5W.outputs.item[0].sender.emailAddress.name }}"
+								}
+							},
+							"sentDateTime":"{{ n_1cr5W.outputs.item[0].sentDateTime }}",
+							"subject":"{{ n_1cr5W.outputs.item[0].subject }}",
+							"toRecipients":{
+								"items":{
+									"emailAddress":{
+										"address":"{{ n_1cr5W.outputs.item[0].toRecipients[0].emailAddress.address }}",
+										"name":"{{ n_1cr5W.outputs.item[0].toRecipients[0].emailAddress.name }}"
+									}
+								},
+								"source":"{{ n_1cr5W.outputs.item[0].toRecipients }}",
+								"ua:type":"mappedArray"
+							},
+							"webLink":"{{ n_1cr5W.outputs.item[0].webLink }}"
+						}
+					},
+					"source":"{{ n_1cr5W.outputs.item }}",
+					"ua:type":"mappedArray"
+				},
+				"version":"-1"
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Call automation",
+			"type":"CALL_WORKFLOW"
+		},
+		{
+			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":447,
+				"resourceName":"variable_by_unifyapps_update_variables",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"n_1cr5W@_GRKFk-1@l",
+			"id":"n_WdJwe",
+			"index":8,
+			"inputs":{
+				"variables":[
+					{
+						"source":"{{ n_DwVo5.outputs.downloadedCount }}",
+						"value":"=COUNTIF({{ n_eZToW.outputs.result[0].success }}, true)"
+					}
+				]
+			},
+			"skip":false,
+			"subTitle":"Variable by UnifyApps",
+			"title":"Update variables",
+			"type":"ACTION"
+		},
+		{
+			"additional":{
+				"visibleOptionalFields":[
+					"root.parameters.lastModifiedTimeList.items",
+					"root.parameters.modifiedDate.from",
+					"root.parameters.modifiedDate.to"
+				]
+			},
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":449,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GRKFk-1",
+			"id":"n_vwbKn",
+			"index":9,
+			"inputs":{
+				"output":{
+					"additionalProperties":false,
+					"properties":{
+						"cursor":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Cursor",
+							"type":"object"
+						},
+						"downloadedFileCount":{
+							"title":"Downloaded File Count",
+							"type":"integer"
+						},
+						"hasMore":{
+							"title":"Has More",
+							"type":"boolean"
+						},
+						"knowledgeDownloadFinished":{
+							"title":"Knowledge Download Finished",
+							"type":"boolean"
+						},
+						"lastModifiedTime":{
+							"title":"Last Modified Time",
+							"type":"integer"
+						},
+						"maxModifiedTime":{
+							"title":"Max Modified Time",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"input":{
+					"additionalProperties":false,
+					"properties":{
+						"lastModifiedTime":{
+							"title":"Last Modified Time",
+							"type":"integer"
+						},
+						"lastModifiedTimeList":{
+							"items":{
+								"type":"string"
+							},
+							"title":"Last Modified Time List",
+							"type":"array"
+						},
+						"modifiedDate":{
+							"additionalProperties":false,
+							"properties":{
+								"from":{
+									"title":"from",
+									"type":"string"
+								},
+								"to":{
+									"title":"to",
+									"type":"string"
+								}
+							},
+							"type":"object"
+						},
+						"nextPageToken":{
+							"title":"Next Page Token",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"type":"object"
+				},
+				"code":"import java.net.URLDecoder\nimport java.time.Instant\n\n\ndef lastModifiedTime = null\ndef toDateEpoch = (binding.hasVariable(\"modifiedDate\") && modifiedDate?.to) ? Instant.parse(modifiedDate?.to).toEpochMilli() : null\n\nif (binding.hasVariable('lastModifiedTimeList') &&\n        lastModifiedTimeList instanceof List &&\n        lastModifiedTimeList.size() > 0) {\n    lastModifiedTime = Instant.parse(lastModifiedTimeList[-1]).toEpochMilli()\n} else if (binding.hasVariable('lastModifiedTime')) {\n    lastModifiedTime = lastModifiedTime\n}\n\nreturn [\n    cursor: [\n        lastModifiedTime: lastModifiedTime\n    ],\n    hasMore: binding.hasVariable('nextPageToken') && nextPageToken,\n    knowledgeDownloadFinished: ((toDateEpoch != null) && (lastModifiedTime > toDateEpoch ))\n]\n",
+				"compile_static":false,
+				"captureStdOutput":false,
+				"parameters":{
+					"lastModifiedTime":"{{ n_ZoZJY.outputs.result.lastModifiedTime }}",
+					"lastModifiedTimeList":{
+						"items":"{{ n_ALG07.outputs.value[0].lastModifiedDateTime }}",
+						"source":"{{ n_ALG07.outputs.value }}",
+						"ua:type":"mappedArray"
+					},
+					"modifiedDate":{
+						"from":"{{ 1WPP3.outputs.result.mappedInputs.modifiedDate.from }}",
+						"to":"{{ 1WPP3.outputs.result.mappedInputs.modifiedDate.to }}"
+					},
+					"nextPageToken":"{{ n_ALG07.outputs.nextLink }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Resolve cursor and flags",
+			"title":"Execute Groovy code",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":447,
+				"resourceName":"variable_by_unifyapps_update_variables",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GRKFk-1",
+			"id":"n_yoZPJ",
+			"index":10,
+			"inputs":{
+				"variables":[
+					{
+						"source":"{{ n_DwVo5.outputs.hasMore }}",
+						"value":"{{ n_vwbKn.outputs.result.hasMore }}"
+					}
+				]
+			},
+			"skip":false,
+			"subTitle":"Variable by UnifyApps",
+			"title":"Update variables",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":457,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GRKFk-1",
+			"id":"n_dSFok",
+			"index":11,
+			"inputs":{
+				"result":{
+					"cursor":"{{ n_vwbKn.outputs.result.cursor }}",
+					"downloadedEntitiesCount":"{{ n_DwVo5.outputs.downloadedCount }}",
+					"hasMore":"{{ n_DwVo5.outputs.hasMore }}",
+					"knowledgeDownloadFinished":"{{ n_vwbKn.outputs.result.knowledgeDownloadFinished }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":-1,
+	"runtimeConnectionAppNames":[
+		"microsoft_outlook"
+	],
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"headerValueTierMap":{},
+			"tierName":"global"
+		}
+	},
+	"standard":true,
+	"tags":[
+		"knowledge_v2"
+	],
+	"version":74
+}
