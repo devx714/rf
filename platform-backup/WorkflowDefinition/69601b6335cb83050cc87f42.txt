@@ -84,7 +84,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -92,9 +91,9 @@
 		]
 	},
 	"id":"69601b6335cb83050cc87f42",
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"knowledge downloader | google calender | all calender for meets",
-	"modifiedTime":1774960430350,
+	"modifiedTime":1775390082576,
 	"name":"Knowledge Downloader | Google calender | All calender for Meets",
 	"nodes":[
 		{
@@ -112,149 +111,149 @@
 			"inputs":{
 				"result":{
 					"additionalProperties":false,
-					"type":"object",
+					"properties":{
+						"downloaderDetails":{
+							"items":{
+								"additionalProperties":false,
+								"properties":{
+									"downloaderAutomation":{
+										"title":"Downloader Automation",
+										"type":"string"
+									},
+									"downloaderParams":{
+										"items":{
+											"additionalProperties":false,
+											"properties":{
+												"inputs":{
+													"additionalProperties":false,
+													"properties":{},
+													"title":"Inputs",
+													"type":"object"
+												},
+												"parentEntityId":{
+													"title":"Parent Entity Id",
+													"type":"string"
+												}
+											},
+											"required":[],
+											"type":"object"
+										},
+										"title":"Downloader Params",
+										"type":"array"
+									}
+								},
+								"required":[],
+								"type":"object"
+							},
+							"title":"Downloader Details",
+							"type":"array"
+						},
+						"entityCount":{
+							"title":"Entity Count",
+							"type":"integer"
+						}
+					},
 					"required":[],
+					"type":"object",
 					"ua:modal":{
 						"field_type":"STRING",
 						"is_optional":true
-					},
-					"properties":{
-						"entityCount":{
-							"type":"integer",
-							"title":"Entity Count"
-						},
-						"downloaderDetails":{
-							"type":"array",
-							"items":{
-								"type":"object",
-								"properties":{
-									"downloaderAutomation":{
-										"type":"string",
-										"title":"Downloader Automation"
-									},
-									"downloaderParams":{
-										"type":"array",
-										"items":{
-											"type":"object",
-											"properties":{
-												"parentEntityId":{
-													"type":"string",
-													"title":"Parent Entity Id"
-												},
-												"inputs":{
-													"type":"object",
-													"properties":{},
-													"additionalProperties":false,
-													"title":"Inputs"
-												}
-											},
-											"additionalProperties":false,
-											"required":[]
-										},
-										"title":"Downloader Params"
-									}
-								},
-								"additionalProperties":false,
-								"required":[]
-							},
-							"title":"Downloader Details"
-						}
 					}
 				},
 				"callableInterfaceId":"686af1b917f4c626f9b30e71",
 				"setup":{
 					"additionalProperties":false,
-					"type":"object",
+					"properties":{
+						"aiAgentId":{
+							"title":"aiAgentId",
+							"type":"string"
+						},
+						"downloaderConfig":{
+							"additionalProperties":false,
+							"properties":{
+								"currentTimeEpoch":{
+									"title":"Current Time Epoch",
+									"type":"integer"
+								},
+								"grabberType":{
+									"title":"Grabber Type",
+									"type":"string"
+								},
+								"startTimeEpoch":{
+									"title":"Start Time Epoch",
+									"type":"integer"
+								}
+							},
+							"required":[],
+							"title":"Downloader Config",
+							"type":"object"
+						},
+						"importerConnections":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Importer Connections",
+							"type":"object"
+						},
+						"inputs":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Inputs",
+							"type":"object"
+						},
+						"knowledge":{
+							"additionalProperties":false,
+							"properties":{
+								"applicationInfo":{
+									"additionalProperties":false,
+									"properties":{
+										"context":{
+											"additionalProperties":false,
+											"properties":{
+												"connectionId":{
+													"title":"Connection Id",
+													"type":"string"
+												}
+											},
+											"required":[],
+											"title":"Context",
+											"type":"object"
+										}
+									},
+									"required":[],
+									"title":"Application Info",
+									"type":"object"
+								},
+								"cursorObject":{
+									"title":"cursorObject",
+									"type":"object"
+								},
+								"indexingVersion":{
+									"title":"Indexing Version",
+									"type":"integer"
+								},
+								"lastSyncTime":{
+									"title":"lastSyncTime",
+									"type":"integer"
+								},
+								"readVersion":{
+									"title":"readVersion",
+									"type":"integer"
+								}
+							},
+							"required":[],
+							"title":"knowledge",
+							"type":"object"
+						},
+						"knowledgeId":{
+							"title":"knowledgeId",
+							"type":"string"
+						}
+					},
 					"required":[],
+					"type":"object",
 					"ua:modal":{
 						"field_type":"STRING",
 						"is_optional":true
-					},
-					"properties":{
-						"knowledgeId":{
-							"type":"string",
-							"title":"knowledgeId"
-						},
-						"aiAgentId":{
-							"type":"string",
-							"title":"aiAgentId"
-						},
-						"knowledge":{
-							"type":"object",
-							"properties":{
-								"readVersion":{
-									"type":"integer",
-									"title":"readVersion"
-								},
-								"lastSyncTime":{
-									"type":"integer",
-									"title":"lastSyncTime"
-								},
-								"cursorObject":{
-									"type":"object",
-									"title":"cursorObject"
-								},
-								"applicationInfo":{
-									"type":"object",
-									"properties":{
-										"context":{
-											"type":"object",
-											"properties":{
-												"connectionId":{
-													"type":"string",
-													"title":"Connection Id"
-												}
-											},
-											"additionalProperties":false,
-											"title":"Context",
-											"required":[]
-										}
-									},
-									"additionalProperties":false,
-									"title":"Application Info",
-									"required":[]
-								},
-								"indexingVersion":{
-									"type":"integer",
-									"title":"Indexing Version"
-								}
-							},
-							"title":"knowledge",
-							"additionalProperties":false,
-							"required":[]
-						},
-						"inputs":{
-							"type":"object",
-							"properties":{},
-							"additionalProperties":false,
-							"title":"Inputs"
-						},
-						"importerConnections":{
-							"type":"object",
-							"properties":{},
-							"additionalProperties":false,
-							"title":"Importer Connections"
-						},
-						"downloaderConfig":{
-							"type":"object",
-							"properties":{
-								"grabberType":{
-									"type":"string",
-									"title":"Grabber Type"
-								},
-								"currentTimeEpoch":{
-									"type":"integer",
-									"title":"Current Time Epoch"
-								},
-								"startTimeEpoch":{
-									"type":"integer",
-									"title":"Start Time Epoch"
-								}
-							},
-							"additionalProperties":false,
-							"title":"Downloader Config",
-							"required":[]
-						}
 					}
 				}
 			},
@@ -290,43 +289,43 @@
 			"index":2,
 			"inputs":{
 				"output":{
-					"type":"object",
 					"additionalProperties":false,
-					"required":[],
 					"properties":{
 						"newInputs":{
-							"type":"object",
-							"properties":{},
 							"additionalProperties":false,
-							"title":"New Inputs"
+							"properties":{},
+							"title":"New Inputs",
+							"type":"object"
 						}
-					}
+					},
+					"required":[],
+					"type":"object"
 				},
 				"input":{
-					"type":"object",
 					"additionalProperties":false,
-					"required":[],
 					"properties":{
-						"inputs":{
-							"type":"object",
-							"properties":{},
-							"additionalProperties":false,
-							"title":"Inputs"
-						},
 						"downloaderConfig":{
-							"type":"object",
-							"properties":{},
 							"additionalProperties":false,
-							"title":"Downloader Config"
+							"properties":{},
+							"title":"Downloader Config",
+							"type":"object"
+						},
+						"inputs":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Inputs",
+							"type":"object"
 						}
-					}
+					},
+					"required":[],
+					"type":"object"
 				},
 				"code":"import java.lang.Math\nimport java.time.*\n\ndef convertToUnixTimestamp = { isoTimestamp ->\n    if (isoTimestamp) {\n        try {\n            if (isoTimestamp.length() == 10) { \n                // case: only date (yyyy-MM-dd)\n                LocalDate localDate = LocalDate.parse(isoTimestamp)\n                ZoneId istZone = ZoneId.of(\"Asia/Kolkata\")\n                ZonedDateTime startOfDay = localDate.atStartOfDay(istZone)\n                return startOfDay.toInstant().toEpochMilli()  // ✅ millis\n            } else {\n                // case: full timestamp\n                Instant instant = Instant.parse(isoTimestamp)\n                return instant.toEpochMilli()  // ✅ millis\n            }\n        } catch (Exception e) {\n            throw new RuntimeException(\"Invalid timestamp format: ${isoTimestamp}\", e)\n        }\n    }\n    return null\n}\n\n\n\nif (!binding.hasVariable(\"inputs\")) {\n    return [:]\n}\n\ndef mappedInputs = new HashMap<>(inputs)\nif (binding.hasVariable('inputs')) {\n    // compress start date to cursor timestamp\n    mappedInputs[\"startDate\"] = inputs?.dateRange?.fromDate ? convertToUnixTimestamp(inputs.dateRange.fromDate) : null\n\n    mappedInputs[\"endDate\"] = inputs?.dateRange?.toDate ? convertToUnixTimestamp(inputs.dateRange.toDate) : null\n\n    // def lastMessageDownloadTimeMili\n    // if (binding.hasVariable('downloaderConfig') && downloaderConfig.containsKey('startTimeEpoch')) {\n    //     lastMessageDownloadTimeMili = (downloaderConfig['startTimeEpoch']).longValue()\n    // }\n\n    // def endMessageTimeMili\n    // if (binding.hasVariable('downloaderConfig') && downloaderConfig.containsKey('currentTimeEpoch')) {\n    //     endMessageTimeMili = (downloaderConfig['currentTimeEpoch']).longValue()\n    // }\n\n    // if (startDateMili != null && lastMessageDownloadTimeMili != null) {\n    //     mappedInputs[\"startDate\"] = Math.max(startDateMili, lastMessageDownloadTimeMili)\n    // } else if (startDateMili == null && lastMessageDownloadTimeMili != null) {\n    //     mappedInputs[\"startDate\"] = lastMessageDownloadTimeMili\n    // } else {\n    //     mappedInputs[\"startDate\"] = startDateMili\n    // }\n\n    // if (endDateMili!=null && endMessageTimeMili !=null) {\n    //     mappedInputs[\"endDate\"] = Math.min(endDateMili, endMessageTimeMili)\n    // } else if(endDateMili == null && endMessageTimeMili != null) {\n    //     mappedInputs[\"endDate\"] = endMessageTimeMili \n    // } else {\n    //     mappedInputs[\"endDate\"] = endDateMili \n    // }\n}\n\n\nreturn [\"newInputs\": mappedInputs]",
 				"compile_static":false,
 				"captureStdOutput":false,
 				"parameters":{
-					"inputs":"{{ n_fofB1.outputs.inputs }}",
-					"downloaderConfig":"{{ n_fofB1.outputs.downloaderConfig }}"
+					"downloaderConfig":"{{ n_fofB1.outputs.downloaderConfig }}",
+					"inputs":"{{ n_fofB1.outputs.inputs }}"
 				}
 			},
 			"skip":false,
@@ -352,18 +351,18 @@
 				"dynamic":false,
 				"layout":{
 					"createList":{
-						"ui:title":"",
+						"items":{
+							"ui:description":"Set the initial values of the list (defaults to empty)",
+							"ui:title":"Initial list items"
+						},
 						"ua:type":{
 							"ui:widget":"hidden"
-						},
-						"items":{
-							"ui:title":"Initial list items",
-							"ui:description":"Set the initial values of the list (defaults to empty)"
 						},
 						"ui:order":[
 							"*",
 							"items"
-						]
+						],
+						"ui:title":""
 					},
 					"ua:title":{
 						"ui:widget":"hidden"
@@ -385,13 +384,13 @@
 							"then":{
 								"properties":{
 									"createList":{
-										"type":"object",
 										"properties":{
 											"items":{
-												"type":"object",
-												"properties":{}
+												"properties":{},
+												"type":"object"
 											}
-										}
+										},
+										"type":"object"
 									}
 								}
 							}
@@ -407,17 +406,17 @@
 							"then":{
 								"properties":{
 									"createList":{
-										"type":"object",
 										"properties":{
-											"source":{
-												"type":"string",
-												"format":"ua:source",
-												"title":"List of String"
-											},
 											"items":{
 												"type":"string"
+											},
+											"source":{
+												"format":"ua:source",
+												"title":"List of String",
+												"type":"string"
 											}
-										}
+										},
+										"type":"object"
 									}
 								}
 							}
@@ -433,17 +432,17 @@
 							"then":{
 								"properties":{
 									"createList":{
-										"type":"object",
 										"properties":{
-											"source":{
-												"type":"string",
-												"format":"ua:source",
-												"title":"List of Integers"
-											},
 											"items":{
 												"type":"integer"
+											},
+											"source":{
+												"format":"ua:source",
+												"title":"List of Integers",
+												"type":"string"
 											}
-										}
+										},
+										"type":"object"
 									}
 								}
 							}
@@ -459,17 +458,17 @@
 							"then":{
 								"properties":{
 									"createList":{
-										"type":"object",
 										"properties":{
-											"source":{
-												"type":"string",
-												"format":"ua:source",
-												"title":"List of Numbers"
-											},
 											"items":{
 												"type":"number"
+											},
+											"source":{
+												"format":"ua:source",
+												"title":"List of Numbers",
+												"type":"string"
 											}
-										}
+										},
+										"type":"object"
 									}
 								}
 							}
@@ -485,17 +484,17 @@
 							"then":{
 								"properties":{
 									"createList":{
-										"type":"object",
 										"properties":{
-											"source":{
-												"type":"string",
-												"format":"ua:source",
-												"title":"List of Booleans"
-											},
 											"items":{
 												"type":"boolean"
+											},
+											"source":{
+												"format":"ua:source",
+												"title":"List of Booleans",
+												"type":"string"
 											}
-										}
+										},
+										"type":"object"
 									}
 								}
 							}
@@ -504,12 +503,33 @@
 					"format":"ua:list",
 					"type":"object",
 					"properties":{
-						"ua:title":{
-							"type":"string"
+						"createList":{
+							"properties":{
+								"items":{
+									"additionalProperties":false,
+									"properties":{},
+									"type":[
+										"object",
+										"string",
+										"number",
+										"boolean",
+										"integer"
+									]
+								},
+								"source":{
+									"format":"ua:source",
+									"title":"List Item Source",
+									"type":"string"
+								},
+								"ua:type":{
+									"default":"mappedArray",
+									"type":"string"
+								}
+							},
+							"type":"object"
 						},
 						"ua:list_type":{
-							"type":"string",
-							"title":"List Type",
+							"default":"OBJECT",
 							"oneOf":[
 								{
 									"const":"OBJECT",
@@ -532,58 +552,36 @@
 									"title":"Boolean"
 								}
 							],
-							"default":"OBJECT"
+							"title":"List Type",
+							"type":"string"
 						},
-						"createList":{
-							"type":"object",
-							"properties":{
-								"ua:type":{
-									"type":"string",
-									"default":"mappedArray"
-								},
-								"source":{
-									"type":"string",
-									"format":"ua:source",
-									"title":"List Item Source"
-								},
-								"items":{
-									"additionalProperties":false,
-									"type":[
-										"object",
-										"string",
-										"number",
-										"boolean",
-										"integer"
-									],
-									"properties":{}
-								}
-							}
+						"ua:title":{
+							"type":"string"
 						}
 					}
 				}
 			},
 			"inputs":{
 				"createList":{
-					"ua:type":"mappedArray",
+					"items":"{{ n_fofB1.outputs.inputs.calenderId[0] }}",
 					"source":"{{ n_fofB1.outputs.inputs.calenderId }}",
-					"items":"{{ n_fofB1.outputs.inputs.calenderId[0] }}"
+					"ua:type":"mappedArray"
 				},
 				"ua:title":"calenderIds",
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
 					"properties":{
 						"items":{
-							"type":"array",
-							"title":"calenderIds",
 							"disableActions":true,
 							"items":{
 								"type":"string"
-							}
+							},
+							"title":"calenderIds",
+							"type":"array"
 						}
 					}
 				}
@@ -609,10 +607,10 @@
 			"inputs":{
 				"filters":[
 					{
-						"property":"{{ n_lGsbg.outputs.items[0] }}",
 						"filter":{
 							"operator":"EXISTS"
-						}
+						},
+						"property":"{{ n_lGsbg.outputs.items[0] }}"
 					}
 				],
 				"operator":"AND"
@@ -663,56 +661,56 @@
 			"index":6,
 			"inputs":{
 				"output":{
-					"type":"object",
 					"additionalProperties":false,
-					"required":[],
 					"properties":{
 						"ids":{
-							"type":"array",
 							"items":{
 								"type":"string"
 							},
-							"title":"Ids"
+							"title":"Ids",
+							"type":"array"
 						}
-					}
+					},
+					"required":[],
+					"type":"object"
 				},
 				"input":{
-					"type":"object",
 					"additionalProperties":false,
-					"required":[],
 					"properties":{
 						"calenderIds":{
-							"type":"array",
 							"items":{
-								"type":"object",
+								"additionalProperties":false,
 								"properties":{
 									"id":{
-										"type":"string",
-										"title":"Id"
+										"title":"Id",
+										"type":"string"
 									},
 									"primary":{
-										"type":"string",
-										"title":"Primary"
+										"title":"Primary",
+										"type":"string"
 									}
 								},
-								"additionalProperties":false,
-								"required":[]
+								"required":[],
+								"type":"object"
 							},
-							"title":"Calender Ids"
+							"title":"Calender Ids",
+							"type":"array"
 						}
-					}
+					},
+					"required":[],
+					"type":"object"
 				},
 				"code":"\ndef ids = [] as Set\n\nif (binding.hasVariable('calenderIds') && calenderIds?.size() > 0) {\n\n    for (item in calenderIds) {\n        if (item?.primary) {\n            ids << \"primary\"\n        } else {\n            ids << URLEncoder.encode(item?.id, \"UTF-8\")\n        }\n    }\n}\n\nreturn [\"ids\": ids]\n",
 				"compile_static":false,
 				"captureStdOutput":false,
 				"parameters":{
 					"calenderIds":{
-						"source":"{{ n_9YbOk.outputs.items }}",
-						"ua:type":"mappedArray",
 						"items":{
 							"id":"{{ n_9YbOk.outputs.items[0].id }}",
 							"primary":"{{ n_9YbOk.outputs.items[0].primary }}"
-						}
+						},
+						"source":"{{ n_9YbOk.outputs.items }}",
+						"ua:type":"mappedArray"
 					}
 				}
 			},
@@ -737,9 +735,9 @@
 			"inputs":{
 				"insertLocation":"END",
 				"itemsToAdd":{
-					"ua:type":"mappedArray",
+					"items":"{{ n_cCotf.outputs.result.ids[0] }}",
 					"source":"{{ n_cCotf.outputs.result.ids }}",
-					"items":"{{ n_cCotf.outputs.result.ids[0] }}"
+					"ua:type":"mappedArray"
 				},
 				"listName":"{{ n_lGsbg.outputs.items[0] }}"
 			},
@@ -768,63 +766,63 @@
 			"index":8,
 			"inputs":{
 				"output":{
-					"type":"object",
 					"additionalProperties":false,
-					"required":[],
 					"properties":{
 						"filteredCalenders":{
-							"type":"array",
 							"items":{
-								"type":"object",
+								"additionalProperties":false,
 								"properties":{
 									"custom_inputs":{
-										"type":"object",
-										"properties":{},
 										"additionalProperties":false,
-										"title":"Custom Inputs"
+										"properties":{},
+										"title":"Custom Inputs",
+										"type":"object"
 									},
 									"id":{
-										"type":"string",
-										"title":"Id"
+										"title":"Id",
+										"type":"string"
 									}
 								},
-								"additionalProperties":false,
-								"required":[]
+								"required":[],
+								"type":"object"
 							},
-							"title":"Filtered Calenders"
+							"title":"Filtered Calenders",
+							"type":"array"
 						}
-					}
+					},
+					"required":[],
+					"type":"object"
 				},
 				"input":{
-					"type":"object",
 					"additionalProperties":false,
-					"required":[],
 					"properties":{
-						"inputs":{
-							"type":"object",
-							"properties":{},
-							"additionalProperties":false,
-							"title":"Inputs"
-						},
 						"calenderIds":{
-							"type":"array",
 							"items":{
 								"type":"string"
 							},
-							"title":"Calender Ids"
+							"title":"Calender Ids",
+							"type":"array"
+						},
+						"inputs":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Inputs",
+							"type":"object"
 						}
-					}
+					},
+					"required":[],
+					"type":"object"
 				},
 				"code":"def filteredCalenders = []\ndef calenderIds = binding.hasVariable(\"calenderIds\") ? calenderIds : []\ndef inputs = binding.hasVariable(\"inputs\") ? inputs : [:]\n\n\nfor ( calenderId : calenderIds) {\n\n  def ans = [:]\n  // adding custom_inputs for child flow  \n  def custom_inputs = new HashMap<>(inputs)\n  custom_inputs << [\"calenderId\" : calenderId]\n  ans << [\"custom_inputs\" : custom_inputs]\n  ans << [\"id\": calenderId]\n  filteredCalenders << ans\n}\n\nreturn [\"filteredCalenders\" : filteredCalenders]",
 				"compile_static":false,
 				"captureStdOutput":false,
 				"parameters":{
-					"inputs":"{{ 1WPP3.outputs.result.newInputs }}",
 					"calenderIds":{
+						"items":"{{ n_lGsbg.outputs.items[0] }}",
 						"source":"{{ n_lGsbg.outputs.items }}",
-						"ua:type":"mappedArray",
-						"items":"{{ n_lGsbg.outputs.items[0] }}"
-					}
+						"ua:type":"mappedArray"
+					},
+					"inputs":"{{ 1WPP3.outputs.result.newInputs }}"
 				}
 			},
 			"skip":false,
@@ -847,21 +845,21 @@
 			"index":9,
 			"inputs":{
 				"result":{
-					"entityCount":"=LEN({{ n_lGsbg.outputs.items }})",
 					"downloaderDetails":{
 						"items":{
 							"downloaderAutomation":"69601bb235cb83050cc88229",
 							"downloaderParams":{
-								"source":"{{ n_pMZRk.outputs.result.filteredCalenders }}",
-								"ua:type":"mappedArray",
 								"items":{
-									"parentEntityId":"{{ n_pMZRk.outputs.result.filteredCalenders[0].id }}",
-									"inputs":"{{ n_pMZRk.outputs.result.filteredCalenders[0].custom_inputs }}"
-								}
+									"inputs":"{{ n_pMZRk.outputs.result.filteredCalenders[0].custom_inputs }}",
+									"parentEntityId":"{{ n_pMZRk.outputs.result.filteredCalenders[0].id }}"
+								},
+								"source":"{{ n_pMZRk.outputs.result.filteredCalenders }}",
+								"ua:type":"mappedArray"
 							}
 						},
 						"ua:type":"mappedArray"
-					}
+					},
+					"entityCount":"=LEN({{ n_lGsbg.outputs.items }})"
 				}
 			},
 			"skip":false,
@@ -891,5 +889,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":8
+	"version":9
 }
