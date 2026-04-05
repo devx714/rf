@@ -4,14 +4,14 @@
 	],
 	"createdTime":1740110506980,
 	"deleted":false,
-	"deployedVersion":29,
+	"deployedVersion":32,
 	"deploymentState":{
-		"deployedAt":1773928107204,
+		"deployedAt":1775407693072,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfeab40a2b92de9fe668b",
+		"deployedDefinitionId":"69d2924da2eda46706b043a2",
 		"status":"DEPLOYED",
-		"version":29,
-		"workflowVersion":93
+		"version":32,
+		"workflowVersion":98
 	},
 	"edges":[
 		{
@@ -119,6 +119,47 @@
 		"configs":[
 			{
 				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"72223"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"72119"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -128,7 +169,7 @@
 	"id":"67adb38f85944824b45edc0e",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | outlook | index all tasks",
-	"modifiedTime":1775389859464,
+	"modifiedTime":1775408102327,
 	"name":"Knowledge Indexer | Outlook | Index all tasks",
 	"nodes":[
 		{
@@ -435,6 +476,7 @@
 				"has_more":true
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -758,5 +800,5 @@
 	"tags":[
 		
 	],
-	"version":94
+	"version":99
 }
