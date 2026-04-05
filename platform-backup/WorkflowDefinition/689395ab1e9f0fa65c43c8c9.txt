@@ -47,7 +47,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -57,7 +56,7 @@
 	"id":"689395ab1e9f0fa65c43c8c9",
 	"lastModifiedBy":-1,
 	"lcName":"metering | models | agent level breakdown",
-	"modifiedTime":1775391435068,
+	"modifiedTime":1775407745299,
 	"name":"Metering | Models | Agent level breakdown",
 	"nodes":[
 		{
@@ -544,5 +543,5 @@
 	"tags":[
 		
 	],
-	"version":105
+	"version":106
 }
