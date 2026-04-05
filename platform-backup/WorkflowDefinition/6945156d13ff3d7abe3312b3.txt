@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769422069792,
 	"deleted":false,
-	"deployedVersion":15,
+	"deployedVersion":17,
 	"deploymentState":{
-		"deployedAt":1775320622956,
+		"deployedAt":1775385573715,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e2ec6b0c9120df173b3",
+		"deployedDefinitionId":"69d23be5b31cfc01cc39ef5c",
 		"status":"DEPLOYED",
-		"version":15,
-		"workflowVersion":30
+		"version":17,
+		"workflowVersion":34
 	},
 	"edges":[
 		{
@@ -107,6 +107,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -116,7 +117,7 @@
 	"id":"6945156d13ff3d7abe3312b3",
 	"lastModifiedBy":-1,
 	"lcName":"store summary",
-	"modifiedTime":1775334400797,
+	"modifiedTime":1775385908326,
 	"name":"Store Summary",
 	"nodes":[
 		{
@@ -716,5 +717,5 @@
 	"tags":[
 		
 	],
-	"version":32
+	"version":35
 }
