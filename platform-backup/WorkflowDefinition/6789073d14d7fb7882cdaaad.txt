@@ -4,14 +4,14 @@
 	],
 	"createdTime":1740110501894,
 	"deleted":false,
-	"deployedVersion":88,
+	"deployedVersion":91,
 	"deploymentState":{
-		"deployedAt":1775385537398,
+		"deployedAt":1775407690801,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23bc1b31cfc01cc39eb50",
+		"deployedDefinitionId":"69d2924aa2eda46706b04379",
 		"status":"DEPLOYED",
-		"version":88,
-		"workflowVersion":188
+		"version":91,
+		"workflowVersion":194
 	},
 	"edges":[
 		{
@@ -77,6 +77,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -86,7 +87,7 @@
 	"id":"6789073d14d7fb7882cdaaad",
 	"lastModifiedBy":-1,
 	"lcName":"call agent api",
-	"modifiedTime":1775385537400,
+	"modifiedTime":1775408108464,
 	"name":"Call Agent API",
 	"nodes":[
 		{
@@ -498,5 +499,5 @@
 	"tags":[
 		
 	],
-	"version":188
+	"version":195
 }
