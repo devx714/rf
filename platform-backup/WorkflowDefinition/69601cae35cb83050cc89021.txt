@@ -4,14 +4,14 @@
 	],
 	"createdTime":1773928163434,
 	"deleted":false,
-	"deployedVersion":3,
+	"deployedVersion":4,
 	"deploymentState":{
-		"deployedAt":1775391309559,
+		"deployedAt":1775407775130,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2524d50e82945c76a67e9",
+		"deployedDefinitionId":"69d2929f0e422443cf560695",
 		"status":"DEPLOYED",
-		"version":3,
-		"workflowVersion":5
+		"version":4,
+		"workflowVersion":7
 	},
 	"edges":[
 		{
@@ -47,6 +47,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -56,7 +57,7 @@
 	"id":"69601cae35cb83050cc89021",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | google calender | meet",
-	"modifiedTime":1775407775080,
+	"modifiedTime":1775408107495,
 	"name":"Knowledge Indexer | Google Calender | Meet",
 	"nodes":[
 		{
@@ -340,5 +341,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":7
+	"version":8
 }
