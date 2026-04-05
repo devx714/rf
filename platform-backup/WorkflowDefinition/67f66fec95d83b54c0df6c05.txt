@@ -4,14 +4,14 @@
 	],
 	"createdTime":1744203756157,
 	"deleted":false,
-	"deployedVersion":36,
+	"deployedVersion":37,
 	"deploymentState":{
-		"deployedAt":1773928161338,
+		"deployedAt":1775390043429,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfee116170c6243806980",
+		"deployedDefinitionId":"69d24d5b50e82945c76a4704",
 		"status":"DEPLOYED",
-		"version":36,
-		"workflowVersion":76
+		"version":37,
+		"workflowVersion":77
 	},
 	"edges":[
 		{
@@ -119,6 +119,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -128,7 +129,7 @@
 	"id":"67f66fec95d83b54c0df6c05",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | mailchimp | index audiences",
-	"modifiedTime":1775390043334,
+	"modifiedTime":1775390105619,
 	"name":"Knowledge Indexer | Mailchimp | Index Audiences",
 	"nodes":[
 		{
@@ -347,6 +348,7 @@
 				"hasMore":true
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -841,5 +843,5 @@
 		}
 	},
 	"standard":true,
-	"version":77
+	"version":78
 }
