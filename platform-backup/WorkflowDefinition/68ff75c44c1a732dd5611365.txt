@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762605916377,
 	"deleted":false,
-	"deployedVersion":30,
+	"deployedVersion":31,
 	"deploymentState":{
-		"deployedAt":1775385632448,
+		"deployedAt":1775390056142,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c20b31cfc01cc39f34e",
+		"deployedDefinitionId":"69d24d6850e82945c76a480d",
 		"status":"DEPLOYED",
-		"version":30,
-		"workflowVersion":64
+		"version":31,
+		"workflowVersion":66
 	},
 	"edges":[
 		{
@@ -82,6 +82,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -91,7 +92,7 @@
 	"id":"68ff75c44c1a732dd5611365",
 	"lastModifiedBy":-1,
 	"lcName":"metering | search | feedback overview",
-	"modifiedTime":1775390056025,
+	"modifiedTime":1775390109061,
 	"name":"Metering | Search | Feedback Overview",
 	"nodes":[
 		{
@@ -686,6 +687,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -933,5 +935,5 @@
 	"tags":[
 		
 	],
-	"version":66
+	"version":67
 }
