@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748544438325,
 	"deleted":false,
-	"deployedVersion":84,
+	"deployedVersion":88,
 	"deploymentState":{
-		"deployedAt":1775320676098,
+		"deployedAt":1775391369516,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e6483aecf24ec254e23",
+		"deployedDefinitionId":"69d2528950e82945c76a6ae9",
 		"status":"DEPLOYED",
-		"version":84,
-		"workflowVersion":133
+		"version":88,
+		"workflowVersion":141
 	},
 	"edges":[
 		{
@@ -221,6 +221,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -230,7 +231,7 @@
 	"id":"683210d52872336e3c01a17c",
 	"lastModifiedBy":-1,
 	"lcName":"generate embedding and index",
-	"modifiedTime":1775334469352,
+	"modifiedTime":1775391437669,
 	"name":"Generate Embedding And Index",
 	"nodes":[
 		{
@@ -601,6 +602,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -890,6 +892,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1787,6 +1790,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1840,6 +1844,7 @@
 				"knowledgeSetId":"{{ mikZG.outputs.knowledgeSetId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2256,5 +2261,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":135
+	"version":142
 }
