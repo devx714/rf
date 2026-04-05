@@ -4,14 +4,14 @@
 	],
 	"createdTime":1756464213194,
 	"deleted":false,
-	"deployedVersion":57,
+	"deployedVersion":58,
 	"deploymentState":{
-		"deployedAt":1775391369739,
+		"deployedAt":1775407816757,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d2528950e82945c76a6aeb",
+		"deployedDefinitionId":"69d292c80e422443cf560862",
 		"status":"DEPLOYED",
-		"version":57,
-		"workflowVersion":100
+		"version":58,
+		"workflowVersion":102
 	},
 	"edges":[
 		{
@@ -379,7 +379,7 @@
 	"id":"68aef17c8b592a6537a56099",
 	"lastModifiedBy":-1,
 	"lcName":"addtext2sqlspecifictools",
-	"modifiedTime":1775391433187,
+	"modifiedTime":1775408103779,
 	"name":"AddText2SqlSpecificTools",
 	"nodes":[
 		{
@@ -2748,5 +2748,5 @@
 		}
 	},
 	"standard":true,
-	"version":101
+	"version":103
 }
