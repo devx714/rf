@@ -100,7 +100,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -110,7 +109,7 @@
 	"id":"6973417e248cd10519c0240d",
 	"lastModifiedBy":-1,
 	"lcName":"quote limit agent cost update job",
-	"modifiedTime":1775391435292,
+	"modifiedTime":1775407716890,
 	"name":"Quote Limit Agent Cost Update Job",
 	"nodes":[
 		{
@@ -183,7 +182,6 @@
 				"hasNext":true
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -518,5 +516,5 @@
 	"tags":[
 		
 	],
-	"version":36
+	"version":37
 }
