@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769422070251,
 	"deleted":false,
-	"deployedVersion":14,
+	"deployedVersion":16,
 	"deploymentState":{
-		"deployedAt":1774342894993,
+		"deployedAt":1775334401104,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252ee29fa153f07e09a48",
+		"deployedDefinitionId":"69d1740139824e061381994e",
 		"status":"DEPLOYED",
-		"version":14,
-		"workflowVersion":30
+		"version":16,
+		"workflowVersion":34
 	},
 	"edges":[
 		{
@@ -198,7 +198,7 @@
 	"id":"694938cddf5fae2240578b7b",
 	"lastModifiedBy":-1,
 	"lcName":"simple call llm council",
-	"modifiedTime":1775320623195,
+	"modifiedTime":1775385573933,
 	"name":"Simple Call LLM Council",
 	"nodes":[
 		{
@@ -1457,5 +1457,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":32
+	"version":36
 }
