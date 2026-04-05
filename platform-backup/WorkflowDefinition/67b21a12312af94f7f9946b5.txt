@@ -4,14 +4,14 @@
 	],
 	"createdTime":1740110506092,
 	"deleted":false,
-	"deployedVersion":88,
+	"deployedVersion":89,
 	"deploymentState":{
-		"deployedAt":1775389868726,
+		"deployedAt":1775391198871,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d24cac50e82945c76a3e50",
+		"deployedDefinitionId":"69d251de50e82945c76a62c5",
 		"status":"DEPLOYED",
-		"version":88,
-		"workflowVersion":209
+		"version":89,
+		"workflowVersion":211
 	},
 	"edges":[
 		{
@@ -512,27 +512,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"44103"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -542,7 +521,7 @@
 	"id":"67b21a12312af94f7f9946b5",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | confluence | index a page",
-	"modifiedTime":1775390108299,
+	"modifiedTime":1775407700667,
 	"name":"Knowledge Indexer | Confluence | Index a Page",
 	"nodes":[
 		{
@@ -894,7 +873,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1997,7 +1975,6 @@
 				"has_more":true
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2834,7 +2811,6 @@
 				"has_more1":true
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -3597,5 +3573,5 @@
 		}
 	},
 	"standard":true,
-	"version":210
+	"version":213
 }
