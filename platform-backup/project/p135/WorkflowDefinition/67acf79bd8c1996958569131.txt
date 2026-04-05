@@ -404,7 +404,7 @@
 	"id":"67acf79bd8c1996958569131",
 	"lastModifiedBy":-1,
 	"lcName":"upsert graph (hybrid+async) | graphrag",
-	"modifiedTime":1775385623941,
+	"modifiedTime":1775390045008,
 	"name":"Upsert Graph (Hybrid+Async) | GraphRAG",
 	"nodes":[
 		{
@@ -1150,7 +1150,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2080,7 +2079,6 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2570,7 +2568,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -3273,5 +3270,5 @@
 	"tags":[
 		"GraphRAG"
 	],
-	"version":160
+	"version":162
 }
