@@ -4,14 +4,14 @@
 	],
 	"createdTime":1722514427359,
 	"deleted":false,
-	"deployedVersion":103,
+	"deployedVersion":104,
 	"deploymentState":{
-		"deployedAt":1775334462782,
+		"deployedAt":1775385617618,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1743e39824e0613819cc1",
+		"deployedDefinitionId":"69d23c11b41de37eb670f668",
 		"status":"DEPLOYED",
-		"version":103,
-		"workflowVersion":170
+		"version":104,
+		"workflowVersion":172
 	},
 	"edges":[
 		{
@@ -121,7 +121,7 @@
 	"id":"66ab7bfba1c8b020e8374880",
 	"lastModifiedBy":-1,
 	"lcName":"2_code_generation_call_ai_agent",
-	"modifiedTime":1775385617563,
+	"modifiedTime":1775385617619,
 	"name":"2_Code_Generation_Call_AI_Agent",
 	"nodes":[
 		{
@@ -243,6 +243,7 @@
 				"defaultToCustomerId":"AI_CO_PILOT_ID"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -340,6 +341,7 @@
 				"responseId":"{{ hQkxu.outputs.responseId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
