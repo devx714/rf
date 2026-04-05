@@ -16,7 +16,7 @@
 	"id":"69d1eeba80d0e93be1bfff7d",
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2pzjyjoucpq9c",
-	"modifiedTime":1775365957008,
+	"modifiedTime":1775365977117,
 	"name":"changeSetQA2PZjyJoucpq9c",
 	"nodes":[
 		{
@@ -99,7 +99,7 @@
 				"responseName":"200_undefined",
 				"set_cookies":[],
 				"body":{
-					"c":"= SUM({{ tXkEy.outputs.body.a }},{{ tXkEy.outputs.body.b }})"
+					"c":"= PRODUCT({{ tXkEy.outputs.body.a }},{{ tXkEy.outputs.body.b }})"
 				},
 				"status":200
 			},
@@ -126,5 +126,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":2
 }
