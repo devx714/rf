@@ -4,14 +4,14 @@
 	],
 	"createdTime":1764062841333,
 	"deleted":false,
-	"deployedVersion":27,
+	"deployedVersion":28,
 	"deploymentState":{
-		"deployedAt":1775334404620,
+		"deployedAt":1775385577523,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1740439824e061381998c",
+		"deployedDefinitionId":"69d23be9b31cfc01cc39efa0",
 		"status":"DEPLOYED",
-		"version":27,
-		"workflowVersion":62
+		"version":28,
+		"workflowVersion":64
 	},
 	"edges":[
 		{
@@ -158,7 +158,7 @@
 	"id":"68945cfcaa8140770223264c",
 	"lastModifiedBy":-1,
 	"lcName":"clustering | set cluster name",
-	"modifiedTime":1775385577457,
+	"modifiedTime":1775385577524,
 	"name":"Clustering | Set Cluster Name",
 	"nodes":[
 		{
@@ -492,6 +492,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -748,6 +749,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
