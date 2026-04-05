@@ -4,14 +4,14 @@
 	],
 	"createdTime":1722691438114,
 	"deleted":false,
-	"deployedVersion":119,
+	"deployedVersion":121,
 	"deploymentState":{
-		"deployedAt":1775320647305,
+		"deployedAt":1775385596074,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e4783aecf24ec254c19",
+		"deployedDefinitionId":"69d23bfbb31cfc01cc39f0f0",
 		"status":"DEPLOYED",
-		"version":119,
-		"workflowVersion":230
+		"version":121,
+		"workflowVersion":234
 	},
 	"edges":[
 		{
@@ -553,7 +553,7 @@
 	"id":"66ae2f6e381d8834cd6742de",
 	"lastModifiedBy":-1,
 	"lcName":"chunk reranker",
-	"modifiedTime":1775334442416,
+	"modifiedTime":1775385596075,
 	"name":"Chunk Reranker",
 	"nodes":[
 		{
@@ -1076,6 +1076,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1374,6 +1375,7 @@
 				"inputTokenCost":0
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2817,6 +2819,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -4597,5 +4600,5 @@
 		}
 	},
 	"standard":true,
-	"version":232
+	"version":234
 }
