@@ -4,14 +4,14 @@
 	],
 	"createdTime":1726267936786,
 	"deleted":false,
-	"deployedVersion":146,
+	"deployedVersion":149,
 	"deploymentState":{
-		"deployedAt":1775385614937,
+		"deployedAt":1775407803661,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c0eb41de37eb670f65e",
+		"deployedDefinitionId":"69d292bba2eda46706b0497a",
 		"status":"DEPLOYED",
-		"version":146,
-		"workflowVersion":235
+		"version":149,
+		"workflowVersion":241
 	},
 	"edges":[
 		{
@@ -618,6 +618,27 @@
 		"configs":[
 			{
 				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"47193"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -627,7 +648,7 @@
 	"id":"66e4c220f82132609342c11f",
 	"lastModifiedBy":-1,
 	"lcName":"execute custom ai agent action",
-	"modifiedTime":1775385614938,
+	"modifiedTime":1775408102873,
 	"name":"Execute Custom AI Agent Action",
 	"nodes":[
 		{
@@ -3649,5 +3670,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":235
+	"version":242
 }
