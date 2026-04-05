@@ -4,14 +4,14 @@
 	],
 	"createdTime":1747030189654,
 	"deleted":false,
-	"deployedVersion":83,
+	"deployedVersion":86,
 	"deploymentState":{
-		"deployedAt":1774342894079,
+		"deployedAt":1775385573175,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252ee29fa153f07e09a40",
+		"deployedDefinitionId":"69d23be5b31cfc01cc39ef52",
 		"status":"DEPLOYED",
-		"version":83,
-		"workflowVersion":136
+		"version":86,
+		"workflowVersion":142
 	},
 	"edges":[
 		{
@@ -49,7 +49,7 @@
 	"id":"6820ac7cb2489f003f8c4bcb",
 	"lastModifiedBy":-1,
 	"lcName":"openai voicebot tts responder",
-	"modifiedTime":1775320622133,
+	"modifiedTime":1775389956784,
 	"name":"Openai Voicebot TTS Responder",
 	"nodes":[
 		{
@@ -234,5 +234,5 @@
 	"tags":[
 		
 	],
-	"version":138
+	"version":144
 }
