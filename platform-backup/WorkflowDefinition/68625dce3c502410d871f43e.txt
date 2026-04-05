@@ -4,14 +4,14 @@
 	],
 	"createdTime":1752842410558,
 	"deleted":false,
-	"deployedVersion":67,
+	"deployedVersion":68,
 	"deploymentState":{
-		"deployedAt":1775320629933,
+		"deployedAt":1775334406682,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e3583aecf24ec254b03",
+		"deployedDefinitionId":"69d1740639824e06138199bd",
 		"status":"DEPLOYED",
-		"version":67,
-		"workflowVersion":158
+		"version":68,
+		"workflowVersion":160
 	},
 	"edges":[
 		{
@@ -63,7 +63,7 @@
 	"id":"68625dce3c502410d871f43e",
 	"lastModifiedBy":-1,
 	"lcName":"text to workflow v2 | filled input validator",
-	"modifiedTime":1775334406496,
+	"modifiedTime":1775385579335,
 	"name":"Text to workflow v2 | Filled Input Validator",
 	"nodes":[
 		{
@@ -438,5 +438,5 @@
 	"tags":[
 		"Text_to_Workflow_v2"
 	],
-	"version":160
+	"version":162
 }
