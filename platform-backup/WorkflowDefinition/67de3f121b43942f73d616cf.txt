@@ -4,14 +4,14 @@
 	],
 	"createdTime":1742618386342,
 	"deleted":false,
-	"deployedVersion":110,
+	"deployedVersion":114,
 	"deploymentState":{
-		"deployedAt":1775334444054,
+		"deployedAt":1775407778713,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1742c39824e0613819b20",
+		"deployedDefinitionId":"69d292a20e422443cf5606dd",
 		"status":"DEPLOYED",
-		"version":110,
-		"workflowVersion":168
+		"version":114,
+		"workflowVersion":176
 	},
 	"edges":[
 		{
@@ -70,6 +70,25 @@
 		"configs":[
 			{
 				"permissions":[
+					"A",
+					"EXPORT_AS_TEMPLATE",
+					"C",
+					"S",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"DEP"
+				],
+				"principalIds":[
+					"17"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -79,7 +98,7 @@
 	"id":"67de3f121b43942f73d616cf",
 	"lastModifiedBy":-1,
 	"lcName":"ai eval | generate evaluation steps",
-	"modifiedTime":1775385597620,
+	"modifiedTime":1775408108850,
 	"name":"AI Eval | Generate Evaluation Steps",
 	"nodes":[
 		{
@@ -511,6 +530,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -576,5 +596,5 @@
 	"tags":[
 		
 	],
-	"version":170
+	"version":177
 }
