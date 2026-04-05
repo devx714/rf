@@ -4,14 +4,14 @@
 	],
 	"createdTime":1750508118144,
 	"deleted":false,
-	"deployedVersion":42,
+	"deployedVersion":44,
 	"deploymentState":{
-		"deployedAt":1775320646657,
+		"deployedAt":1775385595420,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e4683aecf24ec254c0f",
+		"deployedDefinitionId":"69d23bfbb31cfc01cc39f0e0",
 		"status":"DEPLOYED",
-		"version":42,
-		"workflowVersion":89
+		"version":44,
+		"workflowVersion":93
 	},
 	"edges":[
 		{
@@ -113,7 +113,7 @@
 	"id":"68555c2480c25d503787a0e5",
 	"lastModifiedBy":-1,
 	"lcName":"people indexer wrapper",
-	"modifiedTime":1775334441775,
+	"modifiedTime":1775389986566,
 	"name":"People Indexer Wrapper",
 	"nodes":[
 		{
@@ -685,5 +685,5 @@
 	"tags":[
 		
 	],
-	"version":91
+	"version":95
 }
