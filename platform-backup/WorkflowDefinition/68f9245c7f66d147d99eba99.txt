@@ -4,14 +4,14 @@
 	],
 	"createdTime":1761283323105,
 	"deleted":false,
-	"deployedVersion":38,
+	"deployedVersion":39,
 	"deploymentState":{
-		"deployedAt":1775334393277,
+		"deployedAt":1775385565864,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173f939824e06138198ba",
+		"deployedDefinitionId":"69d23bddb31cfc01cc39eed4",
 		"status":"DEPLOYED",
-		"version":38,
-		"workflowVersion":76
+		"version":39,
+		"workflowVersion":78
 	},
 	"edges":[
 		{
@@ -56,7 +56,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -66,7 +65,7 @@
 	"id":"68f9245c7f66d147d99eba99",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] fetch user details",
-	"modifiedTime":1775334705606,
+	"modifiedTime":1775389927879,
 	"name":"[DT] Fetch user details",
 	"nodes":[
 		{
@@ -287,5 +286,5 @@
 	"tags":[
 		
 	],
-	"version":77
+	"version":80
 }
