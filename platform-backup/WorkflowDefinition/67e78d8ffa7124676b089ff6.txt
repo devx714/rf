@@ -4,14 +4,14 @@
 	],
 	"createdTime":1743228303187,
 	"deleted":false,
-	"deployedVersion":33,
+	"deployedVersion":34,
 	"deploymentState":{
-		"deployedAt":1773928143381,
+		"deployedAt":1775390028423,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfecf16170c62438068ad",
+		"deployedDefinitionId":"69d24d4c50e82945c76a45e0",
 		"status":"DEPLOYED",
-		"version":33,
-		"workflowVersion":62
+		"version":34,
+		"workflowVersion":63
 	},
 	"edges":[
 		{
@@ -40,6 +40,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -49,7 +50,7 @@
 	"id":"67e78d8ffa7124676b089ff6",
 	"lastModifiedBy":-1,
 	"lcName":"execute postgresql query",
-	"modifiedTime":1775390028365,
+	"modifiedTime":1775390108835,
 	"name":"Execute PostgreSQL query",
 	"nodes":[
 		{
@@ -257,5 +258,5 @@
 		}
 	},
 	"standard":true,
-	"version":63
+	"version":64
 }
