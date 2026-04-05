@@ -4,14 +4,14 @@
 	],
 	"createdTime":1759243563961,
 	"deleted":false,
-	"deployedVersion":30,
+	"deployedVersion":31,
 	"deploymentState":{
-		"deployedAt":1775334409101,
+		"deployedAt":1775385581847,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1740939824e06138199e3",
+		"deployedDefinitionId":"69d23bedb31cfc01cc39efe8",
 		"status":"DEPLOYED",
-		"version":30,
-		"workflowVersion":74
+		"version":31,
+		"workflowVersion":76
 	},
 	"edges":[
 		{
@@ -439,7 +439,7 @@
 	"id":"68c5b9cd7414d8337e4b035f",
 	"lastModifiedBy":-1,
 	"lcName":"[mcp server] call agent tool",
-	"modifiedTime":1775385581689,
+	"modifiedTime":1775385581848,
 	"name":"[MCP Server] Call Agent Tool",
 	"nodes":[
 		{
@@ -662,6 +662,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -787,6 +788,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1333,6 +1335,7 @@
 				"caseId":"{{ qexts.outputs.params.arguments.caseId }}"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1745,6 +1748,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1879,6 +1883,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2312,6 +2317,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2626,6 +2632,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2717,6 +2724,7 @@
 				}
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
