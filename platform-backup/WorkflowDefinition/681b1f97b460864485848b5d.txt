@@ -4,14 +4,14 @@
 	],
 	"createdTime":1747641655534,
 	"deleted":false,
-	"deployedVersion":90,
+	"deployedVersion":93,
 	"deploymentState":{
-		"deployedAt":1775334473070,
+		"deployedAt":1775391374471,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1744939824e0613819d80",
+		"deployedDefinitionId":"69d2528e50e82945c76a6b4f",
 		"status":"DEPLOYED",
-		"version":90,
-		"workflowVersion":145
+		"version":93,
+		"workflowVersion":151
 	},
 	"edges":[
 		{
@@ -76,7 +76,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -86,7 +85,7 @@
 	"id":"681b1f97b460864485848b5d",
 	"lastModifiedBy":-1,
 	"lcName":"text to workflow v2 | get updated insert actions",
-	"modifiedTime":1775334705525,
+	"modifiedTime":1775407821498,
 	"name":"Text to Workflow v2 | Get Updated Insert Actions",
 	"nodes":[
 		{
@@ -437,7 +436,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -878,5 +876,5 @@
 	"tags":[
 		"Text_to_Workflow_v2"
 	],
-	"version":146
+	"version":153
 }
