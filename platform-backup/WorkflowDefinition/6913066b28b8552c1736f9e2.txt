@@ -4,14 +4,14 @@
 	],
 	"createdTime":1763384535015,
 	"deleted":false,
-	"deployedVersion":29,
+	"deployedVersion":31,
 	"deploymentState":{
-		"deployedAt":1775385609275,
+		"deployedAt":1775391328409,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c09b41de37eb670f60d",
+		"deployedDefinitionId":"69d2526050e82945c76a695c",
 		"status":"DEPLOYED",
-		"version":29,
-		"workflowVersion":60
+		"version":31,
+		"workflowVersion":64
 	},
 	"edges":[
 		{
@@ -65,7 +65,7 @@
 	"id":"6913066b28b8552c1736f9e2",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] apply user attributes in case ",
-	"modifiedTime":1775385609276,
+	"modifiedTime":1775407794827,
 	"name":"[DT] Apply User Attributes In Case ",
 	"nodes":[
 		{
@@ -215,5 +215,5 @@
 	"tags":[
 		
 	],
-	"version":60
+	"version":66
 }
