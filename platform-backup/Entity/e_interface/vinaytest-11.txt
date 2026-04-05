@@ -29,8 +29,8 @@
 		]
 	},
 	"id":"vinaytest-11",
-	"lastModifiedBy":195437,
-	"modifiedTime":1775376179786,
+	"lastModifiedBy":195414,
+	"modifiedTime":1775378551770,
 	"ownerUserId":195435,
 	"properties":{
 		"standard":false,
@@ -312,93 +312,49 @@
 					"e_69ba4c797091fd58ef93252d",
 					"e_696771150543417598ee5563",
 					"e_69d0e5ff093d2445b04fd345",
-					"f_LkuPY",
 					"e_69d1121a1feba233289daa0b",
 					"e_69d0f6720749020b38d23ae7",
 					"f_46X3Q",
 					"e_69d11e9015953314ac042a02",
 					"e_69d19c062409417fd5defacb",
-					"e_69b79fc600e2c81d3f19b3ae"
+					"e_69b79fc600e2c81d3f19b3ae",
+					"e_69d0a7640f39af2e5600f792",
+					"e_69d114fc1feba233289daaa8",
+					"e_69d0a7e60f39af2e5600f7de",
+					"f_toLNT"
 				],
 				"path":"/"
-			},
-			"f_setting":{
-				"id":"f_setting",
-				"segment":"settinggggg",
-				"parentId":"f_user",
-				"children":[
-					"e_696771150543417598ee5563"
-				],
-				"path":"/userly878/settinggggg"
-			},
-			"f_user_id":{
-				"id":"f_user_id",
-				"segment":":userId",
-				"parentId":"f_user",
-				"children":[],
-				"path":"/userly878/:userId"
-			},
-			"f_user":{
-				"id":"f_user",
-				"segment":"userly878",
-				"children":[
-					"f_user_id",
-					"f_setting",
-					"e_69d0f6720749020b38d23ae7",
-					"f_CKQ1i",
-					"e_69d0a7640f39af2e5600f792",
-					"e_69d114fc1feba233289daaa8"
-				],
-				"path":"/userly878"
-			},
-			"f_CKQ1i":{
-				"id":"f_CKQ1i",
-				"segment":"course212122112",
-				"children":[
-					"f_Ny90s",
-					"f_5pgdo"
-				],
-				"path":"/userly878/course212122112",
-				"parentId":"f_user"
-			},
-			"f_Ny90s":{
-				"id":"f_Ny90s",
-				"segment":":courseid",
-				"parentId":"f_CKQ1i",
-				"children":[],
-				"path":"/userly878/course212122112/:courseid"
-			},
-			"f_5pgdo":{
-				"id":"f_5pgdo",
-				"segment":"new78",
-				"parentId":"f_CKQ1i",
-				"children":[],
-				"path":"/userly878/course212122112/new78"
-			},
-			"f_LkuPY":{
-				"id":"f_LkuPY",
-				"segment":"hellowwwwyyyy",
-				"children":[
-					"f_2kshj",
-					"e_69d0a7e60f39af2e5600f7de"
-				],
-				"path":"/hellowwwwyyyy",
-				"parentId":"f_root"
-			},
-			"f_2kshj":{
-				"id":"f_2kshj",
-				"segment":":planetssss",
-				"parentId":"f_LkuPY",
-				"children":[
-					"e_69d1121a1feba233289daa0b"
-				],
-				"path":"/hellowwwwyyyy/:planetssss"
 			},
 			"f_46X3Q":{
 				"id":"f_46X3Q",
 				"segment":"prakul233",
 				"children":[],
 				"path":"/prakul233"
+			},
+			"f_toLNT":{
+				"id":"f_toLNT",
+				"segment":"hello",
+				"parentId":"f_root",
+				"children":[
+					"f_OhXqt"
+				],
+				"path":"/hello"
+			},
+			"f_OhXqt":{
+				"id":"f_OhXqt",
+				"segment":":hello",
+				"parentId":"f_toLNT",
+				"children":[
+					"f_AWgq1"
+				],
+				"path":"/hello/:hello"
+			},
+			"f_AWgq1":{
+				"id":"f_AWgq1",
+				"segment":"world",
+				"parentId":"f_OhXqt",
+				"children":[],
+				"path":"/hello/:hello/world"
 			}
 		},
 		"name":"vinaytest11234567",
@@ -462,5 +418,5 @@
 		}
 	},
 	"standard":false,
-	"version":1240
+	"version":1248
 }
