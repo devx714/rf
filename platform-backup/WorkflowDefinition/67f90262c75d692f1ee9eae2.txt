@@ -186,7 +186,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -196,7 +195,7 @@
 	"id":"67f90262c75d692f1ee9eae2",
 	"lastModifiedBy":-1,
 	"lcName":"eval | dataset | fetch tools used for session",
-	"modifiedTime":1775391437357,
+	"modifiedTime":1775407717146,
 	"name":"Eval | Dataset | Fetch tools used for session",
 	"nodes":[
 		{
@@ -579,7 +578,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1594,5 +1592,5 @@
 	"tags":[
 		
 	],
-	"version":202
+	"version":203
 }
