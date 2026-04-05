@@ -4,14 +4,14 @@
 	],
 	"createdTime":1744279541327,
 	"deleted":false,
-	"deployedVersion":136,
+	"deployedVersion":141,
 	"deploymentState":{
-		"deployedAt":1775320625474,
+		"deployedAt":1775407750093,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e3183aecf24ec2549a8",
+		"deployedDefinitionId":"69d292860e422443cf5605c8",
 		"status":"DEPLOYED",
-		"version":136,
-		"workflowVersion":214
+		"version":141,
+		"workflowVersion":224
 	},
 	"edges":[
 		{
@@ -318,6 +318,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -327,7 +328,7 @@
 	"id":"67e4035790bf8d15ec77df47",
 	"lastModifiedBy":-1,
 	"lcName":"experiment | metric evaluation 2",
-	"modifiedTime":1775334402639,
+	"modifiedTime":1775408109570,
 	"name":"Experiment | Metric Evaluation 2",
 	"nodes":[
 		{
@@ -464,6 +465,7 @@
 				"totalMetricsCost":0
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -563,6 +565,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1067,6 +1070,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1577,6 +1581,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2266,6 +2271,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -2921,6 +2927,7 @@
 				"ua:list_type":"STRING"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -3442,5 +3449,5 @@
 	"tags":[
 		
 	],
-	"version":216
+	"version":225
 }
