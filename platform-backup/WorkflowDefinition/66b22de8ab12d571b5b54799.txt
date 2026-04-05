@@ -4,14 +4,14 @@
 	],
 	"createdTime":1722953192694,
 	"deleted":false,
-	"deployedVersion":44,
+	"deployedVersion":47,
 	"deploymentState":{
-		"deployedAt":1773928140289,
+		"deployedAt":1775407713578,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfecc40a2b92de9fe688e",
+		"deployedDefinitionId":"69d292610e422443cf56040d",
 		"status":"DEPLOYED",
-		"version":44,
-		"workflowVersion":89
+		"version":47,
+		"workflowVersion":94
 	},
 	"edges":[
 		{
@@ -92,6 +92,27 @@
 		"configs":[
 			{
 				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"39714"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -101,7 +122,7 @@
 	"id":"66b22de8ab12d571b5b54799",
 	"lastModifiedBy":-1,
 	"lcName":"[slack] fetch mentioned users",
-	"modifiedTime":1775389902623,
+	"modifiedTime":1775408107378,
 	"name":"[Slack] Fetch Mentioned Users",
 	"nodes":[
 		{
@@ -463,6 +484,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -683,5 +705,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":90
+	"version":95
 }
