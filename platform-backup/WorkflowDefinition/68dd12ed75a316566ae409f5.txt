@@ -61,7 +61,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -71,7 +70,7 @@
 	"id":"68dd12ed75a316566ae409f5",
 	"lastModifiedBy":-1,
 	"lcName":"deep research tool | perplexity sonar deep research",
-	"modifiedTime":1775391434077,
+	"modifiedTime":1775407743042,
 	"name":"Deep Research Tool | Perplexity Sonar Deep Research",
 	"nodes":[
 		{
@@ -200,7 +199,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -443,5 +441,5 @@
 	"tags":[
 		
 	],
-	"version":75
+	"version":76
 }
