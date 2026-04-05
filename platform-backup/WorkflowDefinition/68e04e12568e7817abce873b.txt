@@ -4,14 +4,14 @@
 	],
 	"createdTime":1760296305875,
 	"deleted":false,
-	"deployedVersion":52,
+	"deployedVersion":54,
 	"deploymentState":{
-		"deployedAt":1775320688397,
+		"deployedAt":1775385637059,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e70c6b0c9120df17560",
+		"deployedDefinitionId":"69d23c25b31cfc01cc39f38f",
 		"status":"DEPLOYED",
-		"version":52,
-		"workflowVersion":96
+		"version":54,
+		"workflowVersion":100
 	},
 	"edges":[
 		{
@@ -180,7 +180,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -190,7 +189,7 @@
 	"id":"68e04e12568e7817abce873b",
 	"lastModifiedBy":-1,
 	"lcName":"schedule knowledge downloader wrapper",
-	"modifiedTime":1775320888935,
+	"modifiedTime":1775390062488,
 	"name":"Schedule Knowledge Downloader Wrapper",
 	"nodes":[
 		{
@@ -1038,5 +1037,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":97
+	"version":102
 }
