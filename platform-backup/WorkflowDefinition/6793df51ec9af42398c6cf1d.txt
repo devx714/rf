@@ -4,14 +4,14 @@
 	],
 	"createdTime":1738062228020,
 	"deleted":false,
-	"deployedVersion":87,
+	"deployedVersion":89,
 	"deploymentState":{
-		"deployedAt":1775334416890,
+		"deployedAt":1775389980151,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1741039824e0613819a78",
+		"deployedDefinitionId":"69d24d1c50e82945c76a4396",
 		"status":"DEPLOYED",
-		"version":87,
-		"workflowVersion":139
+		"version":89,
+		"workflowVersion":143
 	},
 	"edges":[
 		{
@@ -99,6 +99,25 @@
 		"configs":[
 			{
 				"permissions":[
+					"A",
+					"EXPORT_AS_TEMPLATE",
+					"C",
+					"S",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"DEP"
+				],
+				"principalIds":[
+					"44109"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -108,7 +127,7 @@
 	"id":"6793df51ec9af42398c6cf1d",
 	"lastModifiedBy":-1,
 	"lcName":"step executor",
-	"modifiedTime":1775385590241,
+	"modifiedTime":1775390111261,
 	"name":"Step Executor",
 	"nodes":[
 		{
@@ -525,5 +544,5 @@
 		"AI Agent",
 		"Team"
 	],
-	"version":141
+	"version":144
 }
