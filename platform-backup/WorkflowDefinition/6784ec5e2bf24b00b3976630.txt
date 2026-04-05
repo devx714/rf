@@ -4,14 +4,14 @@
 	],
 	"createdTime":1736764510436,
 	"deleted":false,
-	"deployedVersion":97,
+	"deployedVersion":98,
 	"deploymentState":{
-		"deployedAt":1775320690342,
+		"deployedAt":1775334503503,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e7283aecf24ec254f92",
+		"deployedDefinitionId":"69d1746739824e0613819ea7",
 		"status":"DEPLOYED",
-		"version":97,
-		"workflowVersion":155
+		"version":98,
+		"workflowVersion":157
 	},
 	"edges":[
 		{
@@ -310,7 +310,7 @@
 	"id":"6784ec5e2bf24b00b3976630",
 	"lastModifiedBy":-1,
 	"lcName":"chunk fetcher",
-	"modifiedTime":1775334503433,
+	"modifiedTime":1775385638886,
 	"name":"Chunk Fetcher",
 	"nodes":[
 		{
@@ -2985,5 +2985,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":157
+	"version":159
 }
