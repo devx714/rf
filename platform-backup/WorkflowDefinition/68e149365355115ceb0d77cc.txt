@@ -4,14 +4,14 @@
 	],
 	"createdTime":1760296223461,
 	"deleted":false,
-	"deployedVersion":53,
+	"deployedVersion":54,
 	"deploymentState":{
-		"deployedAt":1775334407249,
+		"deployedAt":1775385580104,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1740739824e06138199cd",
+		"deployedDefinitionId":"69d23becb31cfc01cc39efd1",
 		"status":"DEPLOYED",
-		"version":53,
-		"workflowVersion":95
+		"version":54,
+		"workflowVersion":97
 	},
 	"edges":[
 		{
@@ -131,7 +131,7 @@
 	"id":"68e149365355115ceb0d77cc",
 	"lastModifiedBy":-1,
 	"lcName":"transfer downloader cursors ",
-	"modifiedTime":1775385580052,
+	"modifiedTime":1775385580105,
 	"name":"Transfer Downloader Cursors ",
 	"nodes":[
 		{
@@ -288,6 +288,7 @@
 				"hasMore":true
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
