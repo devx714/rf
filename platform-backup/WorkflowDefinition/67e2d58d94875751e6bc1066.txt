@@ -4,15 +4,15 @@
 	],
 	"createdTime":1743076265847,
 	"deleted":false,
-	"deployedVersion":89,
+	"deployedVersion":93,
 	"deploymentState":{
-		"deployedAt":1775334463810,
+		"deployedAt":1775407809447,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1743f39824e0613819cd5",
+		"deployedDefinitionId":"69d292c10e422443cf56081c",
 		"deploymentTag":"expose_token_threshold",
 		"status":"DEPLOYED",
-		"version":89,
-		"workflowVersion":134
+		"version":93,
+		"workflowVersion":142
 	},
 	"edges":[
 		{
@@ -133,6 +133,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -142,7 +143,7 @@
 	"id":"67e2d58d94875751e6bc1066",
 	"lastModifiedBy":-1,
 	"lcName":"getmodeldetailsfrommodelid",
-	"modifiedTime":1775385618648,
+	"modifiedTime":1775408109313,
 	"name":"getModelDetailsFromModelId",
 	"nodes":[
 		{
@@ -364,6 +365,7 @@
 				"streamingDisabled":false
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1093,5 +1095,5 @@
 		"Team",
 		"Internal"
 	],
-	"version":136
+	"version":143
 }
