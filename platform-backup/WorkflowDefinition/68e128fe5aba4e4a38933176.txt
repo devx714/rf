@@ -4,14 +4,14 @@
 	],
 	"createdTime":1760296178456,
 	"deleted":false,
-	"deployedVersion":53,
+	"deployedVersion":56,
 	"deploymentState":{
-		"deployedAt":1775334351656,
+		"deployedAt":1775391207507,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173cf39824e0613819706",
+		"deployedDefinitionId":"69d251e750e82945c76a6365",
 		"status":"DEPLOYED",
-		"version":53,
-		"workflowVersion":112
+		"version":56,
+		"workflowVersion":118
 	},
 	"edges":[
 		{
@@ -205,7 +205,7 @@
 	"id":"68e128fe5aba4e4a38933176",
 	"lastModifiedBy":-1,
 	"lcName":"update knowledge schedule frequency  ",
-	"modifiedTime":1775334706728,
+	"modifiedTime":1775391436725,
 	"name":"Update Knowledge Schedule Frequency  ",
 	"nodes":[
 		{
@@ -1169,5 +1169,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":113
+	"version":119
 }
