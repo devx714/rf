@@ -54,7 +54,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -64,7 +63,7 @@
 	"id":"68a18dab2de6bad9f62b30c9",
 	"lastModifiedBy":-1,
 	"lcName":"metering | models | metered usage | by agent",
-	"modifiedTime":1775391433953,
+	"modifiedTime":1775407803688,
 	"name":"Metering | Models | Metered Usage | By Agent",
 	"nodes":[
 		{
@@ -611,5 +610,5 @@
 	"tags":[
 		
 	],
-	"version":103
+	"version":104
 }
