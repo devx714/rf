@@ -4,14 +4,14 @@
 	],
 	"createdTime":1744354449914,
 	"deleted":false,
-	"deployedVersion":83,
+	"deployedVersion":86,
 	"deploymentState":{
-		"deployedAt":1775320682244,
+		"deployedAt":1775390054031,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e6a83aecf24ec254f02",
+		"deployedDefinitionId":"69d24d6650e82945c76a47dd",
 		"status":"DEPLOYED",
-		"version":83,
-		"workflowVersion":143
+		"version":86,
+		"workflowVersion":149
 	},
 	"edges":[
 		{
@@ -40,6 +40,27 @@
 		"configs":[
 			{
 				"permissions":[
+					"EXPORT_AS_TEMPLATE",
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"TEST",
+					"VIEW_RUNS",
+					"E",
+					"V",
+					"VS",
+					"DEP"
+				],
+				"principalIds":[
+					"89322"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -49,7 +70,7 @@
 	"id":"67f8b9e584efea167932f811",
 	"lastModifiedBy":-1,
 	"lcName":"capture connection",
-	"modifiedTime":1775334475430,
+	"modifiedTime":1775390106711,
 	"name":"Capture Connection",
 	"nodes":[
 		{
@@ -204,5 +225,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":145
+	"version":150
 }
