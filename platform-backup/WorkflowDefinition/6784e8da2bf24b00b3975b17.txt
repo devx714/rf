@@ -4,14 +4,14 @@
 	],
 	"createdTime":1736763610743,
 	"deleted":false,
-	"deployedVersion":126,
+	"deployedVersion":128,
 	"deploymentState":{
-		"deployedAt":1774342872473,
+		"deployedAt":1775334383435,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252d829fa153f07e09986",
+		"deployedDefinitionId":"69d173ef39824e06138197fe",
 		"status":"DEPLOYED",
-		"version":126,
-		"workflowVersion":220
+		"version":128,
+		"workflowVersion":224
 	},
 	"edges":[
 		{
@@ -591,7 +591,7 @@
 	"id":"6784e8da2bf24b00b3975b17",
 	"lastModifiedBy":-1,
 	"lcName":"fetch relevant knowledge chunks",
-	"modifiedTime":1775320604297,
+	"modifiedTime":1775385556342,
 	"name":"Fetch Relevant Knowledge Chunks",
 	"nodes":[
 		{
@@ -4620,5 +4620,5 @@
 		"AI Agent",
 		"Knowledge"
 	],
-	"version":222
+	"version":226
 }
