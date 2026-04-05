@@ -4,14 +4,14 @@
 	],
 	"createdTime":1758646617396,
 	"deleted":false,
-	"deployedVersion":36,
+	"deployedVersion":38,
 	"deploymentState":{
-		"deployedAt":1775385625788,
+		"deployedAt":1775391371167,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c19b41de37eb670f6c9",
+		"deployedDefinitionId":"69d2528b50e82945c76a6b07",
 		"status":"DEPLOYED",
-		"version":36,
-		"workflowVersion":70
+		"version":38,
+		"workflowVersion":74
 	},
 	"edges":[
 		{
@@ -33,6 +33,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -42,7 +43,7 @@
 	"id":"6891f911ad72c510b5dd6eab",
 	"lastModifiedBy":-1,
 	"lcName":"deep research tool | retrigger executor",
-	"modifiedTime":1775390047337,
+	"modifiedTime":1775391433757,
 	"name":"Deep Research Tool | Retrigger Executor",
 	"nodes":[
 		{
@@ -185,5 +186,5 @@
 	"tags":[
 		
 	],
-	"version":72
+	"version":75
 }
