@@ -266,7 +266,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -276,7 +275,7 @@
 	"id":"66e9a6480b1d7c3013b96cde",
 	"lastModifiedBy":-1,
 	"lcName":"call asr generic [do not touch]",
-	"modifiedTime":1775334706038,
+	"modifiedTime":1775385607663,
 	"name":"CALL ASR GENERIC [DO NOT TOUCH]",
 	"nodes":[
 		{
@@ -394,7 +393,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -655,7 +653,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1397,7 +1394,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2011,5 +2007,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":147
+	"version":148
 }
