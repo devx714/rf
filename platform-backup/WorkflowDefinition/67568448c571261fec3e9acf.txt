@@ -4,14 +4,14 @@
 	],
 	"createdTime":1733723208201,
 	"deleted":false,
-	"deployedVersion":55,
+	"deployedVersion":56,
 	"deploymentState":{
-		"deployedAt":1773928113902,
+		"deployedAt":1775389932710,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfeb116170c6243806772",
+		"deployedDefinitionId":"69d24cec50e82945c76a4153",
 		"status":"DEPLOYED",
-		"version":55,
-		"workflowVersion":85
+		"version":56,
+		"workflowVersion":86
 	},
 	"edges":[
 		{
@@ -111,6 +111,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -120,7 +121,7 @@
 	"id":"67568448c571261fec3e9acf",
 	"lastModifiedBy":-1,
 	"lcName":"query on mongo",
-	"modifiedTime":1775389932631,
+	"modifiedTime":1775390109847,
 	"name":"Query On Mongo",
 	"nodes":[
 		{
@@ -524,6 +525,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -972,6 +974,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1166,5 +1169,5 @@
 		"AI Agent",
 		"Knowledge"
 	],
-	"version":86
+	"version":87
 }
