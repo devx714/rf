@@ -4,14 +4,14 @@
 	],
 	"createdTime":1773768568518,
 	"deleted":false,
-	"deployedVersion":6,
+	"deployedVersion":7,
 	"deploymentState":{
-		"deployedAt":1775334515405,
+		"deployedAt":1775385651339,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1747339824e0613819f82",
+		"deployedDefinitionId":"69d23c33b31cfc01cc39f428",
 		"status":"DEPLOYED",
-		"version":6,
-		"workflowVersion":28
+		"version":7,
+		"workflowVersion":30
 	},
 	"edges":[
 		{
@@ -92,7 +92,7 @@
 	"id":"694a5aa598160f4370f3d7e2",
 	"lastModifiedBy":-1,
 	"lcName":"image generation tool",
-	"modifiedTime":1775385651288,
+	"modifiedTime":1775385651340,
 	"name":"Image Generation Tool",
 	"nodes":[
 		{
