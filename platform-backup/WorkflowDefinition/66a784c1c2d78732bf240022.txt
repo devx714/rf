@@ -4,14 +4,14 @@
 	],
 	"createdTime":1722254529632,
 	"deleted":false,
-	"deployedVersion":111,
+	"deployedVersion":112,
 	"deploymentState":{
-		"deployedAt":1775334470643,
+		"deployedAt":1775385625877,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1744639824e0613819d50",
+		"deployedDefinitionId":"69d23c19b41de37eb670f6cb",
 		"status":"DEPLOYED",
-		"version":111,
-		"workflowVersion":804
+		"version":112,
+		"workflowVersion":806
 	},
 	"description":"",
 	"edges":[
@@ -107,47 +107,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"1866"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"17"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -157,7 +116,7 @@
 	"id":"66a784c1c2d78732bf240022",
 	"lastModifiedBy":-1,
 	"lcName":"file upload | knowledge indexer",
-	"modifiedTime":1775334705631,
+	"modifiedTime":1775390047521,
 	"name":"File Upload | Knowledge Indexer",
 	"nodes":[
 		{
@@ -336,7 +295,6 @@
 				"path":"{{ tCcXj.outputs.fileDetails.url }}"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -694,5 +652,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":805
+	"version":808
 }
