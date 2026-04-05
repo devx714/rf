@@ -4,14 +4,14 @@
 	],
 	"createdTime":1753185843401,
 	"deleted":false,
-	"deployedVersion":62,
+	"deployedVersion":65,
 	"deploymentState":{
-		"deployedAt":1775334340645,
+		"deployedAt":1775391191133,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173c439824e061381963c",
+		"deployedDefinitionId":"69d251d750e82945c76a6231",
 		"status":"DEPLOYED",
-		"version":62,
-		"workflowVersion":110
+		"version":65,
+		"workflowVersion":116
 	},
 	"edges":[
 		{
@@ -279,7 +279,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -289,7 +288,7 @@
 	"id":"687799318b70b33944b7c6af",
 	"lastModifiedBy":-1,
 	"lcName":"[strands] prompt builder",
-	"modifiedTime":1775334706608,
+	"modifiedTime":1775407693095,
 	"name":"[Strands] Prompt Builder",
 	"nodes":[
 		{
@@ -663,7 +662,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1053,7 +1051,6 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1172,7 +1169,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -1707,7 +1703,6 @@
 				}
 			},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2350,5 +2345,5 @@
 		}
 	},
 	"standard":true,
-	"version":111
+	"version":118
 }
