@@ -4,14 +4,14 @@
 	],
 	"createdTime":1762858121999,
 	"deleted":false,
-	"deployedVersion":27,
+	"deployedVersion":28,
 	"deploymentState":{
-		"deployedAt":1775320570436,
+		"deployedAt":1775334341065,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13dfa83aecf24ec25456d",
+		"deployedDefinitionId":"69d173c539824e0613819645",
 		"status":"DEPLOYED",
-		"version":27,
-		"workflowVersion":62
+		"version":28,
+		"workflowVersion":64
 	},
 	"edges":[
 		{
@@ -81,7 +81,7 @@
 	"id":"69070cbc269b162d4115d353",
 	"lastModifiedBy":-1,
 	"lcName":"web scraping generic",
-	"modifiedTime":1775334341012,
+	"modifiedTime":1775385539350,
 	"name":"Web Scraping Generic",
 	"nodes":[
 		{
@@ -632,5 +632,5 @@
 		"AI Agent",
 		"Internal"
 	],
-	"version":64
+	"version":66
 }
