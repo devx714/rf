@@ -4,14 +4,14 @@
 	],
 	"createdTime":1723567698022,
 	"deleted":false,
-	"deployedVersion":116,
+	"deployedVersion":120,
 	"deploymentState":{
-		"deployedAt":1775320573236,
+		"deployedAt":1775391196401,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13dfd83aecf24ec2545aa",
+		"deployedDefinitionId":"69d251dc50e82945c76a6293",
 		"status":"DEPLOYED",
-		"version":116,
-		"workflowVersion":173
+		"version":120,
+		"workflowVersion":181
 	},
 	"edges":[
 		{
@@ -142,27 +142,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"EXPORT_AS_TEMPLATE",
-					"A",
-					"C",
-					"S",
-					"VI",
-					"D",
-					"TEST",
-					"VIEW_RUNS",
-					"E",
-					"V",
-					"VS",
-					"DEP"
-				],
-				"principalIds":[
-					"161165"
-				],
-				"principalType":"USER"
-			},
-			{
-				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -172,7 +151,7 @@
 	"id":"66bb8e52da2bd42ba2202601",
 	"lastModifiedBy":-1,
 	"lcName":"code rag",
-	"modifiedTime":1775320892030,
+	"modifiedTime":1775407698425,
 	"name":"Code RAG",
 	"nodes":[
 		{
@@ -266,7 +245,6 @@
 			},
 			"inputs":{},
 			"outputSchema":{
-				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -753,5 +731,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":174
+	"version":183
 }
