@@ -4,14 +4,14 @@
 	],
 	"createdTime":1769422033286,
 	"deleted":false,
-	"deployedVersion":11,
+	"deployedVersion":13,
 	"deploymentState":{
-		"deployedAt":1775320602619,
+		"deployedAt":1775385554809,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e1a83aecf24ec254736",
+		"deployedDefinitionId":"69d23bd2b31cfc01cc39eded",
 		"status":"DEPLOYED",
-		"version":11,
-		"workflowVersion":43
+		"version":13,
+		"workflowVersion":47
 	},
 	"edges":[
 		{
@@ -135,7 +135,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -145,7 +144,7 @@
 	"id":"696f63c0e43c031390b09cf5",
 	"lastModifiedBy":-1,
 	"lcName":"agent-tool-task cache evaluator",
-	"modifiedTime":1775320892007,
+	"modifiedTime":1775389909563,
 	"name":"Agent-tool-task Cache Evaluator",
 	"nodes":[
 		{
@@ -781,5 +780,5 @@
 	"tags":[
 		
 	],
-	"version":44
+	"version":49
 }
