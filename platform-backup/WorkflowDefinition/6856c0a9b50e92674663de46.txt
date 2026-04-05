@@ -4,14 +4,14 @@
 	],
 	"createdTime":1750672050996,
 	"deleted":false,
-	"deployedVersion":79,
+	"deployedVersion":80,
 	"deploymentState":{
-		"deployedAt":1775334392862,
+		"deployedAt":1775385565447,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173f839824e06138198b0",
+		"deployedDefinitionId":"69d23bddb31cfc01cc39eeca",
 		"status":"DEPLOYED",
-		"version":79,
-		"workflowVersion":135
+		"version":80,
+		"workflowVersion":137
 	},
 	"edges":[
 		{
@@ -165,7 +165,7 @@
 	"id":"6856c0a9b50e92674663de46",
 	"lastModifiedBy":-1,
 	"lcName":"index people from knowledge",
-	"modifiedTime":1775385565356,
+	"modifiedTime":1775385565448,
 	"name":"Index People From Knowledge",
 	"nodes":[
 		{
@@ -413,6 +413,7 @@
 			},
 			"inputs":{},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
