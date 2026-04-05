@@ -4,14 +4,14 @@
 	],
 	"createdTime":1759243573198,
 	"deleted":false,
-	"deployedVersion":34,
+	"deployedVersion":39,
 	"deploymentState":{
-		"deployedAt":1775320642778,
+		"deployedAt":1775407771357,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d13e42c6b0c9120df17448",
+		"deployedDefinitionId":"69d2929b0e422443cf56065f",
 		"status":"DEPLOYED",
-		"version":34,
-		"workflowVersion":73
+		"version":39,
+		"workflowVersion":83
 	},
 	"edges":[
 		{
@@ -228,7 +228,7 @@
 	"id":"68beb1f8c6c0920a8698f516",
 	"lastModifiedBy":-1,
 	"lcName":"get knowledge custom metadata filter | knowledge set",
-	"modifiedTime":1775320888277,
+	"modifiedTime":1775408099939,
 	"name":"Get Knowledge Custom Metadata Filter | Knowledge set",
 	"nodes":[
 		{
@@ -1744,5 +1744,5 @@
 		}
 	},
 	"standard":true,
-	"version":74
+	"version":84
 }
