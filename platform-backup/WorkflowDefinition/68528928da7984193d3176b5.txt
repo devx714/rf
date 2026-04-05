@@ -4,14 +4,14 @@
 	],
 	"createdTime":1754285352482,
 	"deleted":false,
-	"deployedVersion":62,
+	"deployedVersion":65,
 	"deploymentState":{
-		"deployedAt":1774342858770,
+		"deployedAt":1775385545799,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252ca8d65fb68e156379b",
+		"deployedDefinitionId":"69d23bc9b31cfc01cc39ecd7",
 		"status":"DEPLOYED",
-		"version":62,
-		"workflowVersion":117
+		"version":65,
+		"workflowVersion":123
 	},
 	"edges":[
 		{
@@ -42,7 +42,7 @@
 	"id":"68528928da7984193d3176b5",
 	"lastModifiedBy":-1,
 	"lcName":"video chunker",
-	"modifiedTime":1775320577605,
+	"modifiedTime":1775389873358,
 	"name":"Video Chunker",
 	"nodes":[
 		{
@@ -333,5 +333,5 @@
 	"tags":[
 		
 	],
-	"version":119
+	"version":125
 }
