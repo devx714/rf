@@ -1,0 +1,60 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1775387180183,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_rufsc",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_JMUFf",
+			"type":"next"
+		}
+	],
+	"id":"69d2422cb31cfc01cc3a11ae",
+	"lastModifiedBy":33436,
+	"lcName":"sonyform",
+	"modifiedTime":1775387180183,
+	"name":"SonyForm",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_rufsc-1",
+			"id":"_rufsc",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_rufsc-1",
+			"id":"_JMUFf",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":33436,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"version":0
+}
