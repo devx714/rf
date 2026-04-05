@@ -2,10 +2,10 @@
 	"createdTime":1753534188593,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1775385303130,
+		"deployedAt":1775407443979,
 		"deployedBy":-1,
-		"entityVersion":778,
-		"version":168
+		"entityVersion":779,
+		"version":169
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -27,7 +27,7 @@
 	},
 	"id":"ua-agent-store",
 	"lastModifiedBy":-1,
-	"modifiedTime":1775385303132,
+	"modifiedTime":1775407443981,
 	"ownerUserId":1238,
 	"properties":{
 		"standard":true,
@@ -307,5 +307,5 @@
 		}
 	},
 	"standard":true,
-	"version":778
+	"version":779
 }
