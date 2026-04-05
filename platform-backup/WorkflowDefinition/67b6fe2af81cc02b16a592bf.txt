@@ -4,14 +4,14 @@
 	],
 	"createdTime":1740061345791,
 	"deleted":false,
-	"deployedVersion":109,
+	"deployedVersion":112,
 	"deploymentState":{
-		"deployedAt":1775334507547,
+		"deployedAt":1775391394120,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d1746b39824e0613819efb",
+		"deployedDefinitionId":"69d252a250e82945c76a6ced",
 		"status":"DEPLOYED",
-		"version":109,
-		"workflowVersion":175
+		"version":112,
+		"workflowVersion":181
 	},
 	"edges":[
 		{
@@ -129,6 +129,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -138,7 +139,7 @@
 	"id":"67b6fe2af81cc02b16a592bf",
 	"lastModifiedBy":-1,
 	"lcName":"sync connector definitions",
-	"modifiedTime":1775385643241,
+	"modifiedTime":1775391429780,
 	"name":"sync connector definitions",
 	"nodes":[
 		{
@@ -214,6 +215,7 @@
 				"hasMore":true
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -619,5 +621,5 @@
 	"tags":[
 		
 	],
-	"version":177
+	"version":182
 }
