@@ -4,14 +4,14 @@
 	],
 	"createdTime":1748544434687,
 	"deleted":false,
-	"deployedVersion":78,
+	"deployedVersion":83,
 	"deploymentState":{
-		"deployedAt":1774342862702,
+		"deployedAt":1775391230869,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c252ce8d65fb68e15637d6",
+		"deployedDefinitionId":"69d251fe50e82945c76a6388",
 		"status":"DEPLOYED",
-		"version":78,
-		"workflowVersion":168
+		"version":83,
+		"workflowVersion":178
 	},
 	"edges":[
 		{
@@ -134,6 +134,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -143,7 +144,7 @@
 	"id":"683191ff4c1192163379ba70",
 	"lastModifiedBy":-1,
 	"lcName":"de-duplication (hybrid) | graphrag",
-	"modifiedTime":1775320588252,
+	"modifiedTime":1775391432616,
 	"name":"De-Duplication (Hybrid) | GraphRAG",
 	"nodes":[
 		{
@@ -516,6 +517,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1168,5 +1170,5 @@
 	"tags":[
 		"GraphRAG"
 	],
-	"version":170
+	"version":179
 }
