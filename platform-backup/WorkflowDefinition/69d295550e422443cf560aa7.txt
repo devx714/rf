@@ -1,0 +1,60 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1775408469888,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_2IzTp",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_dcSA4",
+			"type":"next"
+		}
+	],
+	"id":"69d295550e422443cf560aa7",
+	"lastModifiedBy":39715,
+	"lcName":"testtemporetention",
+	"modifiedTime":1775408469888,
+	"name":"testTempoRetention",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_2IzTp-1",
+			"id":"_2IzTp",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_2IzTp-1",
+			"id":"_dcSA4",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":39715,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"version":0
+}
