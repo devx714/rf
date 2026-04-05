@@ -4,15 +4,15 @@
 	],
 	"createdTime":1761757373640,
 	"deleted":false,
-	"deployedVersion":32,
+	"deployedVersion":33,
 	"deploymentState":{
-		"deployedAt":1775385634534,
+		"deployedAt":1775390059193,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d23c22b31cfc01cc39f37a",
+		"deployedDefinitionId":"69d24d6b50e82945c76a4875",
 		"deploymentTag":"resolve_translations",
 		"status":"DEPLOYED",
-		"version":32,
-		"workflowVersion":76
+		"version":33,
+		"workflowVersion":78
 	},
 	"edges":[
 		{
@@ -215,6 +215,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -224,7 +225,7 @@
 	"id":"69005ce4a309a82f9f72efe1",
 	"lastModifiedBy":-1,
 	"lcName":"[dt] fetch user agent",
-	"modifiedTime":1775390059058,
+	"modifiedTime":1775390109477,
 	"name":"[DT] Fetch user agent",
 	"nodes":[
 		{
@@ -635,6 +636,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -933,6 +935,7 @@
 				"ua:list_type":"OBJECT"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"type":"object",
@@ -1012,6 +1015,7 @@
 				"userId":"=IF(ISBLANK({{ n_TMPIG.outputs.queryParams.userId }}),{{ __RUN__.outputs.userId }},{{ n_TMPIG.outputs.queryParams.userId }})"
 			},
 			"outputSchema":{
+				"type":"SCHEMA",
 				"dynamic":false,
 				"schema":{
 					"additionalProperties":false,
@@ -2510,5 +2514,5 @@
 	"tags":[
 		
 	],
-	"version":78
+	"version":79
 }
