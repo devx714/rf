@@ -4,14 +4,14 @@
 	],
 	"createdTime":1757480394305,
 	"deleted":false,
-	"deployedVersion":23,
+	"deployedVersion":26,
 	"deploymentState":{
-		"deployedAt":1773928146517,
+		"deployedAt":1775407801852,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69bbfed216170c62438068ce",
+		"deployedDefinitionId":"69d292b9a2eda46706b04951",
 		"status":"DEPLOYED",
-		"version":23,
-		"workflowVersion":53
+		"version":26,
+		"workflowVersion":58
 	},
 	"edges":[
 		{
@@ -54,6 +54,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -63,7 +64,7 @@
 	"id":"687e026e115f55ade8bf9d39",
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer | confluence | blog",
-	"modifiedTime":1775390031639,
+	"modifiedTime":1775408105143,
 	"name":"Knowledge Indexer | Confluence | Blog",
 	"nodes":[
 		{
@@ -512,5 +513,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":54
+	"version":59
 }
