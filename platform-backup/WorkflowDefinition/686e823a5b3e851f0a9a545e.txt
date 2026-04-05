@@ -40,6 +40,7 @@
 		"configs":[
 			{
 				"permissions":[
+					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -49,7 +50,7 @@
 	"id":"686e823a5b3e851f0a9a545e",
 	"lastModifiedBy":-1,
 	"lcName":"topics (ai agent) on update handler",
-	"modifiedTime":1775385604575,
+	"modifiedTime":1775385910361,
 	"name":"Topics (AI Agent) on Update Handler",
 	"nodes":[
 		{
@@ -208,5 +209,5 @@
 		}
 	},
 	"standard":true,
-	"version":113
+	"version":114
 }
