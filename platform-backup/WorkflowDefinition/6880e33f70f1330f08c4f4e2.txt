@@ -107,7 +107,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -117,7 +116,7 @@
 	"id":"6880e33f70f1330f08c4f4e2",
 	"lastModifiedBy":-1,
 	"lcName":"cancel completed downloader schedulers job",
-	"modifiedTime":1775334706241,
+	"modifiedTime":1775385647756,
 	"name":"Cancel Completed Downloader Schedulers Job",
 	"nodes":[
 		{
@@ -475,5 +474,5 @@
 	"tags":[
 		"knowledge_v2"
 	],
-	"version":115
+	"version":116
 }
