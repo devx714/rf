@@ -4,14 +4,14 @@
 	],
 	"createdTime":1764063142292,
 	"deleted":false,
-	"deployedVersion":24,
+	"deployedVersion":25,
 	"deploymentState":{
-		"deployedAt":1775334392937,
+		"deployedAt":1775385565519,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173f839824e06138198b2",
+		"deployedDefinitionId":"69d23bddb31cfc01cc39eecc",
 		"status":"DEPLOYED",
-		"version":24,
-		"workflowVersion":50
+		"version":25,
+		"workflowVersion":52
 	},
 	"edges":[
 		{
@@ -43,7 +43,7 @@
 	"id":"68ad96b83e383129fa6a0792",
 	"lastModifiedBy":-1,
 	"lcName":"addknowledgeinstr - ui",
-	"modifiedTime":1775334705616,
+	"modifiedTime":1775385908031,
 	"name":"addKnowledgeInstr - UI",
 	"nodes":[
 		{
@@ -181,5 +181,5 @@
 	"tags":[
 		
 	],
-	"version":51
+	"version":53
 }
