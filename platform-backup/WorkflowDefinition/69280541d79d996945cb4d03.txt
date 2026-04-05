@@ -4,14 +4,14 @@
 	],
 	"createdTime":1766522765399,
 	"deleted":false,
-	"deployedVersion":28,
+	"deployedVersion":31,
 	"deploymentState":{
-		"deployedAt":1774342949084,
+		"deployedAt":1775385619329,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69c2532529fa153f07e09d0a",
+		"deployedDefinitionId":"69d23c13b41de37eb670f688",
 		"status":"DEPLOYED",
-		"version":28,
-		"workflowVersion":58
+		"version":31,
+		"workflowVersion":64
 	},
 	"edges":[
 		{
@@ -107,7 +107,6 @@
 		"configs":[
 			{
 				"permissions":[
-					"VIEW_RUNS",
 					"V"
 				],
 				"principalType":"GLOBAL"
@@ -117,7 +116,7 @@
 	"id":"69280541d79d996945cb4d03",
 	"lastModifiedBy":-1,
 	"lcName":"eval | experiment | fetch metadata fields schema",
-	"modifiedTime":1774622956969,
+	"modifiedTime":1775385619330,
 	"name":"Eval | Experiment | Fetch Metadata Fields Schema",
 	"nodes":[
 		{
@@ -914,5 +913,5 @@
 	"tags":[
 		
 	],
-	"version":59
+	"version":64
 }
