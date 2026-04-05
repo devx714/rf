@@ -4,14 +4,14 @@
 	],
 	"createdTime":1734092431031,
 	"deleted":false,
-	"deployedVersion":90,
+	"deployedVersion":93,
 	"deploymentState":{
-		"deployedAt":1775334390082,
+		"deployedAt":1775391250310,
 		"deployedBy":-1,
-		"deployedDefinitionId":"69d173f639824e0613819880",
+		"deployedDefinitionId":"69d2521250e82945c76a64ea",
 		"status":"DEPLOYED",
-		"version":90,
-		"workflowVersion":141
+		"version":93,
+		"workflowVersion":147
 	},
 	"edges":[
 		{
@@ -43,7 +43,7 @@
 	"id":"675c268f463c475707eb54a1",
 	"lastModifiedBy":-1,
 	"lcName":"deploy on training complete",
-	"modifiedTime":1775334705919,
+	"modifiedTime":1775391430076,
 	"name":"Deploy on Training Complete",
 	"nodes":[
 		{
@@ -135,5 +135,5 @@
 	"tags":[
 		"AI Agent"
 	],
-	"version":142
+	"version":148
 }
